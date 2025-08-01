@@ -8,7 +8,7 @@ const catalog = glob.sync('modules/**/manifest.json').map((file) => {
     name: m.name,
     path: file.replace('/manifest.json', ''),
     tags: m.tags,
-    env: m.env,
+    env: m.env
   };
 });
 fs.writeFileSync('module_catalog.json', JSON.stringify(catalog, null, 2));
