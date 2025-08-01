@@ -1,0 +1,36 @@
+name: Module CI
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: node scripts/validate_manifest.js
+      - name: Update catalog & commit
+        run: |
+          node scripts/update_catalog.js
+          git config user.name "module-bot"
+          git config user.email "bot@example.com"
+          if [[ `git status --porcelain | wc -l` -gt 0 ]]; then
+            git add module_catalog.json
+            git commit -m "chore: auto update catalog"
+            git push
+          fi
+      - name: Auto-merge if CI green
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.pulls.merge({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+              merge_method: "squash"
+            });
