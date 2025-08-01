@@ -1,11 +1,11 @@
 // scripts/validate_manifest.js
 import fs from 'fs';
 import path from 'path';
-import glob from 'glob';
+import { globSync } from 'glob';
 import yaml from 'js-yaml';
 import Ajv from 'ajv';
 
-const ajv = new Ajv({ allErrors: true, allowUnionTypes: true });
+const ajv = new Ajv({ allErrors: true });
 const allowedTags = yaml.load(fs.readFileSync('tags.yml', 'utf8'));
 
 const schema = {
@@ -33,7 +33,7 @@ const schema = {
 const validate = ajv.compile(schema);
 let errorCount = 0;
 
-glob.sync('modules/**/manifest.json').forEach((file) => {
+globSync('modules/**/manifest.json').forEach((file) => {
   const data = JSON.parse(fs.readFileSync(file, 'utf8'));
   if (!validate(data)) {
     console.error(`❌ Schema error in ${file}`, validate.errors);

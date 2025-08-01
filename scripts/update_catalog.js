@@ -1,8 +1,8 @@
 // scripts/update_catalog.js
 import fs from 'fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 
-const catalog = glob.sync('modules/**/manifest.json').map((file) => {
+const catalog = globSync('modules/**/manifest.json').map((file) => {
   const m = JSON.parse(fs.readFileSync(file, 'utf8'));
   return {
     name: m.name,
