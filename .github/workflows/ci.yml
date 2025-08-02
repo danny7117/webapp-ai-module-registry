@@ -27,13 +27,17 @@ jobs:
       # 若 module_catalog.json 有改動 → commit 回 main
       - name: Commit catalog back
         run: |
-          if [[ $(git status --porcelain | grep module_catalog.json | wc -l) -gt 0 ]]; then
-            git config user.name "module-bot"
-            git config user.email "bot@example.com"
+          git config user.name "module-bot"
+          git config user.email "bot@example.com"
+          # 若 catalog 檔有改動才 commit
+          if [ -n "$(git status --porcelain module_catalog.json)" ]; then
             git add module_catalog.json
             git commit -m "chore: auto update catalog"
             git push
+          else
+            echo "No catalog changes."
           fi
+
 
       # PR 流程綠燈就自動 merge
       - name: Auto-merge if PR
