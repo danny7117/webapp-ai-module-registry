@@ -1,7 +1,7 @@
 [
   {
     "name": "hello-world",
-    "path": "modules\\hello-world\\manifest.json",
+    "path": "modules/hello-world",
     "tags": [
       "ui"
     ],
@@ -9,7 +9,7 @@
   },
   {
     "name": "auth-firebase",
-    "path": "modules\\auth-firebase\\manifest.json",
+    "path": "modules/auth-firebase",
     "tags": [
       "auth",
       "ui"
