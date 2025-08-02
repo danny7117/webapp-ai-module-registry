@@ -1,0 +1,9 @@
+{
+  "name": "auth-firebase",
+  "needs": ["storage-local"],
+  "insert": [
+    { "target": "src/routes.tsx", "patch": "snippets/routes.patch" }
+  ],
+  "env": ["FIREBASE_API_KEY", "FIREBASE_AUTH_DOMAIN"],
+  "tags": ["auth", "ui"]
+}
