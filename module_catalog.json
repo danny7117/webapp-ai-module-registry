@@ -1,0 +1,22 @@
+[
+  {
+    "name": "hello-world",
+    "path": "modules\\hello-world\\manifest.json",
+    "tags": [
+      "ui"
+    ],
+    "env": []
+  },
+  {
+    "name": "auth-firebase",
+    "path": "modules\\auth-firebase\\manifest.json",
+    "tags": [
+      "auth",
+      "ui"
+    ],
+    "env": [
+      "FIREBASE_API_KEY",
+      "FIREBASE_AUTH_DOMAIN"
+    ]
+  }
+]
