@@ -9,6 +9,7 @@ on:
 jobs:
   validate-and-merge:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,28 +19,28 @@ jobs:
 
       - run: npm install
 
-      # 驗證 manifest
+      # ───── 驗證 manifest ─────
       - run: npm run validate
 
-      # 產生最新 catalog
+      # ───── 產生最新 catalog ─────
       - run: npm run update-catalog
 
-      # 若 module_catalog.json 有改動 → commit 回 main
+      # ───── 若有異動就 commit 回 main ─────
       - name: Commit catalog back
         run: |
-          git config user.name "module-bot"
+          git config user.name  "module-bot"
           git config user.email "bot@example.com"
-          # 若 catalog 檔有改動才 commit
-          if [ -n "$(git status --porcelain module_catalog.json)" ]; then
+
+          # git diff --quiet ⇒ 0＝無差異；1＝有差異
+          if git diff --quiet module_catalog.json ; then
+            echo "No catalog changes."
+          else
             git add module_catalog.json
             git commit -m "chore: auto update catalog"
             git push
-          else
-            echo "No catalog changes."
           fi
 
-
-      # PR 流程綠燈就自動 merge
+      # ───── PR 綠燈時自動合併 ─────
       - name: Auto-merge if PR
         if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
