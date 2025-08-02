@@ -11,36 +11,41 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1) 取出程式碼
       - uses: actions/checkout@v4
 
+      # 2) 裝 Node 20
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
+      # 3) 安裝依賴
       - run: npm install
 
-      # ───── 驗證 manifest ─────
+      # 4) 驗證所有 manifest
       - run: npm run validate
 
-      # ───── 產生最新 catalog ─────
+      # 5) 重新產生 module_catalog.json
       - run: npm run update-catalog
 
-      # ───── 若有異動就 commit 回 main ─────
+      # 6) 如有異動就 commit 回 main
       - name: Commit catalog back
+        shell: bash
         run: |
-          git config user.name  "module-bot"
-          git config user.email "bot@example.com"
+          git config --global user.name  "module-bot"
+          git config --global user.email "bot@example.com"
 
-          # git diff --quiet ⇒ 0＝無差異；1＝有差異
-          if git diff --quiet module_catalog.json ; then
-            echo "No catalog changes."
-          else
+          # git diff --quiet：0 = 無差異，1 = 有差異
+          if ! git diff --quiet module_catalog.json ; then
+            echo "Catalog changed, committing..."
             git add module_catalog.json
             git commit -m "chore: auto update catalog"
             git push
+          else
+            echo "No catalog changes."
           fi
 
-      # ───── PR 綠燈時自動合併 ─────
+      # 7) 若此執行為 PR，且綠燈，則自動合併
       - name: Auto-merge if PR
         if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
@@ -50,5 +55,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: context.payload.pull_request.number,
-              merge_method: "squash"
+              merge_method: 'squash'
             });
