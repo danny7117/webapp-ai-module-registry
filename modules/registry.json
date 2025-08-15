@@ -1,1 +1,15 @@
-{ "modules": [] }
+{
+  "modules": [
+    {
+      "id": "mod-storynest-test9-018",
+      "category": "storynest",
+      "title": "test9",
+      "status": "draft",
+      "visibility": "public",
+      "path": "modules/storynest/mod-storynest-test9-018",
+      "specVersion": "1.0.0",
+      "createdAt": 1755260568164,
+      "updatedAt": 1755260568164
+    }
+  ]
+}
