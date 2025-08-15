@@ -82,4 +82,31 @@ jobs:
             echo "has_changes=true" >> $GITHUB_OUTPUT
             git add -A
             git commit -m "chore: scaffold module from issue #${ISSUE_NO}"
-            git push --set-upstream
+            git push --set-upstream origin "$BRANCH"
+            echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit."
+          fi
+
+      # 開 PR
+      - name: Open Pull Request
+        if: steps.branch.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_NO="${{ github.event.issue.number || github.event.inputs.issue_number || 'manual' }}"
+          gh pr create \
+            --title "Scaffold module from issue #${ISSUE_NO}" \
+            --body "Auto-generated from issue #${ISSUE_NO}" \
+            --base "main" \
+            --head "${{ steps.branch.outputs.branch }}"
+
+      # 自動合併（squash）；需要 Settings → Actions → Workflow permissions 設成 Read+Write
+      - name: Enable auto-merge (squash)
+        if: steps.branch.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=$(gh pr view --json number -q .number)
+          gh pr merge "$PR_NUMBER" --squash --auto
