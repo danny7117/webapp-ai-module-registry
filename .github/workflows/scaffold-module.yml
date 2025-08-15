@@ -10,60 +10,76 @@ permissions:
   pull-requests: write
   issues: write
 
+# 同一張 issue 只跑一個 workflow，避免重複
+concurrency: module-scaffold-${{ github.event.issue.number || github.event.inputs.issue_number }}
+
 jobs:
   scaffold:
-    # 為了避免「看不到 run」的狀況，這裡先不擋；改在步驟內判斷
+    # ✅ 同時支援「新開就帶標籤」「後加標籤」「編輯後仍含標籤」
+    if: >
+      (github.event_name == 'issues' && github.event.action == 'opened' &&
+       contains(toJson(github.event.issue.labels.*.name), 'module:proposal')) ||
+      (github.event_name == 'issues' && github.event.action == 'labeled' &&
+       github.event.label.name == 'module:proposal') ||
+      (github.event_name == 'issues' && github.event.action == 'edited' &&
+       contains(toJson(github.event.issue.labels.*.name), 'module:proposal')) ||
+      (github.event_name == 'workflow_dispatch')
+
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node
+      # 方便在 Actions > Logs 看到到底收到了什麼事件/標籤
+      - name: Debug incoming labels
+        run: |
+          echo "event=${{ github.event_name }} action=${{ github.event.action }}"
+          echo "labels=$(echo '${{ toJson(github.event.issue.labels.*.name) }}')"
+          echo "label_from_payload=${{ github.event.label.name }}"
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Ensure registry.json
+      # 確保 registry.json 存在
+      - name: Ensure modules/registry.json exists
         run: |
           mkdir -p modules
           if [ ! -f modules/registry.json ]; then
             echo '{ "modules": [] }' > modules/registry.json
           fi
+          cat modules/registry.json
 
-      # 🔎 直接把這次 Issue 的 labels 印出來，方便你確認到底是什麼字串
-      - name: Debug labels
+      # 若你的 scaffold 需要套件，就會安裝；沒有 package.json 會自動跳過
+      - name: Install deps (if needed)
         run: |
-          echo 'Labels JSON:'
-          echo '${{ toJson(github.event.issue.labels) }}'
+          if [ -f package.json ]; then
+            npm ci
+          fi
 
-      # 沒貼正確標籤就直接跳過（不當失敗）
-      - name: Guard - require module:proposal label
-        if: ${{ !contains(join(github.event.issue.labels.*.name, ' '), 'module:proposal') }}
+      # 產生模組：優先跑 .cjs；沒有的話試 .js；兩者都沒有就略過
+      - name: Generate module files
         run: |
-          echo "This issue is not labeled 'module:proposal'. Nothing to do."
-          exit 0
+          if [ -f scripts/scaffold_module.cjs ]; then
+            node scripts/scaffold_module.cjs
+          elif [ -f scripts/scaffold_module.js ]; then
+            node scripts/scaffold_module.js
+          else
+            echo "No scaffold script found under scripts/. Skipping generation."
+          fi
 
-      - name: Generate module scaffold
-        shell: bash
-        env:
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_BODY: ${{ github.event.issue.body }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+      # 建分支、commit、push（只有真的有變更才 push）
+      - name: Create branch & commit
+        id: branch
         run: |
-          node ./scripts/scaffold_module.cjs
-
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "chore: scaffold module from issue #${{ github.event.issue.number }}"
-          branch: "scaffold/${{ github.run_id }}"
-          title: "Scaffold module from issue #${{ github.event.issue.number }}"
-          body: "Auto-generated from issue #${{ github.event.issue.number }}"
-          labels: "automerge"
-
-      # ✅ 官方 REST API 自動合併（不依賴第三方 action）
-      - name: Auto-merge PR (REST API)
-        if: steps.cpr.outputs.pull-request-number
-        env:
-          GH_TOKEN: ${{_
+          ISSUE_NO="${{ github.event.issue.number || github.event.inputs.issue_number || 'manual' }}"
+          BRANCH="mod/${ISSUE_NO}"
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          if git status --porcelain | grep .; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            git add -A
+            git commit -m "chore: scaffold module from issue #${ISSUE_NO}"
+            git push --set-upstream
