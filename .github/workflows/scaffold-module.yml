@@ -41,7 +41,7 @@ jobs:
           ISSUE_TITLE: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_title || github.event.issue.title }}
           ISSUE_BODY: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_body || github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event_name == 'workflow_dispatch' && 'manual' || github.event.issue.number }}
-        run: node scripts/scaffold_module.js
+          run: node scripts/scaffold_module.cjs
 
       # 開 PR
       - name: Create Pull Request
