@@ -3,6 +3,7 @@ name: Scaffold Module from Issue
 on:
   issues:
     types: [opened, edited, labeled]
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -11,7 +12,13 @@ permissions:
 
 jobs:
   scaffold:
-    if: contains(github.event.issue.labels.*.name, 'module:proposal')
+    # 支援二種情境：
+    # 1) 用 Issue 模板開單，且帶有 label 'module:proposal'
+    # 2) 手動觸發（workflow_dispatch）
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issues' &&
+       contains(github.event.issue.labels.*.name, 'module:proposal'))
     runs-on: ubuntu-latest
 
     steps:
@@ -19,22 +26,22 @@ jobs:
 
       - name: Generate module scaffold
         env:
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_BODY: ${{ github.event.issue.body }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_title || github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_body || github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event_name == 'workflow_dispatch' && 'manual' || github.event.issue.number }}
         run: node scripts/scaffold_module.js
 
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "chore: scaffold module from issue #${{ github.event.issue.number }}"
-          branch: "scaffold/${{ github.event.issue.number }}"
-          title: "Scaffold module from issue #${{ github.event.issue.number }}"
-          body: "Auto-generated from issue #${{ github.event.issue.number }}"
+          commit-message: "chore: scaffold module"
+          branch: "scaffold/${{ github.run_id }}"
+          title: "Scaffold module"
+          body: "Auto-generated scaffold."
 
-      - name: Link PR back to issue
-        if: steps.cpr.outputs.pull-request-number
+      - name: Link PR back to issue (if from issue)
+        if: github.event_name == 'issues' && steps.cpr.outputs.pull-request-number
         uses: actions/github-script@v7
         with:
           script: |
