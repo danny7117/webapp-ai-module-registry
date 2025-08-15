@@ -45,6 +45,7 @@ jobs:
         run: |
           node ./scripts/scaffold_module.cjs
 
+      # 建 PR（使用 peter-evans/create-pull-request）
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
@@ -53,7 +54,18 @@ jobs:
           branch: "scaffold/${{ github.run_id }}"
           title: "Scaffold module from issue #${{ github.event.issue.number }}"
           body: "Auto-generated from issue #${{ github.event.issue.number }}"
+          labels: "automerge"
 
+      # 立刻自動合併剛建立的 PR
+      - name: Auto-merge PR
+        if: steps.cpr.outputs.pull-request-number
+        uses: peter-evans/merge-pull-request@v3
+        with:
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
+          commit-message: "auto merge from module proposal #${{ github.event.issue.number }}"
+
+      # 留言回 Issue 告知 PR 已合併
       - name: Comment PR link on issue
         if: steps.cpr.outputs.pull-request-number
         uses: actions/github-script@v7
@@ -64,5 +76,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `已建立 PR #${pr}，請檢視與合併。`
+              body: `已自動建立並合併 PR #${pr}；模組已寫入主分支 ✅`
             });
