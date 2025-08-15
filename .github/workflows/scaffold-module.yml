@@ -3,6 +3,7 @@ name: Scaffold Module from Issue
 on:
   issues:
     types: [opened, labeled, edited]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,7 +12,7 @@ permissions:
 
 jobs:
   scaffold:
-    if: contains(github.event.issue.labels.*.name, 'module:proposal')
+    # 為了避免「看不到 run」的狀況，這裡先不擋；改在步驟內判斷
     runs-on: ubuntu-latest
 
     steps:
@@ -29,12 +30,18 @@ jobs:
             echo '{ "modules": [] }' > modules/registry.json
           fi
 
-      - name: Show files (debug)
+      # 🔎 直接把這次 Issue 的 labels 印出來，方便你確認到底是什麼字串
+      - name: Debug labels
         run: |
-          pwd
-          ls -la
-          echo "---- scripts ----"
-          ls -la scripts || true
+          echo 'Labels JSON:'
+          echo '${{ toJson(github.event.issue.labels) }}'
+
+      # 沒貼正確標籤就直接跳過（不當失敗）
+      - name: Guard - require module:proposal label
+        if: ${{ !contains(join(github.event.issue.labels.*.name, ' '), 'module:proposal') }}
+        run: |
+          echo "This issue is not labeled 'module:proposal'. Nothing to do."
+          exit 0
 
       - name: Generate module scaffold
         shell: bash
@@ -45,7 +52,6 @@ jobs:
         run: |
           node ./scripts/scaffold_module.cjs
 
-      # 建 PR（使用 peter-evans/create-pull-request）
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
@@ -56,29 +62,8 @@ jobs:
           body: "Auto-generated from issue #${{ github.event.issue.number }}"
           labels: "automerge"
 
-      # 立刻自動合併剛建立的 PR
+      # ✅ 官方 REST API 自動合併（不依賴第三方 action）
       - name: Auto-merge PR (REST API)
-  if: steps.cpr.outputs.pull-request-number
-  env:
-    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
-  run: |
-    curl -L -X PUT \
-      -H "Authorization: Bearer $GH_TOKEN" \
-      -H "Accept: application/vnd.github+json" \
-      https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/merge \
-      -d '{"merge_method":"squash","commit_title":"auto merge from module proposal #'"${{ github.event.issue.number }}"'"}'
-
-      # 留言回 Issue 告知 PR 已合併
-      - name: Comment PR link on issue
         if: steps.cpr.outputs.pull-request-number
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const pr = ${{ steps.cpr.outputs['pull-request-number'] }};
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: `已自動建立並合併 PR #${pr}；模組已寫入主分支 ✅`
-            });
+        env:
+          GH_TOKEN: ${{_
