@@ -12,9 +12,6 @@ permissions:
 
 jobs:
   scaffold:
-    # 支援二種情境：
-    # 1) 用 Issue 模板開單，且帶有 label 'module:proposal'
-    # 2) 手動觸發（workflow_dispatch）
     if: >
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issues' &&
@@ -24,6 +21,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 安裝 Node（跑腳本必需）
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 確保 registry.json 存在（避免腳本讀不到）
+      - name: Ensure registry.json
+        run: |
+          mkdir -p modules
+          if [ ! -f modules/registry.json ]; then
+            echo '{ "modules": [] }' > modules/registry.json
+          fi
+
+      # 產生模組骨架
       - name: Generate module scaffold
         env:
           ISSUE_TITLE: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_title || github.event.issue.title }}
@@ -31,6 +43,7 @@ jobs:
           ISSUE_NUMBER: ${{ github.event_name == 'workflow_dispatch' && 'manual' || github.event.issue.number }}
         run: node scripts/scaffold_module.js
 
+      # 開 PR
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
@@ -40,12 +53,13 @@ jobs:
           title: "Scaffold module"
           body: "Auto-generated scaffold."
 
+      # 由 Issue 觸發時，在 Issue 留言 PR 連結
       - name: Link PR back to issue (if from issue)
         if: github.event_name == 'issues' && steps.cpr.outputs.pull-request-number
         uses: actions/github-script@v7
         with:
           script: |
-            const pr = ${{ steps.cpr.outputs.pull-request-number }};
+            const pr = ${{ steps.cpr.outputs['pull-request-number'] }};
             github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
