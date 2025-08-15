@@ -1,1 +1,15 @@
-{ "modules": [] }
+{
+  "modules": [
+    {
+      "id": "mod-<主分類，如-test8-015",
+      "category": "<主分類，如",
+      "title": "test8",
+      "status": "draft",
+      "visibility": "public",
+      "path": "modules/<主分類，如/mod-<主分類，如-test8-015",
+      "specVersion": "1.0.0",
+      "createdAt": 1755260417314,
+      "updatedAt": 1755260417314
+    }
+  ]
+}
