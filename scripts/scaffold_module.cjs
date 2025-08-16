@@ -1,135 +1,105 @@
-// scripts/scaffold_module.js
-const { writeFileSync, mkdirSync, existsSync, readFileSync } = require("fs");
-const { join } = require("path");
+// scripts/scaffold_module.cjs
+// 從 Issue 事件產生最小模組骨架，並更新 modules/registry.json
 
-const title = process.env.ISSUE_TITLE || "";
-const body = (process.env.ISSUE_BODY || "").trim();
-const no = process.env.ISSUE_NUMBER || "0";
+const fs = require("fs");
+const path = require("path");
 
-// 解析簡單 key:value 區塊（出自 Markdown 模板）
-function section(key) {
-  const re = new RegExp(`${key}:\\s*([\\s\\S]*?)(\\n\\w+:|$)`, "i");
-  const m = body.match(re);
-  if (!m) return "";
-  return m[1].replace(/^\\|/gm, "").trim();
+// 事件 payload
+const eventPath = process.env.GITHUB_EVENT_PATH;
+if (!eventPath || !fs.existsSync(eventPath)) {
+  console.log("[scaffold] no GITHUB_EVENT_PATH, nothing to do.");
+  process.exit(0);
 }
+const event = JSON.parse(fs.readFileSync(eventPath, "utf8"));
+const issue = event.issue || {};
+const issueNo = issue.number || "manual";
+const titleRaw = (issue.title || "new module").trim();
 
-function slugify(s) {
-  return s
-    .toLowerCase()
-    .replace(/^\[module\]\s*/i, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-}
+// 建 slug
+const slug = titleRaw
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/(^-|-$)/g, "");
 
-const category = (section("category").split(/\s/)[0] || "misc").toLowerCase();
-const problem = section("problem");
-const inputs = section("inputs") || "{}";
-const outputs = section("outputs") || "{}";
-const constraints = section("constraints") || "-";
+// 簡單預設分類（你之後可改成依 label/body 決定）
+const category = "storynest";
 
-const base = title.replace(/^\[Module\]\s*/i, "").trim() || "unnamed";
-const slug = slugify(title || base) || "unnamed";
-const moduleId = `mod-${category}-${slug}-${String(no).padStart(3, "0")}`;
+// 目錄：modules/<category>/mod-<slug>-<###>
+const idSuffix = String(issueNo).padStart(3, "0");
+const modId = `mod-${slug}-${idSuffix}`;
+const modDir = path.join("modules", category, modId);
 
-// 建目錄
-const dir = join("modules", category, moduleId);
-if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+fs.mkdirSync(modDir, { recursive: true });
 
 // spec.md
-const spec = `# ${base}
+const specMd = `# ${titleRaw}
 
-**Module ID**: ${moduleId}
-**Category**: ${category}
+- issue: #${issueNo}
+- category: ${category}
+- slug: ${slug}
 
-## Problem
-${problem}
+## problem
+請在此描述要解決的問題。
 
-## Inputs (rough)
+## inputs
 \`\`\`json
-${inputs}
+{ }
 \`\`\`
 
-## Outputs (rough)
+## outputs
 \`\`\`json
-${outputs}
+{ }
 \`\`\`
 
-## Constraints
-${constraints}
-
-## Flow (draft)
-1) Validate inputs
-2) Call AI / services
-3) Store artifacts
-4) Return outputs
-
-## Error Codes (draft)
-- E001_INVALID_INPUT
-- E002_UPSTREAM_FAIL
-- E003_TIMEOUT
+## constraints
+(可留空)
 `;
-writeFileSync(join(dir, "spec.md"), spec, "utf8");
+fs.writeFileSync(path.join(modDir, "spec.md"), specMd, "utf8");
 
-// schema.ts（佔位，之後你再補 Zod）
-const schemaTs = `import { z } from "zod";
-
-export const ${moduleId.replace(/-/g, "_")}_input = z.object({
-  // TODO: define from spec
-});
-
-export const ${moduleId.replace(/-/g, "_")}_output = z.object({
-  // TODO: define from spec
-});
+// schema.ts（最小）
+const schemaTs = `export interface Inputs {}
+export interface Outputs {}
 `;
-writeFileSync(join(dir, "schema.ts"), schemaTs, "utf8");
+fs.writeFileSync(path.join(modDir, "schema.ts"), schemaTs, "utf8");
 
-// registry.json 追加一筆
-const registryPath = join("modules", "registry.json");
+// 範例 page.tsx（供主專案引用）
+const pageTsx = `export default function Page() {
+  return <div>Module: ${slug} (issue #${issueNo})</div>;
+}
+`;
+const appPage = path.join("app", "modules", modId, "page.tsx");
+fs.mkdirSync(path.dirname(appPage), { recursive: true });
+fs.writeFileSync(appPage, pageTsx, "utf8");
+
+// 更新 registry.json
+const registryFile = path.join("modules", "registry.json");
 let registry = { modules: [] };
-try {
-  registry = JSON.parse(readFileSync(registryPath, "utf8"));
-} catch (_) {}
-if (!registry.modules) registry.modules = [];
-registry.modules.push({
-  id: moduleId,
+if (fs.existsSync(registryFile)) {
+  try {
+    registry = JSON.parse(fs.readFileSync(registryFile, "utf8"));
+  } catch (e) {
+    console.warn("[scaffold] registry.json parse failed, reset.");
+  }
+}
+if (!Array.isArray(registry.modules)) registry.modules = [];
+
+const now = Date.now();
+const meta = {
+  id: modId,
   category,
-  title: base,
+  title: titleRaw,
   status: "draft",
   visibility: "public",
-  path: `modules/${category}/${moduleId}`,
+  path: `${modDir}`,
   specVersion: "1.0.0",
-  createdAt: Date.now(),
-  updatedAt: Date.now(),
-});
-writeFileSync(registryPath, JSON.stringify(registry, null, 2), "utf8");
+  createdAt: now,
+  updatedAt: now
+};
 
-// API 佔位
-const apiDir = join("app", "api", "modules", moduleId);
-if (!existsSync(apiDir)) mkdirSync(apiDir, { recursive: true });
-writeFileSync(
-  join(apiDir, "route.ts"),
-  `import { NextRequest, NextResponse } from "next/server";
-export async function POST(req: NextRequest) {
-  return NextResponse.json({ ok: true, module: "${moduleId}" });
-}
-`,
-  "utf8"
-);
+const idx = registry.modules.findIndex((m) => m.id === meta.id);
+if (idx >= 0) registry.modules[idx] = { ...registry.modules[idx], ...meta, updatedAt: now };
+else registry.modules.push(meta);
 
-// 前端頁 佔位
-const pageDir = join("app", "modules", moduleId);
-if (!existsSync(pageDir)) mkdirSync(pageDir, { recursive: true });
-writeFileSync(
-  join(pageDir, "page.tsx"),
-  `export default function Page() {
-  return <main className="p-6">
-    <h1>${base}</h1>
-    <p>Module ID: ${moduleId}</p>
-  </main>;
-}
-`,
-  "utf8"
-);
+fs.writeFileSync(registryFile, JSON.stringify(registry, null, 2), "utf8");
 
-console.log("Scaffolded:", moduleId);
+console.log("[scaffold] generated:", { modDir, id: meta.id });
