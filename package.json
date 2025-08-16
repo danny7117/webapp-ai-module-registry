@@ -1,12 +1,14 @@
 {
   "name": "webapp-ai-module-registry",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
-  "description": "創意點子 WebApp AI 模組智慧庫：存放可重用模組與 manifest",
+  "description": "前端應用專案 WebApp AI 模組智慧庫：存放可重用模組與 manifest",
   "main": "index.js",
   "scripts": {
     "validate": "node scripts/validate_manifest.js",
-    "update-catalog": "node scripts/update_catalog.js"
+    "update-catalog": "node scripts/update_catalog.js",
+    "scaffold": "node scripts/scaffold_module.cjs"
   },
   "keywords": [],
   "author": "danny7117",
