@@ -10,6 +10,17 @@
       "specVersion": "1.0.0",
       "createdAt": 1755260572262,
       "updatedAt": 1755260572262
+    },
+    {
+      "id": "mod-module-auto-testx-028",
+      "category": "storynest",
+      "title": "[Module] auto testX",
+      "status": "draft",
+      "visibility": "public",
+      "path": "modules/storynest/mod-module-auto-testx-028",
+      "specVersion": "1.0.0",
+      "createdAt": 1755339058072,
+      "updatedAt": 1755339058072
     }
   ]
 }
