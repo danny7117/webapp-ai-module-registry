@@ -3,110 +3,91 @@ name: Scaffold Module from Issue
 on:
   issues:
     types: [opened, labeled, edited]
-  workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
   issues: write
 
-# 同一張 issue 只跑一個 workflow，避免重複
-concurrency: module-scaffold-${{ github.event.issue.number || github.event.inputs.issue_number }}
-
 jobs:
   scaffold:
-    # ✅ 同時支援「新開就帶標籤」「後加標籤」「編輯後仍含標籤」
-    if: >
-      (github.event_name == 'issues' && github.event.action == 'opened' &&
-       contains(toJson(github.event.issue.labels.*.name), 'module:proposal')) ||
-      (github.event_name == 'issues' && github.event.action == 'labeled' &&
-       github.event.label.name == 'module:proposal') ||
-      (github.event_name == 'issues' && github.event.action == 'edited' &&
-       contains(toJson(github.event.issue.labels.*.name), 'module:proposal')) ||
-      (github.event_name == 'workflow_dispatch')
-
+    # 只在 Issue 具有「module:proposal」標籤時才跑
+    if: contains(github.event.issue.labels.*.name, 'module:proposal')
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      # 方便在 Actions > Logs 看到到底收到了什麼事件/標籤
       - name: Debug incoming labels
         run: |
-          echo "event=${{ github.event_name }} action=${{ github.event.action }}"
-          echo "labels=$(echo '${{ toJson(github.event.issue.labels.*.name) }}')"
-          echo "label_from_payload=${{ github.event.label.name }}"
+          echo "[debug] labels from event:"
+          (jq -r '.issue.labels[].name' "$GITHUB_EVENT_PATH" || true) | nl -ba
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 確保 registry.json 存在
-      - name: Ensure modules/registry.json exists
+      - name: Ensure registry.json & scripts dir
         run: |
           mkdir -p modules
           if [ ! -f modules/registry.json ]; then
             echo '{ "modules": [] }' > modules/registry.json
           fi
-          cat modules/registry.json
+          mkdir -p scripts
 
-      # 若你的 scaffold 需要套件，就會安裝；沒有 package.json 會自動跳過
-      - name: Install deps (if needed)
+      - name: Generate module files (tolerant)
         run: |
-          if [ -f package.json ]; then
-            npm ci
-          fi
-
-      # 產生模組：優先跑 .cjs；沒有的話試 .js；兩者都沒有就略過
-      - name: Generate module files
-        run: |
+          set +e
           if [ -f scripts/scaffold_module.cjs ]; then
-            node scripts/scaffold_module.cjs
+            echo "[run] node scripts/scaffold_module.cjs"
+            node scripts/scaffold_module.cjs || echo "[warn] scaffold_module.cjs returned non-zero, continue..."
           elif [ -f scripts/scaffold_module.js ]; then
-            node scripts/scaffold_module.js
+            echo "[run] node scripts/scaffold_module.js"
+            node scripts/scaffold_module.js || echo "[warn] scaffold_module.js returned non-zero, continue..."
           else
-            echo "No scaffold script found under scripts/. Skipping generation."
+            echo "[info] No scaffold script found under scripts/. Skipping generation."
           fi
+          echo "[debug] changed files:"
+          git status --porcelain
 
-      # 建分支、commit、push（只有真的有變更才 push）
       - name: Create branch & commit
-        id: branch
+        id: cpr
+        shell: bash
         run: |
-          ISSUE_NO="${{ github.event.issue.number || github.event.inputs.issue_number || 'manual' }}"
-          BRANCH="mod/${ISSUE_NO}"
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git checkout -b "$BRANCH"
-          if git status --porcelain | grep .; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            git add -A
-            git commit -m "chore: scaffold module from issue #${ISSUE_NO}"
-            git push --set-upstream origin "$BRANCH"
-            echo "branch=$BRANCH" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No changes to commit."
+          set -e
+          if [ "$(git status --porcelain | wc -l)" -eq 0 ]; then
+            echo "nothing_to_commit=true" >> $GITHUB_OUTPUT
+            exit 0
           fi
 
-      # 開 PR
-      - name: Open Pull Request
-        if: steps.branch.outputs.has_changes == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          ISSUE_NO="${{ github.event.issue.number || github.event.inputs.issue_number || 'manual' }}"
-          gh pr create \
-            --title "Scaffold module from issue #${ISSUE_NO}" \
-            --body "Auto-generated from issue #${ISSUE_NO}" \
-            --base "main" \
-            --head "${{ steps.branch.outputs.branch }}"
+          ISSUE_NO=${{ github.event.issue.number }}
+          BR="issue-${ISSUE_NO}-scaffold"
 
-      # 自動合併（squash）；需要 Settings → Actions → Workflow permissions 設成 Read+Write
-      - name: Enable auto-merge (squash)
-        if: steps.branch.outputs.has_changes == 'true'
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+          git checkout -b "$BR"
+          git add -A
+          git commit -m "chore: scaffold module from issue #${ISSUE_NO}"
+          git push -u origin "$BR"
+
+          echo "branch=$BR" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.cpr.outputs.nothing_to_commit != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          PR_NUMBER=$(gh pr view --json number -q .number)
-          gh pr merge "$PR_NUMBER" --squash --auto
+          ISSUE_NO=${{ github.event.issue.number }}
+          TITLE="[Module] scaffold from issue #${ISSUE_NO}"
+          BODY="Auto-generated from issue #${ISSUE_NO}"
+          gh pr create --title "$TITLE" --body "$BODY" --base "main" --head "${{ steps.cpr.outputs.branch }}"
+
+      - name: Enable auto-merge (squash)
+        if: steps.cpr.outputs.nothing_to_commit != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge --auto --squash "${{ steps.cpr.outputs.branch }}" || true
