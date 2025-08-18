@@ -1,3 +1,9 @@
+// 放在 import 後面
+import { fileURLToPath } from "url";
+import path from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+console.log(`[boot] cwd=${process.cwd()} file=${__filename}`);
 import express from "express";
 import axios from "axios";
 
@@ -6,7 +12,7 @@ app.use(express.json());
 
 // ====== 測試用路由 ======
 app.get("/health", (req, res) => {
-  res.json({ status: "ok" });
+  res.json({ status: "ok", ts: Date.now() });
 });
 
 app.get("/bot", (req, res) => {
