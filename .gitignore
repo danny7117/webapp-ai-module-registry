@@ -1,0 +1,19 @@
+# === local env files (never commit) ===
+.env
+*.env
+bot/.env
+
+# node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# build artifacts
+dist/
+coverage/
