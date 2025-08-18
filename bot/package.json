@@ -1,28 +1,16 @@
 {
-  "name": "webapp-ai-module-registry",
+  "name": "module-proposal-bot",
   "private": true,
   "type": "module",
-  "description": "創意驅動 WebApp AI 模組智慧庫：存放可重用模組 manifest",
+  "version": "0.1.0",
+  "description": "Bridge GPT ideas to GitHub Issues with labels for auto-scaffold",
   "main": "index.js",
   "scripts": {
-    "validate": "node scripts/validate_manifest.js",
-    "update-catalog": "node scripts/update_catalog.js",
-
-    // === 新增：bot 相關 ===
-    "dev-bot": "node bot/index.js",
-    "start-bot": "node bot/index.js"
+    "dev": "node index.js"
   },
-  "keywords": [],
-  "author": "danny7117",
-  "license": "MIT",
   "dependencies": {
-    "ajv": "^8.12.0",
-    "glob": "^10.3.10",
-    "js-yaml": "^4.1.0",
-
-    // === 新增：bot 需要 ===
-    "@octokit/rest": "^20.1.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "js-yaml": "^4.1.0"
   }
 }
