@@ -1,38 +1,49 @@
-// bot/index.js －最小可測版
-
+// bot/index.js — minimal, with debug
 import express from "express";
-import axios from "axios";
-import { fileURLToPath } from "url";
-import path from "path";
-
-// 顯示現在到底跑哪份檔案
-const __filename = fileURLToPath(import.meta.url);
-console.log(`[boot] cwd=${process.cwd()} file=${__filename}`);
 
 const app = express();
 app.use(express.json());
 
-// 健康檢查（用來確認路由有掛上）
+const PORT = Number(process.env.PORT || 8787);
+
+// ===== Debug: 啟動時印出目前檔案與所有註冊路由 =====
+function collectRoutes() {
+  const routes = [];
+  app._router?.stack?.forEach((layer) => {
+    if (layer.route) {
+      const path = layer.route.path;
+      const methods = Object.keys(layer.route.methods)
+        .map((m) => m.toUpperCase())
+        .join(",");
+      routes.push(`${methods} ${path}`);
+    }
+  });
+  return routes;
+}
+
+// 健康檢查
 app.get("/health", (req, res) => {
   res.json({ status: "ok", ts: Date.now() });
 });
 
-// 簡單 bot 測試
+// 簡易 bot 檢查
 app.get("/bot", (req, res) => {
   res.json({ message: "Bot is running!" });
 });
 
-// ------- 以下先保留你之後要用的新增模組 API（可先不打）-------
+// 你之後要接的業務 API（先回固定 OK，之後再填內容）
 app.post("/module-proposal", async (req, res) => {
-  try {
-    // 先回傳成功，之後你要打 GitHub API 再補
-    res.json({ ok: true, echo: req.body || {} });
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ ok: false, error: String(err?.message || err) });
-  }
+  res.json({ ok: true });
 });
 
-// 監聽埠
-const PORT = Number(process.env.PORT || 8787);
-app.listen(PORT, () => console.log(`[bot] listening on :${PORT}`));
+// 列出目前註冊的路由（除錯用）
+app.get("/__routes", (req, res) => {
+  res.json({ routes: collectRoutes() });
+});
+
+app.listen(PORT, () => {
+  const routes = collectRoutes();
+  console.log(`[bot] file : ${new URL(import.meta.url).pathname}`);
+  console.log(`[bot] listening on :${PORT}`);
+  console.log(`[bot] routes ->`, routes);
+});
