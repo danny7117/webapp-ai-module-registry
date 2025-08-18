@@ -1,19 +1,17 @@
-powershell -Command "$json=@'
 {
-  \"name\": \"webapp-ai-bot\",
-  \"version\": \"1.0.0\",
-  \"description\": \"Minimal bot service with health check and module-proposal API\",
-  \"main\": \"bot/index.js\",
-  \"type\": \"module\",
-  \"scripts\": {
-    \"dev\": \"node bot/index.js\",
-    \"start\": \"node bot/index.js\"
+  "name": "webapp-ai-bot",
+  "version": "1.0.0",
+  "description": "Minimal bot service with health check and module-proposal API",
+  "main": "bot/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node bot/index.js",
+    "start": "node bot/index.js"
   },
-  \"keywords\": [],
-  \"author\": \"\",
-  \"license\": \"MIT\",
-  \"dependencies\": {
-    \"express\": \"^4.19.2\"
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
-'@; Set-Content -Path package.json -Value $json -Encoding utf8"
