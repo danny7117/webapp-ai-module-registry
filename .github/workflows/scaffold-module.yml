@@ -2,92 +2,98 @@ name: Scaffold Module from Issue
 
 on:
   issues:
-    types: [opened, labeled, edited]
+    types: [labeled]   # 只在「套上標籤」時觸發
+
+# 同一個 Issue 只保留最新一次執行（避免重覆跑）
+concurrency:
+  group: module-scaffold-${{ github.event.issue.number }}
+  cancel-in-progress: true
 
 permissions:
-  contents: write
-  pull-requests: write
-  issues: write
+  contents: write        # 允許 commit / push
+  pull-requests: write   # 允許建立 / 合併 PR
+  issues: write          # 允許在 Issue 留言
 
 jobs:
   scaffold:
-    # 只在 Issue 具有「module:proposal」標籤時才跑
-    if: contains(github.event.issue.labels.*.name, 'module:proposal')
     runs-on: ubuntu-latest
+
+    # 只在該 Issue 真的含有 module:proposal 標籤時才跑
+    if: contains(github.event.issue.labels.*.name, 'module:proposal')
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Debug incoming labels
-        run: |
-          echo "[debug] labels from event:"
-          (jq -r '.issue.labels[].name' "$GITHUB_EVENT_PATH" || true) | nl -ba
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Ensure registry.json & scripts dir
+      - name: Install deps
+        run: |
+          npm ci || npm i
+
+      - name: Ensure registry.json
         run: |
           mkdir -p modules
           if [ ! -f modules/registry.json ]; then
-            echo '{ "modules": [] }' > modules/registry.json
+            echo '{"modules":[]}' > modules/registry.json
           fi
-          mkdir -p scripts
 
-      - name: Generate module files (tolerant)
+      - name: Generate module scaffold
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
-          set +e
-          if [ -f scripts/scaffold_module.cjs ]; then
-            echo "[run] node scripts/scaffold_module.cjs"
-            node scripts/scaffold_module.cjs || echo "[warn] scaffold_module.cjs returned non-zero, continue..."
-          elif [ -f scripts/scaffold_module.js ]; then
-            echo "[run] node scripts/scaffold_module.js"
-            node scripts/scaffold_module.js || echo "[warn] scaffold_module.js returned non-zero, continue..."
-          else
-            echo "[info] No scaffold script found under scripts/. Skipping generation."
-          fi
-          echo "[debug] changed files:"
-          git status --porcelain
+          node scripts/scaffold_module.cjs
 
-      - name: Create branch & commit
-        id: cpr
-        shell: bash
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "NO_CHANGES=true" >> $GITHUB_ENV
+            echo "No changes to commit."
+          else
+            git commit -m "chore: scaffold module from issue #${{ github.event.issue.number }}"
+          fi
+
+      - name: Create/Update PR
+        if: env.NO_CHANGES != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
           set -e
-          if [ "$(git status --porcelain | wc -l)" -eq 0 ]; then
-            echo "nothing_to_commit=true" >> $GITHUB_OUTPUT
-            exit 0
+          BR="scaffold/issue-${ISSUE_NUMBER}"
+
+          # push 分支（存在就更新）
+          git push origin HEAD:$BR --force
+
+          # 嘗試建立 PR（若已存在則跳過）
+          if gh pr view "$BR" >/dev/null 2>&1; then
+            echo "PR already exists for $BR"
+          else
+            gh pr create \
+              --title "[Module] ${ISSUE_TITLE}" \
+              --body "Auto-generated from issue #${ISSUE_NUMBER}" \
+              --base "main" \
+              --head "$BR"
           fi
 
-          ISSUE_NO=${{ github.event.issue.number }}
-          BR="issue-${ISSUE_NO}-scaffold"
+          # 在 Issue 留言 PR 連結
+          PR_URL="$(gh pr view "$BR" --json url -q .url)"
+          gh issue comment "$ISSUE_NUMBER" --body "已建立 PR：$PR_URL"
 
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-
-          git checkout -b "$BR"
-          git add -A
-          git commit -m "chore: scaffold module from issue #${ISSUE_NO}"
-          git push -u origin "$BR"
-
-          echo "branch=$BR" >> $GITHUB_OUTPUT
-
-      - name: Create Pull Request
-        if: steps.cpr.outputs.nothing_to_commit != 'true'
+      - name: Auto-merge PR (squash, optional)
+        if: env.NO_CHANGES != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
-          ISSUE_NO=${{ github.event.issue.number }}
-          TITLE="[Module] scaffold from issue #${ISSUE_NO}"
-          BODY="Auto-generated from issue #${ISSUE_NO}"
-          gh pr create --title "$TITLE" --body "$BODY" --base "main" --head "${{ steps.cpr.outputs.branch }}"
-
-      - name: Enable auto-merge (squash)
-        if: steps.cpr.outputs.nothing_to_commit != 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr merge --auto --squash "${{ steps.cpr.outputs.branch }}" || true
+          BR="scaffold/issue-${ISSUE_NUMBER}"
+          gh pr merge "$BR" --squash --auto || true
