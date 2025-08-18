@@ -1,167 +1,63 @@
 // bot/index.js
-import 'dotenv/config';
-import express from 'express';
-import { Octokit } from '@octokit/rest';
-
-const {
-  GITHUB_TOKEN,
-  GITHUB_OWNER,
-  GITHUB_REPO,
-  CATEGORY_WHITELIST = 'content,ui,data,system',
-  PORT = 8787
-} = process.env;
-
-if (!GITHUB_TOKEN || !GITHUB_OWNER || !GITHUB_REPO) {
-  console.error('[module-proposal-bot] Missing env: GITHUB_TOKEN / GITHUB_OWNER / GITHUB_REPO');
-  process.exit(1);
-}
+import express from "express";
+import axios from "axios";
 
 const app = express();
-app.use(express.json({ limit: '1mb' }));
+app.use(express.json());
 
-const octokit = new Octokit({ auth: GITHUB_TOKEN });
-const whitelist = CATEGORY_WHITELIST.split(',').map(s => s.trim()).filter(Boolean);
-const CAT_PREFIX = 'cat:';
-const MODULE_LABEL = 'module:proposal';
+// --- 環境變數（請放在本機 bot/.env 或 repo 根目錄 .env，不要 commit） ---
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;   // 你的 PAT
+const GITHUB_OWNER = process.env.GITHUB_OWNER;   // e.g. "danny7117"
+const GITHUB_REPO  = process.env.GITHUB_REPO;    // e.g. "webapp-ai-module-registry"
+const CAT_WHITELIST = (process.env.CATEGORY_WHITELIST || "content,ui,data,system")
+  .split(",")
+  .map(s => s.trim());
 
-/** 確保指定的 Label 存在；若不存在則建立 */
-async function ensureLabel(name, color = '116cf1', description = '') {
-  try {
-    await octokit.issues.getLabel({
-      owner: GITHUB_OWNER,
-      repo: GITHUB_REPO,
-      name
-    });
-    return;
-  } catch (err) {
-    // not found → create
-    try {
-      await octokit.issues.createLabel({
-        owner: GITHUB_OWNER,
-        repo: GITHUB_REPO,
-        name,
-        color,
-        description
-      });
-      console.log(`[labels] created: ${name}`);
-    } catch (e) {
-      // already exists (race) or permission
-      if (e.status !== 422) throw e;
-    }
+function catToLabel(cat) {
+  // 轉換成你的 cat 標籤命名（cat:content / cat:ui / cat:data / cat:system）
+  return `cat:${cat}`;
+}
+
+async function createIssue({title, category, summary, problem, inputs, outputs, constraints}) {
+  if (!CAT_WHITELIST.includes(category)) {
+    throw new Error(`category "${category}" 不在白名單：${CAT_WHITELIST.join(", ")}`);
   }
+
+  const labels = ["module:proposal", catToLabel(category)];
+
+  const body = [
+    `**分類**：${category}`,
+    "",
+    `**摘要**：${summary || "(請補充)"}\n`,
+    `**要解決的問題**：\n${problem || "(請補充)"}\n`,
+    `**輸入**：\n${"```json\n" + JSON.stringify(inputs || {}, null, 2) + "\n```"}\n`,
+    `**輸出**：\n${"```json\n" + JSON.stringify(outputs || {}, null, 2) + "\n```"}\n`,
+    `**限制 / 注意**：\n${constraints || "(可留白)"}\n`,
+  ].join("\n");
+
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues`;
+  await axios.post(url,
+    { title, body, labels },
+    { headers: { Authorization: `token ${GITHUB_TOKEN}`, "Accept": "application/vnd.github+json" } }
+  );
 }
 
-/** 啟動時先確保所有分類標籤與 module:proposal 存在 */
-async function ensureAllLabels() {
-  await ensureLabel(MODULE_LABEL, '6f42c1', 'Module proposal auto-scaffold trigger');
-  for (const cat of whitelist) {
-    await ensureLabel(`${CAT_PREFIX}${cat}`, '3fb950', `分類：${cat}`);
-  }
-}
-
-/** 製作 Issue body（固定模板） */
-function buildIssueBody(payload) {
-  const {
-    title = '',
-    category = '',
-    summary = '',
-    problem = '',
-    inputs = '',
-    outputs = '',
-    constraints = ''
-  } = payload || {};
-
-  return [
-    'name: 模組提案 Module Proposal',
-    'about: 一段文字，會由系統自動生成模組骨架',
-    'title: "[Module] 請輸入模組名稱"',
-    '',
-    '---',
-    '',
-    `category: "${category || 'ui'}"`,
-    `summary: "${summary || '請填寫 1~2 句概述'}"`,
-    '',
-    'problem: |',
-    `  ${problem || '要解決的問題描述'}`,
-    '',
-    'inputs: |',
-    `  ${inputs || '輸入 JSON 描述（可留白）'}`,
-    '',
-    'outputs: |',
-    `  ${outputs || '輸出 JSON 描述（可留白）'}`,
-    '',
-    'constraints: |',
-    `  ${constraints || '限制 / 成本 / 注意事項（可留白）'}`
-  ].join('\n');
-}
-
-/** 建 Issue 的核心邏輯 */
-async function createModuleProposal(payload) {
-  // 1) 驗證/正規化分類
-  const rawCat = (payload.category || '').trim().toLowerCase();
-  const category = whitelist.includes(rawCat) ? rawCat : 'ui';
-  const catLabel = `${CAT_PREFIX}${category}`;
-
-  // 2) 準備標籤
-  const labels = [MODULE_LABEL, catLabel];
-
-  // 3) 標題（必填）；若前端沒給，幫他補個安全預設
-  let title = (payload.title || '').trim();
-  if (!title) title = '未命名模組';
-
-  // 4) Issue body（固定模板）
-  const body = buildIssueBody({ ...payload, category });
-
-  // 5) 建立 Issue
-  const res = await octokit.issues.create({
-    owner: GITHUB_OWNER,
-    repo: GITHUB_REPO,
-    title: `[Module] ${title}`,
-    body,
-    labels
-  });
-
-  return res.data;
-}
-
-/** 健康檢查 */
-app.get('/health', (req, res) => {
-  res.json({ ok: true, repo: `${GITHUB_OWNER}/${GITHUB_REPO}`, categories: whitelist });
-});
-
-/**
- * 入口：由 GPT 或你的後端 POST 到這裡
- * 例：
- * POST /issue
- * {
- *   "title": "品牌圖庫批次上架",
- *   "category": "content",
- *   "summary": "上傳 CSV 一鍵生成 200 張圖與分享連結",
- *   "problem": "...",
- *   "inputs": "...",
- *   "outputs": "...",
- *   "constraints": "..."
- * }
- */
-app.post('/issue', async (req, res) => {
+// 提供一個 HTTP 端點讓你丟入新的模組提案
+app.post("/module-proposal", async (req, res) => {
   try {
     const payload = req.body || {};
+    const { title, category } = payload;
 
-    // 啟動前先確保標籤存在（第一次呼叫或標籤被人刪掉時）
-    await ensureAllLabels();
-
-    const issue = await createModuleProposal(payload);
-    res.json({
-      ok: true,
-      issue_number: issue.number,
-      issue_url: issue.html_url
-    });
+    if (!title || !category) {
+      return res.status(400).json({ ok: false, error: "title & category 為必填" });
+    }
+    await createIssue(payload);
+    res.json({ ok: true });
   } catch (err) {
-    console.error('[create-issue] error:', err);
-    res.status(500).json({ ok: false, error: err.message || 'internal_error' });
+    console.error(err);
+    res.status(500).json({ ok: false, error: String(err.message || err) });
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`[module-proposal-bot] listening on :${PORT}`);
-});
+const PORT = Number(process.env.PORT || 8787);
+app.listen(PORT, () => console.log(`[bot] listening on :${PORT}`));
