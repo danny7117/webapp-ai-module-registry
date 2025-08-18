@@ -78,4 +78,26 @@ app.post("/module-proposal", async (req, res) => {
 
 // ===== 啟動伺服器 =====
 const PORT = Number(process.env.PORT || 8787);
+// === 1) 顯示目前註冊的路由（啟動時印在 CMD）===
+function listRoutes(app) {
+  const routes = [];
+  app._router?.stack?.forEach(l => {
+    if (l.route) {
+      const methods = Object.keys(l.route.methods).join(",").toUpperCase();
+      routes.push({ methods, path: l.route.path });
+    }
+  });
+  console.table(routes);
+}
+listRoutes(app);
+
+// === 2) 臨時偵錯 endpoint：告訴我現在跑的是誰 ===
+app.get("/__whoami", (req, res) => {
+  res.json({
+    cwd: process.cwd(),      // 目前工作目錄
+    file: import.meta.url,   // 這支檔案的完整路徑（URL 形式）
+    ts: Date.now()
+  });
+});
+
 app.listen(PORT, () => console.log(`[bot] listening on :${PORT}`));
