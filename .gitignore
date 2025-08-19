@@ -1,14 +1,2 @@
-# --- Local env files (never commit) ---
-.env
-.env.*
-bot/.env
-bot/.env.*
-
-# node
 node_modules/
-npm-debug.log*
-yarn-error.log*
-
-# OS / editor
-.DS_Store
-Thumbs.db
+package-lock.json
