@@ -2,11 +2,11 @@ name: Auto Scaffold Module
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited, reopened]   # 允許重新打開/編輯後再次觸發（仍受 if 條件限制）
 
 permissions:
-  contents: write
-  issues: write
+  contents: write    # 允許 commit
+  issues: write      # 允許回覆留言、加標籤（如需）
 
 concurrency:
   group: scaffold-${{ github.event.issue.number }}
@@ -14,38 +14,66 @@ concurrency:
 
 jobs:
   scaffold:
-    if: contains(toJson(github.event.issue.labels.*.name), 'module-proposal') # 只處理帶 module-proposal 標籤的 Issue
+    # 僅處理帶有「module-proposal」且「module-ready」兩個標籤的 Issue（雙保險）
+    if: contains(toJson(github.event.issue.labels.*.name), 'module-proposal')
+        && contains(toJson(github.event.issue.labels.*.name), 'module-ready')
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
 
-      - name: Parse category & slug
+      - name: Parse category & slug from Issue
         id: prep
         shell: bash
         run: |
           set -euo pipefail
+
           TITLE="${{ github.event.issue.title }}"
           BODY="${{ github.event.issue.body }}"
-          NUMBER="${{ github.event.issue.number }}"
-          # 從 meta 讀 category（/module-proposal 會放在 body 的 meta 區塊）
-          CATEGORY=$(printf "%s" "$BODY" | awk -F': ' '/^[-*] category:/ {print tolower($2); exit}' | tr -d '\r')
-          if [ -z "$CATEGORY" ]; then CATEGORY="ideas"; fi
 
+          # 從 body 的 meta 區塊解析 category（/module-proposal 會寫入）
+          CATEGORY=$(printf "%s" "$BODY" | awk -F': ' '/^[-*] category:/ {print tolower($2); exit}' | tr -d '\r' | xargs)
+          # fallback（若解析不到，直接失敗—交由 Guard 步驟處理）
+          if [ -z "${CATEGORY:-}" ]; then CATEGORY=""; fi
+
+          # 產生 slug：以 Issue 標題為基底
           SLUG="$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g;s/^-+|-+$//g')"
-          DIR="modules/${CATEGORY}/${SLUG}"
 
           echo "category=$CATEGORY" >> "$GITHUB_OUTPUT"
           echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
-          echo "dir=$DIR" >> "$GITHUB_OUTPUT"
+          echo "dir=modules/${CATEGORY}/${SLUG}" >> "$GITHUB_OUTPUT"
 
-      - name: Idempotent check
+      - name: Guard: category must exist
+        if: steps.prep.outputs.category == ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: "❌ 自動化停止：找不到 `category`。請確認提案內容含有 meta 欄位 `- category: <frontend|integration|ai|utility>` 後再試。"
+            });
+            // 直接標記一個需要修正的標籤（可選）
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              labels: ['needs-category']
+            });
+        # 讓 job 明確失敗結束
+        continue-on-error: false
+
+      - name: Idempotent check (skip if exists)
         shell: bash
         run: |
+          set -euo pipefail
           if [ -d "${{ steps.prep.outputs.dir }}" ]; then
-            echo "Module already exists, skip scaffold."
+            echo "Module path exists, skip scaffold: ${{ steps.prep.outputs.dir }}"
             exit 0
           fi
 
@@ -54,9 +82,12 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p "${{ steps.prep.outputs.dir }}"
-          FILE="${{ steps.prep.outputs.dir }}/module.json"
+
+          FILE_JSON="${{ steps.prep.outputs.dir }}/module.json"
           BODY_JSON=$(printf '%s' "${{ github.event.issue.body }}" | jq -R -s '.')
-          cat > "$FILE" <<EOF
+
+          # 你也可以改寫為 index.ts / README.md 等模板
+          cat > "$FILE_JSON" <<EOF
           {
             "name": "${{ github.event.issue.title }}",
             "slug": "${{ steps.prep.outputs.slug }}",
@@ -80,6 +111,7 @@ jobs:
           git push
 
       - name: Comment back (success)
+        if: success()
         uses: actions/github-script@v7
         with:
           script: |
@@ -103,5 +135,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.issue.number,
-              body: "❌ 自動化失敗，請查看此 workflow 的日誌（Actions）。"
+              body: "❌ 自動化失敗，請查看此 workflow 的日誌（Actions）。若為路徑已存在，表示此模組先前已建立。"
             });
