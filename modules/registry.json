@@ -32,6 +32,17 @@
       "specVersion": "1.0.0",
       "createdAt": 1755600520950,
       "updatedAt": 1755600520950
+    },
+    {
+      "id": "mod-module-csv-to-json-converter-v2-034",
+      "category": "storynest",
+      "title": "module: CSV to JSON Converter v2",
+      "status": "draft",
+      "visibility": "public",
+      "path": "modules/storynest/mod-module-csv-to-json-converter-v2-034",
+      "specVersion": "1.0.0",
+      "createdAt": 1755601444683,
+      "updatedAt": 1755601444683
     }
   ]
 }
