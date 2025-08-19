@@ -1,105 +1,107 @@
 // scripts/scaffold_module.cjs
-// 從 Issue 事件產生最小模組骨架，並更新 modules/registry.json
+const fs = require('fs');
+const path = require('path');
 
-const fs = require("fs");
-const path = require("path");
-
-// 事件 payload
-const eventPath = process.env.GITHUB_EVENT_PATH;
-if (!eventPath || !fs.existsSync(eventPath)) {
-  console.log("[scaffold] no GITHUB_EVENT_PATH, nothing to do.");
-  process.exit(0);
+function readEnv(name, def = '') {
+  return process.env[name] ?? def;
 }
-const event = JSON.parse(fs.readFileSync(eventPath, "utf8"));
-const issue = event.issue || {};
-const issueNo = issue.number || "manual";
-const titleRaw = (issue.title || "new module").trim();
 
-// 建 slug
-const slug = titleRaw
-  .toLowerCase()
-  .replace(/[^a-z0-9]+/g, "-")
-  .replace(/(^-|-$)/g, "");
+const ISSUE_NUMBER = readEnv('ISSUE_NUMBER');
+const ISSUE_TITLE  = readEnv('ISSUE_TITLE');
+const ISSUE_BODY   = readEnv('ISSUE_BODY', '');
+const ISSUE_LABELS = (() => {
+  try { return JSON.parse(readEnv('ISSUE_LABELS', '[]')); } catch { return []; }
+})();
 
-// 簡單預設分類（你之後可改成依 label/body 決定）
-const category = "storynest";
-
-// 目錄：modules/<category>/mod-<slug>-<###>
-const idSuffix = String(issueNo).padStart(3, "0");
-const modId = `mod-${slug}-${idSuffix}`;
-const modDir = path.join("modules", category, modId);
-
-fs.mkdirSync(modDir, { recursive: true });
-
-// spec.md
-const specMd = `# ${titleRaw}
-
-- issue: #${issueNo}
-- category: ${category}
-- slug: ${slug}
-
-## problem
-請在此描述要解決的問題。
-
-## inputs
-\`\`\`json
-{ }
-\`\`\`
-
-## outputs
-\`\`\`json
-{ }
-\`\`\`
-
-## constraints
-(可留空)
-`;
-fs.writeFileSync(path.join(modDir, "spec.md"), specMd, "utf8");
-
-// schema.ts（最小）
-const schemaTs = `export interface Inputs {}
-export interface Outputs {}
-`;
-fs.writeFileSync(path.join(modDir, "schema.ts"), schemaTs, "utf8");
-
-// 範例 page.tsx（供主專案引用）
-const pageTsx = `export default function Page() {
-  return <div>Module: ${slug} (issue #${issueNo})</div>;
+function ensureJson(file, fallback) {
+  if (!fs.existsSync(file)) fs.writeFileSync(file, JSON.stringify(fallback, null, 2));
+  const raw = fs.readFileSync(file, 'utf8');
+  try { return JSON.parse(raw || '[]'); } catch { return fallback; }
 }
-`;
-const appPage = path.join("app", "modules", modId, "page.tsx");
-fs.mkdirSync(path.dirname(appPage), { recursive: true });
-fs.writeFileSync(appPage, pageTsx, "utf8");
 
-// 更新 registry.json
-const registryFile = path.join("modules", "registry.json");
-let registry = { modules: [] };
-if (fs.existsSync(registryFile)) {
-  try {
-    registry = JSON.parse(fs.readFileSync(registryFile, "utf8"));
-  } catch (e) {
-    console.warn("[scaffold] registry.json parse failed, reset.");
-  }
+function writeJson(file, data) {
+  fs.writeFileSync(file, JSON.stringify(data, null, 2));
 }
-if (!Array.isArray(registry.modules)) registry.modules = [];
 
-const now = Date.now();
-const meta = {
-  id: modId,
-  category,
-  title: titleRaw,
-  status: "draft",
-  visibility: "public",
-  path: `${modDir}`,
-  specVersion: "1.0.0",
-  createdAt: now,
-  updatedAt: now
+function extractFirstJsonBlock(md = '') {
+  const re = /```json\s*([\s\S]*?)\s*```/i;
+  const m = re.exec(md);
+  if (!m) return null;
+  try { return JSON.parse(m[1]); } catch { return null; }
+}
+
+function inferCategory(labels = [], fallback = 'utility') {
+  const cat = labels.find(n =>
+    /^category:\s*(core|utility|creative|business)$/i.test(n)
+  );
+  if (cat) return cat.split(':')[1].trim().toLowerCase();
+  const short = labels.find(n => /^(core|utility|creative|business)$/i.test(n));
+  if (short) return short.toLowerCase();
+  // 標籤本身也可以決定：ready/proposal 都給 utility 預設
+  return (fallback || 'utility').toLowerCase();
+}
+
+function inferNameFromTitle(t = '') {
+  const s = t.trim();
+  if (/^module:\s*/i.test(s)) return s.replace(/^module:\s*/i, '').trim();
+  if (/^\[module\]\s*/i.test(s)) return s.replace(/^\[module\]\s*/i, '').trim();
+  return s;
+}
+
+function firstLine(text = '') {
+  return (text.split(/\r?\n/).map(x => x.trim()).filter(Boolean)[0]) || '';
+}
+
+function uniqueById(list) {
+  const seen = new Set();
+  return list.filter(x => (x.id && !seen.has(x.id)) ? seen.add(x.id) : !x.id);
+}
+
+// ---- 讀現有檔案 ----
+const base = path.resolve('modules');
+const files = {
+  all: path.join(base, 'modules_all.json'),
+  core: path.join(base, 'modules_core.json'),
+  utility: path.join(base, 'modules_utility.json'),
+  creative: path.join(base, 'modules_creative.json'),
+  business: path.join(base, 'modules_business.json'),
 };
 
-const idx = registry.modules.findIndex((m) => m.id === meta.id);
-if (idx >= 0) registry.modules[idx] = { ...registry.modules[idx], ...meta, updatedAt: now };
-else registry.modules.push(meta);
+const all = ensureJson(files.all, []);
+const core = ensureJson(files.core, []);
+const utility = ensureJson(files.utility, []);
+const creative = ensureJson(files.creative, []);
+const business = ensureJson(files.business, []);
 
-fs.writeFileSync(registryFile, JSON.stringify(registry, null, 2), "utf8");
+// ---- 解析 Issue → 模組 ----
+const payload = extractFirstJsonBlock(ISSUE_BODY) || {};
+const labels = ISSUE_LABELS || [];
 
-console.log("[scaffold] generated:", { modDir, id: meta.id });
+const moduleObj = {
+  id: payload.id || payload.module_id || `ISSUE-${ISSUE_NUMBER}`,
+  name: payload.name || inferNameFromTitle(ISSUE_TITLE),
+  category: (payload.category || inferCategory(labels)).toLowerCase(),
+  desc: payload.desc || firstLine(ISSUE_BODY),
+  source: {
+    issue_number: Number(ISSUE_NUMBER),
+    issue_url: `https://github.com/${process.env.GITHUB_REPOSITORY}/issues/${ISSUE_NUMBER}`
+  }
+};
+
+// ---- 寫回 all.json（去重）----
+const updatedAll = uniqueById(
+  [moduleObj].concat(all.filter(x => x.id !== moduleObj.id))
+);
+writeJson(files.all, updatedAll);
+
+// ---- 同步分類檔 ----
+const buckets = { core, utility, creative, business };
+for (const k of Object.keys(buckets)) {
+  // 先移除舊同 id
+  const arr = buckets[k].filter(x => x.id !== moduleObj.id);
+  // 再決定是否加入本次
+  if (moduleObj.category === k) arr.unshift(moduleObj);
+  writeJson(files[k], arr);
+}
+
+console.log(`Scaffolded module id=${moduleObj.id} category=${moduleObj.category}`);
