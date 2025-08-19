@@ -1,0 +1,28 @@
+name: Validate Module JSON
+
+on:
+  push:
+    paths:
+      - 'modules/*.json'
+  pull_request:
+    paths:
+      - 'modules/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Validate JSON files
+        run: |
+          set -e
+          echo "Validating JSON syntax in modules/*.json"
+          for f in modules/*.json; do
+            if [ -f "$f" ]; then
+              node -e "JSON.parse(require('fs').readFileSync(process.argv[1],'utf8'))" "$f"
+              echo "OK: $f"
+            fi
+          done
