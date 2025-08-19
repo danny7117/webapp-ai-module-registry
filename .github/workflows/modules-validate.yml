@@ -1,13 +1,9 @@
 name: Validate Module JSON
-
 on:
   push:
-    paths:
-      - 'modules/*.json'
+    paths: ['modules/*.json']
   pull_request:
-    paths:
-      - 'modules/*.json'
-
+    paths: ['modules/*.json']
 jobs:
   validate:
     runs-on: ubuntu-latest
