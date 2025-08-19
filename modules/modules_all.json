@@ -1,5 +1,15 @@
 [
   {
+    "id": "ISSUE-30",
+    "name": "auto testX1",
+    "category": "utility",
+    "desc": "category: <主分類，如 brandcraft / storynest / petvid / data / ui / system>",
+    "source": {
+      "issue_number": 30,
+      "issue_url": "https://github.com/danny7117/webapp-ai-module-registry/issues/30"
+    }
+  },
+  {
     "id": "ISSUE-34",
     "name": "CSV to JSON Converter v2",
     "category": "utility",
@@ -17,16 +27,6 @@
     "source": {
       "issue_number": 32,
       "issue_url": "https://github.com/danny7117/webapp-ai-module-registry/issues/32"
-    }
-  },
-  {
-    "id": "ISSUE-30",
-    "name": "auto testX1",
-    "category": "utility",
-    "desc": "category: <主分類，如 brandcraft / storynest / petvid / data / ui / system>",
-    "source": {
-      "issue_number": 30,
-      "issue_url": "https://github.com/danny7117/webapp-ai-module-registry/issues/30"
     }
   },
   {
