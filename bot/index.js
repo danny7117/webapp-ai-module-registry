@@ -1,4 +1,4 @@
-// bot/index.js — strict validator + real GitHub issue creation (ESM)
+// bot/index.js — uses built-in fetch (Node 18+) & creates real GitHub issues
 import express from "express";
 import crypto from "crypto";
 
@@ -9,11 +9,10 @@ app.use(express.json());
 const PORT = Number(process.env.PORT || 8787);
 const HOST = "0.0.0.0";
 
-// ==== categories (fixed 4) ====
+// 固定四大分類
 const ALLOWED_CATEGORIES = new Set(["frontend", "integration", "ai", "utility"]);
-const CATEGORY_LABEL = (c) => `category: ${c}`;
+const CAT_LABEL = (c) => `category: ${c}`;
 
-// ==== helpers ====
 function collectRoutes() {
   const routes = [];
   app._router?.stack?.forEach((layer) => {
@@ -25,33 +24,30 @@ function collectRoutes() {
   });
   return routes.sort();
 }
-const hashKey = (s) => crypto.createHash("sha256").update(s, "utf8").digest("hex").slice(0, 16);
+
+const hash16 = (s) => crypto.createHash("sha256").update(s, "utf8").digest("hex").slice(0, 16);
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-async function ghFetch(url, opts = {}, { retries = 3, backoffMs = 600, timeoutMs = 10000 } = {}) {
-  for (let a = 0; a <= retries; a++) {
+async function ghFetch(url, opts = {}, { retries = 2, backoffMs = 600, timeoutMs = 10000 } = {}) {
+  for (let i = 0; i <= retries; i++) {
     const ctrl = new AbortController();
-    const id = setTimeout(() => ctrl.abort(), timeoutMs);
+    const t = setTimeout(() => ctrl.abort(), timeoutMs);
     try {
       const res = await fetch(url, { ...opts, signal: ctrl.signal });
-      clearTimeout(id);
+      clearTimeout(t);
 
       const retryAfter = Number(res.headers.get("retry-after") || 0) * 1000;
       const s = res.status;
-      const retryable = s === 429 || (s >= 500) || (s === 403 && retryAfter > 0);
-      if (retryable && a < retries) {
-        const delay = Math.max(backoffMs * 2 ** a, retryAfter);
-        console.warn(`[github] transient ${s}, retry in ${delay}ms`);
-        await sleep(delay);
+      const retryable = s === 429 || s >= 500 || (s === 403 && retryAfter > 0);
+      if (retryable && i < retries) {
+        await sleep(Math.max(backoffMs * 2 ** i, retryAfter));
         continue;
       }
       return res;
     } catch (e) {
-      clearTimeout(id);
-      if (a < retries) {
-        const delay = backoffMs * 2 ** a;
-        console.warn(`[github] fetch error: ${e?.name || e}. retry in ${delay}ms`);
-        await sleep(delay);
+      clearTimeout(t);
+      if (i < retries) {
+        await sleep(backoffMs * 2 ** i);
         continue;
       }
       throw e;
@@ -59,12 +55,8 @@ async function ghFetch(url, opts = {}, { retries = 3, backoffMs = 600, timeoutMs
   }
 }
 
-// ==== strict payload validator ====
-function validatePayload(body) {
+function validate(body) {
   const errors = [];
-
-  if (!body || typeof body !== "object") errors.push("payload 必須是 JSON 物件");
-
   const title = String(body?.title || "").trim();
   const description = String(body?.description || "").trim();
   const category = String(body?.category || "").trim().toLowerCase();
@@ -73,9 +65,8 @@ function validatePayload(body) {
   if (!ALLOWED_CATEGORIES.has(category)) errors.push("category 必須是 frontend|integration|ai|utility 其一");
 
   const spec = body?.spec;
-  if (!spec || typeof spec !== "object") {
-    errors.push("spec 必須存在且為物件");
-  } else {
+  if (!spec || typeof spec !== "object") errors.push("spec 必須存在且為物件");
+  else {
     const ins = Array.isArray(spec.inputs) ? spec.inputs : [];
     const outs = Array.isArray(spec.outputs) ? spec.outputs : [];
     if (ins.length === 0) errors.push("spec.inputs 至少 1 筆");
@@ -87,61 +78,52 @@ function validatePayload(body) {
   }
 
   const acceptance = Array.isArray(body?.acceptance) ? body.acceptance : [];
-  if (acceptance.length === 0) errors.push("acceptance（驗收條件）至少 1 筆");
+  if (acceptance.length === 0) errors.push("acceptance 至少 1 筆");
 
   const example = body?.example;
-  if (!example || typeof example !== "object") errors.push("example 必須存在（可為 I/O 範例或最小程式）");
+  if (!example || typeof example !== "object") errors.push("example 必須存在（I/O 範例或最小程式）");
 
   return { ok: errors.length === 0, errors, title, description, category };
 }
 
-// ==== routes ====
+// ====== 基本路由 ======
 app.use((req, _res, next) => { console.log(`[req] ${req.method} ${req.originalUrl}`); next(); });
-
-app.get("/", (_req, res) => {
-  res.json({ ok: true, service: "bot", hint: "try /health /bot /__routes /module-proposal (POST)" });
-});
+app.get("/", (_req, res) => res.json({ ok: true, service: "bot", hint: "try /health /bot /__routes /module-proposal (POST)" }));
 app.get("/health", (_req, res) => res.json({ status: "ok", ts: Date.now() }));
-app.get("/bot",    (_req, res) => res.json({ message: "Bot is running!" }));
+app.get("/bot", (_req, res) => res.json({ message: "Bot is running!" }));
 app.get("/__routes", (_req, res) => res.json({ routes: collectRoutes() }));
 
-// === THE ONE: create issue when payload is valid ===
+// ====== 提案：建立 GitHub Issue ======
 app.post("/module-proposal", async (req, res) => {
   try {
-    // 1) validate
-    const v = validatePayload(req.body);
+    // 驗證 payload
+    const v = validate(req.body || {});
     if (!v.ok) return res.status(400).json({ ok: false, reason: "invalid_payload", errors: v.errors });
 
-    // 2) env
+    // 讀取環境參數
     const token = process.env.GITHUB_TOKEN;
     const [owner, repo] = (process.env.GITHUB_REPO || "").split("/");
     if (!token || !owner || !repo) {
-      return res.status(500).json({ ok: false, error: "Missing GITHUB_TOKEN or GITHUB_REPO (expected owner/repo)" });
+      return res.status(500).json({ ok: false, error: "Missing GITHUB_TOKEN 或 GITHUB_REPO（需為 owner/repo）" });
     }
 
-    // 3) dedupe by title+category
-    const normalized = `${v.title.toLowerCase()}|${v.category}`;
-    const dedupe = hashKey(normalized);
+    // 去重：同 title+category
+    const dedupe = hash16(`${v.title.toLowerCase()}|${v.category}`);
     const dedupeFooter = `\n\n<!-- module-proposal-dedupe:${dedupe} -->`;
 
-    // 4) search existing open issues with same category & ready
-    const catLabel = CATEGORY_LABEL(v.category);
+    // 查重：找已存在的同類別 ready 的開啟 Issue
+    const catLabel = CAT_LABEL(v.category);
     const listUrl = `https://api.github.com/repos/${owner}/${repo}/issues?state=open&labels=${encodeURIComponent(`module:proposal,module-ready,${catLabel}`)}&per_page=100`;
     const listRes = await ghFetch(listUrl, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-        Accept: "application/vnd.github+json",
-        "User-Agent": "module-bot"
-      }
-    }, { retries: 2, backoffMs: 500, timeoutMs: 8000 });
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "User-Agent": "module-bot" }
+    });
     const list = listRes.ok ? await listRes.json() : [];
     const dup = Array.isArray(list) ? list.find(i => typeof i?.body === "string" && i.body.includes(dedupeFooter)) : null;
     if (dup?.number) {
       return res.json({ ok: true, deduped: true, category: v.category, issue_number: dup.number, issue_url: dup.html_url });
     }
 
-    // 5) compose issue
-    const labels = Array.from(new Set(["module:proposal", "module-ready", catLabel, ...(req.body?.labels || [])]));
+    // 組 Issue 內容
     const body =
 `## module spec
 - category: ${v.category}
@@ -156,7 +138,7 @@ ${(req.body.spec.inputs || []).map(i => `- ${i.name} (${i.type}) - ${i.desc}`).j
 ${(req.body.spec.outputs || []).map(o => `- ${o.name} (${o.type}) - ${o.desc}`).join("\n")}
 
 ### acceptance
-${(req.body.acceptance || []).map((a,idx)=>`${idx+1}. ${a}`).join("\n")}
+${(req.body.acceptance || []).map((a, i) => `${i + 1}. ${a}`).join("\n")}
 
 ### example
 \`\`\`json
@@ -168,27 +150,26 @@ ${JSON.stringify(req.body.example, null, 2)}
 - dedupe: ${dedupe}
 ${dedupeFooter}`;
 
-    // 6) create issue
-    const createRes = await ghFetch(
-      `https://api.github.com/repos/${owner}/${repo}/issues`,
-      {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${token}`,
-          Accept: "application/vnd.github+json",
-          "User-Agent": "module-bot",
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          title: v.title.trim(),
-          body,
-          labels,
-          assignees: req.body?.assignees || [],
-          milestone: req.body?.milestone
-        })
+    const labels = Array.from(new Set(["module:proposal", "module-ready", catLabel, ...(req.body?.labels || [])]));
+
+    // 建立 Issue
+    const createRes = await ghFetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/vnd.github+json",
+        "User-Agent": "module-bot",
+        "Content-Type": "application/json"
       },
-      { retries: 3, backoffMs: 800, timeoutMs: 12000 }
-    );
+      body: JSON.stringify({
+        title: v.title.trim(),
+        body,
+        labels,
+        assignees: req.body?.assignees || [],
+        milestone: req.body?.milestone
+      })
+    }, { retries: 3, backoffMs: 800, timeoutMs: 12000 });
+
     const data = await createRes.json();
     if (!createRes.ok || !data?.number) {
       console.error("[github] create issue failed:", createRes.status, data);
@@ -202,15 +183,9 @@ ${dedupeFooter}`;
   }
 });
 
-// JSON 404
+// 統一的 JSON 404
 app.use((req, res) => {
-  res.status(404).json({
-    ok: false,
-    error: "Route not found",
-    method: req.method,
-    path: req.originalUrl,
-    knownRoutes: collectRoutes()
-  });
+  res.status(404).json({ ok: false, error: "Route not found", method: req.method, path: req.originalUrl, knownRoutes: collectRoutes() });
 });
 
 app.listen(PORT, HOST, () => {
