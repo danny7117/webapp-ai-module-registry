@@ -6,12 +6,14 @@
   "type": "module",
   "scripts": {
     "dev": "node bot/index.js",
-    "start": "node bot/index.js"
+    "start": "node bot/index.js",
+    "validate": "node scripts/validate_modules.cjs"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "ajv": "^8.17.1"
   }
 }
