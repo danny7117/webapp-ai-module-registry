@@ -4,7 +4,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const Ajv = require("ajv");
+const Ajv = require("ajv/dist/2020");  // ← 使用 2020 規格
 
 const REPO_ROOT = path.resolve(__dirname, "..");
 const MODULES_DIR = path.resolve(REPO_ROOT, "modules");
