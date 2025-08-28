@@ -1,218 +1,141 @@
-#!/usr/bin/env node
-/* scripts/validate_and_fix.cjs
- * Validate & auto-fix modules JSON under ./modules
- * Usage:
- *   node scripts/validate_and_fix.cjs --project="BrandCraft AI"
- * Options:
- *   --project : human readable project name written to tags/source.project
- */
+// scripts/validate_and_fix.cjs
+// 目的：一次性檢查與修補 BrandCraft modules：id / slug / tags / source / project
+// 使用：node scripts/validate_and_fix.cjs --project="BrandCraft AI" --source=import-2025-08-28
 
-const fs = require('fs');
-const path = require('path');
+import fs from "fs";
+import path from "path";
+import crypto from "crypto";
 
-function readEnv() {
-  const envPath = path.join(process.cwd(), '.env');
-  const out = {};
-  if (fs.existsSync(envPath)) {
-    const raw = fs.readFileSync(envPath, 'utf8');
-    for (const line of raw.split(/\r?\n/)) {
-      const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/i);
-      if (m) out[m[1]] = m[2];
-    }
-  }
-  return out;
-}
-const ENV = readEnv();
+const MOD_DIR = "modules";
+const FILES = {
+  all:        "brandcraft_modules_all.json",
+  core:       "brandcraft_modules_core.json",
+  utility:    "brandcraft_modules_utility.json",
+  creative:   "brandcraft_modules_creative.json",
+  business:   "brandcraft_modules_business.json",
+};
+const REGISTRY = "registry.json";
 
-function slug(s) {
-  return String(s || '')
+// 讀 CLI 參數
+const args = Object.fromEntries(
+  process.argv.slice(2).map(s => {
+    const m = s.match(/^--([^=]+)=(.*)$/);
+    return m ? [m[1], m[2]] : [s.replace(/^--/, ""), true];
+  })
+);
+const PROJECT = args.project || "BrandCraft AI";
+const SOURCE  = args.source  || "import";
+
+// 小工具
+const readJSON = p => JSON.parse(fs.readFileSync(p, "utf8"));
+const writeJSON = (p, data) =>
+  fs.writeFileSync(p, JSON.stringify(data, null, 2), "utf8");
+
+const slugify = s =>
+  String(s || "")
     .trim()
     .toLowerCase()
-    .replace(/[^\p{Letter}\p{Number}]+/gu, '-')
-    .replace(/^-+|-+$/g, '');
-}
+    .replace(/[^\p{L}\p{N}]+/gu, "-")
+    .replace(/^-+|-+$/g, "");
 
-function uniq(arr) {
-  return Array.from(new Set(arr.filter(Boolean)));
-}
+const makeId = name => {
+  const base = slugify(name) || "mod";
+  const rand = crypto.randomBytes(3).toString("hex");
+  return `${base}-${rand}`;
+};
 
-function parseJSON(p) {
-  try {
-    return JSON.parse(fs.readFileSync(p, 'utf8'));
-  } catch (e) {
-    return { __error: e.message };
-  }
-}
+const ensureArray = v => (Array.isArray(v) ? v : v ? [v] : []);
 
-function writeJSON(p, data) {
-  fs.writeFileSync(p, JSON.stringify(data, null, 2));
-}
-
-function nowISO() {
-  return new Date().toISOString();
-}
-
-function ensureCategoryFromFilename(file) {
-  const m = file.match(/_(core|utility|creative|business)\.json$/);
-  return m ? m[1] : null;
-}
-
-function projectKeyFromFilename(file) {
-  // brandcraft_modules_core.json -> brandcraft
-  const m = path.basename(file).match(/^(.+?)_modules_/);
-  return m ? m[1] : 'ugc';
-}
-
-function humanProjectNameDefault(key) {
-  // small mapping if needed; otherwise title case of key
-  return key.replace(/(^|[-_])(\w)/g, (_, __, c) => c.toUpperCase());
-}
-
-function ensureModuleShape(mod, cat, key, humanProject) {
-  const fixed = { ...mod };
-  // name
-  fixed.name = String(fixed.name || '').trim();
-  // category
-  fixed.category = fixed.category || cat || 'core';
-  // description
-  if (fixed.description && typeof fixed.description === 'string') {
-    fixed.description = fixed.description.trim();
-  }
-  // tags
-  fixed.tags = Array.isArray(fixed.tags) ? fixed.tags : [];
-  if (!fixed.tags.some(t => /^project:/i.test(t))) {
-    fixed.tags.push(`project:${humanProject}`);
-  }
-  fixed.tags = uniq(fixed.tags.map(s => String(s).trim()).filter(Boolean));
-  // source
-  fixed.source = fixed.source || {};
-  fixed.source.project = fixed.source.project || humanProject;
-  // owner
-  fixed.owner = fixed.owner || ENV.OWNER || 'unknown';
-  // status/version
-  fixed.status = fixed.status || 'stable';
-  fixed.version = fixed.version || '1.0.0';
-  // createdAt
-  fixed.createdAt = fixed.createdAt || nowISO();
+const fixOne = (m) => {
   // id
-  if (!fixed.id) {
-    const s = slug(fixed.name) || ('mod-' + Math.random().toString(36).slice(2, 8));
-    fixed.id = `${key}/${s}`;
+  if (!m.id || typeof m.id !== "string" || !m.id.trim()) {
+    m.id = makeId(m.name || m.title || "module");
   }
-  return fixed;
+
+  // slug
+  if (!m.slug) m.slug = slugify(m.name || m.title || m.id);
+
+  // project / source
+  if (!m.project) m.project = PROJECT;
+  if (!m.source)  m.source  = SOURCE;
+
+  // tags：至少放入 project, source, category
+  const tags = new Set(ensureArray(m.tags));
+  tags.add(`project:${slugify(PROJECT)}`);
+  tags.add(`source:${slugify(SOURCE)}`);
+  if (m.category) tags.add(`category:${String(m.category).toLowerCase()}`);
+  m.tags = Array.from(tags);
+
+  // 確保必要欄位存在
+  if (!m.name)  m.name  = m.title || m.slug || m.id;
+  if (!m.title) m.title = m.name;
+
+  return m;
+};
+
+const fixList = (arr, cat) => arr.map(x => fixOne({ ...x, category: cat }));
+
+// 讀檔
+const pAll      = path.join(MOD_DIR, FILES.all);
+const pCore     = path.join(MOD_DIR, FILES.core);
+const pUtil     = path.join(MOD_DIR, FILES.utility);
+const pCreative = path.join(MOD_DIR, FILES.creative);
+const pBiz      = path.join(MOD_DIR, FILES.business);
+
+const all      = readJSON(pAll);
+const core     = readJSON(pCore);
+const utility  = readJSON(pUtil);
+const creative = readJSON(pCreative);
+const business = readJSON(pBiz);
+
+// 逐類別修補
+const fixed = {
+  core:     fixList(core,     "core"),
+  utility:  fixList(utility,  "utility"),
+  creative: fixList(creative, "creative"),
+  business: fixList(business, "business"),
+};
+const allMap = new Map();
+for (const cat of ["core","utility","creative","business"]) {
+  for (const m of fixed[cat]) allMap.set(m.id, m);
 }
-
-function scanModulesDir() {
-  const dir = path.join(process.cwd(), 'modules');
-  const files = fs.readdirSync(dir)
-    .filter(f => /_modules_(all|core|utility|creative|business)\.json$/i.test(f))
-    .map(f => path.join(dir, f));
-  return files.sort();
+// 以類別合併為 all；若 all 原本有其他欄位，仍以修補後覆蓋
+for (const m of all) {
+  const fixedOne = fixOne(m);
+  allMap.set(fixedOne.id, fixedOne);
 }
+const mergedAll = Array.from(allMap.values());
 
-function summarize(arr) {
-  const out = { total: arr.length, core:0, utility:0, creative:0, business:0 };
-  for (const m of arr) {
-    if (out[m.category] != null) out[m.category] += 1;
-  }
-  return out;
-}
+// registry.json：只更新 BrandCraft 的入口，其他專案不動
+const regPath = path.join(MOD_DIR, REGISTRY);
+let registry = fs.existsSync(regPath) ? readJSON(regPath) : { modules: [] };
 
-(function main() {
-  const args = process.argv.slice(2);
-  const argProject = (args.find(a => a.startsWith('--project=')) || '').split('=')[1];
+// 建立/更新 BrandCraft 區段
+const regIdx = registry.modules.findIndex(x => x && x.name === "BrandCraft AI");
+const regEntry = {
+  name: "BrandCraft AI",
+  slug: "brandcraft-ai",
+  files: Object.values(FILES),
+  count: {
+    all: mergedAll.length,
+    core: fixed.core.length,
+    utility: fixed.utility.length,
+    creative: fixed.creative.length,
+    business: fixed.business.length
+  },
+  updatedAt: new Date().toISOString()
+};
+if (regIdx >= 0) registry.modules[regIdx] = regEntry;
+else registry.modules.push(regEntry);
 
-  const files = scanModulesDir();
-  if (files.length === 0) {
-    console.error('No modules files found under ./modules');
-    process.exit(1);
-  }
+// 寫回
+writeJSON(pAll,      mergedAll);
+writeJSON(pCore,     fixed.core);
+writeJSON(pUtil,     fixed.utility);
+writeJSON(pCreative, fixed.creative);
+writeJSON(pBiz,      fixed.business);
+writeJSON(regPath,   registry);
 
-  const bucketsByKey = {}; // key -> { core:[], utility:[], creative:[], business:[] }
-  const reports = [];
-  const dedupSet = new Set();
-
-  for (const file of files) {
-    const data = parseJSON(file);
-    if (data.__error) {
-      reports.push({ file, error: `JSON parse error: ${data.__error}` });
-      continue;
-    }
-    const key = projectKeyFromFilename(file);
-    const humanProject = argProject || ENV.PROJECT || humanProjectNameDefault(key);
-    const catFromName = ensureCategoryFromFilename(file);
-
-    const fixed = [];
-    for (const raw of data) {
-      const m = ensureModuleShape(raw, catFromName, key, humanProject);
-      // dedup by id
-      let id = m.id;
-      let tries = 1;
-      while (dedupSet.has(id)) {
-        tries++;
-        id = `${m.id}-v${tries}`;
-      }
-      if (id !== m.id) m.id = id;
-      dedupSet.add(m.id);
-      fixed.push(m);
-    }
-
-    // put into buckets by key and category
-    const bk = bucketsByKey[key] || (bucketsByKey[key] = { core:[], utility:[], creative:[], business:[] });
-    if (catFromName) {
-      bk[catFromName].push(...fixed);
-    } else {
-      // unknown -> 分派到其 m.category
-      for (const m of fixed) {
-        if (bk[m.category]) bk[m.category].push(m);
-        else bk.core.push(m);
-      }
-    }
-
-    // 覆寫當前檔案（修補後）
-    writeJSON(file, fixed);
-  }
-
-  // 依 key 重建 *_modules_all.json + registry
-  const registry = [];
-  for (const [key, cats] of Object.entries(bucketsByKey)) {
-    const dir = path.join(process.cwd(), 'modules');
-    const allFile = path.join(dir, `${key}_modules_all.json`);
-    const allArr = [...cats.core, ...cats.utility, ...cats.creative, ...cats.business];
-    writeJSON(allFile, allArr);
-
-    const summary = {
-      key,
-      counts: {
-        core: cats.core.length,
-        utility: cats.utility.length,
-        creative: cats.creative.length,
-        business: cats.business.length,
-        all: allArr.length,
-      }
-    };
-    registry.push(summary);
-  }
-
-  // modules/registry.json（全體摘要）
-  writeJSON(path.join(process.cwd(), 'modules', 'registry.json'), {
-    generatedAt: nowISO(),
-    projects: registry
-  });
-
-  // console 報表
-  console.log('==== Validate & Fix Report ====');
-  for (const r of registry) {
-    console.log(
-      `${r.key}: all=${r.counts.all} ` +
-      `(core=${r.counts.core}, utility=${r.counts.utility}, creative=${r.counts.creative}, business=${r.counts.business})`
-    );
-  }
-  if (reports.length) {
-    console.log('\nErrors:');
-    for (const e of reports) console.log('-', e.file, '=>', e.error);
-    process.exitCode = 1;
-  } else {
-    console.log('\nOK: all files fixed & summarized.');
-  }
-})();
+// 簡報
+console.log("[OK] fixed BrandCraft modules");
+console.log(regEntry.count);
