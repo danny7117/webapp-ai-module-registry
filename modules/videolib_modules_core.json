@@ -1,0 +1,98 @@
+[
+  {
+    "id": 3,
+    "name": "Google 登入模組｜僅允許使用 Google 帳號登入系統。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 9,
+    "name": "YouTube API 嵌入模組｜支援嵌入 YouTube 影片播放。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 10,
+    "name": "Facebook API 嵌入模組｜支援嵌入 Facebook 影片播放。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 22,
+    "name": "離線緩存模組｜允許暫時下載影片縮圖與資訊供離線瀏覽。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 30,
+    "name": "API 健康檢查模組｜監控 API 狀態並提供通報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 35,
+    "name": "安全性與權限管理模組｜提供權限管控與安全措施。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 43,
+    "name": "行事曆同步模組｜將影片提醒同步到行事曆。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 44,
+    "name": "跨裝置提醒模組｜支援跨裝置提醒通知。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 50,
+    "name": "跨裝置同步模組｜支援不同裝置間的收藏同步。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 52,
+    "name": "API 自學模組｜系統自動學習新平台 API 支援。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 54,
+    "name": "API 心跳檢查模組｜定期檢查 API 是否正常運作。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 55,
+    "name": "API 異常通知模組｜偵測 API 異常時發送通知。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 56,
+    "name": "API 日誌報告模組｜集中生成 API 使用與異常報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 69,
+    "name": "登入權限控管模組｜提供登入權限分級機制。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 70,
+    "name": "分類權限控管模組｜允許依分類設定權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 71,
+    "name": "共享權限控管模組｜允許設定影片共享的權限範圍。",
+    "desc": "",
+    "category": "core"
+  }
+]

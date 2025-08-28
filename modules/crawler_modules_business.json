@@ -1,0 +1,38 @@
+[
+  {
+    "id": 2,
+    "name": "Facebook 粉專互動擷取模組｜抓取粉專按讚、留言、分享名單，用於分析與導流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3,
+    "name": "Instagram 追蹤名單爬取模組｜擷取粉絲追蹤清單，方便後續分類與行銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5,
+    "name": "LINE 導流名單整合模組｜將爬取的社群名單導入 LINE 官方帳號，方便後續推播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 6,
+    "name": "LINE 自動分眾模組｜依據互動紀錄自動套用標籤，完成分眾分類。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 15,
+    "name": "跨平台引流模組｜將爬取的名單自動分流到 LINE、Mailchimp、CRM。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 17,
+    "name": "名單分層 CRM 模組｜把名單轉化為 CRM 客戶層級（潛在 / 已成交 / 高價值）。",
+    "desc": "",
+    "category": "business"
+  }
+]

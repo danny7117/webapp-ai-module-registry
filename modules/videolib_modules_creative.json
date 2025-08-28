@@ -1,0 +1,128 @@
+[
+  {
+    "id": 4,
+    "name": "小窗播放模組｜支援影片小窗播放，方便多工操作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 5,
+    "name": "分類背景切換模組｜切換分類時，背景會有細微變化以強化辨識。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 6,
+    "name": "一鍵播放模組｜允許使用者一鍵播放某分類下的所有影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 7,
+    "name": "語言切換模組｜支援中文與英文介面切換。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 8,
+    "name": "UI 主題模組｜介面設計為黑白科技感，保持一致性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 17,
+    "name": "下一部影片快捷鍵｜提供按鍵快速切換下一部影片播放。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 18,
+    "name": "播放進度提示模組｜顯示影片播放進度條提示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 19,
+    "name": "影片進度儲存模組｜自動儲存影片的播放進度，方便下次繼續。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 23,
+    "name": "簡易分享模組｜允許快速分享影片連結至外部平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 24,
+    "name": "AI 自動摘要影片重點｜自動偵測影片內容並生成摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 32,
+    "name": "AI 推薦引擎模組｜根據偏好與熱門內容進行推薦。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 33,
+    "name": "影片分享模組｜允許使用者分享影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 36,
+    "name": "AI 自動摘要生成模組｜AI 自動產生影片重點摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 37,
+    "name": "AI 標籤生成模組｜AI 自動產生影片關鍵字標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 38,
+    "name": "摘要分享模組｜允許一鍵分享 AI 產生的摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 46,
+    "name": "熱門分類排行模組｜依分類生成熱門影片排行。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 60,
+    "name": "個人化推薦模組｜AI 根據使用者偏好推薦影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 61,
+    "name": "熱門推薦模組｜自動推薦熱門影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 62,
+    "name": "跨分類推薦模組｜提供跨分類的影片推薦。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 63,
+    "name": "連結分享模組｜允許複製影片連結進行分享。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 64,
+    "name": "社群分享模組｜支援分享到 Facebook/Twitter/LINE 等社群。",
+    "desc": "",
+    "category": "creative"
+  }
+]

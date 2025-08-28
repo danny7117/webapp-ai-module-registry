@@ -1,0 +1,428 @@
+[
+  {
+    "id": 1,
+    "name": "影片收藏模組｜允許使用者將影片網址收藏，並自動擷取縮圖與標題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2,
+    "name": "分類管理模組｜提供預設7類分類，並支援使用者自訂新增分類。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3,
+    "name": "Google 登入模組｜僅允許使用 Google 帳號登入系統。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4,
+    "name": "小窗播放模組｜支援影片小窗播放，方便多工操作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 5,
+    "name": "分類背景切換模組｜切換分類時，背景會有細微變化以強化辨識。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 6,
+    "name": "一鍵播放模組｜允許使用者一鍵播放某分類下的所有影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 7,
+    "name": "語言切換模組｜支援中文與英文介面切換。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 8,
+    "name": "UI 主題模組｜介面設計為黑白科技感，保持一致性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 9,
+    "name": "YouTube API 嵌入模組｜支援嵌入 YouTube 影片播放。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 10,
+    "name": "Facebook API 嵌入模組｜支援嵌入 Facebook 影片播放。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 11,
+    "name": "收藏清單模組｜集中展示使用者收藏的影片列表。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 12,
+    "name": "快速搜尋模組｜支援以標題或關鍵字快速搜尋影片。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 13,
+    "name": "分類瀏覽模組｜允許使用者依分類檢視影片。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 14,
+    "name": "收藏排序模組｜支援依日期、標題或熱度排序影片。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 15,
+    "name": "收藏刪除模組｜允許使用者刪除收藏的影片。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 16,
+    "name": "收藏星號標記模組｜允許使用者將特定影片標記為重點收藏。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 17,
+    "name": "下一部影片快捷鍵｜提供按鍵快速切換下一部影片播放。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 18,
+    "name": "播放進度提示模組｜顯示影片播放進度條提示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 19,
+    "name": "影片進度儲存模組｜自動儲存影片的播放進度，方便下次繼續。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 20,
+    "name": "分類顏色自訂模組｜允許使用者自訂分類顏色。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 21,
+    "name": "影片標籤模組｜允許使用者為影片新增自訂標籤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 22,
+    "name": "離線緩存模組｜允許暫時下載影片縮圖與資訊供離線瀏覽。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 23,
+    "name": "簡易分享模組｜允許快速分享影片連結至外部平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 24,
+    "name": "AI 自動摘要影片重點｜自動偵測影片內容並生成摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 25,
+    "name": "筆記功能模組｜允許使用者對影片添加筆記與備註。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 26,
+    "name": "定時提醒模組｜允許設定追片提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 27,
+    "name": "收藏排行榜模組｜統計收藏影片的排行與數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 28,
+    "name": "多帳號切換模組｜支援多使用者帳號切換與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 29,
+    "name": "未知網址自學模組｜自動學習並支援新來源平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 30,
+    "name": "API 健康檢查模組｜監控 API 狀態並提供通報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 31,
+    "name": "測試者回饋模組｜收集並分析使用者測試回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 32,
+    "name": "AI 推薦引擎模組｜根據偏好與熱門內容進行推薦。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 33,
+    "name": "影片分享模組｜允許使用者分享影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 34,
+    "name": "智慧搜尋模組｜支援標題、標籤與語意搜尋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 35,
+    "name": "安全性與權限管理模組｜提供權限管控與安全措施。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 36,
+    "name": "AI 自動摘要生成模組｜AI 自動產生影片重點摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 37,
+    "name": "AI 標籤生成模組｜AI 自動產生影片關鍵字標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 38,
+    "name": "摘要分享模組｜允許一鍵分享 AI 產生的摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 39,
+    "name": "影片筆記模組｜允許使用者新增影片文字筆記。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 40,
+    "name": "時間軸註解模組｜支援在影片時間軸上插入註解。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 41,
+    "name": "筆記標籤分類模組｜允許對筆記進行分類標籤管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 42,
+    "name": "追片提醒模組｜支援設定影片觀看提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 43,
+    "name": "行事曆同步模組｜將影片提醒同步到行事曆。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 44,
+    "name": "跨裝置提醒模組｜支援跨裝置提醒通知。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 45,
+    "name": "觀看次數排行模組｜統計影片被收藏與觀看的次數排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 46,
+    "name": "熱門分類排行模組｜依分類生成熱門影片排行。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 47,
+    "name": "收藏數據分析模組｜提供個人化的收藏與觀看統計分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 48,
+    "name": "帳號切換模組｜允許快速切換不同使用者帳號。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 49,
+    "name": "收藏匯出模組｜允許將收藏清單匯出為檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 50,
+    "name": "跨裝置同步模組｜支援不同裝置間的收藏同步。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 51,
+    "name": "平台偵測模組｜自動偵測影片來源平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 52,
+    "name": "API 自學模組｜系統自動學習新平台 API 支援。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 53,
+    "name": "手動平台補充模組｜允許使用者手動新增平台支援。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 54,
+    "name": "API 心跳檢查模組｜定期檢查 API 是否正常運作。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 55,
+    "name": "API 異常通知模組｜偵測 API 異常時發送通知。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 56,
+    "name": "API 日誌報告模組｜集中生成 API 使用與異常報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 57,
+    "name": "回饋表單模組｜允許測試者填寫功能回饋表單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 58,
+    "name": "回饋分析模組｜系統自動分析測試者回饋內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 59,
+    "name": "回饋追蹤模組｜追蹤回饋的處理與解決狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 60,
+    "name": "個人化推薦模組｜AI 根據使用者偏好推薦影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 61,
+    "name": "熱門推薦模組｜自動推薦熱門影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 62,
+    "name": "跨分類推薦模組｜提供跨分類的影片推薦。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 63,
+    "name": "連結分享模組｜允許複製影片連結進行分享。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 64,
+    "name": "社群分享模組｜支援分享到 Facebook/Twitter/LINE 等社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 65,
+    "name": "內部共享模組｜允許在平台內部用戶間共享影片。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 66,
+    "name": "標題搜尋模組｜支援以標題進行影片搜尋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 67,
+    "name": "標籤搜尋模組｜允許依標籤搜尋影片。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 68,
+    "name": "語意搜尋模組｜AI 提供語意型搜尋功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 69,
+    "name": "登入權限控管模組｜提供登入權限分級機制。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 70,
+    "name": "分類權限控管模組｜允許依分類設定權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 71,
+    "name": "共享權限控管模組｜允許設定影片共享的權限範圍。",
+    "desc": "",
+    "category": "core"
+  }
+]

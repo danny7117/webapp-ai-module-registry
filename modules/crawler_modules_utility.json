@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Facebook 社團名單擷取模組｜自動爬取特定 Facebook 社團內的會員名單、互動紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 7,
+    "name": "TikTok 名單擷取模組｜爬取 TikTok 使用者清單，支援互動數據收集。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 8,
+    "name": "TikTok 熱門影音擷取模組｜自動抓取熱門影片清單，蒐集流量趨勢數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 9,
+    "name": "Shopee 賣家名單擷取模組｜自動搜尋特定品類的 Shopee 賣家名單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 11,
+    "name": "小紅書用戶名單擷取模組｜擷取小紅書熱門帳號與粉絲數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 13,
+    "name": "自動化社群留言互動器｜針對爬取的名單自動發送互動留言，加強存在感。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 14,
+    "name": "跨平台名單清洗模組｜去重、格式化不同平台擷取的名單，整合成乾淨資料庫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 19,
+    "name": "名單追蹤回訪模組｜定期檢查名單是否持續活躍，更新最新狀態。",
+    "desc": "",
+    "category": "utility"
+  }
+]

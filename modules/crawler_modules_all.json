@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Facebook 社團名單擷取模組｜自動爬取特定 Facebook 社團內的會員名單、互動紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2,
+    "name": "Facebook 粉專互動擷取模組｜抓取粉專按讚、留言、分享名單，用於分析與導流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3,
+    "name": "Instagram 追蹤名單爬取模組｜擷取粉絲追蹤清單，方便後續分類與行銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4,
+    "name": "Instagram Hashtag 搜索模組｜自動抓取特定標籤下的貼文與用戶名單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 5,
+    "name": "LINE 導流名單整合模組｜將爬取的社群名單導入 LINE 官方帳號，方便後續推播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 6,
+    "name": "LINE 自動分眾模組｜依據互動紀錄自動套用標籤，完成分眾分類。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 7,
+    "name": "TikTok 名單擷取模組｜爬取 TikTok 使用者清單，支援互動數據收集。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 8,
+    "name": "TikTok 熱門影音擷取模組｜自動抓取熱門影片清單，蒐集流量趨勢數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 9,
+    "name": "Shopee 賣家名單擷取模組｜自動搜尋特定品類的 Shopee 賣家名單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 10,
+    "name": "Shopee 聊聊自動私訊模組｜針對賣家自動發送洽談訊息（需風險評估）。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 11,
+    "name": "小紅書用戶名單擷取模組｜擷取小紅書熱門帳號與粉絲數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 12,
+    "name": "小紅書互動模組｜自動化留言互動（需評估合規風險）。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 13,
+    "name": "自動化社群留言互動器｜針對爬取的名單自動發送互動留言，加強存在感。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 14,
+    "name": "跨平台名單清洗模組｜去重、格式化不同平台擷取的名單，整合成乾淨資料庫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 15,
+    "name": "跨平台引流模組｜將爬取的名單自動分流到 LINE、Mailchimp、CRM。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 16,
+    "name": "帳號矩陣管理模組｜支援多帳號同時登入、排程操作，提高爬蟲分散性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 17,
+    "name": "名單分層 CRM 模組｜把名單轉化為 CRM 客戶層級（潛在 / 已成交 / 高價值）。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 18,
+    "name": "開箱內容生成模組｜針對爬取的賣家商品自動生成「測試文案 / 開箱文」。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 19,
+    "name": "名單追蹤回訪模組｜定期檢查名單是否持續活躍，更新最新狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 20,
+    "name": "風險控管稽核模組｜針對平台反爬規則、自動調整爬取頻率，降低封鎖風險。",
+    "desc": "",
+    "category": "core"
+  }
+]
