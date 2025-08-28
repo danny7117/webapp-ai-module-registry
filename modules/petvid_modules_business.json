@@ -1,0 +1,1064 @@
+[
+  {
+    "id": 1,
+    "name": "會員登入與註冊模組",
+    "category": "business",
+    "desc": "提供用戶建立帳號、登入、社群帳號綁定功能，支援多語系註冊流程。"
+  },
+  {
+    "id": 54,
+    "name": "動畫語音轉字幕模組",
+    "category": "business",
+    "desc": "自動將語音轉換為字幕，並支援翻譯。"
+  },
+  {
+    "id": 74,
+    "name": "動畫公益模組",
+    "category": "business",
+    "desc": "允許創作者參與公益活動，影片收益可捐出。"
+  },
+  {
+    "id": 75,
+    "name": "動畫商業授權模組",
+    "category": "business",
+    "desc": "提供影片商業使用授權，並自動生成授權書。"
+  },
+  {
+    "id": 76,
+    "name": "動畫NFT收藏模組",
+    "category": "business",
+    "desc": "允許將影片轉換為NFT收藏與交易。"
+  },
+  {
+    "id": 82,
+    "name": "動畫儲值模組",
+    "category": "business",
+    "desc": "允許用戶透過金流儲值平台幣。"
+  },
+  {
+    "id": 85,
+    "name": "動畫廣告植入模組",
+    "category": "business",
+    "desc": "允許在影片中插入廣告素材。"
+  },
+  {
+    "id": 86,
+    "name": "動畫會員方案模組",
+    "category": "business",
+    "desc": "提供不同會員方案（免費、進階、商務），差異化功能。"
+  },
+  {
+    "id": 95,
+    "name": "動畫流量來源分析模組",
+    "category": "business",
+    "desc": "追蹤影片流量來源（社群、廣告、自然流量）。"
+  },
+  {
+    "id": 118,
+    "name": "字幕自動摘要模組",
+    "category": "business",
+    "desc": "AI將字幕轉換成簡短摘要。"
+  },
+  {
+    "id": 121,
+    "name": "寵物動作捕捉模組",
+    "category": "business",
+    "desc": "支援用戶上傳影片，AI捕捉寵物動作並轉換為動畫。"
+  },
+  {
+    "id": 123,
+    "name": "寵物聲音捕捉模組",
+    "category": "business",
+    "desc": "上傳寵物叫聲，AI將聲音轉換為動畫角色語音。"
+  },
+  {
+    "id": 147,
+    "name": "語錄卡動畫化模組",
+    "category": "business",
+    "desc": "將語錄卡自動轉換為短動畫。"
+  },
+  {
+    "id": 156,
+    "name": "社群挑戰活動模組",
+    "category": "business",
+    "desc": "平台定期舉辦挑戰賽，提升互動性。"
+  },
+  {
+    "id": 158,
+    "name": "社群投票模組",
+    "category": "business",
+    "desc": "允許用戶參與平台級投票，影響官方活動。"
+  },
+  {
+    "id": 160,
+    "name": "社群活動回顧模組",
+    "category": "business",
+    "desc": "自動生成平台活動回顧短片。"
+  },
+  {
+    "id": 164,
+    "name": "創作者贊助模組",
+    "category": "business",
+    "desc": "允許粉絲贊助喜愛的創作者。"
+  },
+  {
+    "id": 175,
+    "name": "平台廣告模組",
+    "category": "business",
+    "desc": "允許品牌購買平台廣告曝光。"
+  },
+  {
+    "id": 176,
+    "name": "平台活動模組",
+    "category": "business",
+    "desc": "支援官方活動的設計與推送。"
+  },
+  {
+    "id": 177,
+    "name": "平台會員模組",
+    "category": "business",
+    "desc": "提供不同會員等級與差異化服務。"
+  },
+  {
+    "id": 178,
+    "name": "平台通知模組",
+    "category": "business",
+    "desc": "集中推送系統通知與活動提醒。"
+  },
+  {
+    "id": 179,
+    "name": "平台數據分析模組",
+    "category": "business",
+    "desc": "提供平台營運數據，支援決策分析。"
+  },
+  {
+    "id": 194,
+    "name": "公益合作模組",
+    "category": "business",
+    "desc": "平台可與公益組織合作推廣活動。"
+  },
+  {
+    "id": 195,
+    "name": "公益獎勵模組",
+    "category": "business",
+    "desc": "參與公益活動可獲得專屬徽章或獎勵。"
+  },
+  {
+    "id": 196,
+    "name": "公益數據模組",
+    "category": "business",
+    "desc": "統計公益活動的參與度與影響力。"
+  },
+  {
+    "id": 198,
+    "name": "公益直播模組",
+    "category": "business",
+    "desc": "支援公益活動的即時直播。"
+  },
+  {
+    "id": 201,
+    "name": "商業授權管理模組",
+    "category": "business",
+    "desc": "統一管理影片的商業授權，允許創作者設定授權條件並追蹤使用紀錄。"
+  },
+  {
+    "id": 203,
+    "name": "廣告收益分配模組",
+    "category": "business",
+    "desc": "根據觀看數與互動量，自動計算並分配廣告收益。"
+  },
+  {
+    "id": 204,
+    "name": "NFT 生成模組",
+    "category": "business",
+    "desc": "允許用戶將完成的動畫轉換為 NFT，並支援交易平台上架。"
+  },
+  {
+    "id": 214,
+    "name": "影片格式轉換模組",
+    "category": "business",
+    "desc": "允許導出多種影片格式（MP4、AVI、MOV）。"
+  },
+  {
+    "id": 215,
+    "name": "影片加密模組",
+    "category": "business",
+    "desc": "影片導出後可選擇加密，防止未授權使用。"
+  },
+  {
+    "id": 248,
+    "name": "金流支付模組",
+    "category": "business",
+    "desc": "整合多種支付方式（信用卡、行動支付、加密貨幣）。"
+  },
+  {
+    "id": 249,
+    "name": "訂閱方案模組",
+    "category": "business",
+    "desc": "提供不同訂閱方案與對應功能限制。"
+  },
+  {
+    "id": 250,
+    "name": "退款管理模組",
+    "category": "business",
+    "desc": "支援訂單退款申請與流程。"
+  },
+  {
+    "id": 253,
+    "name": "金流風險控管模組",
+    "category": "business",
+    "desc": "即時檢測異常支付行為，防止詐騙。"
+  },
+  {
+    "id": 255,
+    "name": "促銷活動模組",
+    "category": "business",
+    "desc": "允許平台發起促銷活動，支援折扣與限時方案。"
+  },
+  {
+    "id": 268,
+    "name": "大獎池模組",
+    "category": "business",
+    "desc": "平台提供大型獎池活動，提升互動。"
+  },
+  {
+    "id": 270,
+    "name": "抽獎提醒模組",
+    "category": "business",
+    "desc": "提醒用戶參與抽獎活動。"
+  },
+  {
+    "id": 411,
+    "name": "字幕聲音導讀模組",
+    "category": "business",
+    "desc": "自動將字幕轉換為語音播放。"
+  },
+  {
+    "id": 421,
+    "name": "寵物語音模擬模組",
+    "category": "business",
+    "desc": "AI 將寵物叫聲轉換為擬人語音。"
+  },
+  {
+    "id": 436,
+    "name": "社群語音活動模組",
+    "category": "business",
+    "desc": "平台舉辦語音互動挑戰活動。"
+  },
+  {
+    "id": 443,
+    "name": "創作者語音授權模組",
+    "category": "business",
+    "desc": "允許語音素材進行授權交易。"
+  },
+  {
+    "id": 445,
+    "name": "創作者語音挑戰模組",
+    "category": "business",
+    "desc": "創作者可舉辦語音挑戰活動。"
+  },
+  {
+    "id": 450,
+    "name": "創作者語音展演模組",
+    "category": "business",
+    "desc": "支援語音創作者舉辦展演活動。"
+  },
+  {
+    "id": 460,
+    "name": "平台語音廣告模組",
+    "category": "business",
+    "desc": "允許廣告主以語音形式投放廣告。"
+  },
+  {
+    "id": 471,
+    "name": "公益語音模組",
+    "category": "business",
+    "desc": "公益活動中加入語音互動與宣傳。"
+  },
+  {
+    "id": 472,
+    "name": "公益語音挑戰模組",
+    "category": "business",
+    "desc": "平台舉辦公益語音挑戰活動。"
+  },
+  {
+    "id": 474,
+    "name": "公益語音直播模組",
+    "category": "business",
+    "desc": "公益活動支援語音直播。"
+  },
+  {
+    "id": 475,
+    "name": "公益語音獎勵模組",
+    "category": "business",
+    "desc": "參與公益語音活動可獲得獎勵。"
+  },
+  {
+    "id": 476,
+    "name": "公益語音回顧模組",
+    "category": "business",
+    "desc": "生成公益活動語音回顧。"
+  },
+  {
+    "id": 477,
+    "name": "公益語音榮譽牆模組",
+    "category": "business",
+    "desc": "展示公益語音活動的優秀參與者。"
+  },
+  {
+    "id": 478,
+    "name": "公益語音數據模組",
+    "category": "business",
+    "desc": "統計公益語音活動的參與數據。"
+  },
+  {
+    "id": 479,
+    "name": "公益語音廣告模組",
+    "category": "business",
+    "desc": "允許廣告主在公益活動中投放語音廣告。"
+  },
+  {
+    "id": 480,
+    "name": "公益語音分潤模組",
+    "category": "business",
+    "desc": "公益活動收益可分潤給合作單位。"
+  },
+  {
+    "id": 490,
+    "name": "觀眾語音徽章模組",
+    "category": "business",
+    "desc": "觀眾參與語音活動可獲得徽章。"
+  },
+  {
+    "id": 491,
+    "name": "平台語音活動模組",
+    "category": "business",
+    "desc": "官方可舉辦語音互動主題活動。"
+  },
+  {
+    "id": 493,
+    "name": "平台語音回顧模組",
+    "category": "business",
+    "desc": "自動生成平台語音活動回顧。"
+  },
+  {
+    "id": 494,
+    "name": "平台語音榮譽牆模組",
+    "category": "business",
+    "desc": "展示平台語音活動的優秀參與者。"
+  },
+  {
+    "id": 496,
+    "name": "平台語音獎勵模組",
+    "category": "business",
+    "desc": "語音活動中完成任務的用戶可獲得獎勵。"
+  },
+  {
+    "id": 500,
+    "name": "平台語音國際合作模組",
+    "category": "business",
+    "desc": "支援跨國語音活動與合作。"
+  },
+  {
+    "id": 521,
+    "name": "角色裝扮直播模組",
+    "category": "business",
+    "desc": "支援角色裝扮展示的直播活動。"
+  },
+  {
+    "id": 527,
+    "name": "角色裝扮NFT模組",
+    "category": "business",
+    "desc": "允許將服裝與飾品轉換為NFT收藏。"
+  },
+  {
+    "id": 529,
+    "name": "角色裝扮商城優惠模組",
+    "category": "business",
+    "desc": "支援商城服裝促銷與折扣活動。"
+  },
+  {
+    "id": 535,
+    "name": "動畫分鏡轉換模組",
+    "category": "business",
+    "desc": "支援不同分鏡之間的轉換效果。"
+  },
+  {
+    "id": 555,
+    "name": "角色語錄動畫化模組",
+    "category": "business",
+    "desc": "將語錄轉換為短動畫片段。"
+  },
+  {
+    "id": 567,
+    "name": "角色語錄NFT模組",
+    "category": "business",
+    "desc": "語錄卡可轉換為NFT收藏。"
+  },
+  {
+    "id": 578,
+    "name": "觀眾語錄成就模組",
+    "category": "business",
+    "desc": "觀眾參與語錄活動可解鎖成就。"
+  },
+  {
+    "id": 581,
+    "name": "平台語錄挑戰模組",
+    "category": "business",
+    "desc": "平台定期舉辦語錄創作挑戰活動。"
+  },
+  {
+    "id": 583,
+    "name": "平台語錄活動模組",
+    "category": "business",
+    "desc": "官方可舉辦語錄相關活動。"
+  },
+  {
+    "id": 589,
+    "name": "平台語錄公益模組",
+    "category": "business",
+    "desc": "支援公益活動中應用語錄卡。"
+  },
+  {
+    "id": 593,
+    "name": "平台語錄NFT模組",
+    "category": "business",
+    "desc": "允許語錄卡轉換為NFT收藏。"
+  },
+  {
+    "id": 605,
+    "name": "角色鏡頭特效模組",
+    "category": "business",
+    "desc": "鏡頭轉換時自動附加特效（模糊、閃光）。"
+  },
+  {
+    "id": 674,
+    "name": "動畫訂閱模組",
+    "category": "business",
+    "desc": "提供動畫訂閱服務，解鎖進階功能。"
+  },
+  {
+    "id": 675,
+    "name": "動畫贊助模組",
+    "category": "business",
+    "desc": "允許觀眾贊助喜愛的動畫創作者。"
+  },
+  {
+    "id": 677,
+    "name": "動畫廣告模組",
+    "category": "business",
+    "desc": "允許品牌投放廣告至動畫。"
+  },
+  {
+    "id": 681,
+    "name": "平台活動模組",
+    "category": "business",
+    "desc": "允許平台舉辦動畫相關活動。"
+  },
+  {
+    "id": 687,
+    "name": "平台公益模組",
+    "category": "business",
+    "desc": "允許平台舉辦公益動畫活動。"
+  },
+  {
+    "id": 698,
+    "name": "動畫NFT模組",
+    "category": "business",
+    "desc": "允許將動畫轉換為NFT並交易。"
+  },
+  {
+    "id": 707,
+    "name": "寵物活動挑戰模組",
+    "category": "business",
+    "desc": "每日生成寵物活動挑戰，提升互動。"
+  },
+  {
+    "id": 718,
+    "name": "寵物互動任務模組",
+    "category": "business",
+    "desc": "AI 推薦寵物互動遊戲與活動。"
+  },
+  {
+    "id": 725,
+    "name": "寵物語錄公益模組",
+    "category": "business",
+    "desc": "語錄卡可用於公益活動宣傳。"
+  },
+  {
+    "id": 729,
+    "name": "寵物語錄NFT模組",
+    "category": "business",
+    "desc": "語錄卡可轉換為 NFT 收藏。"
+  },
+  {
+    "id": 788,
+    "name": "寵物故事教育模組",
+    "category": "business",
+    "desc": "將寵物故事應用於教育活動。"
+  },
+  {
+    "id": 789,
+    "name": "寵物故事公益模組",
+    "category": "business",
+    "desc": "將寵物故事應用於公益活動。"
+  },
+  {
+    "id": 792,
+    "name": "寵物故事語音模組",
+    "category": "business",
+    "desc": "寵物故事可轉換為語音播放。"
+  },
+  {
+    "id": 793,
+    "name": "寵物故事動畫化模組",
+    "category": "business",
+    "desc": "寵物故事可直接轉換為動畫短片。"
+  },
+  {
+    "id": 794,
+    "name": "寵物故事NFT模組",
+    "category": "business",
+    "desc": "寵物故事可轉換為 NFT 收藏。"
+  },
+  {
+    "id": 826,
+    "name": "角色裝扮NFT模組",
+    "category": "business",
+    "desc": "允許比賽裝扮轉換為NFT。"
+  },
+  {
+    "id": 827,
+    "name": "角色裝扮教育模組",
+    "category": "business",
+    "desc": "將裝扮創作應用於教育活動。"
+  },
+  {
+    "id": 828,
+    "name": "角色裝扮公益模組",
+    "category": "business",
+    "desc": "將裝扮活動應用於公益宣傳。"
+  },
+  {
+    "id": 850,
+    "name": "劇情語音NFT模組",
+    "category": "business",
+    "desc": "語音演繹可轉換為NFT收藏。"
+  },
+  {
+    "id": 878,
+    "name": "平台活動合作模組",
+    "category": "business",
+    "desc": "允許平台舉辦合作活動。"
+  },
+  {
+    "id": 880,
+    "name": "平台合作數據模組",
+    "category": "business",
+    "desc": "統計合作活動數據並生成報告。"
+  },
+  {
+    "id": 881,
+    "name": "動畫商務廣告模組",
+    "category": "business",
+    "desc": "允許品牌投放動畫內廣告。"
+  },
+  {
+    "id": 882,
+    "name": "動畫商務贊助模組",
+    "category": "business",
+    "desc": "允許企業贊助動畫專案。"
+  },
+  {
+    "id": 884,
+    "name": "動畫商務交易模組",
+    "category": "business",
+    "desc": "允許動畫素材進行商業交易。"
+  },
+  {
+    "id": 885,
+    "name": "動畫商務授權模組",
+    "category": "business",
+    "desc": "允許授權動畫用於商業活動。"
+  },
+  {
+    "id": 886,
+    "name": "動畫商務NFT模組",
+    "category": "business",
+    "desc": "允許動畫元素轉換為NFT。"
+  },
+  {
+    "id": 887,
+    "name": "動畫商務限量模組",
+    "category": "business",
+    "desc": "推出限量動畫商業內容。"
+  },
+  {
+    "id": 920,
+    "name": "觀眾語音公益模組",
+    "category": "business",
+    "desc": "允許語音互動應用於公益活動。"
+  },
+  {
+    "id": 921,
+    "name": "寵物專屬語音模組",
+    "category": "business",
+    "desc": "AI 將寵物聲音轉換為擬人語音。"
+  },
+  {
+    "id": 923,
+    "name": "寵物語音挑戰模組",
+    "category": "business",
+    "desc": "允許舉辦語音互動挑戰活動。"
+  },
+  {
+    "id": 926,
+    "name": "寵物語音成就模組",
+    "category": "business",
+    "desc": "完成語音相關活動可解鎖成就。"
+  },
+  {
+    "id": 927,
+    "name": "寵物語音公益模組",
+    "category": "business",
+    "desc": "語音活動可應用於公益場景。"
+  },
+  {
+    "id": 928,
+    "name": "寵物語音教育模組",
+    "category": "business",
+    "desc": "語音活動可應用於教育場景。"
+  },
+  {
+    "id": 929,
+    "name": "寵物語音排行榜模組",
+    "category": "business",
+    "desc": "依語音活動數據生成排行。"
+  },
+  {
+    "id": 940,
+    "name": "角色任務公益模組",
+    "category": "business",
+    "desc": "角色任務可應用於公益活動。"
+  },
+  {
+    "id": 948,
+    "name": "劇情背景轉換模組",
+    "category": "business",
+    "desc": "允許切換劇情背景。"
+  },
+  {
+    "id": 974,
+    "name": "觀眾公益模組",
+    "category": "business",
+    "desc": "允許觀眾參與公益活動。"
+  },
+  {
+    "id": 975,
+    "name": "觀眾教育模組",
+    "category": "business",
+    "desc": "允許觀眾參與教育活動。"
+  },
+  {
+    "id": 986,
+    "name": "平台廣告模組",
+    "category": "business",
+    "desc": "允許品牌投放廣告。"
+  },
+  {
+    "id": 988,
+    "name": "平台活動模組",
+    "category": "business",
+    "desc": "允許平台舉辦活動。"
+  },
+  {
+    "id": 994,
+    "name": "平台NFT模組",
+    "category": "business",
+    "desc": "允許平台元素轉換為NFT。"
+  },
+  {
+    "id": 995,
+    "name": "平台限量模組",
+    "category": "business",
+    "desc": "推出限量活動或內容。"
+  },
+  {
+    "id": 1003,
+    "name": "寵物拼圖遊戲模組",
+    "category": "business",
+    "desc": "將寵物圖片轉換為拼圖遊戲供用戶解鎖。"
+  },
+  {
+    "id": 1029,
+    "name": "寵物公益活動模組",
+    "category": "business",
+    "desc": "允許寵物參與公益相關的冒險。"
+  },
+  {
+    "id": 1030,
+    "name": "寵物教育活動模組",
+    "category": "business",
+    "desc": "允許寵物參與教育活動，推廣知識。"
+  },
+  {
+    "id": 1038,
+    "name": "寵物冒險限時模組",
+    "category": "business",
+    "desc": "允許限時舉辦冒險活動。"
+  },
+  {
+    "id": 1051,
+    "name": "動畫公益模組",
+    "category": "business",
+    "desc": "動畫內容可應用於公益活動。"
+  },
+  {
+    "id": 1056,
+    "name": "動畫NFT模組",
+    "category": "business",
+    "desc": "允許動畫轉換為 NFT 收藏。"
+  },
+  {
+    "id": 1060,
+    "name": "動畫比賽模組",
+    "category": "business",
+    "desc": "舉辦動畫比賽活動。"
+  },
+  {
+    "id": 1070,
+    "name": "動畫廣告模組",
+    "category": "business",
+    "desc": "允許品牌投放動畫廣告。"
+  },
+  {
+    "id": 1071,
+    "name": "動畫贊助模組",
+    "category": "business",
+    "desc": "允許企業贊助動畫專案。"
+  },
+  {
+    "id": 1073,
+    "name": "動畫商城折扣模組",
+    "category": "business",
+    "desc": "提供商城優惠與折扣活動。"
+  },
+  {
+    "id": 1088,
+    "name": "動畫活動合作模組",
+    "category": "business",
+    "desc": "允許動畫參與跨平台活動。"
+  },
+  {
+    "id": 1089,
+    "name": "動畫合作數據模組",
+    "category": "business",
+    "desc": "統計並生成合作活動報告。"
+  },
+  {
+    "id": 1092,
+    "name": "用戶挑戰模組",
+    "category": "business",
+    "desc": "用戶可參與不同挑戰活動。"
+  },
+  {
+    "id": 1094,
+    "name": "用戶成就模組",
+    "category": "business",
+    "desc": "完成任務或活動可解鎖成就。"
+  },
+  {
+    "id": 1095,
+    "name": "用戶徽章模組",
+    "category": "business",
+    "desc": "完成活動可獲得徽章展示。"
+  },
+  {
+    "id": 1096,
+    "name": "用戶積分模組",
+    "category": "business",
+    "desc": "參與活動可累積積分。"
+  },
+  {
+    "id": 1103,
+    "name": "寵物聲音模擬模組",
+    "category": "business",
+    "desc": "模擬寵物叫聲並轉換為多種音效。"
+  },
+  {
+    "id": 1104,
+    "name": "寵物語音生成模組",
+    "category": "business",
+    "desc": "AI 將寵物行為轉換成擬人化語音。"
+  },
+  {
+    "id": 1122,
+    "name": "寵物公益模組",
+    "category": "business",
+    "desc": "允許寵物內容應用於公益活動。"
+  },
+  {
+    "id": 1126,
+    "name": "寵物NFT模組",
+    "category": "business",
+    "desc": "允許寵物角色或語錄轉換為 NFT 收藏。"
+  },
+  {
+    "id": 1146,
+    "name": "動畫公益模組",
+    "category": "business",
+    "desc": "將動畫應用於公益活動。"
+  },
+  {
+    "id": 1164,
+    "name": "平台廣告模組",
+    "category": "business",
+    "desc": "允許品牌於平台投放廣告。"
+  },
+  {
+    "id": 1166,
+    "name": "平台教育模組",
+    "category": "business",
+    "desc": "允許平台舉辦教育活動。"
+  },
+  {
+    "id": 1167,
+    "name": "平台公益模組",
+    "category": "business",
+    "desc": "允許平台舉辦公益活動。"
+  },
+  {
+    "id": 1168,
+    "name": "平台比賽模組",
+    "category": "business",
+    "desc": "允許平台舉辦比賽活動。"
+  },
+  {
+    "id": 1170,
+    "name": "平台NFT模組",
+    "category": "business",
+    "desc": "允許平台元素轉換為 NFT。"
+  },
+  {
+    "id": 1171,
+    "name": "平台限量模組",
+    "category": "business",
+    "desc": "推出限量活動與內容。"
+  },
+  {
+    "id": 1177,
+    "name": "平台活動模組",
+    "category": "business",
+    "desc": "允許舉辦不同類型的平台活動。"
+  },
+  {
+    "id": 1185,
+    "name": "用戶徽章模組",
+    "category": "business",
+    "desc": "完成活動可獲得徽章。"
+  },
+  {
+    "id": 1186,
+    "name": "用戶積分模組",
+    "category": "business",
+    "desc": "參與活動可累積積分並兌換獎勵。"
+  },
+  {
+    "id": 1189,
+    "name": "用戶挑戰模組",
+    "category": "business",
+    "desc": "允許用戶參與挑戰活動。"
+  },
+  {
+    "id": 1195,
+    "name": "用戶公益模組",
+    "category": "business",
+    "desc": "允許用戶參與公益活動。"
+  },
+  {
+    "id": 1196,
+    "name": "用戶教育模組",
+    "category": "business",
+    "desc": "允許用戶參與教育活動。"
+  },
+  {
+    "id": 1219,
+    "name": "角色情緒公益模組",
+    "category": "business",
+    "desc": "情緒數據可應用於公益活動。"
+  },
+  {
+    "id": 1229,
+    "name": "寵物語錄NFT模組",
+    "category": "business",
+    "desc": "語錄卡可轉換為 NFT 收藏。"
+  },
+  {
+    "id": 1248,
+    "name": "觀眾公益模組",
+    "category": "business",
+    "desc": "觀眾互動可延伸至公益活動。"
+  },
+  {
+    "id": 1252,
+    "name": "平台活動模組",
+    "category": "business",
+    "desc": "允許平台舉辦互動活動。"
+  },
+  {
+    "id": 1255,
+    "name": "平台公益模組",
+    "category": "business",
+    "desc": "允許平台舉辦公益活動。"
+  },
+  {
+    "id": 1258,
+    "name": "平台廣告模組",
+    "category": "business",
+    "desc": "允許品牌於平台投放廣告。"
+  },
+  {
+    "id": 1284,
+    "name": "寵物故事公益模組",
+    "category": "business",
+    "desc": "將故事應用於公益活動。"
+  },
+  {
+    "id": 1285,
+    "name": "寵物故事NFT模組",
+    "category": "business",
+    "desc": "允許故事轉換為 NFT 收藏。"
+  },
+  {
+    "id": 1320,
+    "name": "角色比賽模組",
+    "category": "business",
+    "desc": "允許角色參與比賽活動。"
+  },
+  {
+    "id": 1327,
+    "name": "動畫教育模組",
+    "category": "business",
+    "desc": "動畫可用於教育活動。"
+  },
+  {
+    "id": 1339,
+    "name": "動畫NFT模組",
+    "category": "business",
+    "desc": "動畫片段可轉換為 NFT 收藏。"
+  },
+  {
+    "id": 1346,
+    "name": "觀眾投票模組",
+    "category": "business",
+    "desc": "觀眾可參與多種投票活動。"
+  },
+  {
+    "id": 1350,
+    "name": "觀眾公益模組",
+    "category": "business",
+    "desc": "觀眾互動活動可延伸至公益。"
+  },
+  {
+    "id": 1355,
+    "name": "平台廣告優化模組",
+    "category": "business",
+    "desc": "優化品牌廣告展示效果。"
+  },
+  {
+    "id": 1357,
+    "name": "平台活動模組",
+    "category": "business",
+    "desc": "允許平台舉辦不同主題的活動。"
+  },
+  {
+    "id": 1370,
+    "name": "寵物語錄NFT模組",
+    "category": "business",
+    "desc": "語錄卡可轉換為 NFT 收藏。"
+  },
+  {
+    "id": 1374,
+    "name": "動畫社群專案模組",
+    "category": "business",
+    "desc": "允許動畫進入社群活動中。"
+  },
+  {
+    "id": 1380,
+    "name": "動畫NFT專案模組",
+    "category": "business",
+    "desc": "允許專案動畫轉換為 NFT 收藏。"
+  },
+  {
+    "id": 1417,
+    "name": "主題活動模組",
+    "category": "business",
+    "desc": "支援平台舉辦以劇情為主題的活動。"
+  },
+  {
+    "id": 1430,
+    "name": "社群行銷素材生成模組",
+    "category": "business",
+    "desc": "自動生成動畫語錄卡與推廣素材。"
+  },
+  {
+    "id": 1436,
+    "name": "社群行銷素材自動生成套件",
+    "category": "business",
+    "desc": "批量生成行銷圖卡與短片。"
+  },
+  {
+    "id": 1464,
+    "name": "分鏡情節可視化模組",
+    "category": "business",
+    "desc": "將分鏡劇情轉換為互動式圖像。"
+  },
+  {
+    "id": 1491,
+    "name": "語音故事構建模組",
+    "category": "business",
+    "desc": "將語音內容轉換為完整故事腳本。"
+  },
+  {
+    "id": 1494,
+    "name": "語音角色演出模組",
+    "category": "business",
+    "desc": "AI 將語音轉換為角色演出效果。"
+  },
+  {
+    "id": 1499,
+    "name": "語音公益模組",
+    "category": "business",
+    "desc": "允許語音互動應用於公益活動。"
+  },
+  {
+    "id": 1512,
+    "name": "故事視覺化地圖模組",
+    "category": "business",
+    "desc": "將故事劇情轉換為互動式地圖視覺化。"
+  },
+  {
+    "id": 1524,
+    "name": "角色日常紀錄模組",
+    "category": "business",
+    "desc": "允許保存角色的日常活動。"
+  },
+  {
+    "id": 1549,
+    "name": "MV 語錄影片生成模組",
+    "category": "business",
+    "desc": "自動將語錄轉換為 MV 風格影片。"
+  },
+  {
+    "id": 1552,
+    "name": "故事互動遊戲化模組",
+    "category": "business",
+    "desc": "將故事情節轉換為遊戲互動形式。"
+  },
+  {
+    "id": 1571,
+    "name": "跨寵物集體任務模組",
+    "category": "business",
+    "desc": "生成跨寵物角色參與的大型任務活動。"
+  }
+]

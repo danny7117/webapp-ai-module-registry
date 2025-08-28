@@ -1,0 +1,2468 @@
+[
+  {
+    "id": 2,
+    "name": "多語言介面模組",
+    "category": "utility",
+    "desc": "支援中、英、日等多國語言切換，讓不同地區的使用者皆能使用。"
+  },
+  {
+    "id": 15,
+    "name": "音樂上傳模組",
+    "category": "utility",
+    "desc": "允許用戶上傳自選音樂作為背景音樂。"
+  },
+  {
+    "id": 22,
+    "name": "語錄卡分享模組",
+    "category": "utility",
+    "desc": "一鍵將語錄卡分享到社群平台。"
+  },
+  {
+    "id": 23,
+    "name": "語錄卡收藏牆模組",
+    "category": "utility",
+    "desc": "允許使用者收藏自己喜歡的語錄卡，並建立個人牆面。"
+  },
+  {
+    "id": 33,
+    "name": "社群分享模組",
+    "category": "utility",
+    "desc": "支援 Facebook、IG、TikTok、X 平台一鍵分享。"
+  },
+  {
+    "id": 111,
+    "name": "字幕樣式自訂模組",
+    "category": "utility",
+    "desc": "允許使用者調整字幕字體、顏色與大小。"
+  },
+  {
+    "id": 113,
+    "name": "字幕同步校正模組",
+    "category": "utility",
+    "desc": "允許微調字幕與語音的同步性。"
+  },
+  {
+    "id": 114,
+    "name": "字幕翻譯模組",
+    "category": "utility",
+    "desc": "提供多語系字幕自動翻譯。"
+  },
+  {
+    "id": 115,
+    "name": "字幕關鍵字高亮模組",
+    "category": "utility",
+    "desc": "字幕中的關鍵詞可自動加亮，強調內容。"
+  },
+  {
+    "id": 116,
+    "name": "字幕旁白互動模組",
+    "category": "utility",
+    "desc": "允許旁白語音與字幕同步互動。"
+  },
+  {
+    "id": 117,
+    "name": "字幕回顧模組",
+    "category": "utility",
+    "desc": "允許快速預覽整段字幕對話。"
+  },
+  {
+    "id": 120,
+    "name": "字幕特效濾鏡模組",
+    "category": "utility",
+    "desc": "允許字幕加入特效濾鏡（發光、陰影）。"
+  },
+  {
+    "id": 131,
+    "name": "任務成就牆模組",
+    "category": "utility",
+    "desc": "集中展示用戶的任務完成度與成就。"
+  },
+  {
+    "id": 133,
+    "name": "任務積分模組",
+    "category": "utility",
+    "desc": "完成任務可獲得積分，用於兌換獎勵。"
+  },
+  {
+    "id": 135,
+    "name": "任務共享模組",
+    "category": "utility",
+    "desc": "允許玩家分享任務成果至社群。"
+  },
+  {
+    "id": 137,
+    "name": "任務等級模組",
+    "category": "utility",
+    "desc": "依用戶表現自動分配任務等級。"
+  },
+  {
+    "id": 139,
+    "name": "任務合併模組",
+    "category": "utility",
+    "desc": "支援多任務合併為大型挑戰。"
+  },
+  {
+    "id": 140,
+    "name": "任務提醒模組",
+    "category": "utility",
+    "desc": "自動提醒任務截止時間與完成度。"
+  },
+  {
+    "id": 142,
+    "name": "語錄卡收藏模組",
+    "category": "utility",
+    "desc": "允許用戶建立語錄收藏清單。"
+  },
+  {
+    "id": 145,
+    "name": "語錄卡回顧模組",
+    "category": "utility",
+    "desc": "允許用戶回顧曾經收藏或分享的語錄卡。"
+  },
+  {
+    "id": 146,
+    "name": "語錄卡任務模組",
+    "category": "utility",
+    "desc": "完成指定語錄卡收集任務可解鎖獎勵。"
+  },
+  {
+    "id": 155,
+    "name": "社群標籤模組",
+    "category": "utility",
+    "desc": "允許用戶添加標籤，提升搜尋與分類。"
+  },
+  {
+    "id": 159,
+    "name": "社群徽章模組",
+    "category": "utility",
+    "desc": "依用戶社群互動程度授予徽章。"
+  },
+  {
+    "id": 161,
+    "name": "創作者中心模組",
+    "category": "utility",
+    "desc": "提供創作者個人頁面，集中展示作品。"
+  },
+  {
+    "id": 163,
+    "name": "創作者粉絲牆模組",
+    "category": "utility",
+    "desc": "展示支持創作者的粉絲與互動紀錄。"
+  },
+  {
+    "id": 165,
+    "name": "創作者挑戰模組",
+    "category": "utility",
+    "desc": "創作者可發起互動挑戰，吸引用戶參與。"
+  },
+  {
+    "id": 166,
+    "name": "創作者數據分析模組",
+    "category": "utility",
+    "desc": "分析創作者內容流量與互動數據。"
+  },
+  {
+    "id": 167,
+    "name": "創作者等級模組",
+    "category": "utility",
+    "desc": "依產出數量與品質，系統自動分配等級。"
+  },
+  {
+    "id": 170,
+    "name": "創作者專屬徽章模組",
+    "category": "utility",
+    "desc": "授予創作者專屬徽章，強化品牌感。"
+  },
+  {
+    "id": 172,
+    "name": "平台幣系統模組",
+    "category": "utility",
+    "desc": "平台幣可用於購買商城物品或兌換。"
+  },
+  {
+    "id": 173,
+    "name": "平台儲值模組",
+    "category": "utility",
+    "desc": "允許用戶透過信用卡或第三方支付進行儲值。"
+  },
+  {
+    "id": 174,
+    "name": "平台分潤模組",
+    "category": "utility",
+    "desc": "依內容收益自動進行分潤。"
+  },
+  {
+    "id": 180,
+    "name": "平台內容審核模組",
+    "category": "utility",
+    "desc": "自動檢測並審核不當內容。"
+  },
+  {
+    "id": 182,
+    "name": "教育專案模組",
+    "category": "utility",
+    "desc": "教師可建立班級專案並分配任務。"
+  },
+  {
+    "id": 189,
+    "name": "教育社群模組",
+    "category": "utility",
+    "desc": "學生可於專屬社群互動交流。"
+  },
+  {
+    "id": 192,
+    "name": "公益挑戰模組",
+    "category": "utility",
+    "desc": "用戶可參與公益挑戰，提升社會影響力。"
+  },
+  {
+    "id": 209,
+    "name": "Web3 錢包串接模組",
+    "category": "utility",
+    "desc": "支援 MetaMask、TrustWallet 等主流錢包串接。"
+  },
+  {
+    "id": 223,
+    "name": "使用者互動分析模組",
+    "category": "utility",
+    "desc": "分析用戶在平台的互動行為，提供經營建議。"
+  },
+  {
+    "id": 224,
+    "name": "平台營收分析模組",
+    "category": "utility",
+    "desc": "統計平台收益來源，提供財務報告。"
+  },
+  {
+    "id": 225,
+    "name": "平台使用者留存模組",
+    "category": "utility",
+    "desc": "追蹤使用者留存率與回流率，優化平台體驗。"
+  },
+  {
+    "id": 228,
+    "name": "社群趨勢追蹤模組",
+    "category": "utility",
+    "desc": "分析社群熱門趨勢，推薦相關創作方向。"
+  },
+  {
+    "id": 229,
+    "name": "熱搜榜模組",
+    "category": "utility",
+    "desc": "即時顯示平台內最熱門的關鍵字。"
+  },
+  {
+    "id": 232,
+    "name": "直播打賞模組",
+    "category": "utility",
+    "desc": "觀眾可於直播中進行打賞支持。"
+  },
+  {
+    "id": 233,
+    "name": "直播互動模組",
+    "category": "utility",
+    "desc": "觀眾可於直播中發送彈幕與留言互動。"
+  },
+  {
+    "id": 235,
+    "name": "直播回放模組",
+    "category": "utility",
+    "desc": "觀眾可重播直播內容，並保留互動數據。"
+  },
+  {
+    "id": 236,
+    "name": "直播分享模組",
+    "category": "utility",
+    "desc": "允許用戶一鍵分享直播連結。"
+  },
+  {
+    "id": 237,
+    "name": "創作者直播專區模組",
+    "category": "utility",
+    "desc": "集中展示平台所有創作者的直播頻道。"
+  },
+  {
+    "id": 238,
+    "name": "直播流量數據模組",
+    "category": "utility",
+    "desc": "統計直播觀看人數與互動數據。"
+  },
+  {
+    "id": 239,
+    "name": "直播收益分析模組",
+    "category": "utility",
+    "desc": "自動統計直播收益來源與比例。"
+  },
+  {
+    "id": 240,
+    "name": "直播合作模組",
+    "category": "utility",
+    "desc": "支援多創作者聯合直播。"
+  },
+  {
+    "id": 242,
+    "name": "平台反作弊模組",
+    "category": "utility",
+    "desc": "自動檢測異常互動數據，防止刷榜。"
+  },
+  {
+    "id": 245,
+    "name": "平台黑名單模組",
+    "category": "utility",
+    "desc": "管理違規用戶與帳號停權。"
+  },
+  {
+    "id": 252,
+    "name": "收支報表模組",
+    "category": "utility",
+    "desc": "提供月度與年度財務報表。"
+  },
+  {
+    "id": 254,
+    "name": "獎勵分紅模組",
+    "category": "utility",
+    "desc": "依用戶貢獻度與互動數據，自動分配獎勵。"
+  },
+  {
+    "id": 256,
+    "name": "優惠券模組",
+    "category": "utility",
+    "desc": "用戶可領取優惠券並於商城使用。"
+  },
+  {
+    "id": 257,
+    "name": "禮品卡模組",
+    "category": "utility",
+    "desc": "支援購買與贈送平台禮品卡。"
+  },
+  {
+    "id": 258,
+    "name": "積分兌換模組",
+    "category": "utility",
+    "desc": "用戶可用積分兌換商城物品。"
+  },
+  {
+    "id": 259,
+    "name": "每日簽到模組",
+    "category": "utility",
+    "desc": "用戶每日簽到可獲得獎勵。"
+  },
+  {
+    "id": 260,
+    "name": "連續簽到模組",
+    "category": "utility",
+    "desc": "連續簽到可獲得額外獎勵。"
+  },
+  {
+    "id": 261,
+    "name": "簽到排行榜模組",
+    "category": "utility",
+    "desc": "展示簽到次數最多的用戶排行。"
+  },
+  {
+    "id": 262,
+    "name": "簽到提醒模組",
+    "category": "utility",
+    "desc": "每日提醒用戶簽到。"
+  },
+  {
+    "id": 263,
+    "name": "每日任務模組",
+    "category": "utility",
+    "desc": "每日刷新任務清單，提升活躍度。"
+  },
+  {
+    "id": 264,
+    "name": "週任務模組",
+    "category": "utility",
+    "desc": "每週更新挑戰任務，給予積分獎勵。"
+  },
+  {
+    "id": 266,
+    "name": "任務簽到融合模組",
+    "category": "utility",
+    "desc": "簽到可與任務完成度掛鉤。"
+  },
+  {
+    "id": 267,
+    "name": "隨機抽獎模組",
+    "category": "utility",
+    "desc": "用戶可透過抽獎獲取隨機獎勵。"
+  },
+  {
+    "id": 269,
+    "name": "抽獎排行榜模組",
+    "category": "utility",
+    "desc": "展示獲得大獎的用戶排行。"
+  },
+  {
+    "id": 271,
+    "name": "虛擬禮物模組",
+    "category": "utility",
+    "desc": "支援用戶於互動中贈送虛擬禮物。"
+  },
+  {
+    "id": 272,
+    "name": "禮物商城模組",
+    "category": "utility",
+    "desc": "集中展示虛擬禮物供購買。"
+  },
+  {
+    "id": 275,
+    "name": "禮物任務模組",
+    "category": "utility",
+    "desc": "送出指定數量禮物可完成任務。"
+  },
+  {
+    "id": 276,
+    "name": "禮物分潤模組",
+    "category": "utility",
+    "desc": "禮物收益可分潤給創作者。"
+  },
+  {
+    "id": 277,
+    "name": "排行榜總覽模組",
+    "category": "utility",
+    "desc": "集中顯示不同排行榜（觀看、分享、簽到、禮物）。"
+  },
+  {
+    "id": 281,
+    "name": "觀眾行為數據模組",
+    "category": "utility",
+    "desc": "分析觀眾觀看行為與互動習慣。"
+  },
+  {
+    "id": 282,
+    "name": "觀眾情緒分析模組",
+    "category": "utility",
+    "desc": "AI 分析觀眾留言與互動的情緒傾向。"
+  },
+  {
+    "id": 284,
+    "name": "觀眾回饋模組",
+    "category": "utility",
+    "desc": "收集觀眾建議與評價，優化平台。"
+  },
+  {
+    "id": 285,
+    "name": "觀眾調查模組",
+    "category": "utility",
+    "desc": "允許發送問卷調查觀眾需求。"
+  },
+  {
+    "id": 286,
+    "name": "觀眾偏好分析模組",
+    "category": "utility",
+    "desc": "AI 分析觀眾偏好，優化推薦引擎。"
+  },
+  {
+    "id": 288,
+    "name": "觀眾等級模組",
+    "category": "utility",
+    "desc": "依參與度與互動次數，分配觀眾等級。"
+  },
+  {
+    "id": 289,
+    "name": "觀眾徽章模組",
+    "category": "utility",
+    "desc": "授予觀眾專屬徽章，提升互動感。"
+  },
+  {
+    "id": 290,
+    "name": "觀眾互動牆模組",
+    "category": "utility",
+    "desc": "集中展示觀眾的留言、禮物與互動紀錄。"
+  },
+  {
+    "id": 292,
+    "name": "寵物比賽獎勵模組",
+    "category": "utility",
+    "desc": "參與比賽的用戶可獲得獎勵或徽章。"
+  },
+  {
+    "id": 293,
+    "name": "寵物比賽排行榜模組",
+    "category": "utility",
+    "desc": "展示比賽排名與得獎名單。"
+  },
+  {
+    "id": 294,
+    "name": "寵物比賽直播模組",
+    "category": "utility",
+    "desc": "支援比賽過程直播，觀眾可即時互動。"
+  },
+  {
+    "id": 295,
+    "name": "寵物比賽社群模組",
+    "category": "utility",
+    "desc": "比賽參與者可於社群互動分享作品。"
+  },
+  {
+    "id": 296,
+    "name": "寵物比賽專案模組",
+    "category": "utility",
+    "desc": "允許建立專屬比賽專案與報名系統。"
+  },
+  {
+    "id": 297,
+    "name": "寵物比賽投票模組",
+    "category": "utility",
+    "desc": "觀眾可為參賽作品投票。"
+  },
+  {
+    "id": 300,
+    "name": "寵物比賽榮譽牆模組",
+    "category": "utility",
+    "desc": "集中展示歷屆比賽的得獎作品。"
+  },
+  {
+    "id": 322,
+    "name": "劇情分歧模組",
+    "category": "utility",
+    "desc": "允許劇情根據觀眾選擇出現不同發展。"
+  },
+  {
+    "id": 326,
+    "name": "劇情情緒模組",
+    "category": "utility",
+    "desc": "根據情緒曲線控制劇情氛圍。"
+  },
+  {
+    "id": 329,
+    "name": "劇情互動模組",
+    "category": "utility",
+    "desc": "觀眾可透過互動影響劇情走向。"
+  },
+  {
+    "id": 331,
+    "name": "劇情隱藏支線模組",
+    "category": "utility",
+    "desc": "完成特定條件才能觸發隱藏劇情。"
+  },
+  {
+    "id": 341,
+    "name": "劇情高潮模組",
+    "category": "utility",
+    "desc": "AI 控制劇情在適當時機達到高潮。"
+  },
+  {
+    "id": 350,
+    "name": "劇情測驗模組",
+    "category": "utility",
+    "desc": "劇情中可插入小測驗，檢驗觀眾理解。"
+  },
+  {
+    "id": 417,
+    "name": "字幕即時翻譯模組",
+    "category": "utility",
+    "desc": "觀眾可即時切換字幕語言。"
+  },
+  {
+    "id": 419,
+    "name": "字幕特效濾鏡模組",
+    "category": "utility",
+    "desc": "字幕增加進階特效（火焰、流光）。"
+  },
+  {
+    "id": 420,
+    "name": "字幕互動挑戰模組",
+    "category": "utility",
+    "desc": "觀眾可透過字幕挑戰小遊戲，提升互動感。"
+  },
+  {
+    "id": 422,
+    "name": "寵物語音翻譯模組",
+    "category": "utility",
+    "desc": "即時翻譯寵物叫聲為人類語言。"
+  },
+  {
+    "id": 424,
+    "name": "寵物語音配樂模組",
+    "category": "utility",
+    "desc": "寵物聲音可與背景音樂同步。"
+  },
+  {
+    "id": 427,
+    "name": "寵物語音收藏模組",
+    "category": "utility",
+    "desc": "允許用戶收藏寵物語音片段。"
+  },
+  {
+    "id": 432,
+    "name": "社群語音互動模組",
+    "category": "utility",
+    "desc": "社群留言支援語音回覆。"
+  },
+  {
+    "id": 433,
+    "name": "社群語音投票模組",
+    "category": "utility",
+    "desc": "語音形式參與社群投票。"
+  },
+  {
+    "id": 434,
+    "name": "社群語音分享模組",
+    "category": "utility",
+    "desc": "允許分享語音片段至社群。"
+  },
+  {
+    "id": 437,
+    "name": "社群語音直播模組",
+    "category": "utility",
+    "desc": "支援社群語音聊天室直播。"
+  },
+  {
+    "id": 438,
+    "name": "社群語音連線模組",
+    "category": "utility",
+    "desc": "允許多用戶語音連線進行互動。"
+  },
+  {
+    "id": 440,
+    "name": "社群語音徽章模組",
+    "category": "utility",
+    "desc": "依據語音互動頒發徽章。"
+  },
+  {
+    "id": 442,
+    "name": "創作者語音庫模組",
+    "category": "utility",
+    "desc": "建立專屬語音資料庫，支援分類管理。"
+  },
+  {
+    "id": 444,
+    "name": "創作者語音合作模組",
+    "category": "utility",
+    "desc": "支援多創作者合作進行語音創作。"
+  },
+  {
+    "id": 447,
+    "name": "創作者語音數據模組",
+    "category": "utility",
+    "desc": "分析語音互動數據，提供決策參考。"
+  },
+  {
+    "id": 449,
+    "name": "創作者語音勳章模組",
+    "category": "utility",
+    "desc": "授予優秀語音創作者專屬勳章。"
+  },
+  {
+    "id": 451,
+    "name": "平台語音審核模組",
+    "category": "utility",
+    "desc": "自動檢測語音內容是否合規。"
+  },
+  {
+    "id": 452,
+    "name": "平台語音數據模組",
+    "category": "utility",
+    "desc": "統計平台語音相關互動與使用數據。"
+  },
+  {
+    "id": 455,
+    "name": "平台語音備份模組",
+    "category": "utility",
+    "desc": "語音數據每日自動備份。"
+  },
+  {
+    "id": 457,
+    "name": "平台語音黑名單模組",
+    "category": "utility",
+    "desc": "管理違規語音使用者並停權。"
+  },
+  {
+    "id": 458,
+    "name": "平台語音舉報模組",
+    "category": "utility",
+    "desc": "用戶可舉報不當語音內容。"
+  },
+  {
+    "id": 459,
+    "name": "平台語音隨機模組",
+    "category": "utility",
+    "desc": "平台可隨機推薦語音內容。"
+  },
+  {
+    "id": 461,
+    "name": "教育語音教材模組",
+    "category": "utility",
+    "desc": "提供語音教材，支援課堂播放。"
+  },
+  {
+    "id": 462,
+    "name": "教育語音測驗模組",
+    "category": "utility",
+    "desc": "語音教材可附加測驗題目。"
+  },
+  {
+    "id": 463,
+    "name": "教育語音評分模組",
+    "category": "utility",
+    "desc": "教師可根據學生語音表現打分。"
+  },
+  {
+    "id": 464,
+    "name": "教育語音任務模組",
+    "category": "utility",
+    "desc": "學生需完成語音任務，方能解鎖後續內容。"
+  },
+  {
+    "id": 466,
+    "name": "教育語音合作模組",
+    "category": "utility",
+    "desc": "允許多學生合作完成語音專案。"
+  },
+  {
+    "id": 467,
+    "name": "教育語音互動模組",
+    "category": "utility",
+    "desc": "學生與教師可語音互動交流。"
+  },
+  {
+    "id": 468,
+    "name": "教育語音翻譯模組",
+    "category": "utility",
+    "desc": "支援語音教材的即時翻譯。"
+  },
+  {
+    "id": 469,
+    "name": "教育語音直播模組",
+    "category": "utility",
+    "desc": "教師可進行語音教學直播。"
+  },
+  {
+    "id": 470,
+    "name": "教育語音社群模組",
+    "category": "utility",
+    "desc": "學生可於社群分享語音作業。"
+  },
+  {
+    "id": 473,
+    "name": "公益語音合作模組",
+    "category": "utility",
+    "desc": "允許公益組織與用戶合作進行語音創作。"
+  },
+  {
+    "id": 485,
+    "name": "觀眾語音投票模組",
+    "category": "utility",
+    "desc": "觀眾可透過語音參與投票。"
+  },
+  {
+    "id": 487,
+    "name": "觀眾語音收藏模組",
+    "category": "utility",
+    "desc": "觀眾可收藏喜愛的語音互動片段。"
+  },
+  {
+    "id": 488,
+    "name": "觀眾語音成就模組",
+    "category": "utility",
+    "desc": "觀眾完成語音互動次數可解鎖成就。"
+  },
+  {
+    "id": 495,
+    "name": "平台語音合作模組",
+    "category": "utility",
+    "desc": "允許平台與品牌或組織合作語音專案。"
+  },
+  {
+    "id": 498,
+    "name": "平台語音分析模組",
+    "category": "utility",
+    "desc": "提供平台語音使用與互動的數據報告。"
+  },
+  {
+    "id": 499,
+    "name": "平台語音認證模組",
+    "category": "utility",
+    "desc": "對優秀語音創作者進行官方認證。"
+  },
+  {
+    "id": 572,
+    "name": "觀眾語錄投票模組",
+    "category": "utility",
+    "desc": "觀眾可投票決定語錄使用。"
+  },
+  {
+    "id": 573,
+    "name": "觀眾語錄留言模組",
+    "category": "utility",
+    "desc": "觀眾可對語錄發表評論。"
+  },
+  {
+    "id": 574,
+    "name": "觀眾語錄分享模組",
+    "category": "utility",
+    "desc": "觀眾可將語錄分享到社群。"
+  },
+  {
+    "id": 575,
+    "name": "觀眾語錄收藏模組",
+    "category": "utility",
+    "desc": "觀眾可收藏喜愛的語錄。"
+  },
+  {
+    "id": 576,
+    "name": "觀眾語錄挑戰模組",
+    "category": "utility",
+    "desc": "觀眾可參與語錄挑戰賽。"
+  },
+  {
+    "id": 580,
+    "name": "觀眾語錄獎勵模組",
+    "category": "utility",
+    "desc": "參與觀眾可獲得虛擬獎勵。"
+  },
+  {
+    "id": 582,
+    "name": "平台語錄任務模組",
+    "category": "utility",
+    "desc": "平台布置語錄任務供用戶完成。"
+  },
+  {
+    "id": 586,
+    "name": "平台語錄審核模組",
+    "category": "utility",
+    "desc": "自動檢測語錄是否合規。"
+  },
+  {
+    "id": 587,
+    "name": "平台語錄榮譽牆模組",
+    "category": "utility",
+    "desc": "展示平台優秀語錄作品。"
+  },
+  {
+    "id": 588,
+    "name": "平台語錄合作模組",
+    "category": "utility",
+    "desc": "支援品牌或組織合作語錄專案。"
+  },
+  {
+    "id": 591,
+    "name": "平台語錄展覽模組",
+    "category": "utility",
+    "desc": "允許舉辦語錄展覽，提升互動。"
+  },
+  {
+    "id": 592,
+    "name": "平台語錄交易模組",
+    "category": "utility",
+    "desc": "支援語錄卡交易市場。"
+  },
+  {
+    "id": 594,
+    "name": "平台語錄限量模組",
+    "category": "utility",
+    "desc": "推出平台限量語錄卡。"
+  },
+  {
+    "id": 595,
+    "name": "平台語錄認證模組",
+    "category": "utility",
+    "desc": "對優秀語錄作品給予官方認證。"
+  },
+  {
+    "id": 596,
+    "name": "平台語錄商城模組",
+    "category": "utility",
+    "desc": "語錄卡可於商城販售。"
+  },
+  {
+    "id": 597,
+    "name": "平台語錄收藏模組",
+    "category": "utility",
+    "desc": "允許用戶收藏平台語錄卡。"
+  },
+  {
+    "id": 598,
+    "name": "平台語錄分享模組",
+    "category": "utility",
+    "desc": "支援語錄卡分享至外部平台。"
+  },
+  {
+    "id": 599,
+    "name": "平台語錄比賽模組",
+    "category": "utility",
+    "desc": "舉辦語錄卡比賽並提供獎勵。"
+  },
+  {
+    "id": 600,
+    "name": "平台語錄國際合作模組",
+    "category": "utility",
+    "desc": "支援語錄卡在國際合作專案中的應用。"
+  },
+  {
+    "id": 621,
+    "name": "背景音樂智能模組",
+    "category": "utility",
+    "desc": "AI 根據劇情氛圍自動選擇背景音樂。"
+  },
+  {
+    "id": 624,
+    "name": "背景音樂互動模組",
+    "category": "utility",
+    "desc": "觀眾可影響播放的背景音樂。"
+  },
+  {
+    "id": 625,
+    "name": "背景音樂編輯模組",
+    "category": "utility",
+    "desc": "允許裁剪與混音背景音樂。"
+  },
+  {
+    "id": 626,
+    "name": "背景音樂切換模組",
+    "category": "utility",
+    "desc": "允許快速切換多首背景音樂。"
+  },
+  {
+    "id": 629,
+    "name": "背景音樂任務模組",
+    "category": "utility",
+    "desc": "完成特定任務可解鎖音樂。"
+  },
+  {
+    "id": 630,
+    "name": "背景音樂比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦音樂創作比賽。"
+  },
+  {
+    "id": 648,
+    "name": "AI 導演提示模組",
+    "category": "utility",
+    "desc": "AI 根據劇情給出導演建議。"
+  },
+  {
+    "id": 666,
+    "name": "觀眾打賞模組",
+    "category": "utility",
+    "desc": "觀眾可打賞創作者。"
+  },
+  {
+    "id": 667,
+    "name": "觀眾禮物模組",
+    "category": "utility",
+    "desc": "觀眾可送出虛擬禮物。"
+  },
+  {
+    "id": 669,
+    "name": "觀眾任務模組",
+    "category": "utility",
+    "desc": "觀眾可完成平台設置的互動任務。"
+  },
+  {
+    "id": 670,
+    "name": "觀眾等級模組",
+    "category": "utility",
+    "desc": "依觀眾活躍度分配等級。"
+  },
+  {
+    "id": 682,
+    "name": "平台獎勵模組",
+    "category": "utility",
+    "desc": "完成平台任務可獲得獎勵。"
+  },
+  {
+    "id": 684,
+    "name": "平台數據模組",
+    "category": "utility",
+    "desc": "統計平台整體使用數據。"
+  },
+  {
+    "id": 685,
+    "name": "平台任務模組",
+    "category": "utility",
+    "desc": "平台布置特定任務供用戶參與。"
+  },
+  {
+    "id": 688,
+    "name": "平台社群模組",
+    "category": "utility",
+    "desc": "提供平台內社群互動功能。"
+  },
+  {
+    "id": 689,
+    "name": "平台直播模組",
+    "category": "utility",
+    "desc": "支援平台內部的即時直播。"
+  },
+  {
+    "id": 704,
+    "name": "寵物醫療紀錄模組",
+    "category": "utility",
+    "desc": "集中管理寵物就醫與治療記錄。"
+  },
+  {
+    "id": 706,
+    "name": "寵物運動追蹤模組",
+    "category": "utility",
+    "desc": "透過設備或用戶輸入記錄寵物運動數據。"
+  },
+  {
+    "id": 708,
+    "name": "寵物睡眠監測模組",
+    "category": "utility",
+    "desc": "記錄並分析寵物的睡眠狀態。"
+  },
+  {
+    "id": 710,
+    "name": "寵物疾病預警模組",
+    "category": "utility",
+    "desc": "AI 根據數據判斷寵物可能的健康風險。"
+  },
+  {
+    "id": 711,
+    "name": "寵物藥品提醒模組",
+    "category": "utility",
+    "desc": "提醒用戶按時為寵物用藥。"
+  },
+  {
+    "id": 712,
+    "name": "寵物體檢模組",
+    "category": "utility",
+    "desc": "允許用戶上傳寵物體檢報告，AI 進行解讀。"
+  },
+  {
+    "id": 713,
+    "name": "寵物運動遊戲模組",
+    "category": "utility",
+    "desc": "將運動結合遊戲化元素提升互動。"
+  },
+  {
+    "id": 714,
+    "name": "寵物行為分析模組",
+    "category": "utility",
+    "desc": "AI 分析寵物日常行為數據。"
+  },
+  {
+    "id": 719,
+    "name": "寵物社群分享模組",
+    "category": "utility",
+    "desc": "一鍵分享寵物健康與日常數據至社群。"
+  },
+  {
+    "id": 722,
+    "name": "寵物語錄分享模組",
+    "category": "utility",
+    "desc": "允許分享寵物語錄至社群。"
+  },
+  {
+    "id": 723,
+    "name": "寵物語錄收藏模組",
+    "category": "utility",
+    "desc": "允許保存與收藏喜愛的語錄卡。"
+  },
+  {
+    "id": 726,
+    "name": "寵物語錄比賽模組",
+    "category": "utility",
+    "desc": "舉辦語錄卡創作比賽。"
+  },
+  {
+    "id": 727,
+    "name": "寵物語錄任務模組",
+    "category": "utility",
+    "desc": "完成語錄相關任務可獲得獎勵。"
+  },
+  {
+    "id": 728,
+    "name": "寵物語錄榮譽牆模組",
+    "category": "utility",
+    "desc": "展示平台內的優秀寵物語錄卡。"
+  },
+  {
+    "id": 730,
+    "name": "寵物語錄限量模組",
+    "category": "utility",
+    "desc": "推出限量語錄卡系列。"
+  },
+  {
+    "id": 731,
+    "name": "寵物比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦寵物相關比賽並投票。"
+  },
+  {
+    "id": 732,
+    "name": "寵物比賽獎勵模組",
+    "category": "utility",
+    "desc": "比賽參與者可獲得獎勵。"
+  },
+  {
+    "id": 733,
+    "name": "寵物比賽直播模組",
+    "category": "utility",
+    "desc": "允許比賽過程即時直播。"
+  },
+  {
+    "id": 734,
+    "name": "寵物比賽觀眾互動模組",
+    "category": "utility",
+    "desc": "觀眾可透過投票或留言影響比賽。"
+  },
+  {
+    "id": 737,
+    "name": "寵物比賽合作模組",
+    "category": "utility",
+    "desc": "允許多創作者合作舉辦比賽。"
+  },
+  {
+    "id": 738,
+    "name": "寵物比賽專案模組",
+    "category": "utility",
+    "desc": "允許建立專屬比賽專案與管理系統。"
+  },
+  {
+    "id": 740,
+    "name": "寵物比賽榮譽牆模組",
+    "category": "utility",
+    "desc": "展示歷屆比賽的優秀作品。"
+  },
+  {
+    "id": 743,
+    "name": "寵物冒險道具模組",
+    "category": "utility",
+    "desc": "冒險中可收集或使用道具。"
+  },
+  {
+    "id": 747,
+    "name": "寵物冒險任務模組",
+    "category": "utility",
+    "desc": "冒險過程包含多樣化任務。"
+  },
+  {
+    "id": 748,
+    "name": "寵物冒險隱藏模組",
+    "category": "utility",
+    "desc": "特定條件可解鎖隱藏冒險。"
+  },
+  {
+    "id": 749,
+    "name": "寵物冒險獎勵模組",
+    "category": "utility",
+    "desc": "冒險完成後可獲得獎勵。"
+  },
+  {
+    "id": 753,
+    "name": "寵物情緒語音模組",
+    "category": "utility",
+    "desc": "情緒變化影響語音的語氣。"
+  },
+  {
+    "id": 755,
+    "name": "寵物情緒任務模組",
+    "category": "utility",
+    "desc": "完成任務可影響寵物情緒。"
+  },
+  {
+    "id": 756,
+    "name": "寵物情緒收藏模組",
+    "category": "utility",
+    "desc": "允許保存寵物情緒數據。"
+  },
+  {
+    "id": 758,
+    "name": "寵物情緒公益模組",
+    "category": "utility",
+    "desc": "情緒數據可應用於公益宣傳。"
+  },
+  {
+    "id": 759,
+    "name": "寵物情緒教育模組",
+    "category": "utility",
+    "desc": "情緒曲線可應用於教育訓練。"
+  },
+  {
+    "id": 760,
+    "name": "寵物情緒社群模組",
+    "category": "utility",
+    "desc": "用戶可分享寵物情緒數據至社群。"
+  },
+  {
+    "id": 762,
+    "name": "多寵物合作任務模組",
+    "category": "utility",
+    "desc": "多寵物可合作完成任務。"
+  },
+  {
+    "id": 763,
+    "name": "多寵物冒險模組",
+    "category": "utility",
+    "desc": "多寵物可共同參與冒險。"
+  },
+  {
+    "id": 764,
+    "name": "多寵物比賽模組",
+    "category": "utility",
+    "desc": "允許多寵物同場比賽。"
+  },
+  {
+    "id": 768,
+    "name": "多寵物語音模組",
+    "category": "utility",
+    "desc": "支援多寵物語音互動。"
+  },
+  {
+    "id": 769,
+    "name": "多寵物任務模組",
+    "category": "utility",
+    "desc": "允許多寵物同時參與任務。"
+  },
+  {
+    "id": 832,
+    "name": "寵物對戰技能模組",
+    "category": "utility",
+    "desc": "寵物對戰中可使用特殊技能。"
+  },
+  {
+    "id": 833,
+    "name": "寵物對戰道具模組",
+    "category": "utility",
+    "desc": "允許使用道具輔助對戰。"
+  },
+  {
+    "id": 835,
+    "name": "寵物對戰觀眾互動模組",
+    "category": "utility",
+    "desc": "觀眾可影響對戰結果。"
+  },
+  {
+    "id": 837,
+    "name": "寵物對戰直播模組",
+    "category": "utility",
+    "desc": "支援對戰比賽的即時直播。"
+  },
+  {
+    "id": 839,
+    "name": "寵物對戰榮譽牆模組",
+    "category": "utility",
+    "desc": "展示歷屆對戰的優秀作品。"
+  },
+  {
+    "id": 840,
+    "name": "寵物對戰比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦大型寵物對戰比賽。"
+  },
+  {
+    "id": 844,
+    "name": "劇情語音教育模組",
+    "category": "utility",
+    "desc": "將語音功能應用於教育劇情。"
+  },
+  {
+    "id": 847,
+    "name": "劇情語音收藏模組",
+    "category": "utility",
+    "desc": "允許保存與分享語音片段。"
+  },
+  {
+    "id": 848,
+    "name": "劇情語音比賽模組",
+    "category": "utility",
+    "desc": "舉辦語音演繹比賽。"
+  },
+  {
+    "id": 862,
+    "name": "觀眾劇情互動模組",
+    "category": "utility",
+    "desc": "觀眾可透過互動影響劇情發展。"
+  },
+  {
+    "id": 865,
+    "name": "觀眾投票模組",
+    "category": "utility",
+    "desc": "觀眾可投票決定劇情走向。"
+  },
+  {
+    "id": 866,
+    "name": "觀眾留言模組",
+    "category": "utility",
+    "desc": "觀眾可於播放中留言。"
+  },
+  {
+    "id": 868,
+    "name": "觀眾禮物模組",
+    "category": "utility",
+    "desc": "觀眾可送出虛擬禮物觸發特效。"
+  },
+  {
+    "id": 869,
+    "name": "觀眾挑戰模組",
+    "category": "utility",
+    "desc": "觀眾可參與互動挑戰賽。"
+  },
+  {
+    "id": 871,
+    "name": "平台教育合作模組",
+    "category": "utility",
+    "desc": "支援學校或教育機構合作專案。"
+  },
+  {
+    "id": 874,
+    "name": "平台品牌合作模組",
+    "category": "utility",
+    "desc": "支援品牌與創作者合作。"
+  },
+  {
+    "id": 877,
+    "name": "平台比賽合作模組",
+    "category": "utility",
+    "desc": "允許平台舉辦跨專案比賽。"
+  },
+  {
+    "id": 879,
+    "name": "平台合作榮譽牆模組",
+    "category": "utility",
+    "desc": "展示合作成果與優秀專案。"
+  },
+  {
+    "id": 892,
+    "name": "創作者社群模組",
+    "category": "utility",
+    "desc": "支援創作者之間的社群互動。"
+  },
+  {
+    "id": 893,
+    "name": "創作者比賽模組",
+    "category": "utility",
+    "desc": "允許創作者之間舉辦比賽。"
+  },
+  {
+    "id": 894,
+    "name": "創作者學習模組",
+    "category": "utility",
+    "desc": "提供創作者教育資源。"
+  },
+  {
+    "id": 895,
+    "name": "創作者培訓模組",
+    "category": "utility",
+    "desc": "提供創作者專業培訓課程。"
+  },
+  {
+    "id": 896,
+    "name": "創作者獎勵模組",
+    "category": "utility",
+    "desc": "鼓勵創作者參與專案的獎勵制度。"
+  },
+  {
+    "id": 897,
+    "name": "創作者榮譽牆模組",
+    "category": "utility",
+    "desc": "展示優秀創作者作品。"
+  },
+  {
+    "id": 898,
+    "name": "創作者收益模組",
+    "category": "utility",
+    "desc": "統計並分潤創作者收益。"
+  },
+  {
+    "id": 899,
+    "name": "創作者合作模組",
+    "category": "utility",
+    "desc": "支援多創作者協作專案。"
+  },
+  {
+    "id": 900,
+    "name": "創作者國際合作模組",
+    "category": "utility",
+    "desc": "支援跨國創作者合作專案。"
+  },
+  {
+    "id": 901,
+    "name": "觀眾互動劇情模組",
+    "category": "utility",
+    "desc": "觀眾可投票或留言影響劇情發展方向。"
+  },
+  {
+    "id": 907,
+    "name": "觀眾互動道具模組",
+    "category": "utility",
+    "desc": "觀眾可贈送虛擬道具影響劇情。"
+  },
+  {
+    "id": 908,
+    "name": "觀眾互動劇情分支模組",
+    "category": "utility",
+    "desc": "觀眾集體投票決定劇情分支走向。"
+  },
+  {
+    "id": 913,
+    "name": "觀眾語音投票模組",
+    "category": "utility",
+    "desc": "以語音形式參與投票。"
+  },
+  {
+    "id": 914,
+    "name": "觀眾語音留言模組",
+    "category": "utility",
+    "desc": "觀眾可發送語音留言影響劇情。"
+  },
+  {
+    "id": 917,
+    "name": "觀眾語音成就模組",
+    "category": "utility",
+    "desc": "觀眾參與語音互動可解鎖成就。"
+  },
+  {
+    "id": 918,
+    "name": "觀眾語音收藏模組",
+    "category": "utility",
+    "desc": "允許收藏語音互動片段。"
+  },
+  {
+    "id": 919,
+    "name": "觀眾語音比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦觀眾語音比賽。"
+  },
+  {
+    "id": 924,
+    "name": "寵物語音收藏模組",
+    "category": "utility",
+    "desc": "允許保存寵物語音數據。"
+  },
+  {
+    "id": 930,
+    "name": "寵物語音任務牆模組",
+    "category": "utility",
+    "desc": "集中展示寵物語音相關任務。"
+  },
+  {
+    "id": 942,
+    "name": "劇情時間跳躍模組",
+    "category": "utility",
+    "desc": "允許劇情跨越不同時間點。"
+  },
+  {
+    "id": 944,
+    "name": "劇情多結局模組",
+    "category": "utility",
+    "desc": "允許劇情分支導向多重結局。"
+  },
+  {
+    "id": 946,
+    "name": "劇情互動挑戰模組",
+    "category": "utility",
+    "desc": "觀眾可參與挑戰影響劇情。"
+  },
+  {
+    "id": 949,
+    "name": "劇情重播模組",
+    "category": "utility",
+    "desc": "允許回顧或重播特定劇情段落。"
+  },
+  {
+    "id": 971,
+    "name": "觀眾社群互動模組",
+    "category": "utility",
+    "desc": "觀眾可於社群內分享與互動。"
+  },
+  {
+    "id": 972,
+    "name": "觀眾任務模組",
+    "category": "utility",
+    "desc": "觀眾可完成任務並獲得獎勵。"
+  },
+  {
+    "id": 973,
+    "name": "觀眾比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦觀眾參與的比賽。"
+  },
+  {
+    "id": 976,
+    "name": "觀眾成就模組",
+    "category": "utility",
+    "desc": "觀眾參與互動可解鎖成就。"
+  },
+  {
+    "id": 977,
+    "name": "觀眾徽章模組",
+    "category": "utility",
+    "desc": "完成任務或互動可獲得徽章。"
+  },
+  {
+    "id": 978,
+    "name": "觀眾積分模組",
+    "category": "utility",
+    "desc": "互動可累積積分並兌換獎勵。"
+  },
+  {
+    "id": 979,
+    "name": "觀眾商店模組",
+    "category": "utility",
+    "desc": "觀眾可於商店購買虛擬物品。"
+  },
+  {
+    "id": 980,
+    "name": "觀眾直播模組",
+    "category": "utility",
+    "desc": "支援觀眾參與即時直播互動。"
+  },
+  {
+    "id": 981,
+    "name": "平台內容審核模組",
+    "category": "utility",
+    "desc": "AI 自動審核平台內容是否合規。"
+  },
+  {
+    "id": 982,
+    "name": "平台內容推薦模組",
+    "category": "utility",
+    "desc": "AI 根據數據推薦熱門內容。"
+  },
+  {
+    "id": 984,
+    "name": "平台用戶分析模組",
+    "category": "utility",
+    "desc": "分析用戶行為數據。"
+  },
+  {
+    "id": 985,
+    "name": "平台收益統計模組",
+    "category": "utility",
+    "desc": "統計平台收益來源。"
+  },
+  {
+    "id": 987,
+    "name": "平台合作模組",
+    "category": "utility",
+    "desc": "允許平台與外部合作。"
+  },
+  {
+    "id": 989,
+    "name": "平台比賽模組",
+    "category": "utility",
+    "desc": "允許平台舉辦比賽。"
+  },
+  {
+    "id": 990,
+    "name": "平台公益模組",
+    "category": "utility",
+    "desc": "允許平台舉辦公益專案。"
+  },
+  {
+    "id": 991,
+    "name": "平台教育模組",
+    "category": "utility",
+    "desc": "允許平台舉辦教育專案。"
+  },
+  {
+    "id": 992,
+    "name": "平台社群模組",
+    "category": "utility",
+    "desc": "支援社群互動與分享。"
+  },
+  {
+    "id": 993,
+    "name": "平台商城模組",
+    "category": "utility",
+    "desc": "提供平台內的虛擬商品交易。"
+  },
+  {
+    "id": 996,
+    "name": "平台榮譽牆模組",
+    "category": "utility",
+    "desc": "展示平台內優秀作品。"
+  },
+  {
+    "id": 997,
+    "name": "平台國際合作模組",
+    "category": "utility",
+    "desc": "支援跨國平台合作。"
+  },
+  {
+    "id": 1000,
+    "name": "平台升級模組",
+    "category": "utility",
+    "desc": "定期更新與優化平台功能。"
+  },
+  {
+    "id": 1001,
+    "name": "寵物主題樂園模組",
+    "category": "utility",
+    "desc": "允許建立虛擬寵物主題樂園，包含互動設施與冒險區。"
+  },
+  {
+    "id": 1005,
+    "name": "寵物飛行比賽模組",
+    "category": "utility",
+    "desc": "支援具備翅膀或飛行能力的寵物參與比賽。"
+  },
+  {
+    "id": 1006,
+    "name": "寵物潛水挑戰模組",
+    "category": "utility",
+    "desc": "允許水中寵物進行潛水冒險與挑戰。"
+  },
+  {
+    "id": 1009,
+    "name": "寵物舞蹈比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦寵物舞蹈競賽。"
+  },
+  {
+    "id": 1010,
+    "name": "寵物才藝比賽模組",
+    "category": "utility",
+    "desc": "允許寵物展示才藝並由觀眾投票。"
+  },
+  {
+    "id": 1015,
+    "name": "寵物收集模組",
+    "category": "utility",
+    "desc": "允許玩家收集不同品種的寵物。"
+  },
+  {
+    "id": 1017,
+    "name": "寵物養成模組",
+    "category": "utility",
+    "desc": "提供完整寵物培養與成長系統。"
+  },
+  {
+    "id": 1019,
+    "name": "寵物技能模組",
+    "category": "utility",
+    "desc": "允許寵物習得並使用新技能。"
+  },
+  {
+    "id": 1020,
+    "name": "寵物進化模組",
+    "category": "utility",
+    "desc": "寵物可依條件進化至新形態。"
+  },
+  {
+    "id": 1031,
+    "name": "寵物運動會模組",
+    "category": "utility",
+    "desc": "舉辦虛擬寵物運動會。"
+  },
+  {
+    "id": 1032,
+    "name": "寵物跨國比賽模組",
+    "category": "utility",
+    "desc": "支援跨國玩家共同參與的寵物比賽。"
+  },
+  {
+    "id": 1035,
+    "name": "寵物冒險收藏模組",
+    "category": "utility",
+    "desc": "允許用戶收藏冒險紀錄。"
+  },
+  {
+    "id": 1037,
+    "name": "寵物冒險隱藏關卡模組",
+    "category": "utility",
+    "desc": "完成條件才能解鎖隱藏關卡。"
+  },
+  {
+    "id": 1040,
+    "name": "寵物冒險社群模組",
+    "category": "utility",
+    "desc": "允許分享冒險經歷至社群。"
+  },
+  {
+    "id": 1091,
+    "name": "用戶任務模組",
+    "category": "utility",
+    "desc": "用戶可接受並完成平台任務。"
+  },
+  {
+    "id": 1093,
+    "name": "用戶比賽模組",
+    "category": "utility",
+    "desc": "用戶可舉辦或參與比賽。"
+  },
+  {
+    "id": 1097,
+    "name": "用戶商城模組",
+    "category": "utility",
+    "desc": "允許用戶於商城內購買商品。"
+  },
+  {
+    "id": 1098,
+    "name": "用戶直播模組",
+    "category": "utility",
+    "desc": "允許用戶開啟直播與互動。"
+  },
+  {
+    "id": 1099,
+    "name": "用戶社群模組",
+    "category": "utility",
+    "desc": "允許用戶參與社群互動。"
+  },
+  {
+    "id": 1100,
+    "name": "用戶國際合作模組",
+    "category": "utility",
+    "desc": "允許用戶參與國際專案合作。"
+  },
+  {
+    "id": 1105,
+    "name": "寵物語音翻譯模組",
+    "category": "utility",
+    "desc": "將寵物叫聲翻譯成人類語言。"
+  },
+  {
+    "id": 1108,
+    "name": "寵物日常紀錄模組",
+    "category": "utility",
+    "desc": "用戶可上傳並記錄寵物日常生活。"
+  },
+  {
+    "id": 1111,
+    "name": "寵物健康監測模組",
+    "category": "utility",
+    "desc": "記錄與分析寵物的健康狀態。"
+  },
+  {
+    "id": 1113,
+    "name": "寵物飲食模組",
+    "category": "utility",
+    "desc": "管理寵物每日飲食計畫與攝取數據。"
+  },
+  {
+    "id": 1114,
+    "name": "寵物睡眠模組",
+    "category": "utility",
+    "desc": "分析寵物的睡眠週期與質量。"
+  },
+  {
+    "id": 1115,
+    "name": "寵物醫療模組",
+    "category": "utility",
+    "desc": "集中管理寵物的醫療與用藥記錄。"
+  },
+  {
+    "id": 1119,
+    "name": "寵物社群模組",
+    "category": "utility",
+    "desc": "用戶可與他人分享寵物內容。"
+  },
+  {
+    "id": 1120,
+    "name": "寵物比賽模組",
+    "category": "utility",
+    "desc": "允許寵物參與比賽與競技。"
+  },
+  {
+    "id": 1121,
+    "name": "寵物教育模組",
+    "category": "utility",
+    "desc": "將教育內容嵌入寵物互動中。"
+  },
+  {
+    "id": 1125,
+    "name": "寵物商城模組",
+    "category": "utility",
+    "desc": "提供寵物相關商品交易。"
+  },
+  {
+    "id": 1127,
+    "name": "寵物榮譽牆模組",
+    "category": "utility",
+    "desc": "展示優秀的寵物內容。"
+  },
+  {
+    "id": 1151,
+    "name": "觀眾投票模組",
+    "category": "utility",
+    "desc": "觀眾可投票影響劇情走向。"
+  },
+  {
+    "id": 1153,
+    "name": "觀眾留言模組",
+    "category": "utility",
+    "desc": "觀眾可在播放過程中留言。"
+  },
+  {
+    "id": 1154,
+    "name": "觀眾打賞模組",
+    "category": "utility",
+    "desc": "觀眾可打賞創作者。"
+  },
+  {
+    "id": 1155,
+    "name": "觀眾禮物模組",
+    "category": "utility",
+    "desc": "觀眾可贈送虛擬禮物。"
+  },
+  {
+    "id": 1157,
+    "name": "觀眾任務模組",
+    "category": "utility",
+    "desc": "觀眾可完成任務以獲得獎勵。"
+  },
+  {
+    "id": 1158,
+    "name": "觀眾成就模組",
+    "category": "utility",
+    "desc": "觀眾參與互動可解鎖成就。"
+  },
+  {
+    "id": 1160,
+    "name": "觀眾社群模組",
+    "category": "utility",
+    "desc": "允許觀眾參與社群互動。"
+  },
+  {
+    "id": 1163,
+    "name": "平台升級模組",
+    "category": "utility",
+    "desc": "定期更新平台功能。"
+  },
+  {
+    "id": 1165,
+    "name": "平台合作模組",
+    "category": "utility",
+    "desc": "允許平台與外部專案合作。"
+  },
+  {
+    "id": 1169,
+    "name": "平台商城模組",
+    "category": "utility",
+    "desc": "提供平台內的商品交易功能。"
+  },
+  {
+    "id": 1172,
+    "name": "平台榮譽牆模組",
+    "category": "utility",
+    "desc": "展示平台的優秀作品。"
+  },
+  {
+    "id": 1173,
+    "name": "平台國際模組",
+    "category": "utility",
+    "desc": "支援平台的跨國運營與合作。"
+  },
+  {
+    "id": 1175,
+    "name": "平台社群模組",
+    "category": "utility",
+    "desc": "支援用戶於平台內的社群交流。"
+  },
+  {
+    "id": 1176,
+    "name": "平台直播模組",
+    "category": "utility",
+    "desc": "允許用戶於平台內即時直播。"
+  },
+  {
+    "id": 1178,
+    "name": "平台比賽合作模組",
+    "category": "utility",
+    "desc": "允許平台與外部合作舉辦比賽。"
+  },
+  {
+    "id": 1179,
+    "name": "平台教育合作模組",
+    "category": "utility",
+    "desc": "允許平台與教育機構合作。"
+  },
+  {
+    "id": 1180,
+    "name": "平台公益合作模組",
+    "category": "utility",
+    "desc": "允許平台與公益組織合作。"
+  },
+  {
+    "id": 1181,
+    "name": "用戶登入模組",
+    "category": "utility",
+    "desc": "支援用戶多方式登入。"
+  },
+  {
+    "id": 1182,
+    "name": "用戶註冊模組",
+    "category": "utility",
+    "desc": "支援用戶快速註冊。"
+  },
+  {
+    "id": 1183,
+    "name": "用戶資料模組",
+    "category": "utility",
+    "desc": "允許管理與更新用戶個人資料。"
+  },
+  {
+    "id": 1184,
+    "name": "用戶等級模組",
+    "category": "utility",
+    "desc": "依據活躍度給予用戶等級。"
+  },
+  {
+    "id": 1188,
+    "name": "用戶比賽模組",
+    "category": "utility",
+    "desc": "允許用戶舉辦或參與比賽。"
+  },
+  {
+    "id": 1190,
+    "name": "用戶成就模組",
+    "category": "utility",
+    "desc": "完成任務後解鎖成就。"
+  },
+  {
+    "id": 1191,
+    "name": "用戶商城模組",
+    "category": "utility",
+    "desc": "支援用戶於商城內交易。"
+  },
+  {
+    "id": 1192,
+    "name": "用戶直播模組",
+    "category": "utility",
+    "desc": "允許用戶發起即時直播。"
+  },
+  {
+    "id": 1193,
+    "name": "用戶社群模組",
+    "category": "utility",
+    "desc": "允許用戶參與平台社群。"
+  },
+  {
+    "id": 1194,
+    "name": "用戶國際模組",
+    "category": "utility",
+    "desc": "支援用戶跨國參與專案。"
+  },
+  {
+    "id": 1197,
+    "name": "用戶合作模組",
+    "category": "utility",
+    "desc": "允許用戶與其他創作者合作。"
+  },
+  {
+    "id": 1198,
+    "name": "用戶比賽合作模組",
+    "category": "utility",
+    "desc": "允許用戶跨專案舉辦比賽。"
+  },
+  {
+    "id": 1199,
+    "name": "用戶教育合作模組",
+    "category": "utility",
+    "desc": "允許用戶與教育機構合作。"
+  },
+  {
+    "id": 1200,
+    "name": "用戶公益合作模組",
+    "category": "utility",
+    "desc": "允許用戶與公益組織合作。"
+  },
+  {
+    "id": 1205,
+    "name": "寵物冒險時間模組",
+    "category": "utility",
+    "desc": "允許冒險依照時間限制進行。"
+  },
+  {
+    "id": 1210,
+    "name": "寵物冒險收藏模組",
+    "category": "utility",
+    "desc": "允許玩家收藏冒險經歷。"
+  },
+  {
+    "id": 1222,
+    "name": "寵物語錄收藏模組",
+    "category": "utility",
+    "desc": "允許保存與分類語錄卡。"
+  },
+  {
+    "id": 1223,
+    "name": "寵物語錄分享模組",
+    "category": "utility",
+    "desc": "允許一鍵分享語錄卡至社群。"
+  },
+  {
+    "id": 1224,
+    "name": "寵物語錄教育模組",
+    "category": "utility",
+    "desc": "語錄卡可應用於教育內容。"
+  },
+  {
+    "id": 1225,
+    "name": "寵物語錄公益模組",
+    "category": "utility",
+    "desc": "語錄卡可應用於公益宣傳。"
+  },
+  {
+    "id": 1226,
+    "name": "寵物語錄任務模組",
+    "category": "utility",
+    "desc": "完成特定語錄任務可解鎖新卡片。"
+  },
+  {
+    "id": 1228,
+    "name": "寵物語錄比賽模組",
+    "category": "utility",
+    "desc": "舉辦語錄卡創作比賽。"
+  },
+  {
+    "id": 1230,
+    "name": "寵物語錄限量模組",
+    "category": "utility",
+    "desc": "推出限量語錄卡系列。"
+  },
+  {
+    "id": 1241,
+    "name": "觀眾投票分支模組",
+    "category": "utility",
+    "desc": "觀眾可投票影響劇情的分支走向。"
+  },
+  {
+    "id": 1243,
+    "name": "觀眾語音互動模組",
+    "category": "utility",
+    "desc": "觀眾可直接以語音參與互動。"
+  },
+  {
+    "id": 1244,
+    "name": "觀眾道具互動模組",
+    "category": "utility",
+    "desc": "觀眾贈送道具可觸發劇情變化。"
+  },
+  {
+    "id": 1245,
+    "name": "觀眾社群模組",
+    "category": "utility",
+    "desc": "觀眾可於社群分享觀看心得。"
+  },
+  {
+    "id": 1246,
+    "name": "觀眾成就模組",
+    "category": "utility",
+    "desc": "觀眾參與互動可解鎖獎章與成就。"
+  },
+  {
+    "id": 1247,
+    "name": "觀眾比賽模組",
+    "category": "utility",
+    "desc": "觀眾可參加平台舉辦的互動比賽。"
+  },
+  {
+    "id": 1251,
+    "name": "平台任務模組",
+    "category": "utility",
+    "desc": "允許平台發佈任務供用戶參加。"
+  },
+  {
+    "id": 1253,
+    "name": "平台比賽模組",
+    "category": "utility",
+    "desc": "允許平台舉辦大型比賽。"
+  },
+  {
+    "id": 1254,
+    "name": "平台教育模組",
+    "category": "utility",
+    "desc": "允許平台舉辦教育專案。"
+  },
+  {
+    "id": 1256,
+    "name": "平台社群模組",
+    "category": "utility",
+    "desc": "支援平台內的社群互動功能。"
+  },
+  {
+    "id": 1257,
+    "name": "平台合作模組",
+    "category": "utility",
+    "desc": "允許平台與外部單位合作。"
+  },
+  {
+    "id": 1259,
+    "name": "平台收益模組",
+    "category": "utility",
+    "desc": "統計平台收益並提供報告。"
+  },
+  {
+    "id": 1260,
+    "name": "平台升級模組",
+    "category": "utility",
+    "desc": "定期更新與優化平台功能。"
+  },
+  {
+    "id": 1342,
+    "name": "觀眾劇情互動模組",
+    "category": "utility",
+    "desc": "觀眾可參與劇情選擇。"
+  },
+  {
+    "id": 1344,
+    "name": "觀眾留言互動模組",
+    "category": "utility",
+    "desc": "觀眾可留言影響劇情。"
+  },
+  {
+    "id": 1347,
+    "name": "觀眾挑戰模組",
+    "category": "utility",
+    "desc": "觀眾可參與挑戰賽並影響劇情。"
+  },
+  {
+    "id": 1348,
+    "name": "觀眾比賽模組",
+    "category": "utility",
+    "desc": "觀眾可參與比賽或舉辦比賽。"
+  },
+  {
+    "id": 1349,
+    "name": "觀眾社群模組",
+    "category": "utility",
+    "desc": "觀眾可在社群分享互動心得。"
+  },
+  {
+    "id": 1353,
+    "name": "平台升級優化模組",
+    "category": "utility",
+    "desc": "定期進行系統升級與優化。"
+  },
+  {
+    "id": 1354,
+    "name": "平台收益統計模組",
+    "category": "utility",
+    "desc": "統計平台收益來源與分配情況。"
+  },
+  {
+    "id": 1356,
+    "name": "平台比賽模組",
+    "category": "utility",
+    "desc": "允許平台舉辦更多元的比賽。"
+  },
+  {
+    "id": 1358,
+    "name": "平台教育模組",
+    "category": "utility",
+    "desc": "允許平台開展教育合作。"
+  },
+  {
+    "id": 1359,
+    "name": "平台公益模組",
+    "category": "utility",
+    "desc": "允許平台推動公益專案。"
+  },
+  {
+    "id": 1360,
+    "name": "平台國際模組",
+    "category": "utility",
+    "desc": "允許平台參與跨國合作。"
+  },
+  {
+    "id": 1363,
+    "name": "寵物語錄收藏模組",
+    "category": "utility",
+    "desc": "允許保存寵物語錄卡並進行分類。"
+  },
+  {
+    "id": 1364,
+    "name": "寵物語錄分享模組",
+    "category": "utility",
+    "desc": "允許將語錄卡分享至外部社群。"
+  },
+  {
+    "id": 1365,
+    "name": "寵物語錄榮譽牆模組",
+    "category": "utility",
+    "desc": "展示優秀的寵物語錄。"
+  },
+  {
+    "id": 1366,
+    "name": "寵物語錄隱藏模組",
+    "category": "utility",
+    "desc": "需解鎖條件才能查看的語錄。"
+  },
+  {
+    "id": 1367,
+    "name": "寵物語錄教育模組",
+    "category": "utility",
+    "desc": "語錄卡內容可應用於教育。"
+  },
+  {
+    "id": 1368,
+    "name": "寵物語錄公益模組",
+    "category": "utility",
+    "desc": "語錄卡內容可應用於公益。"
+  },
+  {
+    "id": 1369,
+    "name": "寵物語錄比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦語錄卡創作比賽。"
+  },
+  {
+    "id": 1383,
+    "name": "寵物科幻冒險模組",
+    "category": "utility",
+    "desc": "允許寵物參與科幻題材的冒險。"
+  },
+  {
+    "id": 1384,
+    "name": "寵物歷史冒險模組",
+    "category": "utility",
+    "desc": "允許寵物體驗歷史背景冒險。"
+  },
+  {
+    "id": 1385,
+    "name": "寵物跨國冒險模組",
+    "category": "utility",
+    "desc": "允許寵物參與跨國冒險劇情。"
+  },
+  {
+    "id": 1386,
+    "name": "寵物公益冒險模組",
+    "category": "utility",
+    "desc": "允許寵物參與公益相關的冒險。"
+  },
+  {
+    "id": 1387,
+    "name": "寵物教育冒險模組",
+    "category": "utility",
+    "desc": "允許寵物參與教育主題的冒險。"
+  },
+  {
+    "id": 1388,
+    "name": "寵物家庭冒險模組",
+    "category": "utility",
+    "desc": "允許寵物參與家庭題材冒險。"
+  },
+  {
+    "id": 1405,
+    "name": "劇情教育模組",
+    "category": "utility",
+    "desc": "將教育內容融入劇情發展。"
+  },
+  {
+    "id": 1406,
+    "name": "劇情公益模組",
+    "category": "utility",
+    "desc": "將公益內容嵌入劇情中。"
+  },
+  {
+    "id": 1407,
+    "name": "劇情隱藏片段模組",
+    "category": "utility",
+    "desc": "需達成特定條件才能解鎖隱藏劇情。"
+  },
+  {
+    "id": 1409,
+    "name": "劇情收藏模組",
+    "category": "utility",
+    "desc": "允許保存與回味重要劇情片段。"
+  },
+  {
+    "id": 1415,
+    "name": "情節分支預覽模組",
+    "category": "utility",
+    "desc": "允許使用者預覽不同的劇情分支。"
+  },
+  {
+    "id": 1419,
+    "name": "字幕樣式模組",
+    "category": "utility",
+    "desc": "允許字幕以不同字體與樣式顯示。"
+  },
+  {
+    "id": 1423,
+    "name": "任務成就牆模組",
+    "category": "utility",
+    "desc": "集中展示用戶完成的任務成就。"
+  },
+  {
+    "id": 1429,
+    "name": "創作者頻道模組",
+    "category": "utility",
+    "desc": "提供創作者專屬頻道展示作品。"
+  },
+  {
+    "id": 1433,
+    "name": "時間跳躍修補模組",
+    "category": "utility",
+    "desc": "允許修補時間軸斷層或劇情漏洞。"
+  },
+  {
+    "id": 1435,
+    "name": "用戶票選分支模組",
+    "category": "utility",
+    "desc": "允許用戶投票選擇劇情發展。"
+  },
+  {
+    "id": 1440,
+    "name": "用戶參與式劇情選擇模組",
+    "category": "utility",
+    "desc": "支援多劇情分支的用戶互動投票。"
+  },
+  {
+    "id": 1442,
+    "name": "互動式回憶殺模組",
+    "category": "utility",
+    "desc": "將過往互動片段串聯成回憶殺。"
+  },
+  {
+    "id": 1446,
+    "name": "語錄卡回顧模組",
+    "category": "utility",
+    "desc": "集中瀏覽、收藏語錄卡歷史。"
+  },
+  {
+    "id": 1458,
+    "name": "字幕同步模組",
+    "category": "utility",
+    "desc": "自動同步字幕與語音。"
+  },
+  {
+    "id": 1478,
+    "name": "觀眾情感分析模組",
+    "category": "utility",
+    "desc": "AI 分析觀眾情緒並提供數據。"
+  },
+  {
+    "id": 1483,
+    "name": "觀眾社群投票模組",
+    "category": "utility",
+    "desc": "允許觀眾於社群平台投票影響劇情。"
+  },
+  {
+    "id": 1484,
+    "name": "劇情隨機互動模組",
+    "category": "utility",
+    "desc": "劇情中會隨機觸發觀眾互動事件。"
+  },
+  {
+    "id": 1489,
+    "name": "語音成就徽章模組",
+    "category": "utility",
+    "desc": "根據語音互動解鎖成就徽章。"
+  },
+  {
+    "id": 1492,
+    "name": "語音劇情模擬模組",
+    "category": "utility",
+    "desc": "語音互動可觸發即時劇情模擬。"
+  },
+  {
+    "id": 1496,
+    "name": "語音互動社群模組",
+    "category": "utility",
+    "desc": "允許語音互動內容分享到社群。"
+  },
+  {
+    "id": 1497,
+    "name": "語音比賽模組",
+    "category": "utility",
+    "desc": "允許舉辦語音互動比賽。"
+  },
+  {
+    "id": 1500,
+    "name": "語音國際模組",
+    "category": "utility",
+    "desc": "支援語音互動的跨國推廣與合作。"
+  },
+  {
+    "id": 1502,
+    "name": "語速模擬模組",
+    "category": "utility",
+    "desc": "支援語音播放的語速調整模擬。"
+  },
+  {
+    "id": 1503,
+    "name": "情緒配樂調整模組",
+    "category": "utility",
+    "desc": "自動根據劇情情緒選擇或調整配樂。"
+  },
+  {
+    "id": 1507,
+    "name": "語音回放修飾模組",
+    "category": "utility",
+    "desc": "允許語音回放時進行音質與語調修飾。"
+  },
+  {
+    "id": 1511,
+    "name": "情節節點記憶模組",
+    "category": "utility",
+    "desc": "記錄每個劇情節點並影響後續分支。"
+  },
+  {
+    "id": 1514,
+    "name": "語錄票選分支模組",
+    "category": "utility",
+    "desc": "允許觀眾票選語錄影響劇情走向。"
+  },
+  {
+    "id": 1531,
+    "name": "語錄分類模組",
+    "category": "utility",
+    "desc": "自動將語錄卡分類管理。"
+  },
+  {
+    "id": 1543,
+    "name": "AI 腳本修正模組",
+    "category": "utility",
+    "desc": "AI 自動檢查並修正劇情腳本。"
+  },
+  {
+    "id": 1553,
+    "name": "語錄任務挑戰模組",
+    "category": "utility",
+    "desc": "觀眾完成語錄相關挑戰解鎖獎勵。"
+  },
+  {
+    "id": 1559,
+    "name": "觀眾投票延伸模組",
+    "category": "utility",
+    "desc": "允許觀眾投票解鎖額外劇情。"
+  },
+  {
+    "id": 1560,
+    "name": "觀眾合作挑戰模組",
+    "category": "utility",
+    "desc": "觀眾可組隊合作完成劇情挑戰。"
+  },
+  {
+    "id": 1563,
+    "name": "觀眾劇情分支模組",
+    "category": "utility",
+    "desc": "觀眾的選擇可直接影響分支走向。"
+  },
+  {
+    "id": 1565,
+    "name": "觀眾成就獎勵模組",
+    "category": "utility",
+    "desc": "觀眾完成互動可獲得專屬獎勵。"
+  },
+  {
+    "id": 1566,
+    "name": "觀眾語錄卡互動模組",
+    "category": "utility",
+    "desc": "觀眾可使用語錄卡觸發劇情變化。"
+  },
+  {
+    "id": 1567,
+    "name": "觀眾直播互動模組",
+    "category": "utility",
+    "desc": "觀眾可在直播中即時影響劇情。"
+  },
+  {
+    "id": 1568,
+    "name": "觀眾公益推廣模組",
+    "category": "utility",
+    "desc": "觀眾互動可推廣至公益專案。"
+  },
+  {
+    "id": 1569,
+    "name": "觀眾教育延伸模組",
+    "category": "utility",
+    "desc": "觀眾互動可用於教育內容。"
+  },
+  {
+    "id": 1570,
+    "name": "觀眾跨國互動模組",
+    "category": "utility",
+    "desc": "支援跨國觀眾共同參與互動。"
+  }
+]

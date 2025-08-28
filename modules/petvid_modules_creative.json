@@ -1,0 +1,5732 @@
+[
+  {
+    "id": 3,
+    "name": "寵物/動物選擇模組",
+    "category": "creative",
+    "desc": "使用者可選擇自家寵物或預設動物角色作為動畫主角。"
+  },
+  {
+    "id": 4,
+    "name": "角色特徵記憶模組",
+    "category": "creative",
+    "desc": "系統會記錄寵物特徵（花紋、毛色、體型），確保動畫生成一致性。"
+  },
+  {
+    "id": 5,
+    "name": "角色表情生成模組",
+    "category": "creative",
+    "desc": "根據情境自動生成角色情緒表情，例如開心、悲傷、驚訝。"
+  },
+  {
+    "id": 6,
+    "name": "角色動作生成模組",
+    "category": "creative",
+    "desc": "提供預設動作（跑、跳、玩耍），可依需求調整流暢度。"
+  },
+  {
+    "id": 7,
+    "name": "背景場景選擇模組",
+    "category": "creative",
+    "desc": "提供不同場景（公園、家中、街道），用戶可自由選擇或AI推薦。"
+  },
+  {
+    "id": 8,
+    "name": "背景音樂智能搭配模組",
+    "category": "creative",
+    "desc": "根據動畫氛圍，自動推薦合適的音樂或音效。"
+  },
+  {
+    "id": 9,
+    "name": "動畫時長控制模組",
+    "category": "creative",
+    "desc": "支援5秒、15秒、30秒至1分鐘的影片時長設定。"
+  },
+  {
+    "id": 10,
+    "name": "動畫片段分鏡模組",
+    "category": "creative",
+    "desc": "使用者可自訂分鏡，AI協助完成轉場與連貫。"
+  },
+  {
+    "id": 11,
+    "name": "自動分鏡生成模組",
+    "category": "creative",
+    "desc": "AI根據劇情描述自動產生分鏡草圖。"
+  },
+  {
+    "id": 12,
+    "name": "動畫字幕模組",
+    "category": "creative",
+    "desc": "自動產生字幕，並支援多語翻譯與位置調整。"
+  },
+  {
+    "id": 13,
+    "name": "語音旁白模組",
+    "category": "creative",
+    "desc": "允許用戶錄製或使用AI語音，作為動畫解說。"
+  },
+  {
+    "id": 14,
+    "name": "音效庫模組",
+    "category": "creative",
+    "desc": "提供各種寵物相關音效（狗吠、貓叫、環境聲）。"
+  },
+  {
+    "id": 16,
+    "name": "動畫濾鏡特效模組",
+    "category": "creative",
+    "desc": "支援多種濾鏡（復古、黑白、卡通化），提升畫面效果。"
+  },
+  {
+    "id": 17,
+    "name": "動畫光影效果模組",
+    "category": "creative",
+    "desc": "AI自動優化光線與陰影，增強立體感。"
+  },
+  {
+    "id": 18,
+    "name": "角色服飾裝飾模組",
+    "category": "creative",
+    "desc": "提供寵物角色可穿戴的服飾與配件。"
+  },
+  {
+    "id": 19,
+    "name": "互動式任務模組",
+    "category": "creative",
+    "desc": "提供每日或每週任務，完成可解鎖特殊素材。"
+  },
+  {
+    "id": 20,
+    "name": "成就系統模組",
+    "category": "creative",
+    "desc": "依據使用者動畫創作次數與分享次數，頒發徽章。"
+  },
+  {
+    "id": 21,
+    "name": "寵物語錄卡模組",
+    "category": "creative",
+    "desc": "從動畫中擷取有趣語錄，自動生成卡片形式。"
+  },
+  {
+    "id": 24,
+    "name": "分鏡時間軸控制模組",
+    "category": "creative",
+    "desc": "提供可視化時間軸，讓使用者拖曳調整片段順序。"
+  },
+  {
+    "id": 25,
+    "name": "智能場景推薦模組",
+    "category": "creative",
+    "desc": "根據寵物性格與動畫內容，自動推薦合適場景。"
+  },
+  {
+    "id": 26,
+    "name": "動畫片段重播模組",
+    "category": "creative",
+    "desc": "允許用戶重播或迴圈播放特定片段。"
+  },
+  {
+    "id": 27,
+    "name": "動畫片段快進模組",
+    "category": "creative",
+    "desc": "支援倍速播放與快速預覽。"
+  },
+  {
+    "id": 28,
+    "name": "動畫段落標記模組",
+    "category": "creative",
+    "desc": "允許使用者對片段添加標記，便於回顧與修改。"
+  },
+  {
+    "id": 29,
+    "name": "動畫片段刪除模組",
+    "category": "creative",
+    "desc": "支援刪除不需要的分鏡片段。"
+  },
+  {
+    "id": 30,
+    "name": "動畫片段替換模組",
+    "category": "creative",
+    "desc": "允許替換角色表情、場景或語音，重新生成該段動畫。"
+  },
+  {
+    "id": 31,
+    "name": "動畫雲端儲存模組",
+    "category": "creative",
+    "desc": "所有動畫可自動存至雲端，支援跨裝置存取。"
+  },
+  {
+    "id": 32,
+    "name": "下載導出模組",
+    "category": "creative",
+    "desc": "允許用戶將完成的動畫下載為 MP4/GIF 格式。"
+  },
+  {
+    "id": 34,
+    "name": "排行榜模組",
+    "category": "creative",
+    "desc": "依據影片觀看數與分享數，生成排行榜。"
+  },
+  {
+    "id": 35,
+    "name": "投票互動模組",
+    "category": "creative",
+    "desc": "觀眾可對動畫影片進行投票排名。"
+  },
+  {
+    "id": 36,
+    "name": "隱藏彩蛋模組",
+    "category": "creative",
+    "desc": "特定操作可解鎖隱藏片段或角色。"
+  },
+  {
+    "id": 37,
+    "name": "AI 劇情生成模組",
+    "category": "creative",
+    "desc": "使用者輸入劇情描述，AI 自動生成完整分鏡。"
+  },
+  {
+    "id": 38,
+    "name": "多角色互動模組",
+    "category": "creative",
+    "desc": "允許多隻寵物同時出現在動畫中並互動。"
+  },
+  {
+    "id": 39,
+    "name": "角色個性化模組",
+    "category": "creative",
+    "desc": "允許設定角色性格（活潑、安靜、調皮），影響表現。"
+  },
+  {
+    "id": 40,
+    "name": "角色聲音模擬模組",
+    "category": "creative",
+    "desc": "AI 模擬不同音色，讓角色能發聲。"
+  },
+  {
+    "id": 41,
+    "name": "角色語氣調整模組",
+    "category": "creative",
+    "desc": "允許調整角色語氣（興奮、平靜、嚴肅）。"
+  },
+  {
+    "id": 42,
+    "name": "角色口型同步模組",
+    "category": "creative",
+    "desc": "自動對應語音與角色口型動作。"
+  },
+  {
+    "id": 43,
+    "name": "角色情緒曲線模組",
+    "category": "creative",
+    "desc": "生成角色在動畫中情緒變化的曲線圖。"
+  },
+  {
+    "id": 44,
+    "name": "角色反應動作模組",
+    "category": "creative",
+    "desc": "根據對白內容，自動生成角色的肢體反應。"
+  },
+  {
+    "id": 45,
+    "name": "動畫自動摘要模組",
+    "category": "creative",
+    "desc": "AI 自動生成影片摘要文字，方便快速預覽。"
+  },
+  {
+    "id": 46,
+    "name": "動畫章節導覽模組",
+    "category": "creative",
+    "desc": "允許使用者快速跳轉至特定章節。"
+  },
+  {
+    "id": 47,
+    "name": "動畫封面生成模組",
+    "category": "creative",
+    "desc": "自動生成動畫封面，支援自訂文字與樣式。"
+  },
+  {
+    "id": 48,
+    "name": "動畫快照截圖模組",
+    "category": "creative",
+    "desc": "允許用戶擷取動畫片段生成靜態圖片。"
+  },
+  {
+    "id": 49,
+    "name": "動畫海報生成模組",
+    "category": "creative",
+    "desc": "自動生成動畫宣傳海報，可選擇風格模板。"
+  },
+  {
+    "id": 50,
+    "name": "動畫 MV 生成模組",
+    "category": "creative",
+    "desc": "將多個動畫片段自動拼接成完整 MV。"
+  },
+  {
+    "id": 51,
+    "name": "動畫配樂切換模組",
+    "category": "creative",
+    "desc": "允許快速替換背景音樂。"
+  },
+  {
+    "id": 52,
+    "name": "動畫音效強化模組",
+    "category": "creative",
+    "desc": "AI 自動優化音效平衡，增強臨場感。"
+  },
+  {
+    "id": 53,
+    "name": "動畫旁白疊加模組",
+    "category": "creative",
+    "desc": "允許在影片中加入額外旁白。"
+  },
+  {
+    "id": 55,
+    "name": "動畫劇情分支模組",
+    "category": "creative",
+    "desc": "允許觀眾選擇劇情走向，產生不同分支影片。"
+  },
+  {
+    "id": 56,
+    "name": "動畫版本管理模組",
+    "category": "creative",
+    "desc": "支援多版本儲存與切換。"
+  },
+  {
+    "id": 57,
+    "name": "動畫回顧模組",
+    "category": "creative",
+    "desc": "允許使用者回顧歷史動畫並生成精選輯。"
+  },
+  {
+    "id": 58,
+    "name": "動畫收藏牆模組",
+    "category": "creative",
+    "desc": "集中展示使用者的所有收藏動畫。"
+  },
+  {
+    "id": 59,
+    "name": "動畫重製模組",
+    "category": "creative",
+    "desc": "允許替換語錄、配樂或角色再演繹片段。"
+  },
+  {
+    "id": 60,
+    "name": "動畫片段拼接模組",
+    "category": "creative",
+    "desc": "支援將多個短片段拼接成完整動畫。"
+  },
+  {
+    "id": 61,
+    "name": "動畫轉場特效模組",
+    "category": "creative",
+    "desc": "提供多種轉場特效（淡入淡出、推拉鏡頭）。"
+  },
+  {
+    "id": 62,
+    "name": "動畫片段混剪模組",
+    "category": "creative",
+    "desc": "允許將片段重新編排混剪。"
+  },
+  {
+    "id": 63,
+    "name": "動畫快閃模組",
+    "category": "creative",
+    "desc": "自動生成快閃影片，融合多角色與語錄。"
+  },
+  {
+    "id": 64,
+    "name": "動畫故事集模組",
+    "category": "creative",
+    "desc": "將多個動畫片段組合成完整故事集。"
+  },
+  {
+    "id": 65,
+    "name": "動畫互動問答模組",
+    "category": "creative",
+    "desc": "影片播放中彈出互動問題，觀眾可選擇答案。"
+  },
+  {
+    "id": 66,
+    "name": "動畫投票任務模組",
+    "category": "creative",
+    "desc": "觀眾參與投票，結果會影響後續影片生成。"
+  },
+  {
+    "id": 67,
+    "name": "動畫情緒互動模組",
+    "category": "creative",
+    "desc": "觀眾可透過表情符號回饋影響劇情氛圍。"
+  },
+  {
+    "id": 68,
+    "name": "動畫延伸支線模組",
+    "category": "creative",
+    "desc": "允許動畫中產生支線任務與故事。"
+  },
+  {
+    "id": 69,
+    "name": "動畫隱藏角色模組",
+    "category": "creative",
+    "desc": "隱藏角色需透過特定互動條件解鎖。"
+  },
+  {
+    "id": 70,
+    "name": "動畫隱藏片段模組",
+    "category": "creative",
+    "desc": "完成任務可解鎖隱藏片段。"
+  },
+  {
+    "id": 71,
+    "name": "動畫自動翻譯模組",
+    "category": "creative",
+    "desc": "支援影片內容自動翻譯成多語言版本。"
+  },
+  {
+    "id": 72,
+    "name": "動畫教育模組",
+    "category": "creative",
+    "desc": "將動畫應用於教育領域，生成教學短片。"
+  },
+  {
+    "id": 73,
+    "name": "動畫品牌合作模組",
+    "category": "creative",
+    "desc": "支援品牌內容嵌入，生成合作動畫。"
+  },
+  {
+    "id": 77,
+    "name": "動畫任務牆模組",
+    "category": "creative",
+    "desc": "集中展示用戶已完成與未完成的任務。"
+  },
+  {
+    "id": 78,
+    "name": "動畫解鎖牆模組",
+    "category": "creative",
+    "desc": "顯示用戶已解鎖的角色、服飾與特效。"
+  },
+  {
+    "id": 79,
+    "name": "動畫獎勵牆模組",
+    "category": "creative",
+    "desc": "展示用戶獲得的獎勵與成就。"
+  },
+  {
+    "id": 80,
+    "name": "動畫商城模組",
+    "category": "creative",
+    "desc": "支援動畫相關素材（配樂、服裝、背景）的購買。"
+  },
+  {
+    "id": 81,
+    "name": "動畫貨幣系統模組",
+    "category": "creative",
+    "desc": "提供平台虛擬幣，用於購買素材與功能。"
+  },
+  {
+    "id": 83,
+    "name": "動畫任務獎勵模組",
+    "category": "creative",
+    "desc": "完成特定任務可獲得平台幣或專屬道具。"
+  },
+  {
+    "id": 84,
+    "name": "動畫分潤模組",
+    "category": "creative",
+    "desc": "支援影片收益分潤機制，回饋給創作者。"
+  },
+  {
+    "id": 87,
+    "name": "動畫雲端合作模組",
+    "category": "creative",
+    "desc": "允許多人同時編輯與生成動畫。"
+  },
+  {
+    "id": 88,
+    "name": "動畫留言模組",
+    "category": "creative",
+    "desc": "允許觀眾對影片留言互動。"
+  },
+  {
+    "id": 89,
+    "name": "動畫按讚模組",
+    "category": "creative",
+    "desc": "觀眾可對影片按讚，增加互動指標。"
+  },
+  {
+    "id": 90,
+    "name": "動畫收藏模組",
+    "category": "creative",
+    "desc": "允許觀眾收藏喜歡的動畫影片。"
+  },
+  {
+    "id": 91,
+    "name": "動畫分享模組",
+    "category": "creative",
+    "desc": "一鍵分享動畫到社群媒體。"
+  },
+  {
+    "id": 92,
+    "name": "動畫下載次數統計模組",
+    "category": "creative",
+    "desc": "統計影片被下載的次數。"
+  },
+  {
+    "id": 93,
+    "name": "動畫觀看數統計模組",
+    "category": "creative",
+    "desc": "統計影片播放次數，生成分析報表。"
+  },
+  {
+    "id": 94,
+    "name": "動畫互動數據模組",
+    "category": "creative",
+    "desc": "分析觀眾互動數據（留言、按讚、分享）。"
+  },
+  {
+    "id": 96,
+    "name": "動畫使用者行為分析模組",
+    "category": "creative",
+    "desc": "分析使用者觀看習慣，優化推薦。"
+  },
+  {
+    "id": 97,
+    "name": "動畫熱門趨勢模組",
+    "category": "creative",
+    "desc": "AI 分析平台熱門內容，推薦趨勢素材。"
+  },
+  {
+    "id": 98,
+    "name": "動畫創作者排行模組",
+    "category": "creative",
+    "desc": "依據創作者產出影片數量與影響力生成排行。"
+  },
+  {
+    "id": 99,
+    "name": "動畫用戶活躍度模組",
+    "category": "creative",
+    "desc": "追蹤活躍用戶並生成活躍榜單。"
+  },
+  {
+    "id": 100,
+    "name": "動畫用戶留存率模組",
+    "category": "creative",
+    "desc": "分析用戶回流率，提供平台經營建議。"
+  },
+  {
+    "id": 101,
+    "name": "角色配音模組",
+    "category": "creative",
+    "desc": "允許用戶自錄或AI生成寵物角色的配音，支援多語系。"
+  },
+  {
+    "id": 102,
+    "name": "角色聲紋導入模組",
+    "category": "creative",
+    "desc": "支援用戶上傳音檔，AI模擬專屬聲紋，應用於角色配音。"
+  },
+  {
+    "id": 103,
+    "name": "角色語速調整模組",
+    "category": "creative",
+    "desc": "可自訂角色語音快慢，提升自然感。"
+  },
+  {
+    "id": 104,
+    "name": "角色語調風格模組",
+    "category": "creative",
+    "desc": "可選擇角色語調（可愛、嚴肅、誇張），提升表現力。"
+  },
+  {
+    "id": 105,
+    "name": "角色多聲線模組",
+    "category": "creative",
+    "desc": "一個角色可設定多種聲線，依劇情自動切換。"
+  },
+  {
+    "id": 106,
+    "name": "角色語音成長模組",
+    "category": "creative",
+    "desc": "角色聲音會隨故事進展產生細微變化。"
+  },
+  {
+    "id": 107,
+    "name": "角色情緒聲音模組",
+    "category": "creative",
+    "desc": "根據角色情緒，自動生成對應音色與音效。"
+  },
+  {
+    "id": 108,
+    "name": "角色對嘴同步模組",
+    "category": "creative",
+    "desc": "自動對應聲音與口型動作，支援多種語言。"
+  },
+  {
+    "id": 109,
+    "name": "角色配音回放模組",
+    "category": "creative",
+    "desc": "允許使用者即時回放角色聲音效果。"
+  },
+  {
+    "id": 110,
+    "name": "角色聲音收藏模組",
+    "category": "creative",
+    "desc": "支援保存與切換角色配音設定。"
+  },
+  {
+    "id": 112,
+    "name": "字幕動畫模組",
+    "category": "creative",
+    "desc": "字幕可增加動畫效果（淡入、滾動、震動）。"
+  },
+  {
+    "id": 119,
+    "name": "字幕模板庫模組",
+    "category": "creative",
+    "desc": "提供多種字幕模板樣式供選用。"
+  },
+  {
+    "id": 122,
+    "name": "寵物照片建模模組",
+    "category": "creative",
+    "desc": "允許上傳寵物照片，AI生成專屬3D模型。"
+  },
+  {
+    "id": 124,
+    "name": "寵物特徵擴充模組",
+    "category": "creative",
+    "desc": "允許補充寵物的細節特徵，增強動畫真實度。"
+  },
+  {
+    "id": 125,
+    "name": "寵物成長紀錄模組",
+    "category": "creative",
+    "desc": "依時間紀錄寵物的變化，生成不同時期動畫版本。"
+  },
+  {
+    "id": 126,
+    "name": "寵物習慣模組",
+    "category": "creative",
+    "desc": "記錄寵物的日常習慣，動畫中可自動體現。"
+  },
+  {
+    "id": 127,
+    "name": "寵物情緒模組",
+    "category": "creative",
+    "desc": "AI分析寵物的情緒，影響角色表情與動作。"
+  },
+  {
+    "id": 128,
+    "name": "寵物語錄模組",
+    "category": "creative",
+    "desc": "生成以寵物角度表達的語錄，並製作成卡片。"
+  },
+  {
+    "id": 129,
+    "name": "寵物夢境模組",
+    "category": "creative",
+    "desc": "生成寵物夢境主題動畫，增加故事趣味性。"
+  },
+  {
+    "id": 130,
+    "name": "寵物回憶模組",
+    "category": "creative",
+    "desc": "串接過往寵物片段，生成回憶動畫。"
+  },
+  {
+    "id": 132,
+    "name": "任務挑戰模組",
+    "category": "creative",
+    "desc": "生成日常或限時挑戰，提升互動感。"
+  },
+  {
+    "id": 134,
+    "name": "任務排名模組",
+    "category": "creative",
+    "desc": "依積分與任務完成速度生成排名。"
+  },
+  {
+    "id": 136,
+    "name": "任務隨機生成模組",
+    "category": "creative",
+    "desc": "AI每日生成隨機任務，提升新鮮感。"
+  },
+  {
+    "id": 138,
+    "name": "任務自訂模組",
+    "category": "creative",
+    "desc": "允許用戶自行設計並分享任務。"
+  },
+  {
+    "id": 141,
+    "name": "語錄卡生成模組",
+    "category": "creative",
+    "desc": "自動擷取對話語錄，生成可分享卡片。"
+  },
+  {
+    "id": 143,
+    "name": "語錄卡分類模組",
+    "category": "creative",
+    "desc": "支援語錄依情緒或角色分類。"
+  },
+  {
+    "id": 144,
+    "name": "語錄卡排行模組",
+    "category": "creative",
+    "desc": "依語錄卡人氣與分享數生成排行。"
+  },
+  {
+    "id": 148,
+    "name": "語錄卡特效模組",
+    "category": "creative",
+    "desc": "允許語錄卡附加動畫特效（閃光、浮動）。"
+  },
+  {
+    "id": 149,
+    "name": "語錄卡生成器模組",
+    "category": "creative",
+    "desc": "用戶可輸入文字生成自定義語錄卡。"
+  },
+  {
+    "id": 150,
+    "name": "語錄卡模板庫模組",
+    "category": "creative",
+    "desc": "提供多種語錄卡模板樣式供使用。"
+  },
+  {
+    "id": 151,
+    "name": "社群互動牆模組",
+    "category": "creative",
+    "desc": "集中展示平台熱門動畫，供用戶互動。"
+  },
+  {
+    "id": 152,
+    "name": "社群評論模組",
+    "category": "creative",
+    "desc": "允許用戶對動畫內容發表評論。"
+  },
+  {
+    "id": 153,
+    "name": "社群按讚模組",
+    "category": "creative",
+    "desc": "支援用戶對動畫按讚，形成互動數據。"
+  },
+  {
+    "id": 154,
+    "name": "社群分享模組",
+    "category": "creative",
+    "desc": "一鍵將動畫分享到不同社群平台。"
+  },
+  {
+    "id": 157,
+    "name": "社群排行榜模組",
+    "category": "creative",
+    "desc": "依據互動數據生成熱門創作者排行。"
+  },
+  {
+    "id": 162,
+    "name": "創作者收益模組",
+    "category": "creative",
+    "desc": "統計創作者影片收益，支援分潤。"
+  },
+  {
+    "id": 168,
+    "name": "創作者合作模組",
+    "category": "creative",
+    "desc": "支援多創作者合作生成動畫。"
+  },
+  {
+    "id": 171,
+    "name": "平台商城模組",
+    "category": "creative",
+    "desc": "提供素材、特效、音樂的購買與交易。"
+  },
+  {
+    "id": 181,
+    "name": "教育模式模組",
+    "category": "creative",
+    "desc": "針對學生提供簡化版的動畫創作工具。"
+  },
+  {
+    "id": 183,
+    "name": "教育回饋模組",
+    "category": "creative",
+    "desc": "教師可對學生動畫給予回饋建議。"
+  },
+  {
+    "id": 184,
+    "name": "教育測驗模組",
+    "category": "creative",
+    "desc": "動畫中可插入測驗題目，檢測學生學習效果。"
+  },
+  {
+    "id": 185,
+    "name": "教育成績模組",
+    "category": "creative",
+    "desc": "統計學生的動畫創作成果，生成成績單。"
+  },
+  {
+    "id": 186,
+    "name": "教育課程模組",
+    "category": "creative",
+    "desc": "支援動畫結合教學課程內容。"
+  },
+  {
+    "id": 187,
+    "name": "教育教材庫模組",
+    "category": "creative",
+    "desc": "提供教育相關的素材與動畫模板。"
+  },
+  {
+    "id": 188,
+    "name": "教育直播模組",
+    "category": "creative",
+    "desc": "教師可進行動畫教學直播。"
+  },
+  {
+    "id": 191,
+    "name": "公益模式模組",
+    "category": "creative",
+    "desc": "支援公益動畫製作，影片可用於公益宣傳。"
+  },
+  {
+    "id": 193,
+    "name": "公益分享模組",
+    "category": "creative",
+    "desc": "允許用戶將公益影片分享到社群，提升曝光。"
+  },
+  {
+    "id": 197,
+    "name": "公益榜單模組",
+    "category": "creative",
+    "desc": "生成公益參與度排行榜。"
+  },
+  {
+    "id": 199,
+    "name": "公益專案模組",
+    "category": "creative",
+    "desc": "允許建立專屬公益動畫專案。"
+  },
+  {
+    "id": 200,
+    "name": "公益教育模組",
+    "category": "creative",
+    "desc": "將動畫結合公益教育，提升社會意識。"
+  },
+  {
+    "id": 202,
+    "name": "品牌合作管理模組",
+    "category": "creative",
+    "desc": "支援品牌方與創作者簽訂合作協議，並自動植入品牌素材。"
+  },
+  {
+    "id": 205,
+    "name": "NFT 收藏牆模組",
+    "category": "creative",
+    "desc": "展示用戶持有的 NFT 動畫資產，支援收藏與展示。"
+  },
+  {
+    "id": 206,
+    "name": "NFT 轉贈模組",
+    "category": "creative",
+    "desc": "允許用戶將 NFT 動畫轉贈給其他帳號。"
+  },
+  {
+    "id": 207,
+    "name": "NFT 拍賣模組",
+    "category": "creative",
+    "desc": "支援動畫 NFT 進行競拍，並提供即時出價功能。"
+  },
+  {
+    "id": 208,
+    "name": "NFT 交易數據模組",
+    "category": "creative",
+    "desc": "統計用戶 NFT 交易數據，生成個人交易報告。"
+  },
+  {
+    "id": 210,
+    "name": "智能合約管理模組",
+    "category": "creative",
+    "desc": "自動生成並管理 NFT 智能合約，確保交易安全。"
+  },
+  {
+    "id": 211,
+    "name": "影片雲端備份模組",
+    "category": "creative",
+    "desc": "完成的動畫影片自動備份至雲端，避免遺失。"
+  },
+  {
+    "id": 212,
+    "name": "跨裝置同步模組",
+    "category": "creative",
+    "desc": "用戶可在不同裝置間無縫繼續動畫編輯。"
+  },
+  {
+    "id": 213,
+    "name": "影片壓縮導出模組",
+    "category": "creative",
+    "desc": "支援不同壓縮率的導出，平衡畫質與檔案大小。"
+  },
+  {
+    "id": 216,
+    "name": "水印添加模組",
+    "category": "creative",
+    "desc": "允許創作者在影片中添加個人或品牌水印。"
+  },
+  {
+    "id": 218,
+    "name": "多版本影片管理模組",
+    "category": "creative",
+    "desc": "同一專案可保存多版本影片，方便回溯。"
+  },
+  {
+    "id": 219,
+    "name": "影片自動優化模組",
+    "category": "creative",
+    "desc": "AI 自動調整亮度、對比度與清晰度。"
+  },
+  {
+    "id": 220,
+    "name": "影片錯誤修復模組",
+    "category": "creative",
+    "desc": "針對破損的影片檔案進行自動修復。"
+  },
+  {
+    "id": 221,
+    "name": "使用者數據分析模組",
+    "category": "creative",
+    "desc": "統計用戶動畫創作習慣與偏好，生成數據報告。"
+  },
+  {
+    "id": 222,
+    "name": "影片熱度分析模組",
+    "category": "creative",
+    "desc": "依影片觀看數與互動數據，生成熱度排行。"
+  },
+  {
+    "id": 226,
+    "name": "流量來源追蹤模組",
+    "category": "creative",
+    "desc": "追蹤影片流量來源，標示不同渠道效果。"
+  },
+  {
+    "id": 227,
+    "name": "AI 推薦引擎模組",
+    "category": "creative",
+    "desc": "根據用戶行為自動推薦影片與素材。"
+  },
+  {
+    "id": 230,
+    "name": "話題標籤模組",
+    "category": "creative",
+    "desc": "允許影片添加標籤，支援熱度排序。"
+  },
+  {
+    "id": 231,
+    "name": "即時直播模組",
+    "category": "creative",
+    "desc": "創作者可透過直播與觀眾互動並展示動畫。"
+  },
+  {
+    "id": 234,
+    "name": "直播錄影保存模組",
+    "category": "creative",
+    "desc": "直播內容可自動保存為動畫檔案。"
+  },
+  {
+    "id": 251,
+    "name": "發票管理模組",
+    "category": "creative",
+    "desc": "自動生成電子發票，並支援下載。"
+  },
+  {
+    "id": 265,
+    "name": "月任務模組",
+    "category": "creative",
+    "desc": "每月設計大型任務，提升留存度。"
+  },
+  {
+    "id": 273,
+    "name": "禮物互動模組",
+    "category": "creative",
+    "desc": "虛擬禮物可觸發動畫特效。"
+  },
+  {
+    "id": 274,
+    "name": "禮物回饋模組",
+    "category": "creative",
+    "desc": "統計用戶送禮次數並生成榜單。"
+  },
+  {
+    "id": 278,
+    "name": "排行榜週榜模組",
+    "category": "creative",
+    "desc": "依據週數據生成排行榜。"
+  },
+  {
+    "id": 279,
+    "name": "排行榜月榜模組",
+    "category": "creative",
+    "desc": "依據月度數據生成排行榜。"
+  },
+  {
+    "id": 280,
+    "name": "排行榜年度模組",
+    "category": "creative",
+    "desc": "依據年度數據生成排行榜。"
+  },
+  {
+    "id": 283,
+    "name": "觀眾參與度模組",
+    "category": "creative",
+    "desc": "追蹤觀眾參與頻率並生成參與報告。"
+  },
+  {
+    "id": 287,
+    "name": "觀眾專屬任務模組",
+    "category": "creative",
+    "desc": "針對觀眾設計專屬互動任務。"
+  },
+  {
+    "id": 291,
+    "name": "寵物比賽模組",
+    "category": "creative",
+    "desc": "允許用戶創作比賽主題動畫，並進行投票。"
+  },
+  {
+    "id": 298,
+    "name": "寵物比賽回顧模組",
+    "category": "creative",
+    "desc": "自動生成比賽回顧短片。"
+  },
+  {
+    "id": 299,
+    "name": "寵物比賽數據模組",
+    "category": "creative",
+    "desc": "統計比賽參與數據並生成報表。"
+  },
+  {
+    "id": 301,
+    "name": "角色動作庫模組",
+    "category": "creative",
+    "desc": "集中管理角色的預設動作，支援用戶自定義新增。"
+  },
+  {
+    "id": 302,
+    "name": "角色互動動作模組",
+    "category": "creative",
+    "desc": "允許角色之間的動作互動，例如擁抱、追逐、合作。"
+  },
+  {
+    "id": 303,
+    "name": "角色舞蹈模組",
+    "category": "creative",
+    "desc": "提供多種舞蹈動作，允許角色在動畫中表演。"
+  },
+  {
+    "id": 304,
+    "name": "角色戰鬥模組",
+    "category": "creative",
+    "desc": "角色可進行模擬對戰，支援多種攻擊與防禦動作。"
+  },
+  {
+    "id": 305,
+    "name": "角色動作隨機模組",
+    "category": "creative",
+    "desc": "AI 隨機挑選角色動作，提升自然感。"
+  },
+  {
+    "id": 306,
+    "name": "角色動作特效模組",
+    "category": "creative",
+    "desc": "角色動作可附加特效，如殘影、火焰、閃電。"
+  },
+  {
+    "id": 307,
+    "name": "角色動作合成模組",
+    "category": "creative",
+    "desc": "允許將多個動作合併生成複合動作。"
+  },
+  {
+    "id": 308,
+    "name": "角色姿勢模組",
+    "category": "creative",
+    "desc": "提供靜態姿勢庫，方便快速生成畫面。"
+  },
+  {
+    "id": 309,
+    "name": "角色動態表現模組",
+    "category": "creative",
+    "desc": "AI 自動調整角色表演力度，使動作更自然。"
+  },
+  {
+    "id": 310,
+    "name": "角色道具互動模組",
+    "category": "creative",
+    "desc": "允許角色與物品互動，例如拿球、開門、使用工具。"
+  },
+  {
+    "id": 311,
+    "name": "角色場景互動模組",
+    "category": "creative",
+    "desc": "角色可與場景中的元素互動（如跳上桌子、鑽進籠子）。"
+  },
+  {
+    "id": 312,
+    "name": "角色技能模組",
+    "category": "creative",
+    "desc": "角色可解鎖特殊技能，提升劇情表現。"
+  },
+  {
+    "id": 313,
+    "name": "角色變身模組",
+    "category": "creative",
+    "desc": "允許角色在動畫中進行造型或外觀變化。"
+  },
+  {
+    "id": 314,
+    "name": "角色特寫鏡頭模組",
+    "category": "creative",
+    "desc": "支援角色專屬的鏡頭拉近效果。"
+  },
+  {
+    "id": 315,
+    "name": "角色群體互動模組",
+    "category": "creative",
+    "desc": "支援多角色群體互動場景，例如比賽或遊戲。"
+  },
+  {
+    "id": 316,
+    "name": "角色動作訓練模組",
+    "category": "creative",
+    "desc": "允許角色根據使用者設定的訓練計畫進行動作練習。"
+  },
+  {
+    "id": 317,
+    "name": "角色故事線模組",
+    "category": "creative",
+    "desc": "角色可在多個動畫中持續延伸個人故事。"
+  },
+  {
+    "id": 318,
+    "name": "角色羈絆模組",
+    "category": "creative",
+    "desc": "建立角色之間的關係數據，影響劇情互動。"
+  },
+  {
+    "id": 319,
+    "name": "角色好感度模組",
+    "category": "creative",
+    "desc": "追蹤角色互動頻率，生成好感度曲線。"
+  },
+  {
+    "id": 320,
+    "name": "角色記憶模組",
+    "category": "creative",
+    "desc": "角色會記住與觀眾或其他角色的互動，並影響後續動畫。"
+  },
+  {
+    "id": 321,
+    "name": "劇情任務模組",
+    "category": "creative",
+    "desc": "根據劇情進度自動生成角色任務。"
+  },
+  {
+    "id": 323,
+    "name": "劇情伏筆模組",
+    "category": "creative",
+    "desc": "AI 在故事中植入伏筆，影響後續動畫。"
+  },
+  {
+    "id": 324,
+    "name": "劇情回收模組",
+    "category": "creative",
+    "desc": "自動回收前面動畫中的細節，提升故事完整性。"
+  },
+  {
+    "id": 325,
+    "name": "劇情隨機模組",
+    "category": "creative",
+    "desc": "AI 隨機生成不同劇情走向，增加新鮮感。"
+  },
+  {
+    "id": 327,
+    "name": "劇情節奏模組",
+    "category": "creative",
+    "desc": "自動調整動畫劇情的快慢節奏。"
+  },
+  {
+    "id": 328,
+    "name": "劇情旁白模組",
+    "category": "creative",
+    "desc": "允許旁白角色引導劇情發展。"
+  },
+  {
+    "id": 330,
+    "name": "劇情角色分支模組",
+    "category": "creative",
+    "desc": "不同角色的行為會產生平行故事線。"
+  },
+  {
+    "id": 332,
+    "name": "劇情回顧模組",
+    "category": "creative",
+    "desc": "自動生成前情提要，幫助觀眾回顧故事。"
+  },
+  {
+    "id": 333,
+    "name": "劇情章節模組",
+    "category": "creative",
+    "desc": "將長篇動畫分為多個章節播放。"
+  },
+  {
+    "id": 334,
+    "name": "劇情延伸模組",
+    "category": "creative",
+    "desc": "允許故事主線之外生成外傳或番外。"
+  },
+  {
+    "id": 335,
+    "name": "劇情隨機事件模組",
+    "category": "creative",
+    "desc": "AI 插入隨機事件，打斷或推進故事。"
+  },
+  {
+    "id": 336,
+    "name": "劇情時間軸模組",
+    "category": "creative",
+    "desc": "提供完整的故事時間線管理。"
+  },
+  {
+    "id": 337,
+    "name": "劇情世界觀模組",
+    "category": "creative",
+    "desc": "允許用戶自訂世界觀設定並應用於動畫。"
+  },
+  {
+    "id": 338,
+    "name": "劇情反派模組",
+    "category": "creative",
+    "desc": "建立反派角色，與主角產生對抗。"
+  },
+  {
+    "id": 339,
+    "name": "劇情反轉模組",
+    "category": "creative",
+    "desc": "AI 自動設計劇情反轉橋段。"
+  },
+  {
+    "id": 340,
+    "name": "劇情多線模組",
+    "category": "creative",
+    "desc": "允許同時展開多條故事線。"
+  },
+  {
+    "id": 343,
+    "name": "劇情彩蛋模組",
+    "category": "creative",
+    "desc": "故事中隱藏特殊片段，觀眾可解鎖觀看。"
+  },
+  {
+    "id": 344,
+    "name": "劇情群像模組",
+    "category": "creative",
+    "desc": "允許多角色同時成為故事主角。"
+  },
+  {
+    "id": 345,
+    "name": "劇情對話模組",
+    "category": "creative",
+    "desc": "提供角色之間的互動對話編輯。"
+  },
+  {
+    "id": 346,
+    "name": "劇情語錄模組",
+    "category": "creative",
+    "desc": "從劇情對話中提取語錄，生成語錄卡。"
+  },
+  {
+    "id": 347,
+    "name": "劇情互動語錄模組",
+    "category": "creative",
+    "desc": "允許觀眾在動畫中輸入語錄影響劇情。"
+  },
+  {
+    "id": 349,
+    "name": "劇情教育模組",
+    "category": "creative",
+    "desc": "允許動畫結合教育內容生成知識性影片。"
+  },
+  {
+    "id": 351,
+    "name": "動畫任務故事模組",
+    "category": "creative",
+    "desc": "任務內容以動畫劇情形式呈現。"
+  },
+  {
+    "id": 352,
+    "name": "動畫任務挑戰模組",
+    "category": "creative",
+    "desc": "完成挑戰後劇情會產生特別片段。"
+  },
+  {
+    "id": 353,
+    "name": "動畫任務合作模組",
+    "category": "creative",
+    "desc": "允許多用戶共同完成劇情任務。"
+  },
+  {
+    "id": 354,
+    "name": "動畫任務分支模組",
+    "category": "creative",
+    "desc": "任務完成方式不同會影響後續劇情。"
+  },
+  {
+    "id": 355,
+    "name": "動畫任務結果模組",
+    "category": "creative",
+    "desc": "任務結果會改變角色或故事的發展。"
+  },
+  {
+    "id": 356,
+    "name": "動畫任務評分模組",
+    "category": "creative",
+    "desc": "系統依據任務完成度給予分數。"
+  },
+  {
+    "id": 357,
+    "name": "動畫任務回顧模組",
+    "category": "creative",
+    "desc": "自動生成任務執行情況回顧動畫。"
+  },
+  {
+    "id": 358,
+    "name": "動畫任務隱藏模組",
+    "category": "creative",
+    "desc": "隱藏任務需達成條件才能觸發。"
+  },
+  {
+    "id": 359,
+    "name": "動畫任務合作排行榜模組",
+    "category": "creative",
+    "desc": "展示完成任務最多的合作小組排行。"
+  },
+  {
+    "id": 360,
+    "name": "動畫任務時間限制模組",
+    "category": "creative",
+    "desc": "任務需在指定時間內完成，否則劇情改變。"
+  },
+  {
+    "id": 361,
+    "name": "動畫任務劇情彩蛋模組",
+    "category": "creative",
+    "desc": "任務完成後觸發特殊劇情彩蛋。"
+  },
+  {
+    "id": 362,
+    "name": "動畫任務虛擬獎勵模組",
+    "category": "creative",
+    "desc": "任務完成後發放虛擬道具。"
+  },
+  {
+    "id": 363,
+    "name": "動畫任務真實獎勵模組",
+    "category": "creative",
+    "desc": "允許平台寄送實體獎品。"
+  },
+  {
+    "id": 364,
+    "name": "動畫任務多結局模組",
+    "category": "creative",
+    "desc": "任務不同完成方式會解鎖不同結局。"
+  },
+  {
+    "id": 365,
+    "name": "動畫任務跨專案模組",
+    "category": "creative",
+    "desc": "任務完成會影響其他專案劇情。"
+  },
+  {
+    "id": 366,
+    "name": "動畫任務社群模組",
+    "category": "creative",
+    "desc": "允許社群共同完成任務挑戰。"
+  },
+  {
+    "id": 367,
+    "name": "動畫任務票選模組",
+    "category": "creative",
+    "desc": "觀眾投票決定任務劇情走向。"
+  },
+  {
+    "id": 368,
+    "name": "動畫任務隨機模組",
+    "category": "creative",
+    "desc": "AI 隨機生成不同的任務內容。"
+  },
+  {
+    "id": 369,
+    "name": "動畫任務成就模組",
+    "category": "creative",
+    "desc": "完成任務後解鎖成就徽章。"
+  },
+  {
+    "id": 370,
+    "name": "動畫任務語錄模組",
+    "category": "creative",
+    "desc": "任務中可生成專屬語錄卡。"
+  },
+  {
+    "id": 371,
+    "name": "動畫任務語音模組",
+    "category": "creative",
+    "desc": "任務過程支援語音互動。"
+  },
+  {
+    "id": 372,
+    "name": "動畫任務合作語音模組",
+    "category": "creative",
+    "desc": "多用戶任務合作過程支援語音通話。"
+  },
+  {
+    "id": 373,
+    "name": "動畫任務直播模組",
+    "category": "creative",
+    "desc": "任務過程可直播給其他觀眾觀看。"
+  },
+  {
+    "id": 374,
+    "name": "動畫任務觀眾互動模組",
+    "category": "creative",
+    "desc": "觀眾可透過留言或投票影響任務。"
+  },
+  {
+    "id": 375,
+    "name": "動畫任務觀眾打賞模組",
+    "category": "creative",
+    "desc": "觀眾可打賞參與任務的創作者。"
+  },
+  {
+    "id": 376,
+    "name": "動畫任務觀眾禮物模組",
+    "category": "creative",
+    "desc": "觀眾可送虛擬禮物給任務參與者。"
+  },
+  {
+    "id": 377,
+    "name": "動畫任務觀眾回饋模組",
+    "category": "creative",
+    "desc": "收集觀眾對任務的建議與評分。"
+  },
+  {
+    "id": 378,
+    "name": "動畫任務觀眾徽章模組",
+    "category": "creative",
+    "desc": "參與觀眾會獲得專屬徽章。"
+  },
+  {
+    "id": 379,
+    "name": "動畫任務觀眾排行榜模組",
+    "category": "creative",
+    "desc": "展示參與任務最多的觀眾排行。"
+  },
+  {
+    "id": 380,
+    "name": "動畫任務觀眾專屬獎勵模組",
+    "category": "creative",
+    "desc": "觀眾參與任務可獲得專屬虛擬獎勵。"
+  },
+  {
+    "id": 381,
+    "name": "動畫教育專案模組",
+    "category": "creative",
+    "desc": "教育內容以動畫專案形式展示。"
+  },
+  {
+    "id": 382,
+    "name": "動畫教育挑戰模組",
+    "category": "creative",
+    "desc": "學生完成挑戰會解鎖額外教學內容。"
+  },
+  {
+    "id": 383,
+    "name": "動畫教育合作模組",
+    "category": "creative",
+    "desc": "允許學生組隊合作完成教育動畫。"
+  },
+  {
+    "id": 384,
+    "name": "動畫教育任務模組",
+    "category": "creative",
+    "desc": "教師可布置任務並由學生以動畫呈現。"
+  },
+  {
+    "id": 385,
+    "name": "動畫教育評分模組",
+    "category": "creative",
+    "desc": "教師根據動畫表現進行評分。"
+  },
+  {
+    "id": 386,
+    "name": "動畫教育回顧模組",
+    "category": "creative",
+    "desc": "自動生成學生學習成果回顧動畫。"
+  },
+  {
+    "id": 387,
+    "name": "動畫教育教材模組",
+    "category": "creative",
+    "desc": "提供教育用動畫模板與素材。"
+  },
+  {
+    "id": 388,
+    "name": "動畫教育知識點模組",
+    "category": "creative",
+    "desc": "允許在動畫中嵌入知識點提示。"
+  },
+  {
+    "id": 389,
+    "name": "動畫教育測驗模組",
+    "category": "creative",
+    "desc": "動畫中插入測驗題目檢驗學生理解。"
+  },
+  {
+    "id": 390,
+    "name": "動畫教育成績模組",
+    "category": "creative",
+    "desc": "自動生成學生動畫成績單。"
+  },
+  {
+    "id": 391,
+    "name": "動畫教育數據模組",
+    "category": "creative",
+    "desc": "統計學生學習數據，提供教師分析。"
+  },
+  {
+    "id": 392,
+    "name": "動畫教育社群模組",
+    "category": "creative",
+    "desc": "學生可於平台社群中分享動畫作品。"
+  },
+  {
+    "id": 393,
+    "name": "動畫教育直播模組",
+    "category": "creative",
+    "desc": "教師可透過直播進行動畫教學。"
+  },
+  {
+    "id": 394,
+    "name": "動畫教育觀眾互動模組",
+    "category": "creative",
+    "desc": "觀眾可透過互動影響教育動畫內容。"
+  },
+  {
+    "id": 395,
+    "name": "動畫教育翻譯模組",
+    "category": "creative",
+    "desc": "支援教育動畫的多語翻譯。"
+  },
+  {
+    "id": 396,
+    "name": "動畫教育合作平台模組",
+    "category": "creative",
+    "desc": "允許學校或教育機構建立專屬平台。"
+  },
+  {
+    "id": 397,
+    "name": "動畫教育跨平台模組",
+    "category": "creative",
+    "desc": "教育動畫可分享至不同教育平台。"
+  },
+  {
+    "id": 398,
+    "name": "動畫教育認證模組",
+    "category": "creative",
+    "desc": "完成教育專案可獲得數位認證。"
+  },
+  {
+    "id": 399,
+    "name": "動畫教育榮譽牆模組",
+    "category": "creative",
+    "desc": "展示學生在教育動畫中的優秀作品。"
+  },
+  {
+    "id": 400,
+    "name": "動畫教育國際合作模組",
+    "category": "creative",
+    "desc": "支援跨國教育機構合作開發動畫專案。"
+  },
+  {
+    "id": 401,
+    "name": "角色互動語音模組",
+    "category": "creative",
+    "desc": "角色在動畫中可進行即時語音對話，支援AI生成與用戶錄音。"
+  },
+  {
+    "id": 402,
+    "name": "角色情緒配樂模組",
+    "category": "creative",
+    "desc": "根據角色的情緒變化，自動切換背景音樂。"
+  },
+  {
+    "id": 403,
+    "name": "角色動態聲音模組",
+    "category": "creative",
+    "desc": "角色動作（跑步、跳躍）時會自動生成對應音效。"
+  },
+  {
+    "id": 404,
+    "name": "角色語音合唱模組",
+    "category": "creative",
+    "desc": "多角色可同時唱歌或對話，支援聲音和聲效果。"
+  },
+  {
+    "id": 405,
+    "name": "角色語音情境模組",
+    "category": "creative",
+    "desc": "角色聲音會依不同場景自動調整語調。"
+  },
+  {
+    "id": 406,
+    "name": "角色語音個性化模組",
+    "category": "creative",
+    "desc": "支援設定角色專屬口頭禪與語氣詞。"
+  },
+  {
+    "id": 407,
+    "name": "角色配樂互動模組",
+    "category": "creative",
+    "desc": "角色動作與音樂節奏同步，形成互動表演。"
+  },
+  {
+    "id": 408,
+    "name": "角色音效觸發模組",
+    "category": "creative",
+    "desc": "特定動作或事件會自動觸發音效。"
+  },
+  {
+    "id": 409,
+    "name": "角色語音收藏牆模組",
+    "category": "creative",
+    "desc": "用戶可收藏喜愛的角色語音片段。"
+  },
+  {
+    "id": 410,
+    "name": "角色語音表情模組",
+    "category": "creative",
+    "desc": "角色語音會帶有表情效果（哭腔、笑聲）。"
+  },
+  {
+    "id": 412,
+    "name": "字幕AI合成模組",
+    "category": "creative",
+    "desc": "AI 可自動生成多語字幕與聲音同步。"
+  },
+  {
+    "id": 413,
+    "name": "字幕互動模組",
+    "category": "creative",
+    "desc": "觀眾可選擇字幕形式影響動畫內容。"
+  },
+  {
+    "id": 414,
+    "name": "字幕特效音效模組",
+    "category": "creative",
+    "desc": "字幕出現時伴隨音效（打字聲、閃爍）。"
+  },
+  {
+    "id": 415,
+    "name": "字幕角色標註模組",
+    "category": "creative",
+    "desc": "字幕中自動標示角色說話人。"
+  },
+  {
+    "id": 416,
+    "name": "字幕顏色區分模組",
+    "category": "creative",
+    "desc": "不同角色字幕以顏色區分。"
+  },
+  {
+    "id": 418,
+    "name": "字幕同步聲音模組",
+    "category": "creative",
+    "desc": "字幕動畫與聲音完全對齊，強化體驗。"
+  },
+  {
+    "id": 423,
+    "name": "寵物語音表情模組",
+    "category": "creative",
+    "desc": "寵物語音帶有情緒效果，如撒嬌、憤怒。"
+  },
+  {
+    "id": 425,
+    "name": "寵物語音故事模組",
+    "category": "creative",
+    "desc": "寵物語音可被編排成故事對白。"
+  },
+  {
+    "id": 426,
+    "name": "寵物語音互動模組",
+    "category": "creative",
+    "desc": "寵物語音可觸發角色反應或劇情改變。"
+  },
+  {
+    "id": 428,
+    "name": "寵物語音專屬卡模組",
+    "category": "creative",
+    "desc": "將寵物語音生成語錄卡或收藏卡。"
+  },
+  {
+    "id": 429,
+    "name": "寵物語音轉動畫模組",
+    "category": "creative",
+    "desc": "寵物聲音可直接驅動角色動畫表現。"
+  },
+  {
+    "id": 430,
+    "name": "寵物語音聊天室模組",
+    "category": "creative",
+    "desc": "寵物角色之間可模擬語音對話。"
+  },
+  {
+    "id": 431,
+    "name": "社群語音留言模組",
+    "category": "creative",
+    "desc": "用戶可於影片下方留言語音訊息。"
+  },
+  {
+    "id": 435,
+    "name": "社群語音排行榜模組",
+    "category": "creative",
+    "desc": "依據語音互動數據生成排行榜。"
+  },
+  {
+    "id": 439,
+    "name": "社群語音特效模組",
+    "category": "creative",
+    "desc": "語音聊天室中可套用音效特效。"
+  },
+  {
+    "id": 441,
+    "name": "創作者語音素材模組",
+    "category": "creative",
+    "desc": "允許創作者上傳語音素材提供他人使用。"
+  },
+  {
+    "id": 446,
+    "name": "創作者語音收益模組",
+    "category": "creative",
+    "desc": "統計語音素材收益並進行分潤。"
+  },
+  {
+    "id": 448,
+    "name": "創作者語音排行榜模組",
+    "category": "creative",
+    "desc": "依據語音使用次數生成排行。"
+  },
+  {
+    "id": 465,
+    "name": "教育語音回顧模組",
+    "category": "creative",
+    "desc": "自動生成語音學習回顧短片。"
+  },
+  {
+    "id": 481,
+    "name": "觀眾語音互動模組",
+    "category": "creative",
+    "desc": "觀眾可用語音與角色進行即時互動。"
+  },
+  {
+    "id": 482,
+    "name": "觀眾語音留言模組",
+    "category": "creative",
+    "desc": "觀眾可於影片播放中留言語音。"
+  },
+  {
+    "id": 483,
+    "name": "觀眾語音挑戰模組",
+    "category": "creative",
+    "desc": "觀眾可參加語音挑戰賽，影響動畫。"
+  },
+  {
+    "id": 484,
+    "name": "觀眾語音禮物模組",
+    "category": "creative",
+    "desc": "觀眾可送出語音禮物觸發動畫特效。"
+  },
+  {
+    "id": 486,
+    "name": "觀眾語音表情模組",
+    "category": "creative",
+    "desc": "觀眾語音自動附帶表情符號呈現。"
+  },
+  {
+    "id": 489,
+    "name": "觀眾語音排行榜模組",
+    "category": "creative",
+    "desc": "依觀眾語音互動數據生成排行。"
+  },
+  {
+    "id": 492,
+    "name": "平台語音任務模組",
+    "category": "creative",
+    "desc": "平台可設計語音任務供用戶參與。"
+  },
+  {
+    "id": 497,
+    "name": "平台語音排行模組",
+    "category": "creative",
+    "desc": "依語音互動數據生成平台排行。"
+  },
+  {
+    "id": 501,
+    "name": "角色臉部捕捉模組",
+    "category": "creative",
+    "desc": "允許用戶透過攝影機捕捉自己的臉部表情，應用於角色動畫。"
+  },
+  {
+    "id": 502,
+    "name": "角色手勢捕捉模組",
+    "category": "creative",
+    "desc": "透過攝影機捕捉手部動作，角色在動畫中同步呈現。"
+  },
+  {
+    "id": 503,
+    "name": "角色全身捕捉模組",
+    "category": "creative",
+    "desc": "支援全身動作捕捉，生成高擬真動畫效果。"
+  },
+  {
+    "id": 504,
+    "name": "角色即時捕捉模組",
+    "category": "creative",
+    "desc": "允許即時動作捕捉並同步到動畫角色。"
+  },
+  {
+    "id": 505,
+    "name": "角色捕捉資料庫模組",
+    "category": "creative",
+    "desc": "集中保存捕捉的角色動作，供日後重用。"
+  },
+  {
+    "id": 506,
+    "name": "角色捕捉回放模組",
+    "category": "creative",
+    "desc": "允許回放捕捉的角色動作並修改。"
+  },
+  {
+    "id": 507,
+    "name": "角色捕捉混合模組",
+    "category": "creative",
+    "desc": "支援不同捕捉資料混合生成新動作。"
+  },
+  {
+    "id": 508,
+    "name": "角色捕捉特效模組",
+    "category": "creative",
+    "desc": "捕捉動作可附加特效呈現。"
+  },
+  {
+    "id": 509,
+    "name": "角色捕捉分享模組",
+    "category": "creative",
+    "desc": "允許用戶將捕捉成果分享至社群。"
+  },
+  {
+    "id": 510,
+    "name": "角色捕捉合作模組",
+    "category": "creative",
+    "desc": "支援多人同時捕捉並生成互動動畫。"
+  },
+  {
+    "id": 511,
+    "name": "角色服裝模組",
+    "category": "creative",
+    "desc": "提供各類服裝，支援角色裝扮與換裝。"
+  },
+  {
+    "id": 512,
+    "name": "角色飾品模組",
+    "category": "creative",
+    "desc": "提供飾品配件，提升角色個性化。"
+  },
+  {
+    "id": 513,
+    "name": "角色道具模組",
+    "category": "creative",
+    "desc": "允許角色持有或使用不同道具。"
+  },
+  {
+    "id": 514,
+    "name": "角色裝扮商城模組",
+    "category": "creative",
+    "desc": "集中展示可購買的服裝與飾品。"
+  },
+  {
+    "id": 515,
+    "name": "角色裝扮任務模組",
+    "category": "creative",
+    "desc": "完成任務可解鎖特殊服裝。"
+  },
+  {
+    "id": 516,
+    "name": "角色裝扮收藏模組",
+    "category": "creative",
+    "desc": "允許用戶收藏已獲得的服裝與飾品。"
+  },
+  {
+    "id": 517,
+    "name": "角色裝扮搭配模組",
+    "category": "creative",
+    "desc": "支援服裝與飾品自由搭配。"
+  },
+  {
+    "id": 518,
+    "name": "角色裝扮特效模組",
+    "category": "creative",
+    "desc": "服裝可附加特效（發光、透明）。"
+  },
+  {
+    "id": 519,
+    "name": "角色裝扮隱藏模組",
+    "category": "creative",
+    "desc": "隱藏服裝需透過特殊條件解鎖。"
+  },
+  {
+    "id": 520,
+    "name": "角色裝扮競賽模組",
+    "category": "creative",
+    "desc": "允許舉辦角色裝扮比賽並投票。"
+  },
+  {
+    "id": 522,
+    "name": "角色裝扮拍照模組",
+    "category": "creative",
+    "desc": "允許角色換裝後生成專屬照片。"
+  },
+  {
+    "id": 523,
+    "name": "角色裝扮分享模組",
+    "category": "creative",
+    "desc": "一鍵分享裝扮至社群。"
+  },
+  {
+    "id": 524,
+    "name": "角色裝扮排行榜模組",
+    "category": "creative",
+    "desc": "依照裝扮人氣生成排行榜。"
+  },
+  {
+    "id": 525,
+    "name": "角色裝扮合成模組",
+    "category": "creative",
+    "desc": "允許將不同服裝元素合成新裝扮。"
+  },
+  {
+    "id": 526,
+    "name": "角色裝扮交易模組",
+    "category": "creative",
+    "desc": "支援用戶之間服裝與飾品交易。"
+  },
+  {
+    "id": 528,
+    "name": "角色裝扮任務獎勵模組",
+    "category": "creative",
+    "desc": "完成裝扮任務可獲得專屬獎勵。"
+  },
+  {
+    "id": 530,
+    "name": "角色裝扮限量模組",
+    "category": "creative",
+    "desc": "推出限量服裝與飾品。"
+  },
+  {
+    "id": 531,
+    "name": "動畫分鏡模板模組",
+    "category": "creative",
+    "desc": "提供多種分鏡模板，方便快速生成動畫。"
+  },
+  {
+    "id": 532,
+    "name": "動畫分鏡隨機模組",
+    "category": "creative",
+    "desc": "AI 隨機生成不同的分鏡效果。"
+  },
+  {
+    "id": 533,
+    "name": "動畫分鏡手動編輯模組",
+    "category": "creative",
+    "desc": "允許使用者手動編輯分鏡細節。"
+  },
+  {
+    "id": 534,
+    "name": "動畫分鏡合作模組",
+    "category": "creative",
+    "desc": "支援多人協作分鏡設計。"
+  },
+  {
+    "id": 536,
+    "name": "動畫分鏡時間軸模組",
+    "category": "creative",
+    "desc": "以時間軸方式顯示分鏡結構。"
+  },
+  {
+    "id": 537,
+    "name": "動畫分鏡收藏模組",
+    "category": "creative",
+    "desc": "允許收藏喜愛的分鏡設計。"
+  },
+  {
+    "id": 538,
+    "name": "動畫分鏡回顧模組",
+    "category": "creative",
+    "desc": "自動生成分鏡設計回顧短片。"
+  },
+  {
+    "id": 539,
+    "name": "動畫分鏡比賽模組",
+    "category": "creative",
+    "desc": "舉辦分鏡設計比賽，提升互動。"
+  },
+  {
+    "id": 540,
+    "name": "動畫分鏡獎勵模組",
+    "category": "creative",
+    "desc": "完成分鏡任務可獲得獎勵。"
+  },
+  {
+    "id": 541,
+    "name": "動畫分鏡排行榜模組",
+    "category": "creative",
+    "desc": "依據分鏡作品人氣生成排行。"
+  },
+  {
+    "id": 542,
+    "name": "動畫分鏡培訓模組",
+    "category": "creative",
+    "desc": "提供分鏡設計教學課程。"
+  },
+  {
+    "id": 543,
+    "name": "動畫分鏡測驗模組",
+    "category": "creative",
+    "desc": "動畫分鏡中可插入測驗題目。"
+  },
+  {
+    "id": 544,
+    "name": "動畫分鏡教材模組",
+    "category": "creative",
+    "desc": "提供教育用途的分鏡模板。"
+  },
+  {
+    "id": 545,
+    "name": "動畫分鏡合作平台模組",
+    "category": "creative",
+    "desc": "支援學校或團隊建立分鏡合作專案。"
+  },
+  {
+    "id": 546,
+    "name": "動畫分鏡跨平台模組",
+    "category": "creative",
+    "desc": "允許分鏡輸出至不同平台使用。"
+  },
+  {
+    "id": 547,
+    "name": "動畫分鏡認證模組",
+    "category": "creative",
+    "desc": "優秀分鏡設計可獲得數位認證。"
+  },
+  {
+    "id": 548,
+    "name": "動畫分鏡國際合作模組",
+    "category": "creative",
+    "desc": "支援跨國分鏡設計合作。"
+  },
+  {
+    "id": 549,
+    "name": "動畫分鏡特效模組",
+    "category": "creative",
+    "desc": "分鏡場景中可添加特效。"
+  },
+  {
+    "id": 550,
+    "name": "動畫分鏡即時模組",
+    "category": "creative",
+    "desc": "支援即時生成與預覽分鏡。"
+  },
+  {
+    "id": 551,
+    "name": "角色語錄模組",
+    "category": "creative",
+    "desc": "AI 從角色對話自動提取語錄並生成卡片。"
+  },
+  {
+    "id": 552,
+    "name": "角色語錄收藏模組",
+    "category": "creative",
+    "desc": "允許用戶收藏角色語錄。"
+  },
+  {
+    "id": 553,
+    "name": "角色語錄分類模組",
+    "category": "creative",
+    "desc": "支援語錄依角色或情緒分類。"
+  },
+  {
+    "id": 554,
+    "name": "角色語錄分享模組",
+    "category": "creative",
+    "desc": "一鍵將語錄分享到社群。"
+  },
+  {
+    "id": 556,
+    "name": "角色語錄特效模組",
+    "category": "creative",
+    "desc": "允許語錄卡附加動畫特效。"
+  },
+  {
+    "id": 557,
+    "name": "角色語錄排行榜模組",
+    "category": "creative",
+    "desc": "依據語錄人氣生成排行。"
+  },
+  {
+    "id": 558,
+    "name": "角色語錄互動模組",
+    "category": "creative",
+    "desc": "觀眾可對語錄卡互動按讚或留言。"
+  },
+  {
+    "id": 559,
+    "name": "角色語錄成就模組",
+    "category": "creative",
+    "desc": "收集語錄卡可解鎖成就。"
+  },
+  {
+    "id": 560,
+    "name": "角色語錄任務模組",
+    "category": "creative",
+    "desc": "完成語錄卡收集任務可獲獎勵。"
+  },
+  {
+    "id": 561,
+    "name": "角色語錄教育模組",
+    "category": "creative",
+    "desc": "語錄卡可應用於教育場景。"
+  },
+  {
+    "id": 562,
+    "name": "角色語錄公益模組",
+    "category": "creative",
+    "desc": "語錄卡可用於公益宣傳。"
+  },
+  {
+    "id": 563,
+    "name": "角色語錄合作模組",
+    "category": "creative",
+    "desc": "支援多角色語錄合作生成卡片。"
+  },
+  {
+    "id": 564,
+    "name": "角色語錄跨平台模組",
+    "category": "creative",
+    "desc": "語錄卡可輸出至不同平台使用。"
+  },
+  {
+    "id": 565,
+    "name": "角色語錄認證模組",
+    "category": "creative",
+    "desc": "優秀語錄可獲得官方認證。"
+  },
+  {
+    "id": 566,
+    "name": "角色語錄商城模組",
+    "category": "creative",
+    "desc": "語錄卡可於商城購買或交易。"
+  },
+  {
+    "id": 568,
+    "name": "角色語錄限量模組",
+    "category": "creative",
+    "desc": "推出限量語錄卡系列。"
+  },
+  {
+    "id": 569,
+    "name": "角色語錄展覽模組",
+    "category": "creative",
+    "desc": "語錄卡可於平台舉辦展覽。"
+  },
+  {
+    "id": 570,
+    "name": "角色語錄榮譽牆模組",
+    "category": "creative",
+    "desc": "展示優秀角色語錄作品。"
+  },
+  {
+    "id": 571,
+    "name": "觀眾互動語錄模組",
+    "category": "creative",
+    "desc": "觀眾可參與語錄生成，並在動畫中呈現。"
+  },
+  {
+    "id": 577,
+    "name": "觀眾語錄排行榜模組",
+    "category": "creative",
+    "desc": "依觀眾參與度生成排行榜。"
+  },
+  {
+    "id": 579,
+    "name": "觀眾語錄回顧模組",
+    "category": "creative",
+    "desc": "自動生成觀眾語錄互動回顧。"
+  },
+  {
+    "id": 584,
+    "name": "平台語錄數據模組",
+    "category": "creative",
+    "desc": "分析語錄使用數據並生成報表。"
+  },
+  {
+    "id": 585,
+    "name": "平台語錄排行模組",
+    "category": "creative",
+    "desc": "依平台數據生成語錄排行。"
+  },
+  {
+    "id": 590,
+    "name": "平台語錄教育模組",
+    "category": "creative",
+    "desc": "支援教育場景中應用語錄卡。"
+  },
+  {
+    "id": 601,
+    "name": "角色鏡頭自動追蹤模組",
+    "category": "creative",
+    "desc": "AI 自動調整鏡頭角度，始終保持角色在畫面中心。"
+  },
+  {
+    "id": 602,
+    "name": "角色鏡頭切換模組",
+    "category": "creative",
+    "desc": "支援多鏡頭角度切換（特寫、遠景、俯視）。"
+  },
+  {
+    "id": 603,
+    "name": "角色鏡頭手動控制模組",
+    "category": "creative",
+    "desc": "用戶可自行操作鏡頭方向與變焦。"
+  },
+  {
+    "id": 604,
+    "name": "角色鏡頭平滑運動模組",
+    "category": "creative",
+    "desc": "提供平滑的鏡頭移動效果，增強動畫質感。"
+  },
+  {
+    "id": 606,
+    "name": "角色鏡頭智能模組",
+    "category": "creative",
+    "desc": "AI 根據劇情自動調整最佳鏡頭位置。"
+  },
+  {
+    "id": 607,
+    "name": "角色鏡頭收藏模組",
+    "category": "creative",
+    "desc": "允許保存自訂鏡頭角度配置。"
+  },
+  {
+    "id": 608,
+    "name": "角色鏡頭回顧模組",
+    "category": "creative",
+    "desc": "支援播放時回顧鏡頭運行軌跡。"
+  },
+  {
+    "id": 609,
+    "name": "角色鏡頭直播模組",
+    "category": "creative",
+    "desc": "鏡頭可在直播過程中實時調整。"
+  },
+  {
+    "id": 610,
+    "name": "角色鏡頭合作模組",
+    "category": "creative",
+    "desc": "支援多鏡頭同時操作與協作。"
+  },
+  {
+    "id": 611,
+    "name": "場景生成模組",
+    "category": "creative",
+    "desc": "AI 根據文字描述自動生成場景背景。"
+  },
+  {
+    "id": 612,
+    "name": "場景模板模組",
+    "category": "creative",
+    "desc": "提供常見場景模板供快速使用。"
+  },
+  {
+    "id": 613,
+    "name": "場景編輯模組",
+    "category": "creative",
+    "desc": "允許用戶自訂修改生成的場景。"
+  },
+  {
+    "id": 614,
+    "name": "場景特效模組",
+    "category": "creative",
+    "desc": "場景背景可加入特效（天氣、光影）。"
+  },
+  {
+    "id": 615,
+    "name": "場景音效模組",
+    "category": "creative",
+    "desc": "場景背景自動附帶環境音效。"
+  },
+  {
+    "id": 616,
+    "name": "場景互動模組",
+    "category": "creative",
+    "desc": "角色可與場景元素互動（開門、移動物件）。"
+  },
+  {
+    "id": 617,
+    "name": "場景時間控制模組",
+    "category": "creative",
+    "desc": "允許調整場景時間（白天、夜晚）。"
+  },
+  {
+    "id": 618,
+    "name": "場景天氣控制模組",
+    "category": "creative",
+    "desc": "允許更改場景天氣（晴天、雨天、下雪）。"
+  },
+  {
+    "id": 619,
+    "name": "場景回顧模組",
+    "category": "creative",
+    "desc": "自動生成場景回顧短片。"
+  },
+  {
+    "id": 620,
+    "name": "場景收藏模組",
+    "category": "creative",
+    "desc": "允許保存與分享場景配置。"
+  },
+  {
+    "id": 623,
+    "name": "背景音樂同步模組",
+    "category": "creative",
+    "desc": "背景音樂與角色動作自動對齊。"
+  },
+  {
+    "id": 627,
+    "name": "背景音樂排行榜模組",
+    "category": "creative",
+    "desc": "依音樂使用頻率生成排行。"
+  },
+  {
+    "id": 628,
+    "name": "背景音樂商城模組",
+    "category": "creative",
+    "desc": "提供可購買的音樂素材。"
+  },
+  {
+    "id": 631,
+    "name": "音效庫模組",
+    "category": "creative",
+    "desc": "集中管理音效資源，支援搜尋與分類。"
+  },
+  {
+    "id": 632,
+    "name": "音效自動匹配模組",
+    "category": "creative",
+    "desc": "AI 根據場景與動作自動添加音效。"
+  },
+  {
+    "id": 633,
+    "name": "音效編輯模組",
+    "category": "creative",
+    "desc": "允許用戶修改音效的音量與速度。"
+  },
+  {
+    "id": 634,
+    "name": "音效收藏模組",
+    "category": "creative",
+    "desc": "允許保存常用音效配置。"
+  },
+  {
+    "id": 635,
+    "name": "音效隨機模組",
+    "category": "creative",
+    "desc": "AI 可隨機挑選音效增加變化。"
+  },
+  {
+    "id": 636,
+    "name": "音效合成模組",
+    "category": "creative",
+    "desc": "允許將多個音效混合生成新效果。"
+  },
+  {
+    "id": 637,
+    "name": "音效比賽模組",
+    "category": "creative",
+    "desc": "允許舉辦音效設計比賽。"
+  },
+  {
+    "id": 638,
+    "name": "音效教育模組",
+    "category": "creative",
+    "desc": "提供音效製作教學與練習。"
+  },
+  {
+    "id": 639,
+    "name": "音效公益模組",
+    "category": "creative",
+    "desc": "允許音效資源應用於公益專案。"
+  },
+  {
+    "id": 640,
+    "name": "音效交易模組",
+    "category": "creative",
+    "desc": "允許音效素材在平台內交易。"
+  },
+  {
+    "id": 641,
+    "name": "AI 動畫導演模組",
+    "category": "creative",
+    "desc": "AI 自動生成完整動畫腳本與鏡頭設計。"
+  },
+  {
+    "id": 642,
+    "name": "AI 分鏡助理模組",
+    "category": "creative",
+    "desc": "AI 協助用戶完成分鏡編排。"
+  },
+  {
+    "id": 643,
+    "name": "AI 配音助理模組",
+    "category": "creative",
+    "desc": "AI 自動生成角色配音。"
+  },
+  {
+    "id": 644,
+    "name": "AI 配樂助理模組",
+    "category": "creative",
+    "desc": "AI 自動選擇或生成背景音樂。"
+  },
+  {
+    "id": 645,
+    "name": "AI 動作助理模組",
+    "category": "creative",
+    "desc": "AI 自動推薦角色動作。"
+  },
+  {
+    "id": 646,
+    "name": "AI 特效助理模組",
+    "category": "creative",
+    "desc": "AI 自動添加適合的動畫特效。"
+  },
+  {
+    "id": 647,
+    "name": "AI 剪輯助理模組",
+    "category": "creative",
+    "desc": "AI 自動完成影片剪輯，生成最終版本。"
+  },
+  {
+    "id": 649,
+    "name": "AI 觀眾互動模組",
+    "category": "creative",
+    "desc": "AI 自動根據觀眾留言調整動畫內容。"
+  },
+  {
+    "id": 650,
+    "name": "AI 教學助理模組",
+    "category": "creative",
+    "desc": "AI 協助新手學習動畫創作。"
+  },
+  {
+    "id": 651,
+    "name": "動畫輸出模組",
+    "category": "creative",
+    "desc": "允許導出高畫質動畫影片。"
+  },
+  {
+    "id": 652,
+    "name": "動畫分享模組",
+    "category": "creative",
+    "desc": "支援一鍵分享動畫至社群。"
+  },
+  {
+    "id": 653,
+    "name": "動畫壓縮模組",
+    "category": "creative",
+    "desc": "支援不同壓縮比的動畫導出。"
+  },
+  {
+    "id": 654,
+    "name": "動畫格式模組",
+    "category": "creative",
+    "desc": "允許輸出多種影片格式。"
+  },
+  {
+    "id": 655,
+    "name": "動畫截圖模組",
+    "category": "creative",
+    "desc": "允許快速擷取動畫畫面。"
+  },
+  {
+    "id": 656,
+    "name": "動畫片段模組",
+    "category": "creative",
+    "desc": "允許分段導出動畫片段。"
+  },
+  {
+    "id": 657,
+    "name": "動畫水印模組",
+    "category": "creative",
+    "desc": "導出動畫時可添加浮水印。"
+  },
+  {
+    "id": 658,
+    "name": "動畫隱藏標記模組",
+    "category": "creative",
+    "desc": "在動畫中嵌入隱藏標記以追蹤使用。"
+  },
+  {
+    "id": 659,
+    "name": "動畫即時輸出模組",
+    "category": "creative",
+    "desc": "支援即時渲染與輸出。"
+  },
+  {
+    "id": 660,
+    "name": "動畫多版本模組",
+    "category": "creative",
+    "desc": "允許保存並管理多版本動畫輸出。"
+  },
+  {
+    "id": 661,
+    "name": "觀眾留言模組",
+    "category": "creative",
+    "desc": "觀眾可於動畫下方留言。"
+  },
+  {
+    "id": 662,
+    "name": "觀眾點讚模組",
+    "category": "creative",
+    "desc": "觀眾可為動畫按讚。"
+  },
+  {
+    "id": 663,
+    "name": "觀眾分享模組",
+    "category": "creative",
+    "desc": "觀眾可分享動畫至社群平台。"
+  },
+  {
+    "id": 664,
+    "name": "觀眾收藏模組",
+    "category": "creative",
+    "desc": "觀眾可收藏喜愛的動畫。"
+  },
+  {
+    "id": 665,
+    "name": "觀眾投票模組",
+    "category": "creative",
+    "desc": "觀眾可投票影響動畫劇情。"
+  },
+  {
+    "id": 668,
+    "name": "觀眾挑戰模組",
+    "category": "creative",
+    "desc": "觀眾可參與動畫相關挑戰。"
+  },
+  {
+    "id": 671,
+    "name": "動畫商城模組",
+    "category": "creative",
+    "desc": "提供素材、特效、音樂的商城。"
+  },
+  {
+    "id": 672,
+    "name": "動畫禮品卡模組",
+    "category": "creative",
+    "desc": "支援購買與贈送動畫平台禮品卡。"
+  },
+  {
+    "id": 673,
+    "name": "動畫積分模組",
+    "category": "creative",
+    "desc": "觀眾可使用積分兌換動畫特效或素材。"
+  },
+  {
+    "id": 676,
+    "name": "動畫收益模組",
+    "category": "creative",
+    "desc": "統計動畫觀看與互動收益。"
+  },
+  {
+    "id": 678,
+    "name": "動畫分潤模組",
+    "category": "creative",
+    "desc": "收益自動分潤給參與創作者。"
+  },
+  {
+    "id": 679,
+    "name": "動畫限免模組",
+    "category": "creative",
+    "desc": "平台可推出限時免費動畫。"
+  },
+  {
+    "id": 680,
+    "name": "動畫折扣模組",
+    "category": "creative",
+    "desc": "提供動畫購買折扣方案。"
+  },
+  {
+    "id": 683,
+    "name": "平台排名模組",
+    "category": "creative",
+    "desc": "依據互動數據生成平台排行榜。"
+  },
+  {
+    "id": 686,
+    "name": "平台教育模組",
+    "category": "creative",
+    "desc": "提供教育資源與課程結合動畫。"
+  },
+  {
+    "id": 690,
+    "name": "平台合作模組",
+    "category": "creative",
+    "desc": "允許品牌或組織合作動畫專案。"
+  },
+  {
+    "id": 691,
+    "name": "動畫榮譽牆模組",
+    "category": "creative",
+    "desc": "展示平台內優秀動畫作品。"
+  },
+  {
+    "id": 692,
+    "name": "動畫比賽模組",
+    "category": "creative",
+    "desc": "舉辦動畫比賽，提升互動性。"
+  },
+  {
+    "id": 693,
+    "name": "動畫評審模組",
+    "category": "creative",
+    "desc": "邀請專家或觀眾擔任比賽評審。"
+  },
+  {
+    "id": 694,
+    "name": "動畫頒獎模組",
+    "category": "creative",
+    "desc": "舉辦動畫頒獎典禮。"
+  },
+  {
+    "id": 695,
+    "name": "動畫回顧模組",
+    "category": "creative",
+    "desc": "自動生成年度動畫回顧影片。"
+  },
+  {
+    "id": 696,
+    "name": "動畫展覽模組",
+    "category": "creative",
+    "desc": "允許舉辦線上或實體動畫展覽。"
+  },
+  {
+    "id": 697,
+    "name": "動畫收藏模組",
+    "category": "creative",
+    "desc": "用戶可收藏喜愛的動畫。"
+  },
+  {
+    "id": 699,
+    "name": "動畫限量模組",
+    "category": "creative",
+    "desc": "推出限量動畫系列。"
+  },
+  {
+    "id": 700,
+    "name": "動畫國際合作模組",
+    "category": "creative",
+    "desc": "支援跨國動畫製作合作。"
+  },
+  {
+    "id": 702,
+    "name": "寵物成長曲線模組",
+    "category": "creative",
+    "desc": "自動生成寵物體重與身高的成長曲線圖。"
+  },
+  {
+    "id": 715,
+    "name": "寵物心情追蹤模組",
+    "category": "creative",
+    "desc": "記錄寵物的情緒狀態並生成心情日誌。"
+  },
+  {
+    "id": 716,
+    "name": "寵物照片紀錄模組",
+    "category": "creative",
+    "desc": "用戶可每日上傳寵物照片生成相簿。"
+  },
+  {
+    "id": 717,
+    "name": "寵物影片紀錄模組",
+    "category": "creative",
+    "desc": "用戶可上傳寵物影片並自動整理。"
+  },
+  {
+    "id": 720,
+    "name": "寵物排行榜模組",
+    "category": "creative",
+    "desc": "依據健康數據與挑戰完成度生成排行。"
+  },
+  {
+    "id": 721,
+    "name": "寵物語錄生成模組",
+    "category": "creative",
+    "desc": "自動將寵物互動生成語錄卡。"
+  },
+  {
+    "id": 724,
+    "name": "寵物語錄教育模組",
+    "category": "creative",
+    "desc": "將語錄卡應用於教育場景。"
+  },
+  {
+    "id": 735,
+    "name": "寵物比賽排行榜模組",
+    "category": "creative",
+    "desc": "依據比賽數據生成排行。"
+  },
+  {
+    "id": 736,
+    "name": "寵物比賽回顧模組",
+    "category": "creative",
+    "desc": "自動生成比賽回顧影片。"
+  },
+  {
+    "id": 739,
+    "name": "寵物比賽數據模組",
+    "category": "creative",
+    "desc": "統計比賽數據並生成報表。"
+  },
+  {
+    "id": 741,
+    "name": "寵物冒險模組",
+    "category": "creative",
+    "desc": "允許寵物角色展開冒險任務。"
+  },
+  {
+    "id": 742,
+    "name": "寵物冒險地圖模組",
+    "category": "creative",
+    "desc": "生成冒險地圖，供寵物角色探索。"
+  },
+  {
+    "id": 744,
+    "name": "寵物冒險挑戰模組",
+    "category": "creative",
+    "desc": "AI 自動生成冒險挑戰關卡。"
+  },
+  {
+    "id": 745,
+    "name": "寵物冒險回顧模組",
+    "category": "creative",
+    "desc": "自動生成冒險過程回顧影片。"
+  },
+  {
+    "id": 746,
+    "name": "寵物冒險合作模組",
+    "category": "creative",
+    "desc": "允許多角色一同參與冒險。"
+  },
+  {
+    "id": 750,
+    "name": "寵物冒險排行榜模組",
+    "category": "creative",
+    "desc": "依冒險數據生成排行。"
+  },
+  {
+    "id": 751,
+    "name": "寵物情緒曲線模組",
+    "category": "creative",
+    "desc": "AI 生成寵物在動畫中的情緒曲線。"
+  },
+  {
+    "id": 752,
+    "name": "寵物情緒特效模組",
+    "category": "creative",
+    "desc": "情緒波動可附加動畫特效。"
+  },
+  {
+    "id": 754,
+    "name": "寵物情緒動作模組",
+    "category": "creative",
+    "desc": "情緒狀態會觸發不同動作表現。"
+  },
+  {
+    "id": 757,
+    "name": "寵物情緒排行榜模組",
+    "category": "creative",
+    "desc": "依情緒互動生成排行。"
+  },
+  {
+    "id": 761,
+    "name": "多寵物互動模組",
+    "category": "creative",
+    "desc": "允許多寵物角色同時互動。"
+  },
+  {
+    "id": 765,
+    "name": "多寵物社群模組",
+    "category": "creative",
+    "desc": "允許多寵物角色的社群互動。"
+  },
+  {
+    "id": 766,
+    "name": "多寵物語錄模組",
+    "category": "creative",
+    "desc": "支援多寵物語錄生成。"
+  },
+  {
+    "id": 767,
+    "name": "多寵物情緒模組",
+    "category": "creative",
+    "desc": "允許多寵物情緒數據交錯影響動畫。"
+  },
+  {
+    "id": 770,
+    "name": "多寵物排行榜模組",
+    "category": "creative",
+    "desc": "依據多寵物數據生成排行。"
+  },
+  {
+    "id": 771,
+    "name": "寵物背景故事模組",
+    "category": "creative",
+    "desc": "允許建立寵物的完整背景故事。"
+  },
+  {
+    "id": 772,
+    "name": "寵物成長故事模組",
+    "category": "creative",
+    "desc": "生成寵物的成長歷程動畫。"
+  },
+  {
+    "id": 773,
+    "name": "寵物冒險故事模組",
+    "category": "creative",
+    "desc": "生成寵物的冒險旅程動畫。"
+  },
+  {
+    "id": 774,
+    "name": "寵物友情故事模組",
+    "category": "creative",
+    "desc": "生成寵物之間的友情故事。"
+  },
+  {
+    "id": 775,
+    "name": "寵物家庭故事模組",
+    "category": "creative",
+    "desc": "生成寵物與家庭的互動故事。"
+  },
+  {
+    "id": 776,
+    "name": "寵物教育故事模組",
+    "category": "creative",
+    "desc": "將教育內容融入寵物故事。"
+  },
+  {
+    "id": 777,
+    "name": "寵物公益故事模組",
+    "category": "creative",
+    "desc": "生成以公益為主題的寵物故事。"
+  },
+  {
+    "id": 778,
+    "name": "寵物夢想故事模組",
+    "category": "creative",
+    "desc": "生成寵物追逐夢想的故事。"
+  },
+  {
+    "id": 779,
+    "name": "寵物奇幻故事模組",
+    "category": "creative",
+    "desc": "生成奇幻題材的寵物故事。"
+  },
+  {
+    "id": 780,
+    "name": "寵物懸疑故事模組",
+    "category": "creative",
+    "desc": "生成懸疑題材的寵物故事。"
+  },
+  {
+    "id": 781,
+    "name": "寵物搞笑故事模組",
+    "category": "creative",
+    "desc": "生成搞笑情境的寵物故事。"
+  },
+  {
+    "id": 782,
+    "name": "寵物浪漫故事模組",
+    "category": "creative",
+    "desc": "生成浪漫氛圍的寵物故事。"
+  },
+  {
+    "id": 783,
+    "name": "寵物驚悚故事模組",
+    "category": "creative",
+    "desc": "生成驚悚氛圍的寵物故事。"
+  },
+  {
+    "id": 784,
+    "name": "寵物冒險分支故事模組",
+    "category": "creative",
+    "desc": "允許寵物故事產生多分支冒險。"
+  },
+  {
+    "id": 785,
+    "name": "寵物故事回顧模組",
+    "category": "creative",
+    "desc": "自動生成寵物故事回顧短片。"
+  },
+  {
+    "id": 786,
+    "name": "寵物故事收藏模組",
+    "category": "creative",
+    "desc": "允許用戶收藏寵物故事。"
+  },
+  {
+    "id": 787,
+    "name": "寵物故事比賽模組",
+    "category": "creative",
+    "desc": "舉辦寵物故事創作比賽。"
+  },
+  {
+    "id": 790,
+    "name": "寵物故事社群模組",
+    "category": "creative",
+    "desc": "允許在社群中分享寵物故事。"
+  },
+  {
+    "id": 791,
+    "name": "寵物故事語錄模組",
+    "category": "creative",
+    "desc": "自動提取寵物故事中的語錄。"
+  },
+  {
+    "id": 795,
+    "name": "寵物故事限量模組",
+    "category": "creative",
+    "desc": "推出限量寵物故事系列。"
+  },
+  {
+    "id": 796,
+    "name": "寵物故事榮譽牆模組",
+    "category": "creative",
+    "desc": "展示優秀寵物故事作品。"
+  },
+  {
+    "id": 797,
+    "name": "寵物跨專案故事模組",
+    "category": "creative",
+    "desc": "寵物故事可跨不同專案延伸。"
+  },
+  {
+    "id": 798,
+    "name": "寵物故事隨機模組",
+    "category": "creative",
+    "desc": "AI 隨機生成不同寵物故事。"
+  },
+  {
+    "id": 799,
+    "name": "寵物故事合作模組",
+    "category": "creative",
+    "desc": "支援多角色合作生成故事。"
+  },
+  {
+    "id": 800,
+    "name": "寵物故事國際合作模組",
+    "category": "creative",
+    "desc": "支援跨國創作者合作生成故事。"
+  },
+  {
+    "id": 801,
+    "name": "動畫任務指令模組",
+    "category": "creative",
+    "desc": "允許用戶輸入指令生成特定動畫任務。"
+  },
+  {
+    "id": 802,
+    "name": "動畫任務自動生成模組",
+    "category": "creative",
+    "desc": "AI 自動依據劇情生成任務。"
+  },
+  {
+    "id": 803,
+    "name": "動畫任務挑戰難度模組",
+    "category": "creative",
+    "desc": "任務可依據觀眾選擇自動調整難度。"
+  },
+  {
+    "id": 804,
+    "name": "動畫任務隨機事件模組",
+    "category": "creative",
+    "desc": "在任務過程中插入隨機事件。"
+  },
+  {
+    "id": 805,
+    "name": "動畫任務故事延伸模組",
+    "category": "creative",
+    "desc": "完成任務後會開啟新故事篇章。"
+  },
+  {
+    "id": 806,
+    "name": "動畫任務角色升級模組",
+    "category": "creative",
+    "desc": "任務完成後角色可獲得經驗升級。"
+  },
+  {
+    "id": 807,
+    "name": "動畫任務技能解鎖模組",
+    "category": "creative",
+    "desc": "完成特定任務後解鎖角色技能。"
+  },
+  {
+    "id": 808,
+    "name": "動畫任務隱藏分支模組",
+    "category": "creative",
+    "desc": "隱藏分支需達成條件才能解鎖。"
+  },
+  {
+    "id": 809,
+    "name": "動畫任務回顧牆模組",
+    "category": "creative",
+    "desc": "自動生成任務歷程回顧牆。"
+  },
+  {
+    "id": 810,
+    "name": "動畫任務收藏模組",
+    "category": "creative",
+    "desc": "允許收藏完成的任務動畫。"
+  },
+  {
+    "id": 811,
+    "name": "寵物日常任務模組",
+    "category": "creative",
+    "desc": "生成日常照顧寵物的任務。"
+  },
+  {
+    "id": 812,
+    "name": "寵物娛樂任務模組",
+    "category": "creative",
+    "desc": "生成與寵物遊戲相關的任務。"
+  },
+  {
+    "id": 813,
+    "name": "寵物健康任務模組",
+    "category": "creative",
+    "desc": "生成與寵物健康管理相關的任務。"
+  },
+  {
+    "id": 814,
+    "name": "寵物教育任務模組",
+    "category": "creative",
+    "desc": "生成與寵物訓練相關的任務。"
+  },
+  {
+    "id": 815,
+    "name": "寵物冒險任務模組",
+    "category": "creative",
+    "desc": "生成冒險類型的寵物任務。"
+  },
+  {
+    "id": 816,
+    "name": "寵物故事任務模組",
+    "category": "creative",
+    "desc": "生成基於故事劇情的寵物任務。"
+  },
+  {
+    "id": 817,
+    "name": "寵物公益任務模組",
+    "category": "creative",
+    "desc": "生成與公益相關的寵物任務。"
+  },
+  {
+    "id": 818,
+    "name": "寵物社群任務模組",
+    "category": "creative",
+    "desc": "生成社群互動類型的任務。"
+  },
+  {
+    "id": 819,
+    "name": "寵物合作任務模組",
+    "category": "creative",
+    "desc": "允許多角色合作完成任務。"
+  },
+  {
+    "id": 820,
+    "name": "寵物任務排行榜模組",
+    "category": "creative",
+    "desc": "依據完成任務的數據生成排行。"
+  },
+  {
+    "id": 821,
+    "name": "角色裝扮比賽模組",
+    "category": "creative",
+    "desc": "允許舉辦角色換裝比賽。"
+  },
+  {
+    "id": 822,
+    "name": "角色裝扮直播模組",
+    "category": "creative",
+    "desc": "支援裝扮比賽的直播。"
+  },
+  {
+    "id": 823,
+    "name": "角色裝扮投票模組",
+    "category": "creative",
+    "desc": "觀眾可投票決定比賽勝者。"
+  },
+  {
+    "id": 824,
+    "name": "角色裝扮獎勵模組",
+    "category": "creative",
+    "desc": "比賽勝者可獲得專屬獎勵。"
+  },
+  {
+    "id": 825,
+    "name": "角色裝扮收藏牆模組",
+    "category": "creative",
+    "desc": "展示平台優秀的裝扮作品。"
+  },
+  {
+    "id": 829,
+    "name": "角色裝扮隨機模組",
+    "category": "creative",
+    "desc": "AI 隨機生成角色裝扮參賽。"
+  },
+  {
+    "id": 830,
+    "name": "角色裝扮回顧模組",
+    "category": "creative",
+    "desc": "自動生成比賽回顧短片。"
+  },
+  {
+    "id": 831,
+    "name": "寵物對戰模組",
+    "category": "creative",
+    "desc": "允許寵物角色之間進行對戰。"
+  },
+  {
+    "id": 834,
+    "name": "寵物對戰合作模組",
+    "category": "creative",
+    "desc": "支援多角色合作對戰。"
+  },
+  {
+    "id": 836,
+    "name": "寵物對戰回顧模組",
+    "category": "creative",
+    "desc": "自動生成對戰回顧動畫。"
+  },
+  {
+    "id": 838,
+    "name": "寵物對戰排行榜模組",
+    "category": "creative",
+    "desc": "依據對戰成績生成排行。"
+  },
+  {
+    "id": 841,
+    "name": "劇情語音導演模組",
+    "category": "creative",
+    "desc": "AI 根據劇情自動生成角色語音。"
+  },
+  {
+    "id": 842,
+    "name": "劇情語音情緒模組",
+    "category": "creative",
+    "desc": "角色語音可隨劇情情緒變化。"
+  },
+  {
+    "id": 843,
+    "name": "劇情語音同步模組",
+    "category": "creative",
+    "desc": "角色語音與字幕及動作同步。"
+  },
+  {
+    "id": 845,
+    "name": "劇情語音公益模組",
+    "category": "creative",
+    "desc": "將語音功能應用於公益動畫。"
+  },
+  {
+    "id": 846,
+    "name": "劇情語音隨機模組",
+    "category": "creative",
+    "desc": "AI 隨機生成不同語音演繹。"
+  },
+  {
+    "id": 849,
+    "name": "劇情語音合作模組",
+    "category": "creative",
+    "desc": "允許多角色合作完成語音演繹。"
+  },
+  {
+    "id": 851,
+    "name": "動畫時間軸模組",
+    "category": "creative",
+    "desc": "以時間軸形式展示完整動畫結構。"
+  },
+  {
+    "id": 852,
+    "name": "動畫分鏡回顧模組",
+    "category": "creative",
+    "desc": "自動生成分鏡回顧短片。"
+  },
+  {
+    "id": 853,
+    "name": "動畫場景切換模組",
+    "category": "creative",
+    "desc": "提供多種場景切換效果。"
+  },
+  {
+    "id": 854,
+    "name": "動畫場景特效模組",
+    "category": "creative",
+    "desc": "場景切換時附加特效。"
+  },
+  {
+    "id": 855,
+    "name": "動畫燈光控制模組",
+    "category": "creative",
+    "desc": "允許調整場景燈光效果。"
+  },
+  {
+    "id": 856,
+    "name": "動畫陰影模組",
+    "category": "creative",
+    "desc": "自動生成真實陰影效果。"
+  },
+  {
+    "id": 857,
+    "name": "動畫濾鏡模組",
+    "category": "creative",
+    "desc": "支援不同濾鏡風格（懷舊、漫畫）。"
+  },
+  {
+    "id": 858,
+    "name": "動畫畫質優化模組",
+    "category": "creative",
+    "desc": "AI 自動提升動畫解析度。"
+  },
+  {
+    "id": 859,
+    "name": "動畫渲染加速模組",
+    "category": "creative",
+    "desc": "優化動畫渲染速度。"
+  },
+  {
+    "id": 860,
+    "name": "動畫即時預覽模組",
+    "category": "creative",
+    "desc": "允許在創作過程中即時預覽動畫。"
+  },
+  {
+    "id": 861,
+    "name": "觀眾分鏡互動模組",
+    "category": "creative",
+    "desc": "觀眾可對分鏡設計提出建議。"
+  },
+  {
+    "id": 863,
+    "name": "觀眾角色互動模組",
+    "category": "creative",
+    "desc": "觀眾可與角色進行即時互動。"
+  },
+  {
+    "id": 864,
+    "name": "觀眾語音互動模組",
+    "category": "creative",
+    "desc": "觀眾可用語音與角色對話。"
+  },
+  {
+    "id": 867,
+    "name": "觀眾表情模組",
+    "category": "creative",
+    "desc": "觀眾可使用表情符號回饋。"
+  },
+  {
+    "id": 870,
+    "name": "觀眾回顧模組",
+    "category": "creative",
+    "desc": "自動生成觀眾互動回顧。"
+  },
+  {
+    "id": 872,
+    "name": "平台公益合作模組",
+    "category": "creative",
+    "desc": "支援公益組織合作動畫專案。"
+  },
+  {
+    "id": 873,
+    "name": "平台社群合作模組",
+    "category": "creative",
+    "desc": "支援社群團體合作動畫創作。"
+  },
+  {
+    "id": 875,
+    "name": "平台跨界合作模組",
+    "category": "creative",
+    "desc": "支援跨領域合作動畫專案。"
+  },
+  {
+    "id": 876,
+    "name": "平台國際合作模組",
+    "category": "creative",
+    "desc": "支援跨國動畫合作。"
+  },
+  {
+    "id": 883,
+    "name": "動畫商務聯名模組",
+    "category": "creative",
+    "desc": "允許品牌與角色進行聯名合作。"
+  },
+  {
+    "id": 888,
+    "name": "動畫商務周邊模組",
+    "category": "creative",
+    "desc": "推出動畫相關周邊產品。"
+  },
+  {
+    "id": 889,
+    "name": "動畫商務商城模組",
+    "category": "creative",
+    "desc": "提供動畫商務相關商品交易。"
+  },
+  {
+    "id": 890,
+    "name": "動畫商務數據模組",
+    "category": "creative",
+    "desc": "統計動畫商務數據並生成報告。"
+  },
+  {
+    "id": 891,
+    "name": "創作者工具包模組",
+    "category": "creative",
+    "desc": "提供創作者一站式動畫工具集。"
+  },
+  {
+    "id": 902,
+    "name": "觀眾互動畫面模組",
+    "category": "creative",
+    "desc": "允許觀眾即時更改畫面特效或濾鏡。"
+  },
+  {
+    "id": 903,
+    "name": "觀眾互動角色模組",
+    "category": "creative",
+    "desc": "觀眾可投票決定角色出場或消失。"
+  },
+  {
+    "id": 904,
+    "name": "觀眾互動音效模組",
+    "category": "creative",
+    "desc": "觀眾可觸發特定音效於播放中。"
+  },
+  {
+    "id": 905,
+    "name": "觀眾互動畫風模組",
+    "category": "creative",
+    "desc": "允許觀眾切換動畫的畫風樣式。"
+  },
+  {
+    "id": 906,
+    "name": "觀眾互動表情模組",
+    "category": "creative",
+    "desc": "觀眾發送的表情符號可影響角色情緒。"
+  },
+  {
+    "id": 910,
+    "name": "觀眾互動排行榜模組",
+    "category": "creative",
+    "desc": "依據觀眾互動積分生成排行榜。"
+  },
+  {
+    "id": 911,
+    "name": "觀眾語錄互動模組",
+    "category": "creative",
+    "desc": "觀眾可自創語錄並影響角色台詞。"
+  },
+  {
+    "id": 912,
+    "name": "觀眾語音對話模組",
+    "category": "creative",
+    "desc": "觀眾語音可與角色進行即時對話。"
+  },
+  {
+    "id": 915,
+    "name": "觀眾語音表情模組",
+    "category": "creative",
+    "desc": "語音內容可附帶表情效果。"
+  },
+  {
+    "id": 916,
+    "name": "觀眾語音回顧模組",
+    "category": "creative",
+    "desc": "自動生成觀眾語音互動回顧。"
+  },
+  {
+    "id": 922,
+    "name": "寵物語音任務模組",
+    "category": "creative",
+    "desc": "生成與寵物語音互動相關的任務。"
+  },
+  {
+    "id": 925,
+    "name": "寵物語音回顧模組",
+    "category": "creative",
+    "desc": "自動生成寵物語音互動回顧。"
+  },
+  {
+    "id": 931,
+    "name": "角色任務清單模組",
+    "category": "creative",
+    "desc": "允許角色展示專屬任務清單。"
+  },
+  {
+    "id": 932,
+    "name": "角色任務合作模組",
+    "category": "creative",
+    "desc": "允許多角色合作完成任務。"
+  },
+  {
+    "id": 933,
+    "name": "角色任務挑戰模組",
+    "category": "creative",
+    "desc": "允許角色參與不同任務挑戰。"
+  },
+  {
+    "id": 934,
+    "name": "角色任務回顧模組",
+    "category": "creative",
+    "desc": "自動生成角色任務回顧影片。"
+  },
+  {
+    "id": 935,
+    "name": "角色任務收藏模組",
+    "category": "creative",
+    "desc": "允許保存角色完成的任務。"
+  },
+  {
+    "id": 936,
+    "name": "角色任務獎勵模組",
+    "category": "creative",
+    "desc": "完成任務可獲得專屬獎勵。"
+  },
+  {
+    "id": 937,
+    "name": "角色任務比賽模組",
+    "category": "creative",
+    "desc": "允許角色任務進行比賽形式。"
+  },
+  {
+    "id": 938,
+    "name": "角色任務隱藏模組",
+    "category": "creative",
+    "desc": "完成特定條件才能解鎖隱藏任務。"
+  },
+  {
+    "id": 939,
+    "name": "角色任務教育模組",
+    "category": "creative",
+    "desc": "角色任務可應用於教育場景。"
+  },
+  {
+    "id": 941,
+    "name": "劇情回憶殺模組",
+    "category": "creative",
+    "desc": "支援插入回憶片段以豐富故事情感。"
+  },
+  {
+    "id": 943,
+    "name": "劇情平行時空模組",
+    "category": "creative",
+    "desc": "支援平行世界的故事展開。"
+  },
+  {
+    "id": 945,
+    "name": "劇情隨機生成模組",
+    "category": "creative",
+    "desc": "AI 隨機生成劇情情節。"
+  },
+  {
+    "id": 947,
+    "name": "劇情角色替換模組",
+    "category": "creative",
+    "desc": "允許更換劇情中的角色。"
+  },
+  {
+    "id": 950,
+    "name": "劇情融合模組",
+    "category": "creative",
+    "desc": "允許不同劇情片段融合成新故事。"
+  },
+  {
+    "id": 951,
+    "name": "角色收藏牆模組",
+    "category": "creative",
+    "desc": "集中展示用戶已收集的角色。"
+  },
+  {
+    "id": 952,
+    "name": "角色進化模組",
+    "category": "creative",
+    "desc": "角色可隨時間或條件進化。"
+  },
+  {
+    "id": 953,
+    "name": "角色養成模組",
+    "category": "creative",
+    "desc": "用戶可透過互動培養角色屬性。"
+  },
+  {
+    "id": 954,
+    "name": "角色裝備模組",
+    "category": "creative",
+    "desc": "允許角色裝備不同道具。"
+  },
+  {
+    "id": 955,
+    "name": "角色技能模組",
+    "category": "creative",
+    "desc": "角色可學習並使用新技能。"
+  },
+  {
+    "id": 956,
+    "name": "角色升級模組",
+    "category": "creative",
+    "desc": "角色完成任務後可升級。"
+  },
+  {
+    "id": 957,
+    "name": "角色隱藏屬性模組",
+    "category": "creative",
+    "desc": "角色具備隱藏屬性需解鎖才能使用。"
+  },
+  {
+    "id": 958,
+    "name": "角色記憶模組",
+    "category": "creative",
+    "desc": "角色可保存與觀眾的互動記憶。"
+  },
+  {
+    "id": 959,
+    "name": "角色情感模組",
+    "category": "creative",
+    "desc": "角色可與觀眾或其他角色產生情感。"
+  },
+  {
+    "id": 960,
+    "name": "角色羈絆模組",
+    "category": "creative",
+    "desc": "角色之間可產生羈絆影響劇情。"
+  },
+  {
+    "id": 961,
+    "name": "動畫解說模組",
+    "category": "creative",
+    "desc": "AI 自動生成動畫旁白。"
+  },
+  {
+    "id": 962,
+    "name": "動畫字幕模組",
+    "category": "creative",
+    "desc": "自動生成動畫字幕並支持翻譯。"
+  },
+  {
+    "id": 963,
+    "name": "動畫分鏡模組",
+    "category": "creative",
+    "desc": "AI 自動生成動畫分鏡。"
+  },
+  {
+    "id": 964,
+    "name": "動畫渲染模組",
+    "category": "creative",
+    "desc": "提升動畫渲染品質。"
+  },
+  {
+    "id": 965,
+    "name": "動畫音效模組",
+    "category": "creative",
+    "desc": "自動生成並匹配音效。"
+  },
+  {
+    "id": 966,
+    "name": "動畫配樂模組",
+    "category": "creative",
+    "desc": "自動生成背景音樂。"
+  },
+  {
+    "id": 967,
+    "name": "動畫語音模組",
+    "category": "creative",
+    "desc": "自動生成角色語音。"
+  },
+  {
+    "id": 968,
+    "name": "動畫特效模組",
+    "category": "creative",
+    "desc": "提供多樣動畫特效。"
+  },
+  {
+    "id": 969,
+    "name": "動畫合成模組",
+    "category": "creative",
+    "desc": "整合各模組生成最終動畫。"
+  },
+  {
+    "id": 970,
+    "name": "動畫輸出模組",
+    "category": "creative",
+    "desc": "支援多種格式輸出。"
+  },
+  {
+    "id": 983,
+    "name": "平台數據報告模組",
+    "category": "creative",
+    "desc": "生成平台運營數據報告。"
+  },
+  {
+    "id": 1002,
+    "name": "寵物迷宮挑戰模組",
+    "category": "creative",
+    "desc": "AI 生成迷宮，寵物需完成挑戰以獲得獎勵。"
+  },
+  {
+    "id": 1004,
+    "name": "寵物賽跑模組",
+    "category": "creative",
+    "desc": "允許寵物角色進行賽跑競賽。"
+  },
+  {
+    "id": 1007,
+    "name": "寵物跳躍挑戰模組",
+    "category": "creative",
+    "desc": "生成平台跳躍類挑戰。"
+  },
+  {
+    "id": 1008,
+    "name": "寵物音樂互動模組",
+    "category": "creative",
+    "desc": "寵物角色可隨音樂舞動。"
+  },
+  {
+    "id": 1011,
+    "name": "寵物智力遊戲模組",
+    "category": "creative",
+    "desc": "生成寵物參與的益智遊戲。"
+  },
+  {
+    "id": 1012,
+    "name": "寵物合作遊戲模組",
+    "category": "creative",
+    "desc": "支援多寵物角色合作完成遊戲。"
+  },
+  {
+    "id": 1013,
+    "name": "寵物對戰挑戰模組",
+    "category": "creative",
+    "desc": "允許寵物角色參與 PVP 對戰挑戰。"
+  },
+  {
+    "id": 1014,
+    "name": "寵物探險任務模組",
+    "category": "creative",
+    "desc": "生成隨機探險任務與獎勵。"
+  },
+  {
+    "id": 1016,
+    "name": "寵物融合模組",
+    "category": "creative",
+    "desc": "允許不同寵物融合產生新角色。"
+  },
+  {
+    "id": 1018,
+    "name": "寵物訓練模組",
+    "category": "creative",
+    "desc": "允許設計訓練計畫提升寵物能力。"
+  },
+  {
+    "id": 1021,
+    "name": "寵物故事任務模組",
+    "category": "creative",
+    "desc": "寵物角色可解鎖專屬故事劇情。"
+  },
+  {
+    "id": 1022,
+    "name": "寵物羈絆模組",
+    "category": "creative",
+    "desc": "寵物之間建立羈絆影響故事走向。"
+  },
+  {
+    "id": 1023,
+    "name": "寵物家庭模組",
+    "category": "creative",
+    "desc": "允許寵物角色組成家庭。"
+  },
+  {
+    "id": 1024,
+    "name": "寵物跨界合作模組",
+    "category": "creative",
+    "desc": "允許寵物角色與其他專案聯動。"
+  },
+  {
+    "id": 1025,
+    "name": "寵物夢境模組",
+    "category": "creative",
+    "desc": "生成寵物進入夢境的特別劇情。"
+  },
+  {
+    "id": 1026,
+    "name": "寵物奇幻冒險模組",
+    "category": "creative",
+    "desc": "允許生成魔法或奇幻題材的冒險。"
+  },
+  {
+    "id": 1027,
+    "name": "寵物科幻冒險模組",
+    "category": "creative",
+    "desc": "允許生成未來或太空背景的冒險。"
+  },
+  {
+    "id": 1028,
+    "name": "寵物歷史冒險模組",
+    "category": "creative",
+    "desc": "允許寵物角色體驗歷史背景劇情。"
+  },
+  {
+    "id": 1033,
+    "name": "寵物文化交流模組",
+    "category": "creative",
+    "desc": "允許寵物角色體驗不同文化背景。"
+  },
+  {
+    "id": 1034,
+    "name": "寵物語錄故事模組",
+    "category": "creative",
+    "desc": "將寵物冒險提煉為語錄與故事。"
+  },
+  {
+    "id": 1036,
+    "name": "寵物冒險回顧模組",
+    "category": "creative",
+    "desc": "自動生成冒險過程回顧短片。"
+  },
+  {
+    "id": 1039,
+    "name": "寵物冒險排行榜模組",
+    "category": "creative",
+    "desc": "依據冒險表現生成排行。"
+  },
+  {
+    "id": 1041,
+    "name": "動畫表情強化模組",
+    "category": "creative",
+    "desc": "提升角色表情的細緻度與自然度。"
+  },
+  {
+    "id": 1042,
+    "name": "動畫語音同步模組",
+    "category": "creative",
+    "desc": "確保語音與角色口型同步。"
+  },
+  {
+    "id": 1043,
+    "name": "動畫音樂同步模組",
+    "category": "creative",
+    "desc": "動畫場景與背景音樂自動對齊。"
+  },
+  {
+    "id": 1044,
+    "name": "動畫節奏模組",
+    "category": "creative",
+    "desc": "AI 自動調整動畫敘事節奏。"
+  },
+  {
+    "id": 1045,
+    "name": "動畫片段重製模組",
+    "category": "creative",
+    "desc": "允許使用者重製特定片段。"
+  },
+  {
+    "id": 1046,
+    "name": "動畫場景切換模組",
+    "category": "creative",
+    "desc": "支援更多樣化的場景轉場效果。"
+  },
+  {
+    "id": 1047,
+    "name": "動畫情緒曲線模組",
+    "category": "creative",
+    "desc": "生成動畫的完整情緒曲線圖。"
+  },
+  {
+    "id": 1048,
+    "name": "動畫回憶殺模組",
+    "category": "creative",
+    "desc": "自動生成回憶片段以增強情感。"
+  },
+  {
+    "id": 1049,
+    "name": "動畫分支劇情模組",
+    "category": "creative",
+    "desc": "允許生成分支劇情動畫。"
+  },
+  {
+    "id": 1050,
+    "name": "動畫教育模組",
+    "category": "creative",
+    "desc": "動畫內容可應用於教育場景。"
+  },
+  {
+    "id": 1052,
+    "name": "動畫多語系模組",
+    "category": "creative",
+    "desc": "允許動畫輸出多國語言版本。"
+  },
+  {
+    "id": 1053,
+    "name": "動畫配音模組",
+    "category": "creative",
+    "desc": "允許替動畫角色配音。"
+  },
+  {
+    "id": 1054,
+    "name": "動畫翻譯模組",
+    "category": "creative",
+    "desc": "提供字幕與語音翻譯功能。"
+  },
+  {
+    "id": 1055,
+    "name": "動畫國際合作模組",
+    "category": "creative",
+    "desc": "支援跨國動畫創作合作。"
+  },
+  {
+    "id": 1057,
+    "name": "動畫限量模組",
+    "category": "creative",
+    "desc": "推出限量動畫系列。"
+  },
+  {
+    "id": 1058,
+    "name": "動畫商城模組",
+    "category": "creative",
+    "desc": "提供動畫相關素材與商品交易。"
+  },
+  {
+    "id": 1059,
+    "name": "動畫社群模組",
+    "category": "creative",
+    "desc": "支援社群內部的動畫交流。"
+  },
+  {
+    "id": 1061,
+    "name": "動畫獎勵模組",
+    "category": "creative",
+    "desc": "完成動畫創作任務可獲獎勵。"
+  },
+  {
+    "id": 1062,
+    "name": "動畫榮譽牆模組",
+    "category": "creative",
+    "desc": "展示優秀動畫作品。"
+  },
+  {
+    "id": 1063,
+    "name": "動畫直播模組",
+    "category": "creative",
+    "desc": "允許即時播放動畫製作過程。"
+  },
+  {
+    "id": 1064,
+    "name": "動畫回顧模組",
+    "category": "creative",
+    "desc": "生成年度動畫回顧影片。"
+  },
+  {
+    "id": 1065,
+    "name": "動畫收藏模組",
+    "category": "creative",
+    "desc": "允許收藏動畫作品。"
+  },
+  {
+    "id": 1066,
+    "name": "動畫教育平台模組",
+    "category": "creative",
+    "desc": "整合動畫與教育資源的平台。"
+  },
+  {
+    "id": 1067,
+    "name": "動畫公益平台模組",
+    "category": "creative",
+    "desc": "整合動畫與公益資源的平台。"
+  },
+  {
+    "id": 1068,
+    "name": "動畫商務合作模組",
+    "category": "creative",
+    "desc": "允許動畫參與商務合作。"
+  },
+  {
+    "id": 1069,
+    "name": "動畫收益分潤模組",
+    "category": "creative",
+    "desc": "允許動畫收益自動分潤。"
+  },
+  {
+    "id": 1072,
+    "name": "動畫周邊模組",
+    "category": "creative",
+    "desc": "推出動畫相關周邊商品。"
+  },
+  {
+    "id": 1074,
+    "name": "動畫限免模組",
+    "category": "creative",
+    "desc": "允許動畫作品限時免費。"
+  },
+  {
+    "id": 1075,
+    "name": "動畫數據分析模組",
+    "category": "creative",
+    "desc": "統計並分析動畫相關數據。"
+  },
+  {
+    "id": 1076,
+    "name": "動畫用戶分析模組",
+    "category": "creative",
+    "desc": "分析動畫觀眾的使用行為。"
+  },
+  {
+    "id": 1077,
+    "name": "動畫內容推薦模組",
+    "category": "creative",
+    "desc": "AI 推薦動畫作品給用戶。"
+  },
+  {
+    "id": 1078,
+    "name": "動畫平台升級模組",
+    "category": "creative",
+    "desc": "定期更新與優化平台功能。"
+  },
+  {
+    "id": 1079,
+    "name": "動畫安全模組",
+    "category": "creative",
+    "desc": "保障平台內容與交易安全。"
+  },
+  {
+    "id": 1080,
+    "name": "動畫隱私模組",
+    "category": "creative",
+    "desc": "允許用戶管理隱私設定。"
+  },
+  {
+    "id": 1081,
+    "name": "動畫國際推廣模組",
+    "category": "creative",
+    "desc": "支援動畫作品的跨國推廣。"
+  },
+  {
+    "id": 1082,
+    "name": "動畫跨界合作模組",
+    "category": "creative",
+    "desc": "允許動畫與其他專案跨界合作。"
+  },
+  {
+    "id": 1083,
+    "name": "動畫品牌合作模組",
+    "category": "creative",
+    "desc": "允許動畫與品牌進行聯名。"
+  },
+  {
+    "id": 1084,
+    "name": "動畫教育合作模組",
+    "category": "creative",
+    "desc": "允許動畫與教育機構合作。"
+  },
+  {
+    "id": 1085,
+    "name": "動畫公益合作模組",
+    "category": "creative",
+    "desc": "允許動畫與公益組織合作。"
+  },
+  {
+    "id": 1086,
+    "name": "動畫社群合作模組",
+    "category": "creative",
+    "desc": "允許動畫與社群組織合作。"
+  },
+  {
+    "id": 1087,
+    "name": "動畫比賽合作模組",
+    "category": "creative",
+    "desc": "允許動畫參與跨專案比賽。"
+  },
+  {
+    "id": 1090,
+    "name": "動畫合作榮譽牆模組",
+    "category": "creative",
+    "desc": "展示合作成果與優秀專案。"
+  },
+  {
+    "id": 1101,
+    "name": "寵物虛擬形象模組",
+    "category": "creative",
+    "desc": "允許用戶自訂寵物虛擬形象並應用於動畫。"
+  },
+  {
+    "id": 1106,
+    "name": "寵物情感模組",
+    "category": "creative",
+    "desc": "AI 生成寵物的情感曲線並影響動畫互動。"
+  },
+  {
+    "id": 1107,
+    "name": "寵物動作記憶模組",
+    "category": "creative",
+    "desc": "記錄寵物的行為與動作習慣。"
+  },
+  {
+    "id": 1109,
+    "name": "寵物互動模組",
+    "category": "creative",
+    "desc": "用戶可即時與寵物角色互動。"
+  },
+  {
+    "id": 1110,
+    "name": "寵物表情模組",
+    "category": "creative",
+    "desc": "AI 自動生成寵物表情並與語境同步。"
+  },
+  {
+    "id": 1112,
+    "name": "寵物運動模組",
+    "category": "creative",
+    "desc": "追蹤寵物的運動數據並生成報告。"
+  },
+  {
+    "id": 1116,
+    "name": "寵物成長模組",
+    "category": "creative",
+    "desc": "生成寵物的成長曲線與階段紀錄。"
+  },
+  {
+    "id": 1117,
+    "name": "寵物挑戰模組",
+    "category": "creative",
+    "desc": "每日生成隨機挑戰任務供寵物完成。"
+  },
+  {
+    "id": 1118,
+    "name": "寵物冒險模組",
+    "category": "creative",
+    "desc": "寵物角色可參與冒險任務並解鎖獎勵。"
+  },
+  {
+    "id": 1123,
+    "name": "寵物多語模組",
+    "category": "creative",
+    "desc": "支援多語言輸出寵物動畫與語音。"
+  },
+  {
+    "id": 1124,
+    "name": "寵物國際模組",
+    "category": "creative",
+    "desc": "允許寵物角色參與跨國專案合作。"
+  },
+  {
+    "id": 1128,
+    "name": "寵物限量模組",
+    "category": "creative",
+    "desc": "推出限量寵物角色或物品。"
+  },
+  {
+    "id": 1129,
+    "name": "寵物任務模組",
+    "category": "creative",
+    "desc": "生成寵物專屬任務清單。"
+  },
+  {
+    "id": 1130,
+    "name": "寵物任務回顧模組",
+    "category": "creative",
+    "desc": "自動生成任務完成的回顧短片。"
+  },
+  {
+    "id": 1131,
+    "name": "動畫AI生成模組",
+    "category": "creative",
+    "desc": "AI 自動生成完整的寵物動畫。"
+  },
+  {
+    "id": 1132,
+    "name": "動畫分鏡模組",
+    "category": "creative",
+    "desc": "自動生成動畫分鏡腳本。"
+  },
+  {
+    "id": 1133,
+    "name": "動畫場景模組",
+    "category": "creative",
+    "desc": "AI 根據文字描述生成場景。"
+  },
+  {
+    "id": 1134,
+    "name": "動畫語音模組",
+    "category": "creative",
+    "desc": "生成角色語音並與口型對齊。"
+  },
+  {
+    "id": 1135,
+    "name": "動畫音效模組",
+    "category": "creative",
+    "desc": "AI 自動為場景生成音效。"
+  },
+  {
+    "id": 1136,
+    "name": "動畫配樂模組",
+    "category": "creative",
+    "desc": "AI 根據氛圍選擇或生成音樂。"
+  },
+  {
+    "id": 1137,
+    "name": "動畫表情模組",
+    "category": "creative",
+    "desc": "自動生成角色表情動畫。"
+  },
+  {
+    "id": 1138,
+    "name": "動畫動作模組",
+    "category": "creative",
+    "desc": "自動生成角色肢體動作。"
+  },
+  {
+    "id": 1139,
+    "name": "動畫特效模組",
+    "category": "creative",
+    "desc": "支援多樣化的動畫特效。"
+  },
+  {
+    "id": 1140,
+    "name": "動畫渲染模組",
+    "category": "creative",
+    "desc": "優化動畫的渲染速度與品質。"
+  },
+  {
+    "id": 1141,
+    "name": "動畫導出模組",
+    "category": "creative",
+    "desc": "支援多種格式的動畫導出。"
+  },
+  {
+    "id": 1142,
+    "name": "動畫回顧模組",
+    "category": "creative",
+    "desc": "自動生成動畫回顧短片。"
+  },
+  {
+    "id": 1143,
+    "name": "動畫收藏模組",
+    "category": "creative",
+    "desc": "允許保存與分享動畫。"
+  },
+  {
+    "id": 1144,
+    "name": "動畫比賽模組",
+    "category": "creative",
+    "desc": "允許舉辦動畫比賽。"
+  },
+  {
+    "id": 1145,
+    "name": "動畫教育模組",
+    "category": "creative",
+    "desc": "將動畫應用於教育場景。"
+  },
+  {
+    "id": 1147,
+    "name": "動畫社群模組",
+    "category": "creative",
+    "desc": "支援動畫作品的社群互動。"
+  },
+  {
+    "id": 1148,
+    "name": "動畫跨界模組",
+    "category": "creative",
+    "desc": "允許動畫與其他專案跨界合作。"
+  },
+  {
+    "id": 1149,
+    "name": "動畫國際模組",
+    "category": "creative",
+    "desc": "支援動畫的跨國推廣。"
+  },
+  {
+    "id": 1150,
+    "name": "動畫數據模組",
+    "category": "creative",
+    "desc": "統計並分析動畫相關數據。"
+  },
+  {
+    "id": 1152,
+    "name": "觀眾語音模組",
+    "category": "creative",
+    "desc": "允許觀眾以語音與角色互動。"
+  },
+  {
+    "id": 1156,
+    "name": "觀眾表情模組",
+    "category": "creative",
+    "desc": "觀眾可使用表情符號即時互動。"
+  },
+  {
+    "id": 1159,
+    "name": "觀眾排行榜模組",
+    "category": "creative",
+    "desc": "依據互動數據生成排行。"
+  },
+  {
+    "id": 1174,
+    "name": "平台數據模組",
+    "category": "creative",
+    "desc": "生成平台運營與互動數據報告。"
+  },
+  {
+    "id": 1187,
+    "name": "用戶收藏模組",
+    "category": "creative",
+    "desc": "允許收藏喜愛的動畫或角色。"
+  },
+  {
+    "id": 1201,
+    "name": "寵物冒險分支模組",
+    "category": "creative",
+    "desc": "允許寵物冒險過程中出現多分支選項，影響故事發展。"
+  },
+  {
+    "id": 1202,
+    "name": "寵物冒險隨機模組",
+    "category": "creative",
+    "desc": "AI 自動生成隨機事件，增加冒險的不確定性。"
+  },
+  {
+    "id": 1203,
+    "name": "寵物冒險合作模組",
+    "category": "creative",
+    "desc": "支援多寵物角色共同參與冒險。"
+  },
+  {
+    "id": 1204,
+    "name": "寵物冒險挑戰模組",
+    "category": "creative",
+    "desc": "生成多樣化的冒險挑戰任務。"
+  },
+  {
+    "id": 1206,
+    "name": "寵物冒險地圖模組",
+    "category": "creative",
+    "desc": "自動生成冒險地圖，包含隱藏路線。"
+  },
+  {
+    "id": 1207,
+    "name": "寵物冒險回顧模組",
+    "category": "creative",
+    "desc": "自動生成冒險回顧短片。"
+  },
+  {
+    "id": 1208,
+    "name": "寵物冒險獎勵模組",
+    "category": "creative",
+    "desc": "完成冒險後給予角色專屬獎勵。"
+  },
+  {
+    "id": 1209,
+    "name": "寵物冒險排行榜模組",
+    "category": "creative",
+    "desc": "依冒險表現數據生成排行榜。"
+  },
+  {
+    "id": 1211,
+    "name": "角色情緒曲線模組",
+    "category": "creative",
+    "desc": "生成角色的情緒曲線並與劇情同步。"
+  },
+  {
+    "id": 1212,
+    "name": "角色情緒特效模組",
+    "category": "creative",
+    "desc": "角色情緒變化會觸發畫面特效。"
+  },
+  {
+    "id": 1213,
+    "name": "角色情緒語音模組",
+    "category": "creative",
+    "desc": "情緒變化將影響角色語音語氣。"
+  },
+  {
+    "id": 1214,
+    "name": "角色情緒互動模組",
+    "category": "creative",
+    "desc": "允許用戶與角色情緒狀態互動。"
+  },
+  {
+    "id": 1215,
+    "name": "角色情緒收藏模組",
+    "category": "creative",
+    "desc": "允許保存角色的情緒數據。"
+  },
+  {
+    "id": 1216,
+    "name": "角色情緒任務模組",
+    "category": "creative",
+    "desc": "角色完成任務會影響其情緒曲線。"
+  },
+  {
+    "id": 1217,
+    "name": "角色情緒社群模組",
+    "category": "creative",
+    "desc": "允許分享角色情緒數據至社群。"
+  },
+  {
+    "id": 1218,
+    "name": "角色情緒教育模組",
+    "category": "creative",
+    "desc": "情緒數據可應用於教育場景。"
+  },
+  {
+    "id": 1220,
+    "name": "角色情緒排行榜模組",
+    "category": "creative",
+    "desc": "依據情緒互動數據生成排行。"
+  },
+  {
+    "id": 1221,
+    "name": "寵物語錄生成模組",
+    "category": "creative",
+    "desc": "自動將寵物的互動生成語錄卡。"
+  },
+  {
+    "id": 1227,
+    "name": "寵物語錄排行榜模組",
+    "category": "creative",
+    "desc": "依語錄卡互動數據生成排行。"
+  },
+  {
+    "id": 1231,
+    "name": "動畫時間控制模組",
+    "category": "creative",
+    "desc": "允許控制動畫播放的時間進度。"
+  },
+  {
+    "id": 1232,
+    "name": "動畫場景同步模組",
+    "category": "creative",
+    "desc": "動畫場景會與角色互動動態同步。"
+  },
+  {
+    "id": 1233,
+    "name": "動畫特效強化模組",
+    "category": "creative",
+    "desc": "提供更高質感與擬真的動畫特效。"
+  },
+  {
+    "id": 1234,
+    "name": "動畫濾鏡模組",
+    "category": "creative",
+    "desc": "支援多種濾鏡效果（懷舊、漫畫、霓虹）。"
+  },
+  {
+    "id": 1235,
+    "name": "動畫燈光模組",
+    "category": "creative",
+    "desc": "允許調整動畫場景燈光效果。"
+  },
+  {
+    "id": 1236,
+    "name": "動畫音效模組",
+    "category": "creative",
+    "desc": "AI 自動生成並匹配動畫音效。"
+  },
+  {
+    "id": 1237,
+    "name": "動畫配樂模組",
+    "category": "creative",
+    "desc": "AI 根據劇情氛圍自動生成配樂。"
+  },
+  {
+    "id": 1238,
+    "name": "動畫字幕模組",
+    "category": "creative",
+    "desc": "自動生成動畫字幕並支援翻譯。"
+  },
+  {
+    "id": 1239,
+    "name": "動畫語音模組",
+    "category": "creative",
+    "desc": "自動生成角色配音並與口型同步。"
+  },
+  {
+    "id": 1240,
+    "name": "動畫情緒模組",
+    "category": "creative",
+    "desc": "動畫將隨角色情緒變化自動調整。"
+  },
+  {
+    "id": 1242,
+    "name": "觀眾留言回饋模組",
+    "category": "creative",
+    "desc": "觀眾留言可被角色即時回應。"
+  },
+  {
+    "id": 1249,
+    "name": "觀眾教育模組",
+    "category": "creative",
+    "desc": "觀眾互動可應用於教育場景。"
+  },
+  {
+    "id": 1250,
+    "name": "觀眾排行榜模組",
+    "category": "creative",
+    "desc": "依據觀眾參與數據生成排行。"
+  },
+  {
+    "id": 1261,
+    "name": "寵物分身模組",
+    "category": "creative",
+    "desc": "允許寵物角色生成多個分身並互動。"
+  },
+  {
+    "id": 1262,
+    "name": "寵物多角色模組",
+    "category": "creative",
+    "desc": "支援多寵物角色同時出場並互動。"
+  },
+  {
+    "id": 1263,
+    "name": "寵物跨專案模組",
+    "category": "creative",
+    "desc": "寵物角色可跨專案進行互動。"
+  },
+  {
+    "id": 1264,
+    "name": "寵物隱藏角色模組",
+    "category": "creative",
+    "desc": "透過特定條件解鎖隱藏寵物角色。"
+  },
+  {
+    "id": 1265,
+    "name": "寵物故事模組",
+    "category": "creative",
+    "desc": "允許寵物角色擁有完整的故事線。"
+  },
+  {
+    "id": 1266,
+    "name": "寵物成長故事模組",
+    "category": "creative",
+    "desc": "生成寵物角色的成長故事。"
+  },
+  {
+    "id": 1267,
+    "name": "寵物冒險故事模組",
+    "category": "creative",
+    "desc": "生成寵物角色的冒險故事。"
+  },
+  {
+    "id": 1268,
+    "name": "寵物友情故事模組",
+    "category": "creative",
+    "desc": "生成寵物角色之間的友情故事。"
+  },
+  {
+    "id": 1269,
+    "name": "寵物奇幻故事模組",
+    "category": "creative",
+    "desc": "生成奇幻題材的寵物故事。"
+  },
+  {
+    "id": 1270,
+    "name": "寵物懸疑故事模組",
+    "category": "creative",
+    "desc": "生成懸疑題材的寵物故事。"
+  },
+  {
+    "id": 1271,
+    "name": "寵物浪漫故事模組",
+    "category": "creative",
+    "desc": "生成浪漫題材的寵物故事。"
+  },
+  {
+    "id": 1272,
+    "name": "寵物搞笑故事模組",
+    "category": "creative",
+    "desc": "生成搞笑氛圍的寵物故事。"
+  },
+  {
+    "id": 1273,
+    "name": "寵物驚悚故事模組",
+    "category": "creative",
+    "desc": "生成驚悚氛圍的寵物故事。"
+  },
+  {
+    "id": 1274,
+    "name": "寵物夢想故事模組",
+    "category": "creative",
+    "desc": "生成寵物追逐夢想的故事。"
+  },
+  {
+    "id": 1275,
+    "name": "寵物家庭故事模組",
+    "category": "creative",
+    "desc": "生成寵物與家庭互動的故事。"
+  },
+  {
+    "id": 1276,
+    "name": "寵物教育故事模組",
+    "category": "creative",
+    "desc": "將教育主題融入寵物故事。"
+  },
+  {
+    "id": 1277,
+    "name": "寵物公益故事模組",
+    "category": "creative",
+    "desc": "生成以公益為主題的寵物故事。"
+  },
+  {
+    "id": 1278,
+    "name": "寵物跨國故事模組",
+    "category": "creative",
+    "desc": "生成跨國冒險題材的寵物故事。"
+  },
+  {
+    "id": 1279,
+    "name": "寵物故事收藏模組",
+    "category": "creative",
+    "desc": "允許玩家收藏故事紀錄。"
+  },
+  {
+    "id": 1280,
+    "name": "寵物故事回顧模組",
+    "category": "creative",
+    "desc": "自動生成故事回顧短片。"
+  },
+  {
+    "id": 1281,
+    "name": "寵物故事比賽模組",
+    "category": "creative",
+    "desc": "允許舉辦故事創作比賽。"
+  },
+  {
+    "id": 1282,
+    "name": "寵物故事社群模組",
+    "category": "creative",
+    "desc": "支援故事於社群平台的分享。"
+  },
+  {
+    "id": 1283,
+    "name": "寵物故事教育模組",
+    "category": "creative",
+    "desc": "將故事應用於教育情境。"
+  },
+  {
+    "id": 1286,
+    "name": "寵物故事限量模組",
+    "category": "creative",
+    "desc": "推出限量故事系列。"
+  },
+  {
+    "id": 1287,
+    "name": "寵物故事榮譽牆模組",
+    "category": "creative",
+    "desc": "展示優秀的故事作品。"
+  },
+  {
+    "id": 1288,
+    "name": "寵物故事國際合作模組",
+    "category": "creative",
+    "desc": "支援跨國故事創作合作。"
+  },
+  {
+    "id": 1289,
+    "name": "寵物跨界故事模組",
+    "category": "creative",
+    "desc": "允許故事跨平台或專案延伸。"
+  },
+  {
+    "id": 1290,
+    "name": "寵物隨機故事模組",
+    "category": "creative",
+    "desc": "AI 隨機生成不同題材的故事。"
+  },
+  {
+    "id": 1291,
+    "name": "動畫分鏡強化模組",
+    "category": "creative",
+    "desc": "AI 生成更細緻的分鏡腳本。"
+  },
+  {
+    "id": 1292,
+    "name": "動畫場景強化模組",
+    "category": "creative",
+    "desc": "生成更高質感的場景畫面。"
+  },
+  {
+    "id": 1293,
+    "name": "動畫音效強化模組",
+    "category": "creative",
+    "desc": "生成更多樣化的音效選項。"
+  },
+  {
+    "id": 1294,
+    "name": "動畫配樂強化模組",
+    "category": "creative",
+    "desc": "生成更貼合氛圍的音樂。"
+  },
+  {
+    "id": 1295,
+    "name": "動畫角色強化模組",
+    "category": "creative",
+    "desc": "生成更自然的角色動作。"
+  },
+  {
+    "id": 1296,
+    "name": "動畫表情強化模組",
+    "category": "creative",
+    "desc": "提升角色的表情細節。"
+  },
+  {
+    "id": 1297,
+    "name": "動畫語音強化模組",
+    "category": "creative",
+    "desc": "提升語音自然度與情感表現。"
+  },
+  {
+    "id": 1298,
+    "name": "動畫剪輯強化模組",
+    "category": "creative",
+    "desc": "自動生成專業化的動畫剪輯。"
+  },
+  {
+    "id": 1299,
+    "name": "動畫渲染強化模組",
+    "category": "creative",
+    "desc": "優化渲染速度與畫質。"
+  },
+  {
+    "id": 1300,
+    "name": "動畫輸出強化模組",
+    "category": "creative",
+    "desc": "支援更多樣化的輸出格式與品質。"
+  },
+  {
+    "id": 1301,
+    "name": "角色多語系模組",
+    "category": "creative",
+    "desc": "支援角色語音與字幕的多語言輸出。"
+  },
+  {
+    "id": 1302,
+    "name": "角色跨界合作模組",
+    "category": "creative",
+    "desc": "允許角色與其他專案或品牌跨界合作。"
+  },
+  {
+    "id": 1303,
+    "name": "角色社群互動模組",
+    "category": "creative",
+    "desc": "角色可與粉絲社群即時互動。"
+  },
+  {
+    "id": 1304,
+    "name": "角色個性成長模組",
+    "category": "creative",
+    "desc": "角色的性格可隨劇情與互動逐步成長。"
+  },
+  {
+    "id": 1305,
+    "name": "角色夢境模組",
+    "category": "creative",
+    "desc": "生成角色夢境情節，豐富心理層面。"
+  },
+  {
+    "id": 1306,
+    "name": "角色影分身模組",
+    "category": "creative",
+    "desc": "允許角色生成影分身參與劇情。"
+  },
+  {
+    "id": 1307,
+    "name": "角色隱藏劇情模組",
+    "category": "creative",
+    "desc": "需達成條件才能解鎖角色的隱藏劇情。"
+  },
+  {
+    "id": 1308,
+    "name": "角色隨機挑戰模組",
+    "category": "creative",
+    "desc": "角色每日可接受隨機挑戰任務。"
+  },
+  {
+    "id": 1309,
+    "name": "角色自動任務模組",
+    "category": "creative",
+    "desc": "AI 自動生成角色專屬任務。"
+  },
+  {
+    "id": 1310,
+    "name": "角色故事回顧模組",
+    "category": "creative",
+    "desc": "自動生成角色故事回顧短片。"
+  },
+  {
+    "id": 1311,
+    "name": "角色羈絆事件模組",
+    "category": "creative",
+    "desc": "角色羈絆將觸發專屬事件。"
+  },
+  {
+    "id": 1312,
+    "name": "角色記憶保存模組",
+    "category": "creative",
+    "desc": "保存角色在劇情中的互動記憶。"
+  },
+  {
+    "id": 1313,
+    "name": "角色情感互動模組",
+    "category": "creative",
+    "desc": "角色能對觀眾回應情感互動。"
+  },
+  {
+    "id": 1314,
+    "name": "角色榮譽牆模組",
+    "category": "creative",
+    "desc": "展示角色的成就與重要事件。"
+  },
+  {
+    "id": 1315,
+    "name": "角色跨國模組",
+    "category": "creative",
+    "desc": "允許角色參與跨國合作專案。"
+  },
+  {
+    "id": 1316,
+    "name": "角色教育模組",
+    "category": "creative",
+    "desc": "角色故事可用於教育場景。"
+  },
+  {
+    "id": 1317,
+    "name": "角色公益模組",
+    "category": "creative",
+    "desc": "角色劇情可延伸至公益應用。"
+  },
+  {
+    "id": 1318,
+    "name": "角色隨機生成模組",
+    "category": "creative",
+    "desc": "AI 可隨機生成新角色設定。"
+  },
+  {
+    "id": 1319,
+    "name": "角色收藏模組",
+    "category": "creative",
+    "desc": "允許玩家收藏喜愛角色。"
+  },
+  {
+    "id": 1321,
+    "name": "動畫故事分支模組",
+    "category": "creative",
+    "desc": "允許動畫劇情分支走向多元化。"
+  },
+  {
+    "id": 1322,
+    "name": "動畫隨機事件模組",
+    "category": "creative",
+    "desc": "動畫中可插入隨機事件豐富故事。"
+  },
+  {
+    "id": 1323,
+    "name": "動畫任務模組",
+    "category": "creative",
+    "desc": "允許動畫角色執行特定任務。"
+  },
+  {
+    "id": 1324,
+    "name": "動畫冒險模組",
+    "category": "creative",
+    "desc": "生成冒險題材的動畫片段。"
+  },
+  {
+    "id": 1325,
+    "name": "動畫夢境模組",
+    "category": "creative",
+    "desc": "生成夢境場景動畫。"
+  },
+  {
+    "id": 1326,
+    "name": "動畫跨界模組",
+    "category": "creative",
+    "desc": "動畫可與其他專案跨界聯動。"
+  },
+  {
+    "id": 1328,
+    "name": "動畫公益模組",
+    "category": "creative",
+    "desc": "動畫可用於公益宣傳。"
+  },
+  {
+    "id": 1329,
+    "name": "動畫比賽模組",
+    "category": "creative",
+    "desc": "允許舉辦動畫比賽。"
+  },
+  {
+    "id": 1330,
+    "name": "動畫社群模組",
+    "category": "creative",
+    "desc": "支援動畫作品於社群中的分享。"
+  },
+  {
+    "id": 1331,
+    "name": "動畫國際模組",
+    "category": "creative",
+    "desc": "動畫可跨國推廣。"
+  },
+  {
+    "id": 1332,
+    "name": "動畫隱藏片段模組",
+    "category": "creative",
+    "desc": "需解鎖條件才能觀看隱藏動畫。"
+  },
+  {
+    "id": 1333,
+    "name": "動畫回憶片段模組",
+    "category": "creative",
+    "desc": "允許生成動畫回憶殺片段。"
+  },
+  {
+    "id": 1334,
+    "name": "動畫情緒曲線模組",
+    "category": "creative",
+    "desc": "生成完整動畫的情緒曲線圖。"
+  },
+  {
+    "id": 1335,
+    "name": "動畫隨機生成模組",
+    "category": "creative",
+    "desc": "AI 可隨機生成動畫內容。"
+  },
+  {
+    "id": 1336,
+    "name": "動畫收藏模組",
+    "category": "creative",
+    "desc": "允許收藏與分享動畫片段。"
+  },
+  {
+    "id": 1337,
+    "name": "動畫榮譽牆模組",
+    "category": "creative",
+    "desc": "展示優秀動畫作品。"
+  },
+  {
+    "id": 1338,
+    "name": "動畫限量模組",
+    "category": "creative",
+    "desc": "推出限量動畫內容。"
+  },
+  {
+    "id": 1340,
+    "name": "動畫商城模組",
+    "category": "creative",
+    "desc": "允許動畫相關周邊商品交易。"
+  },
+  {
+    "id": 1341,
+    "name": "觀眾角色互動模組",
+    "category": "creative",
+    "desc": "觀眾可即時影響角色行動。"
+  },
+  {
+    "id": 1343,
+    "name": "觀眾語音互動模組",
+    "category": "creative",
+    "desc": "觀眾可透過語音與角色對話。"
+  },
+  {
+    "id": 1345,
+    "name": "觀眾禮物互動模組",
+    "category": "creative",
+    "desc": "觀眾送禮會影響角色或劇情。"
+  },
+  {
+    "id": 1361,
+    "name": "寵物隨機角色模組",
+    "category": "creative",
+    "desc": "AI 自動生成隨機寵物角色。"
+  },
+  {
+    "id": 1362,
+    "name": "寵物特效模組",
+    "category": "creative",
+    "desc": "允許添加專屬於寵物的動畫特效。"
+  },
+  {
+    "id": 1371,
+    "name": "動畫教育專案模組",
+    "category": "creative",
+    "desc": "將動畫應用於教育專案中。"
+  },
+  {
+    "id": 1372,
+    "name": "動畫公益專案模組",
+    "category": "creative",
+    "desc": "將動畫應用於公益專案中。"
+  },
+  {
+    "id": 1373,
+    "name": "動畫比賽專案模組",
+    "category": "creative",
+    "desc": "允許動畫參與跨平台比賽。"
+  },
+  {
+    "id": 1375,
+    "name": "動畫跨界專案模組",
+    "category": "creative",
+    "desc": "允許動畫與其他產業專案合作。"
+  },
+  {
+    "id": 1376,
+    "name": "動畫品牌專案模組",
+    "category": "creative",
+    "desc": "允許動畫與品牌合作。"
+  },
+  {
+    "id": 1377,
+    "name": "動畫國際專案模組",
+    "category": "creative",
+    "desc": "支援動畫的跨國專案推廣。"
+  },
+  {
+    "id": 1378,
+    "name": "動畫榮譽牆模組",
+    "category": "creative",
+    "desc": "展示動畫專案中的優秀案例。"
+  },
+  {
+    "id": 1379,
+    "name": "動畫限量專案模組",
+    "category": "creative",
+    "desc": "推出限量動畫專案內容。"
+  },
+  {
+    "id": 1381,
+    "name": "寵物夢境冒險模組",
+    "category": "creative",
+    "desc": "生成寵物角色進入夢境的冒險。"
+  },
+  {
+    "id": 1382,
+    "name": "寵物奇幻冒險模組",
+    "category": "creative",
+    "desc": "允許寵物進入奇幻背景故事。"
+  },
+  {
+    "id": 1389,
+    "name": "寵物友情冒險模組",
+    "category": "creative",
+    "desc": "生成寵物友情題材冒險故事。"
+  },
+  {
+    "id": 1390,
+    "name": "寵物羈絆冒險模組",
+    "category": "creative",
+    "desc": "生成基於寵物羈絆的冒險劇情。"
+  },
+  {
+    "id": 1391,
+    "name": "角色互動強化模組",
+    "category": "creative",
+    "desc": "加強角色之間的互動真實感。"
+  },
+  {
+    "id": 1392,
+    "name": "角色語錄強化模組",
+    "category": "creative",
+    "desc": "提升角色語錄的智能生成水準。"
+  },
+  {
+    "id": 1393,
+    "name": "角色語音強化模組",
+    "category": "creative",
+    "desc": "提升角色語音的自然度與情感。"
+  },
+  {
+    "id": 1394,
+    "name": "角色表情強化模組",
+    "category": "creative",
+    "desc": "提升角色表情的細緻度。"
+  },
+  {
+    "id": 1395,
+    "name": "角色動作強化模組",
+    "category": "creative",
+    "desc": "提升角色動作的真實性。"
+  },
+  {
+    "id": 1396,
+    "name": "角色記憶強化模組",
+    "category": "creative",
+    "desc": "更完整保存角色互動記憶。"
+  },
+  {
+    "id": 1397,
+    "name": "角色羈絆強化模組",
+    "category": "creative",
+    "desc": "加深角色之間的羈絆效果。"
+  },
+  {
+    "id": 1398,
+    "name": "角色故事強化模組",
+    "category": "creative",
+    "desc": "豐富角色的故事情節。"
+  },
+  {
+    "id": 1399,
+    "name": "角色收藏強化模組",
+    "category": "creative",
+    "desc": "提升角色收藏功能的完整性。"
+  },
+  {
+    "id": 1400,
+    "name": "角色比賽強化模組",
+    "category": "creative",
+    "desc": "提升角色比賽的玩法與互動性。"
+  },
+  {
+    "id": 1401,
+    "name": "劇情隨機生成模組",
+    "category": "creative",
+    "desc": "AI 自動生成隨機劇情片段，增加內容多樣性。"
+  },
+  {
+    "id": 1402,
+    "name": "劇情情緒曲線模組",
+    "category": "creative",
+    "desc": "生成劇情的情緒曲線，並與角色互動同步。"
+  },
+  {
+    "id": 1403,
+    "name": "劇情夢境模組",
+    "category": "creative",
+    "desc": "生成角色或寵物的夢境劇情片段。"
+  },
+  {
+    "id": 1404,
+    "name": "劇情跨界模組",
+    "category": "creative",
+    "desc": "允許劇情與其他專案或故事交叉融合。"
+  },
+  {
+    "id": 1408,
+    "name": "劇情回顧模組",
+    "category": "creative",
+    "desc": "自動生成劇情回顧短片。"
+  },
+  {
+    "id": 1410,
+    "name": "劇情任務模組",
+    "category": "creative",
+    "desc": "角色完成劇情任務會推動故事進展。"
+  },
+  {
+    "id": 1411,
+    "name": "表情細節強化模組",
+    "category": "creative",
+    "desc": "生成更細緻的角色表情動態。"
+  },
+  {
+    "id": 1412,
+    "name": "音樂節奏同步模組",
+    "category": "creative",
+    "desc": "動畫場景與音樂節奏自動對齊。"
+  },
+  {
+    "id": 1413,
+    "name": "角色個性風格模組",
+    "category": "creative",
+    "desc": "角色的語氣與行為會隨風格模組變化。"
+  },
+  {
+    "id": 1414,
+    "name": "主題片頭片尾模組",
+    "category": "creative",
+    "desc": "自動生成動畫片頭與片尾設計。"
+  },
+  {
+    "id": 1416,
+    "name": "語錄卡生成模組",
+    "category": "creative",
+    "desc": "自動提取角色台詞生成語錄卡。"
+  },
+  {
+    "id": 1418,
+    "name": "互動反應模組",
+    "category": "creative",
+    "desc": "角色可即時對觀眾互動做出反應。"
+  },
+  {
+    "id": 1420,
+    "name": "故事版本管理模組",
+    "category": "creative",
+    "desc": "允許管理並切換不同版本的故事。"
+  },
+  {
+    "id": 1421,
+    "name": "快速社群分享模組",
+    "category": "creative",
+    "desc": "一鍵將動畫片段分享到社群平台。"
+  },
+  {
+    "id": 1422,
+    "name": "角色語音模擬模組",
+    "category": "creative",
+    "desc": "AI 模擬不同聲音風格的角色語音。"
+  },
+  {
+    "id": 1424,
+    "name": "多角色互動排程模組",
+    "category": "creative",
+    "desc": "安排多個角色於時間軸上互動。"
+  },
+  {
+    "id": 1425,
+    "name": "動畫風格切換模組",
+    "category": "creative",
+    "desc": "允許切換不同動畫風格。"
+  },
+  {
+    "id": 1426,
+    "name": "分鏡產出模組",
+    "category": "creative",
+    "desc": "自動生成動畫分鏡腳本。"
+  },
+  {
+    "id": 1427,
+    "name": "情緒紀錄模組",
+    "category": "creative",
+    "desc": "保存角色情緒變化數據。"
+  },
+  {
+    "id": 1428,
+    "name": "下載格式多樣化模組",
+    "category": "creative",
+    "desc": "支援動畫多格式下載（MP4、GIF、WebM）。"
+  },
+  {
+    "id": 1431,
+    "name": "故事記憶軌跡模組",
+    "category": "creative",
+    "desc": "記錄並追蹤角色的故事發展歷程。"
+  },
+  {
+    "id": 1432,
+    "name": "AI 續集創作模組",
+    "category": "creative",
+    "desc": "AI 根據過往故事自動生成續集。"
+  },
+  {
+    "id": 1434,
+    "name": "延伸故事集生成模組",
+    "category": "creative",
+    "desc": "生成額外的故事集與分支。"
+  },
+  {
+    "id": 1437,
+    "name": "故事走向建議模組",
+    "category": "creative",
+    "desc": "AI 分析用戶喜好並提供劇情建議。"
+  },
+  {
+    "id": 1438,
+    "name": "角色情感分析模組",
+    "category": "creative",
+    "desc": "分析角色情感曲線並自動調整互動。"
+  },
+  {
+    "id": 1439,
+    "name": "故事延續創作模組",
+    "category": "creative",
+    "desc": "AI 持續創作延伸內容。"
+  },
+  {
+    "id": 1441,
+    "name": "寵物表情動畫模組",
+    "category": "creative",
+    "desc": "生成寵物角色的表情動畫。"
+  },
+  {
+    "id": 1443,
+    "name": "語錄精選模組",
+    "category": "creative",
+    "desc": "自動提取動畫代表性語錄。"
+  },
+  {
+    "id": 1444,
+    "name": "角色配音模組",
+    "category": "creative",
+    "desc": "允許使用者自訂聲音進行角色配音。"
+  },
+  {
+    "id": 1445,
+    "name": "情緒動畫曲線模組",
+    "category": "creative",
+    "desc": "根據劇情自動生成情緒動畫。"
+  },
+  {
+    "id": 1447,
+    "name": "分鏡語錄同步模組",
+    "category": "creative",
+    "desc": "分鏡與語錄卡自動同步生成。"
+  },
+  {
+    "id": 1448,
+    "name": "故事總覽模組",
+    "category": "creative",
+    "desc": "提供故事分鏡的完整總覽。"
+  },
+  {
+    "id": 1449,
+    "name": "語音風格選擇模組",
+    "category": "creative",
+    "desc": "允許用戶選擇語音合成的風格與語氣。"
+  },
+  {
+    "id": 1450,
+    "name": "社群精選摘要模組",
+    "category": "creative",
+    "desc": "自動生成動畫語錄摘要並用於社群推廣。"
+  },
+  {
+    "id": 1451,
+    "name": "動畫敘事節奏模組",
+    "category": "creative",
+    "desc": "AI 自動優化動畫的敘事節奏。"
+  },
+  {
+    "id": 1452,
+    "name": "自訂分鏡模組",
+    "category": "creative",
+    "desc": "允許用戶手動調整分鏡與節奏。"
+  },
+  {
+    "id": 1453,
+    "name": "影片摘要模組",
+    "category": "creative",
+    "desc": "自動生成動畫段落摘要與語錄。"
+  },
+  {
+    "id": 1454,
+    "name": "片段重製模組",
+    "category": "creative",
+    "desc": "允許用戶重製動畫片段的語錄與表情。"
+  },
+  {
+    "id": 1455,
+    "name": "場景切換模組",
+    "category": "creative",
+    "desc": "支援自訂場景切換效果。"
+  },
+  {
+    "id": 1456,
+    "name": "對白重寫模組",
+    "category": "creative",
+    "desc": "允許使用者重新編寫角色對白。"
+  },
+  {
+    "id": 1457,
+    "name": "動作反應優化模組",
+    "category": "creative",
+    "desc": "優化角色動作反應的自然度。"
+  },
+  {
+    "id": 1460,
+    "name": "動畫收藏牆模組",
+    "category": "creative",
+    "desc": "集中展示用戶收藏的動畫。"
+  },
+  {
+    "id": 1461,
+    "name": "語錄卡排行模組",
+    "category": "creative",
+    "desc": "統計語錄卡人氣並生成排行。"
+  },
+  {
+    "id": 1462,
+    "name": "動畫回顧模組",
+    "category": "creative",
+    "desc": "生成動畫歷史與情緒曲線回顧。"
+  },
+  {
+    "id": 1463,
+    "name": "情緒圖像化模組",
+    "category": "creative",
+    "desc": "生成角色情緒曲線的可視化圖表。"
+  },
+  {
+    "id": 1465,
+    "name": "語錄故事整合模組",
+    "category": "creative",
+    "desc": "整合語錄卡與故事分支播放模式。"
+  },
+  {
+    "id": 1466,
+    "name": "語錄生成器",
+    "category": "creative",
+    "desc": "快速生成動畫的代表語錄。"
+  },
+  {
+    "id": 1467,
+    "name": "故事重播模組",
+    "category": "creative",
+    "desc": "允許重播故事分支情節。"
+  },
+  {
+    "id": 1468,
+    "name": "動畫語錄同步模組",
+    "category": "creative",
+    "desc": "自動將語錄與動畫畫面對齊。"
+  },
+  {
+    "id": 1469,
+    "name": "動畫剪輯建議模組",
+    "category": "creative",
+    "desc": "AI 提供最佳化的動畫剪輯點建議。"
+  },
+  {
+    "id": 1470,
+    "name": "動畫預覽模組",
+    "category": "creative",
+    "desc": "提供動畫分支與故事的預覽播放。"
+  },
+  {
+    "id": 1471,
+    "name": "情緒互動模組",
+    "category": "creative",
+    "desc": "角色情緒會隨觀眾互動即時變化。"
+  },
+  {
+    "id": 1472,
+    "name": "故事任務模組",
+    "category": "creative",
+    "desc": "角色完成特定任務推動劇情發展。"
+  },
+  {
+    "id": 1473,
+    "name": "觀眾語錄投票模組",
+    "category": "creative",
+    "desc": "觀眾可投票選擇角色語錄。"
+  },
+  {
+    "id": 1474,
+    "name": "角色語音收藏模組",
+    "category": "creative",
+    "desc": "允許收藏角色語音並用於二次創作。"
+  },
+  {
+    "id": 1475,
+    "name": "角色行為模擬模組",
+    "category": "creative",
+    "desc": "AI 模擬角色的真實行為與反應。"
+  },
+  {
+    "id": 1476,
+    "name": "故事迴圈模組",
+    "category": "creative",
+    "desc": "允許故事自動迴圈播放。"
+  },
+  {
+    "id": 1477,
+    "name": "觀眾反饋模組",
+    "category": "creative",
+    "desc": "觀眾回饋會影響後續故事調整。"
+  },
+  {
+    "id": 1479,
+    "name": "故事互動排行榜模組",
+    "category": "creative",
+    "desc": "依據互動數據生成排行榜。"
+  },
+  {
+    "id": 1480,
+    "name": "故事語錄收藏模組",
+    "category": "creative",
+    "desc": "允許玩家收藏喜愛的故事語錄。"
+  },
+  {
+    "id": 1481,
+    "name": "動畫情感曲線模組",
+    "category": "creative",
+    "desc": "動畫隨角色與觀眾情感變化動態調整。"
+  },
+  {
+    "id": 1482,
+    "name": "角色隨機語錄模組",
+    "category": "creative",
+    "desc": "角色會隨機生成語錄與互動。"
+  },
+  {
+    "id": 1485,
+    "name": "故事資料庫模組",
+    "category": "creative",
+    "desc": "集中儲存所有故事片段與分支內容。"
+  },
+  {
+    "id": 1486,
+    "name": "PetTalk AI × 語音互動生成助手模組",
+    "category": "creative",
+    "desc": "提供語音引導式的動畫創作入口，包含角色語音模擬、語音記憶建檔與互動式創作。"
+  },
+  {
+    "id": 1487,
+    "name": "語音推薦影片生成模組",
+    "category": "creative",
+    "desc": "根據語音互動自動生成推薦影片。"
+  },
+  {
+    "id": 1488,
+    "name": "語音情緒分析模組",
+    "category": "creative",
+    "desc": "分析語音內容並生成情緒回饋。"
+  },
+  {
+    "id": 1490,
+    "name": "語音擬人角色選擇模組",
+    "category": "creative",
+    "desc": "允許用戶選擇語音的擬人化角色風格。"
+  },
+  {
+    "id": 1493,
+    "name": "語音角色記憶模組",
+    "category": "creative",
+    "desc": "保存語音互動生成的角色記憶。"
+  },
+  {
+    "id": 1495,
+    "name": "語音情感曲線模組",
+    "category": "creative",
+    "desc": "生成語音互動的情感曲線。"
+  },
+  {
+    "id": 1498,
+    "name": "語音教育模組",
+    "category": "creative",
+    "desc": "允許語音互動應用於教育場景。"
+  },
+  {
+    "id": 1501,
+    "name": "語音敘事風格模組",
+    "category": "creative",
+    "desc": "允許用戶選擇語音敘事的風格（童話、紀實、幽默）。"
+  },
+  {
+    "id": 1504,
+    "name": "角色互動指令模組",
+    "category": "creative",
+    "desc": "允許用戶透過語音或文字下達角色互動指令。"
+  },
+  {
+    "id": 1505,
+    "name": "縮圖快照模組",
+    "category": "creative",
+    "desc": "自動生成動畫的縮圖快照，方便分享。"
+  },
+  {
+    "id": 1506,
+    "name": "腳本配音模組",
+    "category": "creative",
+    "desc": "支援使用者自訂腳本並由 AI 配音。"
+  },
+  {
+    "id": 1508,
+    "name": "角色語音成長模組",
+    "category": "creative",
+    "desc": "角色語音可隨時間或互動逐步進化。"
+  },
+  {
+    "id": 1509,
+    "name": "語音編劇助手模組",
+    "category": "creative",
+    "desc": "AI 協助生成並優化語音劇本。"
+  },
+  {
+    "id": 1510,
+    "name": "多角色交錯敘事模組",
+    "category": "creative",
+    "desc": "允許多個角色以交錯的敘事方式講述故事。"
+  },
+  {
+    "id": 1513,
+    "name": "角色分身模擬模組",
+    "category": "creative",
+    "desc": "允許角色分身在不同場景中同時互動。"
+  },
+  {
+    "id": 1515,
+    "name": "分鏡情緒交錯控制模組",
+    "category": "creative",
+    "desc": "允許調整分鏡與情緒曲線的交錯節奏。"
+  },
+  {
+    "id": 1516,
+    "name": "語音演出升級模組",
+    "category": "creative",
+    "desc": "提升角色語音演出的情感與自然度。"
+  },
+  {
+    "id": 1517,
+    "name": "分支預覽模組",
+    "category": "creative",
+    "desc": "允許用戶預覽即將展開的故事分支。"
+  },
+  {
+    "id": 1518,
+    "name": "角色對話建構器模組",
+    "category": "creative",
+    "desc": "用戶可自訂角色對話並生成動畫片段。"
+  },
+  {
+    "id": 1519,
+    "name": "角色出場成就牆模組",
+    "category": "creative",
+    "desc": "展示角色的重要出場片段與成就。"
+  },
+  {
+    "id": 1520,
+    "name": "多寵物故事關係圖模組",
+    "category": "creative",
+    "desc": "生成多寵物角色之間的關係圖譜。"
+  },
+  {
+    "id": 1521,
+    "name": "角色性格切換模組",
+    "category": "creative",
+    "desc": "允許切換角色的性格特質影響故事。"
+  },
+  {
+    "id": 1522,
+    "name": "角色語音模擬模組",
+    "category": "creative",
+    "desc": "支援角色語音的擬真模擬。"
+  },
+  {
+    "id": 1523,
+    "name": "角色動作記憶模組",
+    "category": "creative",
+    "desc": "記錄角色的動作並影響後續互動。"
+  },
+  {
+    "id": 1525,
+    "name": "分鏡互動模組",
+    "category": "creative",
+    "desc": "允許用戶在分鏡中與角色進行互動。"
+  },
+  {
+    "id": 1526,
+    "name": "角色背景設定模組",
+    "category": "creative",
+    "desc": "允許自訂角色的背景故事。"
+  },
+  {
+    "id": 1527,
+    "name": "語錄演進模組",
+    "category": "creative",
+    "desc": "角色語錄會隨劇情與互動逐步演進。"
+  },
+  {
+    "id": 1528,
+    "name": "反派角色建構模組",
+    "category": "creative",
+    "desc": "允許生成完整的反派角色設定。"
+  },
+  {
+    "id": 1529,
+    "name": "跨寵物集體冒險模組",
+    "category": "creative",
+    "desc": "支援多寵物角色參與集體冒險任務。"
+  },
+  {
+    "id": 1530,
+    "name": "角色多視角敘事模組",
+    "category": "creative",
+    "desc": "允許切換角色視角進行故事敘事。"
+  },
+  {
+    "id": 1532,
+    "name": "播放清單管理模組",
+    "category": "creative",
+    "desc": "允許用戶建立並管理動畫播放清單。"
+  },
+  {
+    "id": 1534,
+    "name": "情緒曲線圖模組",
+    "category": "creative",
+    "desc": "生成角色或故事的情緒曲線圖。"
+  },
+  {
+    "id": 1535,
+    "name": "童話故事生成模組",
+    "category": "creative",
+    "desc": "AI 自動生成童話風格的故事。"
+  },
+  {
+    "id": 1536,
+    "name": "語音故事構建模組",
+    "category": "creative",
+    "desc": "允許用戶以語音輸入快速生成故事。"
+  },
+  {
+    "id": 1537,
+    "name": "社群擴散動畫模組",
+    "category": "creative",
+    "desc": "自動生成適合社群傳播的短片。"
+  },
+  {
+    "id": 1538,
+    "name": "擬人化演出模組",
+    "category": "creative",
+    "desc": "將寵物角色以擬人化方式演出。"
+  },
+  {
+    "id": 1539,
+    "name": "多語系輸出模組",
+    "category": "creative",
+    "desc": "支援動畫多語言版本的輸出。"
+  },
+  {
+    "id": 1540,
+    "name": "旁白語音生成模組",
+    "category": "creative",
+    "desc": "允許生成專屬旁白語音。"
+  },
+  {
+    "id": 1541,
+    "name": "故事續集建議模組",
+    "category": "creative",
+    "desc": "AI 提供多種可能的故事續集選項。"
+  },
+  {
+    "id": 1542,
+    "name": "自創角色導入模組",
+    "category": "creative",
+    "desc": "允許用戶導入自創角色參與故事。"
+  },
+  {
+    "id": 1544,
+    "name": "角色個性切換模組",
+    "category": "creative",
+    "desc": "允許切換角色的性格以體驗不同走向。"
+  },
+  {
+    "id": 1545,
+    "name": "劇情視覺地圖模組",
+    "category": "creative",
+    "desc": "將劇情以可視化地圖方式呈現。"
+  },
+  {
+    "id": 1546,
+    "name": "角色羈絆演算模組",
+    "category": "creative",
+    "desc": "AI 根據互動計算角色之間的羈絆值。"
+  },
+  {
+    "id": 1547,
+    "name": "表情語境建議模組",
+    "category": "creative",
+    "desc": "AI 根據語境自動生成角色表情建議。"
+  },
+  {
+    "id": 1548,
+    "name": "跨寵物記憶橋接模組",
+    "category": "creative",
+    "desc": "允許不同寵物角色之間的記憶串聯。"
+  },
+  {
+    "id": 1550,
+    "name": "角色語音成長模組",
+    "category": "creative",
+    "desc": "角色語音會隨時間逐步成熟或變化。"
+  },
+  {
+    "id": 1551,
+    "name": "情節動作交錯模組",
+    "category": "creative",
+    "desc": "允許情節與角色動作的交錯表現。"
+  },
+  {
+    "id": 1554,
+    "name": "角色分支重演模組",
+    "category": "creative",
+    "desc": "允許角色在不同分支中重演事件。"
+  },
+  {
+    "id": 1555,
+    "name": "多層次敘事模組",
+    "category": "creative",
+    "desc": "支援多層次的故事敘事結構。"
+  },
+  {
+    "id": 1556,
+    "name": "動畫背景隨機生成模組",
+    "category": "creative",
+    "desc": "AI 自動生成隨機動畫背景。"
+  },
+  {
+    "id": 1557,
+    "name": "動畫氛圍控制模組",
+    "category": "creative",
+    "desc": "允許調整動畫的氛圍與色調。"
+  },
+  {
+    "id": 1558,
+    "name": "角色語錄收藏牆模組",
+    "category": "creative",
+    "desc": "集中展示角色的語錄收藏。"
+  },
+  {
+    "id": 1561,
+    "name": "觀眾語音合成模組",
+    "category": "creative",
+    "desc": "允許觀眾的語音被合成至動畫中。"
+  },
+  {
+    "id": 1562,
+    "name": "觀眾角色導入模組",
+    "category": "creative",
+    "desc": "允許觀眾自創角色加入故事。"
+  },
+  {
+    "id": 1564,
+    "name": "觀眾表情互動模組",
+    "category": "creative",
+    "desc": "觀眾表情可透過鏡頭被角色回應。"
+  }
+]
