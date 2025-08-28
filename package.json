@@ -1,19 +1,16 @@
 {
-  "name": "webapp-ai-bot",
+  "name": "webapp-ai-module-registry",
   "version": "1.0.0",
-  "description": "Minimal bot service with health check and module-proposal API",
-  "main": "bot/index.js",
+  "description": "WebApp AI 智慧模組庫（manifests + tools）",
   "type": "module",
   "scripts": {
-    "dev": "node bot/index.js",
-    "start": "node bot/index.js",
-    "validate": "node scripts/validate_modules.cjs"
+    "start": "node -e \"console.log('no server here')\"",
+    "validate": "node scripts/validate_modules.cjs",
+    "gen": "node scripts/generate_manifests.cjs registry/registry.ndjson",
+    "audit": "node scripts/audit_registry.cjs registry/registry.ndjson"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
-    "ajv": "^8.17.1"
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
   }
 }
