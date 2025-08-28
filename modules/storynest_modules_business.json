@@ -1,0 +1,1250 @@
+[
+  {
+    "id": 5,
+    "name": "會員分級系統模組",
+    "desc": "提供免費版、Pro 版與 EDU 版會員分層，不同層級享有不同生成次數與功能限制。",
+    "category": "business"
+  },
+  {
+    "id": 62,
+    "name": "積分商城模組",
+    "desc": "使用積分可兌換額外功能或獎勵。",
+    "category": "business"
+  },
+  {
+    "id": 63,
+    "name": "限時活動模組",
+    "desc": "定期舉辦限時活動，吸引用戶參與。",
+    "category": "business"
+  },
+  {
+    "id": 86,
+    "name": "通知中心模組",
+    "desc": "整合所有通知訊息（作品完成、留言回覆、活動推播）。",
+    "category": "business"
+  },
+  {
+    "id": 149,
+    "name": "積分商城模組",
+    "desc": "積分可兌換額外功能、素材或會員時長。",
+    "category": "business"
+  },
+  {
+    "id": 150,
+    "name": "限時活動模組",
+    "desc": "定期舉辦限時創作活動，吸引用戶參與。",
+    "category": "business"
+  },
+  {
+    "id": 155,
+    "name": "通知中心模組",
+    "desc": "整合所有平台通知，如作品完成、留言回覆、活動推播。",
+    "category": "business"
+  },
+  {
+    "id": 314,
+    "name": "故事舉辦方模組",
+    "desc": "支援官方或第三方舉辦創作活動，並整合排行榜與獎勵。",
+    "category": "business"
+  },
+  {
+    "id": 315,
+    "name": "故事廣告模組",
+    "desc": "允許在作品中插入廣告，並與流量數據整合。",
+    "category": "business"
+  },
+  {
+    "id": 316,
+    "name": "故事分潤模組",
+    "desc": "支援創作者透過平台分潤，根據觀看次數與廣告收益獲取獎金。",
+    "category": "business"
+  },
+  {
+    "id": 318,
+    "name": "故事商城模組",
+    "desc": "平台官方提供商城，販售進階模板與功能。",
+    "category": "business"
+  },
+  {
+    "id": 319,
+    "name": "故事VIP模組",
+    "desc": "提供VIP會員專屬功能，如無水印導出與優先渲染。",
+    "category": "business"
+  },
+  {
+    "id": 320,
+    "name": "故事專屬背景模組",
+    "desc": "為VIP會員提供專屬背景素材，增強差異化。",
+    "category": "business"
+  },
+  {
+    "id": 321,
+    "name": "故事專屬角色模組",
+    "desc": "為VIP會員提供專屬角色，並支援客製化外觀。",
+    "category": "business"
+  },
+  {
+    "id": 322,
+    "name": "故事專屬語音模組",
+    "desc": "VIP會員可使用更高品質的語音合成技術。",
+    "category": "business"
+  },
+  {
+    "id": 323,
+    "name": "故事專屬配樂模組",
+    "desc": "提供VIP會員專屬的音樂庫與AI配樂。",
+    "category": "business"
+  },
+  {
+    "id": 324,
+    "name": "故事專屬動畫模組",
+    "desc": "為VIP會員提供高級動畫效果與過場特效。",
+    "category": "business"
+  },
+  {
+    "id": 365,
+    "name": "故事AI收益模組",
+    "desc": "統計並分配AI生成作品的收益。",
+    "category": "business"
+  },
+  {
+    "id": 366,
+    "name": "故事AI廣告模組",
+    "desc": "在AI生成的影片中插入廣告。",
+    "category": "business"
+  },
+  {
+    "id": 368,
+    "name": "故事AI活動模組",
+    "desc": "AI協助舉辦故事創作活動與任務。",
+    "category": "business"
+  },
+  {
+    "id": 458,
+    "name": "故事收益模組",
+    "desc": "計算並顯示故事收益，包含廣告與分潤。",
+    "category": "business"
+  },
+  {
+    "id": 459,
+    "name": "故事廣告收益模組",
+    "desc": "專門追蹤與管理故事中的廣告收益。",
+    "category": "business"
+  },
+  {
+    "id": 467,
+    "name": "故事積分商城模組",
+    "desc": "提供積分兌換商城，內含素材與道具。",
+    "category": "business"
+  },
+  {
+    "id": 488,
+    "name": "故事贊助模組",
+    "desc": "允許品牌或個人贊助作品。",
+    "category": "business"
+  },
+  {
+    "id": 490,
+    "name": "故事商城模組",
+    "desc": "提供周邊與素材的官方商城。",
+    "category": "business"
+  },
+  {
+    "id": 491,
+    "name": "故事會員模組",
+    "desc": "提供不同等級會員的專屬功能。",
+    "category": "business"
+  },
+  {
+    "id": 492,
+    "name": "故事會員權益模組",
+    "desc": "展示不同會員等級的權益與功能。",
+    "category": "business"
+  },
+  {
+    "id": 493,
+    "name": "故事會員任務模組",
+    "desc": "提供會員專屬任務與挑戰。",
+    "category": "business"
+  },
+  {
+    "id": 494,
+    "name": "故事會員活動模組",
+    "desc": "舉辦會員限定的活動與比賽。",
+    "category": "business"
+  },
+  {
+    "id": 495,
+    "name": "故事會員特權模組",
+    "desc": "VIP會員享有專屬功能與素材。",
+    "category": "business"
+  },
+  {
+    "id": 496,
+    "name": "故事會員專屬模組",
+    "desc": "提供會員專屬的角色與背景。",
+    "category": "business"
+  },
+  {
+    "id": 497,
+    "name": "故事會員分潤模組",
+    "desc": "會員作品享有額外分潤比例。",
+    "category": "business"
+  },
+  {
+    "id": 498,
+    "name": "故事會員數據模組",
+    "desc": "提供會員專屬的數據報告與分析。",
+    "category": "business"
+  },
+  {
+    "id": 499,
+    "name": "故事會員回饋模組",
+    "desc": "收集會員意見並優化服務。",
+    "category": "business"
+  },
+  {
+    "id": 500,
+    "name": "故事會員守護模組",
+    "desc": "保障會員作品安全，避免盜用與外洩。",
+    "category": "business"
+  },
+  {
+    "id": 523,
+    "name": "故事專屬活動模組",
+    "desc": "舉辦針對特定主題的專屬活動，促進參與。",
+    "category": "business"
+  },
+  {
+    "id": 528,
+    "name": "故事專屬勳章模組",
+    "desc": "參與專屬活動可獲得勳章，展示於個人檔案。",
+    "category": "business"
+  },
+  {
+    "id": 531,
+    "name": "故事專屬票選模組",
+    "desc": "針對專題故事舉辦觀眾票選活動。",
+    "category": "business"
+  },
+  {
+    "id": 545,
+    "name": "故事專屬商業模組",
+    "desc": "允許專題故事進行商業合作或廣告投放。",
+    "category": "business"
+  },
+  {
+    "id": 546,
+    "name": "故事專屬分潤模組",
+    "desc": "管理專題故事的收益分配。",
+    "category": "business"
+  },
+  {
+    "id": 549,
+    "name": "故事專屬拍賣模組",
+    "desc": "允許專題故事進行拍賣活動。",
+    "category": "business"
+  },
+  {
+    "id": 550,
+    "name": "故事專屬募資模組",
+    "desc": "支援專題故事的募資活動。",
+    "category": "business"
+  },
+  {
+    "id": 551,
+    "name": "故事專屬贊助模組",
+    "desc": "允許品牌或個人贊助專題故事。",
+    "category": "business"
+  },
+  {
+    "id": 553,
+    "name": "故事專屬商城模組",
+    "desc": "提供專題故事周邊與素材的商城。",
+    "category": "business"
+  },
+  {
+    "id": 554,
+    "name": "故事專屬會員模組",
+    "desc": "為專題故事設置專屬會員制度。",
+    "category": "business"
+  },
+  {
+    "id": 555,
+    "name": "故事專屬會員權益模組",
+    "desc": "展示專題故事會員的權益與功能。",
+    "category": "business"
+  },
+  {
+    "id": 556,
+    "name": "故事專屬會員任務模組",
+    "desc": "提供專題故事會員專屬任務。",
+    "category": "business"
+  },
+  {
+    "id": 557,
+    "name": "故事專屬會員活動模組",
+    "desc": "舉辦專題故事會員限定活動。",
+    "category": "business"
+  },
+  {
+    "id": 558,
+    "name": "故事專屬會員特權模組",
+    "desc": "提供會員專屬的故事生成功能。",
+    "category": "business"
+  },
+  {
+    "id": 559,
+    "name": "故事專屬會員專屬模組",
+    "desc": "支援會員專屬角色、背景與特效。",
+    "category": "business"
+  },
+  {
+    "id": 560,
+    "name": "故事專屬會員分潤模組",
+    "desc": "管理專題故事會員作品的分潤比例。",
+    "category": "business"
+  },
+  {
+    "id": 561,
+    "name": "故事專屬會員數據模組",
+    "desc": "提供專題故事會員專屬數據報告。",
+    "category": "business"
+  },
+  {
+    "id": 562,
+    "name": "故事專屬會員回饋模組",
+    "desc": "收集專題故事會員回饋並進行改進。",
+    "category": "business"
+  },
+  {
+    "id": 563,
+    "name": "故事專屬會員守護模組",
+    "desc": "保障專題故事會員作品的安全性。",
+    "category": "business"
+  },
+  {
+    "id": 586,
+    "name": "故事專屬AI收益模組",
+    "desc": "統計專題故事AI生成的收益。",
+    "category": "business"
+  },
+  {
+    "id": 587,
+    "name": "故事專屬AI活動模組",
+    "desc": "舉辦專題故事AI互動活動。",
+    "category": "business"
+  },
+  {
+    "id": 645,
+    "name": "故事角色限定模組",
+    "desc": "角色僅在特定活動中出現，增加稀有性。",
+    "category": "business"
+  },
+  {
+    "id": 690,
+    "name": "故事角色經濟模組",
+    "desc": "角色參與經濟活動，影響故事發展。",
+    "category": "business"
+  },
+  {
+    "id": 691,
+    "name": "故事角色政治模組",
+    "desc": "角色參與政治活動，影響世界格局。",
+    "category": "business"
+  },
+  {
+    "id": 694,
+    "name": "故事角色宗教模組",
+    "desc": "角色可參與宗教活動，影響劇情方向。",
+    "category": "business"
+  },
+  {
+    "id": 773,
+    "name": "故事角色政治模組",
+    "desc": "角色可參與政治活動影響世界格局。",
+    "category": "business"
+  },
+  {
+    "id": 776,
+    "name": "故事角色宗教模組",
+    "desc": "角色參與宗教活動影響劇情。",
+    "category": "business"
+  },
+  {
+    "id": 787,
+    "name": "故事角色收益模組",
+    "desc": "統計角色相關收益數據。",
+    "category": "business"
+  },
+  {
+    "id": 788,
+    "name": "故事角色廣告模組",
+    "desc": "允許角色出現在廣告劇情中。",
+    "category": "business"
+  },
+  {
+    "id": 789,
+    "name": "故事角色贊助模組",
+    "desc": "角色可獲得品牌或個人贊助。",
+    "category": "business"
+  },
+  {
+    "id": 792,
+    "name": "故事角色商城模組",
+    "desc": "提供角色相關商品的官方商城。",
+    "category": "business"
+  },
+  {
+    "id": 793,
+    "name": "故事角色會員模組",
+    "desc": "角色擁有專屬會員制度。",
+    "category": "business"
+  },
+  {
+    "id": 794,
+    "name": "故事角色會員權益模組",
+    "desc": "展示角色會員的專屬權益。",
+    "category": "business"
+  },
+  {
+    "id": 795,
+    "name": "故事角色會員任務模組",
+    "desc": "提供角色會員專屬任務。",
+    "category": "business"
+  },
+  {
+    "id": 796,
+    "name": "故事角色會員活動模組",
+    "desc": "舉辦角色會員限定活動。",
+    "category": "business"
+  },
+  {
+    "id": 797,
+    "name": "故事角色會員特權模組",
+    "desc": "角色會員享有專屬特權功能。",
+    "category": "business"
+  },
+  {
+    "id": 798,
+    "name": "故事角色會員專屬模組",
+    "desc": "角色會員擁有專屬角色或場景。",
+    "category": "business"
+  },
+  {
+    "id": 799,
+    "name": "故事角色會員分潤模組",
+    "desc": "管理角色會員的作品分潤比例。",
+    "category": "business"
+  },
+  {
+    "id": 895,
+    "name": "故事智慧活動模組",
+    "desc": "智慧系統可舉辦活動與比賽。",
+    "category": "business"
+  },
+  {
+    "id": 899,
+    "name": "故事智慧徽章模組",
+    "desc": "參與智慧活動可獲得徽章。",
+    "category": "business"
+  },
+  {
+    "id": 968,
+    "name": "故事AI角色經濟模組",
+    "desc": "生成角色參與經濟活動的劇情。",
+    "category": "business"
+  },
+  {
+    "id": 970,
+    "name": "故事AI角色政治模組",
+    "desc": "生成角色參與政治活動的情節。",
+    "category": "business"
+  },
+  {
+    "id": 976,
+    "name": "故事AI角色宗教模組",
+    "desc": "生成角色參與宗教活動的劇情。",
+    "category": "business"
+  },
+  {
+    "id": 1046,
+    "name": "故事跨領域AI模組",
+    "desc": "允許故事應用於教育、娛樂與行銷等不同領域。",
+    "category": "business"
+  },
+  {
+    "id": 1049,
+    "name": "故事跨平台分潤模組",
+    "desc": "跨平台收益自動計算與分配。",
+    "category": "business"
+  },
+  {
+    "id": 1050,
+    "name": "故事跨平台行銷模組",
+    "desc": "自動將故事推廣至不同平台與市場。",
+    "category": "business"
+  },
+  {
+    "id": 1070,
+    "name": "故事教育回饋模組",
+    "desc": "收集教育活動回饋，優化設計。",
+    "category": "business"
+  },
+  {
+    "id": 1079,
+    "name": "故事社群活動模組",
+    "desc": "舉辦線上或線下的社群活動。",
+    "category": "business"
+  },
+  {
+    "id": 1081,
+    "name": "故事社群贊助模組",
+    "desc": "允許社群接受品牌或個人贊助。",
+    "category": "business"
+  },
+  {
+    "id": 1083,
+    "name": "故事社群收益模組",
+    "desc": "統計社群作品收益並分配。",
+    "category": "business"
+  },
+  {
+    "id": 1084,
+    "name": "故事社群商城模組",
+    "desc": "提供社群專屬商城，販售周邊或素材。",
+    "category": "business"
+  },
+  {
+    "id": 1086,
+    "name": "故事社群公告模組",
+    "desc": "發布社群活動與公告。",
+    "category": "business"
+  },
+  {
+    "id": 1091,
+    "name": "故事社群投票模組",
+    "desc": "社群成員可發起並參與投票活動。",
+    "category": "business"
+  },
+  {
+    "id": 1093,
+    "name": "故事社群積分模組",
+    "desc": "社群參與活動可獲得積分。",
+    "category": "business"
+  },
+  {
+    "id": 1114,
+    "name": "故事跨商業模組",
+    "desc": "支援故事跨商業應用，例如教育、娛樂與行銷。",
+    "category": "business"
+  },
+  {
+    "id": 1168,
+    "name": "故事跨廣告模組",
+    "desc": "允許廣告與故事融合，形成互動式行銷。",
+    "category": "business"
+  },
+  {
+    "id": 1329,
+    "name": "故事付費牆模組",
+    "desc": "部分故事內容需付費解鎖。",
+    "category": "business"
+  },
+  {
+    "id": 1330,
+    "name": "故事廣告內嵌模組",
+    "desc": "允許在故事中嵌入廣告以支援平台營運。",
+    "category": "business"
+  },
+  {
+    "id": 1331,
+    "name": "故事贊助模組",
+    "desc": "允許故事創作者接受品牌或觀眾的贊助。",
+    "category": "business"
+  },
+  {
+    "id": 1332,
+    "name": "故事募資模組",
+    "desc": "允許發起故事專案募資活動。",
+    "category": "business"
+  },
+  {
+    "id": 1333,
+    "name": "故事收益分潤模組",
+    "desc": "自動計算故事創作者間的收益分潤。",
+    "category": "business"
+  },
+  {
+    "id": 1334,
+    "name": "故事收益統計模組",
+    "desc": "生成詳細收益報告，供創作者參考。",
+    "category": "business"
+  },
+  {
+    "id": 1335,
+    "name": "故事商城模組",
+    "desc": "提供官方商城，販售故事相關商品與周邊。",
+    "category": "business"
+  },
+  {
+    "id": 1342,
+    "name": "故事商業應用模組",
+    "desc": "允許故事應用於廣告與行銷情境。",
+    "category": "business"
+  },
+  {
+    "id": 1349,
+    "name": "故事品牌行銷模組",
+    "desc": "允許品牌透過故事進行產品推廣。",
+    "category": "business"
+  },
+  {
+    "id": 1416,
+    "name": "故事模組化日誌模組",
+    "desc": "詳細記錄模組活動與操作。",
+    "category": "business"
+  },
+  {
+    "id": 1474,
+    "name": "故事模組化行銷模組",
+    "desc": "支援模組相關的行銷活動。",
+    "category": "business"
+  },
+  {
+    "id": 1475,
+    "name": "故事模組化收益模組",
+    "desc": "追蹤模組收益，提供財務報表。",
+    "category": "business"
+  },
+  {
+    "id": 1476,
+    "name": "故事模組化分紅模組",
+    "desc": "提供模組收益分紅機制。",
+    "category": "business"
+  },
+  {
+    "id": 1477,
+    "name": "故事模組化商城模組",
+    "desc": "建立模組商城，方便交易。",
+    "category": "business"
+  },
+  {
+    "id": 1478,
+    "name": "故事模組化贊助模組",
+    "desc": "允許贊助者支持模組開發。",
+    "category": "business"
+  },
+  {
+    "id": 1480,
+    "name": "故事模組化會員模組",
+    "desc": "提供模組會員制度，增加互動。",
+    "category": "business"
+  },
+  {
+    "id": 1481,
+    "name": "故事模組化會員權益模組",
+    "desc": "為會員提供專屬模組權益。",
+    "category": "business"
+  },
+  {
+    "id": 1482,
+    "name": "故事模組化會員任務模組",
+    "desc": "設計會員專屬模組任務。",
+    "category": "business"
+  },
+  {
+    "id": 1483,
+    "name": "故事模組化會員勳章模組",
+    "desc": "頒發會員專屬模組勳章。",
+    "category": "business"
+  },
+  {
+    "id": 1484,
+    "name": "故事模組化會員成就模組",
+    "desc": "展示會員成就，提升參與感。",
+    "category": "business"
+  },
+  {
+    "id": 1485,
+    "name": "故事模組化會員活動模組",
+    "desc": "舉辦會員專屬模組活動。",
+    "category": "business"
+  },
+  {
+    "id": 1486,
+    "name": "故事模組化會員商城模組",
+    "desc": "提供會員專屬模組商品與優惠。",
+    "category": "business"
+  },
+  {
+    "id": 1487,
+    "name": "故事模組化會員分潤模組",
+    "desc": "追蹤並分配會員相關收益。",
+    "category": "business"
+  },
+  {
+    "id": 1488,
+    "name": "故事模組化會員分享模組",
+    "desc": "允許會員分享專屬模組。",
+    "category": "business"
+  },
+  {
+    "id": 1489,
+    "name": "故事模組化會員社群模組",
+    "desc": "建立會員專屬社群。",
+    "category": "business"
+  },
+  {
+    "id": 1490,
+    "name": "故事模組化會員展示模組",
+    "desc": "展示會員創作或收藏的模組。",
+    "category": "business"
+  },
+  {
+    "id": 1491,
+    "name": "故事模組化會員排行榜模組",
+    "desc": "生成會員排行榜，顯示活躍度。",
+    "category": "business"
+  },
+  {
+    "id": 1492,
+    "name": "故事模組化會員等級模組",
+    "desc": "提供會員等級制度，提升參與。",
+    "category": "business"
+  },
+  {
+    "id": 1493,
+    "name": "故事模組化會員徽章模組",
+    "desc": "頒發會員專屬徽章。",
+    "category": "business"
+  },
+  {
+    "id": 1494,
+    "name": "故事模組化會員證書模組",
+    "desc": "提供會員完成任務的證書。",
+    "category": "business"
+  },
+  {
+    "id": 1495,
+    "name": "故事模組化會員專屬AI模組",
+    "desc": "提供會員專屬AI工具或角色。",
+    "category": "business"
+  },
+  {
+    "id": 1496,
+    "name": "故事模組化會員專屬劇情模組",
+    "desc": "解鎖會員專屬劇情線。",
+    "category": "business"
+  },
+  {
+    "id": 1497,
+    "name": "故事模組化會員專屬角色模組",
+    "desc": "提供會員專屬角色。",
+    "category": "business"
+  },
+  {
+    "id": 1498,
+    "name": "故事模組化會員專屬活動模組",
+    "desc": "舉辦僅限會員參加的活動。",
+    "category": "business"
+  },
+  {
+    "id": 1499,
+    "name": "故事模組化會員專屬獎勵模組",
+    "desc": "提供會員專屬獎勵。",
+    "category": "business"
+  },
+  {
+    "id": 1500,
+    "name": "故事模組化會員專屬平台模組",
+    "desc": "建立會員專屬平台，集中互動與應用。",
+    "category": "business"
+  },
+  {
+    "id": 1524,
+    "name": "故事廣告推薦模組",
+    "desc": "依據用戶屬性，推薦合適的廣告形式。",
+    "category": "business"
+  },
+  {
+    "id": 1530,
+    "name": "故事娛樂應用推薦模組",
+    "desc": "推薦故事應用於娛樂表演與活動。",
+    "category": "business"
+  },
+  {
+    "id": 1531,
+    "name": "故事品牌應用推薦模組",
+    "desc": "推薦故事用於品牌行銷策略。",
+    "category": "business"
+  },
+  {
+    "id": 1532,
+    "name": "故事社群活動推薦模組",
+    "desc": "建議觀眾最適合參加的故事相關活動。",
+    "category": "business"
+  },
+  {
+    "id": 1550,
+    "name": "故事社群互動推薦模組",
+    "desc": "推薦觀眾可互動的社群活動。",
+    "category": "business"
+  },
+  {
+    "id": 1573,
+    "name": "故事觀眾社群推薦模組",
+    "desc": "推薦觀眾參與特定的社群活動。",
+    "category": "business"
+  },
+  {
+    "id": 1597,
+    "name": "故事觀眾專屬活動推薦模組",
+    "desc": "推薦觀眾參與專屬活動。",
+    "category": "business"
+  },
+  {
+    "id": 1633,
+    "name": "故事角色專屬活動模組",
+    "desc": "角色會參與特定活動，觸發額外劇情。",
+    "category": "business"
+  },
+  {
+    "id": 1643,
+    "name": "故事角色專屬商城模組",
+    "desc": "販售角色專屬周邊商品。",
+    "category": "business"
+  },
+  {
+    "id": 1648,
+    "name": "故事角色專屬活動票選模組",
+    "desc": "角色活動會由觀眾票選決定。",
+    "category": "business"
+  },
+  {
+    "id": 1671,
+    "name": "故事角色AI活動模組",
+    "desc": "AI角色會舉辦專屬活動與互動。",
+    "category": "business"
+  },
+  {
+    "id": 1673,
+    "name": "故事角色AI商城模組",
+    "desc": "AI角色專屬商城販售道具。",
+    "category": "business"
+  },
+  {
+    "id": 1677,
+    "name": "故事角色AI分潤模組",
+    "desc": "AI角色的互動收益會與創作者分潤。",
+    "category": "business"
+  },
+  {
+    "id": 1678,
+    "name": "故事角色AI廣告模組",
+    "desc": "允許AI角色參與品牌廣告活動。",
+    "category": "business"
+  },
+  {
+    "id": 1685,
+    "name": "故事角色AI健身模組",
+    "desc": "AI角色可指導觀眾健身活動。",
+    "category": "business"
+  },
+  {
+    "id": 1693,
+    "name": "故事角色AI表演模組",
+    "desc": "AI角色可參與表演活動。",
+    "category": "business"
+  },
+  {
+    "id": 1797,
+    "name": "故事角色AI活動模組",
+    "desc": "角色會定期舉辦專屬活動。",
+    "category": "business"
+  },
+  {
+    "id": 1849,
+    "name": "故事互動專屬活動模組",
+    "desc": "設計觀眾專屬活動，觸發獨特劇情。",
+    "category": "business"
+  },
+  {
+    "id": 1857,
+    "name": "故事互動行銷模組",
+    "desc": "應用於品牌行銷，設計互動故事活動。",
+    "category": "business"
+  },
+  {
+    "id": 1866,
+    "name": "故事互動票券模組",
+    "desc": "支援電子票券，增加互動活動便利性。",
+    "category": "business"
+  },
+  {
+    "id": 1867,
+    "name": "故事互動商城模組",
+    "desc": "應用於電商場景，結合互動故事銷售。",
+    "category": "business"
+  },
+  {
+    "id": 1868,
+    "name": "故事互動贊助模組",
+    "desc": "允許品牌贊助互動故事。",
+    "category": "business"
+  },
+  {
+    "id": 1870,
+    "name": "故事互動收益模組",
+    "desc": "追蹤互動故事的收益來源與比例。",
+    "category": "business"
+  },
+  {
+    "id": 1871,
+    "name": "故事互動分潤模組",
+    "desc": "自動分配互動故事收益給創作者。",
+    "category": "business"
+  },
+  {
+    "id": 1885,
+    "name": "故事互動AI輔助模組",
+    "desc": "AI協助設計互動劇情與活動。",
+    "category": "business"
+  },
+  {
+    "id": 1930,
+    "name": "故事AI角色活動模組",
+    "desc": "角色可舉辦專屬活動與故事互動。",
+    "category": "business"
+  },
+  {
+    "id": 1932,
+    "name": "故事AI角色商城模組",
+    "desc": "販售AI角色專屬的虛擬物品。",
+    "category": "business"
+  },
+  {
+    "id": 1963,
+    "name": "故事AI故事活動模組",
+    "desc": "AI會生成專屬活動供觀眾參與。",
+    "category": "business"
+  },
+  {
+    "id": 1964,
+    "name": "故事AI故事廣告模組",
+    "desc": "允許品牌將廣告融入AI故事。",
+    "category": "business"
+  },
+  {
+    "id": 1965,
+    "name": "故事AI故事贊助模組",
+    "desc": "允許企業贊助AI生成的故事專案。",
+    "category": "business"
+  },
+  {
+    "id": 1967,
+    "name": "故事AI故事收益模組",
+    "desc": "追蹤AI故事產生的收益來源。",
+    "category": "business"
+  },
+  {
+    "id": 1968,
+    "name": "故事AI故事分潤模組",
+    "desc": "自動分配AI故事收益給創作者。",
+    "category": "business"
+  },
+  {
+    "id": 2022,
+    "name": "故事跨商業應用模組",
+    "desc": "允許故事內容應用於商業行銷與展示。",
+    "category": "business"
+  },
+  {
+    "id": 2025,
+    "name": "故事跨商品推廣模組",
+    "desc": "故事可與商品銷售結合，增加行銷效益。",
+    "category": "business"
+  },
+  {
+    "id": 2026,
+    "name": "故事跨活動串流模組",
+    "desc": "支援線上活動串流，結合故事互動。",
+    "category": "business"
+  },
+  {
+    "id": 2027,
+    "name": "故事跨比賽互動模組",
+    "desc": "允許故事應用於比賽與競技活動。",
+    "category": "business"
+  },
+  {
+    "id": 2038,
+    "name": "故事跨收益分配模組",
+    "desc": "自動分配收益給多方創作者。",
+    "category": "business"
+  },
+  {
+    "id": 2060,
+    "name": "故事跨非營利組織模組",
+    "desc": "允許NGO使用故事推廣公益活動。",
+    "category": "business"
+  },
+  {
+    "id": 2077,
+    "name": "故事跨活動管理模組",
+    "desc": "允許活動策劃與故事互動整合。",
+    "category": "business"
+  },
+  {
+    "id": 2078,
+    "name": "故事跨展演模組",
+    "desc": "支援展演活動應用故事互動。",
+    "category": "business"
+  },
+  {
+    "id": 2127,
+    "name": "故事專屬推廣模組",
+    "desc": "支援專案行銷推廣工具整合。",
+    "category": "business"
+  },
+  {
+    "id": 2177,
+    "name": "故事專屬AI行銷模組",
+    "desc": "AI設計行銷型故事與推廣策略。",
+    "category": "business"
+  },
+  {
+    "id": 2183,
+    "name": "故事專屬AI活動模組",
+    "desc": "AI生成活動型故事劇情。",
+    "category": "business"
+  },
+  {
+    "id": 2184,
+    "name": "故事專屬AI收益模組",
+    "desc": "追蹤AI生成故事的收益來源。",
+    "category": "business"
+  },
+  {
+    "id": 2185,
+    "name": "故事專屬AI分潤模組",
+    "desc": "自動分配AI生成故事的收益。",
+    "category": "business"
+  },
+  {
+    "id": 2203,
+    "name": "故事跨平台訂閱模組",
+    "desc": "觀眾可訂閱故事系列，跨裝置自動更新。",
+    "category": "business"
+  },
+  {
+    "id": 2213,
+    "name": "故事跨平台分潤模組",
+    "desc": "自動計算跨平台收益並分配給創作者。",
+    "category": "business"
+  },
+  {
+    "id": 2240,
+    "name": "故事跨平台活動模組",
+    "desc": "跨平台舉辦活動，吸引更多觀眾參與。",
+    "category": "business"
+  },
+  {
+    "id": 2241,
+    "name": "故事跨平台比賽模組",
+    "desc": "允許跨平台舉辦比賽型故事活動。",
+    "category": "business"
+  },
+  {
+    "id": 2381,
+    "name": "故事沉浸式收益模組",
+    "desc": "追蹤沉浸式體驗帶來的收益。",
+    "category": "business"
+  },
+  {
+    "id": 2382,
+    "name": "故事沉浸式分潤模組",
+    "desc": "自動分配沉浸式故事的收益。",
+    "category": "business"
+  },
+  {
+    "id": 2383,
+    "name": "故事沉浸式贊助模組",
+    "desc": "允許企業贊助沉浸式故事專案。",
+    "category": "business"
+  },
+  {
+    "id": 2384,
+    "name": "故事沉浸式廣告模組",
+    "desc": "允許品牌廣告融入沉浸式體驗。",
+    "category": "business"
+  },
+  {
+    "id": 2410,
+    "name": "故事社群通知模組",
+    "desc": "即時通知觀眾角色更新或活動消息。",
+    "category": "business"
+  },
+  {
+    "id": 2412,
+    "name": "故事社群活動模組",
+    "desc": "支援舉辦社群活動，吸引用戶參與。",
+    "category": "business"
+  },
+  {
+    "id": 2417,
+    "name": "故事社群證書模組",
+    "desc": "頒發參與社群活動的證書，增加榮譽感。",
+    "category": "business"
+  },
+  {
+    "id": 2423,
+    "name": "故事社群廣告模組",
+    "desc": "允許品牌投放社群廣告，增加收益。",
+    "category": "business"
+  },
+  {
+    "id": 2424,
+    "name": "故事社群贊助模組",
+    "desc": "允許社群活動接受企業或個人贊助。",
+    "category": "business"
+  },
+  {
+    "id": 2426,
+    "name": "故事社群收益模組",
+    "desc": "追蹤社群互動帶來的收益來源。",
+    "category": "business"
+  },
+  {
+    "id": 2427,
+    "name": "故事社群分潤模組",
+    "desc": "自動分配社群收益給參與者或創作者。",
+    "category": "business"
+  },
+  {
+    "id": 2476,
+    "name": "故事社群廣告收益模組",
+    "desc": "追蹤社群廣告收益來源。",
+    "category": "business"
+  },
+  {
+    "id": 2477,
+    "name": "故事社群分潤模組",
+    "desc": "自動分配社群收益給貢獻者。",
+    "category": "business"
+  },
+  {
+    "id": 2527,
+    "name": "故事個人化活動模組",
+    "desc": "允許用戶舉辦專屬故事活動。",
+    "category": "business"
+  },
+  {
+    "id": 2530,
+    "name": "故事個人化廣告模組",
+    "desc": "允許廣告依據用戶偏好插入專屬故事內容。",
+    "category": "business"
+  },
+  {
+    "id": 2531,
+    "name": "故事個人化收益模組",
+    "desc": "追蹤用戶專屬故事帶來的收益來源。",
+    "category": "business"
+  },
+  {
+    "id": 2532,
+    "name": "故事個人化分潤模組",
+    "desc": "自動分配專屬故事收益給貢獻者。",
+    "category": "business"
+  },
+  {
+    "id": 2600,
+    "name": "跨專案收益追蹤模組",
+    "desc": "自動統計跨專案的收益來源並進行數據分析。",
+    "category": "business"
+  },
+  {
+    "id": 2660,
+    "name": "音樂比賽模組",
+    "desc": "支援音樂挑戰與比賽活動。",
+    "category": "business"
+  },
+  {
+    "id": 2721,
+    "name": "行銷推播任務模組",
+    "desc": "允許管理者規劃定時推播，提升用戶回流率。",
+    "category": "business"
+  },
+  {
+    "id": 2722,
+    "name": "行銷廣告分眾模組",
+    "desc": "根據用戶特徵進行分眾廣告投放。",
+    "category": "business"
+  },
+  {
+    "id": 2723,
+    "name": "行銷數據追蹤模組",
+    "desc": "追蹤行銷活動的點擊率與轉換率。",
+    "category": "business"
+  },
+  {
+    "id": 2724,
+    "name": "行銷素材自動生成模組",
+    "desc": "AI自動生成行銷圖文素材，供社群使用。",
+    "category": "business"
+  },
+  {
+    "id": 2725,
+    "name": "行銷成效評估模組",
+    "desc": "分析行銷活動成效，提供改進建議。",
+    "category": "business"
+  },
+  {
+    "id": 2726,
+    "name": "行銷收益分潤模組",
+    "desc": "自動分配行銷活動帶來的收益。",
+    "category": "business"
+  },
+  {
+    "id": 2727,
+    "name": "行銷活動挑戰模組",
+    "desc": "設計互動挑戰，增加行銷活動趣味。",
+    "category": "business"
+  },
+  {
+    "id": 2728,
+    "name": "行銷抽獎模組",
+    "desc": "支援抽獎活動，吸引用戶參與。",
+    "category": "business"
+  },
+  {
+    "id": 2729,
+    "name": "行銷分享激勵模組",
+    "desc": "用戶分享行銷內容後可獲得獎勵。",
+    "category": "business"
+  },
+  {
+    "id": 2730,
+    "name": "行銷跨平台同步模組",
+    "desc": "允許行銷活動內容跨平台同步發布。",
+    "category": "business"
+  },
+  {
+    "id": 2732,
+    "name": "跨平台會員模組",
+    "desc": "允許跨平台會員登入與權限管理。",
+    "category": "business"
+  },
+  {
+    "id": 2734,
+    "name": "跨平台訂閱模組",
+    "desc": "支援跨平台的訂閱同步與續費提醒。",
+    "category": "business"
+  },
+  {
+    "id": 2740,
+    "name": "跨平台收益模組",
+    "desc": "統計跨平台收益，並自動進行分潤。",
+    "category": "business"
+  }
+]
