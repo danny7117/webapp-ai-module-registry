@@ -1,139 +1,75 @@
-name: Auto Scaffold Module
+name: Scaffold Module from Issue (manual)
 
 on:
-  issues:
-    types: [opened, edited, reopened]   # 允許重新打開/編輯後再次觸發（仍受 if 條件限制）
-
-permissions:
-  contents: write    # 允許 commit
-  issues: write      # 允許回覆留言、加標籤（如需）
-
-concurrency:
-  group: scaffold-${{ github.event.issue.number }}
-  cancel-in-progress: false
+  workflow_dispatch:  # 先改成手動，不要自動觸發避免擋住其他 CI
+    inputs:
+      issue_number:
+        description: "Issue number to scaffold from"
+        required: true
+        type: number
 
 jobs:
   scaffold:
-    # 僅處理帶有「module-proposal」且「module-ready」兩個標籤的 Issue（雙保險）
-    if: contains(toJson(github.event.issue.labels.*.name), 'module-proposal')
-        && contains(toJson(github.event.issue.labels.*.name), 'module-ready')
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Parse category & slug from Issue
-        id: prep
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          TITLE="${{ github.event.issue.title }}"
-          BODY="${{ github.event.issue.body }}"
-
-          # 從 body 的 meta 區塊解析 category（/module-proposal 會寫入）
-          CATEGORY=$(printf "%s" "$BODY" | awk -F': ' '/^[-*] category:/ {print tolower($2); exit}' | tr -d '\r' | xargs)
-          # fallback（若解析不到，直接失敗—交由 Guard 步驟處理）
-          if [ -z "${CATEGORY:-}" ]; then CATEGORY=""; fi
-
-          # 產生 slug：以 Issue 標題為基底
-          SLUG="$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g;s/^-+|-+$//g')"
-
-          echo "category=$CATEGORY" >> "$GITHUB_OUTPUT"
-          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
-          echo "dir=modules/${CATEGORY}/${SLUG}" >> "$GITHUB_OUTPUT"
-
-      - name: Guard: category must exist
-        if: steps.prep.outputs.category == ''
+      - name: Read issue
+        id: issue
         uses: actions/github-script@v7
         with:
           script: |
-            await github.rest.issues.createComment({
+            const issue_number = Number(core.getInput('issue_number'));
+            const { data: issue } = await github.rest.issues.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.payload.issue.number,
-              body: "❌ 自動化停止：找不到 `category`。請確認提案內容含有 meta 欄位 `- category: <frontend|integration|ai|utility>` 後再試。"
+              issue_number
             });
-            // 直接標記一個需要修正的標籤（可選）
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.issue.number,
-              labels: ['needs-category']
-            });
-        # 讓 job 明確失敗結束
-        continue-on-error: false
+            core.setOutput('title', issue.title);
+            core.setOutput('body', issue.body || '');
+            core.setOutput('number', issue_number);
 
-      - name: Idempotent check (skip if exists)
-        shell: bash
+      - name: Parse module id from title
+        id: parse
         run: |
-          set -euo pipefail
-          if [ -d "${{ steps.prep.outputs.dir }}" ]; then
-            echo "Module path exists, skip scaffold: ${{ steps.prep.outputs.dir }}"
-            exit 0
+          TITLE="${{ steps.issue.outputs.title }}"
+          # 例: "[模組] M-DEMO-001 Demo Module" -> 抓 M-DEMO-001
+          echo "TITLE=$TITLE"
+          MOD_ID=$(echo "$TITLE" | grep -oE 'M-[A-Z]+-[0-9]+' || true)
+          if [ -z "$MOD_ID" ]; then
+            echo "No module id found in title; default to M-UNSET-000"
+            MOD_ID="M-UNSET-000"
           fi
+          echo "mod_id=$MOD_ID" >> $GITHUB_OUTPUT
 
-      - name: Scaffold files
-        shell: bash
+      - name: Create scaffold files
         run: |
-          set -euo pipefail
-          mkdir -p "${{ steps.prep.outputs.dir }}"
-
-          FILE_JSON="${{ steps.prep.outputs.dir }}/module.json"
-          BODY_JSON=$(printf '%s' "${{ github.event.issue.body }}" | jq -R -s '.')
-
-          # 你也可以改寫為 index.ts / README.md 等模板
-          cat > "$FILE_JSON" <<EOF
+          MOD="${{ steps.parse.outputs.mod_id }}"
+          mkdir -p "modules/${MOD}"
+          cat > "modules/${MOD}/manifest.json" <<'JSON'
           {
-            "name": "${{ github.event.issue.title }}",
-            "slug": "${{ steps.prep.outputs.slug }}",
-            "category": "${{ steps.prep.outputs.category }}",
-            "source": "issue",
-            "issue_number": ${{ github.event.issue.number }},
-            "createdBy": "${{ github.actor }}",
-            "createdAt": "${{ github.event.issue.created_at }}",
-            "body": $BODY_JSON
+            "id": "M-UNSET-000",
+            "name": "New Module",
+            "version": "1.0.0",
+            "capabilities": ["todo.fill.me"],
+            "inputs": {},
+            "outputs": {},
+            "dependencies": [],
+            "conflicts": [],
+            "resources": { "bundle_kb": 0, "cpu_ms": 0, "mem_mb": 0 },
+            "policy": { "age": "all", "license": "MIT", "offline_ok": true },
+            "tests": [
+              { "name": "example", "input": {}, "expect": {} },
+              { "name": "example-2", "input": {}, "expect": {} }
+            ]
           }
-          EOF
+          JSON
 
       - name: Commit & push
-        shell: bash
         run: |
-          set -e
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add modules/
-          git commit -m "scaffold: ${{ steps.prep.outputs.category }}/${{ steps.prep.outputs.slug }} from issue #${{ github.event.issue.number }}" || echo "No changes to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(scaffold): create module folder from issue #${{ steps.issue.outputs.number }}" || echo "nothing to commit"
           git push
-
-      - name: Comment back (success)
-        if: success()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const branch = context.payload.repository.default_branch || 'main';
-            const category = '${{ steps.prep.outputs.category }}';
-            const slug = '${{ steps.prep.outputs.slug }}';
-            const url = `https://github.com/${context.repo.owner}/${context.repo.repo}/tree/${branch}/modules/${category}/${slug}`;
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.issue.number,
-              body: `✅ 模組已建立：\n- 類別：**${category}**\n- 路徑：\`modules/${category}/${slug}\`\n- 連結：${url}`
-            });
-
-      - name: Comment back (failure)
-        if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.issue.number,
-              body: "❌ 自動化失敗，請查看此 workflow 的日誌（Actions）。若為路徑已存在，表示此模組先前已建立。"
-            });
