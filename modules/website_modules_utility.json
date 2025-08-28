@@ -1,0 +1,8564 @@
+[
+  {
+    "id": 16,
+    "name": "商品比較工具｜允許用戶同時比較多個商品的規格與價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 17,
+    "name": "商品收藏功能｜使用者可將商品加入收藏清單，便於日後查看。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 20,
+    "name": "商品到貨通知工具｜商品缺貨時，使用者可留下聯絡資訊，補貨後自動通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 41,
+    "name": "Stripe 金流串接｜整合 Stripe 平台，支援信用卡付款。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 42,
+    "name": "NewebPay 金流串接｜整合台灣常用金流平台，支援多種付款方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 47,
+    "name": "訂單管理後台｜後台管理訂單狀態，包括出貨、完成、退款。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 48,
+    "name": "退款申請工具｜允許用戶發起退款申請，後台可審核處理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 53,
+    "name": "公告訊息管理｜後台可新增或編輯公告，顯示於前台指定區域。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 54,
+    "name": "檔案資源管理器｜支援檔案上傳、分類與刪除。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 56,
+    "name": "通知中心｜後台統一管理系統通知與警示訊息。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 69,
+    "name": "LINE 官方帳號串接｜整合 LINE 平台，支援訊息推送與用戶標籤化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 70,
+    "name": "GA 分析串接｜整合 Google Analytics，提供網站訪客數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 71,
+    "name": "自動化健康檢查｜定期檢查系統服務是否正常運作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 74,
+    "name": "自動備份排程｜定期備份資料庫與檔案，防止資料遺失。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 81,
+    "name": "進階搜尋模組｜支援全文檢索與多條件篩選，幫助用戶快速找到內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 108,
+    "name": "首頁夥伴輪播區｜多列輪播顯示合作廠商清單，支援拖曳滑動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 111,
+    "name": "首頁社群牆嵌入｜整合 IG/FB/X 貼文牆，強化社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 113,
+    "name": "首頁頂部公告條｜固定於頁首顯示公告與優惠訊息，可排程顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 116,
+    "name": "3D 模型展示｜支援 GLTF/GLB 產品 3D 模型旋轉與縮放互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 119,
+    "name": "無障礙工具列｜提供字體放大、對比強化與鍵盤導覽支持。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 136,
+    "name": "規格選項與 SKU｜支援尺寸/顏色等變體與獨立庫存管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 144,
+    "name": "成就徽章系統｜依互動/消費授予徽章，解鎖權益。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 151,
+    "name": "黑名單管理｜可封鎖異常帳號與限制登入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 156,
+    "name": "Apple Pay 支付｜整合 Apple Pay，提升行動端結帳率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 157,
+    "name": "Google Pay 支付｜整合 Google Pay，縮短付款步驟。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 158,
+    "name": "LINE Pay 支付｜整合 LINE Pay，提高在地轉換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 160,
+    "name": "訂單管理後台｜統一處理出貨、退款、補開單等流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 165,
+    "name": "訂單 PDF 匯出｜提供發票/收據/出貨單的 PDF 匯出。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 173,
+    "name": "公告訊息管理中心｜公告建立、置頂、到期自動下架。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 176,
+    "name": "多站/多專案管理｜單一後台管理多個站點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 188,
+    "name": "推薦獎勵系統｜推薦碼/連結與回饋金管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 190,
+    "name": "LINE 官方帳號整合｜標籤推播、關鍵字回覆與綁定導流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 199,
+    "name": "隱私與 Cookie 同意管理｜GDPR/CCPA 同意條款與審計記錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 200,
+    "name": "異地備援備份排程｜跨區域備份與定期復原演練。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 206,
+    "name": "清單項目分隔線｜在清單元素之間自動插入分隔線。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 215,
+    "name": "拖曳式排序｜支援清單或表格內項目拖曳重新排序。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 221,
+    "name": "文章按讚模組｜允許使用者對文章或商品按讚，提升互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 236,
+    "name": "直播串流模組｜整合 YouTube/Zoom 串流於平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 239,
+    "name": "投票互動貼文｜社群貼文支援簡單投票功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 243,
+    "name": "內容審核流程｜建立文章需經過審核後發布。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 255,
+    "name": "作者專頁｜顯示作者資訊與文章清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 257,
+    "name": "內容匯出模組｜文章與評論可匯出為 CSV 或 JSON。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 278,
+    "name": "庫存週轉率分析｜分析庫存週轉速度，優化庫存管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 286,
+    "name": "防火牆規則管理｜後台可新增/刪除防火牆規則。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 288,
+    "name": "憑證管理模組｜集中管理 SSL 憑證與更新提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 290,
+    "name": "備份還原模組｜自動備份並支援一鍵還原系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 293,
+    "name": "雲端同步備份｜備份資料至雲端存儲平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 299,
+    "name": "資安合規檢查｜檢查 GDPR/CCPA 等隱私合規狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 313,
+    "name": "多步驟導覽條｜顯示流程分步進度，適用於註冊或結帳。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 335,
+    "name": "拍賣模組｜支援商品競標與出價流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 339,
+    "name": "跨平台電商串接｜整合蝦皮、Amazon 等平台商品同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 349,
+    "name": "直播互動聊天室｜直播時提供即時聊天室互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 357,
+    "name": "文章精選牆｜管理員可將文章精選展示於專區。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 364,
+    "name": "教材管理模組｜提供教學教材的上傳與分類。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 386,
+    "name": "Bot 防護模組｜檢測並阻擋惡意自動化請求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 388,
+    "name": "備份加密模組｜備份資料上傳前自動加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 399,
+    "name": "系統更新管理｜集中管理與推送系統更新。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 411,
+    "name": "情境導覽提示｜依使用者操作流程顯示逐步提示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 426,
+    "name": "禮品清單模組｜新人婚禮或節慶禮品清單管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 427,
+    "name": "商品租賃模組｜支援商品租賃與歸還管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 429,
+    "name": "保固管理模組｜商品保固期管理與到期提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 431,
+    "name": "虛擬貨幣支付｜整合加密貨幣支付功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 437,
+    "name": "退換貨流程｜提供完整退換貨申請與物流追蹤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 443,
+    "name": "社群貼文置頂｜允許管理員將貼文置頂於社群牆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 448,
+    "name": "互動遊戲模組｜社群支援簡單小遊戲（投票/問答）。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 452,
+    "name": "群組檔案管理｜群組成員共享與下載檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 461,
+    "name": "線上研討會模組｜支援舉辦線上研討會並整合報名功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 464,
+    "name": "題庫管理模組｜支援建立與管理測驗題庫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 477,
+    "name": "進階筆記模組｜支援多媒體筆記與雲端同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 478,
+    "name": "跨平台學習進度｜不同裝置間同步學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 494,
+    "name": "即時錯誤警報｜系統錯誤時即時推送通知管理員。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 535,
+    "name": "供應商管理模組｜管理多個供應商及其商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 538,
+    "name": "國際支付模組｜整合多國支付方式如 PayPal、Alipay。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 548,
+    "name": "動態串濾鏡｜依標籤或主題篩選社群動態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 555,
+    "name": "匿名互動牆｜匿名發佈心情或問題，社群互動回覆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 569,
+    "name": "專題小組管理｜支援課程專題小組分工管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 576,
+    "name": "互動式作業｜作業題目可包含互動元件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 578,
+    "name": "跨校課程整合｜不同學校的課程可互相整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 579,
+    "name": "教材標註工具｜支援學生對教材進行標註。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 596,
+    "name": "弱點修補排程｜定期排程修補已知弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 597,
+    "name": "自動登入警報｜異常登入時自動通知管理員。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 599,
+    "name": "隱私合規管理｜管理 GDPR、CCPA 等隱私合規需求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 607,
+    "name": "動態滑桿模組｜支援價格或範圍篩選的滑桿元件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 608,
+    "name": "進階提示工具｜提供滑鼠懸停時的詳細提示框。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 609,
+    "name": "即時拼字檢查｜輸入時自動檢查拼字錯誤並提供建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 626,
+    "name": "分期試算工具｜用戶可模擬不同分期期數的費用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 628,
+    "name": "自動比價模組｜自動比對外部平台同類商品價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 633,
+    "name": "供應鏈管理模組｜追蹤商品從製造到配送的全過程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 650,
+    "name": "排行榜競賽｜依互動數據產生社群排行榜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 655,
+    "name": "社群專題報導｜由管理員編輯社群專題內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 662,
+    "name": "AI 教材摘要｜AI 自動將教材轉換成摘要重點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 672,
+    "name": "教材雲端同步｜教材可跨裝置同步更新。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 680,
+    "name": "互動白板課程｜課程內支援即時白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 714,
+    "name": "進階麵包屑｜提供可互動的多層麵包屑導航。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 729,
+    "name": "自動補貨提醒｜商品缺貨時自動提醒管理員補貨。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 731,
+    "name": "批發管理模組｜支援大宗採購與報價功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 741,
+    "name": "即時語音聊天室｜支援多人即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 743,
+    "name": "匿名分享平台｜允許匿名分享與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 749,
+    "name": "互動式投票｜社群文章可附加投票功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 753,
+    "name": "社群數據分析｜統計社群內互動數據與趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 762,
+    "name": "多媒體教材支援｜支援影片、音頻、互動式教材。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 767,
+    "name": "跨平台課程整合｜允許課程跨平台共享與整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 774,
+    "name": "互動式考試｜支援即時回饋的互動式考試。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 777,
+    "name": "跨學科資源整合｜整合不同學科的資源共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 792,
+    "name": "惡意檔案過濾｜檢查並阻擋可疑檔案上傳。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 793,
+    "name": "資料脫敏工具｜將敏感資訊脫敏處理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 802,
+    "name": "互動式背景音樂｜依使用者操作播放或切換背景音樂。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 834,
+    "name": "跨境支付平台｜整合多國跨境支付管道。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 838,
+    "name": "多商戶管理｜平台支援多商戶同時經營。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 840,
+    "name": "二維條碼商品管理｜以 QR Code 管理商品出入庫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 842,
+    "name": "匿名交流平台｜允許匿名發表與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 843,
+    "name": "好友互動提醒｜好友更新動態即時通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 847,
+    "name": "群組協作工具｜群組支援共用檔案與任務管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 848,
+    "name": "社群積分系統｜依互動累積積分並可兌換獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 849,
+    "name": "直播互動禮物｜觀眾可在直播中贈送虛擬禮物。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 850,
+    "name": "投票互動貼文｜貼文支援附帶投票選項。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 854,
+    "name": "動態串篩選｜可依標籤篩選社群動態內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 858,
+    "name": "匿名互動問答｜允許匿名提問並獲得回答。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 862,
+    "name": "虛擬課堂實驗｜模擬實體實驗室的課堂互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 863,
+    "name": "線上互動教材｜教材支援影片、測驗與互動元素。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 866,
+    "name": "跨平台學習共享｜不同學習平台間同步學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 870,
+    "name": "互動式作業平台｜作業支援互動功能並自動批改。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 872,
+    "name": "虛擬導師平台｜學生可與虛擬導師互動學習。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 874,
+    "name": "課程直播平台｜支援課程直播與即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 885,
+    "name": "備份加密機制｜所有備份資料自動進行加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 887,
+    "name": "Bot 流量防禦｜即時阻擋可疑的自動化流量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 890,
+    "name": "隱私合規工具｜支援 GDPR/CCPA 等合規需求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 900,
+    "name": "用戶隱私保護｜強化用戶隱私管理與數據保護。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 917,
+    "name": "多層互動卡片｜卡片支援翻轉、堆疊與拖曳互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 928,
+    "name": "退貨物流整合｜整合退貨物流，提供即時追蹤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 935,
+    "name": "跨境電商整合｜整合跨境交易的支付與物流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 942,
+    "name": "匿名留言模組｜允許匿名留言並互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 943,
+    "name": "直播聊天室｜直播中提供即時聊天室互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 959,
+    "name": "互動留言牆｜即時顯示社群留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 962,
+    "name": "虛擬課程平台｜支援線上課程的虛擬互動環境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 963,
+    "name": "教材互動測驗｜教材中可插入測驗題目。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 964,
+    "name": "跨平台進度同步｜不同平台間自動同步學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 986,
+    "name": "隱私數據控管｜集中管理與控管用戶隱私數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 993,
+    "name": "用戶匿名化工具｜將個資匿名化以符合法規。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 999,
+    "name": "弱點掃描工具｜自動掃描系統弱點並報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1017,
+    "name": "互動式表單提示｜表單輸入時即時顯示提示說明。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1020,
+    "name": "智慧表格篩選｜AI 提供表格數據的智慧篩選建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1022,
+    "name": "跨境倉儲支援｜整合海外倉儲物流管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1026,
+    "name": "退貨流程自動化｜自動化處理退貨申請與審核。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1032,
+    "name": "商品追蹤清單｜顧客可建立追蹤清單，隨時關注商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1038,
+    "name": "供應鏈透明化｜展示商品供應鏈的完整流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1040,
+    "name": "跨平台商品同步｜商品資訊可同步到不同平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1045,
+    "name": "直播互動贈禮｜觀眾可於直播中贈送虛擬禮物。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1051,
+    "name": "動態回覆互動｜支援對動態回覆留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1056,
+    "name": "動態貼文篩選｜依標籤或主題篩選動態貼文。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1062,
+    "name": "虛擬課堂互動｜支援課堂即時互動與討論。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1065,
+    "name": "教材雲端共享｜教材可雲端同步與分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1068,
+    "name": "多格式教材匯入｜支援 PPT、PDF、Word 教材匯入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1070,
+    "name": "虛擬實境教材｜支援 VR 教材互動學習。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1075,
+    "name": "跨平台同步教材｜教材可跨裝置與平台同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1083,
+    "name": "弱點通報管理｜集中管理弱點通報與修補。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1085,
+    "name": "Bot 防護網關｜集中過濾惡意自動化請求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1087,
+    "name": "數據隱私稽核｜檢查數據隱私合規狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1114,
+    "name": "互動表格排序｜支援點擊表頭自動排序表格內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1122,
+    "name": "批量庫存管理｜支援批量修改商品庫存數量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1124,
+    "name": "跨境支付支援｜整合多國跨境支付方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1131,
+    "name": "退貨即時追蹤｜退貨流程即時顯示進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1132,
+    "name": "供應鏈整合｜將供應鏈數據整合於後台管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1136,
+    "name": "動態庫存提醒｜庫存不足時自動通知管理員。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1143,
+    "name": "匿名互動平台｜允許匿名交流互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1149,
+    "name": "動態串排行榜｜展示互動度最高的動態串。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1163,
+    "name": "教材影音同步｜教材支援影音與文字同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1168,
+    "name": "跨課程筆記同步｜學生可跨課程同步筆記內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1171,
+    "name": "教材雲端匯入｜允許教師將教材匯入雲端。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1181,
+    "name": "弱點修復排程｜定期安排系統弱點修復。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1184,
+    "name": "憑證管理中心｜集中管理憑證發放與續期。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1186,
+    "name": "災難復原排程｜自動排程進行災難復原演練。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1187,
+    "name": "隱私稽核工具｜檢查系統隱私合規性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1197,
+    "name": "隱私清理工具｜自動清理不必要的隱私數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1205,
+    "name": "互動式數據儀表板｜提供可互動的數據儀表板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1207,
+    "name": "拖曳式清單排序｜允許使用者拖曳清單重新排序。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1214,
+    "name": "多維度篩選模組｜支援多條件組合的篩選方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1229,
+    "name": "商品比較工具｜允許顧客比較多個商品規格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1239,
+    "name": "分期付款中心｜集中管理分期付款方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1241,
+    "name": "即時語音群組｜支援群組內即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1242,
+    "name": "粉絲等級機制｜根據互動程度劃分不同粉絲等級。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1244,
+    "name": "匿名交流牆｜提供匿名交流與互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1246,
+    "name": "直播互動模組｜直播中支援彈幕與禮物互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1247,
+    "name": "AI 社群洞察｜AI 分析社群趨勢與互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1263,
+    "name": "跨課程知識整合｜整合不同課程的知識點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1265,
+    "name": "教材即時匯出｜教材可即時匯出成不同格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1267,
+    "name": "互動式教學板書｜教師可即時板書並共享給學生。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1273,
+    "name": "多媒體教材整合｜支援多媒體教材的集中整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1285,
+    "name": "隱私數據控管｜集中管理用戶隱私數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1313,
+    "name": "互動式卡片翻轉｜卡片支援翻轉展示更多資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1317,
+    "name": "全屏互動表單｜提供全屏化的互動表單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1325,
+    "name": "多供應鏈整合｜整合多條供應鏈數據與物流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1332,
+    "name": "多倉庫同步管理｜支援多個倉庫的即時同步管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1336,
+    "name": "跨平台金流整合｜整合不同平台的金流服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1341,
+    "name": "社群語音頻道｜支援多人即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1342,
+    "name": "動態熱度排行｜依互動數據顯示動態熱度排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1343,
+    "name": "AI 社群建議｜AI 提供社群互動與管理建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1345,
+    "name": "匿名聊天室｜允許匿名參與聊天室互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1346,
+    "name": "直播互動遊戲｜直播中支援互動遊戲功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1348,
+    "name": "粉絲互動牆｜粉絲可於互動牆留言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1357,
+    "name": "動態串篩選器｜支援依標籤篩選動態內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1360,
+    "name": "匿名互動問答｜允許匿名參加互動問答。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1363,
+    "name": "教材互動模組｜教材支援插入互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1364,
+    "name": "虛擬導師互動｜學生可與虛擬導師進行學習互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1369,
+    "name": "互動式模擬考｜模擬考題具備即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1370,
+    "name": "教材共享中心｜集中管理與共享教材資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1376,
+    "name": "虛擬課堂白板｜提供即時互動的虛擬白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1389,
+    "name": "資料加密中心｜集中管理資料加密機制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1390,
+    "name": "Bot 攻擊防護｜阻擋惡意自動化流量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1391,
+    "name": "災難復原演練｜模擬災難發生時的復原流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1394,
+    "name": "用戶隱私控管｜集中管理與保護用戶隱私。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1403,
+    "name": "互動式數據卡片｜數據以可翻轉、互動的卡片顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1413,
+    "name": "互動教學導覽｜提供首次使用者的互動教學指引。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1416,
+    "name": "滑動式互動卡片｜允許用戶以滑動操作切換卡片內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1421,
+    "name": "商品即時互動｜商品頁支援即時問答與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1430,
+    "name": "多商戶訂單整合｜整合多商戶訂單於同一平台管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1434,
+    "name": "多支付通道管理｜集中管理不同支付通道。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1439,
+    "name": "跨平台價格同步｜不同平台之間自動同步價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1440,
+    "name": "供應商管理系統｜集中管理所有供應商資料與合約。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1441,
+    "name": "社群即時問答｜提供即時互動的社群問答平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1442,
+    "name": "匿名互動牆｜允許匿名張貼動態與留言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1444,
+    "name": "直播互動問答｜直播過程中提供即時問答功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1451,
+    "name": "互動粉絲牆｜展示粉絲的互動紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1456,
+    "name": "群組文件庫｜集中管理群組共享文件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1462,
+    "name": "課程自動排程｜自動為學生排定課程時間表。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1466,
+    "name": "多媒體課程中心｜集中管理所有多媒體課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1471,
+    "name": "跨平台筆記同步｜不同裝置間同步學生筆記。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1475,
+    "name": "課程直播互動｜課程直播中支援即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1482,
+    "name": "自動弱點修補中心｜集中管理並自動修補弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1485,
+    "name": "隱私權稽核系統｜檢查平台是否符合法規要求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1498,
+    "name": "跨雲資安整合｜整合不同雲端的資安策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1519,
+    "name": "AI UX 測試工具｜AI 自動測試 UX 並提供回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1528,
+    "name": "批量訂單匯入｜允許商戶批量匯入訂單資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1531,
+    "name": "供應鏈透明管理｜顯示商品完整供應鏈資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1536,
+    "name": "多平台金流管理｜集中管理跨平台的金流服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1539,
+    "name": "跨平台商品同步｜商品資訊可跨多平台同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1543,
+    "name": "AI 社群內容建議｜AI 分析社群互動並提供內容建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1545,
+    "name": "直播互動投票｜直播過程中提供即時投票。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1549,
+    "name": "互動留言回覆｜支援留言的即時互動回覆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1551,
+    "name": "短影音即時互動｜短影音支援即時留言與回覆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1552,
+    "name": "AI 好友互動建議｜AI 提供好友互動的最佳時間建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1558,
+    "name": "匿名提問互動｜允許匿名向社群提問並獲回覆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1563,
+    "name": "教材即時同步｜教材支援多端即時同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1566,
+    "name": "跨校課程整合｜支援跨學校課程的資源整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1567,
+    "name": "多格式教材匯出｜教材可匯出成不同檔案格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1569,
+    "name": "互動式模擬考試｜模擬考試支援互動答題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1577,
+    "name": "虛擬實境課堂｜支援 VR 課堂互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1578,
+    "name": "AI 學習引導工具｜AI 提供個人化的學習引導。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1589,
+    "name": "災難復原管理｜管理災難復原計畫與演練。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1597,
+    "name": "AI 資安教育｜AI 提供互動式的資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1601,
+    "name": "AI 導覽助手｜AI 依照用戶行為提供導覽提示與建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1604,
+    "name": "智慧型互動滑桿｜滑桿操作時提供即時數值與建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1619,
+    "name": "語音互動教學｜提供語音驅動的操作教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1620,
+    "name": "全屏互動展示｜允許內容以全屏互動模式呈現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1623,
+    "name": "跨境金流管理｜集中管理跨境交易的金流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1626,
+    "name": "退貨退款自動化｜自動化處理退貨與退款流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1637,
+    "name": "供應鏈合作模組｜支援多供應商合作流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1642,
+    "name": "粉絲互動排行榜｜依互動數據顯示粉絲排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1643,
+    "name": "AI 社群互動分析｜AI 分析互動數據並提供洞察。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1645,
+    "name": "直播互動問答｜直播中支援即時問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1647,
+    "name": "AI 好友互動建議｜AI 建議最佳互動時機。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1648,
+    "name": "群組檔案空間｜集中管理群組共享檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1649,
+    "name": "短影音留言互動｜短影音支援即時留言功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1656,
+    "name": "互動式留言板｜提供互動留言功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1660,
+    "name": "即時互動提醒｜好友互動時即時發送提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1663,
+    "name": "跨平台教材同步｜教材支援多端同步更新。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1670,
+    "name": "虛擬教學白板｜提供教師與學生互動的虛擬白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1676,
+    "name": "教材雲端匯入｜允許匯入多格式教材至雲端。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1679,
+    "name": "AI 學習助手｜AI 即時協助學生完成學習任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1682,
+    "name": "弱點自動管理｜自動管理並修補已知弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1685,
+    "name": "隱私合規中心｜檢查平台隱私是否符合法規。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1697,
+    "name": "AI 資安教育平台｜AI 提供互動式資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1708,
+    "name": "全螢幕拖曳互動｜允許用戶以拖曳操作全屏內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1709,
+    "name": "語音互動輸入｜表單可支援語音輸入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1717,
+    "name": "懸浮互動按鈕｜提供懸浮互動按鈕與快捷操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1720,
+    "name": "AI UX 追蹤工具｜AI 分析 UX 並提供改進建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1728,
+    "name": "多平台訂單整合｜整合不同平台的訂單於後台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1736,
+    "name": "跨境商品同步｜跨境平台間自動同步商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1739,
+    "name": "分期付款平台｜集中管理分期付款方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1740,
+    "name": "自動結帳系統｜自動化處理訂單結帳流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1741,
+    "name": "群組即時語音互動｜支援群組內即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1744,
+    "name": "直播互動彈幕｜直播過程中顯示彈幕訊息。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1746,
+    "name": "粉絲排行榜｜依互動頻率顯示粉絲排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1749,
+    "name": "短影音互動牆｜短影音展示並支援互動留言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1753,
+    "name": "互動留言板｜提供留言互動的社群模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1754,
+    "name": "AI 粉絲互動分析｜AI 分析粉絲互動並提供報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1756,
+    "name": "直播互動遊戲｜直播時支援互動遊戲模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1776,
+    "name": "互動學習白板｜提供即時互動的教學白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1781,
+    "name": "AI 威脅情報中心｜AI 分析並集中管理威脅情報。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1789,
+    "name": "災難復原中心｜集中管理災難復原計畫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1797,
+    "name": "AI 資安培訓平台｜提供互動式資安培訓課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1808,
+    "name": "智慧型輸入助手｜AI 提供表單輸入建議與修正。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1822,
+    "name": "跨境物流管理｜集中管理跨境物流狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1826,
+    "name": "多平台訂單管理｜整合多平台訂單至單一後台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1828,
+    "name": "商品庫存最佳化｜AI 自動最佳化商品庫存管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1830,
+    "name": "AI 動態定價工具｜AI 根據需求與市場自動定價。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1834,
+    "name": "跨平台價格同步｜不同平台之間自動同步價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1837,
+    "name": "物流最佳化工具｜自動規劃最有效率的物流方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1840,
+    "name": "自動分帳工具｜依分潤比例自動進行分帳。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1846,
+    "name": "粉絲互動回饋｜提供粉絲互動後的回饋機制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1847,
+    "name": "群組檔案中心｜集中管理群組檔案資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1853,
+    "name": "留言互動平台｜提供集中化的留言互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1854,
+    "name": "AI 粉絲洞察｜AI 分析粉絲互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1856,
+    "name": "直播互動遊戲｜直播時加入互動遊戲元素。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1862,
+    "name": "虛擬課程社群｜課程附帶虛擬社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1864,
+    "name": "作業即時批改工具｜支援即時作業批改與反饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1871,
+    "name": "虛擬教學互動｜教師與學生可於虛擬教室互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1872,
+    "name": "即時課堂互動｜課堂中支援即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1876,
+    "name": "互動式學習白板｜提供即時互動的學習白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1880,
+    "name": "跨班級合作工具｜不同班級學生可合作完成專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1882,
+    "name": "弱點修補管理｜集中管理並修補系統弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1889,
+    "name": "災難復原管理平台｜集中管理災難復原計畫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1892,
+    "name": "資料外洩偵測工具｜偵測並警示潛在資料外洩。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1897,
+    "name": "AI 資安教育助手｜AI 協助進行資安教育與培訓。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1900,
+    "name": "隱私數據加密工具｜自動加密並保護隱私數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1902,
+    "name": "動態互動卡片｜支援滑動、翻轉的互動式卡片。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1903,
+    "name": "懸浮多工具選單｜提供懸浮於畫面的多功能工具列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1913,
+    "name": "多模式佈局模組｜支援清單、網格、卡片等多種佈局。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1918,
+    "name": "互動式內容切換｜允許使用者透過手勢切換內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1923,
+    "name": "限時搶購模組｜集中管理限時搶購商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1926,
+    "name": "多平台訂單追蹤｜整合不同平台的訂單資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1932,
+    "name": "商品比較中心｜集中管理多商品比較功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1940,
+    "name": "自動分潤工具｜依分潤規則自動分帳。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1941,
+    "name": "即時語音聊天室｜支援即時多人語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1942,
+    "name": "AI 社群內容推薦｜AI 分析社群互動並推薦內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1946,
+    "name": "粉絲專屬互動｜提供粉絲專屬的互動模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1952,
+    "name": "匿名問答模組｜允許匿名提問與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1953,
+    "name": "留言板互動中心｜集中管理社群留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1956,
+    "name": "直播互動模組｜支援直播互動與遊戲化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1962,
+    "name": "虛擬課程互動｜支援虛擬課程即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1963,
+    "name": "跨平台教材整合｜整合不同平台教材於同一介面。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1966,
+    "name": "多格式教材整合｜教材可整合多格式檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1967,
+    "name": "學生進度追蹤工具｜即時追蹤學生課程進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1969,
+    "name": "AI 學習助手工具｜AI 即時輔助學生學習。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1971,
+    "name": "虛擬教學平台｜提供虛擬教學的完整互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1976,
+    "name": "互動學習白板｜支援互動式學習白板功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1980,
+    "name": "跨班級互動模組｜不同班級學生可互動合作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1982,
+    "name": "弱點管理系統｜集中管理所有弱點與修補狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1989,
+    "name": "災難復原流程｜提供完整的災難復原操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 1997,
+    "name": "AI 資安教育模組｜AI 提供互動式的資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2005,
+    "name": "互動式數據看板｜數據以可互動的方式展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2014,
+    "name": "互動式訊息提示｜訊息提示框支援互動操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2023,
+    "name": "限時優惠券中心｜集中管理與發放限時優惠券。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2026,
+    "name": "多平台庫存同步｜不同平台間自動同步庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2032,
+    "name": "商品比較清單｜允許消費者建立商品比較清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2037,
+    "name": "物流追蹤工具｜提供完整物流追蹤資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2043,
+    "name": "匿名互動牆｜允許用戶匿名張貼互動訊息。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2046,
+    "name": "粉絲專屬任務｜提供粉絲專屬的互動任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2049,
+    "name": "短影音互動區｜提供短影音互動留言空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2052,
+    "name": "匿名問答區｜允許匿名進行問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2053,
+    "name": "留言牆中心｜集中展示留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2056,
+    "name": "直播互動挑戰｜直播中提供挑戰任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2062,
+    "name": "虛擬課堂社群｜課程附帶虛擬社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2066,
+    "name": "多格式教材整合｜整合不同格式的教材於平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2072,
+    "name": "即時課堂互動系統｜課程支援即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2076,
+    "name": "互動白板工具｜提供師生即時互動的白板功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2082,
+    "name": "弱點修補系統｜集中管理與修補弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2089,
+    "name": "災難復原中心模組｜集中管理災難復原計畫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2092,
+    "name": "資料外洩監測工具｜即時偵測並警告資料外洩風險。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2094,
+    "name": "登入異常偵測工具｜偵測並封鎖異常登入行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2097,
+    "name": "AI 資安教育系統｜AI 提供互動式資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2110,
+    "name": "即時互動數據條｜即時顯示互動數據的進度條。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2113,
+    "name": "多樣化佈局模式｜提供清單、卡片、網格等佈局切換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2114,
+    "name": "全螢幕互動模式｜內容支援全螢幕互動展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2118,
+    "name": "互動式內容瀏覽｜允許用戶透過滑動切換內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2120,
+    "name": "動態快捷工具列｜提供快速操作的動態工具列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2122,
+    "name": "跨境支付模組｜支援跨境支付的完整流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2126,
+    "name": "多平台庫存管理｜整合多平台商品庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2132,
+    "name": "商品比較中心｜允許顧客建立比較清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2134,
+    "name": "跨平台價格控管｜自動檢查並調整平台價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2141,
+    "name": "即時語音互動｜支援即時多人成員語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2144,
+    "name": "直播互動投票｜直播中支援互動投票。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2146,
+    "name": "粉絲專屬空間｜提供粉絲專屬的互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2152,
+    "name": "匿名互動問答｜允許匿名進行問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2153,
+    "name": "社群留言中心｜集中管理社群留言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2156,
+    "name": "直播互動遊戲模組｜直播時加入遊戲化互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2162,
+    "name": "虛擬課程社群｜課程附帶專屬虛擬社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2163,
+    "name": "跨平台教材集中｜允許跨平台共享與整合教材。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2166,
+    "name": "多格式教材管理｜支援多格式教材的整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2172,
+    "name": "即時課堂互動平台｜提供即時課堂互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2176,
+    "name": "互動學習白板平台｜提供即時互動白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2180,
+    "name": "跨班級合作平台｜不同班級之間的合作工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2182,
+    "name": "弱點掃描管理｜集中進行弱點掃描與修補。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2186,
+    "name": "AI 入侵測試平台｜AI 自動化進行滲透測試。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2202,
+    "name": "互動式翻轉清單｜清單項目支援滑動或翻轉顯示更多資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2205,
+    "name": "全景互動背景｜支援 360 度全景互動背景顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2213,
+    "name": "多樣化佈局切換｜允許清單、卡片、網格佈局自由切換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2218,
+    "name": "互動內容牆｜用戶可透過互動瀏覽多內容牆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2222,
+    "name": "跨境支付中心｜集中管理跨境支付交易。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2226,
+    "name": "多平台庫存同步器｜自動同步不同平台的商品庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2234,
+    "name": "跨平台價格校準｜自動檢查與校準不同平台價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2241,
+    "name": "即時聊天室｜支援多人即時文字與語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2244,
+    "name": "直播互動彈幕系統｜直播中支援彈幕留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2246,
+    "name": "粉絲專屬互動區｜提供粉絲專屬的互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2249,
+    "name": "短影音互動模組｜提供短影音發佈與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2254,
+    "name": "AI 粉絲互動分析｜AI 分析粉絲互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2256,
+    "name": "直播互動遊戲平台｜直播中加入遊戲化互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2262,
+    "name": "虛擬課堂互動平台｜提供虛擬課堂互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2264,
+    "name": "作業批改自動化｜AI 自動批改學生提交的作業。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2271,
+    "name": "虛擬助教模組｜提供虛擬助教協助課堂管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2272,
+    "name": "即時互動課堂｜課堂中支援即時互動交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2276,
+    "name": "互動式白板系統｜提供師生即時互動的白板工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2277,
+    "name": "課程專屬社群模組｜課程附帶專屬的社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2279,
+    "name": "作業回饋工具｜學生提交後立即提供回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2280,
+    "name": "跨班級合作工具｜允許不同班級學生協作專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2282,
+    "name": "弱點修補平台｜集中管理與修補系統弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2285,
+    "name": "隱私合規檢查｜自動檢查系統隱私合規性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2286,
+    "name": "AI 入侵模擬工具｜AI 模擬駭客入侵進行測試。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2289,
+    "name": "災難復原工具｜提供完整的災難復原流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2300,
+    "name": "隱私資料加密工具｜自動加密平台內的隱私資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2302,
+    "name": "互動式分頁切換｜支援分頁之間的互動式切換效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2312,
+    "name": "AI UI 測試助手｜AI 自動檢測 UI 問題並給出改善建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2313,
+    "name": "多種版面模式｜支援清單、卡片、瀑布流等多種版面。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2318,
+    "name": "互動式內容走廊｜用戶可透過滑動互動查看內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2322,
+    "name": "跨境交易管理｜集中管理跨境交易與金流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2326,
+    "name": "多平台庫存控管｜自動控管並同步多平台商品庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2332,
+    "name": "商品比較清單模組｜消費者可建立商品比較清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2334,
+    "name": "跨平台價格比對｜自動比對不同平台的商品價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2341,
+    "name": "即時互動聊天室｜支援多人即時互動的聊天室功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2342,
+    "name": "AI 社群互動洞察｜AI 分析社群互動並提供洞察。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2344,
+    "name": "直播互動工具｜支援直播中即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2346,
+    "name": "粉絲專屬社群｜建立粉絲專屬的社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2350,
+    "name": "社群投票工具｜提供集中管理的投票功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2353,
+    "name": "留言板平台｜集中展示與互動留言內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2354,
+    "name": "AI 粉絲互動洞察｜AI 分析粉絲互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2356,
+    "name": "直播遊戲互動｜直播中提供遊戲化互動體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2362,
+    "name": "虛擬課堂互動系統｜支援虛擬課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2363,
+    "name": "跨平台教材共享引擎｜允許跨平台教材的共享與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2366,
+    "name": "多格式教材匯入｜支援多格式教材匯入與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2369,
+    "name": "AI 學習助手平台｜AI 即時提供學生學習建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2372,
+    "name": "即時課堂互動系統｜支援課堂內即時互動交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2376,
+    "name": "互動式教學白板｜師生可即時協作的互動白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2382,
+    "name": "弱點修補管理平台｜集中管理系統弱點與修補狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2385,
+    "name": "隱私保護引擎｜集中管理隱私數據的保護措施。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2386,
+    "name": "AI 入侵測試工具｜AI 自動進行滲透測試。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2389,
+    "name": "災難復原平台｜集中管理並測試災難復原流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2397,
+    "name": "AI 資安教育平台｜AI 提供互動式資安教育功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2409,
+    "name": "語音互動助手｜提供語音驅動的操作與互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2416,
+    "name": "懸浮式語音導覽｜懸浮式語音互動導覽功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2418,
+    "name": "互動內容流｜以流式滑動方式呈現互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2422,
+    "name": "跨境交易平台｜提供跨境交易整合管理功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2426,
+    "name": "多平台庫存引擎｜自動同步並管理多平台庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2431,
+    "name": "供應鏈監測工具｜集中監測供應鏈運作狀況。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2432,
+    "name": "商品比較清單｜允許顧客建立商品比較清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2433,
+    "name": "團購自動化模組｜自動管理團購流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2441,
+    "name": "即時群組語音｜支援多人即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2443,
+    "name": "匿名留言平台｜允許匿名留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2446,
+    "name": "粉絲專屬模組｜粉絲可進入專屬互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2452,
+    "name": "匿名互動問答｜允許匿名進行問答交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2453,
+    "name": "留言互動中心｜集中展示留言與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2456,
+    "name": "直播互動遊戲模組｜直播中支援遊戲化的互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2462,
+    "name": "虛擬課堂社群｜課堂內附帶虛擬社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2463,
+    "name": "跨平台教材整合｜整合不同平台的教材資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2469,
+    "name": "AI 學習助手模組｜AI 提供即時學習輔助建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2472,
+    "name": "即時互動課堂｜課程內支援即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2476,
+    "name": "互動白板平台｜支援師生即時互動的白板功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2482,
+    "name": "弱點管理工具｜集中管理弱點與修補進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2487,
+    "name": "行為異常分析工具｜分析使用者異常行為並發出警示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2492,
+    "name": "資料外洩偵測工具｜偵測並防護潛在資料外洩事件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2497,
+    "name": "AI 資安教育助手｜提供互動式資安教育模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2512,
+    "name": "AI UI 改進助手｜AI 偵測 UI 問題並提供改進建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2516,
+    "name": "懸浮語音互動｜懸浮語音模組支援操作與問答。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2518,
+    "name": "互動式內容牆｜支援動態互動內容牆展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2522,
+    "name": "跨境結帳平台｜提供跨境結帳功能的整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2526,
+    "name": "多平台庫存管理器｜集中管理多平台的商品庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2532,
+    "name": "商品比較工具｜允許顧客比較多項商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2540,
+    "name": "自動化分潤平台｜依合約比例自動分潤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2542,
+    "name": "AI 社群行為分析｜AI 分析社群互動行為模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2543,
+    "name": "匿名互動平台｜允許匿名發表與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2544,
+    "name": "直播互動挑戰｜直播過程提供互動挑戰任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2546,
+    "name": "粉絲專屬圈子｜提供粉絲專屬的互動圈子。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2549,
+    "name": "短影音互動專區｜集中管理短影音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2550,
+    "name": "社群投票平台｜允許社群發起與管理投票。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2553,
+    "name": "社群留言互動｜集中管理留言與回覆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2554,
+    "name": "AI 粉絲互動分析｜AI 提供粉絲互動數據報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2556,
+    "name": "直播遊戲化模組｜直播時提供遊戲化互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2562,
+    "name": "虛擬課程互動系統｜支援虛擬課程即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2566,
+    "name": "教材多格式整合｜支援多種教材格式整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2567,
+    "name": "學生進度分析工具｜即時分析學生進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2572,
+    "name": "即時課堂互動模組｜提供課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2576,
+    "name": "互動白板平台｜師生即時使用的互動白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2582,
+    "name": "弱點掃描工具｜自動進行弱點掃描並回報。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2591,
+    "name": "AI 資安顧問助手｜AI 提供即時資安顧問建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2597,
+    "name": "AI 資安教育中心｜AI 提供互動資安教育模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2599,
+    "name": "金流詐騙防護工具｜即時防護可疑金流交易。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2602,
+    "name": "互動式全景展示｜支援互動式 360 度全景展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2608,
+    "name": "滾動互動特效｜滾動時觸發多種互動效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2612,
+    "name": "AI UI 檢測助手｜AI 自動檢測 UI 問題並提供改善方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2616,
+    "name": "懸浮式語音互動｜支援懸浮語音輸入與對話功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2618,
+    "name": "互動式內容導覽｜用戶可滑動切換不同內容區塊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2622,
+    "name": "跨境金流整合｜支援跨境支付與金流整合管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2626,
+    "name": "多平台庫存控管器｜自動同步並控管多平台商品庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2641,
+    "name": "即時互動視訊｜支援即時視訊互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2643,
+    "name": "匿名社群平台｜允許匿名發言與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2644,
+    "name": "直播互動問答｜直播過程提供即時問答功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2646,
+    "name": "粉絲專屬互動社群｜提供粉絲專屬的社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2650,
+    "name": "社群投票工具｜提供集中管理的投票功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2652,
+    "name": "匿名問答互動｜允許匿名提問並獲得回覆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2653,
+    "name": "留言牆互動模組｜集中展示留言互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2656,
+    "name": "直播遊戲互動模組｜直播中加入遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2662,
+    "name": "虛擬課堂模組｜支援虛擬課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2666,
+    "name": "多格式教材工具｜支援 PDF、影音等格式教材。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2670,
+    "name": "課程成果展示工具｜提供課程成果展示平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2671,
+    "name": "虛擬助教系統｜協助教師進行課程管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2676,
+    "name": "互動式白板模組｜支援師生即時互動的白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2677,
+    "name": "課程專屬社群工具｜課程附帶專屬社群功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2693,
+    "name": "跨雲資安整合｜整合不同雲端的資安策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2700,
+    "name": "隱私數據加密平台｜自動化隱私數據加密處理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2705,
+    "name": "全景互動模式｜支援沉浸式全景互動體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2712,
+    "name": "AI UI 風格校正｜AI 自動檢查並修正 UI 風格一致性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2716,
+    "name": "懸浮式語音助手｜支援懸浮語音助理互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2718,
+    "name": "互動式橫向瀏覽｜允許橫向滑動切換內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2726,
+    "name": "多平台庫存同步工具｜多平台之間自動同步庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2730,
+    "name": "AI 動態定價工具｜AI 根據需求與成本自動調整價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2734,
+    "name": "跨平台價格同步｜確保不同平台價格一致。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2737,
+    "name": "物流自動排程｜AI 計算最佳物流配送順序。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2741,
+    "name": "即時群組視訊｜支援多人即時群組視訊互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2742,
+    "name": "AI 社群情緒分析｜AI 分析社群互動的情緒走向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2743,
+    "name": "匿名互動平台｜允許成員匿名交流與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2744,
+    "name": "直播互動遊戲｜直播過程中支援遊戲化挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2746,
+    "name": "粉絲專屬圈子｜提供粉絲專屬互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2749,
+    "name": "短影音專區｜集中管理短影音互動與挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2750,
+    "name": "社群投票中心｜提供投票管理與結果展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2753,
+    "name": "留言牆模組｜集中展示留言內容與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2756,
+    "name": "直播互動工具｜直播中提供互動功能模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2762,
+    "name": "虛擬課堂引擎｜支援虛擬課堂互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2763,
+    "name": "跨平台教材管理｜集中管理並共享不同平台教材。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2772,
+    "name": "即時互動課程｜提供即時互動課堂體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2776,
+    "name": "互動教學白板｜提供師生互動的白板平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2777,
+    "name": "課程社群平台｜課程內建專屬社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2785,
+    "name": "隱私合規工具｜檢查平台隱私與合規性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2787,
+    "name": "異常行為偵測工具｜即時分析異常行為並警示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2797,
+    "name": "AI 資安教育引擎｜提供互動式資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2807,
+    "name": "拖曳式多頁管理｜允許使用者拖曳方式管理多頁內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2809,
+    "name": "語音互動中心｜集中管理語音指令與互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2813,
+    "name": "多樣化顯示切換｜支援清單、卡片、瀑布流等顯示切換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2818,
+    "name": "互動式分屏瀏覽｜允許用戶同時分屏查看多內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2822,
+    "name": "跨境電商支付｜支援跨境電商支付流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2826,
+    "name": "多平台庫存管理器｜集中管理多平台的商品庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2830,
+    "name": "AI 智能價格管理｜AI 即時提供價格調整建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2831,
+    "name": "供應鏈追蹤工具｜集中追蹤供應鏈運作狀況。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2841,
+    "name": "即時語音聊天室｜支援即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2844,
+    "name": "直播挑戰平台｜直播時提供挑戰與互動遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2846,
+    "name": "粉絲互動專屬區｜提供粉絲專屬的互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2847,
+    "name": "群組共享工具｜允許群組共享檔案與資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2849,
+    "name": "短影音社群平台｜專屬短影音的社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2853,
+    "name": "留言互動中心｜集中顯示留言與互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2856,
+    "name": "直播遊戲互動引擎｜直播中提供遊戲互動體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2862,
+    "name": "虛擬課堂互動平台｜提供虛擬課堂的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2863,
+    "name": "跨平台教材工具｜允許跨平台共享教材。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2864,
+    "name": "作業 AI 批改工具｜AI 自動批改作業。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2866,
+    "name": "多格式教材平台｜支援不同格式教材管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2869,
+    "name": "AI 學習輔助工具｜AI 提供即時學習幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2871,
+    "name": "虛擬教學助理｜支援教師管理課程的虛擬助理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2872,
+    "name": "即時課堂平台｜支援即時課堂互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2876,
+    "name": "互動教學白板平台｜提供互動教學的白板功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2879,
+    "name": "作業回饋工具｜學生提交作業後可立即獲得回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2882,
+    "name": "弱點檢測平台｜自動化檢測並報告系統弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2885,
+    "name": "隱私數據合規平台｜檢查並確保隱私數據符合規範。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2892,
+    "name": "資料外洩防護工具｜即時偵測與防護資料外洩事件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2918,
+    "name": "互動式滑動內容流｜支援滑動切換不同內容模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2922,
+    "name": "跨境交易自動化｜跨境電商交易的自動化管理模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2926,
+    "name": "多平台庫存共享器｜跨多平台自動同步庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2933,
+    "name": "團購專案控管｜自動化控管團購流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2943,
+    "name": "匿名社群互動模組｜允許用戶匿名參與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2946,
+    "name": "粉絲圈子平台｜粉絲專屬的互動圈子。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2949,
+    "name": "短影音互動平台｜集中管理短影音挑戰與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2953,
+    "name": "留言展示平台｜提供集中展示留言的互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2956,
+    "name": "直播遊戲互動平台｜直播中提供遊戲化的互動工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2960,
+    "name": "專題社群交流模組｜支援針對專題建立社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2964,
+    "name": "作業智能批改工具｜AI 自動化作業批改。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2969,
+    "name": "AI 學習助手平台｜AI 即時提供學習輔助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2972,
+    "name": "即時互動課堂系統｜支援課堂內即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2974,
+    "name": "學生學習挑戰平台｜提供學生互動挑戰模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2976,
+    "name": "互動式課堂白板｜支援師生共同使用的互動白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2977,
+    "name": "課程社群互動平台｜課程附帶的專屬社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2982,
+    "name": "弱點管理工具｜集中控管與修補弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2989,
+    "name": "災難復原支援系統｜提供災難復原流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2991,
+    "name": "AI 資安輔助工具｜AI 提供即時資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 2997,
+    "name": "AI 資安教育平台｜提供互動式資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3000,
+    "name": "隱私加密服務｜自動化隱私數據加密服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3002,
+    "name": "互動式 3D 菜單｜提供 3D 效果的互動式操作菜單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3005,
+    "name": "全景互動牆｜支援全景模式的內容展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3009,
+    "name": "語音互動輸入｜支援語音輸入與即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3022,
+    "name": "跨境支付中心｜整合管理跨境支付交易。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3026,
+    "name": "多平台庫存共享中心｜集中管理多平台的庫存資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3033,
+    "name": "團購管理平台｜集中管理團購功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3034,
+    "name": "跨平台價格引擎｜自動同步與調整多平台價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3043,
+    "name": "匿名分享牆｜允許匿名發布與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3044,
+    "name": "直播互動遊戲平台｜支援直播過程的互動遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3046,
+    "name": "粉絲專屬空間｜粉絲專屬的互動功能平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3047,
+    "name": "群組資源共享工具｜允許群組共享檔案與資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3050,
+    "name": "社群投票功能｜集中管理投票與回饋功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3053,
+    "name": "留言牆展示模組｜集中展示留言內容與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3054,
+    "name": "AI 粉絲互動平台｜AI 分析粉絲互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3056,
+    "name": "直播遊戲工具｜提供遊戲化直播互動模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3062,
+    "name": "虛擬課堂平台｜提供虛擬課堂的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3064,
+    "name": "AI 作業批改平台｜AI 自動化批改作業並提供分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3066,
+    "name": "多格式教材共享平台｜支援多格式教材的共享與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3069,
+    "name": "AI 學習助手工具｜提供學生學習建議與幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3071,
+    "name": "虛擬助教助手｜協助教師進行教學支援。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3072,
+    "name": "即時互動課堂模組｜提供課程中的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3074,
+    "name": "學生互動挑戰｜提供學生挑戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3076,
+    "name": "互動式課堂白板｜支援即時協作的教學白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3079,
+    "name": "作業即時回饋工具｜提供學生作業即時回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3082,
+    "name": "弱點檢測引擎｜自動檢測與管理系統弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3097,
+    "name": "AI 資安教育引擎｜提供互動資安教育功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3100,
+    "name": "隱私數據加密工具｜提供隱私數據加密服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3112,
+    "name": "AI UI 風格助手｜AI 協助保持 UI 風格一致性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3118,
+    "name": "互動式橫向內容流｜支援橫向滑動切換不同內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3122,
+    "name": "跨境交易模組｜支援跨境電商交易與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3126,
+    "name": "多平台庫存引擎｜自動同步並管理多平台庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3134,
+    "name": "跨平台價格控管｜自動同步不同平台的商品價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3137,
+    "name": "物流最佳化工具｜AI 提供物流配送最佳方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3140,
+    "name": "自動分潤引擎｜自動化處理多方分潤計算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3141,
+    "name": "即時視訊互動｜支援多人的即時視訊互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3142,
+    "name": "AI 社群互動分析｜AI 提供社群互動數據分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3143,
+    "name": "匿名交流平台｜允許匿名交流與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3144,
+    "name": "直播互動任務｜直播中支援任務挑戰與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3146,
+    "name": "粉絲專屬互動區｜粉絲可進入專屬互動區域。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3149,
+    "name": "短影音互動專區｜專門針對短影音的互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3150,
+    "name": "社群投票平台｜集中管理投票與回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3153,
+    "name": "留言互動平台｜集中管理社群留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3154,
+    "name": "AI 粉絲行為報告｜AI 提供粉絲行為與互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3156,
+    "name": "直播遊戲模組｜直播過程提供遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3160,
+    "name": "專題社群模組｜建立專題社群互動專區。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3162,
+    "name": "虛擬課堂互動模組｜支援虛擬課堂的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3163,
+    "name": "跨平台教材模組｜支援不同平台教材的同步與分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3166,
+    "name": "教材多格式模組｜支援多格式教材的管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3172,
+    "name": "即時互動教學平台｜支援課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3174,
+    "name": "學生任務互動模組｜學生可參與互動任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3176,
+    "name": "互動課堂白板｜師生可即時使用的互動白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3191,
+    "name": "AI 資安顧問助手｜AI 提供資安顧問支援。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3196,
+    "name": "風險預警系統｜提供風險預警與管理報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3197,
+    "name": "AI 資安教育模組｜互動式 AI 資安教育平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3199,
+    "name": "金流詐騙監測工具｜即時監測金流詐騙行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3202,
+    "name": "互動式 3D 模型瀏覽｜支援 3D 模型的瀏覽與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3203,
+    "name": "懸浮多功能工具列｜提供懸浮式的多功能操作工具列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3209,
+    "name": "語音輸入互動器｜支援語音輸入與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3218,
+    "name": "互動式翻頁瀏覽｜支援翻頁式的內容切換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3226,
+    "name": "多平台庫存中心｜集中管理多平台庫存數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3232,
+    "name": "商品比較工具箱｜集中管理商品比較工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3233,
+    "name": "團購自動化平台｜自動化控管團購流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3241,
+    "name": "即時語音互動平台｜支援多人即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3244,
+    "name": "直播挑戰模組｜直播中支援挑戰與互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3245,
+    "name": "社群徽章中心｜集中展示與管理成員徽章。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3246,
+    "name": "粉絲互動空間｜粉絲專屬的互動交流空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3250,
+    "name": "社群投票工具箱｜集中控管社群投票功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3253,
+    "name": "留言牆互動區｜集中展示留言牆的互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3255,
+    "name": "簽到回饋工具｜簽到後提供獎勵與回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3256,
+    "name": "直播遊戲互動工具｜直播提供遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3260,
+    "name": "專題社群交流工具｜針對專題建立的社群互動模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3263,
+    "name": "跨平台教材共享器｜跨平台同步與共享教材。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3264,
+    "name": "AI 作業批改工具｜AI 自動批改作業並提供成績。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3266,
+    "name": "教材格式轉換器｜支援教材的格式轉換功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3269,
+    "name": "AI 學習輔助工具｜即時提供學習幫助與建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3272,
+    "name": "即時互動學習模組｜課堂提供即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3276,
+    "name": "互動白板工具｜提供師生即時互動白板功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3277,
+    "name": "課程社群平台｜課程內建的社群互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3284,
+    "name": "跨平台登入控管器｜集中管理跨平台登入行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3297,
+    "name": "AI 資安教育平台｜提供互動式資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3300,
+    "name": "隱私加密管理系統｜集中控管隱私加密服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3302,
+    "name": "互動式 3D 控制面板｜支援 3D 視覺效果的操作控制面板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3303,
+    "name": "懸浮搜尋助手｜提供懸浮式的快速搜尋功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3309,
+    "name": "語音互動助手｜提供語音輸入與操作控制功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3312,
+    "name": "AI UI 改善助手｜AI 提供 UI 改善與優化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3315,
+    "name": "智慧錯誤修正工具｜AI 即時修正錯誤操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3322,
+    "name": "跨境支付模組｜支援跨境支付流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3326,
+    "name": "多平台庫存同步器｜自動同步多平台庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3330,
+    "name": "AI 價格調整平台｜AI 自動化調整價格策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3332,
+    "name": "商品比較工具｜集中提供商品比較功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3341,
+    "name": "即時群組語音平台｜支援多人即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3342,
+    "name": "AI 社群內容分析｜AI 分析社群互動內容與趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3343,
+    "name": "匿名互動中心｜允許匿名參與社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3344,
+    "name": "直播互動工具箱｜直播提供多種互動工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3346,
+    "name": "粉絲專屬圈子平台｜提供粉絲專屬的互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3350,
+    "name": "社群投票中心｜集中管理社群投票結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3352,
+    "name": "匿名問答引擎｜允許匿名進行問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3354,
+    "name": "AI 粉絲行為引擎｜AI 分析粉絲的互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3362,
+    "name": "虛擬課堂互動系統｜支援虛擬課堂的互動教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3363,
+    "name": "跨平台教材整合｜允許跨平台共享教材內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3366,
+    "name": "教材多格式轉換｜支援教材的多格式轉換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3367,
+    "name": "學生進度追蹤工具｜追蹤學生的學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3371,
+    "name": "虛擬助教模組｜教師輔助的虛擬助教工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3372,
+    "name": "即時課堂互動平台｜支援課堂中的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3376,
+    "name": "互動教學白板｜支援即時的教學白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3382,
+    "name": "弱點管理模組｜集中管理系統弱點與修補。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3386,
+    "name": "AI 入侵防禦平台｜AI 自動化防禦入侵攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3387,
+    "name": "異常行為分析工具｜偵測與分析異常行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3388,
+    "name": "Bot 攻擊防禦模組｜阻擋自動化 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3396,
+    "name": "風險預測工具｜AI 預測資安風險。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3397,
+    "name": "AI 資安教育中心｜提供資安互動式教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3402,
+    "name": "互動式 3D 面板｜提供 3D 面板的互動與展示功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3403,
+    "name": "懸浮全域工具列｜提供隨時可用的懸浮工具列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3407,
+    "name": "拖曳式多模組管理｜允許用戶透過拖曳方式管理多模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3415,
+    "name": "智慧錯誤防範工具｜AI 提供錯誤防範與修正提示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3422,
+    "name": "跨境電商支付平台｜整合多種跨境支付方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3423,
+    "name": "限時優惠中心｜集中管理與發佈限時優惠。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3426,
+    "name": "多平台庫存整合｜自動同步並整合多平台庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3439,
+    "name": "批次帳務工具｜允許批量處理帳務與帳單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3441,
+    "name": "即時語音互動器｜支援即時語音通話與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3443,
+    "name": "匿名交流中心｜提供匿名互動與交流功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3446,
+    "name": "粉絲專屬互動圈｜粉絲專屬的互動社群平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3447,
+    "name": "群組共享管理器｜群組成員共享檔案與資源的管理工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3449,
+    "name": "短影音挑戰平台｜集中管理短影音挑戰賽事。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3453,
+    "name": "留言互動模組｜集中展示留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3454,
+    "name": "AI 粉絲洞察平台｜AI 分析粉絲互動行為與數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3456,
+    "name": "直播遊戲模組｜支援直播中的遊戲互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3460,
+    "name": "專題交流平台｜建立專題性的社群互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3462,
+    "name": "虛擬課堂即時互動｜支援虛擬課堂的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3463,
+    "name": "跨平台教材同步器｜跨平台自動同步教材內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3471,
+    "name": "虛擬教學助理平台｜教師輔助的虛擬教學工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3472,
+    "name": "即時互動課堂模組｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3476,
+    "name": "互動白板教學平台｜支援師生互動的教學白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3482,
+    "name": "弱點掃描工具｜提供系統弱點的掃描與回報。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3491,
+    "name": "AI 資安助手｜AI 提供即時資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3494,
+    "name": "登入異常分析工具｜偵測登入異常並提供報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3497,
+    "name": "AI 資安教育系統｜提供互動式資安教育模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3500,
+    "name": "隱私加密工具｜提供隱私數據的加密與保護。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3502,
+    "name": "互動式 3D 介面｜提供 3D 視覺介面的互動與操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3503,
+    "name": "懸浮快捷工具列｜支援隨時喚出的懸浮快捷工具列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3512,
+    "name": "AI UI 分析助手｜AI 自動檢測 UI 問題並提供建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3519,
+    "name": "AI 體驗建議助手｜AI 即時提供 UX 體驗改善建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3522,
+    "name": "跨境結算平台｜集中管理跨境支付結算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3526,
+    "name": "多平台庫存共享引擎｜同步多平台商品庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3532,
+    "name": "商品比較分析工具｜支援多商品比較。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3541,
+    "name": "即時多方語音平台｜支援多方即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3546,
+    "name": "粉絲互動專區｜粉絲專屬的互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3547,
+    "name": "群組檔案共享工具｜群組內共享檔案與資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3552,
+    "name": "匿名問答模組｜支援匿名問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3553,
+    "name": "留言牆互動平台｜集中展示留言牆互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3556,
+    "name": "直播遊戲互動器｜提供直播過程遊戲互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3560,
+    "name": "專題交流平台｜針對特定主題的社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3562,
+    "name": "虛擬課堂互動中心｜提供虛擬課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3563,
+    "name": "跨平台教材共享器｜允許不同平台教材同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3566,
+    "name": "教材多格式工具｜支援教材多種格式的轉換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3569,
+    "name": "AI 學習助手工具｜即時提供學生學習幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3571,
+    "name": "虛擬助教引擎｜AI 協助教師進行課程管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3572,
+    "name": "即時互動學習模組｜課程內建的即時互動模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3574,
+    "name": "學生互動任務平台｜提供學生任務挑戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3575,
+    "name": "教材翻譯助手｜教材自動翻譯成多國語言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3576,
+    "name": "互動式教學白板｜提供師生互動的白板功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3580,
+    "name": "跨校專案合作工具｜支援跨校學生合作的專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3582,
+    "name": "弱點偵測系統｜自動偵測與管理弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3588,
+    "name": "Bot 攻擊防護中心｜集中防禦自動化 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3591,
+    "name": "AI 資安協助工具｜AI 即時提供資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3597,
+    "name": "AI 資安教育助手｜提供互動式資安教育模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3609,
+    "name": "語音互動系統｜支援語音操作與輸入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3610,
+    "name": "即時互動數據牆｜數據以牆面形式即時更新展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3616,
+    "name": "懸浮語音導覽工具｜提供懸浮式語音導覽服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3619,
+    "name": "AI 體驗最佳化助手｜AI 提供即時 UX 最佳化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3622,
+    "name": "跨境交易控管平台｜集中管理跨境交易與支付。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3626,
+    "name": "多平台庫存集中器｜集中管理多平台的庫存數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3634,
+    "name": "跨平台價格同步器｜自動同步多平台價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3635,
+    "name": "AI 熱銷預測工具｜AI 預測並推薦潛在熱銷商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3643,
+    "name": "匿名社群交流平台｜允許匿名交流與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3644,
+    "name": "直播互動任務平台｜直播中提供互動任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3646,
+    "name": "粉絲專屬互動平台｜粉絲專屬的互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3652,
+    "name": "匿名問答平台｜支援匿名提問與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3653,
+    "name": "留言互動展示牆｜集中展示留言與回覆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3654,
+    "name": "AI 粉絲互動數據｜AI 分析粉絲的互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3656,
+    "name": "直播遊戲工具箱｜直播過程中提供遊戲互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3660,
+    "name": "專題互動社群｜提供專題性交流的社群平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3662,
+    "name": "虛擬課堂互動平台｜支援虛擬課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3663,
+    "name": "跨平台教材整合器｜整合不同平台教材資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3671,
+    "name": "虛擬教學助理平台｜教師專屬的虛擬助理工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3672,
+    "name": "即時課堂互動工具｜支援課堂中的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3674,
+    "name": "學生互動任務平台｜支援學生參與任務挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3676,
+    "name": "互動式白板工具｜支援師生即時互動白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3689,
+    "name": "災難復原平台｜集中管理災難復原流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3695,
+    "name": "端點資安控管器｜集中管理端點資安設備。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3697,
+    "name": "AI 資安教育工具｜提供互動式資安教育平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3700,
+    "name": "隱私加密工具｜集中提供隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3702,
+    "name": "互動式 3D 導覽｜提供 3D 導覽與互動展示效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3716,
+    "name": "懸浮語音小幫手｜提供懸浮式的語音操作助手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3718,
+    "name": "互動翻頁平台｜支援翻頁式內容瀏覽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3719,
+    "name": "AI 體驗分析助手｜AI 即時分析用戶體驗並提供建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3722,
+    "name": "跨境支付解決方案｜提供跨境支付整合與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3729,
+    "name": "批發管理工具｜支援批發客戶的訂單與價格管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3734,
+    "name": "跨平台價格同步平台｜自動同步多平台價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3741,
+    "name": "即時多人語音互動｜支援多人即時語音通話與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3743,
+    "name": "匿名社群平台｜提供匿名互動與交流功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3744,
+    "name": "直播互動遊戲模組｜直播中支援遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3746,
+    "name": "粉絲互動專屬平台｜粉絲專屬的互動交流空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3753,
+    "name": "留言牆互動工具｜集中展示留言互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3758,
+    "name": "即時新聞互動平台｜集中展示即時新聞內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3762,
+    "name": "虛擬課堂互動系統｜支援虛擬課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3763,
+    "name": "跨平台教材同步模組｜教材可跨平台同步與共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3765,
+    "name": "AI 學習數據中心｜集中管理學生學習數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3766,
+    "name": "教材格式轉換平台｜支援教材格式的轉換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3772,
+    "name": "即時互動課堂平台｜支援課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3774,
+    "name": "學生任務互動平台｜提供學生互動任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3775,
+    "name": "多語教材翻譯工具｜教材自動翻譯為多種語言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3776,
+    "name": "互動式教學白板｜支援即時互動教學白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3788,
+    "name": "Bot 攻擊攔截平台｜偵測並攔截自動化 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3796,
+    "name": "風險分析工具｜提供即時風險分析報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3797,
+    "name": "AI 資安教育助手｜提供互動式的資安教育體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3800,
+    "name": "隱私數據加密中心｜集中管理隱私數據加密技術。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3801,
+    "name": "AI 動態主題助手｜AI 根據時間與情境自動套用不同主題風格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3803,
+    "name": "懸浮控制快捷列｜提供隨時可呼叫的懸浮式快捷工具列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3805,
+    "name": "全景式互動視覺｜提供全景式的沉浸視覺展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3807,
+    "name": "拖曳式互動面板｜允許使用者透過拖曳方式自由編排面板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3808,
+    "name": "滾動視差引擎｜支援滾動視差的互動效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3815,
+    "name": "智慧錯誤修正助手｜AI 自動偵測並修正錯誤操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3822,
+    "name": "跨境支付整合平台｜支援多種跨境支付方式的整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3826,
+    "name": "多平台庫存管理平台｜集中管理多平台的庫存數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3830,
+    "name": "AI 自動化定價平台｜AI 自動提供商品定價建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3832,
+    "name": "商品比較助手｜支援多商品比較與分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3834,
+    "name": "跨平台價格自動同步｜自動同步不同平台間的價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3841,
+    "name": "即時會議互動平台｜支援多人即時會議與互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3843,
+    "name": "匿名互動專區｜提供匿名交流與互動的平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3844,
+    "name": "直播互動遊戲系統｜直播過程提供遊戲化互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3846,
+    "name": "粉絲專屬交流平台｜提供粉絲專屬的互動社群空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3849,
+    "name": "短影音互動中心｜專門提供短影音的互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3853,
+    "name": "留言牆交流平台｜集中展示留言牆互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3854,
+    "name": "AI 粉絲數據中心｜AI 分析粉絲的行為與互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3856,
+    "name": "直播互動模組｜直播中提供互動遊戲或問答功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3858,
+    "name": "即時新聞社群平台｜即時分享與互動新聞內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3862,
+    "name": "虛擬課堂互動引擎｜支援虛擬課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3863,
+    "name": "跨平台教材共享工具｜支援跨平台的教材同步與共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3867,
+    "name": "學生進度追蹤平台｜集中管理與展示學生進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3869,
+    "name": "AI 學習幫助助手｜AI 提供即時學習幫助與建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3871,
+    "name": "虛擬助教平台｜協助教師進行課程管理的虛擬助教。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3876,
+    "name": "互動教學白板工具｜支援即時的師生白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3885,
+    "name": "隱私數據保護平台｜集中管理隱私數據保護措施。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3889,
+    "name": "災難復原管理平台｜提供災難復原規劃與演練。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3894,
+    "name": "登入異常分析工具｜分析登入異常並提供解決方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3897,
+    "name": "AI 資安教育平台｜提供互動式資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3900,
+    "name": "隱私數據加密平台｜集中管理隱私數據的加密服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3902,
+    "name": "互動式 3D 面板系統｜支援 3D 面板的操作與展示功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3904,
+    "name": "智慧導航助手｜AI 即時提供最佳化的導航建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3907,
+    "name": "拖曳式內容管理器｜允許使用者透過拖曳方式編排內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3909,
+    "name": "語音互動平台｜提供語音輸入與控制的互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3930,
+    "name": "AI 自動化價格調整器｜AI 自動調整商品價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3933,
+    "name": "團購控管平台｜集中控管所有團購流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3937,
+    "name": "物流 AI 最佳化工具｜AI 計算最佳物流配送路徑。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3939,
+    "name": "批次帳單管理器｜允許批量處理帳單與收據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3943,
+    "name": "匿名互動社群｜允許用戶匿名參與社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3944,
+    "name": "直播互動任務引擎｜直播過程支援互動任務功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3947,
+    "name": "群組共享工具｜支援群組內的檔案與資源共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3953,
+    "name": "留言展示平台｜集中展示留言與互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3956,
+    "name": "直播遊戲工具｜提供直播過程中的遊戲化互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3958,
+    "name": "即時新聞互動平台｜即時推送新聞並支援互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3960,
+    "name": "專題社群互動平台｜針對專題建立的社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3962,
+    "name": "虛擬課堂互動平台｜支援虛擬課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3963,
+    "name": "跨平台教材管理器｜跨平台自動同步教材資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3966,
+    "name": "教材多格式平台｜支援教材多種格式轉換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3971,
+    "name": "虛擬助教中心｜協助教師的虛擬助教工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3972,
+    "name": "即時互動學習平台｜提供課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3976,
+    "name": "互動教學白板｜支援即時的教學白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3991,
+    "name": "AI 資安建議助手｜AI 提供即時的資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 3997,
+    "name": "AI 資安教育平台｜提供互動式資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4000,
+    "name": "隱私加密控管工具｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4002,
+    "name": "互動式 3D 控制平台｜支援 3D 效果的互動控制平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4003,
+    "name": "懸浮智慧工具欄｜提供全域可呼叫的懸浮工具欄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4009,
+    "name": "語音互動助手｜提供語音輸入與操作控制功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4016,
+    "name": "懸浮語音助理平台｜提供懸浮式語音助手支援操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4022,
+    "name": "跨境支付模組｜整合多種跨境支付方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4028,
+    "name": "商品需求監測工具｜AI 監測商品需求變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4029,
+    "name": "批發訂單管理器｜支援批發客戶訂單管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4030,
+    "name": "AI 智能定價助手｜AI 提供商品定價建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4034,
+    "name": "跨平台價格一致性工具｜確保不同平台間價格一致。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4040,
+    "name": "自動分潤中心｜自動化計算與處理分潤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4041,
+    "name": "即時群組語音模組｜支援群組內的即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4043,
+    "name": "匿名交流平台｜提供匿名交流互動的功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4044,
+    "name": "直播互動任務平台｜直播過程中提供任務挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4046,
+    "name": "粉絲互動專區｜粉絲專屬的互動社群空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4049,
+    "name": "短影音展示平台｜集中管理短影音展示與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4052,
+    "name": "匿名問答平台｜允許匿名進行問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4053,
+    "name": "留言牆互動系統｜集中展示留言與互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4054,
+    "name": "AI 粉絲互動分析器｜AI 分析粉絲的互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4056,
+    "name": "直播遊戲模組｜支援直播中的遊戲互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4060,
+    "name": "專題社群平台｜提供專題性社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4062,
+    "name": "虛擬課堂即時互動模組｜支援虛擬課堂的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4063,
+    "name": "跨平台教材共享平台｜支援跨平台教材同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4066,
+    "name": "教材多格式共享工具｜支援教材多種格式共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4067,
+    "name": "學生進度管理平台｜可視化追蹤學生的學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4071,
+    "name": "虛擬助教工具｜協助教師課程管理的虛擬助教。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4072,
+    "name": "即時課堂互動平台｜提供課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4074,
+    "name": "學生互動挑戰模組｜提供學生互動挑戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4076,
+    "name": "互動教學白板模組｜支援即時教學白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4077,
+    "name": "課程社群平台｜課程附帶的社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4097,
+    "name": "AI 資安教育平台｜提供互動式的資安教育模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4100,
+    "name": "隱私加密平台｜集中管理隱私數據加密措施。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4102,
+    "name": "互動式 3D 體驗平台｜提供 3D 沉浸式體驗與操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4107,
+    "name": "拖曳式互動管理台｜允許用戶拖曳操作不同功能模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4109,
+    "name": "語音互動助手平台｜支援語音輸入與操作控制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4116,
+    "name": "懸浮語音助手模組｜隨時可呼叫的語音輸入助手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4118,
+    "name": "互動式翻頁平台｜提供翻頁式互動的展示效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4119,
+    "name": "AI 體驗分析助手｜AI 分析用戶體驗並提出優化方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4120,
+    "name": "情境化快捷操作工具｜依據情境提供快捷操作建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4122,
+    "name": "跨境支付結算平台｜集中管理跨境支付結算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4126,
+    "name": "多平台庫存控管系統｜集中管理多平台庫存數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4129,
+    "name": "批發交易平台｜支援批發交易與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4133,
+    "name": "團購控管平台｜集中管理團購功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4139,
+    "name": "批量帳務工具｜允許批量處理帳務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4142,
+    "name": "AI 社群互動分析｜AI 分析社群互動並提供報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4143,
+    "name": "匿名互動平台｜允許用戶匿名互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4144,
+    "name": "直播挑戰模組｜直播過程提供挑戰與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4152,
+    "name": "匿名問答工具｜支援匿名的問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4153,
+    "name": "留言互動展示平台｜集中展示留言牆互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4154,
+    "name": "AI 粉絲洞察引擎｜AI 分析粉絲互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4156,
+    "name": "直播遊戲互動平台｜支援直播過程中的遊戲互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4158,
+    "name": "即時新聞互動平台｜提供即時新聞推送與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4162,
+    "name": "虛擬課堂互動模組｜支援虛擬課堂的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4163,
+    "name": "跨平台教材控管平台｜集中管理跨平台教材內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4167,
+    "name": "學生進度管理系統｜提供學生進度管理功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4172,
+    "name": "即時互動教學平台｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4174,
+    "name": "學生互動專區｜提供學生互動與任務功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4176,
+    "name": "互動白板平台｜支援即時的互動白板教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4177,
+    "name": "課程社群交流模組｜課程附屬的社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4193,
+    "name": "跨雲資安控管平台｜集中管理跨雲端資安。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4195,
+    "name": "端點資安管理平台｜集中管理端點設備資安。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4197,
+    "name": "AI 資安教育平台｜提供互動式資安教育模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4203,
+    "name": "懸浮控制工具列｜提供可全域呼叫的懸浮控制列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4207,
+    "name": "拖曳式元件組合平台｜支援元件拖曳組合的 UI 管理平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4209,
+    "name": "語音互動操作平台｜支援語音輸入與指令操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4210,
+    "name": "即時互動數據牆｜集中展示即時互動數據內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4212,
+    "name": "AI UI 監測助手｜AI 即時監測並提出 UI 優化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4222,
+    "name": "跨境支付智能管理器｜集中管理跨境支付與交易。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4233,
+    "name": "團購流程管理系統｜支援團購全流程控管。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4234,
+    "name": "跨平台價格統一工具｜確保跨平台價格一致。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4237,
+    "name": "物流 AI 排程引擎｜AI 自動規劃物流配送排程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4240,
+    "name": "自動分潤管理平台｜依規則自動計算並分配分潤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4241,
+    "name": "即時群組互動平台｜支援群組即時文字與語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4244,
+    "name": "直播互動中心｜支援直播中的互動任務與遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4246,
+    "name": "粉絲互動空間｜粉絲專屬的交流與互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4249,
+    "name": "短影音分享平台｜集中展示短影音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4253,
+    "name": "留言牆展示平台｜集中展示留言牆互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4254,
+    "name": "AI 粉絲數據平台｜AI 分析粉絲數據與互動情況。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4255,
+    "name": "簽到互動平台｜提供簽到挑戰與互動任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4256,
+    "name": "直播互動遊戲模組｜直播過程提供遊戲互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4258,
+    "name": "即時新聞互動中心｜即時推送並互動新聞內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4260,
+    "name": "專題交流模組｜針對專題主題提供社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4262,
+    "name": "虛擬課堂互動平台｜支援虛擬課堂的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4263,
+    "name": "跨平台教材整合工具｜集中整合跨平台教材內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4266,
+    "name": "教材共享管理平台｜允許多格式教材共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4269,
+    "name": "AI 學習輔助助手｜即時提供學習輔助建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4272,
+    "name": "即時課堂互動模組｜支援課堂中的互動教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4276,
+    "name": "互動教學白板平台｜支援即時白板教學互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4282,
+    "name": "弱點掃描平台｜自動化掃描系統弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4291,
+    "name": "AI 資安助手｜AI 即時提供資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4294,
+    "name": "登入異常防護工具｜即時防護登入異常行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4297,
+    "name": "AI 資安教育平台｜提供互動式資安教育內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4299,
+    "name": "金流詐騙偵測工具｜即時偵測金流詐騙行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4300,
+    "name": "隱私數據加密工具｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4302,
+    "name": "互動式 3D 展示引擎｜提供 3D 效果的互動展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4305,
+    "name": "全景式數據展示平台｜支援全景數據互動視覺化展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4318,
+    "name": "翻頁互動模組｜支援翻頁式的互動展示效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4321,
+    "name": "AI 購物助手｜AI 即時提供購物建議與推薦。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4322,
+    "name": "跨境支付控管平台｜集中管理跨境支付狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4324,
+    "name": "商品履歷查詢工具｜允許用戶查詢商品完整履歷。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4329,
+    "name": "批發控管平台｜支援批發業務管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4332,
+    "name": "商品比較助手｜允許比較多個商品屬性與價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4341,
+    "name": "即時社群語音互動平台｜支援社群即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4342,
+    "name": "AI 社群監測工具｜AI 即時監測社群互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4343,
+    "name": "匿名交流社群｜提供匿名的社群互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4344,
+    "name": "直播互動模組｜支援直播過程的遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4346,
+    "name": "粉絲互動專區｜粉絲專屬的互動交流平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4349,
+    "name": "短影音互動中心｜集中管理短影音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4353,
+    "name": "留言互動展示牆｜集中展示留言互動牆內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4354,
+    "name": "AI 粉絲洞察工具｜AI 提供粉絲行為數據分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4355,
+    "name": "簽到互動模組｜提供簽到挑戰與獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4356,
+    "name": "直播遊戲平台｜提供直播中的遊戲互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4358,
+    "name": "即時新聞互動平台｜推播並互動新聞內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4362,
+    "name": "虛擬課堂互動模組｜支援虛擬課堂的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4363,
+    "name": "跨平台教材管理平台｜集中管理教材跨平台共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4366,
+    "name": "教材共享工具｜允許教材多格式共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4371,
+    "name": "虛擬助教助手｜協助教師管理課程的虛擬助教。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4372,
+    "name": "即時互動平台｜提供課堂中的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4374,
+    "name": "學生挑戰平台｜提供互動式挑戰與任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4376,
+    "name": "互動白板模組｜支援即時教學互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4391,
+    "name": "AI 資安助手平台｜AI 提供即時資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4397,
+    "name": "AI 資安教育助手｜提供互動式資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4400,
+    "name": "隱私數據加密平台｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4402,
+    "name": "互動式 3D 內容展示器｜支援 3D 效果的互動展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4405,
+    "name": "全景數據視覺平台｜提供全景互動式數據展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4409,
+    "name": "語音互動操作助手｜支援語音操作控制功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4416,
+    "name": "懸浮語音交互平台｜隨時呼叫的語音互動模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4419,
+    "name": "AI 體驗最佳化助手｜AI 提供即時使用者體驗建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4422,
+    "name": "跨境支付控管系統｜集中管理跨境支付流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4429,
+    "name": "批發交易管理模組｜支援批發訂單控管。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4431,
+    "name": "供應鏈透明化工具｜提供供應鏈透明化管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4441,
+    "name": "即時語音互動平台｜支援即時語音互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4442,
+    "name": "AI 社群輿情工具｜AI 即時分析社群輿情。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4443,
+    "name": "匿名互動社群平台｜允許匿名參與社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4444,
+    "name": "直播遊戲互動模組｜支援直播中的遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4446,
+    "name": "粉絲專屬社群｜提供粉絲專屬的互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4447,
+    "name": "群組共享工具｜允許群組共享檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4449,
+    "name": "短影音挑戰平台｜支援短影音互動挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4453,
+    "name": "留言展示平台｜集中展示留言互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4458,
+    "name": "即時新聞社群模組｜即時推播新聞與互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4460,
+    "name": "專題社群交流平台｜提供專題性的社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4462,
+    "name": "虛擬課堂互動平台｜支援虛擬課堂互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4464,
+    "name": "AI 自動批改工具｜AI 自動批改學生作業。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4466,
+    "name": "教材管理平台｜允許教師集中管理教材。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4467,
+    "name": "學生進度控管工具｜可視化控管學生學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4472,
+    "name": "即時課堂互動模組｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4476,
+    "name": "互動式白板模組｜支援即時教學白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4491,
+    "name": "AI 資安助手平台｜AI 提供資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4495,
+    "name": "端點資安平台｜集中管理端點資安。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4497,
+    "name": "AI 資安教育工具｜提供互動式資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4500,
+    "name": "隱私數據加密平台｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4502,
+    "name": "互動式 3D 導覽模組｜提供 3D 效果的互動式導覽功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4509,
+    "name": "語音導覽互動平台｜支援語音控制與導覽功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4512,
+    "name": "AI UI 改善助手｜AI 即時提出 UI 改善建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4516,
+    "name": "懸浮語音助手中心｜懸浮式隨時可呼叫的語音助手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4522,
+    "name": "跨境支付智能系統｜集中管理跨境支付與清算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4523,
+    "name": "限時優惠推播工具｜即時推送限時優惠訊息。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4530,
+    "name": "AI 自動價格管理器｜AI 自動計算與調整價格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4532,
+    "name": "商品比較工具｜允許用戶比較多個商品資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4533,
+    "name": "團購管理平台｜集中管理團購全流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4535,
+    "name": "AI 熱銷分析工具｜AI 預測熱銷商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4537,
+    "name": "物流 AI 排程系統｜AI 提供物流排程最佳方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4540,
+    "name": "自動化分潤工具｜自動化分潤計算與分配。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4541,
+    "name": "即時互動語音平台｜支援多人即時語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4546,
+    "name": "粉絲互動社群｜提供粉絲專屬的交流社群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4549,
+    "name": "短影音分享模組｜支援短影音的互動分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4552,
+    "name": "匿名問答牆｜提供匿名問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4556,
+    "name": "直播互動平台｜直播過程提供互動遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4558,
+    "name": "即時新聞平台｜即時推播新聞與社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4560,
+    "name": "專題社群工具｜支援專題社群交流互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4562,
+    "name": "虛擬課堂互動系統｜支援虛擬課堂的互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4563,
+    "name": "跨平台教材整合平台｜集中整合跨平台教材內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4569,
+    "name": "AI 學習輔助工具｜AI 即時提供學習幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4571,
+    "name": "虛擬助教助手｜協助教師的虛擬助教。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4572,
+    "name": "即時課堂互動工具｜支援課堂中的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4576,
+    "name": "互動白板平台｜支援即時教學互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4577,
+    "name": "課程社群平台｜課程專屬社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4585,
+    "name": "隱私數據管理平台｜集中控管隱私數據保護。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4597,
+    "name": "AI 資安教育中心｜提供資安互動教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4600,
+    "name": "隱私數據加密平台｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4602,
+    "name": "互動式 3D 展演平台｜提供沉浸式 3D 視覺展演功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4603,
+    "name": "懸浮全域操作助手｜隨時可呼叫的懸浮式操作介面。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4604,
+    "name": "智慧路徑導航助手｜AI 即時提供導航與操作建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4605,
+    "name": "全景互動顯示牆｜支援全景互動數據展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4607,
+    "name": "拖曳式元件管理器｜允許透過拖曳方式管理 UI 元件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4609,
+    "name": "語音互動助手平台｜支援語音控制與操作功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4612,
+    "name": "AI UI 檢測助手｜AI 偵測 UI 問題並提供改善建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4616,
+    "name": "懸浮語音互動平台｜提供懸浮式語音交互功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4620,
+    "name": "情境化快捷助手｜根據情境提供快速操作建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4622,
+    "name": "跨境支付智能管理平台｜支援跨境支付的集中管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4626,
+    "name": "多平台庫存控管平台｜集中管理不同平台的庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4629,
+    "name": "批發商務平台｜支援批發交易管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4630,
+    "name": "AI 自動化價格平台｜AI 自動提供價格調整建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4631,
+    "name": "供應鏈透明化管理器｜集中展示供應鏈狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4640,
+    "name": "自動分潤管理器｜依規則自動處理分潤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4641,
+    "name": "即時語音交流平台｜支援即時多人語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4643,
+    "name": "匿名互動社群｜允許用戶匿名交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4649,
+    "name": "短影音分享中心｜集中管理短影音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4653,
+    "name": "留言互動展示平台｜集中展示留言與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4655,
+    "name": "簽到互動平台｜提供簽到任務與獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4656,
+    "name": "直播遊戲模組｜直播過程提供遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4658,
+    "name": "即時新聞互動模組｜即時推播並支援互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4662,
+    "name": "虛擬課堂互動模組｜支援虛擬課堂互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4664,
+    "name": "AI 批改助手｜AI 自動批改作業並回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4671,
+    "name": "虛擬助教助手｜支援教師的虛擬助教功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4672,
+    "name": "即時課堂互動平台｜支援即時課堂互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4674,
+    "name": "學生任務挑戰平台｜提供學生互動挑戰與任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4676,
+    "name": "互動白板平台｜支援即時教學互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4682,
+    "name": "弱點掃描平台｜提供自動化弱點掃描與報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4684,
+    "name": "跨平台登入檢測工具｜集中檢測跨平台登入異常。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4691,
+    "name": "AI 資安教育平台｜提供互動資安教育功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4697,
+    "name": "AI 資安助手｜AI 提供即時資安輔助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4700,
+    "name": "隱私加密平台｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4702,
+    "name": "3D 沉浸式互動模組｜支援 3D 沉浸式互動體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4709,
+    "name": "語音互動導覽平台｜支援語音輸入與導覽功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4716,
+    "name": "懸浮語音互動助手｜提供懸浮式語音操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4722,
+    "name": "跨境支付結算系統｜集中管理跨境支付與結算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4726,
+    "name": "多平台庫存整合平台｜集中整合多平台庫存資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4728,
+    "name": "商品需求偵測工具｜AI 偵測即時商品需求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4729,
+    "name": "批發交易管理器｜提供批發訂單管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4732,
+    "name": "商品比較工具｜允許比較多項商品資訊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4733,
+    "name": "團購整合平台｜支援團購功能的集中管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4734,
+    "name": "跨平台價格同步模組｜確保跨平台商品價格同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4741,
+    "name": "即時群組語音平台｜支援即時群組語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4742,
+    "name": "AI 社群分析平台｜AI 即時分析社群互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4743,
+    "name": "匿名社群互動平台｜允許匿名進行交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4744,
+    "name": "直播互動遊戲平台｜提供直播中的遊戲互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4746,
+    "name": "粉絲互動交流平台｜粉絲專屬的交流互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4749,
+    "name": "短影音互動平台｜集中展示短影音與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4750,
+    "name": "社群投票工具｜允許社群即時投票。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4752,
+    "name": "匿名問答互動牆｜支援匿名問答功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4753,
+    "name": "留言互動平台｜集中展示留言內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4754,
+    "name": "AI 粉絲行為洞察平台｜AI 分析粉絲互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4755,
+    "name": "簽到互動系統｜提供簽到獎勵與挑戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4758,
+    "name": "即時新聞互動平台｜推送並互動即時新聞。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4760,
+    "name": "專題社群互動平台｜針對專題提供交流平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4762,
+    "name": "虛擬課堂互動中心｜支援虛擬課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4769,
+    "name": "AI 學習助手｜AI 提供即時學習幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4772,
+    "name": "即時課堂互動平台｜支援課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4776,
+    "name": "互動白板模組｜支援即時白板教學互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4782,
+    "name": "弱點掃描工具｜提供弱點掃描與報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4787,
+    "name": "異常行為監測工具｜分析並偵測異常行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4791,
+    "name": "AI 資安教育工具｜提供互動式資安教育內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4797,
+    "name": "AI 資安助手｜AI 提供資安即時建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4802,
+    "name": "3D 全景互動模組｜提供 3D 全景展示與操作體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4803,
+    "name": "懸浮快捷助手｜支援懸浮式全域快捷功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4805,
+    "name": "全景數據互動平台｜支援全景數據互動展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4816,
+    "name": "懸浮語音助手｜懸浮式語音輸入與操作平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4818,
+    "name": "翻頁互動引擎｜提供翻頁式互動展示功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4822,
+    "name": "跨境支付平台｜集中管理跨境支付流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4829,
+    "name": "批發交易控管平台｜支援批發業務管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4831,
+    "name": "供應鏈控管平台｜可視化展示供應鏈流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4833,
+    "name": "團購控管平台｜集中管理團購功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4842,
+    "name": "AI 社群互動平台｜AI 分析社群互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4844,
+    "name": "直播互動平台｜支援直播過程的互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4846,
+    "name": "粉絲交流平台｜提供粉絲專屬互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4849,
+    "name": "短影音平台｜集中管理短影音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4853,
+    "name": "留言展示平台｜集中展示留言互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4854,
+    "name": "AI 粉絲行為平台｜AI 分析粉絲的互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4858,
+    "name": "即時新聞模組｜即時推送新聞並互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4860,
+    "name": "專題交流平台｜提供專題性的社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4862,
+    "name": "虛擬課堂互動平台｜支援虛擬課堂的互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4866,
+    "name": "教材共享工具｜允許教材共享使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4868,
+    "name": "模擬測驗工具｜提供模擬測驗與批改。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4872,
+    "name": "即時互動教學平台｜支援即時互動教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4876,
+    "name": "互動白板工具｜支援即時白板教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4882,
+    "name": "弱點檢測系統｜自動化檢測弱點並回報。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4891,
+    "name": "AI 資安教育平台｜提供互動式資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4892,
+    "name": "資料外洩防護工具｜偵測潛在的資料外洩。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4897,
+    "name": "AI 資安助手｜AI 提供資安即時建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4902,
+    "name": "3D 視覺互動中心｜支援 3D 視覺化的互動操作體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4903,
+    "name": "懸浮操作工具箱｜提供全域可呼叫的懸浮快捷工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4905,
+    "name": "全景式數據可視化平台｜提供全景化數據的互動展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4909,
+    "name": "語音互動控制器｜支援語音輸入與操作控制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4912,
+    "name": "AI UI 分析助手｜AI 即時分析 UI 問題並提供建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4920,
+    "name": "情境化操作助手｜根據不同情境提供操作建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4922,
+    "name": "跨境支付結算平台｜集中管理跨境支付與結算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4937,
+    "name": "物流智慧排程平台｜AI 提供最佳化物流排程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4941,
+    "name": "即時互動社群平台｜支援文字、語音即時交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4943,
+    "name": "匿名交流平台｜提供匿名的交流與互動環境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4946,
+    "name": "粉絲互動社群｜粉絲專屬互動交流平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4949,
+    "name": "短影音互動中心｜集中展示短影音與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4952,
+    "name": "匿名問答平台｜提供匿名問答互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4955,
+    "name": "簽到互動模組｜提供簽到與任務挑戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4956,
+    "name": "直播互動平台｜直播過程提供多種互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4958,
+    "name": "即時新聞互動平台｜推播即時新聞並互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4962,
+    "name": "虛擬課堂互動模組｜支援虛擬課堂互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4963,
+    "name": "跨平台教材整合平台｜集中控管跨平台教材內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4972,
+    "name": "即時課堂互動平台｜課堂中支援即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4976,
+    "name": "互動白板工具｜支援課堂即時白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4985,
+    "name": "隱私保護中心｜集中管理用戶隱私保護。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4989,
+    "name": "災難復原中心｜提供災難復原流程控管。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4991,
+    "name": "AI 資安訓練平台｜提供互動式資安教育與訓練。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4997,
+    "name": "AI 資安助手｜AI 即時提供資安協助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4999,
+    "name": "金流詐騙防護工具｜即時偵測並攔截詐騙交易。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5000,
+    "name": "隱私數據加密中心｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5005,
+    "name": "全景式互動平台｜支援全景式資料與介面展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5009,
+    "name": "語音導覽平台｜支援語音互動與導覽功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5014,
+    "name": "沉浸模式工具｜支援專注作業的沉浸式模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5016,
+    "name": "懸浮語音助手工具｜提供懸浮式語音交互操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5019,
+    "name": "AI 體驗優化工具｜AI 提供即時的 UX 優化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5021,
+    "name": "AI 購物助手平台｜AI 提供即時的購物建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5022,
+    "name": "跨境支付監測平台｜集中監測跨境支付流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5026,
+    "name": "多平台庫存調度平台｜集中管理多平台庫存狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5033,
+    "name": "團購服務平台｜集中管理團購服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5040,
+    "name": "自動分潤工具｜依據規則自動完成分潤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5043,
+    "name": "匿名互動平台｜支援匿名社群交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5044,
+    "name": "直播遊戲挑戰平台｜支援直播過程的挑戰互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5046,
+    "name": "粉絲社群專區｜提供粉絲專屬社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5052,
+    "name": "匿名問答系統｜支援匿名問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5053,
+    "name": "留言互動展示平台｜集中展示留言互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5056,
+    "name": "直播互動挑戰平台｜直播過程支援挑戰互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5058,
+    "name": "即時新聞社群模組｜即時推播並支援新聞互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5060,
+    "name": "專題社群交流平台｜提供專題性社群互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5062,
+    "name": "虛擬教室互動平台｜支援虛擬教室即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5063,
+    "name": "跨平台教材共享工具｜集中控管教材跨平台資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5071,
+    "name": "虛擬助教助手｜協助教師進行課堂管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5072,
+    "name": "即時互動教學工具｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5076,
+    "name": "互動白板工具｜支援課堂即時白板功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5082,
+    "name": "弱點分析工具｜自動檢測系統弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5091,
+    "name": "AI 資安教育中心｜提供互動資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5097,
+    "name": "AI 資安助手｜AI 提供資安即時建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5100,
+    "name": "隱私數據加密平台｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5102,
+    "name": "3D 沉浸式界面平台｜提供 3D 沉浸式互動界面。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5109,
+    "name": "語音互動操作模組｜支援語音輸入與操作控制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5110,
+    "name": "即時互動數據牆｜展示即時更新的數據牆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5112,
+    "name": "AI UI 體驗助手｜AI 分析並提供體驗優化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5115,
+    "name": "智慧錯誤修復工具｜AI 即時修正錯誤操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5116,
+    "name": "懸浮語音互動平台｜提供懸浮語音輸入與操作功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5122,
+    "name": "跨境支付控管平台｜集中管理跨境支付事務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5126,
+    "name": "多平台庫存整合平台｜集中整合多平台的庫存資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5141,
+    "name": "即時語音互動平台｜支援即時多人語音交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5142,
+    "name": "AI 社群分析平台｜AI 即時分析社群互動行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5143,
+    "name": "匿名互動社群平台｜允許匿名參與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5146,
+    "name": "粉絲專屬互動平台｜提供粉絲專屬的社群交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5149,
+    "name": "短影音互動模組｜集中展示短影音互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5153,
+    "name": "留言展示中心｜集中展示留言與互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5154,
+    "name": "AI 粉絲行為平台｜AI 分析粉絲互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5156,
+    "name": "直播互動中心｜直播中提供互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5162,
+    "name": "虛擬教室平台｜支援虛擬課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5168,
+    "name": "模擬測驗工具｜提供模擬測驗與自動批改。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5169,
+    "name": "AI 學習助手｜AI 提供學習即時幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5172,
+    "name": "即時課堂互動模組｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5174,
+    "name": "學生互動挑戰平台｜提供學生挑戰任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5176,
+    "name": "互動白板平台｜提供即時教學白板互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5184,
+    "name": "跨平台登入防護平台｜集中管理跨平台登入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5191,
+    "name": "AI 資安教育平台｜提供互動資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5197,
+    "name": "AI 資安助手｜AI 提供即時資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5202,
+    "name": "3D 動態互動平台｜提供 3D 動態特效與互動操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5209,
+    "name": "語音互動助手｜提供語音控制與操作功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5216,
+    "name": "懸浮語音助手｜隨時呼叫的懸浮語音功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5218,
+    "name": "翻頁互動工具｜支援翻頁效果展示內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5219,
+    "name": "AI 體驗最佳化助手｜AI 提供 UX 改進建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5229,
+    "name": "批發交易控管平台｜集中管理批發業務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5232,
+    "name": "商品比較工具｜允許多商品屬性比較。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5239,
+    "name": "批量帳單管理平台｜允許批量處理帳單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5241,
+    "name": "即時社群互動平台｜支援多人即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5244,
+    "name": "直播互動遊戲模組｜提供直播時的遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5246,
+    "name": "粉絲專區平台｜粉絲專屬的互動交流空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5249,
+    "name": "短影音互動平台｜支援短影音的互動分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5252,
+    "name": "匿名問答平台｜提供匿名互動的問答環境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5254,
+    "name": "AI 粉絲互動平台｜AI 分析粉絲行為模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5256,
+    "name": "直播互動平台｜直播過程提供互動遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5258,
+    "name": "即時新聞社群平台｜提供新聞推播與互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5260,
+    "name": "專題社群中心｜提供專題性社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5262,
+    "name": "虛擬課堂互動平台｜支援虛擬課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5263,
+    "name": "跨平台教材管理平台｜集中管理教材跨平台使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5272,
+    "name": "即時課堂互動工具｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5276,
+    "name": "互動白板模組｜支援課堂白板互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5284,
+    "name": "跨平台登入防護工具｜集中控管跨平台登入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5288,
+    "name": "Bot 防禦平台｜防禦自動化 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5297,
+    "name": "AI 資安助手｜AI 提供即時資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5300,
+    "name": "隱私數據加密工具｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5302,
+    "name": "3D 沉浸式操作平台｜提供 3D 沉浸操作的互動體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5307,
+    "name": "拖曳式 UI 編輯工具｜允許用戶以拖曳方式編排界面。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5310,
+    "name": "即時可視化平台｜以互動形式即時展示數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5316,
+    "name": "懸浮語音控制台｜隨時呼叫的語音互動控制模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5319,
+    "name": "AI 體驗最佳化助手｜AI 即時提供介面最佳化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5329,
+    "name": "批發交易管理平台｜集中管理批發業務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5337,
+    "name": "物流智慧管理平台｜AI 提供物流控管最佳方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5341,
+    "name": "即時通訊社群平台｜支援即時通訊與群組互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5344,
+    "name": "直播互動遊戲中心｜直播過程提供遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5349,
+    "name": "短影音互動平台｜允許分享與互動短影音。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5353,
+    "name": "留言牆展示平台｜集中展示留言與互動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5354,
+    "name": "AI 粉絲互動平台｜AI 分析粉絲互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5356,
+    "name": "直播互動模組｜支援直播中多樣互動方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5358,
+    "name": "即時新聞互動中心｜即時推播新聞並互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5360,
+    "name": "專題互動平台｜提供專題性的社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5362,
+    "name": "虛擬課堂互動工具｜支援虛擬課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5363,
+    "name": "跨平台教材共享平台｜集中管理跨平台教材資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5369,
+    "name": "AI 學習助手｜AI 提供即時學習幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5371,
+    "name": "虛擬助教助手｜協助教師完成輔助工作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5372,
+    "name": "即時課堂互動平台｜提供課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5374,
+    "name": "學生挑戰模組｜提供互動挑戰與回饋機制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5375,
+    "name": "教材翻譯工具｜支援教材多語自動翻譯。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5376,
+    "name": "互動白板平台｜提供即時教學互動白板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5389,
+    "name": "災難復原工具｜支援災難復原演練。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5393,
+    "name": "跨雲資安控管平台｜集中管理跨雲端資安策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5397,
+    "name": "AI 資安助手｜AI 即時提供資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5399,
+    "name": "金流詐騙防護工具｜即時偵測金流詐騙行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5402,
+    "name": "3D 全景互動模組｜支援 3D 全景展示與操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5404,
+    "name": "智慧導航助手｜AI 提供個人化導航建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5405,
+    "name": "全景式數據互動平台｜以全景方式展示數據並互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5409,
+    "name": "語音導覽引擎｜提供語音輸入與互動導覽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5410,
+    "name": "即時數據互動平台｜即時展示互動數據看板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5416,
+    "name": "懸浮語音助手｜提供隨時可用的語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5426,
+    "name": "多平台庫存整合系統｜集中管理多平台庫存資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5429,
+    "name": "批發交易平台｜集中管理批發交易訂單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5432,
+    "name": "商品比較工具｜允許比較多項商品屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5434,
+    "name": "跨平台價格管理平台｜確保跨平台商品價格一致。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5443,
+    "name": "匿名社群互動平台｜允許匿名社群參與與交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5444,
+    "name": "直播互動遊戲平台｜支援直播過程的遊戲互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5446,
+    "name": "粉絲專屬社群｜粉絲專屬的互動交流空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5449,
+    "name": "短影音分享平台｜集中展示與互動短影音內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5453,
+    "name": "留言互動牆｜集中展示留言內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5456,
+    "name": "直播互動挑戰平台｜支援直播挑戰任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5458,
+    "name": "即時新聞推送平台｜即時推送新聞並互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5460,
+    "name": "專題社群交流平台｜針對專題建立互動社群空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5462,
+    "name": "虛擬教室互動平台｜支援虛擬教室即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5463,
+    "name": "跨平台教材控管系統｜集中管理教材跨平台使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5469,
+    "name": "AI 學習助手｜AI 即時提供學習協助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5472,
+    "name": "即時互動教學模組｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5476,
+    "name": "互動白板模組｜支援白板即時教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5482,
+    "name": "弱點檢測工具｜自動檢測並報告系統弱點。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5487,
+    "name": "異常行為偵測工具｜分析並警示異常行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5488,
+    "name": "Bot 攻擊防護平台｜即時防護自動化 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5491,
+    "name": "AI 資安教育模組｜提供互動式資安教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5496,
+    "name": "風險管理平台｜提供完整的風險管理報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5497,
+    "name": "AI 資安助手｜AI 提供即時的資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5502,
+    "name": "3D 互動展示牆｜支援 3D 互動式數據展示與操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5505,
+    "name": "全景互動數據牆｜以全景方式展示可操作的數據牆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5516,
+    "name": "懸浮語音助理｜提供懸浮式語音互動操作功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5520,
+    "name": "情境快捷助手｜根據情境提供操作建議與快捷指令。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5522,
+    "name": "跨境支付結算中心｜集中管理跨境支付與結算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5526,
+    "name": "多平台庫存管理平台｜集中管理多平台的庫存狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5529,
+    "name": "批發業務控管平台｜支援批發交易與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5530,
+    "name": "AI 自動定價平台｜AI 提供自動化定價策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5533,
+    "name": "團購交易模組｜允許集中管理團購交易。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5541,
+    "name": "即時社群互動平台｜支援社群即時文字與語音互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5543,
+    "name": "匿名交流平台｜支援匿名互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5544,
+    "name": "直播互動平台｜提供直播過程的互動遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5546,
+    "name": "粉絲互動社群｜專屬於粉絲的互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5549,
+    "name": "短影音互動平台｜支援短影音分享與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5550,
+    "name": "社群投票工具｜提供投票與即時結果統計。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5552,
+    "name": "匿名問答平台｜允許匿名問答與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5558,
+    "name": "即時新聞互動平台｜提供即時新聞推送與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5560,
+    "name": "專題交流平台｜針對專題設立的社群互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5562,
+    "name": "虛擬教室平台｜支援虛擬教室的即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5564,
+    "name": "AI 批改工具｜AI 自動批改作業與考卷。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5567,
+    "name": "學生進度控管平台｜集中管理學生進度數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5572,
+    "name": "即時課堂互動平台｜課堂內支援即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5576,
+    "name": "互動白板平台｜提供即時教學白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5591,
+    "name": "AI 資安培訓平台｜提供互動式資安培訓。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5597,
+    "name": "AI 資安助手｜AI 提供即時資安解決方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5609,
+    "name": "語音互動中心｜提供語音輸入與操作控制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5610,
+    "name": "即時互動數據展示器｜以即時方式呈現互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5613,
+    "name": "多樣化主題切換工具｜允許使用者快速切換介面主題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5616,
+    "name": "懸浮語音助手｜隨時啟用的懸浮語音控制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5619,
+    "name": "AI 體驗優化助手｜AI 提供即時 UX 優化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5622,
+    "name": "跨境支付工具｜集中處理跨境支付事務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5626,
+    "name": "多平台庫存監測工具｜集中監測多平台的庫存狀況。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5631,
+    "name": "供應鏈透明工具｜提供供應鏈透明化監測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5643,
+    "name": "匿名互動平台｜提供匿名互動環境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5644,
+    "name": "直播互動遊戲平台｜支援直播過程中的遊戲化挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5649,
+    "name": "短影音分享模組｜允許短影音互動分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5652,
+    "name": "匿名問答社群｜支援匿名問答互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5653,
+    "name": "留言互動展示平台｜集中展示留言內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5655,
+    "name": "簽到互動工具｜提供簽到打卡挑戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5656,
+    "name": "直播互動挑戰平台｜直播過程中提供挑戰機制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5658,
+    "name": "即時新聞推播平台｜即時推播新聞訊息與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5660,
+    "name": "專題社群交流模組｜專題性社群互動模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5662,
+    "name": "虛擬教室平台｜支援虛擬課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5663,
+    "name": "跨平台教材管理平台｜集中控管跨平台教材資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5667,
+    "name": "學生進度管理平台｜集中控管學生進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5668,
+    "name": "模擬測驗工具｜提供模擬測驗並支援自動批改。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5669,
+    "name": "AI 學習助手｜AI 提供即時學習幫助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5671,
+    "name": "虛擬助教助手｜協助教師管理課堂。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5672,
+    "name": "即時課堂互動平台｜提供課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5674,
+    "name": "學生挑戰工具｜提供學生挑戰與回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5676,
+    "name": "互動白板模組｜支援課堂即時白板互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5677,
+    "name": "課程社群平台｜課程專屬的社群互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5688,
+    "name": "Bot 防禦平台｜防禦自動化 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5691,
+    "name": "AI 資安訓練工具｜提供互動式資安教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5697,
+    "name": "AI 資安助手｜AI 提供即時資安解決方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5700,
+    "name": "隱私數據加密平台｜集中管理隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5702,
+    "name": "3D 互動展示中心｜支援 3D 互動數據與內容展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5704,
+    "name": "智慧導航工具｜AI 提供智慧化導航方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5709,
+    "name": "語音互動工具｜支援語音輸入與操作控制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5712,
+    "name": "AI UX 助手｜AI 即時提供 UX 分析與建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5716,
+    "name": "懸浮語音助理｜隨時提供語音互動操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5722,
+    "name": "跨境支付控管工具｜集中控管跨境支付事務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5730,
+    "name": "AI 自動定價工具｜AI 提供定價建議與調整。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5735,
+    "name": "AI 熱銷預測工具｜AI 預測潛在熱銷商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5741,
+    "name": "即時語音互動平台｜支援即時社群語音交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5744,
+    "name": "直播遊戲互動平台｜支援直播過程的遊戲化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5746,
+    "name": "粉絲專屬平台｜專屬於粉絲的互動社群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5753,
+    "name": "留言展示平台｜集中展示留言互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5754,
+    "name": "AI 粉絲行為分析器｜AI 分析粉絲互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5755,
+    "name": "簽到互動平台｜提供簽到與任務挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5758,
+    "name": "即時新聞互動工具｜推送新聞並支援互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5760,
+    "name": "專題社群互動平台｜針對專題提供交流互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5762,
+    "name": "虛擬課堂平台｜支援虛擬課堂的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5766,
+    "name": "教材共享工具｜允許教材跨平台共享與下載。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5772,
+    "name": "課堂互動工具｜提供課堂即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5776,
+    "name": "互動白板工具｜支援白板即時互動教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5779,
+    "name": "作業回饋工具｜提供學生即時作業回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5782,
+    "name": "弱點檢測中心｜自動化弱點檢測工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5788,
+    "name": "Bot 攻擊防禦模組｜防護自動化 Bot 攻擊行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5791,
+    "name": "AI 資安訓練模組｜提供互動式資安教育功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5796,
+    "name": "風險控管中心｜提供即時風險評估與管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5797,
+    "name": "AI 資安助手｜AI 即時提供資安防護建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5800,
+    "name": "隱私數據加密工具｜集中控管隱私數據加密。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5802,
+    "name": "3D 沉浸式展示平台｜支援 3D 沉浸式互動與數據展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5805,
+    "name": "全景數據牆｜以全景方式呈現互動數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5822,
+    "name": "跨境支付平台｜集中管理跨境支付結算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5829,
+    "name": "批發業務中心｜集中管理批發業務與交易。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5832,
+    "name": "商品比較工具｜允許比較不同商品屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5841,
+    "name": "即時社群互動工具｜支援文字與語音即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5843,
+    "name": "匿名交流模組｜允許匿名進行互動交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5844,
+    "name": "直播互動挑戰平台｜直播過程提供挑戰互動遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5846,
+    "name": "粉絲社群平台｜專為粉絲打造的互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5849,
+    "name": "短影音交流平台｜支援短影音的互動分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5852,
+    "name": "匿名問答工具｜支援匿名問題與回答。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5853,
+    "name": "留言互動平台｜集中展示留言與評論。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5854,
+    "name": "AI 粉絲行為平台｜AI 分析粉絲互動模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5855,
+    "name": "簽到互動系統｜提供簽到打卡挑戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5856,
+    "name": "直播挑戰工具｜支援直播挑戰遊戲化功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5858,
+    "name": "即時新聞互動工具｜即時推送新聞並支援互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5860,
+    "name": "專題社群互動平台｜提供專題性社群交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5862,
+    "name": "虛擬教室中心｜支援虛擬課堂互動教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5863,
+    "name": "跨平台教材平台｜集中管理教材跨平台使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5864,
+    "name": "AI 自動批改工具｜AI 自動批改考卷與作業。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5866,
+    "name": "教材共享工具｜允許教材跨平台共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5867,
+    "name": "學生進度管理平台｜集中控管學生學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5869,
+    "name": "AI 學習助手｜AI 提供學習即時協助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5871,
+    "name": "虛擬助教助手｜協助教師進行課程輔助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5872,
+    "name": "課堂互動平台｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5876,
+    "name": "互動白板平台｜支援白板即時互動教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5877,
+    "name": "課程社群平台｜課程專屬的社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5879,
+    "name": "作業回饋工具｜提供作業即時回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5888,
+    "name": "Bot 防禦工具｜即時防護 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5891,
+    "name": "AI 資安教育平台｜提供資安互動教育訓練。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5897,
+    "name": "AI 資安助手｜即時提供資安解決方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5902,
+    "name": "3D 視覺互動平台｜提供 3D 視覺化互動效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5903,
+    "name": "懸浮快捷導航器｜隨時呼叫的懸浮快捷導航工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5909,
+    "name": "語音互動工具｜支援語音輸入與操作控制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5910,
+    "name": "即時數據互動展示｜提供即時數據可視化互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5919,
+    "name": "AI 體驗分析助手｜AI 分析用戶操作並提供改善建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5922,
+    "name": "跨境支付結算系統｜集中管理跨境支付與結算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5926,
+    "name": "多平台庫存整合平台｜集中控管跨平台庫存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5929,
+    "name": "批發交易平台｜集中控管批發業務流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5931,
+    "name": "供應鏈透明工具｜可視化供應鏈的完整流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5932,
+    "name": "商品比較工具｜允許比較多商品屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5935,
+    "name": "AI 熱銷偵測工具｜AI 預測潛在熱銷商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5941,
+    "name": "即時互動社群平台｜支援即時社群交流互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5944,
+    "name": "直播遊戲挑戰平台｜支援直播互動遊戲挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5946,
+    "name": "粉絲交流平台｜專為粉絲打造的互動社群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5949,
+    "name": "短影音分享平台｜支援短影音分享與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5952,
+    "name": "匿名問答平台｜支援匿名問答與互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5953,
+    "name": "留言互動平台｜集中展示留言內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5955,
+    "name": "簽到互動中心｜支援簽到打卡挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5956,
+    "name": "直播互動模組｜直播中提供即時互動方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5958,
+    "name": "即時新聞互動平台｜提供即時新聞互動推送。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5960,
+    "name": "專題互動平台｜針對特定主題建立社群交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5962,
+    "name": "虛擬課堂互動平台｜支援虛擬課堂的即時互動功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5963,
+    "name": "跨平台教材管理系統｜集中控管跨平台教材資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5972,
+    "name": "即時課堂互動工具｜支援課堂即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5975,
+    "name": "教材翻譯工具｜支援教材的多語自動翻譯。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5976,
+    "name": "互動白板平台｜支援即時白板互動教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5977,
+    "name": "課程社群平台｜課程專屬的社群互動空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5985,
+    "name": "隱私數據管理平台｜集中管理隱私數據保護措施。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5988,
+    "name": "Bot 攻擊防護平台｜防護自動化 Bot 攻擊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5991,
+    "name": "AI 資安教育平台｜提供互動式資安教育與測驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5997,
+    "name": "AI 資安助手｜AI 提供即時資安建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 6000,
+    "name": "隱私數據加密工具｜集中管理隱私數據加密措施。",
+    "desc": "",
+    "category": "utility"
+  }
+]

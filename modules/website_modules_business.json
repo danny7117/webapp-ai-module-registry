@@ -1,0 +1,4094 @@
+[
+  {
+    "id": 2,
+    "name": "首頁跑馬燈模組｜支援橫向或淡入淡出效果，可展示最新消息或廣告文案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 7,
+    "name": "影片展示區｜支援 YouTube 內嵌或本地影片播放，用於展示產品或形象廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 9,
+    "name": "最新消息 / Blog 區塊｜展示公司新聞、部落格文章或活動資訊，支援摘要樣式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 15,
+    "name": "商品排序與狀態控制｜支援依照價格、上架日期排序，並可設定商品狀態（上架/下架）。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 21,
+    "name": "會員登入 / 註冊｜提供帳號註冊與登入功能，支援 Email/密碼登入。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 23,
+    "name": "會員權限控管｜不同等級會員可使用不同功能或存取不同內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 24,
+    "name": "升級會員提示｜在特定功能被限制時，提示升級為付費會員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 25,
+    "name": "會員等級系統｜提供會員等級升級與成長曲線顯示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 26,
+    "name": "會員邀請碼系統｜會員可透過專屬邀請碼邀請好友並獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 27,
+    "name": "會員反饋與評分｜會員可針對商品或服務進行評分與評論。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 28,
+    "name": "會員專屬優惠區｜顯示僅限會員使用的優惠與折扣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 30,
+    "name": "黑名單與封鎖管理｜後台可封鎖違規會員，避免再次登入。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 31,
+    "name": "AI 圖片生成模組｜使用 AI 技術自動生成商品或行銷所需圖片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 52,
+    "name": "活動 Banner 管理｜管理網站上的活動或廣告 Banner。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 61,
+    "name": "訪客來源追蹤模組｜統計訪客來源，分析廣告與行銷成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 62,
+    "name": "再行銷像素碼整合｜整合 Facebook Pixel、Google Tag 等追蹤工具。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 65,
+    "name": "Email 行銷模組｜支援郵件群發與自動化行銷流程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 67,
+    "name": "推薦獎勵系統｜會員邀請好友並完成任務後可獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 68,
+    "name": "廣告成效報表｜提供廣告點擊率、轉換率等數據分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 85,
+    "name": "即時聊天室模組｜支援會員間即時文字聊天。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 86,
+    "name": "討論區模組｜提供會員發表與回覆文章的功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 87,
+    "name": "活動報名模組｜用戶可透過表單報名線上或線下活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 89,
+    "name": "排行榜模組｜顯示熱門文章、商品或會員排行榜。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 90,
+    "name": "積分系統模組｜會員透過互動可獲得積分，用於兌換優惠或禮品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 92,
+    "name": "地理位置模組｜支援地圖定位，顯示門市或活動位置。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 106,
+    "name": "首頁倒數計時元件｜針對限時活動顯示倒數與行動按鈕，提升轉換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 112,
+    "name": "首頁快速導覽按鈕群｜提供常用動作（聯絡/商品/活動）的一鍵捷徑。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 115,
+    "name": "個人化首頁佈局｜依訪客身分（新客/回訪/會員）展示不同內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 122,
+    "name": "AI 自動商品描述｜根據標題/屬性生成 SEO 友善描述與賣點。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 127,
+    "name": "折扣標籤顯示｜商品卡片顯示折扣、滿額贈等促銷徽章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 132,
+    "name": "商品收藏清單｜會員可將商品加入收藏並同步多裝置。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 142,
+    "name": "會員儀表板｜整合訂單、收藏、優惠與積分一覽。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 143,
+    "name": "會員專屬優惠頁｜針對不同等級顯示專屬折扣與活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 145,
+    "name": "等級成長曲線｜視覺化展示會員等級升級歷程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 146,
+    "name": "AI 客服助理｜會員可由 AI 即時查詢訂單/權益與問題。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 147,
+    "name": "會員動態牆｜會員可發文、按讚與留言互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 149,
+    "name": "會員反饋中心｜集中收集建議/回報，串接任務單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 150,
+    "name": "資料匯入匯出｜後台批量管理會員資料（CSV/JSON）。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 152,
+    "name": "會員積分系統｜消費/任務得積分，可折抵或兌換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 153,
+    "name": "積分兌換商城｜以積分兌換商品、券或限定權益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 154,
+    "name": "會員票券錢包｜集中管理優惠券、禮品卡與票券。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 161,
+    "name": "退款申請與審核｜會員可申請退款，後台審核與備註。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 163,
+    "name": "訂單狀態追蹤頁｜會員可即時查看訂單處理進度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 166,
+    "name": "訂閱制付款｜支援月繳/年繳自動扣款與失敗補扣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 172,
+    "name": "活動 Banner 管理中心｜建立、排程、A/B 測試活動 Banner。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 177,
+    "name": "自訂欄位 Builder｜為商品/文章/會員新增自訂欄位。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 181,
+    "name": "訪客來源報表｜依來源/媒介/活動統計流量與轉換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 182,
+    "name": "再行銷像素碼中心｜集中管理 GA/FB Pixel/TT 等追蹤碼。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 183,
+    "name": "A/B 測試實驗室｜建立實驗、設定受眾與監測 KPI。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 185,
+    "name": "Email 行銷自動化｜觸發式 EDM（註冊/放棄購物車等）。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 189,
+    "name": "廣告成效儀表板｜展示點擊、曝光、CPA/ROAS 等指標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 222,
+    "name": "留言系統｜支援會員針對文章/商品留言。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 223,
+    "name": "即時聊天室｜會員間可發送即時訊息，支援表情與檔案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 228,
+    "name": "好友邀請功能｜會員可互相邀請並建立好友關係。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 229,
+    "name": "動態牆模組｜顯示會員的活動與發文串流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 230,
+    "name": "粉絲追蹤系統｜允許追蹤其他會員，形成粉絲關係。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 231,
+    "name": "通知推播中心｜會員互動時發送即時通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 233,
+    "name": "排行榜模組｜依活躍度、發文數生成會員排行榜。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 235,
+    "name": "社群活動報名｜支援線上活動建立與報名功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 240,
+    "name": "會員簽到模組｜會員每日簽到累積積分或獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 252,
+    "name": "SEO 優化建議｜編輯文章時提供 SEO 建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 256,
+    "name": "文章評論系統｜文章頁支援會員留言與回覆。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 259,
+    "name": "RSS 訂閱模組｜提供 RSS Feed 訂閱網站內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 260,
+    "name": "內容權限控管｜不同會員等級可存取不同內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 271,
+    "name": "會員留存分析｜統計會員留存率與回訪頻率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 272,
+    "name": "收入統計模組｜統計銷售額、利潤與毛利率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 274,
+    "name": "活動成效追蹤｜追蹤行銷活動的點擊與轉換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 276,
+    "name": "商品銷售排行｜列出銷售量最高的商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 277,
+    "name": "回購率分析｜統計會員重複購買比例。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 279,
+    "name": "廣告投資報酬率｜統計 ROAS 與廣告投資效益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 326,
+    "name": "二手商品模組｜允許會員上架並交易二手商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 327,
+    "name": "團購模組｜支援會員共同開團購買商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 330,
+    "name": "電子禮品卡｜會員可購買與贈送電子禮品卡。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 331,
+    "name": "忠誠度計畫｜會員消費可累積點數並兌換獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 332,
+    "name": "願望清單模組｜允許會員建立願望清單，提醒未購買商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 334,
+    "name": "自動補單模組｜允許會員設定定期自動補單商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 336,
+    "name": "到店取貨模組｜允許會員選擇到門市取貨。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 338,
+    "name": "退貨流程模組｜會員可申請退貨並追蹤處理狀態。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 340,
+    "name": "會員分潤模組｜允許會員成為推廣員，銷售可抽佣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 341,
+    "name": "論壇版主權限｜允許指定會員為版主，管理討論區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 342,
+    "name": "社群群組功能｜會員可建立或加入不同群組。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 343,
+    "name": "活動行事曆｜顯示社群活動日程與報名功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 344,
+    "name": "照片相簿模組｜會員可上傳並分享相簿。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 345,
+    "name": "影片上傳模組｜允許會員上傳影片並串流播放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 346,
+    "name": "會員打賞模組｜會員可對內容創作者打賞。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 348,
+    "name": "徽章收藏展示｜會員可展示獲得的徽章與成就。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 352,
+    "name": "好友清單模組｜顯示會員好友名單與狀態。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 354,
+    "name": "任務挑戰系統｜會員可參與每日任務獲取獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 356,
+    "name": "挑戰排行榜｜展示會員挑戰與活動排名。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 358,
+    "name": "會員直播打賞｜支援直播過程中的即時打賞功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 366,
+    "name": "學習進度追蹤｜追蹤會員學習進度並提供報表。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 367,
+    "name": "線上課程模組｜支援影片課程上傳與付費觀看。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 369,
+    "name": "問答模組｜會員可提問並由他人回答。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 370,
+    "name": "知識點收藏｜允許會員收藏知識點或文章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 371,
+    "name": "知識點推薦｜依會員興趣推薦相關知識文章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 375,
+    "name": "知識分享評分｜允許會員對知識分享內容評分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 381,
+    "name": "漏洞回報平台｜會員可提交漏洞並由管理員審核。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 421,
+    "name": "分銷商城模組｜允許會員開設個人分銷小店，獲取佣金。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 422,
+    "name": "會員月費制模組｜支援會員繳交月費以獲得專屬權益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 428,
+    "name": "二手寄售模組｜允許會員寄售商品，由平台抽成。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 433,
+    "name": "限量商品搶購｜支援限量商品秒殺活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 434,
+    "name": "多層級推廣模組｜會員可招募下線並獲得多層級獎金。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 435,
+    "name": "自動補貨系統｜根據庫存與銷售自動建立補貨單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 436,
+    "name": "條碼掃描上架｜透過條碼快速錄入商品資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 439,
+    "name": "拍賣倒數模組｜商品拍賣活動支援倒數計時與出價。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 440,
+    "name": "跨平台同步模組｜商品可同步至多個電商平台銷售。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 441,
+    "name": "會員故事牆｜會員可分享故事與圖片，形成社群交流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 445,
+    "name": "會員簽到日曆｜會員每日簽到累積獎勵與日曆顯示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 446,
+    "name": "虛擬形象模組｜會員可建立虛擬角色頭像。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 447,
+    "name": "社群廣告投放｜允許會員購買社群廣告位。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 449,
+    "name": "內容創作者中心｜為創作者提供收益與數據儀表板。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 450,
+    "name": "會員分級社群｜依會員等級劃分不同社群專區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 451,
+    "name": "動態串分享｜會員可分享動態串至外部平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 453,
+    "name": "活動直播串流｜社群活動支援即時直播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 454,
+    "name": "短影片挑戰｜建立挑戰主題並由會員投稿短片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 455,
+    "name": "投票互動牆｜集中展示社群的投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 457,
+    "name": "社群商城模組｜社群內部設置商品販售專區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 458,
+    "name": "會員勳章展示｜會員可展示已獲得的勳章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 460,
+    "name": "成就解鎖通知｜會員完成任務時彈出成就解鎖提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 523,
+    "name": "會員分期方案｜提供不同期數的付款選項。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 527,
+    "name": "限量預售模組｜支援限定數量的預售活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 530,
+    "name": "訂閱盒服務｜支援月度訂閱商品盒子服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 532,
+    "name": "會員專屬折扣｜不同等級會員可享有專屬優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 540,
+    "name": "AI 銷售預測｜AI 根據歷史數據預測銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 541,
+    "name": "會員專屬聊天室｜提供特定等級會員的專屬聊天室。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 543,
+    "name": "會員廣告收益分潤｜會員可因分享或創作獲得廣告收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 544,
+    "name": "創作者募資模組｜允許會員向內容創作者贊助或募資。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 545,
+    "name": "線上論壇活動｜建立主題活動並允許會員參與。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 546,
+    "name": "會員履歷展示｜會員可展示經歷、作品或專業技能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 550,
+    "name": "會員影像頭像｜允許上傳短影片作為動態頭像。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 551,
+    "name": "文章收藏夾｜會員可將喜愛文章加入收藏夾。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 553,
+    "name": "群組活動報名｜允許群組成員報名參與線上/線下活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 557,
+    "name": "創作者收益儀表板｜提供流量、收益與互動數據統計。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 558,
+    "name": "會員分組管理｜管理員可依條件將會員分組。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 559,
+    "name": "社群直播活動｜社群舉辦直播活動並提供聊天室互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 560,
+    "name": "會員徽章挑戰｜完成特定條件可解鎖並展示徽章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 601,
+    "name": "情境色彩主題｜依據不同活動或節日自動切換網站主題顏色。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 623,
+    "name": "會員禮物清單｜會員可建立公開或私人禮物清單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 627,
+    "name": "拍賣出價提醒｜拍賣活動中出價被超越時通知會員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 630,
+    "name": "退貨免運模組｜支援退貨免運費活動設定。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 631,
+    "name": "會員專屬搶購｜僅限會員參加的限時搶購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 634,
+    "name": "AI 銷售建議｜AI 根據數據提供銷售建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 636,
+    "name": "VIP 優先配送｜提供高等會員優先出貨服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 637,
+    "name": "促銷活動排程｜允許後台設定促銷活動時間表。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 639,
+    "name": "會員積分抽獎｜會員可使用積分參與抽獎活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 642,
+    "name": "主題活動挑戰｜發起主題挑戰，會員可上傳內容參加。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 643,
+    "name": "社群任務牆｜顯示會員可參與的每日或每週任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 644,
+    "name": "專屬粉絲群組｜允許會員建立專屬粉絲群體。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 651,
+    "name": "匿名提問箱｜允許匿名發送問題給特定會員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 652,
+    "name": "會員作品展示｜建立專區展示會員的創作作品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 653,
+    "name": "粉絲贊助模組｜粉絲可贊助支持喜愛的創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 654,
+    "name": "社群短片挑戰｜允許會員上傳短片參加挑戰賽。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 656,
+    "name": "群組活動直播｜群組內可舉辦活動並提供直播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 657,
+    "name": "社群積分排行｜依積分多少顯示會員排名。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 658,
+    "name": "互動式簽到牆｜會員簽到時在牆上顯示名稱。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 660,
+    "name": "會員故事專區｜提供會員發表個人故事的專屬版面。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 722,
+    "name": "多供應商商城｜支援多供應商同時上架商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 725,
+    "name": "二手交易平台｜支援會員間的二手商品交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 727,
+    "name": "訂閱制模組｜支援商品或服務的訂閱制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 730,
+    "name": "促銷活動中心｜集中管理與展示各種促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 733,
+    "name": "AI 銷售分析｜AI 提供銷售趨勢與分析報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 735,
+    "name": "團購功能模組｜允許會員發起並參與團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 736,
+    "name": "跨平台同步｜支援商品跨多平台同步上架。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 739,
+    "name": "訂單追蹤中心｜會員可集中追蹤所有訂單進度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 744,
+    "name": "會員廣告投放｜會員可購買社群廣告位。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 745,
+    "name": "短影片發佈｜支援會員上傳與分享短影片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 748,
+    "name": "群組挑戰賽｜群組內可舉辦挑戰賽活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 752,
+    "name": "內容打賞模組｜會員可打賞內容創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 755,
+    "name": "社群活動直播｜允許舉辦社群活動並即時直播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 756,
+    "name": "互動留言牆｜允許會員留言並即時顯示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 758,
+    "name": "粉絲支持模組｜粉絲可定期贊助喜愛的創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 759,
+    "name": "會員興趣標籤｜會員可設定興趣標籤以便推薦。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 760,
+    "name": "社群活動報名｜支援活動建立與報名流程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 791,
+    "name": "Bot 偵測系統｜即時偵測自動化 Bot 活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 822,
+    "name": "會員專屬禮包｜提供不同會員等級的專屬禮包。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 827,
+    "name": "限時購買提醒｜商品即將結束促銷時發送提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 830,
+    "name": "會員折扣碼生成｜依會員身份自動生成專屬折扣碼。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 841,
+    "name": "動態分享故事｜會員可分享圖文或影片故事。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 845,
+    "name": "創作者支持平台｜粉絲可定期贊助喜愛創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 851,
+    "name": "成就展示牆｜展示會員完成的任務與徽章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 853,
+    "name": "會員挑戰任務｜設定挑戰任務供會員完成。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 856,
+    "name": "活動直播回放｜社群活動結束後可回放影片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 857,
+    "name": "興趣小組｜會員依興趣加入對應小組。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 859,
+    "name": "專屬會員社群｜特定會員等級擁有專屬社群。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 860,
+    "name": "互動簽到模組｜會員每日簽到並顯示於簽到牆。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 882,
+    "name": "自動異常檢測｜系統即時檢測異常活動並警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 921,
+    "name": "會員分潤機制｜依會員推薦帶來的訂單自動分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 922,
+    "name": "自動促銷建議｜AI 自動產生最佳促銷方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 925,
+    "name": "禮品清單分享｜會員可將禮品清單分享給他人。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 929,
+    "name": "限量版商品｜支援限量商品的標註與銷售。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 933,
+    "name": "優惠碼分享｜會員可將優惠碼分享給好友。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 934,
+    "name": "AI 銷售報告｜AI 自動生成完整銷售分析報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 937,
+    "name": "會員月費制｜會員支付月費以獲得專屬優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 941,
+    "name": "社群積分任務｜會員完成社群互動可獲得積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 944,
+    "name": "短影片挑戰賽｜允許會員參加短影片挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 948,
+    "name": "互動簽到模組｜會員每日簽到並顯示排行榜。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 950,
+    "name": "投票活動模組｜允許建立與參與投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 951,
+    "name": "動態串收藏｜會員可收藏喜歡的動態串。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 952,
+    "name": "群組活動提醒｜活動即將開始時發送提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 954,
+    "name": "會員創作者中心｜提供創作者收益與互動分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 955,
+    "name": "社群商城｜社群內建立商品販售專區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 960,
+    "name": "粉絲支持平台｜粉絲可贊助喜愛的社群成員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1021,
+    "name": "會員預購優惠｜會員可享有專屬的預購折扣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1025,
+    "name": "批量商品上架｜允許商戶一次性上架多件商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1027,
+    "name": "會員分級優惠｜不同會員等級享受不同折扣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1028,
+    "name": "限時抽獎活動｜購物後可參加限時抽獎。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1037,
+    "name": "會員禮金回饋｜購物後返還禮金以供下次使用。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1042,
+    "name": "匿名心情牆｜允許會員匿名發表心情貼文。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1046,
+    "name": "任務簽到排行｜簽到任務顯示會員排行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1050,
+    "name": "會員專屬活動｜僅限特定會員參加的活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1052,
+    "name": "社群抽獎模組｜允許建立社群抽獎活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1054,
+    "name": "短影音專區｜建立會員專屬短影音展示區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1057,
+    "name": "創作者收益展示｜創作者可展示收益與粉絲支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1059,
+    "name": "會員影像頭像｜允許上傳動態影像作為頭像。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1060,
+    "name": "互動挑戰任務｜社群建立挑戰活動並追蹤完成度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1123,
+    "name": "會員生日優惠｜自動發放會員生日專屬優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1125,
+    "name": "智慧補貨建議｜依銷售狀況自動生成補貨建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1126,
+    "name": "限時拼單模組｜會員可在時限內共同拼單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1133,
+    "name": "會員推薦獎勵｜會員推薦好友註冊可獲獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1134,
+    "name": "AI 銷售儀表板｜AI 自動生成銷售數據儀表板。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1135,
+    "name": "跨平台上架｜商品可同步至多個電商平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1137,
+    "name": "VIP 搶先購買｜VIP 會員可提前購買商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1138,
+    "name": "拍賣倒數提醒｜拍賣商品即將結束時通知會員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1141,
+    "name": "會員即時通訊｜支援會員間一對一即時聊天。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1142,
+    "name": "群組活動日曆｜顯示群組活動並支援報名。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1144,
+    "name": "社群積分商城｜積分可於社群內部兌換商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1148,
+    "name": "創作者贊助｜粉絲可贊助支持內容創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1152,
+    "name": "AI 好友推薦｜AI 推薦可能認識的會員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1153,
+    "name": "投票牆模組｜集中展示所有投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1154,
+    "name": "會員徽章展示｜會員可展示解鎖的徽章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1156,
+    "name": "匿名提問箱｜會員可匿名提問並獲回覆。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1157,
+    "name": "社群活動回放｜活動結束後可提供影片回放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1158,
+    "name": "互動留言模組｜會員可即時留言互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1165,
+    "name": "學習遊戲化挑戰｜將課程內容轉化為遊戲挑戰。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1226,
+    "name": "商品分潤模組｜支援商品收益分潤設定。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1232,
+    "name": "會員共享折扣｜會員間可分享折扣碼。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1237,
+    "name": "批發會員制度｜針對批發商提供專屬會員制度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1243,
+    "name": "社群活動倒數｜顯示活動即將開始的倒數計時。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1253,
+    "name": "社群活動回顧｜活動結束後可提供回顧影片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1254,
+    "name": "互動留言板｜提供會員留言與互動功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1257,
+    "name": "社群積分獎勵｜會員互動可累積積分換取獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1258,
+    "name": "即時活動直播｜支援社群內舉辦即時活動直播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1260,
+    "name": "社群廣告模組｜允許會員購買社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1322,
+    "name": "會員共享購物車｜允許多會員共用同一購物車。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1324,
+    "name": "動態會員分級｜依照消費行為自動調整會員等級。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1328,
+    "name": "限時優惠推播｜限時優惠即時推播至會員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1329,
+    "name": "團購拼單中心｜集中管理與顯示所有拼單活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1333,
+    "name": "客製化推薦模組｜依會員行為推薦專屬商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1335,
+    "name": "AI 銷售預測｜AI 預測未來銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1338,
+    "name": "商品分享模組｜允許會員分享商品至社群平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1339,
+    "name": "VIP 優先配送｜提供 VIP 會員優先出貨。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1344,
+    "name": "群組活動票券｜支援群組活動的票券分發。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1349,
+    "name": "社群廣告平台｜允許會員購買與投放廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1350,
+    "name": "互動簽到任務｜會員每日簽到可獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1353,
+    "name": "短影音挑戰賽｜會員可參加短影音挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1356,
+    "name": "粉絲支持模組｜粉絲可提供定期贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1358,
+    "name": "社群專屬活動｜僅限社群成員參與的活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1425,
+    "name": "會員動態分潤｜依會員貢獻度自動計算分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1426,
+    "name": "AI 銷售異常偵測｜AI 偵測銷售數據異常並警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1433,
+    "name": "商品履歷追蹤｜顯示商品完整的生產與銷售履歷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1435,
+    "name": "促銷倒數計時｜商品促銷時顯示倒數計時器。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1436,
+    "name": "VIP 專屬商品區｜僅限 VIP 會員可見的商品專區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1438,
+    "name": "會員群組優惠｜允許會員群組共享專屬優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1443,
+    "name": "社群廣告牆｜集中展示社群內部的廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1450,
+    "name": "任務挑戰系統｜會員可參與任務挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1453,
+    "name": "社群遊戲化模組｜社群內部活動遊戲化提升參與度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1455,
+    "name": "即時活動提醒｜活動開始前即時提醒參與者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1460,
+    "name": "任務打卡模組｜會員可透過打卡完成指定任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1522,
+    "name": "動態拼團模組｜會員可自發建立拼團購買。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1527,
+    "name": "會員動態等級｜會員等級可依消費動態調整。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1530,
+    "name": "AI 銷售異常偵測｜AI 偵測銷售數據異常並警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1533,
+    "name": "VIP 優先體驗｜VIP 會員可優先體驗新商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1537,
+    "name": "團購提醒模組｜拼單即將截止時提醒會員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1548,
+    "name": "粉絲贊助模組｜粉絲可定期贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1550,
+    "name": "社群專屬廣告｜允許投放社群專屬廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1554,
+    "name": "投票活動排行｜顯示所有投票活動的排行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1555,
+    "name": "社群活動直播｜支援社群活動即時直播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1556,
+    "name": "任務簽到模組｜會員可簽到並顯示於排行榜。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1622,
+    "name": "限時拼團活動｜允許會員參加限時拼團購買。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1625,
+    "name": "AI 銷售預測模型｜AI 建立未來銷售的預測模型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1627,
+    "name": "批發商專屬優惠｜提供批發會員專屬折扣方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1628,
+    "name": "VIP 專屬體驗｜VIP 會員享有專屬的購物體驗。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1633,
+    "name": "會員回饋中心｜集中管理會員回饋與反饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1634,
+    "name": "跨平台銷售同步｜支援多平台的商品同步上架。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1636,
+    "name": "動態促銷方案｜依市場狀況即時調整促銷策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1646,
+    "name": "社群活動徽章｜參與活動可解鎖專屬徽章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1651,
+    "name": "社群廣告平台｜允許社群內部購買廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1653,
+    "name": "粉絲支持平台｜允許粉絲贊助喜愛的創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1659,
+    "name": "社群活動回放｜活動結束後提供回放功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1722,
+    "name": "批量會員管理｜支援批量管理與編輯會員資料。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1724,
+    "name": "限時優惠倒數｜顯示限時優惠活動倒數計時。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1726,
+    "name": "AI 銷售異常監測｜AI 偵測異常銷售數據並警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1737,
+    "name": "團購中心｜集中顯示並管理所有團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1743,
+    "name": "匿名交流平台｜允許會員匿名交流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1750,
+    "name": "投票活動平台｜集中管理社群投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1751,
+    "name": "社群活動提醒｜活動開始前自動提醒參加者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1755,
+    "name": "任務打卡平台｜會員可於平台完成任務打卡。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1757,
+    "name": "社群廣告投放｜允許購買與投放社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1759,
+    "name": "粉絲支持模組｜粉絲可定期贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1823,
+    "name": "限時優惠專區｜集中展示所有限時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1825,
+    "name": "AI 銷售數據監控｜AI 即時監控銷售數據變化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1827,
+    "name": "VIP 獨享專區｜僅限 VIP 會員進入的專區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1833,
+    "name": "團購自動化管理｜自動化處理團購活動流程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1838,
+    "name": "會員回饋計劃｜建立會員回饋積分或獎勵機制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1843,
+    "name": "匿名互動模組｜允許會員匿名進行互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1845,
+    "name": "任務成就展示｜會員完成任務後顯示成就。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1849,
+    "name": "短影音挑戰平台｜允許會員上傳短影音參與挑戰。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1850,
+    "name": "社群投票中心｜集中展示與管理投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1851,
+    "name": "活動提醒模組｜自動提醒即將開始的社群活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1857,
+    "name": "社群廣告模組｜允許投放社群專屬廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1925,
+    "name": "AI 銷售數據建模｜AI 建立銷售趨勢模型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1927,
+    "name": "VIP 獨享禮遇｜VIP 會員享有獨家禮遇功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1933,
+    "name": "團購活動平台｜支援多類型團購活動管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1936,
+    "name": "動態優惠方案｜即時更新促銷與折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1938,
+    "name": "會員專屬獎勵｜提供會員專屬的獎勵計劃。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1949,
+    "name": "短影音互動挑戰｜提供短影音互動挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1951,
+    "name": "即時活動提醒｜活動開始前即時提醒成員。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1957,
+    "name": "社群廣告平台｜允許成員投放社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1959,
+    "name": "粉絲贊助模組｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2025,
+    "name": "AI 銷售異常警示｜AI 即時發出銷售異常警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2027,
+    "name": "VIP 獨享模組｜提供 VIP 會員專屬服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2033,
+    "name": "團購管理平台｜集中管理所有團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2038,
+    "name": "會員專屬禮遇｜提供會員專屬優惠與禮遇。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2050,
+    "name": "社群投票專區｜集中管理所有投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2051,
+    "name": "活動提醒中心｜集中發送社群活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2057,
+    "name": "社群廣告中心｜集中管理社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2059,
+    "name": "粉絲贊助系統｜允許粉絲進行贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2123,
+    "name": "限時活動專區｜集中顯示限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2125,
+    "name": "AI 銷售數據引擎｜AI 建立銷售數據模型並分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2127,
+    "name": "VIP 尊享模組｜VIP 會員專屬優惠與功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2133,
+    "name": "團購管理模組｜支援多類型團購活動管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2136,
+    "name": "動態促銷工具｜依市場情況即時調整促銷方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2138,
+    "name": "會員回饋模組｜提供會員專屬回饋方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2140,
+    "name": "自動收益分帳｜依規則自動進行收益分帳。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2149,
+    "name": "短影音互動挑戰｜會員可參與短影音挑戰。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2150,
+    "name": "社群投票中心｜集中顯示投票活動與結果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2151,
+    "name": "即時活動通知｜活動即將開始時即時通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2157,
+    "name": "社群廣告投放平台｜允許投放與管理社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2159,
+    "name": "粉絲贊助工具｜粉絲可選擇定期贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2174,
+    "name": "學生挑戰平台模組｜學生可參與挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2223,
+    "name": "限時促銷平台｜集中管理並展示限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2225,
+    "name": "AI 銷售監測工具｜AI 即時監測並分析銷售數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2227,
+    "name": "VIP 會員專屬服務｜提供 VIP 會員專屬優惠與功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2229,
+    "name": "批發會員專區｜提供批發會員專屬的商品與價格。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2233,
+    "name": "團購活動自動化｜自動化管理各類型團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2238,
+    "name": "會員回饋平台｜集中管理會員回饋積分與獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2240,
+    "name": "自動收益分潤｜依照規則自動進行收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2250,
+    "name": "社群投票模組｜集中管理社群投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2251,
+    "name": "活動通知平台｜提供社群活動的即時通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2257,
+    "name": "社群廣告投放｜允許社群內的廣告投放與管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2259,
+    "name": "粉絲贊助平台｜提供粉絲贊助創作者的渠道。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2323,
+    "name": "限時折扣模組｜集中展示並控管限時折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2325,
+    "name": "AI 銷售監控引擎｜AI 即時監控並分析銷售情況。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2327,
+    "name": "VIP 會員專屬區｜提供 VIP 會員專屬優惠與功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2329,
+    "name": "批發會員專屬優惠｜提供批發會員專屬折扣與服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2333,
+    "name": "團購活動模組｜允許建立並管理團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2336,
+    "name": "動態促銷控制｜即時控制並更新促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2338,
+    "name": "會員回饋積分｜集中管理會員積分與回饋機制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2340,
+    "name": "自動分帳系統｜依比例自動執行收益分帳。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2349,
+    "name": "短影音挑戰模組｜支援短影音互動與挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2351,
+    "name": "活動提醒模組｜自動提醒即將開始的活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2357,
+    "name": "社群廣告管理｜允許投放與管理社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2359,
+    "name": "粉絲贊助系統｜粉絲可定期贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2374,
+    "name": "學生挑戰引擎｜支援學生挑戰活動與成就展示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2423,
+    "name": "限時搶購平台｜集中展示限時搶購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2425,
+    "name": "AI 銷售趨勢分析｜AI 即時分析銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2427,
+    "name": "VIP 獨享服務｜提供 VIP 會員專屬功能與優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2436,
+    "name": "即時促銷引擎｜根據數據即時設定促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2438,
+    "name": "會員獎勵模組｜集中管理會員獎勵方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2449,
+    "name": "短影音互動挑戰｜提供短影音的挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2450,
+    "name": "社群投票中心｜集中管理社群投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2451,
+    "name": "活動提醒系統｜即時提醒即將到來的活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2457,
+    "name": "社群廣告投放工具｜允許管理與投放社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2459,
+    "name": "粉絲贊助平台｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2523,
+    "name": "限時活動模組｜集中管理限時活動商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2525,
+    "name": "AI 銷售效能分析｜AI 提供銷售效能的即時分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2527,
+    "name": "VIP 尊享專區｜VIP 會員專屬商品與服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2533,
+    "name": "團購活動系統｜集中管理團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2536,
+    "name": "促銷控制系統｜集中控管所有促銷方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2538,
+    "name": "會員回饋中心｜管理會員積分與獎勵計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2551,
+    "name": "活動通知引擎｜自動推播社群活動通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2557,
+    "name": "社群廣告投放平台｜允許管理社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2559,
+    "name": "粉絲贊助工具｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2623,
+    "name": "限時促銷引擎｜集中管理並自動化限時促銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2625,
+    "name": "AI 銷售智能監控｜AI 即時監控銷售狀況並提供報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2627,
+    "name": "VIP 尊榮會員服務｜提供尊榮會員專屬的優惠與功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2629,
+    "name": "批發會員中心｜集中管理批發會員與價格。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2633,
+    "name": "團購管理中心｜集中管理所有團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2638,
+    "name": "會員回饋中心｜集中管理會員回饋機制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2640,
+    "name": "自動化收益分潤｜依照規則自動進行收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2649,
+    "name": "短影音互動挑戰賽｜舉辦短影音挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2651,
+    "name": "活動即時提醒｜活動開始前即時提醒用戶。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2657,
+    "name": "社群廣告平台｜允許投放並管理社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2659,
+    "name": "粉絲贊助中心｜粉絲可進行贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2723,
+    "name": "限時優惠引擎｜集中控管限時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2725,
+    "name": "AI 銷售數據洞察｜AI 提供銷售數據的可視化分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2727,
+    "name": "VIP 專屬模組｜VIP 會員專屬優惠與功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2733,
+    "name": "團購專區｜允許管理多場次團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2738,
+    "name": "會員獎勵計畫｜集中管理會員獎勵積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2751,
+    "name": "活動推播引擎｜即時推播社群活動通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2757,
+    "name": "社群廣告工具｜允許社群廣告投放與追蹤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2759,
+    "name": "粉絲贊助引擎｜允許粉絲贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2823,
+    "name": "限時優惠專區｜提供集中展示的限時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2825,
+    "name": "AI 銷售成效分析｜AI 提供銷售成效的深度分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2827,
+    "name": "VIP 會員服務｜提供 VIP 會員專屬優惠功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2833,
+    "name": "團購活動控管｜集中控管所有團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2838,
+    "name": "會員回饋管理系統｜集中管理會員回饋與積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2840,
+    "name": "自動收益分配平台｜依照規則自動分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2850,
+    "name": "社群投票引擎｜集中管理社群投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2851,
+    "name": "即時活動推送｜即時推送活動通知給用戶。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2857,
+    "name": "社群廣告投放模組｜允許廣告投放與管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2859,
+    "name": "粉絲贊助模組｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2883,
+    "name": "金流異常控管｜監控並阻擋異常金流活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2923,
+    "name": "限時活動專區｜提供集中管理的限時活動專區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2925,
+    "name": "AI 銷售數據引擎｜AI 自動生成銷售數據報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2938,
+    "name": "會員回饋中心｜集中管理會員回饋與積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2950,
+    "name": "社群投票模組｜集中管理社群投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2951,
+    "name": "活動日程提醒系統｜提醒用戶即將進行的社群活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2957,
+    "name": "社群廣告引擎｜允許投放並追蹤社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 2959,
+    "name": "粉絲贊助計畫｜粉絲可透過平台贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3023,
+    "name": "限時優惠平台｜集中管理限時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3025,
+    "name": "AI 銷售效能工具｜AI 即時分析銷售效能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3027,
+    "name": "VIP 尊榮平台｜VIP 會員專屬平台與優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3036,
+    "name": "即時促銷平台｜允許即時設定促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3038,
+    "name": "會員獎勵引擎｜集中管理會員獎勵計劃。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3040,
+    "name": "自動化收益平台｜依規則自動計算並分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3049,
+    "name": "短影音專區平台｜集中管理短影音挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3051,
+    "name": "活動推播系統｜自動推播活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3057,
+    "name": "社群廣告工具箱｜允許廣告投放與管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3059,
+    "name": "粉絲贊助平台｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3123,
+    "name": "限時特惠引擎｜集中管理限時特惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3125,
+    "name": "AI 銷售洞察平台｜AI 即時提供銷售趨勢與報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3133,
+    "name": "團購活動模組｜集中控管所有團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3136,
+    "name": "即時折扣工具｜允許即時設定折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3138,
+    "name": "會員回饋模組｜集中管理會員回饋計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3151,
+    "name": "活動推播平台｜自動推播社群活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3157,
+    "name": "社群廣告工具｜允許社群廣告投放與追蹤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3159,
+    "name": "粉絲贊助系統｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3225,
+    "name": "AI 銷售監測平台｜AI 即時監測銷售數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3227,
+    "name": "VIP 尊享商城｜專為 VIP 會員設計的商城。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3238,
+    "name": "會員積分中心｜集中管理會員積分制度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3240,
+    "name": "自動收益結算系統｜自動進行收益的分配與結算。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3249,
+    "name": "短影音互動中心｜集中管理短影音的互動活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3251,
+    "name": "活動推播引擎｜自動推播活動資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3257,
+    "name": "社群廣告控管｜允許控管社群廣告的投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3259,
+    "name": "粉絲贊助工具｜允許粉絲提供贊助。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3323,
+    "name": "限時活動管理器｜集中管理限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3325,
+    "name": "AI 銷售數據監控｜AI 即時監控銷售數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3333,
+    "name": "團購引擎｜自動管理團購活動流程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3336,
+    "name": "折扣管理中心｜集中控管各種折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3338,
+    "name": "會員回饋工具｜管理會員回饋與積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3349,
+    "name": "短影音活動平台｜集中管理短影音活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3351,
+    "name": "活動提醒推播器｜提供即時的活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3357,
+    "name": "社群廣告管理器｜允許廣告的投放與管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3359,
+    "name": "粉絲贊助中心｜粉絲可直接贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3374,
+    "name": "學生挑戰模組｜學生可參與挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3425,
+    "name": "AI 銷售效能監控｜AI 即時監控與評估銷售效能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3427,
+    "name": "VIP 獨享平台｜提供 VIP 會員專屬功能與優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3433,
+    "name": "團購管理中心｜集中控管所有團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3436,
+    "name": "即時促銷平台｜提供即時促銷功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3438,
+    "name": "會員獎勵管理中心｜集中控管會員獎勵積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3440,
+    "name": "自動分潤中心｜自動計算並處理收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3444,
+    "name": "直播互動活動模組｜支援直播中的互動活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3451,
+    "name": "活動提醒系統｜自動提醒社群活動時間。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3457,
+    "name": "社群廣告投放工具｜允許廣告投放與效果追蹤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3459,
+    "name": "粉絲贊助工具箱｜允許粉絲直接贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3474,
+    "name": "學生互動任務平台｜支援學生互動任務與活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3525,
+    "name": "AI 銷售動態分析｜AI 即時提供銷售動態報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3533,
+    "name": "團購控管中心｜集中控管團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3538,
+    "name": "會員忠誠度系統｜集中管理會員忠誠度與回饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3540,
+    "name": "自動分潤計算器｜自動計算合作方收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3549,
+    "name": "短影音互動牆｜集中展示短影音互動活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3551,
+    "name": "活動推播模組｜自動推播社群活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3557,
+    "name": "社群廣告發佈器｜允許發佈社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3559,
+    "name": "粉絲贊助引擎｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3625,
+    "name": "AI 銷售動態引擎｜AI 即時提供銷售動態數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3633,
+    "name": "團購活動控管器｜集中控管團購活動與進度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3636,
+    "name": "即時促銷控管平台｜允許即時控管促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3638,
+    "name": "會員積分中心｜集中控管會員積分與獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3640,
+    "name": "自動收益分配引擎｜依規則自動化收益分配。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3649,
+    "name": "短影音互動專區｜集中管理短影音互動活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3651,
+    "name": "活動通知推送器｜自動推送活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3657,
+    "name": "社群廣告發佈平台｜允許投放社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3659,
+    "name": "粉絲贊助專區｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3725,
+    "name": "AI 銷售成效監控｜AI 即時監控銷售成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3736,
+    "name": "即時折扣發佈器｜即時發佈折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3738,
+    "name": "會員忠誠計畫模組｜集中管理會員忠誠度計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3740,
+    "name": "自動化分潤平台｜依規則自動處理收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3749,
+    "name": "短影音互動平台｜集中展示短影音互動活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3751,
+    "name": "活動推播平台｜提供社群活動即時推播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3757,
+    "name": "社群廣告發佈工具｜允許發佈社群廣告並追蹤成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3759,
+    "name": "粉絲贊助平台｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3823,
+    "name": "限時促銷平台｜集中管理與發佈限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3825,
+    "name": "AI 銷售趨勢偵測｜AI 即時偵測銷售趨勢變化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3833,
+    "name": "團購活動控管平台｜集中控管團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3838,
+    "name": "會員回饋管理系統｜集中管理會員回饋計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3840,
+    "name": "自動分潤計算平台｜自動化計算並分配收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3850,
+    "name": "社群投票引擎｜集中控管社群內的投票活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3851,
+    "name": "活動提醒推播平台｜自動推播活動提醒通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3857,
+    "name": "社群廣告發佈平台｜允許發佈並追蹤社群廣告成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3859,
+    "name": "粉絲贊助平台｜允許粉絲贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3872,
+    "name": "即時互動課堂模組｜支援課堂中的即時互動活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3925,
+    "name": "AI 銷售預測引擎｜AI 預測未來銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3927,
+    "name": "VIP 會員獨享平台｜專為 VIP 設計的優惠與服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3936,
+    "name": "即時促銷系統｜允許商家即時發佈促銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3938,
+    "name": "會員積分模組｜集中控管會員積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3940,
+    "name": "自動收益分配器｜依規則自動化收益分配。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3949,
+    "name": "短影音挑戰平台｜集中管理短影音挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3951,
+    "name": "活動推送工具｜自動推送社群活動訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3957,
+    "name": "社群廣告發佈平台｜允許管理與投放社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3959,
+    "name": "粉絲贊助引擎｜粉絲可直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3974,
+    "name": "學生任務平台｜提供學生挑戰與任務活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4023,
+    "name": "限時折扣系統｜集中管理限時折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4025,
+    "name": "AI 銷售成效平台｜AI 即時分析銷售成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4027,
+    "name": "VIP 尊榮會員系統｜提供 VIP 專屬優惠與功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4033,
+    "name": "團購平台｜集中管理與控管團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4036,
+    "name": "即時促銷管理器｜允許即時控管促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4038,
+    "name": "會員回饋平台｜集中管理會員回饋計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4051,
+    "name": "活動通知推播平台｜自動推播社群活動通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4057,
+    "name": "社群廣告投放平台｜允許投放與管理廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4059,
+    "name": "粉絲贊助平台｜允許粉絲贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4123,
+    "name": "限時秒殺活動平台｜提供限時秒殺活動的管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4125,
+    "name": "AI 銷售效能監控平台｜AI 即時分析銷售效能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4136,
+    "name": "即時折扣系統｜允許即時發佈折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4138,
+    "name": "會員積分中心｜集中控管會員積分功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4140,
+    "name": "自動化收益分配平台｜依規則自動分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4149,
+    "name": "短影音挑戰模組｜提供短影音挑戰活動功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4151,
+    "name": "活動通知平台｜推送社群活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4157,
+    "name": "社群廣告控管系統｜允許控管社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4159,
+    "name": "粉絲贊助模組｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4225,
+    "name": "AI 銷售偵測平台｜AI 即時監控與偵測銷售動態。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4236,
+    "name": "即時優惠推播模組｜即時推送優惠與促銷訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4238,
+    "name": "會員忠誠計畫平台｜集中控管會員忠誠度與回饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4251,
+    "name": "活動提醒推播模組｜自動推播社群活動訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4257,
+    "name": "社群廣告管理平台｜允許投放與管理社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4259,
+    "name": "粉絲贊助平台｜允許粉絲直接贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4323,
+    "name": "限時促銷模組｜集中管理限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4325,
+    "name": "AI 銷售成效監測系統｜AI 即時監測銷售成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4333,
+    "name": "團購中心｜集中管理團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4336,
+    "name": "即時折扣推送工具｜允許即時推送折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4338,
+    "name": "會員積分平台｜集中管理會員積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4340,
+    "name": "自動分潤平台｜依規則自動進行收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4351,
+    "name": "活動推播平台｜自動推播社群活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4357,
+    "name": "社群廣告管理平台｜允許社群內投放與控管廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4359,
+    "name": "粉絲贊助工具｜允許粉絲直接贊助。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4423,
+    "name": "限時促銷推播模組｜允許發佈限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4425,
+    "name": "AI 銷售監控平台｜AI 即時監控銷售數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4427,
+    "name": "VIP 會員專區｜提供 VIP 專屬的服務與優惠。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4433,
+    "name": "團購活動管理平台｜集中管理團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4436,
+    "name": "即時優惠平台｜允許即時發佈優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4438,
+    "name": "會員忠誠度平台｜集中控管會員忠誠度計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4440,
+    "name": "自動化收益分配平台｜自動進行收益分配。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4451,
+    "name": "活動推送工具｜自動推送社群活動訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4457,
+    "name": "社群廣告平台｜支援社群廣告的投放與控管。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4459,
+    "name": "粉絲贊助平台｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4474,
+    "name": "學生挑戰模組｜提供學生互動挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4525,
+    "name": "AI 銷售監控工具｜AI 即時偵測銷售異常與趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4536,
+    "name": "即時促銷管理模組｜允許即時控管促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4538,
+    "name": "會員回饋管理模組｜集中管理會員回饋計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4551,
+    "name": "活動提醒系統｜自動推播活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4557,
+    "name": "社群廣告管理系統｜集中控管社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4559,
+    "name": "粉絲贊助引擎｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4574,
+    "name": "學生挑戰系統｜提供學生挑戰與互動活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4623,
+    "name": "限時折扣活動模組｜集中管理限時折扣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4625,
+    "name": "AI 銷售趨勢偵測器｜AI 即時偵測銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4633,
+    "name": "團購管理模組｜集中管理團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4636,
+    "name": "即時促銷推播模組｜即時推播促銷資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4638,
+    "name": "會員積分管理平台｜集中控管會員積分功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4651,
+    "name": "活動推播平台｜自動推播活動通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4657,
+    "name": "社群廣告推播平台｜支援社群廣告投放與管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4659,
+    "name": "粉絲贊助中心｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4680,
+    "name": "跨校合作平台｜支援跨校合作的專案活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4723,
+    "name": "限時優惠推送模組｜允許推送限時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4725,
+    "name": "AI 銷售數據平台｜AI 分析與監控銷售數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4736,
+    "name": "即時促銷推播平台｜即時推播促銷與優惠訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4738,
+    "name": "會員積分控管器｜集中管理會員積分功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4740,
+    "name": "自動化分潤平台｜自動化分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4751,
+    "name": "活動推播模組｜自動推送活動通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4757,
+    "name": "社群廣告控管工具｜允許控管社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4759,
+    "name": "粉絲贊助系統｜允許粉絲直接贊助。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4774,
+    "name": "學生挑戰平台｜提供學生互動挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4780,
+    "name": "跨校專案合作平台｜支援跨校合作的專案活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4823,
+    "name": "限時優惠控管器｜集中控管限時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4825,
+    "name": "AI 銷售分析工具｜AI 分析銷售數據與趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4836,
+    "name": "即時優惠推送平台｜即時推播優惠與促銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4838,
+    "name": "會員積分平台｜集中控管會員積分系統。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4840,
+    "name": "自動分潤平台｜依規則自動分潤收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4851,
+    "name": "活動推送平台｜自動推播活動訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4857,
+    "name": "社群廣告平台｜集中控管社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4859,
+    "name": "粉絲贊助平台｜允許粉絲贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4923,
+    "name": "限時促銷推播平台｜即時推播限時促銷資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4925,
+    "name": "AI 銷售預測平台｜AI 預測銷售趨勢與熱銷商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4933,
+    "name": "團購管理平台｜集中控管團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4936,
+    "name": "即時促銷管理平台｜集中管理即時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4938,
+    "name": "會員忠誠管理平台｜集中控管會員忠誠度計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4951,
+    "name": "活動推播平台｜自動推播活動訊息與提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4957,
+    "name": "社群廣告投放平台｜允許投放與控管社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 4959,
+    "name": "粉絲贊助平台｜允許粉絲直接贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5023,
+    "name": "限時優惠發佈工具｜允許即時發佈限時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5025,
+    "name": "AI 銷售數據分析器｜AI 即時分析銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5036,
+    "name": "即時折扣推播模組｜允許推播折扣活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5038,
+    "name": "會員積分控管平台｜集中控管會員積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5049,
+    "name": "短影音挑戰模組｜集中管理短影音挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5051,
+    "name": "活動提醒工具｜提供社群活動提醒推送。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5057,
+    "name": "社群廣告推送平台｜集中管理社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5059,
+    "name": "粉絲贊助中心｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5074,
+    "name": "學生挑戰平台｜提供學生互動挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5125,
+    "name": "AI 銷售預測平台｜AI 預測銷售趨勢與數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5127,
+    "name": "VIP 會員專屬平台｜提供 VIP 專屬優惠與功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5133,
+    "name": "團購控管模組｜集中控管團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5136,
+    "name": "即時優惠管理平台｜集中控管即時優惠活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5138,
+    "name": "會員回饋管理平台｜集中管理會員回饋計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5151,
+    "name": "活動提醒模組｜自動推播活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5155,
+    "name": "簽到挑戰平台｜提供簽到任務與挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5157,
+    "name": "社群廣告控管平台｜允許控管社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5159,
+    "name": "粉絲贊助平台｜允許粉絲贊助支持創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5225,
+    "name": "AI 銷售趨勢分析平台｜AI 分析銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5233,
+    "name": "團購交易平台｜集中管理團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5236,
+    "name": "即時促銷平台｜允許即時發佈促銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5238,
+    "name": "會員忠誠平台｜集中控管會員忠誠計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5240,
+    "name": "自動化收益分潤平台｜依規則自動計算與分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5251,
+    "name": "活動推送工具｜允許推送活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5257,
+    "name": "社群廣告控管模組｜允許控管社群廣告活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5259,
+    "name": "粉絲贊助模組｜允許粉絲提供贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5323,
+    "name": "限時促銷控管器｜允許控管限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5325,
+    "name": "AI 銷售趨勢引擎｜AI 預測並分析銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5333,
+    "name": "團購交易平台｜允許管理團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5338,
+    "name": "會員忠誠控管平台｜集中控管會員忠誠計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5340,
+    "name": "自動分潤管理工具｜依規則自動完成收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5351,
+    "name": "活動提醒平台｜提供社群活動提醒功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5357,
+    "name": "社群廣告推送平台｜允許推送社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5359,
+    "name": "粉絲贊助平台｜允許粉絲提供贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5423,
+    "name": "限時促銷推送器｜允許推送限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5425,
+    "name": "AI 銷售數據平台｜AI 分析銷售趨勢與行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5433,
+    "name": "團購控管平台｜集中控管團購活動流程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5436,
+    "name": "即時促銷發佈平台｜即時發佈促銷資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5438,
+    "name": "會員積分平台｜集中控管會員積分計劃。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5440,
+    "name": "自動分潤控管平台｜依規則自動完成收益分配。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5451,
+    "name": "活動提醒平台｜推送社群活動提醒訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5457,
+    "name": "社群廣告控管器｜允許控管社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5459,
+    "name": "粉絲贊助中心｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5525,
+    "name": "AI 銷售預測引擎｜AI 預測銷售走勢與數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5536,
+    "name": "即時促銷推播平台｜允許推送即時促銷資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5538,
+    "name": "會員積分管理平台｜集中控管會員積分與回饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5540,
+    "name": "自動分潤平台｜依據規則自動分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5551,
+    "name": "活動提醒平台｜自動推送社群活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5557,
+    "name": "社群廣告控管平台｜允許管理社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5559,
+    "name": "粉絲贊助平台｜允許粉絲直接贊助創作者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5625,
+    "name": "AI 銷售預測平台｜AI 預測未來銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5633,
+    "name": "團購控管平台｜支援團購訂單與活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5636,
+    "name": "即時促銷工具｜允許即時推送促銷訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5638,
+    "name": "會員積分控管模組｜集中控管會員積分系統。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5651,
+    "name": "活動提醒系統｜自動推送社群活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5657,
+    "name": "社群廣告管理平台｜允許管理社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5659,
+    "name": "粉絲贊助平台｜允許粉絲提供贊助。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5723,
+    "name": "限時促銷提醒器｜推播限時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5725,
+    "name": "AI 銷售預測系統｜AI 預測即將到來的銷售趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5733,
+    "name": "團購平台｜允許集中控管團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5736,
+    "name": "即時優惠控管模組｜集中管理即時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5738,
+    "name": "會員積分管理平台｜集中控管會員積分與回饋計劃。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5740,
+    "name": "自動分潤工具｜自動計算與分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5751,
+    "name": "活動提醒系統｜自動推送活動提醒通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5756,
+    "name": "直播挑戰工具｜直播過程中提供挑戰活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5757,
+    "name": "社群廣告管理平台｜集中管理社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5759,
+    "name": "粉絲贊助系統｜允許粉絲直接贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5823,
+    "name": "限時促銷提醒系統｜推播限時促銷與折扣資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5825,
+    "name": "AI 銷售趨勢分析引擎｜AI 預測銷售趨勢與數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5833,
+    "name": "團購控管模組｜允許控管團購活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5836,
+    "name": "即時促銷控管工具｜集中管理即時促銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5838,
+    "name": "會員忠誠平台｜集中控管會員回饋與積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5851,
+    "name": "活動推送平台｜自動推送社群活動訊息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5857,
+    "name": "社群廣告控管平台｜允許控管社群廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5859,
+    "name": "粉絲贊助平台｜允許粉絲直接贊助支持。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5923,
+    "name": "限時促銷推送平台｜推播限時促銷與折扣資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5925,
+    "name": "AI 銷售數據平台｜AI 分析並預測銷售數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5933,
+    "name": "團購交易平台｜集中控管團購訂單與活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5936,
+    "name": "即時優惠管理平台｜即時推送優惠與促銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5938,
+    "name": "會員回饋系統｜集中控管會員回饋與積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5940,
+    "name": "自動收益分潤平台｜依規則自動計算與分配收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5951,
+    "name": "活動提醒平台｜自動推送社群活動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5957,
+    "name": "社群廣告控管平台｜允許控管社群廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 5959,
+    "name": "粉絲贊助中心｜允許粉絲直接贊助支持。",
+    "desc": "",
+    "category": "business"
+  }
+]

@@ -1,0 +1,3212 @@
+[
+  {
+    "id": 29,
+    "name": "雙重驗證登入｜提升帳號安全性，支援簡訊或 Email 驗證碼。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 51,
+    "name": "多角色權限管理｜後台支援不同角色（管理員/編輯/檢視）的權限控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 55,
+    "name": "後台操作日誌｜記錄管理員的操作紀錄，方便追蹤問題。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 58,
+    "name": "SQL Injection 防禦模組｜自動檢測與阻擋 SQL 注入攻擊，保護資料庫安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 59,
+    "name": "CORS 設定中心｜統一管理跨來源資源共享設定，提升 API 安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 60,
+    "name": "JWT 驗證模組｜使用 JSON Web Token 驗證使用者登入與 API 請求。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 63,
+    "name": "A/B 測試工具｜支援不同版本頁面測試，分析轉換率差異。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 66,
+    "name": "優惠券生成工具｜後台可生成折扣券並設定使用規則。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 72,
+    "name": "伺服器資源監控｜監控 CPU、記憶體與網路流量，預防異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 73,
+    "name": "錯誤日誌追蹤｜集中管理錯誤日誌，協助開發者除錯。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 75,
+    "name": "一鍵還原功能｜發生問題時可快速將系統還原至穩定版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 77,
+    "name": "Open Graph / Twitter Card 設定｜設定社群分享時的標題與縮圖。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 78,
+    "name": "密碼強度檢查器｜強制使用者設定高強度密碼，提升安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 79,
+    "name": "登入異常偵測｜監控並警示異常登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 80,
+    "name": "API 金鑰控管｜管理外部 API 金鑰，避免未授權存取。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 93,
+    "name": "API 整合模組｜提供第三方 API 串接，擴展功能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 99,
+    "name": "快取優化模組｜提升網站效能，減少伺服器負載。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 141,
+    "name": "雙重驗證（2FA）｜支援 TOTP/簡訊二階段驗證，強化安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 169,
+    "name": "即時匯率換算｜依央行/供應商 API 自動更新匯率。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 171,
+    "name": "多角色權限（進階）｜細緻到路由/資源層級的權限控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 174,
+    "name": "資源管理器（版本控管）｜檔案上傳與歷史版本回溯/還原。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 178,
+    "name": "表單管理器｜建立前台表單、驗證規則與通知。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 187,
+    "name": "優惠券與折扣碼中心｜建立規則、使用次數與到期設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 194,
+    "name": "OAuth2 Provider/Client 設定｜支援多種授權流程與範圍設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 195,
+    "name": "API 金鑰與速率限制儀表板｜配置金鑰權限與速率限制策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 198,
+    "name": "安全稽核報表匯出｜將稽核事件導出 CSV/PDF 追蹤。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 244,
+    "name": "版本回溯模組｜內容可回復到過去版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 248,
+    "name": "內容排程發布｜文章可設定特定時間自動發布。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 249,
+    "name": "多語系內容管理｜同一篇文章支援多語言版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 261,
+    "name": "即時訪客監控｜顯示網站當前訪客數與分佈。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 263,
+    "name": "轉換率追蹤｜監控使用者行為至轉換的比例。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 269,
+    "name": "A/B 測試報表｜展示不同版本的成效比較。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 283,
+    "name": "CSRF 防護模組｜透過驗證 Token 避免跨站請求偽造。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 285,
+    "name": "存取控制模組｜設定不同用戶組的資料存取權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 289,
+    "name": "安全日誌審計｜集中記錄安全事件與操作行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 291,
+    "name": "高可用性架構｜支援多伺服器負載均衡與故障轉移。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 292,
+    "name": "監控警示系統｜伺服器異常時發送即時警報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 296,
+    "name": "金流交易風險檢測｜監控異常金流交易並自動標記。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 297,
+    "name": "身分驗證模組｜多因子驗證與單一登入整合。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 298,
+    "name": "權限稽核模組｜定期產出權限與操作稽核報表。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 323,
+    "name": "多倉庫庫存管理｜支援多個倉庫的庫存同步與配送設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 337,
+    "name": "包裹追蹤模組｜整合物流 API 顯示包裹運送進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 362,
+    "name": "內部文件分享｜允許團隊分享內部文件與限制權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 374,
+    "name": "線上考試監考｜支援相機監考與身份驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 382,
+    "name": "程式碼掃描模組｜自動掃描程式碼中的安全問題。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 387,
+    "name": "雙因子金流驗證｜金流交易時要求雙因子驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 389,
+    "name": "災難演練模組｜定期模擬系統崩潰並驗證復原流程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 390,
+    "name": "服務等級監控｜檢測 SLA 指標並輸出報表。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 391,
+    "name": "用戶權限稽核｜定期產出用戶權限異動報表。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 392,
+    "name": "端點安全檢查｜檢測終端裝置是否符合安全規範。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 394,
+    "name": "金流交易監控｜即時檢測異常交易行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 395,
+    "name": "防止重放攻擊｜防止重複提交 API 請求。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 398,
+    "name": "伺服器資安報告｜定期產生伺服器資安檢查報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 424,
+    "name": "跨境物流模組｜整合國際物流 API，提供運送追蹤。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 472,
+    "name": "線上作答監控｜教師可即時查看學生答題狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 476,
+    "name": "課程討論區｜每門課程配置專屬討論區。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 485,
+    "name": "資料外洩監控｜監控資料是否外洩至公開平台。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 486,
+    "name": "憑證自動更新｜SSL 憑證自動續期與配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 487,
+    "name": "使用者權限日誌｜追蹤用戶權限變更紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 489,
+    "name": "備份完整性驗證｜定期驗證備份檔案是否完整可用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 490,
+    "name": "系統資源自動伸縮｜依流量自動增加或減少伺服器資源。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 491,
+    "name": "API 安全閘道｜集中控管 API 存取與驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 493,
+    "name": "跨區域備援｜異地部署備援系統以防單點故障。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 495,
+    "name": "安全合規掃描｜檢查 GDPR/ISO 等法規合規狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 497,
+    "name": "自動化滲透測試｜模擬攻擊場景進行安全測試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 499,
+    "name": "AI 資安分析｜AI 協助分析大量安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 534,
+    "name": "即時運輸估算｜依據物流 API 計算精準運費。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 581,
+    "name": "身份驗證強化｜支援多因子身份驗證以提升安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 582,
+    "name": "自動備援切換｜系統異常時自動切換到備援伺服器。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 583,
+    "name": "安全憑證中心｜集中管理所有 SSL/TLS 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 584,
+    "name": "資料存取日誌｜記錄所有敏感資料的存取紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 589,
+    "name": "檔案完整性驗證｜定期驗證檔案是否遭到竄改。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 591,
+    "name": "API 權限細分｜提供更細緻的 API 權限控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 592,
+    "name": "安全風險評估｜定期產生系統安全風險評估報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 595,
+    "name": "雲端日誌分析｜集中分析雲端運行日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 598,
+    "name": "端到端安全測試｜模擬攻擊以檢測安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 605,
+    "name": "圖片縮圖快取｜自動產生縮圖快取，加速圖片載入。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 616,
+    "name": "自訂快捷工具列｜允許用戶設定常用操作快捷列。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 659,
+    "name": "AI 社群監控｜AI 偵測並過濾不當內容或行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 670,
+    "name": "學生討論群組｜課程下方配置學生討論群。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 683,
+    "name": "安全風險模型｜建立風險模型以評估潛在威脅。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 684,
+    "name": "用戶行為監控｜持續監控用戶行為以偵測異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 685,
+    "name": "自動安全報告｜定期生成系統安全報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 686,
+    "name": "金流安全稽核｜針對金流交易進行稽核與分析。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 688,
+    "name": "弱點通報平台｜集中管理並回應安全漏洞通報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 689,
+    "name": "Bot 攻擊監控｜即時監控並封鎖惡意 Bot 請求。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 690,
+    "name": "安全策略中心｜集中管理與配置安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 691,
+    "name": "備援伺服器模組｜系統異常時自動切換至備援伺服器。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 692,
+    "name": "API 請求稽核｜分析 API 請求以檢測異常流量。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 693,
+    "name": "雲端安全同步｜雲端資料定期同步並檢查安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 698,
+    "name": "交易完整性驗證｜確保金流交易資料未被竄改。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 699,
+    "name": "安全合規追蹤｜持續追蹤系統合規性狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 700,
+    "name": "密碼安全政策｜強制用戶設定高強度密碼。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 723,
+    "name": "國際物流追蹤｜整合多國物流 API，顯示配送進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 738,
+    "name": "配送選項擴充｜支援更多元的配送方式與設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 783,
+    "name": "安全稽核日誌｜集中記錄所有安全相關日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 786,
+    "name": "自動錯誤修復｜檢測錯誤並自動修復系統設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 787,
+    "name": "API 請求防護｜阻擋異常或惡意 API 請求。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 788,
+    "name": "交易監控模組｜即時監控交易是否有異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 789,
+    "name": "身分驗證日誌｜記錄所有身份驗證的歷程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 790,
+    "name": "金流安全中心｜集中管理金流安全與稽核。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 794,
+    "name": "弱點管理平台｜集中管理所有安全漏洞。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 795,
+    "name": "AI 資安警報｜AI 分析日誌並提出安全警報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 796,
+    "name": "憑證監測工具｜監控憑證狀態與到期提醒。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 797,
+    "name": "跨裝置安全同步｜不同裝置間同步安全設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 800,
+    "name": "安全教育平台｜提供員工線上資安教育課程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 817,
+    "name": "圖標動畫化｜將靜態圖標轉換為動畫版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 832,
+    "name": "商品序號驗證｜支援商品序號的真偽驗證功能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 881,
+    "name": "多因子驗證｜支援 OTP、指紋、人臉辨識等驗證方式。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 883,
+    "name": "交易安全監控｜即時監控所有金流交易安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 886,
+    "name": "安全漏洞掃描｜定期掃描並回報系統漏洞。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 888,
+    "name": "跨地區登入監控｜檢測異常地理位置的登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 894,
+    "name": "跨平台安全同步｜不同平台間同步安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 897,
+    "name": "行為日誌分析｜分析使用者操作日誌，檢測異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 899,
+    "name": "AI 資安監控｜AI 即時監控系統安全狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 947,
+    "name": "AI 社群監控｜AI 偵測並自動過濾不當內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 971,
+    "name": "考試監控平台｜支援遠端監控與錄影考試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 981,
+    "name": "自動漏洞修補｜系統自動修補已知安全漏洞。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 985,
+    "name": "跨平台安全整合｜不同平台間統一安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 987,
+    "name": "憑證自動續期｜SSL 憑證自動續期與配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 990,
+    "name": "自動安全日誌｜系統自動記錄並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 992,
+    "name": "風險控管平台｜集中管理企業風險與安全指標。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 998,
+    "name": "行為日誌審核｜分析並審核使用者操作日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1000,
+    "name": "AI 安全建議｜AI 根據數據提供安全強化建議。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1019,
+    "name": "個人化首頁配置｜使用者可自訂首頁模組排版。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1058,
+    "name": "AI 社群安全｜AI 偵測不當言論並自動移除。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1071,
+    "name": "課程專屬聊天室｜每個課程配置專屬聊天室。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1081,
+    "name": "多層身份驗證｜支援 OTP、郵件與生物辨識等多層驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1082,
+    "name": "AI 交易監控｜AI 即時檢測並攔截異常交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1084,
+    "name": "安全憑證快取｜自動快取憑證以加速驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1090,
+    "name": "安全更新管理｜集中管理系統安全更新。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1091,
+    "name": "資料加密中心｜集中管理所有資料加密設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1092,
+    "name": "AI 安全報告｜AI 自動生成系統安全報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1093,
+    "name": "端點安全控管｜檢查並管理終端設備的安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1097,
+    "name": "金流風險分析｜監控與分析金流風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1098,
+    "name": "安全教育訓練｜提供員工安全相關的教育課程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1100,
+    "name": "交易完整性驗證｜確保交易數據在傳輸中未被竄改。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1107,
+    "name": "情境 UI 切換｜依使用場景自動切換 UI 配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1112,
+    "name": "多主題配置｜支援不同風格主題切換。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1145,
+    "name": "AI 動態監控｜AI 自動監控並過濾不當貼文。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1189,
+    "name": "登入異常監控｜偵測並封鎖異常登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1190,
+    "name": "跨平台安全日誌｜統一收集並分析跨平台安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1192,
+    "name": "AI 資安分析｜AI 自動分析資安日誌並提出警報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1193,
+    "name": "安全更新提醒｜提醒管理員更新安全設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1194,
+    "name": "端點裝置管控｜監控並管理使用者端設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1195,
+    "name": "跨雲安全整合｜支援多雲端平台的安全整合。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1198,
+    "name": "金流交易監控｜監控並分析所有金流交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1203,
+    "name": "智慧表單驗證｜AI 自動檢查與驗證表單輸入。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1282,
+    "name": "AI 資安日誌分析｜AI 自動分析安全日誌與異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1283,
+    "name": "金流即時監控｜即時監控所有金流交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1284,
+    "name": "跨平台安全防護｜不同平台間統一資安防護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1291,
+    "name": "安全審核模組｜提供定期的安全審核報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1296,
+    "name": "安全教育模組｜提供員工資安教育與考試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1367,
+    "name": "多語系教材匯出｜教材可匯出成多語言版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1392,
+    "name": "安全稽核系統｜提供完整的安全稽核功能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1393,
+    "name": "AI 威脅監控｜AI 即時監控並分析威脅。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1395,
+    "name": "跨雲端安全整合｜支援多雲端的安全策略整合。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1399,
+    "name": "自動安全報告｜定期生成安全報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1418,
+    "name": "個人化 UI 設定｜允許使用者自訂 UI 佈局與風格。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1477,
+    "name": "AI 學習監測｜AI 即時監控學生學習狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1483,
+    "name": "金流異常監控｜監控並標記異常金流交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1484,
+    "name": "跨平台登入監控｜偵測異常跨平台登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1486,
+    "name": "AI 入侵測試｜AI 自動模擬入侵以測試安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1487,
+    "name": "行為模式監控｜監控使用者行為模式以偵測異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1488,
+    "name": "資料安全快取｜提供敏感資料的安全快取。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1491,
+    "name": "安全憑證平台｜集中管理 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1497,
+    "name": "端點安全監測｜即時監控端點設備安全狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1500,
+    "name": "安全教育模組｜提供員工資安意識教育課程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1529,
+    "name": "商品二維碼驗證｜支援掃描二維碼驗證商品真偽。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1534,
+    "name": "商品履歷驗證｜驗證商品來源與流通履歷。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1584,
+    "name": "跨平台安全分析｜集中管理跨平台安全數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1587,
+    "name": "行為數據監控｜監控並分析使用者行為數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1588,
+    "name": "Bot 攻擊防護系統｜阻擋並監控惡意 Bot 攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1590,
+    "name": "安全憑證自動化｜SSL 憑證自動生成與續期。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1591,
+    "name": "AI 風險預測｜AI 預測潛在安全風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1593,
+    "name": "跨雲端安全策略｜整合不同雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1595,
+    "name": "端點設備控管｜集中管理端點設備的安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1596,
+    "name": "風險報告平台｜生成完整的安全風險報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1598,
+    "name": "即時安全日誌分析｜即時分析安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1630,
+    "name": "供應鏈異常監控｜即時監控供應鏈異常狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1684,
+    "name": "跨平台登入控管｜集中管理跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1690,
+    "name": "安全憑證控管｜集中控管所有 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1691,
+    "name": "AI 安全建議｜AI 提供系統安全優化建議。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1692,
+    "name": "資料外洩監控｜即時監控並預警資料外洩風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1693,
+    "name": "跨雲安全防護｜整合不同雲端平台的安全防護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1695,
+    "name": "端點安全管制｜管理端點設備的安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1698,
+    "name": "安全日誌管理｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1716,
+    "name": "智慧型色彩優化｜AI 自動優化頁面顏色配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1727,
+    "name": "供應鏈智能監控｜智能監控供應鏈即時狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1784,
+    "name": "跨平台登入管理｜集中管理跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1790,
+    "name": "安全憑證更新｜自動化 SSL 憑證更新。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1793,
+    "name": "跨雲端安全平台｜整合多雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1795,
+    "name": "端點安全防護｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1798,
+    "name": "安全日誌分析｜集中分析與管理安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1836,
+    "name": "動態折扣管理｜依情境自動設定不同折扣方案。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1875,
+    "name": "多語系教材支援｜教材可自動翻譯多語言版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1890,
+    "name": "安全憑證控管模組｜集中控管 SSL 憑證與更新。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1893,
+    "name": "跨雲安全策略｜整合多雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1895,
+    "name": "端點設備監控｜集中監控端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1898,
+    "name": "安全日誌監控｜集中分析與監控安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1931,
+    "name": "供應鏈監控平台｜集中監控供應鏈運作狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1965,
+    "name": "AI 學習數據監控｜AI 即時監控學生學習數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1984,
+    "name": "跨平台安全稽核｜針對多平台進行安全稽核。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1988,
+    "name": "Bot 攻擊監控平台｜監控並防範 Bot 攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1990,
+    "name": "安全憑證更新工具｜自動更新 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1991,
+    "name": "AI 安全最佳化建議｜AI 提供即時安全優化建議。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1993,
+    "name": "跨雲端安全平台｜整合不同雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1998,
+    "name": "安全日誌中心｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2011,
+    "name": "模組化介面配置｜允許自由拖曳配置 UI 模組。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2031,
+    "name": "供應鏈監控中心｜集中監控供應鏈狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2034,
+    "name": "跨平台價格監控｜確保不同平台價格一致。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2065,
+    "name": "AI 學習監測平台｜AI 即時監控學生學習表現。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2087,
+    "name": "行為異常監測系統｜即時監控並分析使用者異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2088,
+    "name": "Bot 攻擊防護平台｜防範與監控 Bot 攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2090,
+    "name": "安全憑證管理｜自動控管 SSL 憑證與續期。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2093,
+    "name": "跨雲安全中心｜集中整合多雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2095,
+    "name": "端點安全模組｜集中控管端點設備安全狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2098,
+    "name": "安全日誌平台｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2131,
+    "name": "供應鏈監測平台｜集中監控供應鏈運作狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2165,
+    "name": "AI 學習監控工具｜AI 即時監控學生的學習進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2185,
+    "name": "隱私保護管理｜集中控管隱私數據的安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2190,
+    "name": "安全憑證平台｜集中管理 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2191,
+    "name": "AI 安全顧問｜AI 提供安全防禦建議。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2193,
+    "name": "跨雲安全管理｜集中整合跨雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2195,
+    "name": "端點防護平台｜提供端點設備的安全控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2198,
+    "name": "安全日誌分析平台｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2199,
+    "name": "金流詐騙監控｜阻擋疑似詐騙性金流交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2219,
+    "name": "AI 體驗優化引擎｜AI 即時監控並最佳化使用者體驗。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2231,
+    "name": "供應鏈預警平台｜監控並預警供應鏈異常狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2284,
+    "name": "跨平台登入安全控管｜集中管理跨平台登入風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2290,
+    "name": "安全憑證更新平台｜自動控管 SSL 憑證的更新。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2291,
+    "name": "AI 安全建議助手｜AI 即時提供安全建議。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2293,
+    "name": "跨雲安全控管｜集中管理多雲端平台的安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2295,
+    "name": "端點安全管理｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2298,
+    "name": "安全日誌分析引擎｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2331,
+    "name": "供應鏈風險監控｜監控供應鏈風險並即時發出警示。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2383,
+    "name": "金流監控模組｜即時監控金流異常狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2388,
+    "name": "Bot 攻擊監控引擎｜偵測與防禦 Bot 攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2390,
+    "name": "安全憑證控管工具｜集中控管 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2391,
+    "name": "AI 安全優化建議｜AI 即時提供安全最佳化建議。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2393,
+    "name": "跨雲安全控管系統｜集中管理跨雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2395,
+    "name": "端點安全監控中心｜集中監控端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2398,
+    "name": "安全日誌控管工具｜集中管理並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2475,
+    "name": "多語言教材模組｜教材可自動翻譯多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2481,
+    "name": "AI 威脅監控中心｜AI 即時監控並分析威脅行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2484,
+    "name": "跨平台登入控管｜提供跨平台登入的安全控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2490,
+    "name": "安全憑證管理器｜自動更新與管理 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2493,
+    "name": "跨雲安全整合｜集中管理多雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2494,
+    "name": "登入異常監控系統｜即時監控登入異常並封鎖帳號。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2495,
+    "name": "端點設備保護｜集中控管端點設備的安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2498,
+    "name": "安全日誌控管平台｜集中管理並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2507,
+    "name": "拖曳式組件配置｜允許用戶拖曳配置頁面組件。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2524,
+    "name": "商品來源驗證｜允許顧客查詢商品來源。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2565,
+    "name": "AI 學習數據監控｜AI 即時監控學生學習數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2575,
+    "name": "多語教材模組｜教材自動支援多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2581,
+    "name": "AI 威脅監控平台｜AI 集中監控威脅行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2584,
+    "name": "跨平台登入監控｜集中管理跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2587,
+    "name": "異常行為監控器｜監控並分析異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2590,
+    "name": "安全憑證中心｜集中管理憑證發放與續期。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2593,
+    "name": "跨雲安全策略平台｜整合跨雲端平台的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2595,
+    "name": "端點保護系統｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2598,
+    "name": "安全日誌監控平台｜集中監控與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2619,
+    "name": "AI 體驗監控模組｜AI 即時監控並最佳化使用者體驗。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2636,
+    "name": "動態折扣模組｜依市場變化動態設定折扣。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2684,
+    "name": "跨平台安全控管｜集中管理跨平台登入與安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2685,
+    "name": "隱私保護模組｜提供隱私數據的安全防護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2690,
+    "name": "安全憑證自動化｜自動管理 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2695,
+    "name": "端點設備防護｜集中管理端點設備的安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2698,
+    "name": "安全日誌控管平台｜集中控管與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2731,
+    "name": "供應鏈異常監控｜監控並預警供應鏈異常狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2767,
+    "name": "學生數據監控｜即時監控學生學習進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2775,
+    "name": "教材翻譯引擎｜教材可自動翻譯成多語系版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2790,
+    "name": "安全憑證控管｜集中管理憑證與更新。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2793,
+    "name": "跨雲安全引擎｜整合並管理跨雲端的安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2795,
+    "name": "端點保護平台｜集中管理端點安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2798,
+    "name": "安全日誌管理平台｜集中控管安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2884,
+    "name": "跨平台登入控管模組｜集中管理跨平台登入的安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2890,
+    "name": "安全憑證管理中心｜集中管理所有 SSL 憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2893,
+    "name": "跨雲安全整合平台｜整合跨雲端的資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2895,
+    "name": "端點保護工具｜集中管理端點安全狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2898,
+    "name": "安全日誌分析工具｜集中分析並管理安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2934,
+    "name": "跨平台價格監控｜自動偵測不同平台間的價格差異。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2942,
+    "name": "AI 社群互動監控｜AI 即時監控並分析社群互動狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2985,
+    "name": "隱私保護監控模組｜即時監控隱私保護狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2987,
+    "name": "異常行為監控工具｜監控並分析異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2990,
+    "name": "安全憑證監控中心｜集中管理 SSL 憑證安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2993,
+    "name": "跨雲安全監控系統｜集中管理跨雲平台安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2995,
+    "name": "端點設備控管器｜集中控管端點設備安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2998,
+    "name": "安全日誌檢測工具｜自動分析安全日誌並回報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3007,
+    "name": "拖曳式版面拼圖｜允許使用者拖曳拼接版面配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3065,
+    "name": "AI 學習數據監控｜AI 即時監控學習進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3083,
+    "name": "金流異常監控系統｜即時偵測異常金流。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3084,
+    "name": "跨平台登入安全控管｜集中控管跨平台登入狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3085,
+    "name": "隱私監控平台｜即時監控隱私合規狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3090,
+    "name": "安全憑證控管平台｜集中管理安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3093,
+    "name": "跨雲安全模組｜整合不同雲端的資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3095,
+    "name": "端點安全控管工具｜集中控管端點設備。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3096,
+    "name": "風險監控平台｜生成即時風險監控報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3098,
+    "name": "安全日誌分析平台｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3131,
+    "name": "供應鏈監控平台｜集中監控供應鏈的異常狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3184,
+    "name": "跨平台登入防護模組｜集中管理跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3185,
+    "name": "隱私監控工具｜即時監控隱私狀態與風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3187,
+    "name": "異常行為監控平台｜集中分析異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3190,
+    "name": "安全憑證控管工具｜自動控管憑證更新。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3193,
+    "name": "跨雲安全控管模組｜整合跨雲的資安控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3194,
+    "name": "登入異常監控平台｜偵測並防護登入異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3195,
+    "name": "端點安全控管平台｜集中控管端點設備安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3198,
+    "name": "安全日誌控管系統｜集中控管與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3207,
+    "name": "拖曳式內容配置器｜允許用戶拖曳配置頁面內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3231,
+    "name": "供應鏈可視化監控｜可視化展示供應鏈運作狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3275,
+    "name": "多語教材翻譯工具｜自動翻譯教材成多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3285,
+    "name": "隱私數據監控工具｜即時監控隱私數據使用狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3290,
+    "name": "安全憑證管理平台｜集中管理憑證與自動續期。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3293,
+    "name": "跨雲資安管理工具｜集中管理跨雲端平台安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3295,
+    "name": "端點防護中心｜集中控管端點安全措施。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3298,
+    "name": "安全日誌控管平台｜集中控管安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3324,
+    "name": "商品來源驗證平台｜公開透明的商品來源驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3334,
+    "name": "跨平台價格監控器｜自動偵測不同平台的價格差異。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3383,
+    "name": "金流安全監控器｜即時監控金流安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3384,
+    "name": "跨平台登入監控｜集中監控跨平台登入異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3385,
+    "name": "隱私保護平台｜保障用戶隱私數據安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3390,
+    "name": "安全憑證監控｜自動控管與更新安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3393,
+    "name": "跨雲安全中心｜整合跨雲端的資安管理。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3395,
+    "name": "端點安全管理平台｜集中控管端點設備。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3398,
+    "name": "安全日誌分析器｜分析安全日誌並提供報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3475,
+    "name": "教材翻譯系統｜教材可自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3483,
+    "name": "金流安全檢測器｜即時監控金流安全狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3484,
+    "name": "跨平台登入安全管理｜集中控管跨平台登入的安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3485,
+    "name": "隱私保護監控平台｜即時監控隱私數據合規。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3487,
+    "name": "異常行為監控模組｜偵測並分析異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3490,
+    "name": "安全憑證控管系統｜集中管理安全憑證與續期。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3493,
+    "name": "跨雲資安平台｜整合跨雲端平台的安全管理。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3498,
+    "name": "安全日誌管理器｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3531,
+    "name": "供應鏈透明監控｜可視化供應鏈的透明化管理。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3581,
+    "name": "AI 威脅監控平台｜AI 即時監控並分析威脅。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3583,
+    "name": "金流異常監控平台｜即時偵測並防護金流異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3584,
+    "name": "跨平台登入控管器｜集中管理跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3590,
+    "name": "安全憑證監控系統｜集中監控憑證使用狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3592,
+    "name": "資料外洩監控中心｜偵測潛在的資料外洩風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3593,
+    "name": "跨雲安全管理模組｜集中管理跨雲端平台資安。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3595,
+    "name": "端點安全控管平台｜集中控管端點設備的安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3598,
+    "name": "安全日誌控管器｜集中控管安全日誌分析。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3606,
+    "name": "AI 色彩最佳化引擎｜AI 自動最佳化頁面色彩配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3631,
+    "name": "供應鏈監控引擎｜集中監控供應鏈狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3675,
+    "name": "教材翻譯引擎｜教材可自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3681,
+    "name": "AI 威脅監控引擎｜AI 即時監控與預測潛在威脅。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3685,
+    "name": "隱私數據監控工具｜即時監控隱私數據使用情況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3690,
+    "name": "安全憑證自動控管｜自動控管安全憑證與續期。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3693,
+    "name": "跨雲安全中心｜集中控管跨雲端的資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3698,
+    "name": "安全日誌追蹤系統｜集中追蹤並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3726,
+    "name": "多平台庫存監控平台｜集中監控多平台庫存狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3783,
+    "name": "金流安全防護系統｜即時監控與防護金流安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3787,
+    "name": "異常行為監控中心｜集中監控異常行為數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3790,
+    "name": "安全憑證控管中心｜集中管理安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3793,
+    "name": "跨雲安全控管系統｜集中控管跨雲端安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3795,
+    "name": "端點資安控管系統｜集中管理端點安全措施。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3798,
+    "name": "安全日誌管理系統｜集中管理與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3831,
+    "name": "供應鏈透明監控系統｜可視化監控供應鏈全流程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3884,
+    "name": "跨平台登入安全監控｜集中控管跨平台登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3886,
+    "name": "AI 入侵監控平台｜AI 即時監控並攔截入侵行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3887,
+    "name": "異常行為監控平台｜集中偵測異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3890,
+    "name": "安全憑證控管平台｜自動化安全憑證控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3893,
+    "name": "跨雲安全整合平台｜集中整合跨雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3895,
+    "name": "端點防護控管平台｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3898,
+    "name": "安全日誌控管平台｜集中控管與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3906,
+    "name": "AI 色彩最佳化平台｜AI 自動進行頁面色彩最佳化配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3928,
+    "name": "商品需求監控引擎｜AI 即時監控商品需求。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3931,
+    "name": "供應鏈監測平台｜可視化監控供應鏈運作。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3975,
+    "name": "教材翻譯系統｜教材可自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3983,
+    "name": "金流安全監控平台｜即時監控金流的異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3984,
+    "name": "跨平台登入監控器｜集中管理跨平台登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3987,
+    "name": "異常行為監控工具｜偵測並分析異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3990,
+    "name": "安全憑證控管工具｜自動化安全憑證的管理。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3993,
+    "name": "跨雲安全中心｜集中控管跨雲端資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3995,
+    "name": "端點控管平台｜集中管理端點安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3996,
+    "name": "風險監控中心｜即時監控風險並生成報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 3998,
+    "name": "安全日誌平台｜集中控管並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4024,
+    "name": "商品履歷驗證平台｜允許用戶查詢商品履歷。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4042,
+    "name": "AI 社群數據監控平台｜AI 即時監控社群數據與趨勢。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4075,
+    "name": "教材翻譯助手｜教材自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4083,
+    "name": "金流風險監控平台｜即時監控金流風險交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4085,
+    "name": "隱私數據保護平台｜集中管理隱私數據安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4087,
+    "name": "異常行為監控平台｜即時偵測與分析異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4090,
+    "name": "安全憑證監控平台｜集中監控安全憑證使用狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4093,
+    "name": "跨雲端安全控管平台｜集中管理跨雲端資安。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4095,
+    "name": "端點安全控管平台｜集中控管端點設備。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4098,
+    "name": "安全日誌分析平台｜集中控管與分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4124,
+    "name": "商品履歷驗證工具｜允許用戶查詢商品履歷與來源。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4183,
+    "name": "金流異常監控系統｜即時偵測金流異常交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4185,
+    "name": "隱私數據監測平台｜即時監控隱私數據使用狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4190,
+    "name": "安全憑證監控系統｜集中監控安全憑證使用狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4198,
+    "name": "安全日誌分析平台｜集中管理安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4231,
+    "name": "供應鏈可視化平台｜提供完整的供應鏈透明化監控。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4275,
+    "name": "教材翻譯引擎｜自動將教材翻譯成多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4283,
+    "name": "金流風險監測平台｜監控金流異常交易與風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4284,
+    "name": "跨平台登入安全系統｜集中管理跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4285,
+    "name": "隱私數據監測平台｜集中監控隱私數據使用情況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4290,
+    "name": "安全憑證管理平台｜集中控管安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4293,
+    "name": "跨雲端安全平台｜集中控管跨雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4295,
+    "name": "端點安全監控平台｜集中管理端點安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4296,
+    "name": "風險監控平台｜生成風險監控報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4298,
+    "name": "安全日誌分析引擎｜集中分析安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4313,
+    "name": "多樣式版面配置器｜支援切換不同的版面配置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4326,
+    "name": "多平台庫存即時監控｜集中監控多平台的庫存變化。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4331,
+    "name": "供應鏈監控平台｜可視化供應鏈的即時監控。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4365,
+    "name": "AI 學習行為監控工具｜AI 即時監控學習行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4375,
+    "name": "教材翻譯平台｜支援教材翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4383,
+    "name": "金流安全平台｜即時監測金流交易安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4384,
+    "name": "跨平台登入安全控管｜集中控管跨平台登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4390,
+    "name": "安全憑證控管器｜自動控管安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4392,
+    "name": "資料外洩監控工具｜偵測潛在資料外洩風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4393,
+    "name": "跨雲安全控管平台｜集中控管跨雲端的資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4395,
+    "name": "端點安全控管平台｜集中控管端點設備。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4398,
+    "name": "安全日誌監控器｜集中控管安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4475,
+    "name": "教材翻譯模組｜自動翻譯教材成多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4483,
+    "name": "金流異常監控工具｜偵測金流異常交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4485,
+    "name": "隱私保護平台｜集中控管隱私數據安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4490,
+    "name": "安全憑證管理平台｜集中管理安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4493,
+    "name": "跨雲安全平台｜集中控管跨雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4498,
+    "name": "安全日誌分析平台｜集中控管安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4534,
+    "name": "跨平台價格監控模組｜確保跨平台商品價格一致。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4575,
+    "name": "教材翻譯引擎｜教材可翻譯成多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4583,
+    "name": "金流監控中心｜即時監控金流異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4587,
+    "name": "異常行為監控中心｜即時偵測異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4590,
+    "name": "安全憑證管理工具｜自動化安全憑證控管。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4593,
+    "name": "跨雲安全控管平台｜集中控管跨雲端的安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4595,
+    "name": "端點安全管理系統｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4598,
+    "name": "安全日誌分析工具｜集中控管安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4606,
+    "name": "AI 自動化色彩配置器｜AI 自動生成最佳色彩搭配方案。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4675,
+    "name": "教材翻譯中心｜教材可自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4683,
+    "name": "金流安全控管平台｜即時監控金流安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4685,
+    "name": "隱私數據監測平台｜集中監測隱私數據安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4688,
+    "name": "Bot 攻擊監控平台｜即時防護 Bot 攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4690,
+    "name": "安全憑證控管平台｜集中控管憑證安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4692,
+    "name": "資料外洩監控平台｜偵測資料外洩行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4693,
+    "name": "跨雲端安全系統｜集中管理跨雲端資安。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4695,
+    "name": "端點安全平台｜集中管理端點設備資安。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4696,
+    "name": "風險監控平台｜即時生成風險監控報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4698,
+    "name": "安全日誌管理平台｜集中控管安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4724,
+    "name": "商品履歷驗證器｜允許查詢商品完整履歷。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4775,
+    "name": "教材翻譯平台｜自動翻譯教材為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4784,
+    "name": "跨平台登入安全系統｜集中控管跨平台登入行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4785,
+    "name": "隱私數據保護平台｜集中控管隱私數據安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4790,
+    "name": "安全憑證監控平台｜集中管理安全憑證使用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4793,
+    "name": "跨雲端資安平台｜集中控管跨雲端安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4795,
+    "name": "端點安全管理器｜集中管理端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4798,
+    "name": "安全日誌分析平台｜集中控管並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4819,
+    "name": "AI 體驗監控平台｜AI 分析體驗數據並提出建議。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4875,
+    "name": "教材翻譯平台｜教材可翻譯成多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4883,
+    "name": "金流安全平台｜即時偵測金流交易異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4890,
+    "name": "安全憑證控管平台｜集中管理安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4893,
+    "name": "跨雲安全控管工具｜集中控管跨雲端資安。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4895,
+    "name": "端點資安平台｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4898,
+    "name": "安全日誌控管平台｜集中分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4967,
+    "name": "學生進度監控工具｜集中監控學生進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4975,
+    "name": "教材翻譯中心｜支援教材翻譯多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4984,
+    "name": "跨平台登入控管平台｜集中管理跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4990,
+    "name": "安全憑證平台｜集中控管安全憑證狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4993,
+    "name": "跨雲端安全平台｜集中管理跨雲端的資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4994,
+    "name": "登入異常監控平台｜偵測並防護登入異常狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4995,
+    "name": "端點防護平台｜集中控管端點裝置安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 4998,
+    "name": "安全日誌分析平台｜集中控管安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5031,
+    "name": "供應鏈監控系統｜可視化供應鏈狀態與異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5067,
+    "name": "學生進度控管工具｜集中監控學生學習進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5075,
+    "name": "教材翻譯中心｜教材可自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5083,
+    "name": "金流安全檢測平台｜即時偵測金流異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5090,
+    "name": "安全憑證控管平台｜集中控管安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5093,
+    "name": "跨雲安全平台｜集中控管跨雲端的資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5095,
+    "name": "端點資安控管平台｜集中控管端點裝置安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5096,
+    "name": "風險監控中心｜提供完整風險監測報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5098,
+    "name": "安全日誌平台｜集中管理安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5119,
+    "name": "AI 體驗監控平台｜AI 即時分析體驗數據並優化。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5124,
+    "name": "商品履歷驗證平台｜允許查詢商品的完整履歷。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5131,
+    "name": "供應鏈監控工具｜即時監控供應鏈的透明度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5175,
+    "name": "教材翻譯模組｜自動將教材翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5183,
+    "name": "金流安全監控平台｜即時監控金流異常交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5190,
+    "name": "安全憑證控管平台｜集中控管安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5193,
+    "name": "跨雲安全管理平台｜集中管理跨雲端安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5195,
+    "name": "端點安全控管平台｜集中管理端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5196,
+    "name": "風險監控引擎｜提供完整的風險監控報告。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5198,
+    "name": "安全日誌分析平台｜集中分析安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5275,
+    "name": "教材翻譯平台｜教材可自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5281,
+    "name": "AI 威脅預測平台｜AI 即時預測潛在安全威脅。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5283,
+    "name": "金流安全管理平台｜即時監測金流異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5290,
+    "name": "安全憑證管理平台｜集中控管安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5293,
+    "name": "跨雲端安全控管工具｜集中控管跨雲端安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5295,
+    "name": "端點資安平台｜集中控管端點安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5298,
+    "name": "安全日誌分析引擎｜集中控管並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5306,
+    "name": "AI 色彩配置平台｜AI 自動生成品牌一致的配色方案。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5383,
+    "name": "金流安全平台｜即時監控金流交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5384,
+    "name": "跨平台登入安全模組｜集中控管跨平台登入異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5385,
+    "name": "隱私數據控管平台｜集中控管隱私數據安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5390,
+    "name": "安全憑證監控平台｜集中控管安全憑證狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5395,
+    "name": "端點安全控管模組｜集中控管端點設備資安。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5398,
+    "name": "安全日誌分析平台｜集中控管並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5475,
+    "name": "教材翻譯引擎｜教材可自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5483,
+    "name": "金流安全監控平台｜即時偵測金流異常交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5490,
+    "name": "安全憑證控管器｜集中控管憑證使用狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5493,
+    "name": "跨雲安全控管平台｜集中管理跨雲端安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5495,
+    "name": "端點防護工具｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5498,
+    "name": "安全日誌分析器｜集中分析安全日誌內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5524,
+    "name": "商品履歷驗證平台｜提供完整透明的商品履歷資訊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5534,
+    "name": "跨平台價格監控平台｜確保商品跨平台價格一致。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5575,
+    "name": "教材翻譯模組｜自動將教材翻譯成多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5583,
+    "name": "金流安全監控平台｜即時偵測金流異常交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5584,
+    "name": "跨平台登入安全中心｜集中控管跨平台登入異常狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5590,
+    "name": "安全憑證控管平台｜集中控管憑證與狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5595,
+    "name": "端點資安控管平台｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5598,
+    "name": "安全日誌平台｜集中管理安全日誌分析。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5634,
+    "name": "跨平台價格監控平台｜確保不同平台的商品價格一致。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5683,
+    "name": "金流安全中心｜即時監測金流異常行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5684,
+    "name": "跨平台登入控管器｜集中控管跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5690,
+    "name": "安全憑證控管平台｜集中控管安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5693,
+    "name": "跨雲端安全管理平台｜集中控管跨雲安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5695,
+    "name": "端點安全控管平台｜集中控管端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5698,
+    "name": "安全日誌監控工具｜集中分析安全日誌內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5767,
+    "name": "學生進度監控系統｜集中管理與展示學生進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5775,
+    "name": "教材翻譯平台｜教材自動翻譯為多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5783,
+    "name": "金流安全控管器｜即時監控金流異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5784,
+    "name": "跨平台登入保護平台｜集中控管跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5790,
+    "name": "安全憑證平台｜集中控管安全憑證狀態。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5793,
+    "name": "跨雲安全控管平台｜集中控管跨雲端資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5795,
+    "name": "端點安全平台｜集中管理端點設備的安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5798,
+    "name": "安全日誌分析平台｜集中控管安全日誌並分析。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5883,
+    "name": "金流安全監控平台｜即時偵測金流異常交易。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5884,
+    "name": "跨平台登入安全系統｜集中管理跨平台登入保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5890,
+    "name": "安全憑證控管工具｜集中管理安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5893,
+    "name": "跨雲安全控管中心｜集中控管跨雲安全策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5895,
+    "name": "端點安全平台｜集中管理端點設備安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5898,
+    "name": "安全日誌分析平台｜集中控管安全日誌數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5983,
+    "name": "金流安全監控系統｜即時監測金流交易異常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5984,
+    "name": "跨平台登入安全中心｜集中控管跨平台登入安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5990,
+    "name": "安全憑證控管平台｜集中管理與監測安全憑證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5993,
+    "name": "跨雲安全控管平台｜集中控管跨雲端資安策略。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5998,
+    "name": "安全日誌分析平台｜集中控管並分析安全日誌。",
+    "desc": "",
+    "category": "core"
+  }
+]
