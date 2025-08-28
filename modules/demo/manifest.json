@@ -1,0 +1,36 @@
+{
+  "id": "M-DEMO-001",
+  "name": "Demo Module",
+  "version": "1.0.0",
+  "capabilities": ["demo.hello"],
+  "inputs": {
+    "text": "string"
+  },
+  "outputs": {
+    "echo": "string"
+  },
+  "dependencies": [],
+  "conflicts": [],
+  "resources": {
+    "bundle_kb": 10,
+    "cpu_ms": 1,
+    "mem_mb": 1
+  },
+  "policy": {
+    "age": "all",
+    "license": "MIT",
+    "offline_ok": true
+  },
+  "tests": [
+    {
+      "name": "basic echo",
+      "input": { "text": "hi" },
+      "expect": { "echo": "hi" }
+    },
+    {
+      "name": "empty echo",
+      "input": { "text": "" },
+      "expect": { "echo": "" }
+    }
+  ]
+}
