@@ -1,6 +1,7 @@
 name: Module CI
 
 on:
+  workflow_dispatch: {}   # ← 這行允許手動 Run
   push:
     paths:
       - 'modules/**/manifest.json'
