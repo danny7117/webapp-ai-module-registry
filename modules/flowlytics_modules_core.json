@@ -1,0 +1,686 @@
+[
+  {
+    "id": 1,
+    "name": "登入與權限模組｜提供帳號登入、權限分級與多語系切換。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 82,
+    "name": "模組權限設定模組｜不同角色可見功能不同。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 83,
+    "name": "日誌紀錄模組｜記錄系統操作與使用情況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 127,
+    "name": "數據 API 輸出模組｜比對結果可供外部系統調用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 176,
+    "name": "教育知識庫模組｜累積文案知識與技巧資料庫。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 191,
+    "name": "安全隱私模組｜保護用戶文案與數據隱私。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 192,
+    "name": "安全審查模組｜檢測輸入文案是否涉及敏感內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 193,
+    "name": "安全資料加密模組｜確保所有文案與數據加密保存。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 194,
+    "name": "安全異常偵測模組｜檢測系統異常使用情況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 195,
+    "name": "安全防外洩模組｜防止資料外洩風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 196,
+    "name": "安全多因子驗證模組｜加強登入與操作安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 197,
+    "name": "安全流量檢測模組｜檢測是否有惡意流量干擾。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 198,
+    "name": "安全用戶舉報模組｜提供使用者檢舉功能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 199,
+    "name": "安全防止濫用模組｜避免系統被惡意濫用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 200,
+    "name": "安全審核日誌模組｜保存所有安全相關日誌以供查詢。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 221,
+    "name": "SEO 熱詞監控模組｜追蹤熱詞變化並提醒用戶。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 232,
+    "name": "社群話題監控模組｜追蹤即時熱門話題。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 261,
+    "name": "安全防機器人模組｜檢測並阻止自動化濫用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 262,
+    "name": "安全登入保護模組｜加強登入時的風險控制。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 263,
+    "name": "安全 IP 黑名單模組｜阻擋惡意 IP。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 264,
+    "name": "安全動態驗證碼模組｜登入需輸入動態驗證碼。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 266,
+    "name": "安全憑證模組｜透過 SSL/TLS 憑證加密。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 267,
+    "name": "安全雙因子模組｜登入時要求多重驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 268,
+    "name": "安全外洩監控模組｜監控是否有數據外洩跡象。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 269,
+    "name": "安全隱私控制模組｜允許用戶設定數據隱私等級。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 270,
+    "name": "安全防釣魚模組｜檢測釣魚攻擊連結。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 271,
+    "name": "系統 API 管理模組｜集中管理所有 API 串接。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 272,
+    "name": "系統快取模組｜加速文案比對處理效率。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 278,
+    "name": "系統日誌查詢模組｜允許管理員查閱操作紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 279,
+    "name": "系統負載均衡模組｜分配伺服器運算壓力。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 280,
+    "name": "系統效能監控模組｜持續監控伺服器效能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 332,
+    "name": "數據快取模組｜快速存取常用數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 371,
+    "name": "安全權限控管模組｜細分不同角色的權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 372,
+    "name": "安全資料追蹤模組｜追蹤所有數據存取紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 373,
+    "name": "安全防止暴力攻擊模組｜阻止密碼暴力破解。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 374,
+    "name": "安全異常流量模組｜檢測非正常流量來源。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 375,
+    "name": "安全用戶分層模組｜依風險程度對用戶分層。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 376,
+    "name": "安全自動警示模組｜異常行為觸發警示。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 377,
+    "name": "安全封鎖模組｜快速封鎖惡意帳號。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 378,
+    "name": "安全白名單模組｜建立信任的安全白名單。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 379,
+    "name": "安全風險評估模組｜自動計算使用者風險分數。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 380,
+    "name": "安全合規稽核模組｜系統進行定期合規稽核。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 407,
+    "name": "跨平台 API 匯流模組｜透過 API 匯流交換資料。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 408,
+    "name": "跨平台錯誤監控模組｜即時監控並報告不同平台錯誤。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 437,
+    "name": "數據 API 鏈接模組｜允許外部系統鏈接平台數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 438,
+    "name": "數據權限模組｜細分不同用戶對數據的存取權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 470,
+    "name": "AI 成效監控模組｜持續監控文案表現並回報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 472,
+    "name": "安全交易稽核模組｜保護用戶的交易過程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 473,
+    "name": "安全使用行為檢測模組｜檢測不尋常使用行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 474,
+    "name": "安全防護牆模組｜建立防護牆防止攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 475,
+    "name": "安全數據加密傳輸模組｜確保所有傳輸內容加密。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 476,
+    "name": "安全事件追蹤模組｜記錄並追蹤安全事件。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 477,
+    "name": "安全合規性模組｜確保符合法規與隱私政策。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 478,
+    "name": "安全憑證驗證模組｜驗證憑證與 API Key。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 479,
+    "name": "安全異常應急模組｜異常發生時立即切換應急模式。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 480,
+    "name": "安全專案隔離模組｜將不同專案數據隔離保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 504,
+    "name": "跨裝置安全模組｜確保登入裝置間的安全驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 531,
+    "name": "數據 API 匯流模組｜多個 API 數據整合至單一管道。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 537,
+    "name": "數據快取清理模組｜自動清除過期快取。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 546,
+    "name": "社群自動監控模組｜即時監控社群品牌相關訊息。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 560,
+    "name": "教育畢業條件模組｜設定完成課程的條件與驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 571,
+    "name": "安全防 DDoS 模組｜防禦分散式攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 572,
+    "name": "安全異地登入模組｜異常地點登入即時提醒。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 573,
+    "name": "安全裝置驗證模組｜檢測並記錄登入裝置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 574,
+    "name": "安全交易監控模組｜監控可疑交易行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 576,
+    "name": "安全 API 授權模組｜細分 API 使用權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 577,
+    "name": "安全內容稽核模組｜稽核所有用戶輸入的內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 578,
+    "name": "安全多層防護模組｜多層級安全架構保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 579,
+    "name": "安全備份與復原模組｜自動進行數據備份與復原。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 580,
+    "name": "安全 AI 偵測模組｜AI 偵測潛在的安全風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 594,
+    "name": "專案風險控管模組｜即時監控專案風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 601,
+    "name": "跨平台效能監控模組｜監控不同平台的效能與延遲。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 602,
+    "name": "跨平台操作紀錄模組｜集中管理跨平台的操作日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 620,
+    "name": "國際支付安全模組｜確保跨境支付的安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 633,
+    "name": "數據 AI 驗證模組｜AI 自動驗證數據正確性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 636,
+    "name": "數據多來源監控模組｜同時監控多個數據來源。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 671,
+    "name": "安全 AI 偵測模組｜AI 自動偵測潛在攻擊模式。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 672,
+    "name": "安全防止詐騙模組｜檢測並攔截詐騙行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 673,
+    "name": "安全異常交易模組｜分析異常金流。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 674,
+    "name": "安全 API 防護模組｜保護 API 不被濫用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 675,
+    "name": "安全即時黑名單模組｜即時更新封鎖名單。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 676,
+    "name": "安全用戶評估模組｜依行為模式給出安全分級。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 677,
+    "name": "安全外部串接稽核模組｜檢查外部串接安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 678,
+    "name": "安全跨境傳輸監控模組｜確保跨境數據傳輸合規。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 679,
+    "name": "安全緊急模式模組｜觸發時系統立即鎖定保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 680,
+    "name": "安全多層驗證模組｜提供超過兩層的安全驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 691,
+    "name": "專案數據即時監控模組｜即時追蹤專案進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 712,
+    "name": "國際化敏感字典模組｜建立多語敏感字詞資料庫。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 771,
+    "name": "安全登入監控模組｜檢測異常登入嘗試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 772,
+    "name": "安全裝置認證模組｜辨識裝置並允許安全登入。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 773,
+    "name": "安全使用者黑名單模組｜管理封鎖惡意用戶。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 774,
+    "name": "安全敏感操作模組｜針對敏感操作進行二次驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 775,
+    "name": "安全加密演算法模組｜提供強化加密演算法。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 776,
+    "name": "安全即時封鎖模組｜檢測異常時立即封鎖。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 777,
+    "name": "安全多角色驗證模組｜針對不同角色設置驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 778,
+    "name": "安全監測儀表板模組｜集中顯示所有安全事件。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 779,
+    "name": "安全數據完整性模組｜確保數據未遭篡改。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 780,
+    "name": "安全異常模式偵測模組｜檢測異常使用模式。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 796,
+    "name": "專案檔案共享模組｜允許檔案於專案中安全共享。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 800,
+    "name": "專案驗證模組｜檢查專案是否達到預定目標。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 801,
+    "name": "跨平台數據權限模組｜細分跨平台數據存取權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 810,
+    "name": "跨平台 API 驗證模組｜管理所有跨平台 API 驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 831,
+    "name": "數據整合 API 模組｜集中所有數據 API 接口。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 839,
+    "name": "數據快取優化模組｜提升快取效率與命中率。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 861,
+    "name": "AI 自動 AB 測試模組｜AI 自動安排並監控 AB 測試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 871,
+    "name": "安全社群監控模組｜監控社群中潛在威脅。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 873,
+    "name": "安全資料共享模組｜安全地與他人共享數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 874,
+    "name": "安全異常檔案模組｜檢測可疑檔案並封鎖。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 875,
+    "name": "安全訪問控制模組｜設定多層訪問權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 876,
+    "name": "安全數據傳輸模組｜確保所有數據安全傳輸。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 877,
+    "name": "安全風險模型模組｜AI 建立安全風險預測模型。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 878,
+    "name": "安全裝置管理模組｜管理並監控登入裝置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 879,
+    "name": "安全登入日誌模組｜保存所有登入紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 880,
+    "name": "安全行為規範模組｜限制高風險行為操作。",
+    "desc": "",
+    "category": "core"
+  }
+]

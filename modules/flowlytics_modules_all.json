@@ -1,0 +1,5402 @@
+[
+  {
+    "id": 1,
+    "name": "登入與權限模組｜提供帳號登入、權限分級與多語系切換。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 2,
+    "name": "會員系統模組｜支援免費會員、進階會員差異化功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 3,
+    "name": "文案輸入模組｜支援 A/B 兩組文案輸入框，供比對測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 4,
+    "name": "文案清除按鈕模組｜快速清除輸入框的文字內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 5,
+    "name": "文案重新比對模組｜允許重新執行比對流程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 6,
+    "name": "AI 文案優化建議模組｜輸入後由 AI 提供優化版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 7,
+    "name": "AI 文案語氣建議模組｜針對廣告目標建議最佳語氣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 8,
+    "name": "文案語言偵測模組｜自動識別輸入文案的語言。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 9,
+    "name": "跨語言比對模組｜允許中英文或日文文案直接比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 10,
+    "name": "文案相似度分析模組｜檢測不同文案的差異程度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 11,
+    "name": "文案關鍵字提取模組｜自動標記文案中的重要字詞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 12,
+    "name": "文案字數統計模組｜即時計算文案長度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 13,
+    "name": "文案語意分數模組｜AI 計算文案的語意效果評分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 14,
+    "name": "文案點擊率預測模組｜預測不同文案的點擊率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 15,
+    "name": "文案轉換率預測模組｜模擬文案轉換率的差異。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 16,
+    "name": "流量比對圖表模組｜以折線圖呈現 A/B 文案流量預測。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 17,
+    "name": "流量柱狀圖模組｜以柱狀圖顯示比較結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 18,
+    "name": "文案數據比較表模組｜表格形式列出多維度比較。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 19,
+    "name": "文案收藏模組｜允許用戶收藏喜歡的文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 20,
+    "name": "文案標記模組｜使用者可對文案加上標籤分類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 21,
+    "name": "文案版本管理模組｜保存多個版本供比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 22,
+    "name": "文案歷史紀錄模組｜保存用戶過去的比對測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 23,
+    "name": "文案分享模組｜允許一鍵分享比對結果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 24,
+    "name": "文案下載模組｜比對結果可下載為 TXT 或 CSV。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 25,
+    "name": "文案批次比對模組｜支援同時輸入多組文案進行比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 26,
+    "name": "廣告平台模板模組｜針對 Facebook/Google Ads 生成最佳格式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 27,
+    "name": "社群平台模板模組｜針對 IG/Line/Twitter 輸出專屬格式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 28,
+    "name": "EDM 模板模組｜針對電子報格式最佳化文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 29,
+    "name": "文案情緒分析模組｜檢測文案的情緒傾向。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 30,
+    "name": "文案受眾分析模組｜AI 分析文案適合的受眾族群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 31,
+    "name": "文案年齡層模組｜預測文案適合的年齡區間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 32,
+    "name": "文案地區模組｜預測文案適合的地理市場。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 33,
+    "name": "文案性別偏好模組｜分析文案對性別的吸引力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 34,
+    "name": "文案產業對應模組｜判斷文案最適合的產業類別。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 35,
+    "name": "文案痛點匹配模組｜找出文案對應的客戶痛點。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 36,
+    "name": "文案 CTA 分析模組｜分析文案中行動呼籲的效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 37,
+    "name": "文案標題吸引力模組｜評估標題吸引力強弱。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 38,
+    "name": "文案開場句模組｜檢測開頭是否能吸引用戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 39,
+    "name": "文案結尾說服力模組｜評估收尾文字的轉化效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 40,
+    "name": "文案閱讀時間模組｜估算讀者平均閱讀所需時間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 41,
+    "name": "文案對照翻譯模組｜自動生成多語言對照版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 42,
+    "name": "文案專業度檢測模組｜檢測文案是否過於艱澀或簡單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 43,
+    "name": "文案 SEO 關鍵字模組｜分析 SEO 適配度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 44,
+    "name": "文案搜尋意圖模組｜判斷文案是否符合搜尋者需求。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 45,
+    "name": "文案熱門詞彙模組｜提示近期熱門用詞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 46,
+    "name": "文案禁用詞模組｜檢測是否含有違規或敏感字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 47,
+    "name": "文案品牌一致性模組｜分析文案是否符合品牌語調。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 48,
+    "name": "文案競品比對模組｜允許輸入競品文案並做比較。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 49,
+    "name": "文案市場趨勢模組｜分析文案是否符合市場熱點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 50,
+    "name": "文案廣告審核模組｜檢測是否符合各平台廣告規範。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 51,
+    "name": "數據導入模組｜允許導入外部流量數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 52,
+    "name": "數據導出模組｜比對數據可匯出到其他系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 53,
+    "name": "數據 API 串接模組｜可串接廣告平台 API。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 54,
+    "name": "Google Ads 串接模組｜與 Google 廣告數據直接連動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 55,
+    "name": "Facebook Ads 串接模組｜與 FB 廣告數據直接連動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 56,
+    "name": "Line Ads 串接模組｜與 Line 廣告數據連動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 57,
+    "name": "Tiktok Ads 串接模組｜與 TikTok 廣告數據連動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 58,
+    "name": "文案真實流量回測模組｜比對後可測試真實投放結果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 59,
+    "name": "文案 AB 測試模組｜支援分流測試流量。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 60,
+    "name": "文案多變項測試模組｜支援標題/內文/CTA 的多變項測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 61,
+    "name": "圖文結合模組｜文案輸入後自動生成圖片搭配。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 62,
+    "name": "影片結合模組｜將文案轉換為短影片字幕。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 63,
+    "name": "語音轉換模組｜文案轉換為語音版本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 64,
+    "name": "文案社群卡模組｜輸出為社群貼文設計卡片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 65,
+    "name": "文案簡報模組｜自動轉換為簡報段落。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 66,
+    "name": "文案報告模組｜生成完整的文案效果報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 67,
+    "name": "文案優缺點模組｜自動生成優缺點清單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 68,
+    "name": "文案比較結論模組｜輸出 A/B 測試的最終結論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 69,
+    "name": "文案自動標註模組｜在比對數據上自動標註重點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 70,
+    "name": "文案評分榜模組｜生成所有文案的排名表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 71,
+    "name": "使用者反饋模組｜收集使用者對文案的反饋。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 72,
+    "name": "使用者點擊模組｜追蹤使用者實際點擊行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 73,
+    "name": "使用者轉化模組｜追蹤使用者的轉化行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 74,
+    "name": "使用者留存模組｜追蹤使用者回訪與留存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 75,
+    "name": "使用者數據視覺化模組｜將用戶行為數據圖像化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 76,
+    "name": "使用者分析報告模組｜生成個人化數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 77,
+    "name": "用戶分群模組｜將用戶依行為與特徵分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 78,
+    "name": "用戶分眾模組｜建立更精準的廣告受眾。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 79,
+    "name": "用戶行為預測模組｜AI 預測用戶後續行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 80,
+    "name": "用戶流失警示模組｜檢測潛在流失風險並警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 81,
+    "name": "後台管理模組｜提供管理者檢視數據與設定。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 82,
+    "name": "模組權限設定模組｜不同角色可見功能不同。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 83,
+    "name": "日誌紀錄模組｜記錄系統操作與使用情況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 84,
+    "name": "通知中心模組｜提供推播與站內通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 85,
+    "name": "Email 通知模組｜比對完成後寄送通知信件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 86,
+    "name": "即時推播模組｜提供手機即時推播提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 87,
+    "name": "多語系支援模組｜支援繁中/英文/日文。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 88,
+    "name": "主題色切換模組｜可切換深色/淺色主題。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 89,
+    "name": "動態特效模組｜操作時出現微動畫，提升體驗。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 90,
+    "name": "UI 提示模組｜提供工具提示與新手引導。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 91,
+    "name": "任務成就模組｜使用者完成比對任務可解鎖成就。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 92,
+    "name": "簽到模組｜每日簽到獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 93,
+    "name": "積分模組｜用戶操作可累積積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 94,
+    "name": "商城模組｜積分可兌換資源或額外服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 95,
+    "name": "好友邀請模組｜邀請好友可獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 96,
+    "name": "排行榜模組｜顯示最佳文案或最佳用戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 97,
+    "name": "挑戰賽模組｜舉辦文案比賽或挑戰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 98,
+    "name": "專案任務模組｜允許多人合作完成專案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 99,
+    "name": "團隊協作模組｜支援團隊共用文案與比對數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 100,
+    "name": "專業顧問模組｜專業顧問或 AI 提供個人化指導。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 101,
+    "name": "文案自動分類模組｜AI 自動將文案歸類至不同主題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 102,
+    "name": "文案風格比對模組｜比較兩個文案的語氣與風格差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 103,
+    "name": "文案情境模擬模組｜模擬文案在不同場景的效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 104,
+    "name": "文案平台適配模組｜依廣告平台規範自動調整字數與格式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 105,
+    "name": "文案敏感詞警示模組｜檢測文案是否違反廣告法規或政策。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 106,
+    "name": "文案廣告等級評估模組｜判斷文案屬於軟性推廣或強行銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 107,
+    "name": "文案 ROI 預測模組｜AI 預測文案投放後的投資報酬率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 108,
+    "name": "文案複製檢測模組｜檢測是否有抄襲或重複率過高。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 109,
+    "name": "文案自動潤飾模組｜自動改善文案流暢度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 110,
+    "name": "文案多版本建議模組｜一次生成多個不同風格的建議版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 111,
+    "name": "文案精簡建議模組｜將過長的文案精簡化。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 112,
+    "name": "文案延伸建議模組｜將短文案延伸為長版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 113,
+    "name": "文案格式化模組｜統一排版、標點與段落。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 114,
+    "name": "文案目標受眾建議模組｜提供最適合的受眾設定。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 115,
+    "name": "文案痛點檢測模組｜自動標出未能觸及痛點的部分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 116,
+    "name": "文案金句生成模組｜自動生成吸睛的開場金句。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 117,
+    "name": "文案比對結論摘要模組｜輸出簡短摘要方便快速決策。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 118,
+    "name": "文案視覺配圖建議模組｜提供與文案搭配的圖片建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 119,
+    "name": "文案影片腳本模組｜將文案轉化為影片腳本草稿。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 120,
+    "name": "文案語音播報模組｜將文案轉換成語音廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 121,
+    "name": "數據多維比對模組｜支持同時比較 3 組以上文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 122,
+    "name": "數據回溯模組｜查看過去一段時間的比對趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 123,
+    "name": "數據 AI 解讀模組｜AI 自動解釋圖表數據含義。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 124,
+    "name": "數據信心區間模組｜提供預測結果的信心水準。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 125,
+    "name": "數據動態更新模組｜即時更新比對數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 126,
+    "name": "數據導入 CSV 模組｜允許批次導入外部文案與數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 127,
+    "name": "數據 API 輸出模組｜比對結果可供外部系統調用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 128,
+    "name": "數據多格式輸出模組｜支援 PDF、XLSX、JSON 格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 129,
+    "name": "數據分層模組｜依不同維度（年齡、地區等）拆分顯示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 130,
+    "name": "數據對比快照模組｜保存當前結果為快照以便後續比較。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 131,
+    "name": "用戶個人資料模組｜管理使用者基本資料與偏好。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 132,
+    "name": "用戶興趣標籤模組｜依據行為自動打上興趣標籤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 133,
+    "name": "用戶點擊熱圖模組｜以熱力圖顯示點擊區域。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 134,
+    "name": "用戶轉換路徑模組｜追蹤用戶完成轉換的路徑。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 135,
+    "name": "用戶行為分數模組｜為每位用戶建立行為評分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 136,
+    "name": "用戶細分市場模組｜將用戶自動分類成市場群組。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 137,
+    "name": "用戶跨平台追蹤模組｜統一分析跨平台的用戶行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 138,
+    "name": "用戶體驗回饋模組｜收集使用者的體驗意見。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 139,
+    "name": "用戶意圖預測模組｜AI 預測用戶的下一步操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 140,
+    "name": "用戶情緒分析模組｜分析用戶互動時的情緒狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 141,
+    "name": "廣告投放建議模組｜提供最佳廣告投放時間與平台建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 142,
+    "name": "廣告 ROI 模擬模組｜模擬不同廣告組合的投資回報率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 143,
+    "name": "廣告頻次控制模組｜建議最佳的曝光頻率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 144,
+    "name": "廣告內容比較模組｜比較不同廣告內容的優劣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 145,
+    "name": "廣告目標設定模組｜推薦最佳廣告目標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 146,
+    "name": "廣告預算建議模組｜提供不同方案的預算分配建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 147,
+    "name": "廣告最佳化模組｜AI 自動生成最佳投放方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 148,
+    "name": "廣告測試排程模組｜設定未來自動進行 A/B 測試。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 149,
+    "name": "廣告受眾修正模組｜依測試結果建議調整受眾設定。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 150,
+    "name": "廣告素材比對模組｜同時比較圖片與文字素材。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 151,
+    "name": "SEO 效果檢測模組｜檢測文案是否符合 SEO 規範。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 152,
+    "name": "SEO 關鍵字建議模組｜自動生成推薦關鍵字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 153,
+    "name": "SEO 標題檢測模組｜分析文案標題對 SEO 的影響。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 154,
+    "name": "SEO 排名預測模組｜預測文案可能達到的排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 155,
+    "name": "SEO 熱度追蹤模組｜追蹤熱門搜尋字詞變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 156,
+    "name": "SEO 多語支援模組｜支援不同語言的 SEO 優化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 157,
+    "name": "SEO 競爭分析模組｜比較競爭對手的 SEO 策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 158,
+    "name": "SEO 報告模組｜生成完整 SEO 效果報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 159,
+    "name": "SEO 分數模組｜給予文案 SEO 優化分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 160,
+    "name": "SEO 改進建議模組｜提供具體改善方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 161,
+    "name": "社群互動檢測模組｜檢測文案在社群的互動反應。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 162,
+    "name": "社群點讚預測模組｜預測文案可能獲得的點讚數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 163,
+    "name": "社群分享率預測模組｜模擬文案的分享次數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 164,
+    "name": "社群留言分析模組｜分析留言的情緒與內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 165,
+    "name": "社群熱度追蹤模組｜追蹤文案在社群的熱度變化。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 166,
+    "name": "社群影響力指數模組｜生成影響力評估指數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 167,
+    "name": "社群轉發鏈路模組｜顯示文案被轉發的傳播路徑。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 168,
+    "name": "社群平台適配模組｜針對不同社群平台最佳化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 169,
+    "name": "社群粉絲互動模組｜追蹤粉絲與文案的互動數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 170,
+    "name": "社群意見領袖檢測模組｜識別帶動話題的關鍵人物。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 171,
+    "name": "教育訓練模組｜教導用戶如何撰寫有效文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 172,
+    "name": "教育案例模組｜提供成功與失敗文案例子。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 173,
+    "name": "教育課程模組｜設計線上課程學習寫作技巧。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 174,
+    "name": "教育互動測驗模組｜小測驗檢驗學習成果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 175,
+    "name": "教育 AI 導師模組｜AI 擔任文案指導老師。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 176,
+    "name": "教育知識庫模組｜累積文案知識與技巧資料庫。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 177,
+    "name": "教育影片模組｜提供教學影片資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 178,
+    "name": "教育挑戰模組｜設計實戰挑戰供用戶參與。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 179,
+    "name": "教育社群模組｜建立學習型社群互助交流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 180,
+    "name": "教育證書模組｜完成課程發放證書。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 181,
+    "name": "AI 寫作助手模組｜AI 幫助生成初稿文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 182,
+    "name": "AI 改寫模組｜AI 自動提供改寫版本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 183,
+    "name": "AI 文案自動分群模組｜AI 將文案分類到不同行銷目標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 184,
+    "name": "AI 熱點偵測模組｜AI 偵測近期熱門話題並提供寫作靈感。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 185,
+    "name": "AI 多語翻譯模組｜AI 自動翻譯並優化語氣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 186,
+    "name": "AI 風格模仿模組｜模仿特定品牌或作者的寫作風格。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 187,
+    "name": "AI 廣告標題生成模組｜自動生成多版本廣告標題。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 188,
+    "name": "AI CTA 生成模組｜自動生成多版本的行動呼籲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 189,
+    "name": "AI 報告解讀模組｜AI 自動解釋比對報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 190,
+    "name": "AI 趨勢預測模組｜AI 預測文案未來的流量趨勢。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 191,
+    "name": "安全隱私模組｜保護用戶文案與數據隱私。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 192,
+    "name": "安全審查模組｜檢測輸入文案是否涉及敏感內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 193,
+    "name": "安全資料加密模組｜確保所有文案與數據加密保存。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 194,
+    "name": "安全異常偵測模組｜檢測系統異常使用情況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 195,
+    "name": "安全防外洩模組｜防止資料外洩風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 196,
+    "name": "安全多因子驗證模組｜加強登入與操作安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 197,
+    "name": "安全流量檢測模組｜檢測是否有惡意流量干擾。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 198,
+    "name": "安全用戶舉報模組｜提供使用者檢舉功能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 199,
+    "name": "安全防止濫用模組｜避免系統被惡意濫用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 200,
+    "name": "安全審核日誌模組｜保存所有安全相關日誌以供查詢。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 201,
+    "name": "資料可視化儀表板模組｜整合所有比對與流量數據於主控台展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 202,
+    "name": "資料篩選模組｜支援依時間、平台、受眾篩選結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 203,
+    "name": "資料趨勢線模組｜顯示長期趨勢變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 204,
+    "name": "資料異常檢測模組｜自動偵測數據異常波動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 205,
+    "name": "資料報表生成模組｜一鍵生成完整報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 206,
+    "name": "資料比較快照模組｜允許對比不同比對結果快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 207,
+    "name": "資料 AI 摘要模組｜AI 自動總結資料重點。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 208,
+    "name": "資料多層次鑽取模組｜允許逐層深入探索數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 209,
+    "name": "資料地圖視覺化模組｜將數據以地理分布地圖呈現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 210,
+    "name": "資料匯流排模組｜集中管理多來源的流量數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 211,
+    "name": "廣告點擊熱圖模組｜以視覺熱圖顯示廣告點擊區域。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 212,
+    "name": "廣告多素材比對模組｜支援同時比對不同圖片與影片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 213,
+    "name": "廣告投放排程模組｜設定未來的自動投放時間。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 214,
+    "name": "廣告競爭對手分析模組｜比較同產業競品的廣告表現。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 215,
+    "name": "廣告創意生成模組｜AI 自動產生新創意方向。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 216,
+    "name": "廣告多變數建議模組｜提供不同元素組合建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 217,
+    "name": "廣告跨平台整合模組｜整合 Google、FB、TikTok 等平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 218,
+    "name": "廣告自動測試模組｜依系統排程自動測試多組文案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 219,
+    "name": "廣告目標轉換建議模組｜提供最佳化的轉換設定。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 220,
+    "name": "廣告媒體庫模組｜集中管理圖片、影片等素材。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 221,
+    "name": "SEO 熱詞監控模組｜追蹤熱詞變化並提醒用戶。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 222,
+    "name": "SEO 外鏈分析模組｜檢測外部連結品質。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 223,
+    "name": "SEO 內容缺口模組｜找出未覆蓋的搜尋需求。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 224,
+    "name": "SEO 競品關鍵字模組｜分析競品排名關鍵字。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 225,
+    "name": "SEO 搜尋引擎比較模組｜支援 Google、Bing 等結果比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 226,
+    "name": "SEO 效果自動報告模組｜定期輸出 SEO 成效報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 227,
+    "name": "SEO 多維分數模組｜分別給出標題、內文、結尾等分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 228,
+    "name": "SEO 點擊率模組｜預測文案的搜尋點擊率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 229,
+    "name": "SEO 多頁比較模組｜允許一次比較多個頁面。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 230,
+    "name": "SEO 改善歷程模組｜追蹤 SEO 優化前後的變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 231,
+    "name": "社群聲量分析模組｜統計品牌相關的社群聲量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 232,
+    "name": "社群話題監控模組｜追蹤即時熱門話題。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 233,
+    "name": "社群互動率模組｜計算文案互動率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 234,
+    "name": "社群情緒儀表板模組｜用圖表顯示留言情緒比例。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 235,
+    "name": "社群粉絲成長模組｜追蹤粉絲數變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 236,
+    "name": "社群病毒傳播模組｜檢測文案是否具病毒式傳播特性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 237,
+    "name": "社群挑戰活動模組｜設計挑戰活動提升參與度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 238,
+    "name": "社群排行榜模組｜顯示最熱門的文案排行。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 239,
+    "name": "社群對比模組｜比較不同社群平台的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 240,
+    "name": "社群 KPI 模組｜提供社群行銷 KPI 追蹤工具。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 241,
+    "name": "教育互動社群模組｜學生可於平台社群互動學習。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 242,
+    "name": "教育排行榜模組｜根據學習成果進行排名。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 243,
+    "name": "教育比賽模組｜舉辦以文案為主題的比賽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 244,
+    "name": "教育反饋模組｜收集導師對學員文案的評價。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 245,
+    "name": "教育證照模組｜頒發文案能力證照。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 246,
+    "name": "教育任務模組｜設計每日或每週學習任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 247,
+    "name": "教育激勵模組｜透過獎勵提升學習積極度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 248,
+    "name": "教育測試卷模組｜生成 AI 測驗卷檢測學習效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 249,
+    "name": "教育數據報告模組｜匯總學習成果並可視化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 250,
+    "name": "教育遊戲化模組｜以遊戲方式增加學習樂趣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 251,
+    "name": "AI 文案自動生成模組｜快速生成多版本廣告文案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 252,
+    "name": "AI 多平台適配模組｜根據平台自動調整格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 253,
+    "name": "AI 效果模擬模組｜AI 模擬文案投放後效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 254,
+    "name": "AI 預算分配模組｜提供最佳預算分配方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 255,
+    "name": "AI 自動優化模組｜AI 自動進行文案調整。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 256,
+    "name": "AI 成效預測模組｜預測短期與長期的效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 257,
+    "name": "AI 視覺建議模組｜AI 提供配圖、色彩方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 258,
+    "name": "AI 視頻腳本生成模組｜將文案轉換為短片腳本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 259,
+    "name": "AI 多語模擬模組｜AI 同時生成多語言版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 260,
+    "name": "AI 品牌聲音模組｜AI 自動模仿品牌語氣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 261,
+    "name": "安全防機器人模組｜檢測並阻止自動化濫用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 262,
+    "name": "安全登入保護模組｜加強登入時的風險控制。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 263,
+    "name": "安全 IP 黑名單模組｜阻擋惡意 IP。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 264,
+    "name": "安全動態驗證碼模組｜登入需輸入動態驗證碼。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 265,
+    "name": "安全交易防護模組｜保障付費會員交易安全。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 266,
+    "name": "安全憑證模組｜透過 SSL/TLS 憑證加密。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 267,
+    "name": "安全雙因子模組｜登入時要求多重驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 268,
+    "name": "安全外洩監控模組｜監控是否有數據外洩跡象。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 269,
+    "name": "安全隱私控制模組｜允許用戶設定數據隱私等級。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 270,
+    "name": "安全防釣魚模組｜檢測釣魚攻擊連結。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 271,
+    "name": "系統 API 管理模組｜集中管理所有 API 串接。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 272,
+    "name": "系統快取模組｜加速文案比對處理效率。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 273,
+    "name": "系統分流模組｜分散流量以防止壓力過大。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 274,
+    "name": "系統自動備份模組｜定期備份資料與設定。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 275,
+    "name": "系統異常警報模組｜系統異常時即時通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 276,
+    "name": "系統模組管理模組｜集中管理已啟用的功能模組。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 277,
+    "name": "系統更新檢測模組｜檢查模組版本與更新。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 278,
+    "name": "系統日誌查詢模組｜允許管理員查閱操作紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 279,
+    "name": "系統負載均衡模組｜分配伺服器運算壓力。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 280,
+    "name": "系統效能監控模組｜持續監控伺服器效能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 281,
+    "name": "用戶等級模組｜依活躍度劃分不同等級。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 282,
+    "name": "用戶徽章模組｜頒發成就徽章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 283,
+    "name": "用戶任務模組｜每日/每週任務設計。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 284,
+    "name": "用戶推薦系統模組｜推薦適合的文案或課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 285,
+    "name": "用戶學習路徑模組｜設計個人化的學習規劃。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 286,
+    "name": "用戶貢獻值模組｜追蹤社群貢獻程度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 287,
+    "name": "用戶自定義模組｜允許設定個人化偏好。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 288,
+    "name": "用戶體驗積分模組｜透過互動累積體驗值。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 289,
+    "name": "用戶排行榜模組｜依積分/貢獻顯示排名。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 290,
+    "name": "用戶專屬顧問模組｜高階用戶配備 AI 顧問。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 291,
+    "name": "專案管理模組｜允許建立多個文案專案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 292,
+    "name": "專案進度模組｜顯示專案比對進度條。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 293,
+    "name": "專案協作模組｜多人可共同管理專案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 294,
+    "name": "專案評論模組｜團隊成員可互相評論文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 295,
+    "name": "專案審核模組｜高階成員可審核專案結果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 296,
+    "name": "專案檔案庫模組｜集中保存所有專案文案與數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 297,
+    "name": "專案報告模組｜自動生成專案成效報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 298,
+    "name": "專案匯出模組｜將專案成果匯出多種格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 299,
+    "name": "專案比較模組｜不同專案間數據對比。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 300,
+    "name": "專案追蹤模組｜長期追蹤專案成效表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 301,
+    "name": "跨平台文案比對模組｜允許同時比對多平台文案表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 302,
+    "name": "跨平台流量匯總模組｜整合 Google、FB、IG 等多平台流量數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 303,
+    "name": "跨平台帳號綁定模組｜綁定多個社群與廣告平台帳號。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 304,
+    "name": "跨平台同步模組｜同步不同平台的比對與分析數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 305,
+    "name": "跨平台活動模組｜設定跨平台的行銷活動並追蹤成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 306,
+    "name": "跨平台受眾比對模組｜比對各平台受眾重疊與差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 307,
+    "name": "跨平台廣告素材模組｜管理並比對多平台素材。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 308,
+    "name": "跨平台 KPI 模組｜統一追蹤跨平台 KPI 指標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 309,
+    "name": "跨平台競品分析模組｜跨平台比較競品行銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 310,
+    "name": "跨平台自動化投放模組｜集中管理跨平台自動投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 311,
+    "name": "多國語系文案比對模組｜支援多語文案的跨市場比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 312,
+    "name": "多國市場分析模組｜比較不同市場的廣告效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 313,
+    "name": "多國法律合規模組｜檢測文案是否符合當地法規。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 314,
+    "name": "多國文化調整模組｜依文化習慣提供文案建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 315,
+    "name": "多國平台偏好模組｜分析不同國家平台偏好差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 316,
+    "name": "多國匯率模組｜自動換算廣告預算幣別。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 317,
+    "name": "多國地理標籤模組｜標記文案適合的地理位置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 318,
+    "name": "多國市場趨勢模組｜追蹤全球市場熱門話題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 319,
+    "name": "多國社群熱度模組｜分析不同國家的社群熱度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 320,
+    "name": "多國用戶分群模組｜依國籍自動分群使用者。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 321,
+    "name": "文案 AB 測試自動化模組｜自動安排 A/B 測試計畫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 322,
+    "name": "文案多元素測試模組｜支援同時測試標題、圖片與 CTA。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 323,
+    "name": "文案最佳化引擎模組｜AI 自動調整表現不佳的文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 324,
+    "name": "文案效果對照模組｜對比測試組與控制組成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 325,
+    "name": "文案隨機測試模組｜隨機分配受眾群進行測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 326,
+    "name": "文案自動調整模組｜根據數據即時優化。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 327,
+    "name": "文案快速生成模組｜快速產生多個測試版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 328,
+    "name": "文案實驗室模組｜集中測試新型文案策略。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 329,
+    "name": "文案效果回報模組｜即時通知測試結果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 330,
+    "name": "文案測試記錄模組｜保存所有測試過程與數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 331,
+    "name": "數據雲端儲存模組｜所有比對與流量數據儲存在雲端。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 332,
+    "name": "數據快取模組｜快速存取常用數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 333,
+    "name": "數據壓縮模組｜減少儲存空間與傳輸成本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 334,
+    "name": "數據清洗模組｜自動清理不完整或錯誤數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 335,
+    "name": "數據標註模組｜AI 自動標註數據類型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 336,
+    "name": "數據整合模組｜整合多來源的數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 337,
+    "name": "數據匿名化模組｜移除個資以符合隱私規範。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 338,
+    "name": "數據跨境傳輸模組｜支援合法跨境數據流動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 339,
+    "name": "數據可攜性模組｜允許用戶匯出數據到其他平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 340,
+    "name": "數據合規檢查模組｜自動檢查數據是否符合法規。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 341,
+    "name": "社群網紅合作模組｜追蹤並管理與網紅合作的成效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 342,
+    "name": "社群聯名活動模組｜支援品牌與社群共同舉辦活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 343,
+    "name": "社群抽獎模組｜設計互動抽獎以增加參與度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 344,
+    "name": "社群投票模組｜發起投票並分析結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 345,
+    "name": "社群情境模擬模組｜模擬文案在社群的互動效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 346,
+    "name": "社群遊戲化模組｜在社群互動中加入遊戲元素。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 347,
+    "name": "社群內容日曆模組｜排程並管理社群貼文。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 348,
+    "name": "社群回饋模組｜收集社群成員的建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 349,
+    "name": "社群專案模組｜社群成員可共同參與專案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 350,
+    "name": "社群影響力評估模組｜衡量成員的影響力。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 351,
+    "name": "教育案例比對模組｜學生可輸入案例與 AI 比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 352,
+    "name": "教育互動遊戲模組｜透過遊戲學習文案技巧。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 353,
+    "name": "教育課程進度模組｜追蹤學生學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 354,
+    "name": "教育測驗自動批改模組｜AI 自動批改測驗。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 355,
+    "name": "教育學習建議模組｜AI 提供個人化學習方向。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 356,
+    "name": "教育小組合作模組｜支援小組作業與互評。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 357,
+    "name": "教育任務獎勵模組｜完成任務可獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 358,
+    "name": "教育成績報告模組｜生成學生的學習報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 359,
+    "name": "教育多語模組｜提供不同語言的教育內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 360,
+    "name": "教育認證模組｜完成課程頒發認證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 361,
+    "name": "AI 自然語言生成模組｜AI 自動生成自然語感文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 362,
+    "name": "AI 自然語言比對模組｜AI 比對文案語氣相似度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 363,
+    "name": "AI 圖像識別模組｜檢測文案圖片是否合適。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 364,
+    "name": "AI 聲音情感模組｜AI 轉換文案為情感化語音。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 365,
+    "name": "AI 自動調整排版模組｜自動優化文字排版。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 366,
+    "name": "AI 自動摘要模組｜快速輸出文案摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 367,
+    "name": "AI 自動翻譯校正模組｜翻譯後自動校正語法。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 368,
+    "name": "AI 趨勢感知模組｜AI 偵測流量趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 369,
+    "name": "AI 情境推薦模組｜推薦最合適的應用場景。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 370,
+    "name": "AI 自動化行銷模組｜AI 自動生成行銷計劃。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 371,
+    "name": "安全權限控管模組｜細分不同角色的權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 372,
+    "name": "安全資料追蹤模組｜追蹤所有數據存取紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 373,
+    "name": "安全防止暴力攻擊模組｜阻止密碼暴力破解。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 374,
+    "name": "安全異常流量模組｜檢測非正常流量來源。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 375,
+    "name": "安全用戶分層模組｜依風險程度對用戶分層。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 376,
+    "name": "安全自動警示模組｜異常行為觸發警示。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 377,
+    "name": "安全封鎖模組｜快速封鎖惡意帳號。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 378,
+    "name": "安全白名單模組｜建立信任的安全白名單。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 379,
+    "name": "安全風險評估模組｜自動計算使用者風險分數。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 380,
+    "name": "安全合規稽核模組｜系統進行定期合規稽核。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 381,
+    "name": "用戶互動日曆模組｜顯示使用者互動歷程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 382,
+    "name": "用戶反饋回應模組｜系統自動回應反饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 383,
+    "name": "用戶滿意度調查模組｜蒐集用戶滿意度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 384,
+    "name": "用戶行為分群 AI 模組｜AI 自動進行使用者分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 385,
+    "name": "用戶留存曲線模組｜顯示用戶留存趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 386,
+    "name": "用戶價值評估模組｜計算用戶 LTV（生命週期價值）。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 387,
+    "name": "用戶忠誠度模組｜追蹤使用者長期忠誠度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 388,
+    "name": "用戶分享追蹤模組｜追蹤用戶是否分享文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 389,
+    "name": "用戶導流模組｜追蹤用戶是否帶來新流量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 390,
+    "name": "用戶異常行為模組｜檢測可疑操作行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 391,
+    "name": "專案 AI 協作模組｜AI 作為專案成員參與。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 392,
+    "name": "專案時程模組｜顯示專案的時間線。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 393,
+    "name": "專案風險評估模組｜檢測專案潛在風險。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 394,
+    "name": "專案跨平台模組｜允許專案跨平台運行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 395,
+    "name": "專案目標模組｜設定並追蹤專案目標。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 396,
+    "name": "專案評分模組｜依成果給予專案評分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 397,
+    "name": "專案資源分配模組｜管理專案人力與預算。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 398,
+    "name": "專案自動提醒模組｜到期或異常時自動提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 399,
+    "name": "專案協作討論模組｜支援專案成員即時討論。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 400,
+    "name": "專案歷史檔案模組｜保存完整專案歷史紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 401,
+    "name": "跨平台數據聚合模組｜整合不同來源數據，集中管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 402,
+    "name": "跨平台自動同步模組｜確保多平台數據即時同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 403,
+    "name": "跨平台比較圖模組｜以單一圖表顯示多平台數據對比。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 404,
+    "name": "跨平台通知模組｜整合所有平台的通知於一處。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 405,
+    "name": "跨平台使用者追蹤模組｜統一追蹤跨平台用戶行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 406,
+    "name": "跨平台廣告優化模組｜集中優化所有廣告平台投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 407,
+    "name": "跨平台 API 匯流模組｜透過 API 匯流交換資料。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 408,
+    "name": "跨平台錯誤監控模組｜即時監控並報告不同平台錯誤。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 409,
+    "name": "跨平台任務排程模組｜管理所有平台的排程作業。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 410,
+    "name": "跨平台報表模組｜生成多平台整合型報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 411,
+    "name": "國際化 UI 模組｜介面支援多語系與文化在地化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 412,
+    "name": "國際法規檢測模組｜檢查廣告文案是否違反當地規範。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 413,
+    "name": "國際支付模組｜支援多國貨幣與支付方式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 414,
+    "name": "國際流量比較模組｜分析不同國家的流量差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 415,
+    "name": "國際熱門話題模組｜追蹤不同地區的熱門議題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 416,
+    "name": "國際搜尋行為模組｜研究各地搜尋習慣差異。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 417,
+    "name": "國際廣告表現模組｜比較不同國家的廣告效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 418,
+    "name": "國際社群熱度模組｜統計不同國家的社群互動數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 419,
+    "name": "國際用戶特徵模組｜分析不同國籍用戶特徵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 420,
+    "name": "國際市場預測模組｜預測不同國家市場的成長潛力。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 421,
+    "name": "文案自動標準化模組｜統一格式與風格規範。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 422,
+    "name": "文案產業專屬模組｜針對特定產業生成文案版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 423,
+    "name": "文案歷程追蹤模組｜追蹤文案修改與比對歷程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 424,
+    "name": "文案 AI 語氣切換模組｜快速切換文案的語氣風格。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 425,
+    "name": "文案影響力預測模組｜預測文案對品牌影響力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 426,
+    "name": "文案 AI 測評模組｜AI 給予完整文案測試分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 427,
+    "name": "文案批量生成模組｜一次生成多組文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 428,
+    "name": "文案多角度分析模組｜從多個角度檢視文案成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 429,
+    "name": "文案跨時段測試模組｜檢測不同時段的表現差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 430,
+    "name": "文案跨產業比較模組｜比較不同產業的文案表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 431,
+    "name": "數據異常預警模組｜數據異常時即時推送通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 432,
+    "name": "數據清理規則模組｜允許自定義數據清理規則。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 433,
+    "name": "數據模型訓練模組｜使用數據訓練 AI 模型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 434,
+    "name": "數據採樣模組｜支持對大數據進行抽樣分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 435,
+    "name": "數據匯流模組｜多來源數據匯流整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 436,
+    "name": "數據標準化模組｜自動將不同來源數據標準化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 437,
+    "name": "數據 API 鏈接模組｜允許外部系統鏈接平台數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 438,
+    "name": "數據權限模組｜細分不同用戶對數據的存取權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 439,
+    "name": "數據自動比對模組｜自動對比不同來源數據差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 440,
+    "name": "數據視覺模板模組｜提供多種數據可視化樣板。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 441,
+    "name": "社群熱門趨勢模組｜即時追蹤社群熱門話題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 442,
+    "name": "社群互動 AI 分析模組｜AI 分析社群留言與情緒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 443,
+    "name": "社群廣告影響力模組｜檢測社群廣告的擴散力。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 444,
+    "name": "社群口碑模組｜追蹤品牌在社群的口碑。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 445,
+    "name": "社群挑戰比賽模組｜設計社群挑戰型活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 446,
+    "name": "社群內容對照模組｜比較多組社群文案成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 447,
+    "name": "社群內容最佳化模組｜AI 建議社群文案調整。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 448,
+    "name": "社群活動排程模組｜設定未來社群活動時間表。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 449,
+    "name": "社群熱度快照模組｜儲存並比較不同時間的社群熱度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 450,
+    "name": "社群互動分群模組｜依互動數據自動分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 451,
+    "name": "教育案例庫模組｜累積並展示文案案例庫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 452,
+    "name": "教育 AI 助教模組｜AI 作為學生助教。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 453,
+    "name": "教育即時測驗模組｜提供小測驗檢測學習進度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 454,
+    "name": "教育答題解析模組｜AI 提供詳盡解析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 455,
+    "name": "教育小組對戰模組｜小組間以文案比賽形式學習。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 456,
+    "name": "教育學習成就模組｜追蹤學習成就與進步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 457,
+    "name": "教育社群互動模組｜學生之間可互相評論作品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 458,
+    "name": "教育作品評選模組｜設計投票評選最佳作品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 459,
+    "name": "教育專業認證模組｜針對專業課程頒發認證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 460,
+    "name": "教育教師分析模組｜提供教師的教學效果數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 461,
+    "name": "AI 自動化工作流模組｜AI 建立自動工作流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 462,
+    "name": "AI 多渠道分析模組｜AI 分析多渠道廣告數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 463,
+    "name": "AI 自動預測模組｜AI 預測廣告趨勢與流量。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 464,
+    "name": "AI 個性化建議模組｜提供使用者個性化文案建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 465,
+    "name": "AI 自然語言比對模組｜檢測語意與語氣差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 466,
+    "name": "AI 市場價值預測模組｜AI 預測文案帶來的市場價值。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 467,
+    "name": "AI 品牌一致性檢測模組｜AI 確保文案符合品牌風格。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 468,
+    "name": "AI 情境模擬模組｜AI 模擬不同情境下文案效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 469,
+    "name": "AI 自動回饋模組｜AI 即時給予文案改進意見。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 470,
+    "name": "AI 成效監控模組｜持續監控文案表現並回報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 471,
+    "name": "安全流量監控模組｜監控廣告流量是否正常。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 472,
+    "name": "安全交易稽核模組｜保護用戶的交易過程。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 473,
+    "name": "安全使用行為檢測模組｜檢測不尋常使用行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 474,
+    "name": "安全防護牆模組｜建立防護牆防止攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 475,
+    "name": "安全數據加密傳輸模組｜確保所有傳輸內容加密。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 476,
+    "name": "安全事件追蹤模組｜記錄並追蹤安全事件。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 477,
+    "name": "安全合規性模組｜確保符合法規與隱私政策。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 478,
+    "name": "安全憑證驗證模組｜驗證憑證與 API Key。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 479,
+    "name": "安全異常應急模組｜異常發生時立即切換應急模式。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 480,
+    "name": "安全專案隔離模組｜將不同專案數據隔離保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 481,
+    "name": "用戶忠誠計畫模組｜設計會員專屬忠誠計畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 482,
+    "name": "用戶活動回饋模組｜參與活動可獲得回饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 483,
+    "name": "用戶偏好分析模組｜AI 分析用戶使用偏好。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 484,
+    "name": "用戶自定義提醒模組｜允許用戶設定提醒條件。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 485,
+    "name": "用戶全息檔案模組｜整合所有用戶數據於檔案中。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 486,
+    "name": "用戶預測模型模組｜AI 建立用戶預測行為模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 487,
+    "name": "用戶跨專案比對模組｜允許同一用戶於多專案比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 488,
+    "name": "用戶自我標註模組｜用戶可自行標註偏好。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 489,
+    "name": "用戶價值評估模組｜提供用戶 CLV 計算工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 490,
+    "name": "用戶群體比較模組｜比較不同用戶群體行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 491,
+    "name": "專案任務分解模組｜將專案拆解為小任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 492,
+    "name": "專案進度提醒模組｜專案進度自動推送通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 493,
+    "name": "專案協作留言模組｜支援專案內即時留言。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 494,
+    "name": "專案標籤模組｜允許專案加上標籤分類。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 495,
+    "name": "專案數據匯出模組｜輸出專案數據到外部系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 496,
+    "name": "專案回顧模組｜提供專案總結報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 497,
+    "name": "專案智能排程模組｜AI 自動安排專案進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 498,
+    "name": "專案資源池模組｜集中管理專案可用資源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 499,
+    "name": "專案任務協同模組｜支援多角色同時處理任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 500,
+    "name": "專案 AI 助理模組｜AI 作為專案助理即時支援。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 501,
+    "name": "跨裝置同步模組｜支援手機、平板、桌機之間數據同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 502,
+    "name": "跨裝置體驗最佳化模組｜針對不同螢幕大小自動調整介面。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 503,
+    "name": "跨裝置通知模組｜所有裝置可即時接收通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 504,
+    "name": "跨裝置安全模組｜確保登入裝置間的安全驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 505,
+    "name": "跨裝置互動模組｜允許多裝置同時操作專案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 506,
+    "name": "跨裝置分流模組｜多裝置登入時智慧分配資源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 507,
+    "name": "跨裝置比較模組｜顯示不同裝置下的文案成效差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 508,
+    "name": "跨裝置歷程模組｜追蹤用戶在各裝置的操作紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 509,
+    "name": "跨裝置使用行為模組｜分析不同裝置上的使用習慣。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 510,
+    "name": "跨裝置報告模組｜生成跨裝置的完整數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 511,
+    "name": "國家地區廣告費用模組｜比較不同地區的廣告投放成本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 512,
+    "name": "國家地區轉換率模組｜比較各地用戶的轉換率差異。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 513,
+    "name": "國家地區熱詞模組｜統計各地熱門搜尋字詞。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 514,
+    "name": "國家地區受眾模組｜細分不同國家受眾特徵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 515,
+    "name": "國家地區成長曲線模組｜追蹤市場成長趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 516,
+    "name": "國家地區文化分析模組｜AI 檢測文案是否符合文化習慣。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 517,
+    "name": "國家地區投放限制模組｜檢查廣告是否受地區政策限制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 518,
+    "name": "國家地區熱門平台模組｜追蹤各地熱門廣告平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 519,
+    "name": "國家地區社群分析模組｜比較不同地區社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 520,
+    "name": "國家地區競爭對手模組｜追蹤區域內主要競品動態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 521,
+    "name": "文案長短最佳化模組｜建議最佳文案字數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 522,
+    "name": "文案排版最佳化模組｜AI 自動調整段落與結構。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 523,
+    "name": "文案顏色搭配模組｜提供色彩搭配建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 524,
+    "name": "文案字體最佳化模組｜依情境建議適合字體。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 525,
+    "name": "文案段落結構模組｜檢查文案是否段落清晰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 526,
+    "name": "文案圖文比例模組｜建議最佳文字與圖片比例。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 527,
+    "name": "文案引導流程模組｜檢測文案是否建立完整行銷漏斗。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 528,
+    "name": "文案說服力分析模組｜分析是否具備足夠說服力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 529,
+    "name": "文案可信度模組｜檢測是否建立信任感。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 530,
+    "name": "文案轉化障礙模組｜找出可能降低轉化的語句。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 531,
+    "name": "數據 API 匯流模組｜多個 API 數據整合至單一管道。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 532,
+    "name": "數據回放模組｜允許回放某段時間的數據變化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 533,
+    "name": "數據動態比重模組｜分析各數據維度所佔比例。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 534,
+    "name": "數據異常比率模組｜統計異常發生的頻率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 535,
+    "name": "數據自動修復模組｜對小型異常自動進行修復。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 536,
+    "name": "數據演算法切換模組｜允許切換不同 AI 演算法分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 537,
+    "name": "數據快取清理模組｜自動清除過期快取。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 538,
+    "name": "數據鏈路模組｜追蹤數據流向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 539,
+    "name": "數據碎片化模組｜處理分散來源的碎片數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 540,
+    "name": "數據 AI 清理模組｜AI 智慧化清理與校正數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 541,
+    "name": "社群留言自動回覆模組｜AI 自動回覆留言。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 542,
+    "name": "社群客服模組｜提供即時客服支援。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 543,
+    "name": "社群關鍵意見回饋模組｜收集 KOL 的意見與分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 544,
+    "name": "社群互動獎勵模組｜參與互動可獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 545,
+    "name": "社群多平台串接模組｜同時管理 FB/IG/LINE/Twitter。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 546,
+    "name": "社群自動監控模組｜即時監控社群品牌相關訊息。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 547,
+    "name": "社群影響力圖譜模組｜建立影響力傳播圖譜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 548,
+    "name": "社群語音互動模組｜允許語音輸入留言互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 549,
+    "name": "社群投訴管理模組｜集中處理社群用戶投訴。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 550,
+    "name": "社群數據比較模組｜比較不同社群平台的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 551,
+    "name": "教育題庫模組｜集中管理文案學習題庫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 552,
+    "name": "教育自動推薦模組｜AI 推薦合適的學習內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 553,
+    "name": "教育挑戰賽模組｜設計比賽檢驗學習成果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 554,
+    "name": "教育分組模組｜學員自動分組進行任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 555,
+    "name": "教育互評模組｜學生互相評分彼此作品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 556,
+    "name": "教育實例解析模組｜AI 提供文案例子解析。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 557,
+    "name": "教育個人進度模組｜每位學生都有專屬進度追蹤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 558,
+    "name": "教育提醒模組｜自動提醒學員學習任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 559,
+    "name": "教育測驗報告模組｜生成完整測驗報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 560,
+    "name": "教育畢業條件模組｜設定完成課程的條件與驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 561,
+    "name": "AI 寫作教練模組｜AI 扮演教練角色即時指導。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 562,
+    "name": "AI 文案打分模組｜AI 自動給予文案綜合分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 563,
+    "name": "AI 自動優缺點模組｜列出文案的優缺點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 564,
+    "name": "AI 廣告預算模組｜AI 建議最佳投放預算。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 565,
+    "name": "AI 多維度比對模組｜AI 比對文案的多維度成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 566,
+    "name": "AI 成效預測圖模組｜輸出預測折線圖。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 567,
+    "name": "AI 成效警示模組｜當表現低落時自動警示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 568,
+    "name": "AI 長短文轉換模組｜自動將長文轉換短文，或反之。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 569,
+    "name": "AI 品牌調性模組｜AI 校正文案是否符合品牌調性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 570,
+    "name": "AI 自動修飾模組｜AI 針對文案細節進行修飾。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 571,
+    "name": "安全防 DDoS 模組｜防禦分散式攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 572,
+    "name": "安全異地登入模組｜異常地點登入即時提醒。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 573,
+    "name": "安全裝置驗證模組｜檢測並記錄登入裝置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 574,
+    "name": "安全交易監控模組｜監控可疑交易行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 575,
+    "name": "安全代幣管理模組｜加強會員代幣使用安全。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 576,
+    "name": "安全 API 授權模組｜細分 API 使用權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 577,
+    "name": "安全內容稽核模組｜稽核所有用戶輸入的內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 578,
+    "name": "安全多層防護模組｜多層級安全架構保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 579,
+    "name": "安全備份與復原模組｜自動進行數據備份與復原。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 580,
+    "name": "安全 AI 偵測模組｜AI 偵測潛在的安全風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 581,
+    "name": "用戶 AI 助手模組｜AI 成為專屬用戶助手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 582,
+    "name": "用戶學習曲線模組｜分析用戶技能提升狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 583,
+    "name": "用戶社群活躍度模組｜追蹤用戶在社群的活躍度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 584,
+    "name": "用戶多角色模組｜允許用戶擁有多重身份。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 585,
+    "name": "用戶信用分數模組｜根據行為給予信用評級。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 586,
+    "name": "用戶推薦引擎模組｜根據偏好推薦文案或課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 587,
+    "name": "用戶 AI 模擬模組｜模擬用戶行為做預測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 588,
+    "name": "用戶異常提醒模組｜異常使用行為觸發通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 589,
+    "name": "用戶社群貢獻模組｜衡量用戶對社群的貢獻值。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 590,
+    "name": "用戶導向設定模組｜允許用戶設定專屬目標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 591,
+    "name": "專案跨平台模組｜允許專案跨平台比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 592,
+    "name": "專案 AI 建議模組｜AI 自動給予專案調整建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 593,
+    "name": "專案績效指標模組｜設定並追蹤專案 KPI。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 594,
+    "name": "專案風險控管模組｜即時監控專案風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 595,
+    "name": "專案小組協作模組｜允許小組成員共同編輯。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 596,
+    "name": "專案會議模組｜專案內整合會議與討論。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 597,
+    "name": "專案雲端共享模組｜專案文件與數據雲端共享。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 598,
+    "name": "專案 AI 報告模組｜AI 自動生成專案報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 599,
+    "name": "專案用戶貢獻模組｜統計專案成員貢獻值。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 600,
+    "name": "專案歷史比對模組｜保存專案的歷史比對記錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 601,
+    "name": "跨平台效能監控模組｜監控不同平台的效能與延遲。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 602,
+    "name": "跨平台操作紀錄模組｜集中管理跨平台的操作日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 603,
+    "name": "跨平台數據一致性模組｜確保多平台數據一致。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 604,
+    "name": "跨平台自動警報模組｜異常數據自動觸發警報。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 605,
+    "name": "跨平台操作回放模組｜支援回放跨平台的操作過程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 606,
+    "name": "跨平台成效比較模組｜比較各平台文案成效差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 607,
+    "name": "跨平台 AI 校正模組｜AI 自動校正不同平台的數據誤差。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 608,
+    "name": "跨平台智能分流模組｜智慧分配跨平台流量。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 609,
+    "name": "跨平台用戶行為模組｜追蹤跨平台用戶完整路徑。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 610,
+    "name": "跨平台優化建議模組｜AI 提供跨平台整體優化策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 611,
+    "name": "國際多語客服模組｜支援多語系客服回覆。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 612,
+    "name": "國際熱門節慶模組｜追蹤各國節慶相關文案熱度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 613,
+    "name": "國際品牌對照模組｜比較不同地區品牌行銷策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 614,
+    "name": "國際文化敏感詞模組｜檢測文案是否踩到文化禁忌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 615,
+    "name": "國際社群趨勢模組｜統計不同國家社群使用行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 616,
+    "name": "國際流量來源模組｜分析不同來源流量貢獻。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 617,
+    "name": "國際轉換成效模組｜比較地區間的轉換率差異。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 618,
+    "name": "國際 AI 翻譯模組｜AI 進行高品質多語翻譯。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 619,
+    "name": "國際法規更新模組｜追蹤各國廣告法規變化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 620,
+    "name": "國際支付安全模組｜確保跨境支付的安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 621,
+    "name": "文案 AI 範本庫模組｜內建大量行業範本可套用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 622,
+    "name": "文案即時檢測模組｜輸入時即時檢測品質。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 623,
+    "name": "文案敏感度測試模組｜檢查是否過於冒犯或無效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 624,
+    "name": "文案 KPI 標記模組｜設定並追蹤特定 KPI。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 625,
+    "name": "文案比重分配模組｜分析標題、正文、CTA 比例。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 626,
+    "name": "文案圖文轉換模組｜將文字轉換為圖像海報。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 627,
+    "name": "文案 AI 聲音化模組｜將文字轉換成廣告配音。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 628,
+    "name": "文案動態測試模組｜持續測試不同版本成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 629,
+    "name": "文案雲端儲存模組｜所有文案集中儲存在雲端。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 630,
+    "name": "文案跨專案模組｜允許跨專案共享與比對文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 631,
+    "name": "數據自動分層模組｜將數據依不同維度自動分類。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 632,
+    "name": "數據即時串流模組｜支援即時流式數據處理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 633,
+    "name": "數據 AI 驗證模組｜AI 自動驗證數據正確性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 634,
+    "name": "數據儀表板客製化模組｜允許用戶自訂儀表板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 635,
+    "name": "數據成效回溯模組｜追蹤成效的歷史變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 636,
+    "name": "數據多來源監控模組｜同時監控多個數據來源。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 637,
+    "name": "數據 AI 演算模組｜AI 根據資料自動選擇最佳演算法。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 638,
+    "name": "數據缺失補全模組｜AI 自動補齊缺失的資料。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 639,
+    "name": "數據差異報告模組｜提供不同來源數據的差異分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 640,
+    "name": "數據即時匯出模組｜允許一鍵匯出最新數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 641,
+    "name": "社群跨國比較模組｜比較不同國家社群活動效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 642,
+    "name": "社群多語分析模組｜分析不同語言社群留言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 643,
+    "name": "社群病毒傳播模組｜模擬內容的病毒傳播鏈。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 644,
+    "name": "社群互動引擎模組｜即時提升用戶互動效率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 645,
+    "name": "社群內容快篩模組｜快速檢測貼文表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 646,
+    "name": "社群粉絲輪廓模組｜建立粉絲的完整數據檔案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 647,
+    "name": "社群熱點即時提醒模組｜熱門話題即時推送。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 648,
+    "name": "社群爭議檢測模組｜檢測文案是否引發爭議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 649,
+    "name": "社群影響力追蹤模組｜長期追蹤社群關鍵人物影響力。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 650,
+    "name": "社群品牌健康模組｜檢測品牌在社群的正負聲量。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 651,
+    "name": "教育模擬比賽模組｜模擬真實行銷比賽。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 652,
+    "name": "教育自動批改模組｜AI 自動批改學生作業。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 653,
+    "name": "教育課程推薦模組｜依進度推薦新課程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 654,
+    "name": "教育測驗數據模組｜保存所有測驗數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 655,
+    "name": "教育智能學習路徑模組｜AI 設計個人化學習路徑。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 656,
+    "name": "教育案例比較模組｜比較多個文案案例成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 657,
+    "name": "教育排行榜快照模組｜保存每期排行榜狀態。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 658,
+    "name": "教育社群挑戰模組｜學生可於社群中互相比拚。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 659,
+    "name": "教育作業提醒模組｜即時提醒作業截止時間。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 660,
+    "name": "教育獎學金模組｜優秀學員可獲獎學金。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 661,
+    "name": "AI 廣告標題快生模組｜AI 快速生成多種標題。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 662,
+    "name": "AI CTA 建議模組｜AI 自動給予最佳行動呼籲。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 663,
+    "name": "AI 社群貼文模組｜AI 生成完整社群貼文。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 664,
+    "name": "AI 數據比對模組｜AI 自動比對多組數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 665,
+    "name": "AI 趨勢預警模組｜AI 預測未來下降或上升趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 666,
+    "name": "AI 報表生成模組｜自動生成專業報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 667,
+    "name": "AI 用戶輪廓模組｜AI 建立用戶完整行為檔案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 668,
+    "name": "AI 廣告素材建議模組｜AI 推薦適合的圖片或影片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 669,
+    "name": "AI 自動測試模組｜AI 自動規劃測試組合。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 670,
+    "name": "AI 成效預測快照模組｜保存 AI 預測的不同版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 671,
+    "name": "安全 AI 偵測模組｜AI 自動偵測潛在攻擊模式。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 672,
+    "name": "安全防止詐騙模組｜檢測並攔截詐騙行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 673,
+    "name": "安全異常交易模組｜分析異常金流。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 674,
+    "name": "安全 API 防護模組｜保護 API 不被濫用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 675,
+    "name": "安全即時黑名單模組｜即時更新封鎖名單。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 676,
+    "name": "安全用戶評估模組｜依行為模式給出安全分級。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 677,
+    "name": "安全外部串接稽核模組｜檢查外部串接安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 678,
+    "name": "安全跨境傳輸監控模組｜確保跨境數據傳輸合規。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 679,
+    "name": "安全緊急模式模組｜觸發時系統立即鎖定保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 680,
+    "name": "安全多層驗證模組｜提供超過兩層的安全驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 681,
+    "name": "用戶體驗熱點模組｜追蹤使用者常互動的功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 682,
+    "name": "用戶 AI 模型模組｜為每位用戶建立 AI 模型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 683,
+    "name": "用戶行為警報模組｜異常行為立即警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 684,
+    "name": "用戶推薦排行榜模組｜依 AI 推薦生成排行榜。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 685,
+    "name": "用戶多帳號連動模組｜支援多帳號整合使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 686,
+    "name": "用戶聲譽分數模組｜根據互動建立聲譽指標。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 687,
+    "name": "用戶活動路徑模組｜顯示用戶完整操作流程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 688,
+    "name": "用戶轉化貢獻模組｜計算用戶對轉化的實際貢獻。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 689,
+    "name": "用戶任務提醒模組｜提醒待辦事項或未完成任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 690,
+    "name": "用戶專屬儀表板模組｜提供個人化儀表板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 691,
+    "name": "專案數據即時監控模組｜即時追蹤專案進度。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 692,
+    "name": "專案跨團隊模組｜允許不同團隊共用專案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 693,
+    "name": "專案 AI 建模模組｜AI 建立專案專屬模型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 694,
+    "name": "專案績效回顧模組｜回顧並分析專案績效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 695,
+    "name": "專案文件共享模組｜共享專案相關文件。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 696,
+    "name": "專案任務追蹤模組｜顯示任務完成狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 697,
+    "name": "專案資源最佳化模組｜AI 分配專案資源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 698,
+    "name": "專案 AI 助手面板模組｜AI 提供即時專案協助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 699,
+    "name": "專案決策支持模組｜AI 提供決策依據與建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 700,
+    "name": "專案未來預測模組｜AI 預測專案後續發展。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 701,
+    "name": "跨平台活動追蹤模組｜集中管理並追蹤多平台行銷活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 702,
+    "name": "跨平台資源整合模組｜整合跨平台素材與資源庫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 703,
+    "name": "跨平台測試排程模組｜設定不同平台的自動測試。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 704,
+    "name": "跨平台自動回報模組｜多平台成效數據自動回傳。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 705,
+    "name": "跨平台行為比對模組｜比較不同平台的用戶行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 706,
+    "name": "跨平台 AI 對照模組｜AI 自動對照跨平台的數據差異。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 707,
+    "name": "跨平台 KPI 報告模組｜統一生成跨平台 KPI 報表。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 708,
+    "name": "跨平台錯誤修正模組｜自動偵測並修正不同平台錯誤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 709,
+    "name": "跨平台互動模組｜用戶能同時參與跨平台活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 710,
+    "name": "跨平台 AB 測試模組｜允許跨平台執行 A/B 測試。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 711,
+    "name": "國際化廣告審核模組｜檢查廣告是否符合各國政策。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 712,
+    "name": "國際化敏感字典模組｜建立多語敏感字詞資料庫。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 713,
+    "name": "國際化數據比較模組｜對比不同國家的廣告成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 714,
+    "name": "國際化搜尋偏好模組｜分析各地搜尋關鍵字差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 715,
+    "name": "國際化文化測試模組｜模擬不同文化對文案的接受度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 716,
+    "name": "國際化稅務計算模組｜計算不同國家投放的稅務成本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 717,
+    "name": "國際化廣告白名單模組｜設定合法投放的白名單地區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 718,
+    "name": "國際化熱點追蹤模組｜追蹤多國即時熱門議題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 719,
+    "name": "國際化品牌比較模組｜比較同品牌於不同國家的策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 720,
+    "name": "國際化市場投資模組｜評估跨國市場投資回報率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 721,
+    "name": "文案自動改寫模組｜AI 自動生成不同版本的改寫文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 722,
+    "name": "文案語調分析模組｜檢測文案語氣是否適合目標受眾。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 723,
+    "name": "文案說服力建模模組｜建立模型測試文案說服力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 724,
+    "name": "文案跨裝置顯示模組｜檢測不同裝置下的顯示效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 725,
+    "name": "文案互動性分析模組｜評估文案是否引導互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 726,
+    "name": "文案品牌一致性模組｜檢測文案是否符合品牌識別。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 727,
+    "name": "文案關鍵句檢測模組｜找出最具影響力的句子。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 728,
+    "name": "文案跨文化比對模組｜檢測文案是否適合不同文化背景。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 729,
+    "name": "文案排版模擬模組｜模擬在不同廣告版位的排版效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 730,
+    "name": "文案點擊率預測模組｜AI 預測文案可能獲得的點擊率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 731,
+    "name": "數據異常比對模組｜比對不同時間點的異常數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 732,
+    "name": "數據 AI 輔助修正模組｜AI 協助修正異常或缺失數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 733,
+    "name": "數據外部串接模組｜允許外部數據系統串接。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 734,
+    "name": "數據壓力測試模組｜模擬高壓情境下的數據處理效能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 735,
+    "name": "數據模擬產生模組｜AI 自動生成模擬測試數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 736,
+    "name": "數據即時快照模組｜隨時保存數據快照。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 737,
+    "name": "數據跨專案共享模組｜允許跨專案共享數據資源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 738,
+    "name": "數據演算法最佳化模組｜AI 自動優化數據分析演算法。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 739,
+    "name": "數據處理佇列模組｜提升大量數據處理效能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 740,
+    "name": "數據 AI 趨勢模型模組｜建立 AI 模型預測數據趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 741,
+    "name": "社群自動測試模組｜AI 自動安排社群文案測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 742,
+    "name": "社群跨平台互動模組｜用戶能在不同平台間互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 743,
+    "name": "社群參與度量化模組｜將社群參與轉化為量化指標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 744,
+    "name": "社群輿情快篩模組｜快速篩選正負輿情。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 745,
+    "name": "社群活動動態模組｜追蹤活動的即時參與數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 746,
+    "name": "社群關鍵詞快報模組｜提供即時熱門關鍵詞。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 747,
+    "name": "社群網紅影響力模組｜分析網紅帶動的流量效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 748,
+    "name": "社群互動場景模組｜模擬不同場景下的互動反應。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 749,
+    "name": "社群品牌危機模組｜即時檢測並提示負面危機。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 750,
+    "name": "社群粉絲忠誠度模組｜追蹤粉絲對品牌的忠誠程度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 751,
+    "name": "教育模擬平台模組｜模擬真實文案比對平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 752,
+    "name": "教育成效評估模組｜追蹤學員文案學習成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 753,
+    "name": "教育專業化課程模組｜設計專業課程進階訓練。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 754,
+    "name": "教育作品展示模組｜學員作品集中展示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 755,
+    "name": "教育社群任務模組｜設計社群挑戰任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 756,
+    "name": "教育跨國交流模組｜支持學員跨國分享文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 757,
+    "name": "教育導師回饋模組｜導師針對作品給出專業回饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 758,
+    "name": "教育智慧考題模組｜AI 自動生成不同程度的考題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 759,
+    "name": "教育結業評估模組｜完成課程的最終評估。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 760,
+    "name": "教育升級模組｜提供進階課程升級方案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 761,
+    "name": "AI 多平台投放模組｜AI 自動調整多平台廣告投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 762,
+    "name": "AI 自然語音模組｜將文案轉換成自然語音廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 763,
+    "name": "AI 自動校正模組｜AI 自動校正文案錯誤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 764,
+    "name": "AI 效果模擬模組｜AI 模擬投放後的短期效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 765,
+    "name": "AI 成效熱點模組｜分析文案中成效最高的部分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 766,
+    "name": "AI 自動關鍵字模組｜AI 自動生成高效關鍵字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 767,
+    "name": "AI 自動內容排序模組｜根據優先度排序文案元素。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 768,
+    "name": "AI 多變量分析模組｜支持多變量同時檢測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 769,
+    "name": "AI 互動模擬模組｜模擬使用者互動反應。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 770,
+    "name": "AI 廣告成效分數模組｜AI 給予文案成效分數。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 771,
+    "name": "安全登入監控模組｜檢測異常登入嘗試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 772,
+    "name": "安全裝置認證模組｜辨識裝置並允許安全登入。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 773,
+    "name": "安全使用者黑名單模組｜管理封鎖惡意用戶。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 774,
+    "name": "安全敏感操作模組｜針對敏感操作進行二次驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 775,
+    "name": "安全加密演算法模組｜提供強化加密演算法。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 776,
+    "name": "安全即時封鎖模組｜檢測異常時立即封鎖。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 777,
+    "name": "安全多角色驗證模組｜針對不同角色設置驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 778,
+    "name": "安全監測儀表板模組｜集中顯示所有安全事件。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 779,
+    "name": "安全數據完整性模組｜確保數據未遭篡改。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 780,
+    "name": "安全異常模式偵測模組｜檢測異常使用模式。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 781,
+    "name": "用戶數據全覽模組｜完整顯示個人數據與歷程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 782,
+    "name": "用戶行為趨勢模組｜分析長期使用行為趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 783,
+    "name": "用戶體驗回饋模組｜收集並可視化用戶體驗數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 784,
+    "name": "用戶偏好更新模組｜AI 持續更新用戶偏好。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 785,
+    "name": "用戶推薦模型模組｜AI 建立推薦模型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 786,
+    "name": "用戶貢獻積分模組｜計算用戶在平台的貢獻度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 787,
+    "name": "用戶學習激勵模組｜提供學習獎勵機制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 788,
+    "name": "用戶自定義儀表板模組｜允許個人化設定數據顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 789,
+    "name": "用戶數據備份模組｜用戶數據自動備份保護。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 790,
+    "name": "用戶互動遊戲模組｜設計互動遊戲提升體驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 791,
+    "name": "專案自動回報模組｜專案狀態自動生成週報/月報。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 792,
+    "name": "專案 AI 風險提醒模組｜AI 偵測專案潛在風險並警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 793,
+    "name": "專案成果展示模組｜集中展示專案成果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 794,
+    "name": "專案合作夥伴模組｜管理專案合作成員與單位。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 795,
+    "name": "專案討論區模組｜專案成員可即時討論交流。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 796,
+    "name": "專案檔案共享模組｜允許檔案於專案中安全共享。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 797,
+    "name": "專案 AI 智能總結模組｜AI 自動生成專案總結。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 798,
+    "name": "專案跨國協作模組｜支援跨國成員共同作業。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 799,
+    "name": "專案資源預測模組｜AI 預測未來所需資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 800,
+    "name": "專案驗證模組｜檢查專案是否達到預定目標。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 801,
+    "name": "跨平台數據權限模組｜細分跨平台數據存取權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 802,
+    "name": "跨平台活動比對模組｜比較不同平台的活動成效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 803,
+    "name": "跨平台自動修正模組｜AI 自動修正跨平台數據錯誤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 804,
+    "name": "跨平台追蹤碼模組｜統一管理各平台追蹤碼。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 805,
+    "name": "跨平台轉換率模組｜整合各平台的轉換率數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 806,
+    "name": "跨平台多帳號管理模組｜支援多帳號跨平台切換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 807,
+    "name": "跨平台通知分流模組｜依平台類型分流通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 808,
+    "name": "跨平台成本分析模組｜比較各平台的廣告成本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 809,
+    "name": "跨平台 ROI 分析模組｜分析跨平台投資回報率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 810,
+    "name": "跨平台 API 驗證模組｜管理所有跨平台 API 驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 811,
+    "name": "國際市場定位模組｜分析各國市場定位差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 812,
+    "name": "國際競爭策略模組｜追蹤不同國家的競爭策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 813,
+    "name": "國際內容在地化模組｜自動生成各地專屬文案版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 814,
+    "name": "國際多渠道行銷模組｜支援多國跨渠道行銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 815,
+    "name": "國際合規提醒模組｜提醒各地最新合規需求。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 816,
+    "name": "國際關鍵字比對模組｜對比不同語言的熱門關鍵字。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 817,
+    "name": "國際消費行為模組｜分析各國消費習慣與行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 818,
+    "name": "國際平台差異模組｜比較不同國家社群與搜尋平台使用率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 819,
+    "name": "國際數據交換模組｜支援合法的跨國數據交換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 820,
+    "name": "國際廣告時區模組｜管理多國廣告的時區差異。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 821,
+    "name": "文案即時成效模組｜即時顯示文案投放效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 822,
+    "name": "文案歷史比對模組｜允許比對歷史文案成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 823,
+    "name": "文案自動合規檢測模組｜AI 自動檢查是否符合法規。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 824,
+    "name": "文案社群互動模組｜檢測文案在社群上的互動成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 825,
+    "name": "文案用詞優化模組｜AI 建議更精準的詞彙。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 826,
+    "name": "文案流量來源模組｜分析文案流量來源分布。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 827,
+    "name": "文案點擊熱圖模組｜顯示文案點擊區域熱點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 828,
+    "name": "文案標題比較模組｜比較多組標題表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 829,
+    "name": "文案 CTA 效果模組｜檢測不同 CTA 的效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 830,
+    "name": "文案動態修正模組｜根據即時數據自動修正。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 831,
+    "name": "數據整合 API 模組｜集中所有數據 API 接口。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 832,
+    "name": "數據 AI 標註模組｜AI 自動為數據加上標籤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 833,
+    "name": "數據跨語言分析模組｜支援跨語言數據比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 834,
+    "name": "數據敏感度檢測模組｜檢查數據是否包含敏感資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 835,
+    "name": "數據 AI 歸類模組｜AI 自動歸類數據群組。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 836,
+    "name": "數據格式轉換模組｜自動轉換不同數據格式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 837,
+    "name": "數據分析任務排程模組｜設定數據分析的自動化時間表。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 838,
+    "name": "數據 AI 異常預測模組｜AI 預測未來可能的數據異常。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 839,
+    "name": "數據快取優化模組｜提升快取效率與命中率。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 840,
+    "name": "數據 AI 聚類模組｜AI 自動進行數據聚類分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 841,
+    "name": "社群跨語言互動模組｜支援多語留言翻譯與互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 842,
+    "name": "社群趨勢預測模組｜AI 預測社群未來趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 843,
+    "name": "社群內容合規檢查模組｜檢測是否符合平台規範。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 844,
+    "name": "社群病毒式傳播模組｜模擬內容可能的病毒傳播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 845,
+    "name": "社群互動數據快照模組｜保存互動數據快照。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 846,
+    "name": "社群即時輿情模組｜即時收集社群輿情動態。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 847,
+    "name": "社群忠誠計畫模組｜設計粉絲專屬忠誠方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 848,
+    "name": "社群互動排行榜模組｜依互動數據排序。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 849,
+    "name": "社群專案比較模組｜比較不同社群活動的效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 850,
+    "name": "社群挑戰任務模組｜設計參與型任務活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 851,
+    "name": "教育跨平台模組｜支援學生跨平台練習。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 852,
+    "name": "教育成效回顧模組｜回顧學習成果並產生報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 853,
+    "name": "教育案例生成模組｜AI 自動生成教學案例。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 854,
+    "name": "教育專題討論模組｜建立學生討論區。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 855,
+    "name": "教育社群挑戰模組｜學員於社群中競賽。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 856,
+    "name": "教育即時互動模組｜提供即時問答與互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 857,
+    "name": "教育證照比對模組｜比對學生是否符合證照標準。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 858,
+    "name": "教育學習提醒模組｜提醒學生學習進度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 859,
+    "name": "教育成果展示模組｜集中展示學生成果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 860,
+    "name": "教育專案比賽模組｜設計專案型比賽活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 861,
+    "name": "AI 自動 AB 測試模組｜AI 自動安排並監控 AB 測試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 862,
+    "name": "AI 文案精準預測模組｜AI 預測文案的精準轉換率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 863,
+    "name": "AI 文案改寫模組｜AI 自動生成不同版本改寫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 864,
+    "name": "AI 廣告成效對照模組｜對照不同廣告的成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 865,
+    "name": "AI 自動報表快照模組｜保存 AI 報表快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 866,
+    "name": "AI 自動用詞優化模組｜AI 自動更換更適合的詞彙。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 867,
+    "name": "AI 市場成效分析模組｜AI 分析市場廣告整體成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 868,
+    "name": "AI 成本控制模組｜AI 自動控制廣告成本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 869,
+    "name": "AI 廣告設計建議模組｜AI 提供廣告設計方向。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 870,
+    "name": "AI 自動資料清理模組｜AI 智能化清理輸入數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 871,
+    "name": "安全社群監控模組｜監控社群中潛在威脅。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 872,
+    "name": "安全廣告合規模組｜檢查廣告是否合規。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 873,
+    "name": "安全資料共享模組｜安全地與他人共享數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 874,
+    "name": "安全異常檔案模組｜檢測可疑檔案並封鎖。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 875,
+    "name": "安全訪問控制模組｜設定多層訪問權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 876,
+    "name": "安全數據傳輸模組｜確保所有數據安全傳輸。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 877,
+    "name": "安全風險模型模組｜AI 建立安全風險預測模型。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 878,
+    "name": "安全裝置管理模組｜管理並監控登入裝置。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 879,
+    "name": "安全登入日誌模組｜保存所有登入紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 880,
+    "name": "安全行為規範模組｜限制高風險行為操作。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 881,
+    "name": "用戶成長曲線模組｜顯示用戶長期成長趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 882,
+    "name": "用戶互動建議模組｜AI 提供個人化互動建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 883,
+    "name": "用戶行為預測模組｜AI 預測未來使用行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 884,
+    "name": "用戶任務數據模組｜追蹤用戶完成任務的數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 885,
+    "name": "用戶 AI 伴隨模組｜AI 長期伴隨用戶提供建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 886,
+    "name": "用戶專屬學習模組｜AI 提供個人化學習內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 887,
+    "name": "用戶數據成效模組｜顯示個人數據與成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 888,
+    "name": "用戶興趣分群模組｜依興趣進行分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 889,
+    "name": "用戶專案回顧模組｜回顧個人專案參與成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 890,
+    "name": "用戶社群活力模組｜追蹤社群內活躍度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 891,
+    "name": "專案歷程分析模組｜分析專案從開始到完成的歷程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 892,
+    "name": "專案績效比較模組｜比較不同專案的成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 893,
+    "name": "專案人力分配模組｜管理專案內的人力分配。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 894,
+    "name": "專案 AI 預測模組｜AI 預測專案未來走向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 895,
+    "name": "專案異常提醒模組｜專案異常情況時立即通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 896,
+    "name": "專案合規檢查模組｜檢查專案是否符合法規。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 897,
+    "name": "專案知識庫模組｜集中保存專案相關知識。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 898,
+    "name": "專案進度自動追蹤模組｜自動追蹤並更新進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 899,
+    "name": "專案任務快照模組｜保存專案任務狀態快照。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 900,
+    "name": "專案關鍵成果模組｜顯示專案的最終成果與價值。",
+    "desc": "",
+    "category": "business"
+  }
+]

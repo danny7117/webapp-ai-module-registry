@@ -1,0 +1,1460 @@
+[
+  {
+    "id": 3,
+    "name": "文案輸入模組｜支援 A/B 兩組文案輸入框，供比對測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 4,
+    "name": "文案清除按鈕模組｜快速清除輸入框的文字內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 5,
+    "name": "文案重新比對模組｜允許重新執行比對流程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 6,
+    "name": "AI 文案優化建議模組｜輸入後由 AI 提供優化版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 8,
+    "name": "文案語言偵測模組｜自動識別輸入文案的語言。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 9,
+    "name": "跨語言比對模組｜允許中英文或日文文案直接比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 10,
+    "name": "文案相似度分析模組｜檢測不同文案的差異程度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 11,
+    "name": "文案關鍵字提取模組｜自動標記文案中的重要字詞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 12,
+    "name": "文案字數統計模組｜即時計算文案長度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 13,
+    "name": "文案語意分數模組｜AI 計算文案的語意效果評分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 14,
+    "name": "文案點擊率預測模組｜預測不同文案的點擊率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 16,
+    "name": "流量比對圖表模組｜以折線圖呈現 A/B 文案流量預測。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 18,
+    "name": "文案數據比較表模組｜表格形式列出多維度比較。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 19,
+    "name": "文案收藏模組｜允許用戶收藏喜歡的文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 20,
+    "name": "文案標記模組｜使用者可對文案加上標籤分類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 21,
+    "name": "文案版本管理模組｜保存多個版本供比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 22,
+    "name": "文案歷史紀錄模組｜保存用戶過去的比對測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 23,
+    "name": "文案分享模組｜允許一鍵分享比對結果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 24,
+    "name": "文案下載模組｜比對結果可下載為 TXT 或 CSV。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 25,
+    "name": "文案批次比對模組｜支援同時輸入多組文案進行比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 27,
+    "name": "社群平台模板模組｜針對 IG/Line/Twitter 輸出專屬格式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 28,
+    "name": "EDM 模板模組｜針對電子報格式最佳化文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 29,
+    "name": "文案情緒分析模組｜檢測文案的情緒傾向。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 30,
+    "name": "文案受眾分析模組｜AI 分析文案適合的受眾族群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 31,
+    "name": "文案年齡層模組｜預測文案適合的年齡區間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 32,
+    "name": "文案地區模組｜預測文案適合的地理市場。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 33,
+    "name": "文案性別偏好模組｜分析文案對性別的吸引力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 34,
+    "name": "文案產業對應模組｜判斷文案最適合的產業類別。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 36,
+    "name": "文案 CTA 分析模組｜分析文案中行動呼籲的效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 37,
+    "name": "文案標題吸引力模組｜評估標題吸引力強弱。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 38,
+    "name": "文案開場句模組｜檢測開頭是否能吸引用戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 40,
+    "name": "文案閱讀時間模組｜估算讀者平均閱讀所需時間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 41,
+    "name": "文案對照翻譯模組｜自動生成多語言對照版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 42,
+    "name": "文案專業度檢測模組｜檢測文案是否過於艱澀或簡單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 43,
+    "name": "文案 SEO 關鍵字模組｜分析 SEO 適配度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 44,
+    "name": "文案搜尋意圖模組｜判斷文案是否符合搜尋者需求。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 45,
+    "name": "文案熱門詞彙模組｜提示近期熱門用詞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 46,
+    "name": "文案禁用詞模組｜檢測是否含有違規或敏感字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 47,
+    "name": "文案品牌一致性模組｜分析文案是否符合品牌語調。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 48,
+    "name": "文案競品比對模組｜允許輸入競品文案並做比較。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 49,
+    "name": "文案市場趨勢模組｜分析文案是否符合市場熱點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 59,
+    "name": "文案 AB 測試模組｜支援分流測試流量。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 60,
+    "name": "文案多變項測試模組｜支援標題/內文/CTA 的多變項測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 61,
+    "name": "圖文結合模組｜文案輸入後自動生成圖片搭配。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 64,
+    "name": "文案社群卡模組｜輸出為社群貼文設計卡片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 66,
+    "name": "文案報告模組｜生成完整的文案效果報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 67,
+    "name": "文案優缺點模組｜自動生成優缺點清單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 68,
+    "name": "文案比較結論模組｜輸出 A/B 測試的最終結論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 69,
+    "name": "文案自動標註模組｜在比對數據上自動標註重點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 70,
+    "name": "文案評分榜模組｜生成所有文案的排名表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 71,
+    "name": "使用者反饋模組｜收集使用者對文案的反饋。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 76,
+    "name": "使用者分析報告模組｜生成個人化數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 96,
+    "name": "排行榜模組｜顯示最佳文案或最佳用戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 97,
+    "name": "挑戰賽模組｜舉辦文案比賽或挑戰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 99,
+    "name": "團隊協作模組｜支援團隊共用文案與比對數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 101,
+    "name": "文案自動分類模組｜AI 自動將文案歸類至不同主題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 102,
+    "name": "文案風格比對模組｜比較兩個文案的語氣與風格差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 103,
+    "name": "文案情境模擬模組｜模擬文案在不同場景的效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 108,
+    "name": "文案複製檢測模組｜檢測是否有抄襲或重複率過高。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 109,
+    "name": "文案自動潤飾模組｜自動改善文案流暢度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 110,
+    "name": "文案多版本建議模組｜一次生成多個不同風格的建議版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 111,
+    "name": "文案精簡建議模組｜將過長的文案精簡化。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 112,
+    "name": "文案延伸建議模組｜將短文案延伸為長版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 113,
+    "name": "文案格式化模組｜統一排版、標點與段落。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 114,
+    "name": "文案目標受眾建議模組｜提供最適合的受眾設定。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 115,
+    "name": "文案痛點檢測模組｜自動標出未能觸及痛點的部分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 116,
+    "name": "文案金句生成模組｜自動生成吸睛的開場金句。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 117,
+    "name": "文案比對結論摘要模組｜輸出簡短摘要方便快速決策。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 118,
+    "name": "文案視覺配圖建議模組｜提供與文案搭配的圖片建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 121,
+    "name": "數據多維比對模組｜支持同時比較 3 組以上文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 126,
+    "name": "數據導入 CSV 模組｜允許批次導入外部文案與數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 151,
+    "name": "SEO 效果檢測模組｜檢測文案是否符合 SEO 規範。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 152,
+    "name": "SEO 關鍵字建議模組｜自動生成推薦關鍵字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 153,
+    "name": "SEO 標題檢測模組｜分析文案標題對 SEO 的影響。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 154,
+    "name": "SEO 排名預測模組｜預測文案可能達到的排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 158,
+    "name": "SEO 報告模組｜生成完整 SEO 效果報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 159,
+    "name": "SEO 分數模組｜給予文案 SEO 優化分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 161,
+    "name": "社群互動檢測模組｜檢測文案在社群的互動反應。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 162,
+    "name": "社群點讚預測模組｜預測文案可能獲得的點讚數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 163,
+    "name": "社群分享率預測模組｜模擬文案的分享次數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 165,
+    "name": "社群熱度追蹤模組｜追蹤文案在社群的熱度變化。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 166,
+    "name": "社群影響力指數模組｜生成影響力評估指數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 167,
+    "name": "社群轉發鏈路模組｜顯示文案被轉發的傳播路徑。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 169,
+    "name": "社群粉絲互動模組｜追蹤粉絲與文案的互動數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 171,
+    "name": "教育訓練模組｜教導用戶如何撰寫有效文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 172,
+    "name": "教育案例模組｜提供成功與失敗文案例子。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 173,
+    "name": "教育課程模組｜設計線上課程學習寫作技巧。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 175,
+    "name": "教育 AI 導師模組｜AI 擔任文案指導老師。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 177,
+    "name": "教育影片模組｜提供教學影片資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 178,
+    "name": "教育挑戰模組｜設計實戰挑戰供用戶參與。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 181,
+    "name": "AI 寫作助手模組｜AI 幫助生成初稿文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 186,
+    "name": "AI 風格模仿模組｜模仿特定品牌或作者的寫作風格。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 188,
+    "name": "AI CTA 生成模組｜自動生成多版本的行動呼籲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 190,
+    "name": "AI 趨勢預測模組｜AI 預測文案未來的流量趨勢。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 205,
+    "name": "資料報表生成模組｜一鍵生成完整報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 227,
+    "name": "SEO 多維分數模組｜分別給出標題、內文、結尾等分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 228,
+    "name": "SEO 點擊率模組｜預測文案的搜尋點擊率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 233,
+    "name": "社群互動率模組｜計算文案互動率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 236,
+    "name": "社群病毒傳播模組｜檢測文案是否具病毒式傳播特性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 237,
+    "name": "社群挑戰活動模組｜設計挑戰活動提升參與度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 238,
+    "name": "社群排行榜模組｜顯示最熱門的文案排行。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 243,
+    "name": "教育比賽模組｜舉辦以文案為主題的比賽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 244,
+    "name": "教育反饋模組｜收集導師對學員文案的評價。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 245,
+    "name": "教育證照模組｜頒發文案能力證照。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 246,
+    "name": "教育任務模組｜設計每日或每週學習任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 248,
+    "name": "教育測試卷模組｜生成 AI 測驗卷檢測學習效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 255,
+    "name": "AI 自動優化模組｜AI 自動進行文案調整。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 259,
+    "name": "AI 多語模擬模組｜AI 同時生成多語言版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 283,
+    "name": "用戶任務模組｜每日/每週任務設計。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 284,
+    "name": "用戶推薦系統模組｜推薦適合的文案或課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 285,
+    "name": "用戶學習路徑模組｜設計個人化的學習規劃。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 291,
+    "name": "專案管理模組｜允許建立多個文案專案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 294,
+    "name": "專案評論模組｜團隊成員可互相評論文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 296,
+    "name": "專案檔案庫模組｜集中保存所有專案文案與數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 297,
+    "name": "專案報告模組｜自動生成專案成效報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 301,
+    "name": "跨平台文案比對模組｜允許同時比對多平台文案表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 311,
+    "name": "多國語系文案比對模組｜支援多語文案的跨市場比對。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 313,
+    "name": "多國法律合規模組｜檢測文案是否符合當地法規。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 314,
+    "name": "多國文化調整模組｜依文化習慣提供文案建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 317,
+    "name": "多國地理標籤模組｜標記文案適合的地理位置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 321,
+    "name": "文案 AB 測試自動化模組｜自動安排 A/B 測試計畫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 322,
+    "name": "文案多元素測試模組｜支援同時測試標題、圖片與 CTA。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 323,
+    "name": "文案最佳化引擎模組｜AI 自動調整表現不佳的文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 324,
+    "name": "文案效果對照模組｜對比測試組與控制組成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 325,
+    "name": "文案隨機測試模組｜隨機分配受眾群進行測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 326,
+    "name": "文案自動調整模組｜根據數據即時優化。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 327,
+    "name": "文案快速生成模組｜快速產生多個測試版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 328,
+    "name": "文案實驗室模組｜集中測試新型文案策略。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 329,
+    "name": "文案效果回報模組｜即時通知測試結果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 330,
+    "name": "文案測試記錄模組｜保存所有測試過程與數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 343,
+    "name": "社群抽獎模組｜設計互動抽獎以增加參與度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 345,
+    "name": "社群情境模擬模組｜模擬文案在社群的互動效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 347,
+    "name": "社群內容日曆模組｜排程並管理社群貼文。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 352,
+    "name": "教育互動遊戲模組｜透過遊戲學習文案技巧。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 358,
+    "name": "教育成績報告模組｜生成學生的學習報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 361,
+    "name": "AI 自然語言生成模組｜AI 自動生成自然語感文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 362,
+    "name": "AI 自然語言比對模組｜AI 比對文案語氣相似度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 363,
+    "name": "AI 圖像識別模組｜檢測文案圖片是否合適。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 366,
+    "name": "AI 自動摘要模組｜快速輸出文案摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 388,
+    "name": "用戶分享追蹤模組｜追蹤用戶是否分享文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 410,
+    "name": "跨平台報表模組｜生成多平台整合型報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 421,
+    "name": "文案自動標準化模組｜統一格式與風格規範。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 422,
+    "name": "文案產業專屬模組｜針對特定產業生成文案版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 423,
+    "name": "文案歷程追蹤模組｜追蹤文案修改與比對歷程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 424,
+    "name": "文案 AI 語氣切換模組｜快速切換文案的語氣風格。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 425,
+    "name": "文案影響力預測模組｜預測文案對品牌影響力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 426,
+    "name": "文案 AI 測評模組｜AI 給予完整文案測試分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 427,
+    "name": "文案批量生成模組｜一次生成多組文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 428,
+    "name": "文案多角度分析模組｜從多個角度檢視文案成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 429,
+    "name": "文案跨時段測試模組｜檢測不同時段的表現差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 430,
+    "name": "文案跨產業比較模組｜比較不同產業的文案表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 440,
+    "name": "數據視覺模板模組｜提供多種數據可視化樣板。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 445,
+    "name": "社群挑戰比賽模組｜設計社群挑戰型活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 446,
+    "name": "社群內容對照模組｜比較多組社群文案成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 447,
+    "name": "社群內容最佳化模組｜AI 建議社群文案調整。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 451,
+    "name": "教育案例庫模組｜累積並展示文案案例庫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 455,
+    "name": "教育小組對戰模組｜小組間以文案比賽形式學習。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 458,
+    "name": "教育作品評選模組｜設計投票評選最佳作品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 464,
+    "name": "AI 個性化建議模組｜提供使用者個性化文案建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 466,
+    "name": "AI 市場價值預測模組｜AI 預測文案帶來的市場價值。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 467,
+    "name": "AI 品牌一致性檢測模組｜AI 確保文案符合品牌風格。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 468,
+    "name": "AI 情境模擬模組｜AI 模擬不同情境下文案效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 469,
+    "name": "AI 自動回饋模組｜AI 即時給予文案改進意見。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 507,
+    "name": "跨裝置比較模組｜顯示不同裝置下的文案成效差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 510,
+    "name": "跨裝置報告模組｜生成跨裝置的完整數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 516,
+    "name": "國家地區文化分析模組｜AI 檢測文案是否符合文化習慣。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 521,
+    "name": "文案長短最佳化模組｜建議最佳文案字數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 522,
+    "name": "文案排版最佳化模組｜AI 自動調整段落與結構。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 523,
+    "name": "文案顏色搭配模組｜提供色彩搭配建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 524,
+    "name": "文案字體最佳化模組｜依情境建議適合字體。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 525,
+    "name": "文案段落結構模組｜檢查文案是否段落清晰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 526,
+    "name": "文案圖文比例模組｜建議最佳文字與圖片比例。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 528,
+    "name": "文案說服力分析模組｜分析是否具備足夠說服力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 529,
+    "name": "文案可信度模組｜檢測是否建立信任感。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 551,
+    "name": "教育題庫模組｜集中管理文案學習題庫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 553,
+    "name": "教育挑戰賽模組｜設計比賽檢驗學習成果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 556,
+    "name": "教育實例解析模組｜AI 提供文案例子解析。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 559,
+    "name": "教育測驗報告模組｜生成完整測驗報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 562,
+    "name": "AI 文案打分模組｜AI 自動給予文案綜合分數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 563,
+    "name": "AI 自動優缺點模組｜列出文案的優缺點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 565,
+    "name": "AI 多維度比對模組｜AI 比對文案的多維度成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 569,
+    "name": "AI 品牌調性模組｜AI 校正文案是否符合品牌調性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 570,
+    "name": "AI 自動修飾模組｜AI 針對文案細節進行修飾。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 586,
+    "name": "用戶推薦引擎模組｜根據偏好推薦文案或課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 598,
+    "name": "專案 AI 報告模組｜AI 自動生成專案報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 606,
+    "name": "跨平台成效比較模組｜比較各平台文案成效差異。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 612,
+    "name": "國際熱門節慶模組｜追蹤各國節慶相關文案熱度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 614,
+    "name": "國際文化敏感詞模組｜檢測文案是否踩到文化禁忌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 621,
+    "name": "文案 AI 範本庫模組｜內建大量行業範本可套用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 622,
+    "name": "文案即時檢測模組｜輸入時即時檢測品質。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 623,
+    "name": "文案敏感度測試模組｜檢查是否過於冒犯或無效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 625,
+    "name": "文案比重分配模組｜分析標題、正文、CTA 比例。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 628,
+    "name": "文案動態測試模組｜持續測試不同版本成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 629,
+    "name": "文案雲端儲存模組｜所有文案集中儲存在雲端。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 630,
+    "name": "文案跨專案模組｜允許跨專案共享與比對文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 645,
+    "name": "社群內容快篩模組｜快速檢測貼文表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 648,
+    "name": "社群爭議檢測模組｜檢測文案是否引發爭議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 655,
+    "name": "教育智能學習路徑模組｜AI 設計個人化學習路徑。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 656,
+    "name": "教育案例比較模組｜比較多個文案案例成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 663,
+    "name": "AI 社群貼文模組｜AI 生成完整社群貼文。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 666,
+    "name": "AI 報表生成模組｜自動生成專業報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 684,
+    "name": "用戶推薦排行榜模組｜依 AI 推薦生成排行榜。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 715,
+    "name": "國際化文化測試模組｜模擬不同文化對文案的接受度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 721,
+    "name": "文案自動改寫模組｜AI 自動生成不同版本的改寫文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 722,
+    "name": "文案語調分析模組｜檢測文案語氣是否適合目標受眾。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 723,
+    "name": "文案說服力建模模組｜建立模型測試文案說服力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 724,
+    "name": "文案跨裝置顯示模組｜檢測不同裝置下的顯示效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 725,
+    "name": "文案互動性分析模組｜評估文案是否引導互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 726,
+    "name": "文案品牌一致性模組｜檢測文案是否符合品牌識別。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 727,
+    "name": "文案關鍵句檢測模組｜找出最具影響力的句子。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 728,
+    "name": "文案跨文化比對模組｜檢測文案是否適合不同文化背景。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 730,
+    "name": "文案點擊率預測模組｜AI 預測文案可能獲得的點擊率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 735,
+    "name": "數據模擬產生模組｜AI 自動生成模擬測試數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 741,
+    "name": "社群自動測試模組｜AI 自動安排社群文案測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 751,
+    "name": "教育模擬平台模組｜模擬真實文案比對平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 752,
+    "name": "教育成效評估模組｜追蹤學員文案學習成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 753,
+    "name": "教育專業化課程模組｜設計專業課程進階訓練。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 755,
+    "name": "教育社群任務模組｜設計社群挑戰任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 756,
+    "name": "教育跨國交流模組｜支持學員跨國分享文案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 758,
+    "name": "教育智慧考題模組｜AI 自動生成不同程度的考題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 763,
+    "name": "AI 自動校正模組｜AI 自動校正文案錯誤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 765,
+    "name": "AI 成效熱點模組｜分析文案中成效最高的部分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 766,
+    "name": "AI 自動關鍵字模組｜AI 自動生成高效關鍵字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 767,
+    "name": "AI 自動內容排序模組｜根據優先度排序文案元素。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 790,
+    "name": "用戶互動遊戲模組｜設計互動遊戲提升體驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 791,
+    "name": "專案自動回報模組｜專案狀態自動生成週報/月報。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 797,
+    "name": "專案 AI 智能總結模組｜AI 自動生成專案總結。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 813,
+    "name": "國際內容在地化模組｜自動生成各地專屬文案版本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 822,
+    "name": "文案歷史比對模組｜允許比對歷史文案成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 823,
+    "name": "文案自動合規檢測模組｜AI 自動檢查是否符合法規。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 824,
+    "name": "文案社群互動模組｜檢測文案在社群上的互動成效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 825,
+    "name": "文案用詞優化模組｜AI 建議更精準的詞彙。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 826,
+    "name": "文案流量來源模組｜分析文案流量來源分布。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 827,
+    "name": "文案點擊熱圖模組｜顯示文案點擊區域熱點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 828,
+    "name": "文案標題比較模組｜比較多組標題表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 829,
+    "name": "文案 CTA 效果模組｜檢測不同 CTA 的效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 830,
+    "name": "文案動態修正模組｜根據即時數據自動修正。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 847,
+    "name": "社群忠誠計畫模組｜設計粉絲專屬忠誠方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 850,
+    "name": "社群挑戰任務模組｜設計參與型任務活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 853,
+    "name": "教育案例生成模組｜AI 自動生成教學案例。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 859,
+    "name": "教育成果展示模組｜集中展示學生成果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 860,
+    "name": "教育專案比賽模組｜設計專案型比賽活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 863,
+    "name": "AI 文案改寫模組｜AI 自動生成不同版本改寫。",
+    "desc": "",
+    "category": "creative"
+  }
+]

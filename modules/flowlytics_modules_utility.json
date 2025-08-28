@@ -1,0 +1,1064 @@
+[
+  {
+    "id": 17,
+    "name": "流量柱狀圖模組｜以柱狀圖顯示比較結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 52,
+    "name": "數據導出模組｜比對數據可匯出到其他系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 72,
+    "name": "使用者點擊模組｜追蹤使用者實際點擊行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 74,
+    "name": "使用者留存模組｜追蹤使用者回訪與留存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 75,
+    "name": "使用者數據視覺化模組｜將用戶行為數據圖像化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 77,
+    "name": "用戶分群模組｜將用戶依行為與特徵分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 79,
+    "name": "用戶行為預測模組｜AI 預測用戶後續行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 85,
+    "name": "Email 通知模組｜比對完成後寄送通知信件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 90,
+    "name": "UI 提示模組｜提供工具提示與新手引導。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 91,
+    "name": "任務成就模組｜使用者完成比對任務可解鎖成就。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 122,
+    "name": "數據回溯模組｜查看過去一段時間的比對趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 123,
+    "name": "數據 AI 解讀模組｜AI 自動解釋圖表數據含義。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 124,
+    "name": "數據信心區間模組｜提供預測結果的信心水準。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 125,
+    "name": "數據動態更新模組｜即時更新比對數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 128,
+    "name": "數據多格式輸出模組｜支援 PDF、XLSX、JSON 格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 133,
+    "name": "用戶點擊熱圖模組｜以熱力圖顯示點擊區域。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 137,
+    "name": "用戶跨平台追蹤模組｜統一分析跨平台的用戶行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 139,
+    "name": "用戶意圖預測模組｜AI 預測用戶的下一步操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 140,
+    "name": "用戶情緒分析模組｜分析用戶互動時的情緒狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 155,
+    "name": "SEO 熱度追蹤模組｜追蹤熱門搜尋字詞變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 157,
+    "name": "SEO 競爭分析模組｜比較競爭對手的 SEO 策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 164,
+    "name": "社群留言分析模組｜分析留言的情緒與內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 189,
+    "name": "AI 報告解讀模組｜AI 自動解釋比對報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 201,
+    "name": "資料可視化儀表板模組｜整合所有比對與流量數據於主控台展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 202,
+    "name": "資料篩選模組｜支援依時間、平台、受眾篩選結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 203,
+    "name": "資料趨勢線模組｜顯示長期趨勢變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 206,
+    "name": "資料比較快照模組｜允許對比不同比對結果快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 209,
+    "name": "資料地圖視覺化模組｜將數據以地理分布地圖呈現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 222,
+    "name": "SEO 外鏈分析模組｜檢測外部連結品質。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 224,
+    "name": "SEO 競品關鍵字模組｜分析競品排名關鍵字。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 225,
+    "name": "SEO 搜尋引擎比較模組｜支援 Google、Bing 等結果比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 226,
+    "name": "SEO 效果自動報告模組｜定期輸出 SEO 成效報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 230,
+    "name": "SEO 改善歷程模組｜追蹤 SEO 優化前後的變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 231,
+    "name": "社群聲量分析模組｜統計品牌相關的社群聲量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 234,
+    "name": "社群情緒儀表板模組｜用圖表顯示留言情緒比例。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 235,
+    "name": "社群粉絲成長模組｜追蹤粉絲數變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 239,
+    "name": "社群對比模組｜比較不同社群平台的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 249,
+    "name": "教育數據報告模組｜匯總學習成果並可視化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 252,
+    "name": "AI 多平台適配模組｜根據平台自動調整格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 256,
+    "name": "AI 成效預測模組｜預測短期與長期的效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 257,
+    "name": "AI 視覺建議模組｜AI 提供配圖、色彩方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 274,
+    "name": "系統自動備份模組｜定期備份資料與設定。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 286,
+    "name": "用戶貢獻值模組｜追蹤社群貢獻程度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 292,
+    "name": "專案進度模組｜顯示專案比對進度條。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 298,
+    "name": "專案匯出模組｜將專案成果匯出多種格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 300,
+    "name": "專案追蹤模組｜長期追蹤專案成效表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 302,
+    "name": "跨平台流量匯總模組｜整合 Google、FB、IG 等多平台流量數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 304,
+    "name": "跨平台同步模組｜同步不同平台的比對與分析數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 306,
+    "name": "跨平台受眾比對模組｜比對各平台受眾重疊與差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 315,
+    "name": "多國平台偏好模組｜分析不同國家平台偏好差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 318,
+    "name": "多國市場趨勢模組｜追蹤全球市場熱門話題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 319,
+    "name": "多國社群熱度模組｜分析不同國家的社群熱度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 320,
+    "name": "多國用戶分群模組｜依國籍自動分群使用者。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 331,
+    "name": "數據雲端儲存模組｜所有比對與流量數據儲存在雲端。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 334,
+    "name": "數據清洗模組｜自動清理不完整或錯誤數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 336,
+    "name": "數據整合模組｜整合多來源的數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 339,
+    "name": "數據可攜性模組｜允許用戶匯出數據到其他平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 341,
+    "name": "社群網紅合作模組｜追蹤並管理與網紅合作的成效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 344,
+    "name": "社群投票模組｜發起投票並分析結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 351,
+    "name": "教育案例比對模組｜學生可輸入案例與 AI 比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 353,
+    "name": "教育課程進度模組｜追蹤學生學習進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 368,
+    "name": "AI 趨勢感知模組｜AI 偵測流量趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 384,
+    "name": "用戶行為分群 AI 模組｜AI 自動進行使用者分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 385,
+    "name": "用戶留存曲線模組｜顯示用戶留存趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 387,
+    "name": "用戶忠誠度模組｜追蹤使用者長期忠誠度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 389,
+    "name": "用戶導流模組｜追蹤用戶是否帶來新流量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 395,
+    "name": "專案目標模組｜設定並追蹤專案目標。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 401,
+    "name": "跨平台數據聚合模組｜整合不同來源數據，集中管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 402,
+    "name": "跨平台自動同步模組｜確保多平台數據即時同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 403,
+    "name": "跨平台比較圖模組｜以單一圖表顯示多平台數據對比。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 404,
+    "name": "跨平台通知模組｜整合所有平台的通知於一處。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 405,
+    "name": "跨平台使用者追蹤模組｜統一追蹤跨平台用戶行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 409,
+    "name": "跨平台任務排程模組｜管理所有平台的排程作業。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 414,
+    "name": "國際流量比較模組｜分析不同國家的流量差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 415,
+    "name": "國際熱門話題模組｜追蹤不同地區的熱門議題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 419,
+    "name": "國際用戶特徵模組｜分析不同國籍用戶特徵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 420,
+    "name": "國際市場預測模組｜預測不同國家市場的成長潛力。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 434,
+    "name": "數據採樣模組｜支持對大數據進行抽樣分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 435,
+    "name": "數據匯流模組｜多來源數據匯流整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 439,
+    "name": "數據自動比對模組｜自動對比不同來源數據差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 441,
+    "name": "社群熱門趨勢模組｜即時追蹤社群熱門話題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 442,
+    "name": "社群互動 AI 分析模組｜AI 分析社群留言與情緒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 444,
+    "name": "社群口碑模組｜追蹤品牌在社群的口碑。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 448,
+    "name": "社群活動排程模組｜設定未來社群活動時間表。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 450,
+    "name": "社群互動分群模組｜依互動數據自動分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 456,
+    "name": "教育學習成就模組｜追蹤學習成就與進步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 460,
+    "name": "教育教師分析模組｜提供教師的教學效果數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 465,
+    "name": "AI 自然語言比對模組｜檢測語意與語氣差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 483,
+    "name": "用戶偏好分析模組｜AI 分析用戶使用偏好。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 485,
+    "name": "用戶全息檔案模組｜整合所有用戶數據於檔案中。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 486,
+    "name": "用戶預測模型模組｜AI 建立用戶預測行為模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 487,
+    "name": "用戶跨專案比對模組｜允許同一用戶於多專案比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 489,
+    "name": "用戶價值評估模組｜提供用戶 CLV 計算工具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 495,
+    "name": "專案數據匯出模組｜輸出專案數據到外部系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 496,
+    "name": "專案回顧模組｜提供專案總結報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 497,
+    "name": "專案智能排程模組｜AI 自動安排專案進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 501,
+    "name": "跨裝置同步模組｜支援手機、平板、桌機之間數據同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 508,
+    "name": "跨裝置歷程模組｜追蹤用戶在各裝置的操作紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 509,
+    "name": "跨裝置使用行為模組｜分析不同裝置上的使用習慣。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 515,
+    "name": "國家地區成長曲線模組｜追蹤市場成長趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 519,
+    "name": "國家地區社群分析模組｜比較不同地區社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 520,
+    "name": "國家地區競爭對手模組｜追蹤區域內主要競品動態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 533,
+    "name": "數據動態比重模組｜分析各數據維度所佔比例。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 536,
+    "name": "數據演算法切換模組｜允許切換不同 AI 演算法分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 538,
+    "name": "數據鏈路模組｜追蹤數據流向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 543,
+    "name": "社群關鍵意見回饋模組｜收集 KOL 的意見與分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 547,
+    "name": "社群影響力圖譜模組｜建立影響力傳播圖譜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 550,
+    "name": "社群數據比較模組｜比較不同社群平台的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 557,
+    "name": "教育個人進度模組｜每位學生都有專屬進度追蹤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 566,
+    "name": "AI 成效預測圖模組｜輸出預測折線圖。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 567,
+    "name": "AI 成效警示模組｜當表現低落時自動警示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 581,
+    "name": "用戶 AI 助手模組｜AI 成為專屬用戶助手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 582,
+    "name": "用戶學習曲線模組｜分析用戶技能提升狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 583,
+    "name": "用戶社群活躍度模組｜追蹤用戶在社群的活躍度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 587,
+    "name": "用戶 AI 模擬模組｜模擬用戶行為做預測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 591,
+    "name": "專案跨平台模組｜允許專案跨平台比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 596,
+    "name": "專案會議模組｜專案內整合會議與討論。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 600,
+    "name": "專案歷史比對模組｜保存專案的歷史比對記錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 609,
+    "name": "跨平台用戶行為模組｜追蹤跨平台用戶完整路徑。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 615,
+    "name": "國際社群趨勢模組｜統計不同國家社群使用行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 616,
+    "name": "國際流量來源模組｜分析不同來源流量貢獻。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 634,
+    "name": "數據儀表板客製化模組｜允許用戶自訂儀表板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 635,
+    "name": "數據成效回溯模組｜追蹤成效的歷史變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 639,
+    "name": "數據差異報告模組｜提供不同來源數據的差異分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 640,
+    "name": "數據即時匯出模組｜允許一鍵匯出最新數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 642,
+    "name": "社群多語分析模組｜分析不同語言社群留言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 649,
+    "name": "社群影響力追蹤模組｜長期追蹤社群關鍵人物影響力。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 664,
+    "name": "AI 數據比對模組｜AI 自動比對多組數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 665,
+    "name": "AI 趨勢預警模組｜AI 預測未來下降或上升趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 670,
+    "name": "AI 成效預測快照模組｜保存 AI 預測的不同版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 681,
+    "name": "用戶體驗熱點模組｜追蹤使用者常互動的功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 685,
+    "name": "用戶多帳號連動模組｜支援多帳號整合使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 686,
+    "name": "用戶聲譽分數模組｜根據互動建立聲譽指標。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 690,
+    "name": "用戶專屬儀表板模組｜提供個人化儀表板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 694,
+    "name": "專案績效回顧模組｜回顧並分析專案績效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 696,
+    "name": "專案任務追蹤模組｜顯示任務完成狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 698,
+    "name": "專案 AI 助手面板模組｜AI 提供即時專案協助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 700,
+    "name": "專案未來預測模組｜AI 預測專案後續發展。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 702,
+    "name": "跨平台資源整合模組｜整合跨平台素材與資源庫。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 703,
+    "name": "跨平台測試排程模組｜設定不同平台的自動測試。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 705,
+    "name": "跨平台行為比對模組｜比較不同平台的用戶行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 714,
+    "name": "國際化搜尋偏好模組｜分析各地搜尋關鍵字差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 718,
+    "name": "國際化熱點追蹤模組｜追蹤多國即時熱門議題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 731,
+    "name": "數據異常比對模組｜比對不同時間點的異常數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 738,
+    "name": "數據演算法最佳化模組｜AI 自動優化數據分析演算法。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 740,
+    "name": "數據 AI 趨勢模型模組｜建立 AI 模型預測數據趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 744,
+    "name": "社群輿情快篩模組｜快速篩選正負輿情。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 745,
+    "name": "社群活動動態模組｜追蹤活動的即時參與數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 747,
+    "name": "社群網紅影響力模組｜分析網紅帶動的流量效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 750,
+    "name": "社群粉絲忠誠度模組｜追蹤粉絲對品牌的忠誠程度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 768,
+    "name": "AI 多變量分析模組｜支持多變量同時檢測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 782,
+    "name": "用戶行為趨勢模組｜分析長期使用行為趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 788,
+    "name": "用戶自定義儀表板模組｜允許個人化設定數據顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 789,
+    "name": "用戶數據備份模組｜用戶數據自動備份保護。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 799,
+    "name": "專案資源預測模組｜AI 預測未來所需資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 802,
+    "name": "跨平台活動比對模組｜比較不同平台的活動成效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 804,
+    "name": "跨平台追蹤碼模組｜統一管理各平台追蹤碼。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 811,
+    "name": "國際市場定位模組｜分析各國市場定位差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 812,
+    "name": "國際競爭策略模組｜追蹤不同國家的競爭策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 816,
+    "name": "國際關鍵字比對模組｜對比不同語言的熱門關鍵字。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 817,
+    "name": "國際消費行為模組｜分析各國消費習慣與行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 833,
+    "name": "數據跨語言分析模組｜支援跨語言數據比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 837,
+    "name": "數據分析任務排程模組｜設定數據分析的自動化時間表。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 838,
+    "name": "數據 AI 異常預測模組｜AI 預測未來可能的數據異常。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 840,
+    "name": "數據 AI 聚類模組｜AI 自動進行數據聚類分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 842,
+    "name": "社群趨勢預測模組｜AI 預測社群未來趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 852,
+    "name": "教育成效回顧模組｜回顧學習成果並產生報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 857,
+    "name": "教育證照比對模組｜比對學生是否符合證照標準。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 865,
+    "name": "AI 自動報表快照模組｜保存 AI 報表快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 881,
+    "name": "用戶成長曲線模組｜顯示用戶長期成長趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 883,
+    "name": "用戶行為預測模組｜AI 預測未來使用行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 884,
+    "name": "用戶任務數據模組｜追蹤用戶完成任務的數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 888,
+    "name": "用戶興趣分群模組｜依興趣進行分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 890,
+    "name": "用戶社群活力模組｜追蹤社群內活躍度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 891,
+    "name": "專案歷程分析模組｜分析專案從開始到完成的歷程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 894,
+    "name": "專案 AI 預測模組｜AI 預測專案未來走向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 898,
+    "name": "專案進度自動追蹤模組｜自動追蹤並更新進度。",
+    "desc": "",
+    "category": "utility"
+  }
+]
