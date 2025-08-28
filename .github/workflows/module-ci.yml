@@ -1,17 +1,18 @@
 name: Module CI
 
 on:
+  push:
+    paths:
+      - 'modules/**/manifest.json'
+      - 'schema/**'
+      - 'scripts/validate_modules.cjs'
+      - 'package.json'
   pull_request:
     paths:
-      - "modules/**"
-      - "schema/**"
-      - "scripts/**"
-  push:
-    branches: [ "main" ]
-    paths:
-      - "modules/**"
-      - "schema/**"
-      - "scripts/**"
+      - 'modules/**/manifest.json'
+      - 'schema/**'
+      - 'scripts/validate_modules.cjs'
+      - 'package.json'
 
 jobs:
   validate:
@@ -19,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: "20" }
-      - run: npm init -y
-      - run: npm i ajv@8
-      - run: node scripts/validate_modules.cjs
+        with:
+          node-version: '20'
+      - run: npm ci || npm i
+      - run: npm run validate
