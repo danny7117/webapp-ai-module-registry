@@ -1,0 +1,1885 @@
+[
+  {
+    "id": "business_1_15285",
+    "name": "Business Module 1",
+    "category": "business",
+    "description": "Auto-generated business module number 1 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_2_19274",
+    "name": "Business Module 2",
+    "category": "business",
+    "description": "Auto-generated business module number 2 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_3_39194",
+    "name": "Business Module 3",
+    "category": "business",
+    "description": "Auto-generated business module number 3 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_4_77479",
+    "name": "Business Module 4",
+    "category": "business",
+    "description": "Auto-generated business module number 4 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_5_49587",
+    "name": "Business Module 5",
+    "category": "business",
+    "description": "Auto-generated business module number 5 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_6_28721",
+    "name": "Business Module 6",
+    "category": "business",
+    "description": "Auto-generated business module number 6 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_7_86842",
+    "name": "Business Module 7",
+    "category": "business",
+    "description": "Auto-generated business module number 7 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_8_11680",
+    "name": "Business Module 8",
+    "category": "business",
+    "description": "Auto-generated business module number 8 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_9_48181",
+    "name": "Business Module 9",
+    "category": "business",
+    "description": "Auto-generated business module number 9 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_10_57797",
+    "name": "Business Module 10",
+    "category": "business",
+    "description": "Auto-generated business module number 10 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_11_67302",
+    "name": "Business Module 11",
+    "category": "business",
+    "description": "Auto-generated business module number 11 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_12_19310",
+    "name": "Business Module 12",
+    "category": "business",
+    "description": "Auto-generated business module number 12 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_13_43507",
+    "name": "Business Module 13",
+    "category": "business",
+    "description": "Auto-generated business module number 13 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_14_16669",
+    "name": "Business Module 14",
+    "category": "business",
+    "description": "Auto-generated business module number 14 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_15_89559",
+    "name": "Business Module 15",
+    "category": "business",
+    "description": "Auto-generated business module number 15 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_16_68836",
+    "name": "Business Module 16",
+    "category": "business",
+    "description": "Auto-generated business module number 16 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_17_43484",
+    "name": "Business Module 17",
+    "category": "business",
+    "description": "Auto-generated business module number 17 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_18_17362",
+    "name": "Business Module 18",
+    "category": "business",
+    "description": "Auto-generated business module number 18 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_19_74332",
+    "name": "Business Module 19",
+    "category": "business",
+    "description": "Auto-generated business module number 19 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_20_94371",
+    "name": "Business Module 20",
+    "category": "business",
+    "description": "Auto-generated business module number 20 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_21_39009",
+    "name": "Business Module 21",
+    "category": "business",
+    "description": "Auto-generated business module number 21 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_22_70132",
+    "name": "Business Module 22",
+    "category": "business",
+    "description": "Auto-generated business module number 22 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_23_53297",
+    "name": "Business Module 23",
+    "category": "business",
+    "description": "Auto-generated business module number 23 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_24_35644",
+    "name": "Business Module 24",
+    "category": "business",
+    "description": "Auto-generated business module number 24 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_25_17447",
+    "name": "Business Module 25",
+    "category": "business",
+    "description": "Auto-generated business module number 25 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_26_77890",
+    "name": "Business Module 26",
+    "category": "business",
+    "description": "Auto-generated business module number 26 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_27_59609",
+    "name": "Business Module 27",
+    "category": "business",
+    "description": "Auto-generated business module number 27 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_28_28663",
+    "name": "Business Module 28",
+    "category": "business",
+    "description": "Auto-generated business module number 28 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_29_36152",
+    "name": "Business Module 29",
+    "category": "business",
+    "description": "Auto-generated business module number 29 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_30_28202",
+    "name": "Business Module 30",
+    "category": "business",
+    "description": "Auto-generated business module number 30 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_31_97874",
+    "name": "Business Module 31",
+    "category": "business",
+    "description": "Auto-generated business module number 31 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_32_78728",
+    "name": "Business Module 32",
+    "category": "business",
+    "description": "Auto-generated business module number 32 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_33_48288",
+    "name": "Business Module 33",
+    "category": "business",
+    "description": "Auto-generated business module number 33 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_34_31627",
+    "name": "Business Module 34",
+    "category": "business",
+    "description": "Auto-generated business module number 34 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_35_24184",
+    "name": "Business Module 35",
+    "category": "business",
+    "description": "Auto-generated business module number 35 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_36_73495",
+    "name": "Business Module 36",
+    "category": "business",
+    "description": "Auto-generated business module number 36 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_37_43365",
+    "name": "Business Module 37",
+    "category": "business",
+    "description": "Auto-generated business module number 37 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_38_22576",
+    "name": "Business Module 38",
+    "category": "business",
+    "description": "Auto-generated business module number 38 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_39_93141",
+    "name": "Business Module 39",
+    "category": "business",
+    "description": "Auto-generated business module number 39 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_40_45878",
+    "name": "Business Module 40",
+    "category": "business",
+    "description": "Auto-generated business module number 40 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_41_91513",
+    "name": "Business Module 41",
+    "category": "business",
+    "description": "Auto-generated business module number 41 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_42_55523",
+    "name": "Business Module 42",
+    "category": "business",
+    "description": "Auto-generated business module number 42 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_43_22859",
+    "name": "Business Module 43",
+    "category": "business",
+    "description": "Auto-generated business module number 43 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_44_20269",
+    "name": "Business Module 44",
+    "category": "business",
+    "description": "Auto-generated business module number 44 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_45_15826",
+    "name": "Business Module 45",
+    "category": "business",
+    "description": "Auto-generated business module number 45 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_46_53477",
+    "name": "Business Module 46",
+    "category": "business",
+    "description": "Auto-generated business module number 46 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_47_93221",
+    "name": "Business Module 47",
+    "category": "business",
+    "description": "Auto-generated business module number 47 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_48_49118",
+    "name": "Business Module 48",
+    "category": "business",
+    "description": "Auto-generated business module number 48 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_49_75520",
+    "name": "Business Module 49",
+    "category": "business",
+    "description": "Auto-generated business module number 49 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_50_66435",
+    "name": "Business Module 50",
+    "category": "business",
+    "description": "Auto-generated business module number 50 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_51_72719",
+    "name": "Business Module 51",
+    "category": "business",
+    "description": "Auto-generated business module number 51 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_52_96458",
+    "name": "Business Module 52",
+    "category": "business",
+    "description": "Auto-generated business module number 52 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_53_22717",
+    "name": "Business Module 53",
+    "category": "business",
+    "description": "Auto-generated business module number 53 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_54_57486",
+    "name": "Business Module 54",
+    "category": "business",
+    "description": "Auto-generated business module number 54 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_55_30317",
+    "name": "Business Module 55",
+    "category": "business",
+    "description": "Auto-generated business module number 55 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_56_69857",
+    "name": "Business Module 56",
+    "category": "business",
+    "description": "Auto-generated business module number 56 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_57_73973",
+    "name": "Business Module 57",
+    "category": "business",
+    "description": "Auto-generated business module number 57 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_58_25365",
+    "name": "Business Module 58",
+    "category": "business",
+    "description": "Auto-generated business module number 58 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_59_23715",
+    "name": "Business Module 59",
+    "category": "business",
+    "description": "Auto-generated business module number 59 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_60_84147",
+    "name": "Business Module 60",
+    "category": "business",
+    "description": "Auto-generated business module number 60 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_61_65004",
+    "name": "Business Module 61",
+    "category": "business",
+    "description": "Auto-generated business module number 61 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_62_60504",
+    "name": "Business Module 62",
+    "category": "business",
+    "description": "Auto-generated business module number 62 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_63_56836",
+    "name": "Business Module 63",
+    "category": "business",
+    "description": "Auto-generated business module number 63 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_64_31099",
+    "name": "Business Module 64",
+    "category": "business",
+    "description": "Auto-generated business module number 64 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_65_65096",
+    "name": "Business Module 65",
+    "category": "business",
+    "description": "Auto-generated business module number 65 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_66_77823",
+    "name": "Business Module 66",
+    "category": "business",
+    "description": "Auto-generated business module number 66 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_67_58315",
+    "name": "Business Module 67",
+    "category": "business",
+    "description": "Auto-generated business module number 67 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_68_15221",
+    "name": "Business Module 68",
+    "category": "business",
+    "description": "Auto-generated business module number 68 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_69_79565",
+    "name": "Business Module 69",
+    "category": "business",
+    "description": "Auto-generated business module number 69 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_70_90654",
+    "name": "Business Module 70",
+    "category": "business",
+    "description": "Auto-generated business module number 70 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_71_32190",
+    "name": "Business Module 71",
+    "category": "business",
+    "description": "Auto-generated business module number 71 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_72_17373",
+    "name": "Business Module 72",
+    "category": "business",
+    "description": "Auto-generated business module number 72 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_73_23507",
+    "name": "Business Module 73",
+    "category": "business",
+    "description": "Auto-generated business module number 73 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_74_99412",
+    "name": "Business Module 74",
+    "category": "business",
+    "description": "Auto-generated business module number 74 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_75_20216",
+    "name": "Business Module 75",
+    "category": "business",
+    "description": "Auto-generated business module number 75 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_76_55470",
+    "name": "Business Module 76",
+    "category": "business",
+    "description": "Auto-generated business module number 76 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_77_22690",
+    "name": "Business Module 77",
+    "category": "business",
+    "description": "Auto-generated business module number 77 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_78_31111",
+    "name": "Business Module 78",
+    "category": "business",
+    "description": "Auto-generated business module number 78 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_79_60042",
+    "name": "Business Module 79",
+    "category": "business",
+    "description": "Auto-generated business module number 79 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_80_69959",
+    "name": "Business Module 80",
+    "category": "business",
+    "description": "Auto-generated business module number 80 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_81_15687",
+    "name": "Business Module 81",
+    "category": "business",
+    "description": "Auto-generated business module number 81 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_82_72445",
+    "name": "Business Module 82",
+    "category": "business",
+    "description": "Auto-generated business module number 82 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_83_29791",
+    "name": "Business Module 83",
+    "category": "business",
+    "description": "Auto-generated business module number 83 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_84_25649",
+    "name": "Business Module 84",
+    "category": "business",
+    "description": "Auto-generated business module number 84 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_85_82061",
+    "name": "Business Module 85",
+    "category": "business",
+    "description": "Auto-generated business module number 85 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_86_49230",
+    "name": "Business Module 86",
+    "category": "business",
+    "description": "Auto-generated business module number 86 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_87_20167",
+    "name": "Business Module 87",
+    "category": "business",
+    "description": "Auto-generated business module number 87 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_88_96377",
+    "name": "Business Module 88",
+    "category": "business",
+    "description": "Auto-generated business module number 88 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_89_99317",
+    "name": "Business Module 89",
+    "category": "business",
+    "description": "Auto-generated business module number 89 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_90_92989",
+    "name": "Business Module 90",
+    "category": "business",
+    "description": "Auto-generated business module number 90 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_91_83378",
+    "name": "Business Module 91",
+    "category": "business",
+    "description": "Auto-generated business module number 91 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_92_19400",
+    "name": "Business Module 92",
+    "category": "business",
+    "description": "Auto-generated business module number 92 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_93_31980",
+    "name": "Business Module 93",
+    "category": "business",
+    "description": "Auto-generated business module number 93 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_94_93892",
+    "name": "Business Module 94",
+    "category": "business",
+    "description": "Auto-generated business module number 94 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_95_22058",
+    "name": "Business Module 95",
+    "category": "business",
+    "description": "Auto-generated business module number 95 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_96_91107",
+    "name": "Business Module 96",
+    "category": "business",
+    "description": "Auto-generated business module number 96 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_97_46855",
+    "name": "Business Module 97",
+    "category": "business",
+    "description": "Auto-generated business module number 97 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_98_61770",
+    "name": "Business Module 98",
+    "category": "business",
+    "description": "Auto-generated business module number 98 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_99_65112",
+    "name": "Business Module 99",
+    "category": "business",
+    "description": "Auto-generated business module number 99 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_100_78964",
+    "name": "Business Module 100",
+    "category": "business",
+    "description": "Auto-generated business module number 100 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_101_10650",
+    "name": "Business Module 101",
+    "category": "business",
+    "description": "Auto-generated business module number 101 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_102_57174",
+    "name": "Business Module 102",
+    "category": "business",
+    "description": "Auto-generated business module number 102 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_103_85418",
+    "name": "Business Module 103",
+    "category": "business",
+    "description": "Auto-generated business module number 103 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_104_66888",
+    "name": "Business Module 104",
+    "category": "business",
+    "description": "Auto-generated business module number 104 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_105_69838",
+    "name": "Business Module 105",
+    "category": "business",
+    "description": "Auto-generated business module number 105 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_106_81461",
+    "name": "Business Module 106",
+    "category": "business",
+    "description": "Auto-generated business module number 106 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_107_30589",
+    "name": "Business Module 107",
+    "category": "business",
+    "description": "Auto-generated business module number 107 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_108_82397",
+    "name": "Business Module 108",
+    "category": "business",
+    "description": "Auto-generated business module number 108 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_109_18698",
+    "name": "Business Module 109",
+    "category": "business",
+    "description": "Auto-generated business module number 109 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_110_66308",
+    "name": "Business Module 110",
+    "category": "business",
+    "description": "Auto-generated business module number 110 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_111_19158",
+    "name": "Business Module 111",
+    "category": "business",
+    "description": "Auto-generated business module number 111 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_112_70628",
+    "name": "Business Module 112",
+    "category": "business",
+    "description": "Auto-generated business module number 112 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_113_33689",
+    "name": "Business Module 113",
+    "category": "business",
+    "description": "Auto-generated business module number 113 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_114_28409",
+    "name": "Business Module 114",
+    "category": "business",
+    "description": "Auto-generated business module number 114 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_115_93370",
+    "name": "Business Module 115",
+    "category": "business",
+    "description": "Auto-generated business module number 115 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_116_97087",
+    "name": "Business Module 116",
+    "category": "business",
+    "description": "Auto-generated business module number 116 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_117_53487",
+    "name": "Business Module 117",
+    "category": "business",
+    "description": "Auto-generated business module number 117 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_118_20681",
+    "name": "Business Module 118",
+    "category": "business",
+    "description": "Auto-generated business module number 118 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_119_29453",
+    "name": "Business Module 119",
+    "category": "business",
+    "description": "Auto-generated business module number 119 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_120_87140",
+    "name": "Business Module 120",
+    "category": "business",
+    "description": "Auto-generated business module number 120 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_121_96442",
+    "name": "Business Module 121",
+    "category": "business",
+    "description": "Auto-generated business module number 121 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_122_78222",
+    "name": "Business Module 122",
+    "category": "business",
+    "description": "Auto-generated business module number 122 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_123_66862",
+    "name": "Business Module 123",
+    "category": "business",
+    "description": "Auto-generated business module number 123 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_124_57047",
+    "name": "Business Module 124",
+    "category": "business",
+    "description": "Auto-generated business module number 124 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_125_67395",
+    "name": "Business Module 125",
+    "category": "business",
+    "description": "Auto-generated business module number 125 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_126_19812",
+    "name": "Business Module 126",
+    "category": "business",
+    "description": "Auto-generated business module number 126 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_127_32327",
+    "name": "Business Module 127",
+    "category": "business",
+    "description": "Auto-generated business module number 127 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_128_44135",
+    "name": "Business Module 128",
+    "category": "business",
+    "description": "Auto-generated business module number 128 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_129_95973",
+    "name": "Business Module 129",
+    "category": "business",
+    "description": "Auto-generated business module number 129 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_130_80093",
+    "name": "Business Module 130",
+    "category": "business",
+    "description": "Auto-generated business module number 130 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_131_60629",
+    "name": "Business Module 131",
+    "category": "business",
+    "description": "Auto-generated business module number 131 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_132_12636",
+    "name": "Business Module 132",
+    "category": "business",
+    "description": "Auto-generated business module number 132 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_133_58328",
+    "name": "Business Module 133",
+    "category": "business",
+    "description": "Auto-generated business module number 133 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_134_46232",
+    "name": "Business Module 134",
+    "category": "business",
+    "description": "Auto-generated business module number 134 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_135_14066",
+    "name": "Business Module 135",
+    "category": "business",
+    "description": "Auto-generated business module number 135 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_136_88666",
+    "name": "Business Module 136",
+    "category": "business",
+    "description": "Auto-generated business module number 136 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_137_27337",
+    "name": "Business Module 137",
+    "category": "business",
+    "description": "Auto-generated business module number 137 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_138_65651",
+    "name": "Business Module 138",
+    "category": "business",
+    "description": "Auto-generated business module number 138 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_139_72568",
+    "name": "Business Module 139",
+    "category": "business",
+    "description": "Auto-generated business module number 139 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_140_35079",
+    "name": "Business Module 140",
+    "category": "business",
+    "description": "Auto-generated business module number 140 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_141_68339",
+    "name": "Business Module 141",
+    "category": "business",
+    "description": "Auto-generated business module number 141 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_142_47175",
+    "name": "Business Module 142",
+    "category": "business",
+    "description": "Auto-generated business module number 142 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_143_95945",
+    "name": "Business Module 143",
+    "category": "business",
+    "description": "Auto-generated business module number 143 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_144_70876",
+    "name": "Business Module 144",
+    "category": "business",
+    "description": "Auto-generated business module number 144 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_145_23739",
+    "name": "Business Module 145",
+    "category": "business",
+    "description": "Auto-generated business module number 145 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_146_40430",
+    "name": "Business Module 146",
+    "category": "business",
+    "description": "Auto-generated business module number 146 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_147_93402",
+    "name": "Business Module 147",
+    "category": "business",
+    "description": "Auto-generated business module number 147 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_148_50625",
+    "name": "Business Module 148",
+    "category": "business",
+    "description": "Auto-generated business module number 148 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_149_36473",
+    "name": "Business Module 149",
+    "category": "business",
+    "description": "Auto-generated business module number 149 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_150_39582",
+    "name": "Business Module 150",
+    "category": "business",
+    "description": "Auto-generated business module number 150 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_151_93916",
+    "name": "Business Module 151",
+    "category": "business",
+    "description": "Auto-generated business module number 151 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_152_17096",
+    "name": "Business Module 152",
+    "category": "business",
+    "description": "Auto-generated business module number 152 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_153_51827",
+    "name": "Business Module 153",
+    "category": "business",
+    "description": "Auto-generated business module number 153 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_154_79247",
+    "name": "Business Module 154",
+    "category": "business",
+    "description": "Auto-generated business module number 154 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_155_73157",
+    "name": "Business Module 155",
+    "category": "business",
+    "description": "Auto-generated business module number 155 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_156_41730",
+    "name": "Business Module 156",
+    "category": "business",
+    "description": "Auto-generated business module number 156 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_157_95812",
+    "name": "Business Module 157",
+    "category": "business",
+    "description": "Auto-generated business module number 157 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_158_96519",
+    "name": "Business Module 158",
+    "category": "business",
+    "description": "Auto-generated business module number 158 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_159_72385",
+    "name": "Business Module 159",
+    "category": "business",
+    "description": "Auto-generated business module number 159 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_160_98808",
+    "name": "Business Module 160",
+    "category": "business",
+    "description": "Auto-generated business module number 160 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_161_59717",
+    "name": "Business Module 161",
+    "category": "business",
+    "description": "Auto-generated business module number 161 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_162_53390",
+    "name": "Business Module 162",
+    "category": "business",
+    "description": "Auto-generated business module number 162 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_163_10966",
+    "name": "Business Module 163",
+    "category": "business",
+    "description": "Auto-generated business module number 163 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_164_37137",
+    "name": "Business Module 164",
+    "category": "business",
+    "description": "Auto-generated business module number 164 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_165_33732",
+    "name": "Business Module 165",
+    "category": "business",
+    "description": "Auto-generated business module number 165 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_166_95992",
+    "name": "Business Module 166",
+    "category": "business",
+    "description": "Auto-generated business module number 166 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_167_71867",
+    "name": "Business Module 167",
+    "category": "business",
+    "description": "Auto-generated business module number 167 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_168_53455",
+    "name": "Business Module 168",
+    "category": "business",
+    "description": "Auto-generated business module number 168 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_169_80188",
+    "name": "Business Module 169",
+    "category": "business",
+    "description": "Auto-generated business module number 169 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_170_86400",
+    "name": "Business Module 170",
+    "category": "business",
+    "description": "Auto-generated business module number 170 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_171_28591",
+    "name": "Business Module 171",
+    "category": "business",
+    "description": "Auto-generated business module number 171 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_172_41739",
+    "name": "Business Module 172",
+    "category": "business",
+    "description": "Auto-generated business module number 172 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_173_16022",
+    "name": "Business Module 173",
+    "category": "business",
+    "description": "Auto-generated business module number 173 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_174_70877",
+    "name": "Business Module 174",
+    "category": "business",
+    "description": "Auto-generated business module number 174 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_175_17310",
+    "name": "Business Module 175",
+    "category": "business",
+    "description": "Auto-generated business module number 175 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_176_69334",
+    "name": "Business Module 176",
+    "category": "business",
+    "description": "Auto-generated business module number 176 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_177_24614",
+    "name": "Business Module 177",
+    "category": "business",
+    "description": "Auto-generated business module number 177 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_178_72202",
+    "name": "Business Module 178",
+    "category": "business",
+    "description": "Auto-generated business module number 178 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_179_32405",
+    "name": "Business Module 179",
+    "category": "business",
+    "description": "Auto-generated business module number 179 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_180_68041",
+    "name": "Business Module 180",
+    "category": "business",
+    "description": "Auto-generated business module number 180 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_181_45689",
+    "name": "Business Module 181",
+    "category": "business",
+    "description": "Auto-generated business module number 181 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_182_34404",
+    "name": "Business Module 182",
+    "category": "business",
+    "description": "Auto-generated business module number 182 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_183_12660",
+    "name": "Business Module 183",
+    "category": "business",
+    "description": "Auto-generated business module number 183 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_184_47360",
+    "name": "Business Module 184",
+    "category": "business",
+    "description": "Auto-generated business module number 184 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_185_49230",
+    "name": "Business Module 185",
+    "category": "business",
+    "description": "Auto-generated business module number 185 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_186_46744",
+    "name": "Business Module 186",
+    "category": "business",
+    "description": "Auto-generated business module number 186 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_187_15303",
+    "name": "Business Module 187",
+    "category": "business",
+    "description": "Auto-generated business module number 187 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_188_77143",
+    "name": "Business Module 188",
+    "category": "business",
+    "description": "Auto-generated business module number 188 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_189_97896",
+    "name": "Business Module 189",
+    "category": "business",
+    "description": "Auto-generated business module number 189 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_190_36979",
+    "name": "Business Module 190",
+    "category": "business",
+    "description": "Auto-generated business module number 190 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_191_34358",
+    "name": "Business Module 191",
+    "category": "business",
+    "description": "Auto-generated business module number 191 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_192_34844",
+    "name": "Business Module 192",
+    "category": "business",
+    "description": "Auto-generated business module number 192 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_193_21549",
+    "name": "Business Module 193",
+    "category": "business",
+    "description": "Auto-generated business module number 193 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_194_15170",
+    "name": "Business Module 194",
+    "category": "business",
+    "description": "Auto-generated business module number 194 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_195_59637",
+    "name": "Business Module 195",
+    "category": "business",
+    "description": "Auto-generated business module number 195 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_196_35122",
+    "name": "Business Module 196",
+    "category": "business",
+    "description": "Auto-generated business module number 196 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_197_91960",
+    "name": "Business Module 197",
+    "category": "business",
+    "description": "Auto-generated business module number 197 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_198_34065",
+    "name": "Business Module 198",
+    "category": "business",
+    "description": "Auto-generated business module number 198 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_199_41172",
+    "name": "Business Module 199",
+    "category": "business",
+    "description": "Auto-generated business module number 199 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_200_81759",
+    "name": "Business Module 200",
+    "category": "business",
+    "description": "Auto-generated business module number 200 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_201_80549",
+    "name": "Business Module 201",
+    "category": "business",
+    "description": "Auto-generated business module number 201 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_202_89300",
+    "name": "Business Module 202",
+    "category": "business",
+    "description": "Auto-generated business module number 202 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_203_14318",
+    "name": "Business Module 203",
+    "category": "business",
+    "description": "Auto-generated business module number 203 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_204_14925",
+    "name": "Business Module 204",
+    "category": "business",
+    "description": "Auto-generated business module number 204 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_205_67213",
+    "name": "Business Module 205",
+    "category": "business",
+    "description": "Auto-generated business module number 205 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_206_76262",
+    "name": "Business Module 206",
+    "category": "business",
+    "description": "Auto-generated business module number 206 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_207_13203",
+    "name": "Business Module 207",
+    "category": "business",
+    "description": "Auto-generated business module number 207 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_208_51553",
+    "name": "Business Module 208",
+    "category": "business",
+    "description": "Auto-generated business module number 208 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_209_16161",
+    "name": "Business Module 209",
+    "category": "business",
+    "description": "Auto-generated business module number 209 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_210_32335",
+    "name": "Business Module 210",
+    "category": "business",
+    "description": "Auto-generated business module number 210 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_211_60058",
+    "name": "Business Module 211",
+    "category": "business",
+    "description": "Auto-generated business module number 211 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_212_63435",
+    "name": "Business Module 212",
+    "category": "business",
+    "description": "Auto-generated business module number 212 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_213_42922",
+    "name": "Business Module 213",
+    "category": "business",
+    "description": "Auto-generated business module number 213 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_214_73105",
+    "name": "Business Module 214",
+    "category": "business",
+    "description": "Auto-generated business module number 214 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_215_81846",
+    "name": "Business Module 215",
+    "category": "business",
+    "description": "Auto-generated business module number 215 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_216_39724",
+    "name": "Business Module 216",
+    "category": "business",
+    "description": "Auto-generated business module number 216 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_217_25060",
+    "name": "Business Module 217",
+    "category": "business",
+    "description": "Auto-generated business module number 217 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_218_79881",
+    "name": "Business Module 218",
+    "category": "business",
+    "description": "Auto-generated business module number 218 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_219_26457",
+    "name": "Business Module 219",
+    "category": "business",
+    "description": "Auto-generated business module number 219 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_220_76474",
+    "name": "Business Module 220",
+    "category": "business",
+    "description": "Auto-generated business module number 220 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_221_32162",
+    "name": "Business Module 221",
+    "category": "business",
+    "description": "Auto-generated business module number 221 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_222_47538",
+    "name": "Business Module 222",
+    "category": "business",
+    "description": "Auto-generated business module number 222 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_223_84863",
+    "name": "Business Module 223",
+    "category": "business",
+    "description": "Auto-generated business module number 223 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_224_48570",
+    "name": "Business Module 224",
+    "category": "business",
+    "description": "Auto-generated business module number 224 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_225_65062",
+    "name": "Business Module 225",
+    "category": "business",
+    "description": "Auto-generated business module number 225 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_226_14401",
+    "name": "Business Module 226",
+    "category": "business",
+    "description": "Auto-generated business module number 226 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_227_30266",
+    "name": "Business Module 227",
+    "category": "business",
+    "description": "Auto-generated business module number 227 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_228_92898",
+    "name": "Business Module 228",
+    "category": "business",
+    "description": "Auto-generated business module number 228 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_229_56456",
+    "name": "Business Module 229",
+    "category": "business",
+    "description": "Auto-generated business module number 229 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_230_49936",
+    "name": "Business Module 230",
+    "category": "business",
+    "description": "Auto-generated business module number 230 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_231_62515",
+    "name": "Business Module 231",
+    "category": "business",
+    "description": "Auto-generated business module number 231 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_232_39061",
+    "name": "Business Module 232",
+    "category": "business",
+    "description": "Auto-generated business module number 232 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_233_27324",
+    "name": "Business Module 233",
+    "category": "business",
+    "description": "Auto-generated business module number 233 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_234_62421",
+    "name": "Business Module 234",
+    "category": "business",
+    "description": "Auto-generated business module number 234 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_235_44955",
+    "name": "Business Module 235",
+    "category": "business",
+    "description": "Auto-generated business module number 235 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_236_11220",
+    "name": "Business Module 236",
+    "category": "business",
+    "description": "Auto-generated business module number 236 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_237_54538",
+    "name": "Business Module 237",
+    "category": "business",
+    "description": "Auto-generated business module number 237 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_238_85951",
+    "name": "Business Module 238",
+    "category": "business",
+    "description": "Auto-generated business module number 238 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_239_82861",
+    "name": "Business Module 239",
+    "category": "business",
+    "description": "Auto-generated business module number 239 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_240_82539",
+    "name": "Business Module 240",
+    "category": "business",
+    "description": "Auto-generated business module number 240 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_241_45774",
+    "name": "Business Module 241",
+    "category": "business",
+    "description": "Auto-generated business module number 241 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_242_30348",
+    "name": "Business Module 242",
+    "category": "business",
+    "description": "Auto-generated business module number 242 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_243_67848",
+    "name": "Business Module 243",
+    "category": "business",
+    "description": "Auto-generated business module number 243 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_244_33973",
+    "name": "Business Module 244",
+    "category": "business",
+    "description": "Auto-generated business module number 244 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_245_41250",
+    "name": "Business Module 245",
+    "category": "business",
+    "description": "Auto-generated business module number 245 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_246_54247",
+    "name": "Business Module 246",
+    "category": "business",
+    "description": "Auto-generated business module number 246 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_247_73029",
+    "name": "Business Module 247",
+    "category": "business",
+    "description": "Auto-generated business module number 247 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_248_48757",
+    "name": "Business Module 248",
+    "category": "business",
+    "description": "Auto-generated business module number 248 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_249_47013",
+    "name": "Business Module 249",
+    "category": "business",
+    "description": "Auto-generated business module number 249 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_250_10682",
+    "name": "Business Module 250",
+    "category": "business",
+    "description": "Auto-generated business module number 250 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_251_65730",
+    "name": "Business Module 251",
+    "category": "business",
+    "description": "Auto-generated business module number 251 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_252_23575",
+    "name": "Business Module 252",
+    "category": "business",
+    "description": "Auto-generated business module number 252 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_253_14916",
+    "name": "Business Module 253",
+    "category": "business",
+    "description": "Auto-generated business module number 253 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_254_22174",
+    "name": "Business Module 254",
+    "category": "business",
+    "description": "Auto-generated business module number 254 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_255_17131",
+    "name": "Business Module 255",
+    "category": "business",
+    "description": "Auto-generated business module number 255 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_256_75532",
+    "name": "Business Module 256",
+    "category": "business",
+    "description": "Auto-generated business module number 256 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_257_17857",
+    "name": "Business Module 257",
+    "category": "business",
+    "description": "Auto-generated business module number 257 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_258_90150",
+    "name": "Business Module 258",
+    "category": "business",
+    "description": "Auto-generated business module number 258 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_259_30137",
+    "name": "Business Module 259",
+    "category": "business",
+    "description": "Auto-generated business module number 259 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_260_18367",
+    "name": "Business Module 260",
+    "category": "business",
+    "description": "Auto-generated business module number 260 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_261_20417",
+    "name": "Business Module 261",
+    "category": "business",
+    "description": "Auto-generated business module number 261 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_262_24435",
+    "name": "Business Module 262",
+    "category": "business",
+    "description": "Auto-generated business module number 262 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_263_57324",
+    "name": "Business Module 263",
+    "category": "business",
+    "description": "Auto-generated business module number 263 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_264_99984",
+    "name": "Business Module 264",
+    "category": "business",
+    "description": "Auto-generated business module number 264 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_265_44783",
+    "name": "Business Module 265",
+    "category": "business",
+    "description": "Auto-generated business module number 265 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_266_20995",
+    "name": "Business Module 266",
+    "category": "business",
+    "description": "Auto-generated business module number 266 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_267_94849",
+    "name": "Business Module 267",
+    "category": "business",
+    "description": "Auto-generated business module number 267 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_268_21872",
+    "name": "Business Module 268",
+    "category": "business",
+    "description": "Auto-generated business module number 268 for BrandCraft system.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "business_269_40900",
+    "name": "Business Module 269",
+    "category": "business",
+    "description": "Auto-generated business module number 269 for BrandCraft system.",
+    "version": "1.0.0"
+  }
+]
