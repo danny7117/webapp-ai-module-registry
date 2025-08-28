@@ -1,27 +1,45 @@
 name: Module CI
 
 on:
-  workflow_dispatch: {}   # ← 這行允許手動 Run
+  # 允許手動觸發
+  workflow_dispatch: {}
+  # push / PR 只在相關檔案變動時觸發
   push:
+    branches: [ "main" ]
     paths:
-      - 'modules/**/manifest.json'
-      - 'schema/**'
-      - 'scripts/validate_modules.cjs'
-      - 'package.json'
+      - "modules/**/manifest.json"
+      - "schema/**"
+      - "scripts/validate_modules.cjs"
+      - "package.json"
   pull_request:
+    branches: [ "main" ]
     paths:
-      - 'modules/**/manifest.json'
-      - 'schema/**'
-      - 'scripts/validate_modules.cjs'
-      - 'package.json'
+      - "modules/**/manifest.json"
+      - "schema/**"
+      - "scripts/validate_modules.cjs"
+      - "package.json"
+
+permissions:
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
+
+      # 先用 npm ci，沒 lock 檔就用 npm i
       - run: npm ci || npm i
-      - run: npm run validate
+
+      # 執行驗證器（你的 repo 若已有 npm run validate 也可用）
+      - name: Run validator
+        run: |
+          if npm run | grep -q "validate"; then
+            npm run validate
+          else
+            node scripts/validate_modules.cjs
+          fi
