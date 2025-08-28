@@ -1,0 +1,167 @@
+[
+  {
+    "id": "mentor:設計導師模組:0003",
+    "name": "設計導師模組",
+    "slug": "設計導師模組",
+    "category": "creative",
+    "description": "為設計師提供專案流程管理、靈感收集、作品集優化。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:教育導師模組:0008",
+    "name": "教育導師模組",
+    "slug": "教育導師模組",
+    "category": "creative",
+    "description": "支援教師或教育從業人員，提供課程設計與教育科技應用建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:藝術導師模組:0010",
+    "name": "藝術導師模組",
+    "slug": "藝術導師模組",
+    "category": "creative",
+    "description": "協助藝術創作者提升作品表達、展覽規劃與市場經營。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:資訊科技導師模組:0018",
+    "name": "資訊科技導師模組",
+    "slug": "資訊科技導師模組",
+    "category": "creative",
+    "description": "協助學生學習程式設計、網路概論與AI應用。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:簡報導師模組:0022",
+    "name": "簡報導師模組",
+    "slug": "簡報導師模組",
+    "category": "creative",
+    "description": "協助使用者設計簡報結構、內容精煉與演講技巧。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:個人化推薦模組:0051",
+    "name": "個人化推薦模組",
+    "slug": "個人化推薦模組",
+    "category": "creative",
+    "description": "AI依據用戶歷史紀錄，推薦相關導師與內容。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:創新方法導師模組:0060",
+    "name": "創新方法導師模組",
+    "slug": "創新方法導師模組",
+    "category": "creative",
+    "description": "提供 TRIZ、設計思考等創新工具訓練。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:創業募資導師模組:0062",
+    "name": "創業募資導師模組",
+    "slug": "創業募資導師模組",
+    "category": "creative",
+    "description": "提供募資簡報、投資人溝通與股權設計建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:組織管理導師模組:0068",
+    "name": "組織管理導師模組",
+    "slug": "組織管理導師模組",
+    "category": "creative",
+    "description": "支援組織設計、制度建立與內部培訓。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:寫作靈感導師模組:0077",
+    "name": "寫作靈感導師模組",
+    "slug": "寫作靈感導師模組",
+    "category": "creative",
+    "description": "提供靈感生成與寫作範例，幫助突破瓶頸。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:地區教育差異模組:0121",
+    "name": "地區教育差異模組",
+    "slug": "地區教育差異模組",
+    "category": "creative",
+    "description": "針對不同地區教育體系，調整導師建議內容。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  }
+]

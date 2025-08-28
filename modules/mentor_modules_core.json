@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "mentor:行業導師總覽模組:0001",
+    "name": "行業導師總覽模組",
+    "slug": "行業導師總覽模組",
+    "category": "core",
+    "description": "提供各行業導師的入口選單，快速切換至特定產業的職能導師。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:科技導師模組:0007",
+    "name": "科技導師模組",
+    "slug": "科技導師模組",
+    "category": "core",
+    "description": "提供科技業專案管理、敏捷開發與職涯規劃建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:醫療導師模組:0009",
+    "name": "醫療導師模組",
+    "slug": "醫療導師模組",
+    "category": "core",
+    "description": "針對醫療專業人員，提供最新醫學研究摘要與病患溝通技巧。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:運動導師模組:0011",
+    "name": "運動導師模組",
+    "slug": "運動導師模組",
+    "category": "core",
+    "description": "提供運動員或教練訓練規劃、飲食建議與心理建設。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:學科導師總覽模組:0012",
+    "name": "學科導師總覽模組",
+    "slug": "學科導師總覽模組",
+    "category": "core",
+    "description": "學生可依學科（數學、語文、科學等）選擇專屬導師。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:數學導師模組:0013",
+    "name": "數學導師模組",
+    "slug": "數學導師模組",
+    "category": "core",
+    "description": "提供題目解析、公式講解與考試重點整理。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:語文導師模組:0014",
+    "name": "語文導師模組",
+    "slug": "語文導師模組",
+    "category": "core",
+    "description": "支援作文批改、文法練習與閱讀理解分析。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:科學導師模組:0015",
+    "name": "科學導師模組",
+    "slug": "科學導師模組",
+    "category": "core",
+    "description": "協助學生理解科學實驗、公式應用與考試範例。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:歷史導師模組:0016",
+    "name": "歷史導師模組",
+    "slug": "歷史導師模組",
+    "category": "core",
+    "description": "以年代表與事件解析幫助學生掌握歷史重點。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:地理導師模組:0017",
+    "name": "地理導師模組",
+    "slug": "地理導師模組",
+    "category": "core",
+    "description": "支援地圖分析、地形特徵講解與實際案例應用。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:心理學導師模組:0019",
+    "name": "心理學導師模組",
+    "slug": "心理學導師模組",
+    "category": "core",
+    "description": "提供心理學理論解析、案例研究與日常應用建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:哲學導師模組:0020",
+    "name": "哲學導師模組",
+    "slug": "哲學導師模組",
+    "category": "core",
+    "description": "引導學生理解哲學流派、思辨方法與生活應用。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:料理導師模組:0021",
+    "name": "料理導師模組",
+    "slug": "料理導師模組",
+    "category": "core",
+    "description": "依據食材與口味喜好，提供食譜建議與烹飪技巧。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:健身導師模組:0023",
+    "name": "健身導師模組",
+    "slug": "健身導師模組",
+    "category": "core",
+    "description": "根據用戶身體狀況提供訓練計畫、飲食與休息建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:語言學習導師模組:0024",
+    "name": "語言學習導師模組",
+    "slug": "語言學習導師模組",
+    "category": "core",
+    "description": "支援多語言學習，提供單字記憶、會話練習與文化背景。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:時間管理導師模組:0025",
+    "name": "時間管理導師模組",
+    "slug": "時間管理導師模組",
+    "category": "core",
+    "description": "提供時間規劃、優先級排序與效率提升建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:考試準備導師模組:0026",
+    "name": "考試準備導師模組",
+    "slug": "考試準備導師模組",
+    "category": "core",
+    "description": "針對不同考試（學測、托福、專業證照）提供複習計劃。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:寫作導師模組:0027",
+    "name": "寫作導師模組",
+    "slug": "寫作導師模組",
+    "category": "core",
+    "description": "提供文章結構建議、風格修正與實例分析。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:溝通技巧導師模組:0028",
+    "name": "溝通技巧導師模組",
+    "slug": "溝通技巧導師模組",
+    "category": "core",
+    "description": "模擬溝通場景，幫助用戶提升表達與傾聽能力。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:職場導師模組:0029",
+    "name": "職場導師模組",
+    "slug": "職場導師模組",
+    "category": "core",
+    "description": "提供履歷修改、面試模擬與職涯發展建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:創意發想導師模組:0030",
+    "name": "創意發想導師模組",
+    "slug": "創意發想導師模組",
+    "category": "core",
+    "description": "引導用戶透過腦力激盪方法，產出新點子。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:情緒陪伴導師模組:0031",
+    "name": "情緒陪伴導師模組",
+    "slug": "情緒陪伴導師模組",
+    "category": "core",
+    "description": "傾聽用戶心情並提供正向鼓勵與心理支持。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:每日心情紀錄模組:0032",
+    "name": "每日心情紀錄模組",
+    "slug": "每日心情紀錄模組",
+    "category": "core",
+    "description": "讓用戶輸入每日心情，系統生成情緒曲線與回饋。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:正向回饋推播模組:0033",
+    "name": "正向回饋推播模組",
+    "slug": "正向回饋推播模組",
+    "category": "core",
+    "description": "每天推送勵志語錄或提醒，維持積極心態。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:壓力釋放導師模組:0034",
+    "name": "壓力釋放導師模組",
+    "slug": "壓力釋放導師模組",
+    "category": "core",
+    "description": "提供冥想、呼吸練習與放鬆音樂建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:人際關係導師模組:0035",
+    "name": "人際關係導師模組",
+    "slug": "人際關係導師模組",
+    "category": "core",
+    "description": "分析人際互動問題並提供溝通改善建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:家庭導師模組:0037",
+    "name": "家庭導師模組",
+    "slug": "家庭導師模組",
+    "category": "core",
+    "description": "針對家庭溝通、親子教育提供實用建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:健康生活導師模組:0038",
+    "name": "健康生活導師模組",
+    "slug": "健康生活導師模組",
+    "category": "core",
+    "description": "提供日常飲食、運動與睡眠改善建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:飲食健康導師模組:0039",
+    "name": "飲食健康導師模組",
+    "slug": "飲食健康導師模組",
+    "category": "core",
+    "description": "根據個人需求推薦食材與食譜。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:習慣養成導師模組:0041",
+    "name": "習慣養成導師模組",
+    "slug": "習慣養成導師模組",
+    "category": "core",
+    "description": "幫助用戶建立新習慣並追蹤完成情況。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:專注力提升導師模組:0042",
+    "name": "專注力提升導師模組",
+    "slug": "專注力提升導師模組",
+    "category": "core",
+    "description": "提供專注訓練方法與干擾排除建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:睡眠管理導師模組:0043",
+    "name": "睡眠管理導師模組",
+    "slug": "睡眠管理導師模組",
+    "category": "core",
+    "description": "分析睡眠數據，提供改善作息的方案。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:自信心培養導師模組:0044",
+    "name": "自信心培養導師模組",
+    "slug": "自信心培養導師模組",
+    "category": "core",
+    "description": "提供提升自我肯定與演講表達的練習。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:情境判斷分流模組:0045",
+    "name": "情境判斷分流模組",
+    "slug": "情境判斷分流模組",
+    "category": "core",
+    "description": "AI自動判斷輸入屬於學習 / 情緒 / 健康 / 職場，並導入對應導師。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:語音輸入模組:0046",
+    "name": "語音輸入模組",
+    "slug": "語音輸入模組",
+    "category": "core",
+    "description": "支援語音輸入轉文字，提升互動效率。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:語音回覆模組:0047",
+    "name": "語音回覆模組",
+    "slug": "語音回覆模組",
+    "category": "core",
+    "description": "AI以語音方式回覆，模擬真實對話體驗。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:即時通話模組:0048",
+    "name": "即時通話模組",
+    "slug": "即時通話模組",
+    "category": "core",
+    "description": "支援與導師即時語音或視訊通話。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:對話摘要生成模組:0049",
+    "name": "對話摘要生成模組",
+    "slug": "對話摘要生成模組",
+    "category": "core",
+    "description": "自動整理對話重點，形成可回顧的摘要。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:學習路徑建議模組:0050",
+    "name": "學習路徑建議模組",
+    "slug": "學習路徑建議模組",
+    "category": "core",
+    "description": "依學生目標自動生成學習規劃路徑。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:文化本地化模組:0052",
+    "name": "文化本地化模組",
+    "slug": "文化本地化模組",
+    "category": "core",
+    "description": "根據使用者所在文化背景，調整建議用語與案例。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:跨平台串接模組:0053",
+    "name": "跨平台串接模組",
+    "slug": "跨平台串接模組",
+    "category": "core",
+    "description": "支援 LINE、WhatsApp、微信等即時通訊串接。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:用戶偏好記憶模組:0054",
+    "name": "用戶偏好記憶模組",
+    "slug": "用戶偏好記憶模組",
+    "category": "core",
+    "description": "紀錄用戶喜好、習慣，並在互動中自動調整。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:學習進度追蹤模組:0055",
+    "name": "學習進度追蹤模組",
+    "slug": "學習進度追蹤模組",
+    "category": "core",
+    "description": "自動紀錄學生進度並提供月報。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:學習成效分析模組:0056",
+    "name": "學習成效分析模組",
+    "slug": "學習成效分析模組",
+    "category": "core",
+    "description": "分析學習數據並生成改善建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:專題指導導師模組:0057",
+    "name": "專題指導導師模組",
+    "slug": "專題指導導師模組",
+    "category": "core",
+    "description": "協助學生進行專題研究與報告撰寫。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:團隊合作導師模組:0059",
+    "name": "團隊合作導師模組",
+    "slug": "團隊合作導師模組",
+    "category": "core",
+    "description": "引導團隊溝通、協作與效率提升。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:理財規劃導師模組:0061",
+    "name": "理財規劃導師模組",
+    "slug": "理財規劃導師模組",
+    "category": "core",
+    "description": "幫助用戶制定儲蓄、投資與保險規劃。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:法律知識導師模組:0065",
+    "name": "法律知識導師模組",
+    "slug": "法律知識導師模組",
+    "category": "core",
+    "description": "針對創業者與職場人士，提供法律知識輔助。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:領導力導師模組:0067",
+    "name": "領導力導師模組",
+    "slug": "領導力導師模組",
+    "category": "core",
+    "description": "提供領導力測評、案例分析與提升建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:專業證照導師模組:0069",
+    "name": "專業證照導師模組",
+    "slug": "專業證照導師模組",
+    "category": "core",
+    "description": "針對各類專業證照考試，提供重點與模擬試題。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:面試模擬導師模組:0070",
+    "name": "面試模擬導師模組",
+    "slug": "面試模擬導師模組",
+    "category": "core",
+    "description": "模擬職場面試，提供即時回饋與改進建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:履歷優化導師模組:0071",
+    "name": "履歷優化導師模組",
+    "slug": "履歷優化導師模組",
+    "category": "core",
+    "description": "協助使用者修改履歷，強化亮點。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:職涯探索導師模組:0072",
+    "name": "職涯探索導師模組",
+    "slug": "職涯探索導師模組",
+    "category": "core",
+    "description": "引導用戶探索不同職涯路徑與發展可能。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:產業趨勢導師模組:0075",
+    "name": "產業趨勢導師模組",
+    "slug": "產業趨勢導師模組",
+    "category": "core",
+    "description": "分析市場趨勢並提供產業洞察。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:知識管理導師模組:0076",
+    "name": "知識管理導師模組",
+    "slug": "知識管理導師模組",
+    "category": "core",
+    "description": "協助企業建立知識庫與內部培訓體系。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:演講導師模組:0078",
+    "name": "演講導師模組",
+    "slug": "演講導師模組",
+    "category": "core",
+    "description": "協助用戶提升演講結構、肢體語言與台風。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:自我探索導師模組:0081",
+    "name": "自我探索導師模組",
+    "slug": "自我探索導師模組",
+    "category": "core",
+    "description": "提供心理測驗與反思問題，幫助用戶了解自己。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:價值觀引導模組:0082",
+    "name": "價值觀引導模組",
+    "slug": "價值觀引導模組",
+    "category": "core",
+    "description": "引導用戶確認核心價值觀並應用於生活。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:正念冥想模組:0083",
+    "name": "正念冥想模組",
+    "slug": "正念冥想模組",
+    "category": "core",
+    "description": "提供引導式冥想與專注練習。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:情感療癒模組:0084",
+    "name": "情感療癒模組",
+    "slug": "情感療癒模組",
+    "category": "core",
+    "description": "陪伴用戶進行情緒釋放與內在修復。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:人生規劃模組:0085",
+    "name": "人生規劃模組",
+    "slug": "人生規劃模組",
+    "category": "core",
+    "description": "協助用戶制定長期目標與實踐計畫。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:靈性探索模組:0086",
+    "name": "靈性探索模組",
+    "slug": "靈性探索模組",
+    "category": "core",
+    "description": "引導用戶探索靈性實踐與內在力量。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:每日提醒模組:0087",
+    "name": "每日提醒模組",
+    "slug": "每日提醒模組",
+    "category": "core",
+    "description": "提供每日目標提醒與激勵訊息。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:成就徽章模組:0088",
+    "name": "成就徽章模組",
+    "slug": "成就徽章模組",
+    "category": "core",
+    "description": "依據用戶互動行為，自動頒發成就徽章。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:遊戲化任務模組:0089",
+    "name": "遊戲化任務模組",
+    "slug": "遊戲化任務模組",
+    "category": "core",
+    "description": "將任務轉化為遊戲挑戰，提升參與度。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:社群支持模組:0090",
+    "name": "社群支持模組",
+    "slug": "社群支持模組",
+    "category": "core",
+    "description": "提供社群互動空間，用戶可分享經驗與互助。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:導師評價模組:0091",
+    "name": "導師評價模組",
+    "slug": "導師評價模組",
+    "category": "core",
+    "description": "用戶可對導師服務進行評分與回饋。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:智慧推薦模組:0092",
+    "name": "智慧推薦模組",
+    "slug": "智慧推薦模組",
+    "category": "core",
+    "description": "AI根據用戶需求自動推薦最合適的導師。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:跨導師合作模組:0093",
+    "name": "跨導師合作模組",
+    "slug": "跨導師合作模組",
+    "category": "core",
+    "description": "允許多個導師模組同時協作，解決複合型問題。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:知識卡生成模組:0094",
+    "name": "知識卡生成模組",
+    "slug": "知識卡生成模組",
+    "category": "core",
+    "description": "自動將導師知識點整理為可分享的知識卡片。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:多語支援模組:0095",
+    "name": "多語支援模組",
+    "slug": "多語支援模組",
+    "category": "core",
+    "description": "支援多國語言互動，並提供即時翻譯。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:案例分析模組:0096",
+    "name": "案例分析模組",
+    "slug": "案例分析模組",
+    "category": "core",
+    "description": "導師可提供實際案例並解析，協助學習。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:模擬對話模組:0097",
+    "name": "模擬對話模組",
+    "slug": "模擬對話模組",
+    "category": "core",
+    "description": "模擬不同情境對話，幫助用戶演練。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:專屬日誌模組:0098",
+    "name": "專屬日誌模組",
+    "slug": "專屬日誌模組",
+    "category": "core",
+    "description": "生成個人化日誌，記錄學習與情緒變化。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:數據分析模組:0099",
+    "name": "數據分析模組",
+    "slug": "數據分析模組",
+    "category": "core",
+    "description": "分析用戶行為數據，提供個性化建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:回顧報告模組:0100",
+    "name": "回顧報告模組",
+    "slug": "回顧報告模組",
+    "category": "core",
+    "description": "自動生成週/月度回顧，幫助用戶檢視成長。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:健康導師總覽模組:0101",
+    "name": "健康導師總覽模組",
+    "slug": "健康導師總覽模組",
+    "category": "core",
+    "description": "提供健康相關導師入口，整合飲食、運動、心理與日常照護。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:運動健康導師模組:0102",
+    "name": "運動健康導師模組",
+    "slug": "運動健康導師模組",
+    "category": "core",
+    "description": "依據個人健康狀況，生成專屬運動建議與進度追蹤。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:飲食營養導師模組:0103",
+    "name": "飲食營養導師模組",
+    "slug": "飲食營養導師模組",
+    "category": "core",
+    "description": "提供熱量計算、飲食均衡建議，並支援特殊飲食需求。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:心理支持導師模組:0104",
+    "name": "心理支持導師模組",
+    "slug": "心理支持導師模組",
+    "category": "core",
+    "description": "針對焦慮、壓力或憂鬱提供非臨床心理輔助與自我管理。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:壓力監測模組:0105",
+    "name": "壓力監測模組",
+    "slug": "壓力監測模組",
+    "category": "core",
+    "description": "結合穿戴裝置數據，監測壓力變化並建議舒壓方式。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:健康數據整合模組:0106",
+    "name": "健康數據整合模組",
+    "slug": "健康數據整合模組",
+    "category": "core",
+    "description": "整合睡眠、心跳、步數等健康資料，形成全方位建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:ai健康對話模組:0107",
+    "name": "AI健康對話模組",
+    "slug": "ai健康對話模組",
+    "category": "core",
+    "description": "允許用戶與 AI 對話，獲取即時健康提醒與建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:醫療知識庫模組:0108",
+    "name": "醫療知識庫模組",
+    "slug": "醫療知識庫模組",
+    "category": "core",
+    "description": "提供專業醫療知識摘要，但不取代醫師診斷。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:急救知識模組:0109",
+    "name": "急救知識模組",
+    "slug": "急救知識模組",
+    "category": "core",
+    "description": "提供常見急救情境的操作指引。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:長期追蹤模組:0110",
+    "name": "長期追蹤模組",
+    "slug": "長期追蹤模組",
+    "category": "core",
+    "description": "建立健康歷程檔案，觀察長期變化趨勢。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:跨平台訊息同步模組:0111",
+    "name": "跨平台訊息同步模組",
+    "slug": "跨平台訊息同步模組",
+    "category": "core",
+    "description": "支援 LINE、WhatsApp、微信等平台同步互動。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:跨平台通話模組:0112",
+    "name": "跨平台通話模組",
+    "slug": "跨平台通話模組",
+    "category": "core",
+    "description": "允許跨即時通訊平台的語音/視訊通話。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:跨平台通知模組:0113",
+    "name": "跨平台通知模組",
+    "slug": "跨平台通知模組",
+    "category": "core",
+    "description": "自動推送跨平台提醒與任務更新。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:跨平台數據同步模組:0114",
+    "name": "跨平台數據同步模組",
+    "slug": "跨平台數據同步模組",
+    "category": "core",
+    "description": "自動同步學習紀錄與健康數據到多平台。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:使用者偏好紀錄模組:0115",
+    "name": "使用者偏好紀錄模組",
+    "slug": "使用者偏好紀錄模組",
+    "category": "core",
+    "description": "記錄用戶在學習、飲食、情緒上的偏好，形成個人檔案。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:使用者情緒檔案模組:0116",
+    "name": "使用者情緒檔案模組",
+    "slug": "使用者情緒檔案模組",
+    "category": "core",
+    "description": "自動生成情緒歷程檔案，顯示變化曲線。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:使用者習慣紀錄模組:0117",
+    "name": "使用者習慣紀錄模組",
+    "slug": "使用者習慣紀錄模組",
+    "category": "core",
+    "description": "追蹤日常習慣，並建立數據化行為模式。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:地區文化知識庫模組:0119",
+    "name": "地區文化知識庫模組",
+    "slug": "地區文化知識庫模組",
+    "category": "core",
+    "description": "整合各地文化、生活習慣差異，給予在地化建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:地區飲食知識模組:0120",
+    "name": "地區飲食知識模組",
+    "slug": "地區飲食知識模組",
+    "category": "core",
+    "description": "依地區特色食材與習慣，生成個人化飲食建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:地區語言學習模組:0122",
+    "name": "地區語言學習模組",
+    "slug": "地區語言學習模組",
+    "category": "core",
+    "description": "支援方言、地區性語言的學習與文化背景介紹。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:情境模擬任務模組:0123",
+    "name": "情境模擬任務模組",
+    "slug": "情境模擬任務模組",
+    "category": "core",
+    "description": "針對學習或職場場景，生成模擬情境互動任務。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:情境分流推理模組:0124",
+    "name": "情境分流推理模組",
+    "slug": "情境分流推理模組",
+    "category": "core",
+    "description": "根據輸入語境，AI判斷所屬導師類別並導向。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:每日挑戰模組:0125",
+    "name": "每日挑戰模組",
+    "slug": "每日挑戰模組",
+    "category": "core",
+    "description": "生成每日學習或生活挑戰，提升參與感。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:每週回顧模組:0126",
+    "name": "每週回顧模組",
+    "slug": "每週回顧模組",
+    "category": "core",
+    "description": "自動生成每週回顧報告，追蹤進步與情緒變化。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:目標進度可視化模組:0127",
+    "name": "目標進度可視化模組",
+    "slug": "目標進度可視化模組",
+    "category": "core",
+    "description": "以圖表形式展示個人目標的完成進度。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:語音日誌模組:0128",
+    "name": "語音日誌模組",
+    "slug": "語音日誌模組",
+    "category": "core",
+    "description": "允許用戶以語音方式記錄日誌，並自動轉文字。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:語音摘要模組:0129",
+    "name": "語音摘要模組",
+    "slug": "語音摘要模組",
+    "category": "core",
+    "description": "自動將長篇語音轉為摘要文字，提升回顧效率。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:語音翻譯模組:0130",
+    "name": "語音翻譯模組",
+    "slug": "語音翻譯模組",
+    "category": "core",
+    "description": "支援多語語音即時翻譯，應用於跨文化溝通。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  }
+]

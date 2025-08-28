@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mentor:金融導師模組:0004",
+    "name": "金融導師模組",
+    "slug": "金融導師模組",
+    "category": "utility",
+    "description": "支援金融業從業人員，提供市場趨勢解讀、職涯建議與工具教學。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:心理健康導師模組:0040",
+    "name": "心理健康導師模組",
+    "slug": "心理健康導師模組",
+    "category": "utility",
+    "description": "結合心理學工具，提供舒壓與正念建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:數位轉型導師模組:0074",
+    "name": "數位轉型導師模組",
+    "slug": "數位轉型導師模組",
+    "category": "utility",
+    "description": "提供企業數位化流程優化建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:使用者個人目標模組:0118",
+    "name": "使用者個人目標模組",
+    "slug": "使用者個人目標模組",
+    "category": "utility",
+    "description": "允許設定個人短期與長期目標，並追蹤完成度。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  }
+]

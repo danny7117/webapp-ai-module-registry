@@ -1,0 +1,167 @@
+[
+  {
+    "id": "mentor:餐飲導師模組:0002",
+    "name": "餐飲導師模組",
+    "slug": "餐飲導師模組",
+    "category": "business",
+    "description": "針對餐飲業者，提供菜單設計、成本控制、顧客服務建議。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:創業導師模組:0005",
+    "name": "創業導師模組",
+    "slug": "創業導師模組",
+    "category": "business",
+    "description": "提供新創團隊創業計畫、商業模式分析與募資技巧。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:零售導師模組:0006",
+    "name": "零售導師模組",
+    "slug": "零售導師模組",
+    "category": "business",
+    "description": "協助零售業者改善店面佈局、銷售策略與顧客經營。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:戀愛導師模組:0036",
+    "name": "戀愛導師模組",
+    "slug": "戀愛導師模組",
+    "category": "business",
+    "description": "給予戀愛中用戶情感分析與互動策略。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:專案管理導師模組:0058",
+    "name": "專案管理導師模組",
+    "slug": "專案管理導師模組",
+    "category": "business",
+    "description": "提供專案分工、進度追蹤與風險評估工具。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:行銷策略導師模組:0063",
+    "name": "行銷策略導師模組",
+    "slug": "行銷策略導師模組",
+    "category": "business",
+    "description": "協助企業設計行銷計畫與品牌推廣。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:顧客服務導師模組:0064",
+    "name": "顧客服務導師模組",
+    "slug": "顧客服務導師模組",
+    "category": "business",
+    "description": "提供客戶經營、售後服務與滿意度提升策略。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:談判技巧導師模組:0066",
+    "name": "談判技巧導師模組",
+    "slug": "談判技巧導師模組",
+    "category": "business",
+    "description": "模擬談判情境，提供應對策略與實戰練習。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:個人品牌導師模組:0073",
+    "name": "個人品牌導師模組",
+    "slug": "個人品牌導師模組",
+    "category": "business",
+    "description": "協助打造個人品牌形象與線上曝光策略。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:跨文化溝通導師模組:0079",
+    "name": "跨文化溝通導師模組",
+    "slug": "跨文化溝通導師模組",
+    "category": "business",
+    "description": "提供跨文化差異分析與應對策略。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  },
+  {
+    "id": "mentor:社交媒體導師模組:0080",
+    "name": "社交媒體導師模組",
+    "slug": "社交媒體導師模組",
+    "category": "business",
+    "description": "協助用戶經營社群帳號與內容策略。",
+    "tags": [
+      "mentor",
+      "import",
+      "v1"
+    ],
+    "project": "mentor-ai",
+    "source": "import",
+    "version": 1
+  }
+]
