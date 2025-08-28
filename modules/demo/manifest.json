@@ -1,21 +1,13 @@
 {
-  "id": "demo.echo",
-  "name": "Demo Echo",
+  "id": "demo.echo-1",
+  "name": "Echo",
   "version": "1.0.0",
-  "capabilities": ["events.trigger", "fx.overlay", "schedule"],
-  "inputs": {
-    "text": { "type": "string", "minLength": 1 }
-  },
-  "outputs": {
-    "echo": { "type": "string" }
-  },
-  "resources": { "bundle_kb": 8, "cpu": 0.05, "mem_mb": 8 },
-  "policy": { "age": "6+", "license": "MIT", "offline_ok": true },
+  "capabilities": ["core"],
+  "inputs": { "text": { "type": "string" } },
+  "outputs": { "echo": { "type": "string" } },
+  "resources": { "bundle_kb": 3, "cpu": 0.1, "mem_mb": 4 },
+  "policy": { "age": "13+", "license": "MIT", "offline_ok": true },
   "tests": [
-    {
-      "name": "returns echo",
-      "input": { "text": "hi" },
-      "expect": { "echo": "hi" }
-    }
+    { "name": "empty echo", "input": { "text": "" }, "expect": { "echo": "" } }
   ]
 }
