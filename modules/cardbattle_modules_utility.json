@@ -1,0 +1,3230 @@
+[
+  {
+    "id": 3,
+    "name": "卡牌屬性模組｜為卡牌附加屬性（攻擊、防禦、特殊技能）。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 4,
+    "name": "卡牌分類模組｜依屬性或系列自動分類卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 5,
+    "name": "卡牌圖鑑模組｜建立完整卡牌圖鑑供玩家查詢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 6,
+    "name": "卡牌背包模組｜玩家可儲存與管理已擁有的卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 7,
+    "name": "卡牌融合模組｜允許玩家合成低等級卡牌為高等級卡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 9,
+    "name": "卡牌技能模組｜為特定卡牌設定獨特技能效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 10,
+    "name": "卡牌平衡模組｜檢測並調整卡牌屬性，維持遊戲平衡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 11,
+    "name": "對戰匹配模組｜自動為玩家匹配對手進行對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 12,
+    "name": "排位賽模組｜提供積分與排名機制，形成天梯賽制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 13,
+    "name": "隨機對戰模組｜快速隨機匹配對手，提升遊戲流暢度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 14,
+    "name": "AI 對戰模組｜允許玩家與電腦 AI 進行單人模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 15,
+    "name": "雙人合作模組｜支援玩家組隊挑戰其他玩家或 AI。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 16,
+    "name": "限時活動模組｜推出期間限定的特殊賽制或規則。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 17,
+    "name": "對戰觀戰模組｜允許玩家觀看他人對戰過程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 18,
+    "name": "戰鬥重播模組｜保存並回放玩家的歷史戰鬥。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 19,
+    "name": "戰鬥分析模組｜提供數據與 AI 戰術建議，幫助玩家改進。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 20,
+    "name": "對戰排行榜模組｜顯示勝率與積分最高的玩家。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 24,
+    "name": "隨機卡包模組｜允許玩家購買隨機組合的卡牌包。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 25,
+    "name": "積分兌換模組｜可使用對戰積分兌換特殊卡牌或獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 31,
+    "name": "好友系統模組｜玩家可加好友並邀請對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 32,
+    "name": "公會模組｜允許玩家組建公會。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 33,
+    "name": "公會戰模組｜公會間可進行比賽與排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 34,
+    "name": "聊天室模組｜內建即時聊天系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 35,
+    "name": "社群活動模組｜舉辦線上活動、比賽、挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 36,
+    "name": "排行榜獎勵模組｜依排行榜名次發送獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 37,
+    "name": "挑戰賽模組｜玩家可建立挑戰房間並邀請他人。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 38,
+    "name": "錦標賽模組｜舉辦大規模淘汰制比賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 39,
+    "name": "聯盟賽模組｜長期積分賽事，形成聯盟對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 40,
+    "name": "合作模式模組｜兩人或多人合作挑戰關卡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 42,
+    "name": "簽到模組｜每日簽到可獲得卡牌或積分獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 43,
+    "name": "成就系統模組｜完成挑戰可解鎖成就。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 44,
+    "name": "勳章模組｜展示玩家成就徽章。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 45,
+    "name": "活躍度模組｜追蹤玩家的每日與月度活躍數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 51,
+    "name": "新手教學模組｜引導新手快速上手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 52,
+    "name": "戰術指導模組｜提供對戰策略建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 53,
+    "name": "學習模式模組｜提供低風險對戰教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 54,
+    "name": "兒童模式模組｜簡化規則，降低入門門檻。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 55,
+    "name": "教育合作模組｜結合校園或社群教育推廣。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 58,
+    "name": "冒險模式模組｜單人或合作探索式玩法。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 59,
+    "name": "任務挑戰模組｜每日或每週任務挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 60,
+    "name": "限時挑戰模組｜時間限定的挑戰賽制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 64,
+    "name": "AI 平衡檢測模組｜AI 自動檢測卡牌數值是否平衡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 65,
+    "name": "AI 對戰助手模組｜AI 提供即時戰術建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 66,
+    "name": "AI 集換建議模組｜AI 推薦卡牌交換方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 67,
+    "name": "AI 收藏分析模組｜AI 分析玩家收藏並給予建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 70,
+    "name": "AI 趨勢分析模組｜AI 預測未來熱門卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 71,
+    "name": "手機版模組｜提供 iOS/Android 行動版。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 72,
+    "name": "桌面版模組｜提供 Windows/Mac 桌面應用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 73,
+    "name": "跨平台同步模組｜確保多裝置數據一致。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 74,
+    "name": "跨平台登入模組｜支援 Google/Apple/Facebook 登入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 86,
+    "name": "黑名單模組｜維護詐騙帳號黑名單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 89,
+    "name": "監管合規模組｜符合不同地區的合規要求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 91,
+    "name": "數據快照模組｜定期保存玩家與卡牌數據快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 92,
+    "name": "數據分析模組｜對戰與收藏數據分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 93,
+    "name": "數據可視化模組｜以圖表呈現數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 96,
+    "name": "數據備份模組｜雲端自動備份玩家資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 97,
+    "name": "數據回滾模組｜支援數據回滾至歷史快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 98,
+    "name": "數據同步模組｜確保所有裝置與平台數據一致。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 99,
+    "name": "數據清理模組｜定期清理無效或過期數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 100,
+    "name": "數據共享模組｜允許玩家或研究人員共享數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 101,
+    "name": "卡牌碎片模組｜允許玩家分解卡牌獲取碎片以合成其他卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 102,
+    "name": "卡牌強化模組｜使用素材提升卡牌屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 104,
+    "name": "卡牌收藏排行榜模組｜依玩家收藏卡牌數量排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 105,
+    "name": "卡牌升星模組｜以星級系統強化卡牌稀有度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 107,
+    "name": "卡牌鑑定模組｜檢測卡牌真偽與來源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 108,
+    "name": "卡牌合成報告模組｜記錄與回顧合成結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 109,
+    "name": "卡牌進化路線模組｜顯示卡牌可能的進化分支。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 111,
+    "name": "對戰戰場模組｜自訂對戰背景與場景。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 113,
+    "name": "對戰自動化模組｜提供自動出牌功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 114,
+    "name": "對戰回合計時模組｜限制玩家出牌時間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 115,
+    "name": "對戰隨機事件模組｜增加隨機元素影響戰局。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 116,
+    "name": "對戰組隊模組｜允許多人對戰的組隊賽制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 117,
+    "name": "對戰觀戰聊天室模組｜觀戰玩家可即時聊天。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 118,
+    "name": "對戰分享模組｜允許分享戰鬥影片或紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 119,
+    "name": "對戰數據模組｜統計每場戰鬥的詳細數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 120,
+    "name": "對戰榮譽模組｜發放對戰成就與榮譽稱號。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 131,
+    "name": "社群動態模組｜顯示好友與公會的最新活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 132,
+    "name": "社群新聞模組｜發布官方公告與更新。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 133,
+    "name": "社群話題模組｜允許玩家建立熱門話題討論。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 134,
+    "name": "社群投票模組｜舉辦遊戲相關的投票活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 135,
+    "name": "社群熱點模組｜顯示最常被討論的卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 136,
+    "name": "公會積分模組｜依公會活動累積積分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 137,
+    "name": "公會獎勵模組｜依公會表現分發獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 138,
+    "name": "公會等級模組｜依活躍度提升公會等級。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 139,
+    "name": "公會公告模組｜允許幹部發布公會消息。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 140,
+    "name": "公會排行模組｜依公會成績進行排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 151,
+    "name": "教育教程模組｜提供進階對戰策略課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 152,
+    "name": "教育考核模組｜測試玩家對規則與策略的理解。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 153,
+    "name": "教育證照模組｜完成課程後發放電子證照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 154,
+    "name": "教育任務模組｜以任務方式進行學習。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 155,
+    "name": "教育回饋模組｜收集玩家學習體驗回饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 156,
+    "name": "教育合作證明模組｜與教育機構合作，提供合作證書。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 157,
+    "name": "教育直播模組｜提供專家直播教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 158,
+    "name": "教育 AI 導師模組｜AI 即時回答學習問題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 159,
+    "name": "教育模擬模組｜模擬實際對戰情境作為練習。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 160,
+    "name": "教育積分模組｜完成課程可獲得教育積分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 161,
+    "name": "AI 對戰模擬模組｜AI 自動模擬雙方戰鬥。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 162,
+    "name": "AI 牌組建議模組｜AI 提供最佳牌組搭配建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 164,
+    "name": "AI 風險評估模組｜AI 分析卡牌投資風險。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 165,
+    "name": "AI 玩家行為模組｜分析玩家對戰與收藏習慣。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 166,
+    "name": "AI 收藏趨勢模組｜分析整體收藏趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 167,
+    "name": "AI 熱門卡牌模組｜自動偵測即將走紅的卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 168,
+    "name": "AI 冷門卡牌模組｜分析被低估的卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 169,
+    "name": "AI 公會分析模組｜分析公會活躍度與勝率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 170,
+    "name": "AI 活動建議模組｜建議官方舉辦的活動類型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 172,
+    "name": "行動快捷操作模組｜支援手機一鍵出牌或收藏。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 174,
+    "name": "行動版社群模組｜支援行動端社群互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 176,
+    "name": "行動版任務模組｜行動端完成每日任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 177,
+    "name": "行動版排行榜模組｜行動端顯示即時排行榜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 179,
+    "name": "行動版對戰模組｜行動端完整對戰功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 180,
+    "name": "行動版回放模組｜行動端支援戰鬥重播。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 191,
+    "name": "資料快照模組｜保存玩家資料狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 192,
+    "name": "資料分析模組｜針對資料進行深度分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 193,
+    "name": "資料統計模組｜計算各類數據統計。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 194,
+    "name": "資料趨勢模組｜顯示長期趨勢圖表。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 195,
+    "name": "資料清理模組｜定期清理過期資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 196,
+    "name": "資料匯出模組｜支援匯出 Excel、PDF 格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 197,
+    "name": "資料匯入模組｜允許外部資料匯入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 198,
+    "name": "資料共享模組｜允許不同帳號共享資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 199,
+    "name": "資料雲端模組｜所有資料自動同步到雲端。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 200,
+    "name": "資料回滾模組｜支援將資料回復至歷史版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 201,
+    "name": "卡牌印刷模組｜支援將數位卡牌轉換為實體印刷版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 202,
+    "name": "卡牌收藏展示模組｜允許玩家建立公開展示的收藏櫃。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 204,
+    "name": "卡牌比較模組｜允許玩家比較兩張卡牌屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 205,
+    "name": "卡牌回收模組｜允許玩家將多餘卡牌回收換取資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 207,
+    "name": "卡牌隱藏屬性模組｜卡牌可解鎖隱藏屬性或技能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 208,
+    "name": "卡牌簽名模組｜提供卡牌創作者或冠軍玩家簽名功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 209,
+    "name": "卡牌進化紀錄模組｜保存卡牌升級或進化的歷史。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 211,
+    "name": "對戰積分模組｜每場對戰可獲得積分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 212,
+    "name": "對戰獎勵模組｜依對戰表現給予獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 213,
+    "name": "對戰重賽模組｜允許玩家提出重賽申請。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 214,
+    "name": "對戰邀請模組｜支援好友或指定對手邀請。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 215,
+    "name": "對戰錄像模組｜完整錄製對戰過程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 216,
+    "name": "對戰策略模組｜允許玩家在戰鬥前設定策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 217,
+    "name": "對戰統計模組｜彙整玩家的戰績與出牌習慣。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 218,
+    "name": "對戰環境模組｜可切換不同地圖或背景環境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 219,
+    "name": "對戰難度模組｜允許選擇不同難度的挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 220,
+    "name": "對戰隱藏卡模組｜對戰中允許使用隱藏卡效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 231,
+    "name": "社群直播模組｜允許官方或玩家進行遊戲直播。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 232,
+    "name": "社群活動紀錄模組｜保存所有社群活動的紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 233,
+    "name": "社群紅包模組｜允許玩家在社群發放紅包。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 234,
+    "name": "社群互贈模組｜玩家可互相贈送卡牌或道具。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 235,
+    "name": "社群貼文模組｜允許玩家發表遊戲內貼文。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 236,
+    "name": "社群任務模組｜建立社群共同完成的任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 238,
+    "name": "社群論壇模組｜內建討論區交流平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 239,
+    "name": "社群排行模組｜依社群活躍度與互動排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 240,
+    "name": "社群影響力模組｜分析玩家在社群中的影響力。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 251,
+    "name": "教育研究模組｜支持教育單位研究遊戲數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 252,
+    "name": "教育排名模組｜依學習進度給予排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 253,
+    "name": "教育社群模組｜教育使用者可組成學習小組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 254,
+    "name": "教育挑戰模組｜教育合作中提供挑戰賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 255,
+    "name": "教育合作活動模組｜與教育單位合作舉辦活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 256,
+    "name": "教育實驗模組｜允許研究人員測試教育成效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 257,
+    "name": "教育證書模組｜完成合作課程發放證書。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 259,
+    "name": "教育榜單模組｜顯示教育合作中最佳學員。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 261,
+    "name": "AI 對戰重播模組｜AI 分析並回顧戰鬥過程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 263,
+    "name": "AI 擬人模組｜AI 以擬人化風格參與對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 264,
+    "name": "AI 行為模擬模組｜模擬不同玩家的行為模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 265,
+    "name": "AI 勝率分析模組｜計算卡牌與牌組的勝率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 266,
+    "name": "AI 角色建議模組｜推薦最適合玩家的角色或卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 267,
+    "name": "AI 對戰輔助模組｜AI 協助提供最佳出牌方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 268,
+    "name": "AI 活動預測模組｜預測最可能受歡迎的活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 269,
+    "name": "AI 玩家評分模組｜為玩家表現打分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 270,
+    "name": "AI 趨勢報告模組｜提供遊戲內趨勢的完整報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 271,
+    "name": "跨平台好友模組｜允許不同平台的玩家互加好友。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 273,
+    "name": "跨平台戰鬥模組｜支援跨平台即時對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 274,
+    "name": "跨平台通知模組｜跨平台同步提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 275,
+    "name": "跨平台排行榜模組｜整合跨平台的排行榜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 276,
+    "name": "跨平台任務模組｜任務可跨平台同步完成。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 277,
+    "name": "跨平台成就模組｜成就可跨平台解鎖。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 278,
+    "name": "跨平台共享模組｜允許共享收藏於不同平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 280,
+    "name": "跨平台測試模組｜測試跨平台的相容性與效能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 291,
+    "name": "資料沙盒模組｜在隔離環境中測試資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 294,
+    "name": "資料異常警示模組｜偵測並提示異常資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 296,
+    "name": "資料共享協議模組｜允許跨平台共享協議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 297,
+    "name": "資料匿名化模組｜對敏感資料進行匿名處理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 300,
+    "name": "資料歸檔模組｜將歷史資料壓縮歸檔保存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 301,
+    "name": "卡牌隨機事件模組｜對戰中隨機觸發特殊效果或環境變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 302,
+    "name": "卡牌增幅模組｜允許玩家臨時強化卡牌屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 303,
+    "name": "卡牌鎖定模組｜允許鎖定特定卡牌避免被奪取或失效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 304,
+    "name": "卡牌冷卻模組｜限制卡牌在一定回合後才能再次使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 306,
+    "name": "卡牌連擊模組｜特定卡牌連續使用可觸發額外效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 308,
+    "name": "卡牌複製模組｜允許某些卡牌複製自身或其他卡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 309,
+    "name": "卡牌召喚模組｜特定卡牌可召喚額外生物或單位。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 310,
+    "name": "卡牌犧牲模組｜犧牲自身換取隊伍加成效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 311,
+    "name": "對戰天氣模組｜加入天氣影響，如雨天、暴風等。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 312,
+    "name": "對戰地形模組｜不同地形提供額外效果或限制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 313,
+    "name": "對戰隱藏規則模組｜隨機設定隱藏規則增加挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 314,
+    "name": "對戰隨機增益模組｜戰鬥中隨機給予玩家 Buff。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 315,
+    "name": "對戰隨機減益模組｜戰鬥中隨機產生 Debuff。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 316,
+    "name": "對戰連續挑戰模組｜允許玩家進行連勝挑戰模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 317,
+    "name": "對戰復活模組｜特定條件下允許復活卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 318,
+    "name": "對戰融合模組｜對戰時允許兩張卡牌合體使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 319,
+    "name": "對戰限制模組｜特定賽事限制卡牌類型或數量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 320,
+    "name": "對戰專屬模式模組｜提供特殊規則的對戰模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 331,
+    "name": "社群粉絲模組｜允許玩家追蹤喜愛的高手或公會。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 332,
+    "name": "社群影像模組｜允許上傳戰鬥短片或截圖分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 333,
+    "name": "社群徽章模組｜依社群貢獻發放徽章。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 334,
+    "name": "社群投資模組｜玩家可投資支持社群活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 336,
+    "name": "社群問答模組｜提供互動式問答功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 337,
+    "name": "社群投訴模組｜允許玩家投訴不良行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 338,
+    "name": "社群仲裁模組｜提供糾紛調解與仲裁功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 339,
+    "name": "社群志願者模組｜允許玩家參與社群維護。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 340,
+    "name": "社群新聞公告模組｜集中發布官方與玩家新聞。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 352,
+    "name": "教育合作排行模組｜顯示合作教育機構排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 353,
+    "name": "教育證照升級模組｜允許升級或續期教育證照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 354,
+    "name": "教育數位教材模組｜提供數位學習教材下載。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 355,
+    "name": "教育測驗模組｜進行定期知識測驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 356,
+    "name": "教育專家模組｜邀請專家參與遊戲教育。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 357,
+    "name": "教育問答模組｜提供教育問答社群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 358,
+    "name": "教育競賽模組｜舉辦以教育為目標的挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 359,
+    "name": "教育認證模組｜官方認證完成的課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 360,
+    "name": "教育評估模組｜評估玩家學習進度與成果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 361,
+    "name": "AI 即時分析模組｜AI 對戰中即時提供數據分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 362,
+    "name": "AI 玩家模擬模組｜AI 模擬不同風格的玩家行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 363,
+    "name": "AI 對戰教練模組｜AI 提供對戰後教練式反饋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 364,
+    "name": "AI 收藏建議模組｜AI 推薦收藏缺少的卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 366,
+    "name": "AI 公會建議模組｜AI 推薦最佳公會或聯盟。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 368,
+    "name": "AI 成就建議模組｜AI 建議玩家解鎖的成就。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 369,
+    "name": "AI 個人化模組｜根據玩家習慣給出個性化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 370,
+    "name": "AI 遊戲進化模組｜AI 建議遊戲規則的優化方向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 372,
+    "name": "跨平台影像模組｜支援跨平台影片分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 373,
+    "name": "跨平台存檔模組｜允許跨平台共享存檔資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 375,
+    "name": "跨平台任務共享模組｜跨平台共享任務進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 376,
+    "name": "跨平台卡牌模組｜允許跨平台使用同一張卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 377,
+    "name": "跨平台活動模組｜舉辦跨平台同步活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 378,
+    "name": "跨平台賽事模組｜跨平台舉辦大型比賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 379,
+    "name": "跨平台 AI 模組｜允許跨平台調用 AI 模組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 380,
+    "name": "跨平台資料模組｜跨平台即時同步所有資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 391,
+    "name": "資料 AI 模組｜AI 自動整理與清理遊戲數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 392,
+    "name": "資料預測模組｜利用 AI 預測未來趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 393,
+    "name": "資料分群模組｜依特徵將玩家或數據進行分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 394,
+    "name": "資料推薦模組｜推薦最相關的遊戲數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 397,
+    "name": "資料效率模組｜提升資料存取與運算效率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 398,
+    "name": "資料 AI 清洗模組｜自動清洗無效或錯誤數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 400,
+    "name": "資料追蹤模組｜追蹤資料全生命週期的流向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 401,
+    "name": "卡牌組合技模組｜多張卡牌同時使用可觸發額外效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 402,
+    "name": "卡牌羈絆模組｜特定系列卡牌搭配可提升屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 406,
+    "name": "卡牌典藏版模組｜推出限量典藏版卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 409,
+    "name": "卡牌歷史典藏模組｜保存卡牌的歷史價值與重要事件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 415,
+    "name": "對戰協作模組｜多人合作對戰中支援戰術交流。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 416,
+    "name": "對戰觀眾投票模組｜允許觀眾對比賽結果進行投票。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 418,
+    "name": "對戰懲罰模組｜對惡意退出或作弊玩家進行懲罰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 419,
+    "name": "對戰積分加成模組｜特殊賽制中提供積分加成。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 420,
+    "name": "對戰體驗優化模組｜根據玩家回饋持續優化對戰體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 432,
+    "name": "社群直播賽事模組｜允許社群直播大型比賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 433,
+    "name": "社群成就牆模組｜展示社群的重要成就。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 434,
+    "name": "社群粉絲排行模組｜依照粉絲數量顯示排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 435,
+    "name": "社群貢獻榜模組｜顯示社群成員的貢獻值。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 436,
+    "name": "社群公益活動模組｜舉辦公益或慈善相關活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 438,
+    "name": "社群聯盟模組｜允許多個社群建立聯盟。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 439,
+    "name": "社群挑戰模組｜舉辦跨社群的挑戰賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 451,
+    "name": "教育合作平台模組｜提供教育機構專屬平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 452,
+    "name": "教育成果展示模組｜展示教育合作成果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 455,
+    "name": "教育模擬賽模組｜模擬教育比賽情境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 456,
+    "name": "教育數據同步模組｜同步教育用戶的數據紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 457,
+    "name": "教育跨區合作模組｜允許跨地區教育機構合作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 458,
+    "name": "教育工作坊模組｜舉辦線上或實體的學習工作坊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 460,
+    "name": "教育專案模組｜允許教育單位建立專案課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 463,
+    "name": "AI 收藏排名模組｜AI 預測卡牌收藏價值。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 465,
+    "name": "AI 玩家行為監測模組｜AI 偵測可疑的玩家行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 466,
+    "name": "AI 聊天助理模組｜AI 提供遊戲內即時問答服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 467,
+    "name": "AI 公會推薦模組｜AI 分析後推薦最佳公會。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 468,
+    "name": "AI 對戰模擬器模組｜AI 完整模擬玩家對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 470,
+    "name": "AI 遊戲優化模組｜AI 提供遊戲體驗的優化建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 471,
+    "name": "跨平台雲端存檔模組｜允許雲端同步遊戲進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 473,
+    "name": "跨平台好友清單模組｜同步跨平台好友清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 474,
+    "name": "跨平台戰績模組｜整合跨平台戰績。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 476,
+    "name": "跨平台公會模組｜允許跨平台的公會合併。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 477,
+    "name": "跨平台活動數據模組｜同步跨平台活動紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 478,
+    "name": "跨平台比賽模組｜允許舉辦跨平台大型比賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 479,
+    "name": "跨平台回放模組｜支援跨平台觀看回放。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 480,
+    "name": "跨平台專屬活動模組｜舉辦特定平台限定的活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 492,
+    "name": "資料統合模組｜統一不同模組產生的數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 493,
+    "name": "資料預測建模模組｜建立數據模型進行預測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 494,
+    "name": "資料 AI 輔助模組｜AI 協助數據分析與處理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 497,
+    "name": "資料學習模組｜利用歷史數據優化遊戲。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 502,
+    "name": "卡牌能量系統模組｜為卡牌加入能量消耗與回復機制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 503,
+    "name": "卡牌羈絆進化模組｜特定卡牌組合可進化為更強版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 505,
+    "name": "卡牌排行榜模組｜依稀有度、使用率或收藏量進行排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 506,
+    "name": "卡牌專屬事件模組｜特定卡牌觸發專屬事件或任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 507,
+    "name": "卡牌重生模組｜允許卡牌在淘汰後重新獲得使用機會。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 508,
+    "name": "卡牌解鎖模組｜需完成任務或挑戰才能解鎖特定卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 509,
+    "name": "卡牌簽到模組｜每日簽到隨機獲得一張卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 511,
+    "name": "對戰限時模式模組｜限制時間內完成對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 512,
+    "name": "對戰資源模組｜玩家需管理資源進行對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 513,
+    "name": "對戰 Boss 模組｜允許挑戰特殊 Boss 卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 514,
+    "name": "對戰劇情模組｜加入劇情推進的對戰模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 515,
+    "name": "對戰合作挑戰模組｜多人合作挑戰高難度關卡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 516,
+    "name": "對戰戰績回顧模組｜完整保存玩家歷史戰績。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 517,
+    "name": "對戰榮譽牆模組｜展示歷史上最佳對戰記錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 518,
+    "name": "對戰排名賽季模組｜賽季制排名並定期重置。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 520,
+    "name": "對戰實況模組｜提供即時戰鬥實況串流功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 532,
+    "name": "社群貢獻度模組｜依玩家互動行為計算貢獻度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 533,
+    "name": "社群打卡模組｜允許玩家每日在社群打卡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 535,
+    "name": "社群活動直播模組｜支援舉辦大型直播活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 538,
+    "name": "社群競技模組｜舉辦社群內小型競賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 539,
+    "name": "社群積分模組｜社群內玩家可累積積分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 540,
+    "name": "社群商店模組｜提供社群專屬商品。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 552,
+    "name": "教育聯盟模組｜教育單位可組成合作聯盟。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 555,
+    "name": "教育跨平台模組｜允許教育課程跨平台進行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 556,
+    "name": "教育研討會模組｜舉辦線上研討會與論壇。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 557,
+    "name": "教育成就模組｜學員完成任務後解鎖成就。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 558,
+    "name": "教育資源庫模組｜集中管理教育資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 559,
+    "name": "教育數據報告模組｜提供學習效果的數據化報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 560,
+    "name": "教育 AI 評分模組｜AI 評估學員的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 561,
+    "name": "AI 智能客服模組｜AI 提供即時客服服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 562,
+    "name": "AI 戰術教練模組｜AI 提供賽後改進建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 563,
+    "name": "AI 卡牌進化模組｜AI 提出最佳進化方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 564,
+    "name": "AI 遊戲平衡模組｜AI 自動檢測並調整平衡性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 565,
+    "name": "AI 玩家習慣模組｜分析玩家的遊戲習慣。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 566,
+    "name": "AI 公會策略模組｜AI 提出最佳公會發展建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 568,
+    "name": "AI 活動模擬模組｜AI 預測活動效果與參與率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 569,
+    "name": "AI 玩家檔案模組｜AI 為每位玩家建立完整檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 570,
+    "name": "AI 全局分析模組｜AI 提供跨模組數據綜合分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 571,
+    "name": "跨平台活動回顧模組｜整合跨平台活動紀錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 572,
+    "name": "跨平台積分模組｜允許跨平台積分共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 573,
+    "name": "跨平台虛擬資產模組｜允許跨平台使用資產。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 575,
+    "name": "跨平台排行榜同步模組｜整合多平台排行榜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 576,
+    "name": "跨平台好友邀請模組｜允許跨平台邀請好友。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 578,
+    "name": "跨平台協作模組｜允許跨平台合作完成任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 579,
+    "name": "跨平台多語系模組｜跨平台支援多語言顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 580,
+    "name": "跨平台合規模組｜確保跨平台操作符合法規。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 592,
+    "name": "資料儲存優化模組｜優化資料存取與保存方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 593,
+    "name": "資料雲端協作模組｜允許多用戶協作共享資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 595,
+    "name": "資料去中心化模組｜允許去中心化存取與共享資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 596,
+    "name": "資料防竄改模組｜確保資料不可被竄改。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 597,
+    "name": "資料學習引擎模組｜透過 AI 持續學習優化數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 598,
+    "name": "資料跨系統模組｜允許跨不同系統整合數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 599,
+    "name": "資料視覺化面板模組｜提供即時的數據可視化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 601,
+    "name": "卡牌遺產模組｜允許玩家將稀有卡牌轉移或繼承給指定帳號。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 604,
+    "name": "卡牌收藏展示牆模組｜建立可公開瀏覽的收藏展示牆。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 605,
+    "name": "卡牌虛擬實境模組｜支援 VR 環境中展示或使用卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 608,
+    "name": "卡牌平衡報告模組｜自動產出遊戲內卡牌平衡報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 609,
+    "name": "卡牌進化分支模組｜允許卡牌進化成多條不同的進階形態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 611,
+    "name": "對戰隱藏身份模組｜玩家身份在比賽中保持隱藏。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 612,
+    "name": "對戰限卡模式模組｜僅允許特定類型卡牌參與。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 613,
+    "name": "對戰快速回合模組｜縮短每回合出牌時間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 614,
+    "name": "對戰即時回合統計模組｜顯示每回合的數據統計。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 615,
+    "name": "對戰防掛模組｜檢測並處理惡意掛機玩家。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 616,
+    "name": "對戰排名獎池模組｜排名前列玩家可分享獎池。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 618,
+    "name": "對戰隨機規則模組｜比賽中隨機啟動特殊規則。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 619,
+    "name": "對戰投降模組｜允許玩家在不利情況下投降。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 620,
+    "name": "對戰公平匹配模組｜根據玩家實力匹配對手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 632,
+    "name": "社群分享牆模組｜集中展示玩家分享的內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 633,
+    "name": "社群跨國模組｜允許跨國玩家建立聯盟。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 634,
+    "name": "社群合作任務模組｜社群成員可共同完成挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 635,
+    "name": "社群經濟模組｜允許社群內發行代幣與資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 636,
+    "name": "社群榮耀系統模組｜頒發社群榮耀獎項。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 638,
+    "name": "社群粉絲任務模組｜允許粉絲參與偶像玩家任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 640,
+    "name": "社群自訂賽制模組｜社群管理員可自訂比賽規則。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 651,
+    "name": "教育數據可視化模組｜將教育成果以圖表方式呈現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 652,
+    "name": "教育專案展示模組｜展示教育合作專案進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 653,
+    "name": "教育即時互動模組｜允許學生與導師即時互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 654,
+    "name": "教育雲端課程模組｜提供雲端形式的教育課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 656,
+    "name": "教育專屬積分模組｜教育合作產生專屬積分體系。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 657,
+    "name": "教育國際合作模組｜允許不同國家的教育單位合作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 658,
+    "name": "教育測驗 AI 模組｜AI 自動批改並給予建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 659,
+    "name": "教育模擬器模組｜模擬真實比賽作為教學。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 661,
+    "name": "AI 即時對戰模組｜AI 在對戰中即時控制玩家角色。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 662,
+    "name": "AI 學習型對手模組｜AI 可根據玩家習慣不斷進化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 663,
+    "name": "AI 裁判模組｜AI 自動判斷比賽規則與勝負。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 665,
+    "name": "AI 卡牌稀有度模組｜AI 分析卡牌稀有度分布。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 666,
+    "name": "AI 收藏品推薦模組｜AI 推薦符合玩家偏好的收藏。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 667,
+    "name": "AI 玩家匹配模組｜AI 根據行為數據匹配對手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 669,
+    "name": "AI 玩家回饋模組｜AI 分析玩家回饋並提出改進。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 671,
+    "name": "跨平台聯盟模組｜允許不同平台組建跨平台聯盟。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 672,
+    "name": "跨平台收藏模組｜收藏品可跨平台顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 674,
+    "name": "跨平台比賽直播模組｜跨平台共同直播比賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 675,
+    "name": "跨平台獎勵模組｜跨平台活動共用獎勵機制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 676,
+    "name": "跨平台大廳模組｜跨平台玩家在同一大廳互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 678,
+    "name": "跨平台公告模組｜跨平台統一公告系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 680,
+    "name": "跨平台數據分析模組｜提供跨平台數據統計與分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 692,
+    "name": "資料鏈下存儲模組｜將部分資料存於鏈下降低成本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 693,
+    "name": "資料 AI 清理模組｜AI 自動清理重複或錯誤數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 697,
+    "name": "資料分布式模組｜以分布式網路進行資料存放。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 698,
+    "name": "資料智慧分析模組｜AI 對所有遊戲數據進行智慧化分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 700,
+    "name": "資料透明化模組｜允許玩家檢視遊戲資料透明報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 703,
+    "name": "卡牌虛擬簽名模組｜允許名人或冠軍玩家簽名並發行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 704,
+    "name": "卡牌歷史博物館模組｜展示最具歷史價值的卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 706,
+    "name": "卡牌限時掉落模組｜在活動期間隨機掉落稀有卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 707,
+    "name": "卡牌回收積分模組｜回收卡牌可獲得積分換取獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 708,
+    "name": "卡牌互動任務模組｜特定卡牌觸發連鎖任務事件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 709,
+    "name": "卡牌真實映射模組｜以 NFT 對應真實實體卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 710,
+    "name": "卡牌黑名單模組｜禁止特定卡牌在賽事中使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 711,
+    "name": "對戰分組賽模組｜支援小組循環賽制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 712,
+    "name": "對戰淘汰賽模組｜支援單淘汰或雙淘汰制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 713,
+    "name": "對戰隨機卡牌模組｜出戰卡牌隨機分配，增添挑戰性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 714,
+    "name": "對戰隨機事件模組｜比賽中觸發隨機事件改變局勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 715,
+    "name": "對戰技能冷卻模組｜限制技能使用頻率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 716,
+    "name": "對戰積分成就模組｜依積分解鎖特殊獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 717,
+    "name": "對戰觀眾互動模組｜觀眾可對比賽結果進行互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 718,
+    "name": "對戰聯賽管理模組｜完整管理多回合的聯賽賽制。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 720,
+    "name": "對戰公平抽籤模組｜比賽卡組由系統隨機抽選。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 731,
+    "name": "社群動態牆模組｜即時顯示社群更新動態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 732,
+    "name": "社群投票活動模組｜玩家投票決定活動內容。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 733,
+    "name": "社群任務賽模組｜由社群組織的任務型競賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 734,
+    "name": "社群跨平台聯盟模組｜允許多平台社群合作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 735,
+    "name": "社群共建模組｜允許社群共同建設虛擬場景或資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 736,
+    "name": "社群粉絲俱樂部模組｜明星玩家擁有專屬俱樂部。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 737,
+    "name": "社群影響力排行榜模組｜顯示玩家或公會的社群影響力。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 739,
+    "name": "社群支持模組｜允許玩家支持創作者或社群領袖。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 740,
+    "name": "社群募資模組｜社群可為比賽或項目進行募資。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 751,
+    "name": "教育雲課堂模組｜支援即時互動的教育課堂。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 752,
+    "name": "教育智能助理模組｜AI 協助教師與學生互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 753,
+    "name": "教育知識卡模組｜以卡牌形式呈現教育知識。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 755,
+    "name": "教育合作賽事模組｜教育單位共同舉辦比賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 756,
+    "name": "教育專案庫模組｜集中管理教育合作的專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 757,
+    "name": "教育導師模組｜提供專屬導師與學員互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 758,
+    "name": "教育數位憑證模組｜完成教育課程發放數位憑證。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 761,
+    "name": "AI 對戰挑戰模組｜AI 發起挑戰任務給玩家。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 762,
+    "name": "AI 收藏估值模組｜AI 自動估值收藏卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 764,
+    "name": "AI 公平比賽模組｜AI 審核比賽公平性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 765,
+    "name": "AI 玩家忠誠度模組｜分析玩家長期投入程度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 766,
+    "name": "AI 收藏比較模組｜AI 協助比較不同收藏價值。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 767,
+    "name": "AI 數據分群模組｜AI 自動分群玩家行為模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 769,
+    "name": "AI 戰術復盤模組｜AI 回顧戰鬥並提供改進策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 770,
+    "name": "AI 知識問答模組｜AI 即時回答遊戲規則問題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 772,
+    "name": "跨平台共創模組｜玩家跨平台共同創建卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 773,
+    "name": "跨平台成就模組｜跨平台共享成就進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 774,
+    "name": "跨平台角色模組｜允許角色跨平台同步。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 775,
+    "name": "跨平台實況模組｜跨平台實況串流觀看。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 776,
+    "name": "跨平台活動獎池模組｜跨平台共用活動獎池。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 777,
+    "name": "跨平台回饋模組｜跨平台收集玩家意見。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 778,
+    "name": "跨平台合規稽核模組｜保證跨平台運作符合法規。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 779,
+    "name": "跨平台 NFT 模組｜允許跨平台使用 NFT 卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 791,
+    "name": "資料 AI 模型更新模組｜AI 定期更新數據分析模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 793,
+    "name": "資料匿名報告模組｜輸出不含個資的數據報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 794,
+    "name": "資料跨境模組｜允許跨國傳輸並符合法規。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 795,
+    "name": "資料影像化模組｜以影像化方式呈現遊戲數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 796,
+    "name": "資料互動面板模組｜玩家可自訂數據顯示面板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 797,
+    "name": "資料壓縮模組｜減少數據存儲空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 799,
+    "name": "資料遊戲化模組｜將數據視覺化為遊戲元素。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 802,
+    "name": "卡牌限時合成模組｜限定時間內可進行特殊合成。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 804,
+    "name": "卡牌全息展示模組｜卡牌以全息投影方式展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 806,
+    "name": "卡牌碎片升級模組｜透過收集碎片可升級卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 807,
+    "name": "卡牌隱藏技能模組｜特定條件下解鎖隱藏技能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 808,
+    "name": "卡牌時間限制模組｜部分卡牌僅能在特定時間使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 809,
+    "name": "卡牌隨機進化模組｜進化後隨機產生不同屬性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 810,
+    "name": "卡牌任務鏈模組｜卡牌可觸發多段任務鏈挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 811,
+    "name": "對戰隱藏模式模組｜允許隱藏卡組進行對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 812,
+    "name": "對戰隨機場景模組｜戰場場景隨機切換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 813,
+    "name": "對戰雙重規則模組｜允許同場使用兩種規則。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 814,
+    "name": "對戰觀眾加持模組｜觀眾互動可影響比賽結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 815,
+    "name": "對戰時間旅行模組｜允許重置或回溯回合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 816,
+    "name": "對戰克制模組｜增加卡牌屬性間的克制效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 817,
+    "name": "對戰進階匹配模組｜根據更多數據匹配實力接近的玩家。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 818,
+    "name": "對戰多人同場模組｜支援多人同時參與對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 820,
+    "name": "對戰全自動模組｜比賽全程由 AI 自動執行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 831,
+    "name": "社群挑戰賽模組｜社群內舉辦定期挑戰賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 832,
+    "name": "社群支援模組｜玩家可為社群提供資源支援。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 834,
+    "name": "社群玩家之星模組｜票選每週或每月最佳玩家。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 835,
+    "name": "社群熱榜模組｜即時顯示社群熱門討論與活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 836,
+    "name": "社群幹部模組｜允許分配社群幹部職責。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 837,
+    "name": "社群活動預告模組｜顯示即將舉辦的活動行程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 838,
+    "name": "社群貢獻排名模組｜依玩家貢獻程度顯示排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 839,
+    "name": "社群協作任務模組｜多人合作完成社群任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 840,
+    "name": "社群跨遊戲模組｜允許不同遊戲社群進行互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 852,
+    "name": "教育發表會模組｜舉辦教育專屬的成果發表會。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 853,
+    "name": "教育虛擬角色模組｜以虛擬角色帶領學習。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 854,
+    "name": "教育遊戲測試模組｜用遊戲化測試檢測學習成效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 855,
+    "name": "教育雲端資料模組｜教育相關資料統一上雲管理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 856,
+    "name": "教育合作挑戰模組｜學校間可進行挑戰賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 857,
+    "name": "教育作品展示牆模組｜展示學生作品與成果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 858,
+    "name": "教育個人檔案模組｜建立教育用戶學習歷程檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 859,
+    "name": "教育即時反饋模組｜導師可即時給予學生建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 860,
+    "name": "教育跨界模組｜教育結合其他產業進行應用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 861,
+    "name": "AI 對戰指導模組｜AI 在對戰中即時給出建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 862,
+    "name": "AI 遊戲數據分析模組｜AI 分析遊戲內數據並提出優化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 863,
+    "name": "AI 自動收藏模組｜AI 根據偏好自動收藏卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 864,
+    "name": "AI 欺詐偵測模組｜AI 偵測遊戲內可疑行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 866,
+    "name": "AI 任務規劃模組｜AI 自動分配玩家任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 867,
+    "name": "AI 玩家心理分析模組｜AI 分析玩家的行為心理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 870,
+    "name": "AI 公會管理模組｜AI 協助公會運營與人事安排。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 872,
+    "name": "跨平台商店模組｜不同平台共用商店資源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 874,
+    "name": "跨平台大賽模組｜跨平台舉辦大型比賽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 876,
+    "name": "跨平台創作者模組｜跨平台玩家可共同創作卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 877,
+    "name": "跨平台協作挑戰模組｜多平台玩家合作完成任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 878,
+    "name": "跨平台玩家資料模組｜跨平台同步玩家檔案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 879,
+    "name": "跨平台好友推薦模組｜跨平台推薦新朋友。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 880,
+    "name": "跨平台代幣模組｜允許代幣跨平台使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 891,
+    "name": "資料 AI 標註模組｜AI 自動為資料進行標註分類。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 894,
+    "name": "資料雲端分析模組｜雲端處理大量資料分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 896,
+    "name": "資料異常修復模組｜自動修復異常或錯誤的數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 897,
+    "name": "資料數位孿生模組｜建立遊戲數據的數位孿生模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 898,
+    "name": "資料共享經濟模組｜允許以資料作為資源進行交換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 899,
+    "name": "資料透明化審核模組｜玩家可檢視平台數據審核結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 901,
+    "name": "卡牌能量槽模組｜每張卡牌需累積能量才能釋放技能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 902,
+    "name": "卡牌隱藏屬性模組｜部分卡牌擁有隱藏屬性待解鎖。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 903,
+    "name": "卡牌季節限定模組｜卡牌僅於特定季節或活動中獲取。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 906,
+    "name": "卡牌時效模組｜卡牌在一定時間後自動失效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 907,
+    "name": "卡牌異能模組｜卡牌具備特殊異能效果，隨機觸發。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 908,
+    "name": "卡牌試煉模組｜玩家必須通過挑戰才能解鎖卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 909,
+    "name": "卡牌圖鑑模組｜建立完整的卡牌收錄與查詢系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 910,
+    "name": "卡牌收藏升級模組｜收藏達成條件時自動升級展示效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 911,
+    "name": "對戰雙人模式模組｜支援雙人組隊對抗另一組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 912,
+    "name": "對戰多人自由模式模組｜允許多人自由混戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 913,
+    "name": "對戰職業分級模組｜比賽依職業或等級分組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 914,
+    "name": "對戰極速模式模組｜對戰時間極度縮短。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 915,
+    "name": "對戰隨機限制模組｜比賽中隨機禁用部分卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 916,
+    "name": "對戰挑戰塔模組｜玩家需連續通過多層挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 917,
+    "name": "對戰輪替規則模組｜每回合規則隨機變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 920,
+    "name": "對戰融合決鬥模組｜允許兩位玩家共享卡組進行決鬥。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 932,
+    "name": "社群卡牌展覽模組｜展示社群收藏的卡牌。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 933,
+    "name": "社群點對點挑戰模組｜社群玩家可直接互相挑戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 935,
+    "name": "社群跨界合作模組｜允許社群與品牌或其他遊戲合作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 937,
+    "name": "社群粉絲福利模組｜粉絲可獲得專屬福利。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 938,
+    "name": "社群徽章認證模組｜官方授予特定玩家社群徽章。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 939,
+    "name": "社群知識分享模組｜允許玩家發表攻略或心得。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 940,
+    "name": "社群活動代幣模組｜活動專屬代幣僅限社群流通。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 951,
+    "name": "教育數據倉庫模組｜集中儲存教育相關數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 953,
+    "name": "教育導師協作模組｜允許導師共同指導學生。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 955,
+    "name": "教育知識競賽模組｜以遊戲化競賽檢驗知識掌握度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 956,
+    "name": "教育作品評審模組｜允許導師與學生互相評審。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 957,
+    "name": "教育跨平台分享模組｜教育內容可跨平台分享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 959,
+    "name": "教育分級模組｜不同年齡層享有不同學習模式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 961,
+    "name": "AI 智能對戰裁判模組｜AI 擔任比賽裁判。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 962,
+    "name": "AI 玩家輔助模組｜AI 在比賽中提供戰術建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 964,
+    "name": "AI 收藏警報模組｜AI 提醒卡牌收藏價值波動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 965,
+    "name": "AI 活動創建模組｜AI 自動創建遊戲活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 966,
+    "name": "AI 公會管理助手模組｜AI 協助公會處理事務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 967,
+    "name": "AI 玩家情緒分析模組｜AI 偵測玩家情緒狀態。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 970,
+    "name": "AI 個人化推薦模組｜AI 提供個性化收藏與任務建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 971,
+    "name": "跨平台對戰模組｜允許不同平台玩家進行對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 972,
+    "name": "跨平台收藏品展示模組｜允許收藏跨平台展示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 973,
+    "name": "跨平台積分共享模組｜跨平台共享積分與獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 974,
+    "name": "跨平台同步模組｜不同平台間自動同步進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 976,
+    "name": "跨平台 VR 模組｜支援跨平台 VR 對戰。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 978,
+    "name": "跨平台代幣共享模組｜代幣資源跨平台共享。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 979,
+    "name": "跨平台活動合辦模組｜多平台共同舉辦活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 980,
+    "name": "跨平台官方公告模組｜統一平台間的公告訊息。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 991,
+    "name": "資料 AI 聚合模組｜AI 整合多來源資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 992,
+    "name": "資料邊緣計算模組｜利用邊緣計算提升效能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 993,
+    "name": "資料可追溯模組｜完整追蹤資料來源與流向。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 994,
+    "name": "資料模擬模組｜模擬不同資料情境結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 996,
+    "name": "資料互操作模組｜不同模組間的資料可互相操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 997,
+    "name": "資料 AI 預測模組｜AI 基於歷史數據做未來預測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 999,
+    "name": "資料動態視覺化模組｜提供即時動態數據視覺化。",
+    "desc": "",
+    "category": "utility"
+  }
+]

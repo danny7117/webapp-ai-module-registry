@@ -1,0 +1,1448 @@
+[
+  {
+    "id": 21,
+    "name": "卡牌交易市場模組｜玩家可自由買賣卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 22,
+    "name": "拍賣模組｜允許玩家對稀有卡進行限時拍賣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 23,
+    "name": "租借模組｜提供卡牌租借功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 26,
+    "name": "二級市場模組｜建立玩家間自由交易的二級市場。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 27,
+    "name": "交易紀錄模組｜紀錄所有買賣與拍賣交易紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 29,
+    "name": "交易稅模組｜每筆交易可抽取固定費用作平台維護。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 30,
+    "name": "市場行情模組｜顯示熱門卡牌的價格趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 41,
+    "name": "會員等級模組｜不同會員等級解鎖不同功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 46,
+    "name": "專屬會員卡包模組｜高級會員可獲得專屬卡包。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 47,
+    "name": "會員折扣模組｜高級會員享有商城折扣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 48,
+    "name": "會員專屬活動模組｜提供會員專屬賽事。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 49,
+    "name": "會員排行榜模組｜顯示最強會員的排名。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 50,
+    "name": "會員成長模組｜會員等級隨遊戲時間提升。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 68,
+    "name": "AI 交易監測模組｜AI 偵測市場異常價格。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 69,
+    "name": "AI 詐騙偵測模組｜AI 偵測可疑卡牌交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 82,
+    "name": "安全交易模組｜提供交易驗證與保護。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 87,
+    "name": "白名單模組｜允許可信玩家與交易方。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 88,
+    "name": "反洗錢模組｜檢測異常大額或可疑交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 110,
+    "name": "卡牌歷史模組｜追蹤每張卡牌的所有者與交易紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 121,
+    "name": "交易擔保模組｜提供官方擔保，保障交易安全。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 122,
+    "name": "交易匹配模組｜自動撮合買賣雙方。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 123,
+    "name": "交易談判模組｜允許玩家議價與交換條件。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 124,
+    "name": "交易記錄查詢模組｜提供完整的交易紀錄檢索功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 125,
+    "name": "交易排行榜模組｜顯示交易最活躍的玩家。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 126,
+    "name": "交易積分模組｜依交易活躍度給予積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 127,
+    "name": "交易警示模組｜異常價格時發送提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 128,
+    "name": "市場趨勢分析模組｜顯示卡牌市場供需與價格走勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 129,
+    "name": "市場熱門模組｜顯示最熱門交易卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 130,
+    "name": "市場冷門模組｜顯示被低估或少人交易的卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 141,
+    "name": "會員特權模組｜高級會員解鎖額外功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 142,
+    "name": "會員回饋模組｜會員專屬回饋機制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 143,
+    "name": "會員限時禮包模組｜發放會員專屬限時禮包。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 144,
+    "name": "會員邀請模組｜邀請好友加入會員可得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 145,
+    "name": "會員客服模組｜提供專屬客服服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 146,
+    "name": "會員積分模組｜會員累積消費可得積分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 147,
+    "name": "會員福利模組｜提供生日禮、節日禮包等福利。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 148,
+    "name": "會員專屬稱號模組｜顯示獨特會員頭銜。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 149,
+    "name": "會員專屬排行榜模組｜會員排名專屬榜單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 150,
+    "name": "會員尊享活動模組｜會員可參加專屬賽事與活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 163,
+    "name": "AI 市場預測模組｜AI 預測卡牌價格走勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 171,
+    "name": "行動推播模組｜手機推播通知最新活動或交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 173,
+    "name": "行動版拍賣模組｜支援行動端參與拍賣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 175,
+    "name": "行動版商城模組｜提供行動端商城購買卡包。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 181,
+    "name": "安全驗證模組｜交易或登入需進行多重驗證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 184,
+    "name": "安全稽核模組｜定期稽核遊戲數據與交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 221,
+    "name": "交易合約模組｜所有交易綁定智能合約保護。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 222,
+    "name": "交易驗證模組｜交易需多方驗證才能完成。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 223,
+    "name": "交易快照模組｜交易完成即保存快照紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 224,
+    "name": "交易保險模組｜提供交易風險保險選項。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 225,
+    "name": "交易評價模組｜玩家可互相評價交易對象。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 226,
+    "name": "交易信譽模組｜依評價生成信譽分數。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 227,
+    "name": "交易分潤模組｜允許交易收益在多方間分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 228,
+    "name": "交易轉贈模組｜允許將卡牌無償轉送好友。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 229,
+    "name": "交易冷卻模組｜限制短時間內重複交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 230,
+    "name": "交易模擬模組｜允許模擬交易流程以練習。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 241,
+    "name": "會員邀請獎勵模組｜邀請好友成為會員可得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 242,
+    "name": "會員分潤模組｜允許會員推薦抽成。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 243,
+    "name": "會員專屬徽章模組｜高級會員可獲得專屬徽章。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 244,
+    "name": "會員專屬稱號模組｜高級會員可獲得獨特稱號。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 245,
+    "name": "會員限時抽卡模組｜會員可抽取限時專屬卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 246,
+    "name": "會員積分商城模組｜會員積分可兌換特殊物品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 247,
+    "name": "會員尊享客服模組｜高級會員享有專屬客服。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 248,
+    "name": "會員福利中心模組｜集中展示會員福利。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 249,
+    "name": "會員數據模組｜會員可檢視專屬數據報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 250,
+    "name": "會員回饋調查模組｜收集會員的意見與建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 272,
+    "name": "跨平台交易模組｜允許不同平台的玩家進行交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 281,
+    "name": "安全驗證碼模組｜登入或交易需輸入驗證碼。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 285,
+    "name": "安全交易保險模組｜交易附帶保險保障。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 289,
+    "name": "安全雙重簽署模組｜重要交易需雙重簽署。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 321,
+    "name": "交易即時溝通模組｜玩家在交易時可即時聊天。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 322,
+    "name": "交易動態顯示模組｜即時顯示最新的交易清單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 323,
+    "name": "交易價格提醒模組｜當關注卡牌價格波動時推送提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 324,
+    "name": "交易收藏清單模組｜玩家可設定追蹤心儀卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 325,
+    "name": "交易批量模組｜允許批量出售或購買卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 326,
+    "name": "交易擴展包模組｜允許一次性購買或出售整組卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 327,
+    "name": "交易安全審核模組｜對大額交易進行額外驗證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 328,
+    "name": "交易白名單模組｜僅允許特定名單內交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 329,
+    "name": "交易隱私模組｜允許玩家隱藏交易紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 330,
+    "name": "交易即時支付模組｜整合第三方支付工具完成交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 335,
+    "name": "社群直播打賞模組｜觀戰時允許打賞選手。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 341,
+    "name": "會員專屬客服模組｜提供即時專屬會員客服。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 342,
+    "name": "會員續費提醒模組｜在會員到期前推送提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 343,
+    "name": "會員成長報告模組｜展示會員的成長曲線。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 344,
+    "name": "會員福利排行模組｜統計會員最常使用的福利。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 345,
+    "name": "會員專屬任務模組｜設計會員限定任務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 346,
+    "name": "會員特別活動模組｜舉辦會員專屬競賽或挑戰。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 347,
+    "name": "會員社群模組｜會員可加入專屬社群群組。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 348,
+    "name": "會員卡牌模組｜發放會員專屬特殊卡。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 349,
+    "name": "會員專屬 AR 模組｜會員可體驗專屬 AR 效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 350,
+    "name": "會員 VIP 模組｜提供更高級的會員分層服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 365,
+    "name": "AI 市場監控模組｜AI 即時偵測市場異常波動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 374,
+    "name": "跨平台商城模組｜允許跨平台共享商城資源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 381,
+    "name": "安全風險等級模組｜依風險程度劃分玩家與交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 403,
+    "name": "卡牌代幣化模組｜將卡牌轉換為代幣資產，支援交易所流通。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 404,
+    "name": "卡牌租賃市場模組｜建立專屬的卡牌租賃交易平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 421,
+    "name": "交易法幣支付模組｜允許以法幣直接購買卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 422,
+    "name": "交易加密支付模組｜支援加密貨幣支付方式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 423,
+    "name": "交易信用評分模組｜依交易誠信給予信用分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 424,
+    "name": "交易追蹤模組｜即時追蹤交易進度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 425,
+    "name": "交易糾紛仲裁模組｜處理交易爭議的仲裁機制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 426,
+    "name": "交易點對點模組｜允許玩家直接進行 P2P 交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 427,
+    "name": "交易批次處理模組｜支援同時處理多筆交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 428,
+    "name": "交易跨境模組｜允許跨國玩家進行交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 429,
+    "name": "交易兌換模組｜支援代幣與卡牌的雙向兌換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 430,
+    "name": "交易廣告模組｜允許玩家刊登交易廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 437,
+    "name": "社群專屬商城模組｜社群內專屬的商品與服務。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 441,
+    "name": "會員試用模組｜新會員可獲得免費試用期。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 442,
+    "name": "會員專屬商城模組｜會員可使用專屬商城資源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 443,
+    "name": "會員專屬道具模組｜會員可獲得特殊遊戲道具。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 444,
+    "name": "會員推薦模組｜會員推薦可獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 445,
+    "name": "會員排行榜模組｜專屬顯示會員排行榜。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 446,
+    "name": "會員回饋計畫模組｜定期給予會員專屬回饋。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 447,
+    "name": "會員限量卡牌模組｜會員可抽取限量卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 448,
+    "name": "會員專屬語音模組｜會員可體驗專屬語音效果。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 449,
+    "name": "會員專屬動畫模組｜會員專享動畫演出。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 450,
+    "name": "會員合約模組｜提供會員權益的智能合約保障。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 464,
+    "name": "AI 市場風險模組｜AI 偵測市場投機或異常行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 469,
+    "name": "AI 趨勢推播模組｜AI 即時推播市場與遊戲趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 472,
+    "name": "跨平台商城同步模組｜跨平台共享商城資源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 488,
+    "name": "安全加密演算法模組｜提升遊戲與交易的加密等級。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 521,
+    "name": "交易鏈上驗證模組｜所有交易記錄上鏈驗證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 522,
+    "name": "交易多幣種模組｜允許使用多種代幣或貨幣支付。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 523,
+    "name": "交易隱私保護模組｜隱藏玩家的交易細節。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 524,
+    "name": "交易 AI 模組｜AI 協助自動定價與議價。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 525,
+    "name": "交易合約履行模組｜確保智能合約完整履行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 526,
+    "name": "交易預約模組｜允許玩家設定未來的交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 527,
+    "name": "交易提醒模組｜即時推播與交易相關通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 528,
+    "name": "交易排行榜模組｜顯示交易量最高的玩家。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 529,
+    "name": "交易 VIP 模組｜為高額交易者提供額外保護。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 530,
+    "name": "交易盲盒模組｜允許交易隨機盲盒卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 541,
+    "name": "會員聯名模組｜會員可享有與合作方聯名的特權。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 542,
+    "name": "會員 NFT 模組｜會員可獲得專屬 NFT 卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 543,
+    "name": "會員限量商城模組｜提供限量會員商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 544,
+    "name": "會員回饋獎勵模組｜依會員活躍度發送獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 545,
+    "name": "會員專屬對戰模組｜會員可參與限定對戰模式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 546,
+    "name": "會員直播模組｜會員專屬直播與互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 547,
+    "name": "會員專屬抽卡模組｜高級會員享有更高抽卡率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 548,
+    "name": "會員邀請排行榜模組｜統計會員邀請人數。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 549,
+    "name": "會員專屬合約模組｜會員享有智能合約保障。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 550,
+    "name": "會員尊享積分模組｜會員積分可轉換為現金券或特權。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 551,
+    "name": "教育合作商城模組｜教育單位專屬商城功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 567,
+    "name": "AI 交易助手模組｜AI 協助完成快速交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 586,
+    "name": "安全審核模組｜對玩家或交易進行人工審核。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 603,
+    "name": "卡牌碎片交易模組｜允許玩家交易分解出的卡牌碎片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 606,
+    "name": "卡牌區塊鏈驗證模組｜卡牌生成與交易全程鏈上驗證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 621,
+    "name": "交易回購模組｜官方回購指定卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 622,
+    "name": "交易動態合約模組｜允許合約根據交易情況動態調整。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 623,
+    "name": "交易追溯模組｜可查詢卡牌所有過往交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 624,
+    "name": "交易廣場模組｜建立玩家自由交易的開放廣場。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 625,
+    "name": "交易借貸模組｜允許玩家借貸卡牌並支付利息。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 626,
+    "name": "交易競拍模組｜多玩家同時競標稀有卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 627,
+    "name": "交易盯盤模組｜允許玩家盯盤卡牌價格波動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 628,
+    "name": "交易自動化模組｜玩家可設定自動買入或賣出。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 629,
+    "name": "交易統計模組｜統計全平台的交易數據。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 630,
+    "name": "交易信用保險模組｜依玩家信用提供額外保險。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 641,
+    "name": "會員卡牌收藏模組｜會員可擁有專屬收藏展示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 642,
+    "name": "會員專屬數據模組｜會員可獲得進階數據報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 643,
+    "name": "會員獨享音效模組｜會員專屬音效與背景音樂。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 644,
+    "name": "會員抽卡保底模組｜高級會員享有抽卡保底機制。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 645,
+    "name": "會員福利日模組｜固定日期提供會員專屬獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 646,
+    "name": "會員推薦卡包模組｜會員可抽取專屬推薦卡包。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 647,
+    "name": "會員投票模組｜會員可投票決定遊戲更新方向。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 648,
+    "name": "會員專屬彩蛋模組｜會員享有隱藏彩蛋功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 649,
+    "name": "會員 VIP 獎池模組｜會員可參與專屬獎池分紅。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 650,
+    "name": "會員跨平台同步模組｜會員特權可跨平台同步。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 673,
+    "name": "跨平台交易保護模組｜跨平台交易享有額外保障。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 684,
+    "name": "安全熱點監控模組｜即時監控遊戲與市場熱點。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 695,
+    "name": "資料共享市場模組｜允許玩家或機構共享並交易資料。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 721,
+    "name": "交易抽卡模組｜允許玩家交易隨機抽出的卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 722,
+    "name": "交易歷史回顧模組｜回顧玩家所有交易紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 723,
+    "name": "交易黑市模組｜建立隱藏版交易系統，專供稀有卡。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 724,
+    "name": "交易好友特權模組｜好友間交易免除部分費用。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 725,
+    "name": "交易鎖定模組｜允許交易上鎖，避免短期內轉賣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 726,
+    "name": "交易快拍模組｜支援快速一鍵交易上架。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 727,
+    "name": "交易信用卡模組｜允許以信用卡直接購買卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 728,
+    "name": "交易分潤池模組｜平台抽成集中於獎勵池分配。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 729,
+    "name": "交易贈品模組｜交易時附加額外贈品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 730,
+    "name": "交易訂閱模組｜玩家可訂閱特定卡牌的價格提醒。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 741,
+    "name": "會員卡牌工坊模組｜會員可使用專屬工坊自製卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 742,
+    "name": "會員隨機掉落模組｜會員享有隨機掉落卡牌的機率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 743,
+    "name": "會員遊戲加速模組｜會員遊戲中獲得更多經驗與獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 744,
+    "name": "會員專屬動畫效果模組｜會員卡牌帶有特殊動畫。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 745,
+    "name": "會員合約保障模組｜會員交易受專屬合約保障。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 746,
+    "name": "會員回饋紅包模組｜會員享有定期紅包福利。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 747,
+    "name": "會員挑戰模組｜會員專屬挑戰賽事。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 748,
+    "name": "會員跨鏈特權模組｜會員卡牌可跨鏈轉移。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 749,
+    "name": "會員 AR 卡牌模組｜會員可體驗 AR 化卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 750,
+    "name": "會員數據存檔模組｜會員可保存專屬的歷史存檔。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 759,
+    "name": "教育作品交易模組｜允許交易教育合作生成的作品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 763,
+    "name": "AI 市場價格提醒模組｜AI 即時提醒卡牌價格異動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 781,
+    "name": "安全多層加密模組｜為遊戲與交易數據加上多層防護。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 784,
+    "name": "安全強制審核模組｜高額交易需強制人工審核。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 785,
+    "name": "安全跨鏈追蹤模組｜跨鏈交易全程追蹤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 821,
+    "name": "交易禮包模組｜允許交易包含多張卡牌的禮包。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 822,
+    "name": "交易拆分模組｜允許將卡牌禮包拆分單張出售。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 823,
+    "name": "交易配對模組｜系統自動配對最佳交易對象。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 824,
+    "name": "交易借用模組｜允許臨時借用卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 825,
+    "name": "交易條件模組｜設定交易所需附加條件。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 826,
+    "name": "交易盲拍模組｜玩家在不知底價下參與拍賣。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 827,
+    "name": "交易優惠模組｜允許設定限時折扣交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 828,
+    "name": "交易聯盟模組｜建立跨玩家的交易合作組織。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 829,
+    "name": "交易獎勵模組｜交易達到一定額度給予獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 830,
+    "name": "交易數據大盤模組｜提供全平台交易總體分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 841,
+    "name": "會員專屬試煉模組｜會員可挑戰專屬試煉副本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 842,
+    "name": "會員點數加倍模組｜會員點數獲得率加倍。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 843,
+    "name": "會員限時拍賣模組｜會員可參與專屬拍賣會。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 844,
+    "name": "會員跨國交易模組｜會員可進行跨國交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 845,
+    "name": "會員專屬名片模組｜會員可擁有專屬虛擬名片。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 846,
+    "name": "會員自訂權限模組｜會員可自訂部分遊戲權限。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 847,
+    "name": "會員專屬測試模組｜會員可搶先體驗新功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 848,
+    "name": "會員數據加密模組｜會員數據享有更高安全等級。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 849,
+    "name": "會員專屬特效模組｜會員可啟用專屬動畫與音效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 850,
+    "name": "會員忠誠度模組｜依會員年資提供額外獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 875,
+    "name": "跨平台收益模組｜跨平台活動收益共享。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 885,
+    "name": "安全區塊鏈驗證模組｜所有交易透過鏈上驗證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 900,
+    "name": "資料資產化模組｜將遊戲資料轉換為可交易的數位資產。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 918,
+    "name": "對戰觀戰打賞模組｜觀眾可即時打賞選手。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 921,
+    "name": "交易保險模組｜交易卡牌時可購買保險保障。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 922,
+    "name": "交易捐贈模組｜允許玩家將卡牌捐贈給平台或活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 923,
+    "name": "交易禮物包模組｜可建立包含多項資源的禮物包。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 924,
+    "name": "交易擔保模組｜平台提供擔保服務確保交易安全。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 925,
+    "name": "交易點數抵扣模組｜允許使用積分抵扣交易費用。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 926,
+    "name": "交易排行榜獎勵模組｜交易量前列玩家獲得獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 927,
+    "name": "交易即時匹配模組｜系統根據需求快速匹配對手。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 928,
+    "name": "交易代幣分紅模組｜交易抽成部分回饋給代幣持有者。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 929,
+    "name": "交易贈卡模組｜交易時附贈隨機卡牌。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 930,
+    "name": "交易匿名模組｜允許匿名進行交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 941,
+    "name": "會員回饋紅利模組｜會員依貢獻度領取紅利。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 942,
+    "name": "會員專屬票選模組｜會員可參與重大更新票選。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 943,
+    "name": "會員跨鏈交易模組｜會員可自由跨鏈進行交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 944,
+    "name": "會員特權守護模組｜會員帳號享有額外安全守護。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 945,
+    "name": "會員實體福利模組｜會員可兌換實體商品。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 946,
+    "name": "會員成長值模組｜累積會員成長值解鎖新權限。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 947,
+    "name": "會員周年慶模組｜提供周年慶會員限定活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 948,
+    "name": "會員限定挑戰模組｜會員可進入限定副本挑戰。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 949,
+    "name": "會員多重身份模組｜會員可同時擁有多種身份。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 950,
+    "name": "會員競技模組｜會員間專屬競技賽事。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 963,
+    "name": "AI 市場預測模組｜AI 預測卡牌市場價格。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 977,
+    "name": "跨平台 NFT 交易模組｜NFT 卡牌可跨平台交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 986,
+    "name": "安全多簽模組｜交易需多方簽名驗證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 998,
+    "name": "資料去中心化交易模組｜允許資料在鏈上交易。",
+    "desc": "",
+    "category": "business"
+  }
+]

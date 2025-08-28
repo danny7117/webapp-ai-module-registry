@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "name": "卡牌生成模組｜依據使用者上傳圖片或描述，自動生成卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 2,
+    "name": "卡牌稀有度模組｜依生成數量與比率自動分配稀有度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 8,
+    "name": "卡牌進化模組｜允許卡牌升級，提升屬性或外觀。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 56,
+    "name": "卡牌故事模組｜為卡牌附加背景故事。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 57,
+    "name": "劇情模式模組｜提供以故事驅動的遊戲體驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 61,
+    "name": "AI 生成卡圖模組｜AI 自動生成卡牌插畫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 62,
+    "name": "AI 生成描述模組｜AI 為卡牌生成敘述文字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 63,
+    "name": "AI 生成技能模組｜AI 自動產生卡牌技能與效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 76,
+    "name": "遊戲化介面模組｜卡牌與對戰介面遊戲化設計。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 77,
+    "name": "黑暗模式模組｜提供暗色主題選項。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 78,
+    "name": "自訂主題模組｜允許玩家自訂 UI 主題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 79,
+    "name": "UI 快捷鍵模組｜支援快捷鍵操作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 80,
+    "name": "UI 語言模組｜支援多語系切換。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 94,
+    "name": "數據報告模組｜生成週報或月報。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 103,
+    "name": "卡牌覺醒模組｜解鎖卡牌隱藏技能或特殊外觀。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 106,
+    "name": "卡牌專屬皮膚模組｜提供特殊外觀皮膚，提升收藏價值。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 112,
+    "name": "對戰速度調整模組｜允許調整戰鬥動畫速度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 178,
+    "name": "行動版語音模組｜支援語音聊天功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 203,
+    "name": "卡牌虛擬展示模組｜提供 3D 或 AR 展示效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 206,
+    "name": "卡牌限量版模組｜設定限量版卡牌生成與發放。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 210,
+    "name": "卡牌來源追蹤模組｜追蹤卡牌的最初生成與擁有者。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 237,
+    "name": "社群語音模組｜提供語音聊天室功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 258,
+    "name": "教育比賽模組｜舉辦以教育為主題的比賽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 260,
+    "name": "教育研究報告模組｜生成教育成效報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 262,
+    "name": "AI 自動組牌模組｜AI 幫助快速生成牌組。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 305,
+    "name": "卡牌對抗模組｜設計相剋屬性與互動效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 307,
+    "name": "卡牌融合特效模組｜提供融合後專屬的視覺與音效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 351,
+    "name": "教育專題模組｜提供特定主題的教學專案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 367,
+    "name": "AI 活動設計模組｜AI 自動生成活動建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 371,
+    "name": "跨平台語音模組｜跨平台支援即時語音互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 405,
+    "name": "卡牌稀有光效模組｜稀有卡牌可擁有特殊視覺特效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 407,
+    "name": "卡牌進化動畫模組｜進化過程帶有專屬動畫特效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 408,
+    "name": "卡牌語音模組｜卡牌附加語音效果，提升沉浸感。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 410,
+    "name": "卡牌投票模組｜允許社群票選新卡牌設計。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 411,
+    "name": "對戰環境音效模組｜根據對戰場景自動切換音效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 412,
+    "name": "對戰動畫模組｜提供戰鬥中的特效動畫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 413,
+    "name": "對戰表情模組｜玩家在對戰中可使用表情互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 414,
+    "name": "對戰即時語音模組｜支援對戰過程中的即時語音。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 417,
+    "name": "對戰回顧分析模組｜賽後自動生成數據與戰術報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 431,
+    "name": "社群語音頻道模組｜提供專屬社群語音頻道。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 440,
+    "name": "社群共創模組｜社群成員可參與卡牌設計與投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 453,
+    "name": "教育測驗報告模組｜生成教育測驗的數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 454,
+    "name": "教育對戰模組｜針對學習者設計專屬對戰模式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 459,
+    "name": "教育專屬卡牌模組｜設計教育限定的學習卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 461,
+    "name": "AI 卡牌生成模組｜AI 自動生成全新系列卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 462,
+    "name": "AI 對戰策略模組｜AI 生成不同風格的戰術。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 499,
+    "name": "資料整合報告模組｜生成整合性數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 500,
+    "name": "資料生命週期模組｜管理數據從生成到刪除的全過程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 501,
+    "name": "卡牌偽造偵測模組｜自動檢測偽造或非法生成的卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 504,
+    "name": "卡牌隱藏彩蛋模組｜卡牌內置隱藏特效或互動彩蛋。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 510,
+    "name": "卡牌專屬任務模組｜設計圍繞特定卡牌的專屬任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 531,
+    "name": "社群互動任務模組｜設計社群專屬任務挑戰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 534,
+    "name": "社群表情模組｜提供專屬社群表情包。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 537,
+    "name": "社群共創卡牌模組｜社群共同設計新卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 554,
+    "name": "教育挑戰模式模組｜設計專屬教育挑戰模式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 577,
+    "name": "跨平台語音聊天室模組｜支援跨平台即時語音。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 594,
+    "name": "資料 AI 建模模組｜AI 生成數據分析模型。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 600,
+    "name": "資料動態報告模組｜自動生成即時更新的數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 602,
+    "name": "卡牌重製模組｜允許將舊版卡牌升級為新版特效版。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 607,
+    "name": "卡牌合成隨機屬性模組｜合成時隨機生成特殊屬性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 610,
+    "name": "卡牌互動特效模組｜卡牌點擊或使用時觸發特效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 631,
+    "name": "社群專題活動模組｜舉辦社群主題性活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 637,
+    "name": "社群報告模組｜生成社群活躍度與影響力報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 660,
+    "name": "教育作品牆模組｜展示教育合作生成的作品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 668,
+    "name": "AI 活動動態模組｜AI 即時生成活動狀態回報。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 670,
+    "name": "AI 語音教練模組｜AI 以語音形式進行對戰指導。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 677,
+    "name": "跨平台語音翻譯模組｜支援即時語音翻譯。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 701,
+    "name": "卡牌動態語音模組｜卡牌在使用或觸發時播放專屬語音。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 702,
+    "name": "卡牌光影模組｜卡牌特效隨稀有度呈現不同光影效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 705,
+    "name": "卡牌定制模組｜允許玩家自行設計專屬外觀卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 754,
+    "name": "教育遊戲挑戰模組｜將知識點設計為挑戰任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 760,
+    "name": "教育知識測驗模組｜設計遊戲化知識問答。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 768,
+    "name": "AI 隨機任務模組｜AI 自動生成每日任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 771,
+    "name": "跨平台語音群組模組｜支援多人跨平台語音群聊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 800,
+    "name": "資料生命周期管理模組｜完整管理數據的生成、使用與刪除。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 801,
+    "name": "卡牌隨機生成模組｜允許系統隨機生成全新卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 803,
+    "name": "卡牌故事背景模組｜為卡牌增加專屬劇情背景。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 805,
+    "name": "卡牌特殊聲效模組｜稀有卡牌附加專屬音效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 819,
+    "name": "對戰劇情模式模組｜結合故事推進的對戰形式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 833,
+    "name": "社群自訂任務模組｜社群管理員可設計專屬任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 851,
+    "name": "教育共創模組｜學生可參與教育相關的卡牌設計。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 865,
+    "name": "AI 卡牌生成器模組｜AI 自動生成全新卡牌系列。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 869,
+    "name": "AI 語音輔助模組｜AI 以語音輔助玩家操作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 904,
+    "name": "卡牌合體動畫模組｜兩張卡牌合體時展現專屬動畫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 905,
+    "name": "卡牌自定義語音模組｜玩家可錄製專屬語音賦予卡牌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 931,
+    "name": "社群語音比賽模組｜比賽過程中允許語音解說。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 936,
+    "name": "社群即時通訊模組｜提供即時聊天與語音。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 954,
+    "name": "教育實境模組｜結合 AR/VR 進行教育。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 960,
+    "name": "教育專業訓練模組｜針對專業領域設計的訓練課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 969,
+    "name": "AI 語音翻譯模組｜AI 即時翻譯玩家語音。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 975,
+    "name": "跨平台 AR 體驗模組｜跨平台共享 AR 遊戲體驗。",
+    "desc": "",
+    "category": "creative"
+  }
+]
