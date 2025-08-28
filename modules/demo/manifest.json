@@ -1,36 +1,21 @@
 {
-  "id": "M-DEMO-001",
-  "name": "Demo Module",
+  "id": "demo.echo",
+  "name": "Demo Echo",
   "version": "1.0.0",
-  "capabilities": ["demo.hello"],
+  "capabilities": ["events.trigger", "fx.overlay", "schedule"],
   "inputs": {
-    "text": "string"
+    "text": { "type": "string", "minLength": 1 }
   },
   "outputs": {
-    "echo": "string"
+    "echo": { "type": "string" }
   },
-  "dependencies": [],
-  "conflicts": [],
-  "resources": {
-    "bundle_kb": 10,
-    "cpu_ms": 1,
-    "mem_mb": 1
-  },
-  "policy": {
-    "age": "all",
-    "license": "MIT",
-    "offline_ok": true
-  },
+  "resources": { "bundle_kb": 8, "cpu": 0.05, "mem_mb": 8 },
+  "policy": { "age": "6+", "license": "MIT", "offline_ok": true },
   "tests": [
     {
-      "name": "basic echo",
+      "name": "returns echo",
       "input": { "text": "hi" },
       "expect": { "echo": "hi" }
-    },
-    {
-      "name": "empty echo",
-      "input": { "text": "" },
-      "expect": { "echo": "" }
     }
   ]
 }
