@@ -1,72 +1,68 @@
-// scripts/validate_modules.cjs (CommonJS)
-const fs = require('fs');
-const path = require('path');
-const Ajv = require('ajv');
-const addFormats = require('ajv-formats');
+// CommonJS validator for module manifests (Node 18/20)
+const fs = require("fs");
+const path = require("path");
 
-const REPO_ROOT = process.cwd();
-const SCHEMA_PATH = path.resolve(REPO_ROOT, 'schema', 'module.manifest.schema.json');
-const MODULES_DIR = path.resolve(REPO_ROOT, 'modules');
-const DRAFTS_DIR = path.resolve(MODULES_DIR, '_drafts');
+// Try Ajv 2020-12 first; fallback to default Ajv if dist/2020 not present
+let Ajv;
+try { Ajv = require("ajv/dist/2020"); } catch (_) { Ajv = require("ajv"); }
 
-function listManifestFiles(dir) {
-  const out = [];
-  if (!fs.existsSync(dir)) return out;
-  for (const name of fs.readdirSync(dir)) {
-    const p = path.join(dir, name);
-    const stat = fs.statSync(p);
-    if (stat.isDirectory()) {
-      if (p.startsWith(DRAFTS_DIR)) continue; // 忽略 drafts
-      const mf = path.join(p, 'manifest.json');
-      if (fs.existsSync(mf)) out.push(mf);
-      // 也允許子目錄繼續掃（容錯）
-      out.push(...listManifestFiles(p));
-    }
-  }
-  return out;
+// ---- helpers ----
+function readJSON(filePath) {
+  const raw = fs.readFileSync(filePath, "utf8");
+  // 允許 JSON 註解（// 或 /* */），先去掉再 parse，避免 CI 因註解爆掉
+  const withoutComments = raw.replace(/\/\*[\s\S]*?\*\/|\/\/.*$/gm, "");
+  return JSON.parse(withoutComments);
 }
 
-function main() {
-  const schema = JSON.parse(fs.readFileSync(SCHEMA_PATH, 'utf8'));
-  const ajv = new Ajv({
-    allErrors: true,
-    allowUnionTypes: true,
-    strict: false
-  });
-  addFormats(ajv);
-  const validate = ajv.compile(schema);
+// ---- paths ----
+const REPO_ROOT   = path.resolve(__dirname, "..");
+const MODULES_DIR = path.resolve(REPO_ROOT, "modules");
+const SCHEMA_PATH = path.resolve(REPO_ROOT, "schema", "module.manifest.schema.json");
 
-  const manifests = listManifestFiles(MODULES_DIR)
-    .filter(p => !p.includes(`${path.sep}_drafts${path.sep}`));
+// ---- ajv init ----
+let ajv = new Ajv({ allErrors: true, allowUnionTypes: true, strict: false });
+try {
+  // 手動加上 2020-12 meta，避免 "no schema with key or ref ..."
+  const meta2020 = require("ajv/dist/refs/json-schema-2020-12.json");
+  ajv.addMetaSchema(meta2020);
+} catch (_) { /* ok if not available */ }
 
-  let ok = 0, errors = 0;
-  for (const file of manifests) {
-    const m = JSON.parse(fs.readFileSync(file, 'utf8'));
+// compile schema
+const schema   = readJSON(SCHEMA_PATH);
+const validate = ajv.compile(schema);
 
-    // 跳過標記
-    if (m.__skip_ci === true) {
-      console.log(`↷ skip ${file} (__skip_ci)`);
-      continue;
-    }
-
-    const valid = validate(m);
-    if (!valid) {
-      console.error(`❌ ${file} schema errors:`);
-      for (const e of validate.errors) {
-        console.error(`  - ${e.instancePath || '(root)'} ${e.message}`);
-      }
-      errors++;
-    } else {
-      ok++;
-    }
+// ---- collect manifests ----
+const manifests = [];
+function walk(dir) {
+  if (!fs.existsSync(dir)) return;
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) walk(p);
+    else if (e.name === "manifest.json") manifests.push(p);
   }
+}
+walk(MODULES_DIR);
 
-  if (errors > 0) {
-    console.error(`\n✖ Module validation failed. ok=${ok}, errors=${errors}`);
-    process.exit(1);
-  } else {
-    console.log(`\n✅ ${ok} module(s) validated OK`);
+// ---- validate ----
+const errors = [];
+for (const file of manifests) {
+  try {
+    const data = readJSON(file);
+    const ok = validate(data);
+    if (!ok) errors.push({ file, errs: validate.errors });
+  } catch (e) {
+    errors.push({ file, errs: [{ message: e.message }] });
   }
 }
 
-main();
+// ---- report ----
+if (errors.length) {
+  console.error("\n❌ Module validation failed:");
+  for (const { file, errs } of errors) {
+    console.error(`- ${path.relative(REPO_ROOT, file)}`);
+    console.error(ajv.errorsText(errs, { separator: "\n  " }));
+  }
+  process.exit(1);
+} else {
+  console.log(`\n✅ ${manifests.length} module(s) validated OK`);
+}
