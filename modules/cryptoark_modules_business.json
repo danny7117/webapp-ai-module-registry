@@ -1,0 +1,794 @@
+[
+  {
+    "id": 8,
+    "name": "AI 基本面分析模組｜分析錢包交易動態，自動摘要生成建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 9,
+    "name": "深入追蹤模組｜統計交易次數、進出時間頻率、持幣分散度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 14,
+    "name": "交易紀錄模組｜自動同步與展示用戶的鏈上交易紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 15,
+    "name": "大額交易提醒模組｜當錢包有大額交易時發送通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 32,
+    "name": "交易時間窗模組｜分析指定日期範圍內的交易紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 34,
+    "name": "熱門交易對手方模組｜顯示錢包最常互動的交易對象。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 38,
+    "name": "交易頻率異常偵測模組｜發現交易數量異常時發送提示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 40,
+    "name": "對手方集中度模組｜分析錢包是否過度依賴特定交易對手。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 41,
+    "name": "AI 交易摘要模組｜自動生成錢包交易的文字摘要。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 42,
+    "name": "異常模式標記模組｜標記可疑交易模式並等待審核。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 43,
+    "name": "交易熱點分析模組｜分析當前熱門合約或代幣的互動頻率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 49,
+    "name": "交易對手追蹤模組｜允許使用者將特定對手錢包列入追蹤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 58,
+    "name": "交易統計模組｜統計近 30 日交易頻率與金額。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 59,
+    "name": "交易異常通知模組｜發現異常頻率或金額時自動通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 79,
+    "name": "交易對比模組｜對比不同錢包的交易模式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 86,
+    "name": "交易摘要匯出模組｜允許匯出交易摘要報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 87,
+    "name": "AI 風險評估模組｜自動判斷錢包可能的風險指標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 104,
+    "name": "錢包風險評分模組｜依據交易歷史與集中度計算風險分數。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 105,
+    "name": "交易黑名單模組｜將可疑或惡意錢包加入黑名單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 106,
+    "name": "交易白名單模組｜允許標記可信任的交易對象。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 107,
+    "name": "即時通知模組｜針對大額交易與異常事件即時推播。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 109,
+    "name": "自動標籤模組｜系統依據交易特徵自動加註標籤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 115,
+    "name": "Gas 費用分析模組｜顯示用戶交易的平均 Gas 成本。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 116,
+    "name": "收益分析模組｜計算錢包的歷史收益與虧損。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 119,
+    "name": "自訂報表模組｜使用者可生成符合需求的交易/資產報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 120,
+    "name": "資產安全模組｜檢測可疑代幣或高風險合約。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 132,
+    "name": "交易流向分析模組｜分析資金流向主要錢包與交易所。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 133,
+    "name": "交易對比模組｜支援同時對比多個錢包交易模式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 141,
+    "name": "AI 模型優化模組｜持續更新 AI 交易分析模型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 143,
+    "name": "AI 異常檢測模組｜使用 AI 發現潛在異常交易模式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 153,
+    "name": "代幣交易排行模組｜顯示代幣的交易次數排行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 158,
+    "name": "交易類型分析模組｜區分轉帳、兌換、質押等不同交易類型。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 159,
+    "name": "交易所互動模組｜分析錢包與交易所間的互動頻率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 160,
+    "name": "交易所排行模組｜展示最常與錢包交互的交易所排行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 181,
+    "name": "資產風險提示模組｜針對高風險資產發出提示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 182,
+    "name": "資產收益模組｜計算特定錢包的歷史收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 187,
+    "name": "交易活躍度模組｜統計錢包的活躍程度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 188,
+    "name": "交易次數模組｜顯示錢包的交易次數。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 189,
+    "name": "交易金額模組｜顯示錢包的交易金額總和。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 190,
+    "name": "交易平均值模組｜計算錢包的平均交易金額。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 191,
+    "name": "交易對手排行模組｜顯示最常互動的交易對手排行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 192,
+    "name": "交易對手風險模組｜分析交易對手的風險等級。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 193,
+    "name": "交易對手資產模組｜顯示交易對手的資產情況。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 194,
+    "name": "交易對手互動模組｜顯示與交易對手的互動次數。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 195,
+    "name": "交易對手集中度模組｜分析是否過度依賴特定對手。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 205,
+    "name": "多幣種分析模組｜提供多幣種交易與資產的分析報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 209,
+    "name": "鏈上交易模組｜顯示所有鏈上交易紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 212,
+    "name": "鏈上分析模組｜對鏈上交易、資產進行綜合分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 214,
+    "name": "跨鏈交易模組｜顯示跨鏈的交易次數與金額。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 215,
+    "name": "跨鏈分析模組｜提供跨鏈資產與交易的分析報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 218,
+    "name": "跨鏈風險模組｜檢測跨鏈資產與合約的風險。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 219,
+    "name": "跨鏈收益模組｜計算跨鏈活動的收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 222,
+    "name": "跨鏈成長模組｜顯示跨鏈資產或交易的成長趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 223,
+    "name": "跨鏈衰退模組｜顯示跨鏈資產或交易的衰退趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 225,
+    "name": "NFT 交易排行模組｜顯示 NFT 的交易次數排行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 229,
+    "name": "NFT 收益模組｜計算 NFT 的收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 232,
+    "name": "NFT 風險模組｜檢測高風險或異常的 NFT。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 240,
+    "name": "NFT 評分模組｜提供 NFT 資產的風險與熱度評分。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 241,
+    "name": "NFT 圖表模組｜以圖表顯示 NFT 的交易與持有狀況。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 243,
+    "name": "合約風險模組｜檢測高風險的智能合約。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 244,
+    "name": "合約收益模組｜計算合約互動帶來的收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 271,
+    "name": "AI 交易建議模組｜依據交易數據生成操作建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 273,
+    "name": "AI 合約分析模組｜利用 AI 檢測合約的風險與潛力。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 275,
+    "name": "AI 風險分析模組｜利用 AI 對資產與交易進行風險評估。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 276,
+    "name": "AI 趨勢分析模組｜利用 AI 預測資產與交易的趨勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 324,
+    "name": "數據標記模組｜對數據打上風險或狀態標籤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 362,
+    "name": "AI 模型風險模組｜檢測 AI 模型的風險與偏差。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 379,
+    "name": "AI 模型風控模組｜分析 AI 模型可能引發的風險。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 418,
+    "name": "生態風險模組｜檢測生態專案的潛在風險。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 419,
+    "name": "生態收益模組｜計算生態專案的投資收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 432,
+    "name": "AI 長期趨勢模組｜預測資產與交易的中長期走勢。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 433,
+    "name": "AI 自動化標籤模組｜自動為錢包與合約添加風險或用途標籤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 436,
+    "name": "AI 稅務助手模組｜自動生成區塊鏈交易的報稅資料。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 439,
+    "name": "AI 模型回測模組｜允許使用者回測 AI 交易策略的成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 440,
+    "name": "AI 策略模擬模組｜提供模擬交易，測試不同投資策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 441,
+    "name": "社群挑戰模組｜允許社群舉辦交易或追蹤挑戰賽。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 454,
+    "name": "行動推播模組｜針對手機用戶即時推播交易與警示。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 458,
+    "name": "交易所 API 串接模組｜整合 Binance、Coinbase 等交易所 API。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 463,
+    "name": "模擬交易模組｜提供模擬資金環境以測試投資策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 464,
+    "name": "稅務報告模組｜生成符合當地稅法的區塊鏈交易報告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 465,
+    "name": "收益率分析模組｜計算錢包或組合的年化收益率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 466,
+    "name": "夏普比率模組｜提供投資組合的風險調整後收益指標。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 469,
+    "name": "資產配置建議模組｜根據風險偏好提供資產配置建議。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 471,
+    "name": "風險黑名單模組｜維護高風險錢包與合約的黑名單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 474,
+    "name": "洗錢風險模組｜檢測高頻轉移與異常資金流向。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 475,
+    "name": "交易所風險模組｜分析錢包與高風險交易所的互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 477,
+    "name": "智能合約審查模組｜分析合約程式碼，提示風險漏洞。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 483,
+    "name": "交易透明度模組｜提供鏈上透明報告，支援審計需求。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 501,
+    "name": "跨鏈數據聚合模組｜整合多鏈資產與交易數據於單一平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 503,
+    "name": "跨鏈交易流向模組｜分析跨鏈資金流動與主要通道。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 506,
+    "name": "跨鏈風險偵測模組｜檢測跨鏈橋攻擊與異常交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 507,
+    "name": "跨鏈收益分析模組｜計算跨鏈操作帶來的收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 511,
+    "name": "大數據儀表板模組｜展示全站交易與資產的統計總覽。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 517,
+    "name": "大數據比較模組｜比較不同鏈或群體的交易特徵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 521,
+    "name": "自動化交易模組｜允許設定條件後自動執行交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 522,
+    "name": "自動化套利模組｜偵測跨交易所或跨鏈套利機會。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 523,
+    "name": "自動化止損模組｜達到設定價格即觸發止損交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 524,
+    "name": "自動化止盈模組｜達到設定價格即觸發止盈交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 528,
+    "name": "自動化撤單模組｜根據條件自動撤銷訂單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 529,
+    "name": "自動化交易日誌模組｜記錄所有自動交易活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 530,
+    "name": "自動化策略模組｜允許使用者建立並套用自動交易策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 541,
+    "name": "自動跟單模組｜允許使用者自動跟隨高手交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 542,
+    "name": "跟單排名模組｜展示最受追蹤的交易者排行。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 544,
+    "name": "跟單風險模組｜分析跟單操作的風險。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 545,
+    "name": "跟單通知模組｜當跟單交易觸發時即時通知。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 546,
+    "name": "投資模擬大賽模組｜舉辦模擬交易競賽。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 547,
+    "name": "排行榜獎勵模組｜依交易表現給予獎勵。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 549,
+    "name": "模擬收益模組｜計算模擬投資的收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 553,
+    "name": "專案風險模組｜檢測新專案的投資風險。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 565,
+    "name": "市場深度模組｜顯示交易所的訂單深度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 583,
+    "name": "合作收益模組｜計算合作帶來的收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 597,
+    "name": "模擬教學模組｜模擬實際交易流程作為教學。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 603,
+    "name": "跨鏈風險排行模組｜顯示高風險跨鏈橋清單。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 606,
+    "name": "跨鏈報告模組｜生成跨鏈資產與交易的週報或月報。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 613,
+    "name": "大數據交易模式模組｜找出常見的群體交易模式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 614,
+    "name": "大數據風險群體模組｜識別高風險群體。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 615,
+    "name": "大數據收益群體模組｜顯示表現最佳的資金群體。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 620,
+    "name": "大數據跨鏈模組｜統合跨鏈交易的數據進行大數據分析。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 621,
+    "name": "自動化槓桿模組｜允許模擬槓桿交易的自動化。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 624,
+    "name": "自動化收益農場模組｜自動參與收益農場策略。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 630,
+    "name": "自動化風險控管模組｜依風險狀況自動調整操作。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 631,
+    "name": "AI 風險地圖模組｜生成全鏈風險可視化地圖。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 640,
+    "name": "AI 投資者類型分析模組｜判斷使用者的投資風格與風險屬性。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 646,
+    "name": "社群模擬交易模組｜允許社群競賽模擬交易。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 650,
+    "name": "社群風險共識模組｜社群共同標記高風險資產。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 658,
+    "name": "專案風險評估模組｜對新創專案進行 AI 風險評估。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 659,
+    "name": "專案收益模組｜顯示專案投資回報率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 667,
+    "name": "合規驗證模組｜自動檢查交易與專案是否合規。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 671,
+    "name": "安全風險熱點模組｜顯示近期安全風險事件。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 675,
+    "name": "安全工具模組｜內建多種鏈上風險檢測工具。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 677,
+    "name": "安全教育模組｜提供防詐騙與風險教育課程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 678,
+    "name": "安全通知模組｜當有高風險合約時即時通知。",
+    "desc": "",
+    "category": "business"
+  }
+]

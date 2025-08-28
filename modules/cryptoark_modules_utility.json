@@ -1,0 +1,1898 @@
+[
+  {
+    "id": 1,
+    "name": "Google 帳號登入模組｜支援 Google OAuth 登入，記錄個人追蹤資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 7,
+    "name": "通知提示模組｜提供基礎頁內提醒，後續可擴展至 LINE Notify 或 Email。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 10,
+    "name": "自訂篩選器模組｜使用者可建立個人偏好條件進行篩選。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 12,
+    "name": "資產分佈圖模組｜以圓餅圖顯示不同幣種的資產比例。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 13,
+    "name": "即時匯率模組｜抓取市場匯率並換算用戶資產價值。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 16,
+    "name": "價格警示模組｜可自訂價格警戒值，觸發提醒通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 22,
+    "name": "收藏匯出模組｜允許使用者將追蹤清單匯出成 CSV 或 JSON。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 23,
+    "name": "收藏匯入模組｜允許使用者匯入已存在的追蹤清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 24,
+    "name": "使用者層級模組｜分為 Free 與 Pro，不同層級解鎖不同功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 25,
+    "name": "使用者設定模組｜調整更新頻率、通知方式與語言偏好。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 26,
+    "name": "介面語言切換模組｜繁中為預設，支援中/英切換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 27,
+    "name": "介面主題模組｜提供黑/白/灰三種科技感主題。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 30,
+    "name": "多帳號切換模組｜允許使用者快速切換不同帳號環境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 31,
+    "name": "資產快照模組｜記錄每日資產持有情況，便於趨勢分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 35,
+    "name": "使用者反饋模組｜收集使用者回饋以優化系統功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 37,
+    "name": "資產警戒線模組｜設定資產跌破某金額時通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 45,
+    "name": "通知頻率控制模組｜允許使用者設定通知間隔，避免過度推播。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 50,
+    "name": "通知渠道模組｜支援 LINE Notify 與 Email 兩種推播方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 54,
+    "name": "延遲分析模組｜資料不足時延後分析並提示使用者。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 56,
+    "name": "升級誘因彈窗模組｜使用者點擊受限功能時彈出升級提示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 57,
+    "name": "封閉測試模式模組｜允許指定使用者群組參與內測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 60,
+    "name": "使用者引導模組｜新用戶登入後顯示 3 步驟導覽。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 64,
+    "name": "排行榜快照模組｜保存每日熱門排行的快照以供比較。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 67,
+    "name": "幣種換算模組｜提供多種法幣換算顯示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 74,
+    "name": "升級解鎖模組｜提示 Pro 使用者解鎖更多追蹤數量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 75,
+    "name": "任務排程模組｜定時觸發自動更新任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 76,
+    "name": "資產走勢模組｜顯示資產總額的日/週/月走勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 77,
+    "name": "熱門幣種排行模組｜展示全站熱門持有幣種排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 78,
+    "name": "熱門 NFT 排行模組｜展示全站熱門持有 NFT 排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 81,
+    "name": "警示清單模組｜允許使用者設定多條價格或資產警示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 82,
+    "name": "自訂通知模組｜允許使用者設定自訂事件觸發通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 89,
+    "name": "匯率來源切換模組｜允許使用者切換不同匯率來源。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 90,
+    "name": "自訂介面模組｜允許使用者調整 UI 顯示樣式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 91,
+    "name": "跨平台登入模組｜允許相同帳號跨平台登入。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 94,
+    "name": "收藏清單快照模組｜保存使用者收藏清單的快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 97,
+    "name": "系統健康檢查模組｜定期檢查系統各服務是否正常。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 99,
+    "name": "回饋追蹤模組｜追蹤使用者回饋的處理進度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 102,
+    "name": "多幣種換算模組｜提供美元、台幣、日圓等法幣換算。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 112,
+    "name": "NFT 收藏清單模組｜將特定 NFT 系列加入收藏並追蹤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 113,
+    "name": "NFT 排行模組｜展示全站最受追蹤的 NFT 資產。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 125,
+    "name": "快取加速模組｜常用資料快取，減少重複查詢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 126,
+    "name": "歷史快照模組｜保存每日資產/排行快照，供回顧使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 127,
+    "name": "報告匯出模組｜將分析結果輸出為 PDF 或 Excel。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 128,
+    "name": "通知排程模組｜可選擇通知時間段（如僅上班時推播）。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 135,
+    "name": "自訂條件篩選模組｜允許使用者設定複合條件進行搜尋。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 136,
+    "name": "使用者成長紀錄模組｜記錄使用者的收藏數、追蹤數成長。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 137,
+    "name": "排行榜快照比較模組｜比較不同日期的排行變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 145,
+    "name": "自訂通知條件模組｜允許使用者自定義觸發通知的事件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 148,
+    "name": "收藏清單分享模組｜允許使用者分享清單給其他人。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 149,
+    "name": "收藏清單匯入模組｜快速導入他人分享的清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 150,
+    "name": "收藏清單匯出模組｜快速匯出自己的清單資料。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 156,
+    "name": "資產分層模組｜將資產依幣種、金額層級進行分類。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 157,
+    "name": "資產熱力圖模組｜以顏色顯示資產漲跌幅。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 162,
+    "name": "多語系支援模組｜支援英文、日文等語言。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 163,
+    "name": "手機通知模組｜針對 Pro 使用者提供手機通知服務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 164,
+    "name": "桌面通知模組｜提供瀏覽器桌面推播。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 165,
+    "name": "使用者等級模組｜依使用者活躍度給予等級徽章。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 166,
+    "name": "使用者成就模組｜提供里程碑成就提示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 167,
+    "name": "使用者回饋模組｜提供問卷與回饋功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 168,
+    "name": "使用者測試模組｜允許小部分用戶測試新功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 172,
+    "name": "併發控制模組｜限制同時執行的任務數量。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 173,
+    "name": "延遲通知模組｜避免重複推播，延遲合併通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 174,
+    "name": "任務佇列模組｜管理需要等待處理的任務清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 175,
+    "name": "任務優先級模組｜依不同任務的重要性排序執行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 176,
+    "name": "任務重試模組｜自動重試失敗任務並記錄。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 177,
+    "name": "任務報告模組｜提供每日任務執行統計。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 178,
+    "name": "任務分流模組｜將不同類型任務分流到不同佇列。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 201,
+    "name": "多幣種警示模組｜針對不同幣種分別設定警示條件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 202,
+    "name": "多幣種匯率模組｜提供多幣種匯率換算與比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 203,
+    "name": "多幣種資產模組｜顯示多幣種的持倉與比例。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 204,
+    "name": "多幣種排行模組｜顯示不同幣種在全站的排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 217,
+    "name": "跨鏈快照模組｜保存跨鏈活動的快照以供比對。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 224,
+    "name": "NFT 收藏排行模組｜顯示最常被收藏的 NFT。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 227,
+    "name": "NFT 成長模組｜顯示 NFT 資產的成長趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 228,
+    "name": "NFT 衰退模組｜顯示 NFT 資產的衰退趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 230,
+    "name": "NFT 虧損模組｜計算 NFT 的虧損。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 231,
+    "name": "NFT 分析模組｜對 NFT 資產進行綜合分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 233,
+    "name": "NFT 熱度模組｜顯示當前最熱門的 NFT。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 234,
+    "name": "NFT 收藏清單模組｜允許使用者建立 NFT 收藏清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 235,
+    "name": "NFT 收藏分享模組｜允許使用者分享 NFT 收藏清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 236,
+    "name": "NFT 收藏匯入模組｜允許使用者匯入 NFT 收藏清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 237,
+    "name": "NFT 收藏匯出模組｜允許使用者匯出 NFT 收藏清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 238,
+    "name": "NFT 通知模組｜當收藏的 NFT 有變動時通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 239,
+    "name": "NFT 標籤模組｜允許使用者為 NFT 加註標籤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 255,
+    "name": "合約匯入模組｜允許使用者匯入收藏的合約。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 256,
+    "name": "合約匯出模組｜允許使用者匯出收藏的合約。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 257,
+    "name": "排行榜快照存檔模組｜允許儲存排行榜的歷史快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 258,
+    "name": "排行榜快照比較模組｜比較不同時間點的排行榜差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 259,
+    "name": "排行榜成長模組｜顯示排行榜的長期成長趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 260,
+    "name": "排行榜衰退模組｜顯示排行榜的長期衰退趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 261,
+    "name": "排行榜分析模組｜提供排行榜的綜合分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 263,
+    "name": "排行榜匯出模組｜允許匯出排行榜數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 264,
+    "name": "排行榜匯入模組｜允許匯入排行榜數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 265,
+    "name": "排行榜分享模組｜允許分享排行榜給其他人。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 266,
+    "name": "排行榜收藏模組｜允許收藏特定排行榜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 267,
+    "name": "排行榜標籤模組｜允許為排行榜加註標籤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 269,
+    "name": "排行榜熱度模組｜顯示最熱門的排行榜。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 272,
+    "name": "AI 資產分析模組｜提供 AI 驅動的資產分析報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 274,
+    "name": "AI NFT 分析模組｜利用 AI 分析 NFT 的熱度與價值。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 279,
+    "name": "AI 通知模組｜當 AI 偵測到異常時即時通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 280,
+    "name": "AI 模型訓練模組｜允許持續訓練與優化 AI 模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 281,
+    "name": "AI 模型管理模組｜允許管理不同的 AI 模型版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 282,
+    "name": "AI 模型測試模組｜允許測試 AI 模型的準確度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 283,
+    "name": "AI 模型比較模組｜允許比較不同 AI 模型的結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 284,
+    "name": "AI 模型快照模組｜保存 AI 模型的狀態快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 286,
+    "name": "AI 模型通知模組｜AI 模型性能異常時通知使用者。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 287,
+    "name": "AI 模型分享模組｜允許分享 AI 模型與結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 288,
+    "name": "AI 模型匯入模組｜允許匯入 AI 模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 289,
+    "name": "AI 模型匯出模組｜允許匯出 AI 模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 290,
+    "name": "AI 模型升級模組｜支援 AI 模型的升級與版本迭代。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 294,
+    "name": "自訂匯入模組｜允許使用者匯入個人化設定。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 295,
+    "name": "自訂匯出模組｜允許使用者匯出個人化設定。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 296,
+    "name": "自訂分享模組｜允許使用者分享個人化設定。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 301,
+    "name": "系統佇列模組｜管理後端任務的佇列排程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 305,
+    "name": "系統重試模組｜自動重試失敗的後端任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 306,
+    "name": "系統優化模組｜針對延遲任務進行優化調整。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 307,
+    "name": "系統快照模組｜保存系統執行狀態快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 308,
+    "name": "系統比較模組｜比較不同時間的系統數據差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 309,
+    "name": "系統異常模組｜標記與追蹤異常事件。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 310,
+    "name": "系統維護模組｜提供系統維護模式與提示。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 311,
+    "name": "系統升級模組｜管理系統版本升級流程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 313,
+    "name": "系統延遲模組｜統計任務延遲與執行情況。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 316,
+    "name": "系統流量模組｜分析系統流量與分布。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 318,
+    "name": "系統併發模組｜限制併發數量以避免過載。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 320,
+    "name": "系統測試模組｜提供壓力測試與回歸測試。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 321,
+    "name": "數據快取模組｜快取常用數據以加速查詢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 323,
+    "name": "數據比對模組｜比較不同來源的數據差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 325,
+    "name": "數據共享模組｜允許數據共享給指定使用者。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 326,
+    "name": "數據匯入模組｜允許從外部來源匯入數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 327,
+    "name": "數據匯出模組｜允許將數據匯出成 Excel/PDF。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 328,
+    "name": "數據壓縮模組｜將大量數據壓縮以節省空間。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 329,
+    "name": "數據清理模組｜定期清理過期或無效數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 336,
+    "name": "數據存檔模組｜將歷史數據存檔保存。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 337,
+    "name": "數據比率模組｜計算不同數據的比率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 338,
+    "name": "數據趨勢模組｜分析數據的長期趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 339,
+    "name": "數據熱力模組｜以熱力圖顯示數據變化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 340,
+    "name": "數據分層模組｜將數據依照層級分類。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 341,
+    "name": "通知中心模組｜整合所有通知事件於單一中心。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 342,
+    "name": "通知排程模組｜允許設定通知的時間規則。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 343,
+    "name": "通知合併模組｜將多則通知合併成單一訊息。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 344,
+    "name": "通知靜音模組｜允許使用者暫時靜音通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 345,
+    "name": "通知樣式模組｜提供不同樣式的通知格式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 346,
+    "name": "通知偏好模組｜允許使用者設定偏好的通知管道。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 348,
+    "name": "通知群組模組｜允許將通知分發到群組。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 349,
+    "name": "通知回饋模組｜允許使用者回饋通知的有效性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 351,
+    "name": "AI 模型快照模組｜保存 AI 模型狀態以供回溯。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 353,
+    "name": "AI 模型優化模組｜持續優化 AI 模型效能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 354,
+    "name": "AI 模型比較模組｜比較不同模型的結果差異。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 355,
+    "name": "AI 模型管理模組｜管理多個 AI 模型的版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 357,
+    "name": "AI 模型更新模組｜提供 AI 模型的自動更新。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 358,
+    "name": "AI 模型共享模組｜允許分享 AI 模型給其他人。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 359,
+    "name": "AI 模型匯入模組｜允許匯入外部 AI 模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 360,
+    "name": "AI 模型匯出模組｜允許匯出 AI 模型與結果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 364,
+    "name": "AI 模型訓練模組｜允許進一步訓練 AI 模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 365,
+    "name": "AI 模型部署模組｜支援將 AI 模型部署到不同環境。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 368,
+    "name": "AI 模型分析模組｜對模型輸出進行進一步分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 369,
+    "name": "AI 模型異常模組｜偵測 AI 模型的異常行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 370,
+    "name": "AI 模型恢復模組｜在模型失效時提供回滾方案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 371,
+    "name": "AI 模型版本模組｜管理 AI 模型的歷史版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 372,
+    "name": "AI 模型切換模組｜允許在不同模型之間切換。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 373,
+    "name": "AI 模型升級模組｜提供 AI 模型的升級功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 374,
+    "name": "AI 模型效能模組｜追蹤 AI 模型的效能指標。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 376,
+    "name": "AI 模型授權模組｜管理 AI 模型的授權使用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 377,
+    "name": "AI 模型定制模組｜允許針對特定需求定制模型。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 380,
+    "name": "AI 模型策略模組｜將 AI 模型應用於投資策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 381,
+    "name": "使用者等級模組｜依使用者貢獻與活躍度劃分等級。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 382,
+    "name": "使用者成就模組｜提供成就徽章與里程碑任務。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 383,
+    "name": "使用者積分模組｜提供積分機制以鼓勵使用者互動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 384,
+    "name": "使用者回饋模組｜收集並追蹤使用者的意見與建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 385,
+    "name": "使用者測試模組｜允許選定使用者測試新功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 386,
+    "name": "使用者社群模組｜建立使用者社群與互動平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 387,
+    "name": "使用者邀請模組｜允許使用者邀請好友註冊。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 388,
+    "name": "使用者推薦模組｜根據使用者行為推薦功能或清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 389,
+    "name": "使用者習慣模組｜分析使用者的操作習慣。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 391,
+    "name": "使用者通知模組｜允許使用者設定個人化通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 394,
+    "name": "使用者封鎖模組｜允許封鎖惡意或垃圾帳號。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 395,
+    "name": "使用者分享模組｜允許使用者分享清單或數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 397,
+    "name": "使用者偏好模組｜允許設定語言、主題等偏好。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 399,
+    "name": "使用者分析模組｜分析使用者行為與趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 400,
+    "name": "使用者評分模組｜提供使用者互評與信用評分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 403,
+    "name": "社群通知模組｜允許使用者接收社群熱門事件提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 404,
+    "name": "社群分享模組｜允許使用者將收藏清單分享到社群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 405,
+    "name": "社群互動模組｜提供使用者留言、按讚、轉發功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 407,
+    "name": "社群投票模組｜允許使用者對熱門資產進行投票。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 408,
+    "name": "社群等級模組｜依社群參與度給予等級徽章。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 409,
+    "name": "社群成就模組｜依社群互動給予成就獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 410,
+    "name": "社群回饋模組｜收集社群使用者對功能的意見。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 414,
+    "name": "生態分析模組｜提供生態系統的資產流向分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 415,
+    "name": "生態快照模組｜保存生態狀態的每日快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 416,
+    "name": "生態熱點模組｜顯示近期最熱門的生態活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 417,
+    "name": "生態通知模組｜當生態專案有異常或更新時通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 420,
+    "name": "生態虧損模組｜計算生態專案的投資虧損。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 421,
+    "name": "跨平台分享模組｜允許使用者跨平台分享收藏清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 422,
+    "name": "跨平台匯入模組｜允許使用者跨平台匯入收藏清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 423,
+    "name": "跨平台匯出模組｜允許使用者跨平台匯出收藏清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 425,
+    "name": "跨平台通知模組｜跨平台推播提醒使用者。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 427,
+    "name": "跨平台報告模組｜提供跨平台的綜合報告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 429,
+    "name": "跨平台升級模組｜支援跨平台功能的升級。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 430,
+    "name": "跨平台測試模組｜測試跨平台功能的相容性與效能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 442,
+    "name": "社群積分模組｜依社群貢獻累積積分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 443,
+    "name": "社群排行榜模組｜展示積分與互動的社群排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 444,
+    "name": "社群任務模組｜建立每日或每週任務，提升社群活躍度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 445,
+    "name": "社群徽章模組｜完成特定成就後獲得社群徽章。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 446,
+    "name": "社群分享榜單模組｜允許使用者分享自己追蹤的熱門清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 448,
+    "name": "社群互評模組｜允許使用者對清單或分析進行評分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 450,
+    "name": "社群專題模組｜允許社群建立專題分析與追蹤專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 453,
+    "name": "跨平台插件模組｜支援瀏覽器插件形式，快速查詢資產。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 455,
+    "name": "行動快捷操作模組｜支援手機端一鍵收藏與篩選。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 456,
+    "name": "桌面應用模組｜提供 Windows/Mac 桌面版應用。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 459,
+    "name": "多平台登入模組｜支援 Apple ID、Facebook 等登入方式。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 461,
+    "name": "專業投資組合模組｜允許使用者建立並追蹤多組投資組合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 462,
+    "name": "回測模組｜允許使用者回測策略在歷史數據上的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 467,
+    "name": "最大回撤模組｜計算投資組合在歷史中的最大回撤。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 468,
+    "name": "投資策略比較模組｜允許比較不同策略的績效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 470,
+    "name": "智能再平衡模組｜自動化執行資產再平衡操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 473,
+    "name": "釣魚地址檢測模組｜比對常見釣魚地址與可疑網站。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 476,
+    "name": "資產保險模組｜提供第三方保險服務整合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 481,
+    "name": "合規監管模組｜提供 AML/KYC 合規分析。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 482,
+    "name": "稅務合規模組｜提供符合各國規範的稅務輔助。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 485,
+    "name": "使用者隱私模組｜保障使用者數據匿名性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 490,
+    "name": "災難復原模組｜在系統故障時提供數據回復能力。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 491,
+    "name": "雲端備份模組｜將使用者清單與數據自動備份至雲端。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 492,
+    "name": "本地備份模組｜允許使用者將數據備份到本地裝置。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 493,
+    "name": "快照回滾模組｜允許快速回滾至過去的數據快照。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 512,
+    "name": "大數據趨勢模組｜提供長期數據走勢與預測。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 525,
+    "name": "自動化再平衡模組｜自動執行投資組合的再平衡。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 526,
+    "name": "自動化搬磚模組｜實現跨平台搬磚套利。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 527,
+    "name": "自動化掛單模組｜允許自動設定買賣掛單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 531,
+    "name": "策略回測模組｜允許使用者回測策略於歷史行情。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 532,
+    "name": "策略比較模組｜比較不同自動化策略的績效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 533,
+    "name": "策略模擬模組｜模擬不同策略的實際效果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 535,
+    "name": "策略社群模組｜允許使用者分享與交流策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 536,
+    "name": "策略排名模組｜依績效排序策略表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 537,
+    "name": "策略複製模組｜允許使用者複製他人公開策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 539,
+    "name": "策略通知模組｜當策略觸發條件達成時通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 540,
+    "name": "策略優化模組｜AI 協助調整策略參數以提升績效。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 543,
+    "name": "跟單報告模組｜顯示跟單績效與統計。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 548,
+    "name": "使用者模擬組合模組｜允許使用者建立虛擬投資組合。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 550,
+    "name": "模擬損失模組｜計算模擬投資的損失。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 554,
+    "name": "專案熱度模組｜顯示市場對新專案的討論度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 555,
+    "name": "專案追蹤模組｜允許使用者追蹤特定專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 556,
+    "name": "專案快照模組｜保存專案的歷史數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 557,
+    "name": "專案比較模組｜比較不同專案的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 558,
+    "name": "專案投資模組｜提供專案的投資建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 559,
+    "name": "專案回報模組｜計算專案的投資回報率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 560,
+    "name": "專案通知模組｜專案有更新或異常時通知。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 561,
+    "name": "ESG 評分模組｜為專案提供環境、社會、治理三面向評分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 562,
+    "name": "合規審查模組｜檢查專案是否符合監管要求。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 564,
+    "name": "市場情緒模組｜透過社群媒體數據分析市場情緒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 568,
+    "name": "市場對比模組｜比較不同市場的表現。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 569,
+    "name": "市場週期模組｜分析市場週期與趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 570,
+    "name": "市場異常模組｜偵測市場異常波動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 571,
+    "name": "用戶行為分析模組｜統計並分析使用者操作行為。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 572,
+    "name": "用戶分群模組｜依特徵將使用者分群。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 573,
+    "name": "用戶成長模組｜追蹤使用者數量的成長趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 574,
+    "name": "用戶留存模組｜統計使用者留存率與流失率。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 575,
+    "name": "用戶活躍度模組｜計算每日/月活使用者數。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 576,
+    "name": "用戶偏好模組｜分析使用者最常使用的功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 577,
+    "name": "用戶回饋模組｜收集與分析使用者的回饋意見。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 578,
+    "name": "用戶隱私模組｜保護使用者的隱私數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 580,
+    "name": "用戶積分模組｜提供積分獎勵以提升使用者參與度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 581,
+    "name": "合作夥伴模組｜展示平台合作夥伴清單。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 582,
+    "name": "合作專案模組｜允許追蹤與合作夥伴相關的專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 585,
+    "name": "合作公告模組｜發布與合作夥伴相關的公告。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 586,
+    "name": "合作分享模組｜允許分享合作成果。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 587,
+    "name": "合作邀請模組｜允許使用者邀請新合作夥伴。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 588,
+    "name": "合作評價模組｜允許使用者對合作夥伴進行評價。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 589,
+    "name": "合作排名模組｜依據表現對合作專案進行排名。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 590,
+    "name": "合作活動模組｜舉辦與合作夥伴相關的活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 592,
+    "name": "新手任務模組｜引導新使用者完成基礎操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 594,
+    "name": "常見問題模組｜提供 FAQ 查詢功能。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 600,
+    "name": "學習成就模組｜為完成課程的使用者頒發成就。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 616,
+    "name": "大數據虧損群體模組｜顯示表現最差的資金群體。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 619,
+    "name": "大數據情緒模組｜分析全球社群的市場情緒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 622,
+    "name": "自動化借貸模組｜支援 DeFi 借貸協議的自動操作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 625,
+    "name": "自動化空投模組｜自動檢測並申領可用空投。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 626,
+    "name": "自動化挖礦模組｜支援 PoS 或流動性挖礦的自動化。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 628,
+    "name": "自動化策略共享模組｜允許分享與複製自動化策略。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 629,
+    "name": "自動化組合模組｜允許設定多策略組合並同時運作。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 634,
+    "name": "AI 投資建議模組｜提供個人化投資組合建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 637,
+    "name": "AI 模擬專家模組｜提供模擬投資的專家級建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 642,
+    "name": "遊戲化挑戰模組｜提供每日或每週挑戰，增加黏性。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 643,
+    "name": "獎勵商城模組｜允許使用者使用積分兌換獎勵。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 644,
+    "name": "虛擬角色模組｜提供專屬虛擬助手角色。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 645,
+    "name": "虛擬導覽模組｜以遊戲化導覽方式引導新手上手。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 647,
+    "name": "社群活動模組｜舉辦 AMA、空投等社群活動。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 648,
+    "name": "社群禮包模組｜發放專屬使用者禮包。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 649,
+    "name": "社群聲譽模組｜建立基於互動的聲譽系統。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 651,
+    "name": "專案孵化模組｜追蹤新創專案並允許社群參與。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 652,
+    "name": "專案投票模組｜允許社群投票支持專案。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 653,
+    "name": "專案募資模組｜支援專案群眾募資。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 655,
+    "name": "專案成長模組｜追蹤專案成長狀況。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 656,
+    "name": "專案衰退模組｜分析專案失敗原因。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 657,
+    "name": "專案排行模組｜展示新創專案的熱門排行。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 660,
+    "name": "專案損失模組｜顯示專案投資虧損。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 661,
+    "name": "監管地圖模組｜以地圖顯示各國監管政策。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 662,
+    "name": "監管比較模組｜比較不同國家的監管強度。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 663,
+    "name": "監管趨勢模組｜顯示全球監管變化趨勢。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 665,
+    "name": "監管提醒模組｜當地監管變動時推播提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 669,
+    "name": "合規評分模組｜對專案進行合規性評分。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 683,
+    "name": "雲端備份模組｜自動備份所有使用者數據。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 684,
+    "name": "雲端回滾模組｜支援回滾至雲端快照版本。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 685,
+    "name": "雲端分享模組｜允許分享雲端清單與設定。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 687,
+    "name": "雲端授權模組｜管理雲端使用者的授權層級。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 689,
+    "name": "雲端異常模組｜檢測雲端運作的異常狀況。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 690,
+    "name": "雲端整合模組｜整合雲端服務與其他平台。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 691,
+    "name": "個人化助手模組｜提供語音或聊天式個人助理。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 692,
+    "name": "個人化建議模組｜根據操作習慣給予建議。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 693,
+    "name": "個人化面板模組｜允許自訂首頁面板。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 694,
+    "name": "個人化主題模組｜允許自訂介面風格。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 695,
+    "name": "個人化通知模組｜允許設定符合個人需求的提醒。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 696,
+    "name": "個人化學習模組｜根據使用者知識程度推送課程。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 697,
+    "name": "個人化回饋模組｜根據使用者回饋調整體驗。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 698,
+    "name": "個人化數據模組｜允許輸出個人化數據視圖。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 699,
+    "name": "個人化匯入模組｜允許匯入個人偏好設定。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 700,
+    "name": "個人化匯出模組｜允許匯出個人偏好設定。",
+    "desc": "",
+    "category": "utility"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": 55,
+    "name": "熱門排行模糊模式模組｜在 Free 帳號中以模糊圖表顯示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 92,
+    "name": "統計報告模組｜定期生成統計報告給 Pro 使用者。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 129,
+    "name": "資產熱點圖模組｜以圖像方式顯示資產集中分佈。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 146,
+    "name": "動態面板模組｜允許使用者自訂儀表板模組排列。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 268,
+    "name": "排行榜圖表模組｜以圖表形式展示排行榜數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 270,
+    "name": "排行榜快照報告模組｜自動生成快照比較報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 277,
+    "name": "AI 策略模組｜生成投資策略與模擬操作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 278,
+    "name": "AI 報告模組｜自動生成 AI 分析報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 285,
+    "name": "AI 模型報告模組｜生成 AI 模型的性能報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 291,
+    "name": "自訂儀表板模組｜允許使用者設計個人化儀表板。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 292,
+    "name": "自訂報表模組｜允許使用者設計個人化報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 293,
+    "name": "自訂通知模組｜允許使用者設計個人化通知條件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 297,
+    "name": "自訂標籤模組｜允許使用者設計個人化標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 298,
+    "name": "自訂清單模組｜允許使用者設計個人化清單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 299,
+    "name": "自訂群組模組｜允許使用者設計個人化群組。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 300,
+    "name": "自訂面板模組｜允許使用者設計個人化面板。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 304,
+    "name": "系統報告模組｜每日生成系統運行報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 332,
+    "name": "數據可視化模組｜以圖表方式呈現數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 333,
+    "name": "數據報告模組｜生成週報或月報。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 347,
+    "name": "通知模板模組｜允許管理者設計通知模板。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 367,
+    "name": "AI 模型報告模組｜生成 AI 模型效能的詳細報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 398,
+    "name": "使用者報告模組｜生成使用者的統計報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 437,
+    "name": "AI 報表模組｜自動生成專業投資報表與摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 514,
+    "name": "大數據報告模組｜生成週報、月報與年度報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 534,
+    "name": "策略報告模組｜生成策略績效的詳細報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 584,
+    "name": "合作回報模組｜生成合作相關的投資回報報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 595,
+    "name": "影片教學模組｜提供短片或影片教學。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 596,
+    "name": "教學任務模組｜透過任務式教學提升學習效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 598,
+    "name": "互動教學模組｜提供互動式學習體驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 608,
+    "name": "跨鏈稅務模組｜生成跨鏈操作的稅務報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 636,
+    "name": "AI 教學助手模組｜即時解答使用者的學習問題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 639,
+    "name": "AI 生態分析模組｜自動生成不同鏈生態的比較報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 664,
+    "name": "監管報告模組｜生成監管影響的專業報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 668,
+    "name": "合規稅務模組｜自動生成合規稅務文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 682,
+    "name": "雲端報告模組｜允許使用者在雲端生成與儲存報告。",
+    "desc": "",
+    "category": "creative"
+  }
+]
