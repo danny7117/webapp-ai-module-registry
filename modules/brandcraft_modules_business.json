@@ -3,1614 +3,3228 @@
     "id": 1,
     "name": "快速生成模組",
     "category": "business",
-    "desc": "使用者輸入商品名稱與簡單描述，即可快速生成商品圖文，適合上架需求。"
+    "desc": "使用者輸入商品名稱與簡單描述，即可快速生成商品圖文，適合上架需求。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 3,
     "name": "圖文排版模組",
     "category": "business",
-    "desc": "自動將文字與圖片進行排版，生成電商或社群可用的美觀版型。"
+    "desc": "自動將文字與圖片進行排版，生成電商或社群可用的美觀版型。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 4,
     "name": "文字優化模組",
     "category": "business",
-    "desc": "針對使用者輸入的商品文字進行優化，增加吸引力與銷售力。"
+    "desc": "針對使用者輸入的商品文字進行優化，增加吸引力與銷售力。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 17,
     "name": "自動描述生成模組",
     "category": "business",
-    "desc": "AI 根據商品資訊生成詳細描述，符合 SEO 與電商平台需求。"
+    "desc": "AI 根據商品資訊生成詳細描述，符合 SEO 與電商平台需求。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 18,
     "name": "SEO 優化模組",
     "category": "business",
-    "desc": "自動將商品文案優化以符合搜尋引擎規則。"
+    "desc": "自動將商品文案優化以符合搜尋引擎規則。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 20,
     "name": "行銷標語生成模組",
     "category": "business",
-    "desc": "AI 自動生成商品的行銷標語與吸睛口號。"
+    "desc": "AI 自動生成商品的行銷標語與吸睛口號。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 21,
     "name": "促銷活動模組",
     "category": "business",
-    "desc": "支援建立限時折扣或促銷標籤並套用至圖文。"
+    "desc": "支援建立限時折扣或促銷標籤並套用至圖文。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 34,
     "name": "API 串接模組",
     "category": "business",
-    "desc": "提供 API 介面以串接電商或行銷平台。"
+    "desc": "提供 API 介面以串接電商或行銷平台。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 35,
     "name": "Webhook 事件觸發模組",
     "category": "business",
-    "desc": "支援 Webhook 通知生成完成、上架成功等事件。"
+    "desc": "支援 Webhook 通知生成完成、上架成功等事件。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 37,
     "name": "金流串接模組",
     "category": "business",
-    "desc": "支援 PayPal、藍新金流等串接以供訂閱收費。"
+    "desc": "支援 PayPal、藍新金流等串接以供訂閱收費。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 51,
     "name": "圖片授權管理模組",
     "category": "business",
-    "desc": "標記與管理圖片的授權狀態。"
+    "desc": "標記與管理圖片的授權狀態。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 52,
     "name": "文字版權檢查模組",
     "category": "business",
-    "desc": "檢查生成文案是否涉及抄襲。"
+    "desc": "檢查生成文案是否涉及抄襲。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 59,
     "name": "廣告素材生成模組",
     "category": "business",
-    "desc": "生成適合投放於廣告平台的素材。"
+    "desc": "生成適合投放於廣告平台的素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 60,
     "name": "電商平台適配模組",
     "category": "business",
-    "desc": "針對蝦皮、momo、PChome 等平台生成最佳化格式。"
+    "desc": "針對蝦皮、momo、PChome 等平台生成最佳化格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 94,
     "name": "素材轉換模組",
     "category": "business",
-    "desc": "允許將圖片轉換為圖示或插畫風格。"
+    "desc": "允許將圖片轉換為圖示或插畫風格。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 96,
     "name": "語音導出模組",
     "category": "business",
-    "desc": "允許將生成的文字轉換為語音。"
+    "desc": "允許將生成的文字轉換為語音。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 117,
     "name": "營銷成效追蹤模組",
     "category": "business",
-    "desc": "追蹤生成內容在社群或電商平台的表現成效。"
+    "desc": "追蹤生成內容在社群或電商平台的表現成效。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 118,
     "name": "素材轉用模組",
     "category": "business",
-    "desc": "允許將生成的內容轉換成適用於不同管道的版本。"
+    "desc": "允許將生成的內容轉換成適用於不同管道的版本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 123,
     "name": "情境文案模組",
     "category": "business",
-    "desc": "生成適用於不同情境（節慶、活動）的文案。"
+    "desc": "生成適用於不同情境（節慶、活動）的文案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 124,
     "name": "擬人化行銷模組",
     "category": "business",
-    "desc": "生成帶有擬人化角色風格的商品文案。"
+    "desc": "生成帶有擬人化角色風格的商品文案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 126,
     "name": "自動投放模組",
     "category": "business",
-    "desc": "與廣告平台串接，自動將生成素材投放廣告。"
+    "desc": "與廣告平台串接，自動將生成素材投放廣告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 127,
     "name": "廣告受眾分析模組",
     "category": "business",
-    "desc": "AI 分析廣告受眾數據，優化素材表現。"
+    "desc": "AI 分析廣告受眾數據，優化素材表現。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 130,
     "name": "區域化行銷模組",
     "category": "business",
-    "desc": "針對不同地區生成符合文化習慣的圖文。"
+    "desc": "針對不同地區生成符合文化習慣的圖文。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 133,
     "name": "自動生成標籤模組",
     "category": "business",
-    "desc": "AI 自動生成 SEO 與社群標籤。"
+    "desc": "AI 自動生成 SEO 與社群標籤。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 134,
     "name": "多平台同步模組",
     "category": "business",
-    "desc": "生成後可自動同步至多個社群或電商平台。"
+    "desc": "生成後可自動同步至多個社群或電商平台。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 147,
     "name": "商品熱度分析模組",
     "category": "business",
-    "desc": "根據點擊率與銷售數據分析商品熱度。"
+    "desc": "根據點擊率與銷售數據分析商品熱度。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 149,
     "name": "自動上架模組",
     "category": "business",
-    "desc": "生成完成後可自動上架至電商平台。"
+    "desc": "生成完成後可自動上架至電商平台。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 150,
     "name": "商品庫存同步模組",
     "category": "business",
-    "desc": "與後端庫存系統同步，避免售罄商品繼續上架。"
+    "desc": "與後端庫存系統同步，避免售罄商品繼續上架。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 151,
     "name": "廣告點擊率分析模組",
     "category": "business",
-    "desc": "追蹤素材的廣告點擊表現。"
+    "desc": "追蹤素材的廣告點擊表現。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 155,
     "name": "內容安全檢測模組",
     "category": "business",
-    "desc": "檢查生成內容是否涉及廣告法或平台違規。"
+    "desc": "檢查生成內容是否涉及廣告法或平台違規。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 158,
     "name": "智能訂單導向模組",
     "category": "business",
-    "desc": "自動在圖文中嵌入導向購買的行銷元素。"
+    "desc": "自動在圖文中嵌入導向購買的行銷元素。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 162,
     "name": "即時行銷模組",
     "category": "business",
-    "desc": "針對節慶或突發事件快速生成行銷圖文。"
+    "desc": "針對節慶或突發事件快速生成行銷圖文。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 163,
     "name": "跨境電商模組",
     "category": "business",
-    "desc": "針對不同市場語言與平台生成圖文。"
+    "desc": "針對不同市場語言與平台生成圖文。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 166,
     "name": "金流紀錄模組",
     "category": "business",
-    "desc": "記錄金流交易紀錄並生成報告。"
+    "desc": "記錄金流交易紀錄並生成報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 176,
     "name": "素材市集模組",
     "category": "business",
-    "desc": "提供用戶上架與交易素材的市集平台。"
+    "desc": "提供用戶上架與交易素材的市集平台。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 212,
     "name": "模板審核模組",
     "category": "business",
-    "desc": "允許模板在上架市集前進行品質審核。"
+    "desc": "允許模板在上架市集前進行品質審核。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 217,
     "name": "字體授權管理模組",
     "category": "business",
-    "desc": "管理平台使用字體的授權狀態。"
+    "desc": "管理平台使用字體的授權狀態。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 237,
     "name": "電商規範檢查模組",
     "category": "business",
-    "desc": "檢查生成圖文是否符合平台規範（如字數、比例）。"
+    "desc": "檢查生成圖文是否符合平台規範（如字數、比例）。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 242,
     "name": "AI 廣告文案模組",
     "category": "business",
-    "desc": "自動生成符合廣告投放需求的文案。"
+    "desc": "自動生成符合廣告投放需求的文案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 244,
     "name": "節慶特效模組",
     "category": "business",
-    "desc": "針對節慶活動生成專屬特效與版型。"
+    "desc": "針對節慶活動生成專屬特效與版型。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 253,
     "name": "廣告 ROI 分析模組",
     "category": "business",
-    "desc": "計算廣告素材投放的投資報酬率。"
+    "desc": "計算廣告素材投放的投資報酬率。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 261,
     "name": "外部行銷數據導入模組",
     "category": "business",
-    "desc": "允許匯入外部行銷數據以輔助決策。"
+    "desc": "允許匯入外部行銷數據以輔助決策。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 265,
     "name": "電商趨勢分析模組",
     "category": "business",
-    "desc": "分析電商市場趨勢並提供素材建議。"
+    "desc": "分析電商市場趨勢並提供素材建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 270,
     "name": "品牌曝光分析模組",
     "category": "business",
-    "desc": "分析生成素材在社群與電商的曝光度。"
+    "desc": "分析生成素材在社群與電商的曝光度。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 273,
     "name": "智能語言轉換模組",
     "category": "business",
-    "desc": "自動將商品描述轉換成指定語言風格。"
+    "desc": "自動將商品描述轉換成指定語言風格。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 283,
     "name": "行銷成效預測模組",
     "category": "business",
-    "desc": "AI 預測生成素材的行銷成效。"
+    "desc": "AI 預測生成素材的行銷成效。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 285,
     "name": "素材授權交易模組",
     "category": "business",
-    "desc": "允許素材進行授權與交易。"
+    "desc": "允許素材進行授權與交易。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 286,
     "name": "區塊鏈溯源模組",
     "category": "business",
-    "desc": "透過區塊鏈記錄素材來源與授權狀態。"
+    "desc": "透過區塊鏈記錄素材來源與授權狀態。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 287,
     "name": "NFT 發佈模組",
     "category": "business",
-    "desc": "允許將素材轉換為 NFT 並發佈。"
+    "desc": "允許將素材轉換為 NFT 並發佈。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 292,
     "name": "互動行銷遊戲模組",
     "category": "business",
-    "desc": "生成與行銷相關的互動遊戲。"
+    "desc": "生成與行銷相關的互動遊戲。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 301,
     "name": "情境動畫模組",
     "category": "business",
-    "desc": "允許生成商品相關的短篇情境動畫，用於廣告宣傳。"
+    "desc": "允許生成商品相關的短篇情境動畫，用於廣告宣傳。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 302,
     "name": "沉浸式廣告模組",
     "category": "business",
-    "desc": "生成 3D 或互動式素材，提升使用者沉浸感。"
+    "desc": "生成 3D 或互動式素材，提升使用者沉浸感。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 308,
     "name": "廣告規範檢查模組",
     "category": "business",
-    "desc": "檢測生成素材是否符合廣告投放規範。"
+    "desc": "檢測生成素材是否符合廣告投放規範。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 326,
     "name": "快速風格轉換模組",
     "category": "business",
-    "desc": "允許將既有素材快速轉換成不同風格。"
+    "desc": "允許將既有素材快速轉換成不同風格。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 336,
     "name": "行銷活動日曆模組",
     "category": "business",
-    "desc": "提供行銷活動排程與提醒。"
+    "desc": "提供行銷活動排程與提醒。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 346,
     "name": "品牌授權檢查模組",
     "category": "business",
-    "desc": "檢查素材是否涉及品牌授權問題。"
+    "desc": "檢查素材是否涉及品牌授權問題。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 355,
     "name": "互動式廣告模組",
     "category": "business",
-    "desc": "生成使用者可互動的廣告素材。"
+    "desc": "生成使用者可互動的廣告素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 356,
     "name": "動態行銷海報模組",
     "category": "business",
-    "desc": "允許快速生成動態廣告海報。"
+    "desc": "允許快速生成動態廣告海報。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 369,
     "name": "平台整合模組",
     "category": "business",
-    "desc": "支援與其他設計或電商平台的整合。"
+    "desc": "支援與其他設計或電商平台的整合。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 374,
     "name": "AI 趨勢分析模組",
     "category": "business",
-    "desc": "分析最新設計與行銷趨勢，提出建議。"
+    "desc": "分析最新設計與行銷趨勢，提出建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 393,
     "name": "素材授權合約模組",
     "category": "business",
-    "desc": "生成素材時自動附帶授權合約。"
+    "desc": "生成素材時自動附帶授權合約。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 395,
     "name": "商品廣告模板模組",
     "category": "business",
-    "desc": "提供多種針對商品廣告的專屬模板。"
+    "desc": "提供多種針對商品廣告的專屬模板。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 396,
     "name": "AI 廣告投放建議模組",
     "category": "business",
-    "desc": "根據廣告成效數據提供最佳投放建議。"
+    "desc": "根據廣告成效數據提供最佳投放建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 401,
     "name": "AI 廣告生成模組",
     "category": "business",
-    "desc": "自動生成符合廣告平台規範的素材與文案。"
+    "desc": "自動生成符合廣告平台規範的素材與文案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 402,
     "name": "動態行銷方案模組",
     "category": "business",
-    "desc": "AI 根據市場數據生成行銷方案與素材。"
+    "desc": "AI 根據市場數據生成行銷方案與素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 406,
     "name": "智慧預算分配模組",
     "category": "business",
-    "desc": "根據廣告投放需求自動分配預算。"
+    "desc": "根據廣告投放需求自動分配預算。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 412,
     "name": "跨境行銷適配模組",
     "category": "business",
-    "desc": "針對跨境電商需求生成多語言、多文化素材。"
+    "desc": "針對跨境電商需求生成多語言、多文化素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 426,
     "name": "行銷事件提醒模組",
     "category": "business",
-    "desc": "提供重要行銷活動或事件的提醒。"
+    "desc": "提供重要行銷活動或事件的提醒。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 436,
     "name": "自動腳本生成模組",
     "category": "business",
-    "desc": "允許 AI 根據需求自動生成行銷腳本。"
+    "desc": "允許 AI 根據需求自動生成行銷腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 440,
     "name": "素材即時轉換模組",
     "category": "business",
-    "desc": "允許素材在輸出前即時轉換成不同格式。"
+    "desc": "允許素材在輸出前即時轉換成不同格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 441,
     "name": "廣告素材快取模組",
     "category": "business",
-    "desc": "針對廣告常用素材提供快取加速。"
+    "desc": "針對廣告常用素材提供快取加速。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 449,
     "name": "智能行銷 KPI 模組",
     "category": "business",
-    "desc": "追蹤與分析素材的關鍵績效指標。"
+    "desc": "追蹤與分析素材的關鍵績效指標。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 451,
     "name": "廣告點擊熱圖模組",
     "category": "business",
-    "desc": "生成廣告點擊的熱力圖。"
+    "desc": "生成廣告點擊的熱力圖。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 454,
     "name": "智慧行銷建議模組",
     "category": "business",
-    "desc": "根據數據分析自動生成行銷建議。"
+    "desc": "根據數據分析自動生成行銷建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 464,
     "name": "多語系 SEO 模組",
     "category": "business",
-    "desc": "針對不同語言自動生成 SEO 最佳化文案。"
+    "desc": "針對不同語言自動生成 SEO 最佳化文案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 468,
     "name": "AI 語音廣告模組",
     "category": "business",
-    "desc": "自動生成語音版的廣告文案與素材。"
+    "desc": "自動生成語音版的廣告文案與素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 475,
     "name": "自動行銷週報模組",
     "category": "business",
-    "desc": "自動生成週報並提供行銷洞察。"
+    "desc": "自動生成週報並提供行銷洞察。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 479,
     "name": "素材授權提醒模組",
     "category": "business",
-    "desc": "提醒素材授權即將到期。"
+    "desc": "提醒素材授權即將到期。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 485,
     "name": "AI 趨勢預測模組",
     "category": "business",
-    "desc": "AI 預測未來素材與行銷趨勢。"
+    "desc": "AI 預測未來素材與行銷趨勢。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 497,
     "name": "行銷轉換率分析模組",
     "category": "business",
-    "desc": "分析素材帶來的轉換率。"
+    "desc": "分析素材帶來的轉換率。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 498,
     "name": "素材隱私保護模組",
     "category": "business",
-    "desc": "確保素材不會外洩或被未授權使用。"
+    "desc": "確保素材不會外洩或被未授權使用。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 503,
     "name": "AI 語音合成模組",
     "category": "business",
-    "desc": "生成商品介紹或行銷文案的語音版本。"
+    "desc": "生成商品介紹或行銷文案的語音版本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 507,
     "name": "品牌活動推薦模組",
     "category": "business",
-    "desc": "AI 根據市場數據推薦適合的品牌活動主題。"
+    "desc": "AI 根據市場數據推薦適合的品牌活動主題。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 508,
     "name": "互動式廣告遊戲模組",
     "category": "business",
-    "desc": "生成簡易互動遊戲作為廣告素材。"
+    "desc": "生成簡易互動遊戲作為廣告素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 510,
     "name": "跨國支付模組",
     "category": "business",
-    "desc": "支援跨境電商支付整合。"
+    "desc": "支援跨境電商支付整合。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 519,
     "name": "廣告成本預測模組",
     "category": "business",
-    "desc": "AI 預測素材投放的廣告成本。"
+    "desc": "AI 預測素材投放的廣告成本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 534,
     "name": "商品成效預測模組",
     "category": "business",
-    "desc": "AI 預測商品未來銷售成效。"
+    "desc": "AI 預測商品未來銷售成效。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 536,
     "name": "行銷任務提醒模組",
     "category": "business",
-    "desc": "自動提醒即將到來的行銷任務。"
+    "desc": "自動提醒即將到來的行銷任務。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 541,
     "name": "AI 廣告語音模組",
     "category": "business",
-    "desc": "生成廣告所需的多語言語音。"
+    "desc": "生成廣告所需的多語言語音。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 545,
     "name": "廣告效益檢測模組",
     "category": "business",
-    "desc": "檢測素材投放後的效益並生成報告。"
+    "desc": "檢測素材投放後的效益並生成報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 550,
     "name": "行銷 A/B 測試模組",
     "category": "business",
-    "desc": "允許同一素材進行多版本 A/B 測試。"
+    "desc": "允許同一素材進行多版本 A/B 測試。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 556,
     "name": "廣告 ROI 模擬模組",
     "category": "business",
-    "desc": "模擬素材廣告投放後的投資報酬率。"
+    "desc": "模擬素材廣告投放後的投資報酬率。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 565,
     "name": "素材批次轉換模組",
     "category": "business",
-    "desc": "支援批次將素材轉換成不同格式。"
+    "desc": "支援批次將素材轉換成不同格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 566,
     "name": "品牌行銷歷史模組",
     "category": "business",
-    "desc": "保存品牌歷史行銷活動與素材紀錄。"
+    "desc": "保存品牌歷史行銷活動與素材紀錄。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 572,
     "name": "素材智慧防盜模組",
     "category": "business",
-    "desc": "自動檢測並防止素材被未授權使用。"
+    "desc": "自動檢測並防止素材被未授權使用。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 575,
     "name": "素材快速轉換模組",
     "category": "business",
-    "desc": "允許素材快速轉換為不同平台格式。"
+    "desc": "允許素材快速轉換為不同平台格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 603,
     "name": "智慧情境推薦模組",
     "category": "business",
-    "desc": "根據商品類別推薦最佳行銷情境方案。"
+    "desc": "根據商品類別推薦最佳行銷情境方案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 609,
     "name": "商品價值故事模組",
     "category": "business",
-    "desc": "將產品特點轉化為故事形式的行銷素材。"
+    "desc": "將產品特點轉化為故事形式的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 628,
     "name": "素材快速套版模組",
     "category": "business",
-    "desc": "支援將素材快速套用於不同行銷模板。"
+    "desc": "支援將素材快速套用於不同行銷模板。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 629,
     "name": "AI 行銷流程模組",
     "category": "business",
-    "desc": "AI 自動生成行銷流程建議與素材。"
+    "desc": "AI 自動生成行銷流程建議與素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 635,
     "name": "互動倒數模組",
     "category": "business",
-    "desc": "生成活動或商品促銷倒數計時器。"
+    "desc": "生成活動或商品促銷倒數計時器。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 637,
     "name": "行銷策略模擬模組",
     "category": "business",
-    "desc": "AI 模擬不同行銷策略並生成對應素材。"
+    "desc": "AI 模擬不同行銷策略並生成對應素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 647,
     "name": "跨平台廣告適配模組",
     "category": "business",
-    "desc": "自動生成符合各廣告平台規範的素材。"
+    "desc": "自動生成符合各廣告平台規範的素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 651,
     "name": "AI 故事腳本模組",
     "category": "business",
-    "desc": "自動生成與商品相關的行銷故事腳本。"
+    "desc": "自動生成與商品相關的行銷故事腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 668,
     "name": "智慧素材標準化模組",
     "category": "business",
-    "desc": "自動將素材轉換為統一標準格式。"
+    "desc": "自動將素材轉換為統一標準格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 673,
     "name": "互動廣告快閃模組",
     "category": "business",
-    "desc": "生成短時快閃互動廣告。"
+    "desc": "生成短時快閃互動廣告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 677,
     "name": "AI 行銷活動生成模組",
     "category": "business",
-    "desc": "AI 自動生成完整行銷活動方案與素材。"
+    "desc": "AI 自動生成完整行銷活動方案與素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 682,
     "name": "商品價值演算模組",
     "category": "business",
-    "desc": "AI 分析商品價值並轉化為圖文展示。"
+    "desc": "AI 分析商品價值並轉化為圖文展示。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 686,
     "name": "互動式行銷劇情模組",
     "category": "business",
-    "desc": "生成分支互動的行銷劇情。"
+    "desc": "生成分支互動的行銷劇情。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 688,
     "name": "素材價值追蹤模組",
     "category": "business",
-    "desc": "追蹤素材在行銷活動中的價值貢獻。"
+    "desc": "追蹤素材在行銷活動中的價值貢獻。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 702,
     "name": "智慧影片剪輯模組",
     "category": "business",
-    "desc": "AI 自動生成並剪輯短影片用於行銷。"
+    "desc": "AI 自動生成並剪輯短影片用於行銷。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 703,
     "name": "互動動畫模組",
     "category": "business",
-    "desc": "允許生成具互動效果的動畫行銷素材。"
+    "desc": "允許生成具互動效果的動畫行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 709,
     "name": "社群挑戰模組",
     "category": "business",
-    "desc": "生成與社群挑戰活動相關的行銷素材。"
+    "desc": "生成與社群挑戰活動相關的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 710,
     "name": "智慧對白生成模組",
     "category": "business",
-    "desc": "AI 自動生成商品相關的行銷對白。"
+    "desc": "AI 自動生成商品相關的行銷對白。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 716,
     "name": "品牌活動情境模組",
     "category": "business",
-    "desc": "生成適合品牌活動的專屬情境素材。"
+    "desc": "生成適合品牌活動的專屬情境素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 717,
     "name": "智慧標籤建議模組",
     "category": "business",
-    "desc": "AI 自動生成素材分類與行銷標籤。"
+    "desc": "AI 自動生成素材分類與行銷標籤。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 718,
     "name": "AI 對話腳本模組",
     "category": "business",
-    "desc": "自動生成行銷互動對話腳本。"
+    "desc": "自動生成行銷互動對話腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 723,
     "name": "智慧廣告自適應模組",
     "category": "business",
-    "desc": "自動生成符合各廣告平台規格的素材。"
+    "desc": "自動生成符合各廣告平台規格的素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 731,
     "name": "AI 互動劇情模組",
     "category": "business",
-    "desc": "生成帶有劇情分支的互動式行銷素材。"
+    "desc": "生成帶有劇情分支的互動式行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 736,
     "name": "互動用戶任務模組",
     "category": "business",
-    "desc": "生成與行銷活動相關的用戶任務。"
+    "desc": "生成與行銷活動相關的用戶任務。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 749,
     "name": "AI 廣告預測模組",
     "category": "business",
-    "desc": "AI 預測廣告素材的投放效果。"
+    "desc": "AI 預測廣告素材的投放效果。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 751,
     "name": "智慧互動模組",
     "category": "business",
-    "desc": "自動生成帶有互動功能的行銷素材。"
+    "desc": "自動生成帶有互動功能的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 764,
     "name": "素材存取授權模組",
     "category": "business",
-    "desc": "允許為素材設定授權層級。"
+    "desc": "允許為素材設定授權層級。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 776,
     "name": "智慧轉換率模組",
     "category": "business",
-    "desc": "自動計算素材在行銷中的轉換率。"
+    "desc": "自動計算素材在行銷中的轉換率。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 796,
     "name": "智慧互動劇情模組",
     "category": "business",
-    "desc": "AI 自動生成可互動的行銷劇情。"
+    "desc": "AI 自動生成可互動的行銷劇情。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 801,
     "name": "智慧跨平台廣告模組",
     "category": "business",
-    "desc": "AI 自動生成並投放廣告至多個平台。"
+    "desc": "AI 自動生成並投放廣告至多個平台。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 808,
     "name": "素材內容保護模組",
     "category": "business",
-    "desc": "自動防止素材被未授權使用或盜用。"
+    "desc": "自動防止素材被未授權使用或盜用。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 811,
     "name": "AI 行銷數據助手模組",
     "category": "business",
-    "desc": "AI 提供行銷數據洞察與建議。"
+    "desc": "AI 提供行銷數據洞察與建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 813,
     "name": "品牌知識圖譜模組",
     "category": "business",
-    "desc": "生成品牌相關的知識圖譜以輔助行銷。"
+    "desc": "生成品牌相關的知識圖譜以輔助行銷。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 829,
     "name": "AI 行銷計劃模組",
     "category": "business",
-    "desc": "自動生成完整的行銷計劃與素材。"
+    "desc": "自動生成完整的行銷計劃與素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 830,
     "name": "即時行銷數據模組",
     "category": "business",
-    "desc": "提供即時行銷數據追蹤與回報。"
+    "desc": "提供即時行銷數據追蹤與回報。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 834,
     "name": "跨平台行銷快取模組",
     "category": "business",
-    "desc": "加速跨平台行銷素材的生成。"
+    "desc": "加速跨平台行銷素材的生成。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 835,
     "name": "素材價值評估模組",
     "category": "business",
-    "desc": "AI 分析素材的潛在行銷價值。"
+    "desc": "AI 分析素材的潛在行銷價值。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 836,
     "name": "智慧廣告生成模組",
     "category": "business",
-    "desc": "自動生成不同形式的廣告素材。"
+    "desc": "自動生成不同形式的廣告素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 843,
     "name": "AI 智慧腳本模組",
     "category": "business",
-    "desc": "AI 自動生成行銷或產品腳本。"
+    "desc": "AI 自動生成行銷或產品腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 852,
     "name": "智慧數據整合模組",
     "category": "business",
-    "desc": "自動整合多來源行銷數據。"
+    "desc": "自動整合多來源行銷數據。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 854,
     "name": "互動式活動倒數模組",
     "category": "business",
-    "desc": "生成帶有倒數功能的行銷活動素材。"
+    "desc": "生成帶有倒數功能的行銷活動素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 858,
     "name": "智慧情境建模模組",
     "category": "business",
-    "desc": "AI 自動生成多種行銷情境模型。"
+    "desc": "AI 自動生成多種行銷情境模型。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 861,
     "name": "智慧互動遊戲模組",
     "category": "business",
-    "desc": "生成帶有遊戲互動功能的行銷素材。"
+    "desc": "生成帶有遊戲互動功能的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 863,
     "name": "AI 廣告拍攝腳本模組",
     "category": "business",
-    "desc": "AI 自動生成廣告拍攝腳本。"
+    "desc": "AI 自動生成廣告拍攝腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 864,
     "name": "素材跨格式轉換模組",
     "category": "business",
-    "desc": "允許素材快速轉換成多種格式。"
+    "desc": "允許素材快速轉換成多種格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 869,
     "name": "跨平台廣告快取模組",
     "category": "business",
-    "desc": "加速跨平台廣告的生成。"
+    "desc": "加速跨平台廣告的生成。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 877,
     "name": "跨部門行銷任務模組",
     "category": "business",
-    "desc": "支援跨部門行銷任務分配。"
+    "desc": "支援跨部門行銷任務分配。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 887,
     "name": "智慧廣告快取模組",
     "category": "business",
-    "desc": "加速廣告素材的生成與分發。"
+    "desc": "加速廣告素材的生成與分發。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 888,
     "name": "素材防竄改模組",
     "category": "business",
-    "desc": "防止素材被未授權修改。"
+    "desc": "防止素材被未授權修改。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 891,
     "name": "素材行銷情境模組",
     "category": "business",
-    "desc": "生成符合特定行銷情境的素材。"
+    "desc": "生成符合特定行銷情境的素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 899,
     "name": "AI 廣告劇本模組",
     "category": "business",
-    "desc": "自動生成廣告行銷的劇本。"
+    "desc": "自動生成廣告行銷的劇本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 903,
     "name": "AI 行銷腳本生成模組",
     "category": "business",
-    "desc": "AI 自動生成廣告與行銷活動的腳本。"
+    "desc": "AI 自動生成廣告與行銷活動的腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 911,
     "name": "AI 行銷活動模組",
     "category": "business",
-    "desc": "自動生成完整的行銷活動與相關素材。"
+    "desc": "自動生成完整的行銷活動與相關素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 912,
     "name": "素材授權管理模組",
     "category": "business",
-    "desc": "允許設定素材使用授權與範圍。"
+    "desc": "允許設定素材使用授權與範圍。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 917,
     "name": "用戶資料分析模組",
     "category": "business",
-    "desc": "分析用戶資料並提供行銷建議。"
+    "desc": "分析用戶資料並提供行銷建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 921,
     "name": "AI 廣告互動模組",
     "category": "business",
-    "desc": "生成可與消費者互動的廣告素材。"
+    "desc": "生成可與消費者互動的廣告素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 922,
     "name": "素材行銷洞察模組",
     "category": "business",
-    "desc": "AI 分析素材並提供市場洞察。"
+    "desc": "AI 分析素材並提供市場洞察。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 926,
     "name": "AI 商品價值模組",
     "category": "business",
-    "desc": "AI 分析商品價值並生成行銷建議。"
+    "desc": "AI 分析商品價值並生成行銷建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 934,
     "name": "AI 對話生成模組",
     "category": "business",
-    "desc": "AI 自動生成對話型行銷文案。"
+    "desc": "AI 自動生成對話型行銷文案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 936,
     "name": "智慧行銷策略模組",
     "category": "business",
-    "desc": "AI 自動規劃並生成行銷策略。"
+    "desc": "AI 自動規劃並生成行銷策略。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 941,
     "name": "AI 輔助行銷模組",
     "category": "business",
-    "desc": "提供行銷決策過程中的 AI 輔助。"
+    "desc": "提供行銷決策過程中的 AI 輔助。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 959,
     "name": "AI 行銷助理模組",
     "category": "business",
-    "desc": "AI 作為助理提供行銷策略建議。"
+    "desc": "AI 作為助理提供行銷策略建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 971,
     "name": "AI 行銷動畫模組",
     "category": "business",
-    "desc": "AI 自動生成行銷用動畫。"
+    "desc": "AI 自動生成行銷用動畫。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 978,
     "name": "互動式行銷活動模組",
     "category": "business",
-    "desc": "生成互動式的行銷活動素材。"
+    "desc": "生成互動式的行銷活動素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 982,
     "name": "AI 行銷快照模組",
     "category": "business",
-    "desc": "生成行銷相關的快照報告。"
+    "desc": "生成行銷相關的快照報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 987,
     "name": "素材行銷建議模組",
     "category": "business",
-    "desc": "AI 提供素材行銷應用的建議。"
+    "desc": "AI 提供素材行銷應用的建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 988,
     "name": "智慧行銷分析模組",
     "category": "business",
-    "desc": "提供完整的行銷數據分析報告。"
+    "desc": "提供完整的行銷數據分析報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 991,
     "name": "AI 行銷流程模組",
     "category": "business",
-    "desc": "AI 自動生成行銷流程的建議。"
+    "desc": "AI 自動生成行銷流程的建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 993,
     "name": "智慧行銷快取模組",
     "category": "business",
-    "desc": "提供行銷素材的快取功能。"
+    "desc": "提供行銷素材的快取功能。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 994,
     "name": "AI 用戶分析模組",
     "category": "business",
-    "desc": "分析用戶數據並提供行銷策略。"
+    "desc": "分析用戶數據並提供行銷策略。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1009,
     "name": "AI 自動廣告投放模組",
     "category": "business",
-    "desc": "AI 自動規劃並執行廣告投放。"
+    "desc": "AI 自動規劃並執行廣告投放。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1010,
     "name": "智慧行銷優化模組",
     "category": "business",
-    "desc": "AI 自動優化行銷活動與素材配置。"
+    "desc": "AI 自動優化行銷活動與素材配置。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1023,
     "name": "智慧多格式模組",
     "category": "business",
-    "desc": "自動生成並轉換多種格式的素材。"
+    "desc": "自動生成並轉換多種格式的素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1037,
     "name": "AI 行銷模擬模組",
     "category": "business",
-    "desc": "模擬不同的行銷方案並生成素材。"
+    "desc": "模擬不同的行銷方案並生成素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1045,
     "name": "智慧互動劇情模組",
     "category": "business",
-    "desc": "生成分支式的互動行銷劇情。"
+    "desc": "生成分支式的互動行銷劇情。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1053,
     "name": "智慧行銷腳本模組",
     "category": "business",
-    "desc": "AI 自動生成行銷腳本。"
+    "desc": "AI 自動生成行銷腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1057,
     "name": "AI 行銷快取模組",
     "category": "business",
-    "desc": "提供行銷素材的快取功能。"
+    "desc": "提供行銷素材的快取功能。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1068,
     "name": "AI 廣告建議模組",
     "category": "business",
-    "desc": "AI 根據市場數據提供廣告建議。"
+    "desc": "AI 根據市場數據提供廣告建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1076,
     "name": "智慧品牌行銷模組",
     "category": "business",
-    "desc": "AI 自動生成符合品牌的行銷方案。"
+    "desc": "AI 自動生成符合品牌的行銷方案。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1086,
     "name": "AI 行銷流程助手模組",
     "category": "business",
-    "desc": "AI 協助生成完整的行銷流程。"
+    "desc": "AI 協助生成完整的行銷流程。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1096,
     "name": "智慧行銷回顧模組",
     "category": "business",
-    "desc": "生成完整的行銷活動回顧。"
+    "desc": "生成完整的行銷活動回顧。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1103,
     "name": "素材行銷成效模組",
     "category": "business",
-    "desc": "追蹤並分析素材的行銷成效。"
+    "desc": "追蹤並分析素材的行銷成效。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1106,
     "name": "智慧品牌策略模組",
     "category": "business",
-    "desc": "AI 自動生成品牌策略與行銷建議。"
+    "desc": "AI 自動生成品牌策略與行銷建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1112,
     "name": "AI 行銷互動模組",
     "category": "business",
-    "desc": "生成與消費者互動的行銷素材。"
+    "desc": "生成與消費者互動的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1119,
     "name": "AI 行銷決策模組",
     "category": "business",
-    "desc": "AI 提供行銷決策的智慧建議。"
+    "desc": "AI 提供行銷決策的智慧建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1124,
     "name": "AI 行銷流程優化模組",
     "category": "business",
-    "desc": "AI 自動優化行銷流程設計。"
+    "desc": "AI 自動優化行銷流程設計。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1129,
     "name": "AI 行銷回顧模組",
     "category": "business",
-    "desc": "生成完整的行銷活動回顧報告。"
+    "desc": "生成完整的行銷活動回顧報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1132,
     "name": "智慧品牌行銷快照模組",
     "category": "business",
-    "desc": "保存品牌行銷數據的快照。"
+    "desc": "保存品牌行銷數據的快照。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1135,
     "name": "素材行銷比對模組",
     "category": "business",
-    "desc": "比對不同行銷素材的效能差異。"
+    "desc": "比對不同行銷素材的效能差異。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1141,
     "name": "智慧行銷快取模組",
     "category": "business",
-    "desc": "提供行銷素材的快取功能。"
+    "desc": "提供行銷素材的快取功能。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1144,
     "name": "AI 行銷情境模組",
     "category": "business",
-    "desc": "AI 自動生成不同情境的行銷素材。"
+    "desc": "AI 自動生成不同情境的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1154,
     "name": "AI 行銷助理模組",
     "category": "business",
-    "desc": "AI 作為助理提供行銷建議。"
+    "desc": "AI 作為助理提供行銷建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1157,
     "name": "AI 行銷動畫模組",
     "category": "business",
-    "desc": "AI 自動生成行銷動畫。"
+    "desc": "AI 自動生成行銷動畫。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1173,
     "name": "AI 自動行銷模組",
     "category": "business",
-    "desc": "AI 自動規劃並執行行銷任務。"
+    "desc": "AI 自動規劃並執行行銷任務。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1174,
     "name": "智慧行銷報告模組",
     "category": "business",
-    "desc": "自動生成完整的行銷報告。"
+    "desc": "自動生成完整的行銷報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1180,
     "name": "AI 行銷快照模組",
     "category": "business",
-    "desc": "生成行銷活動的快照報告。"
+    "desc": "生成行銷活動的快照報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1182,
     "name": "AI 多格式模組",
     "category": "business",
-    "desc": "AI 自動生成並轉換不同格式。"
+    "desc": "AI 自動生成並轉換不同格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1188,
     "name": "AI 行銷決策模組",
     "category": "business",
-    "desc": "提供 AI 的行銷決策建議。"
+    "desc": "提供 AI 的行銷決策建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1202,
     "name": "AI 廣告生成模組",
     "category": "business",
-    "desc": "AI 自動生成符合不同投放場景的廣告素材。"
+    "desc": "AI 自動生成符合不同投放場景的廣告素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1203,
     "name": "智慧行銷流程追蹤模組",
     "category": "business",
-    "desc": "追蹤行銷流程進度並生成報告。"
+    "desc": "追蹤行銷流程進度並生成報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1208,
     "name": "AI 行銷推播模組",
     "category": "business",
-    "desc": "AI 自動規劃並執行行銷推播。"
+    "desc": "AI 自動規劃並執行行銷推播。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1212,
     "name": "智慧行銷對比模組",
     "category": "business",
-    "desc": "比對不同策略下的行銷素材效能。"
+    "desc": "比對不同策略下的行銷素材效能。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1215,
     "name": "AI 即時互動模組",
     "category": "business",
-    "desc": "生成即時互動的行銷素材。"
+    "desc": "生成即時互動的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1219,
     "name": "AI 語音生成模組",
     "category": "business",
-    "desc": "AI 自動生成多語音的行銷素材。"
+    "desc": "AI 自動生成多語音的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1231,
     "name": "AI 行銷動畫模組",
     "category": "business",
-    "desc": "自動生成行銷活動所需的動畫。"
+    "desc": "自動生成行銷活動所需的動畫。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1239,
     "name": "AI 行銷決策模組",
     "category": "business",
-    "desc": "提供 AI 行銷決策建議。"
+    "desc": "提供 AI 行銷決策建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1241,
     "name": "AI 對話生成模組",
     "category": "business",
-    "desc": "AI 自動生成行銷對話。"
+    "desc": "AI 自動生成行銷對話。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1255,
     "name": "AI 行銷建議模組",
     "category": "business",
-    "desc": "AI 提供即時行銷策略建議。"
+    "desc": "AI 提供即時行銷策略建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1260,
     "name": "智慧互動素材模組",
     "category": "business",
-    "desc": "生成帶有互動功能的行銷素材。"
+    "desc": "生成帶有互動功能的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1265,
     "name": "AI 行銷模擬模組",
     "category": "business",
-    "desc": "模擬行銷方案並生成分析。"
+    "desc": "模擬行銷方案並生成分析。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1269,
     "name": "AI 自動決策模組",
     "category": "business",
-    "desc": "AI 自動做出專案或行銷決策。"
+    "desc": "AI 自動做出專案或行銷決策。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1273,
     "name": "AI 行銷互動模組",
     "category": "business",
-    "desc": "生成帶有互動的行銷內容。"
+    "desc": "生成帶有互動的行銷內容。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1279,
     "name": "AI 互動劇情模組",
     "category": "business",
-    "desc": "AI 自動生成互動式的行銷劇情。"
+    "desc": "AI 自動生成互動式的行銷劇情。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1289,
     "name": "AI 行銷快取模組",
     "category": "business",
-    "desc": "提供行銷快取管理。"
+    "desc": "提供行銷快取管理。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1291,
     "name": "AI 行銷腳本模組",
     "category": "business",
-    "desc": "AI 自動生成行銷腳本。"
+    "desc": "AI 自動生成行銷腳本。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1301,
     "name": "AI 行銷數據融合模組",
     "category": "business",
-    "desc": "AI 自動融合多來源的行銷數據並生成報告。"
+    "desc": "AI 自動融合多來源的行銷數據並生成報告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1307,
     "name": "AI 語音廣告模組",
     "category": "business",
-    "desc": "自動生成品牌專屬的語音廣告。"
+    "desc": "自動生成品牌專屬的語音廣告。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1311,
     "name": "AI 行銷互動生成模組",
     "category": "business",
-    "desc": "生成具有互動功能的行銷素材。"
+    "desc": "生成具有互動功能的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1316,
     "name": "智慧跨產業模組",
     "category": "business",
-    "desc": "分析並生成跨產業的行銷素材。"
+    "desc": "分析並生成跨產業的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1323,
     "name": "AI 行銷流程追蹤模組",
     "category": "business",
-    "desc": "追蹤行銷流程進度並提供建議。"
+    "desc": "追蹤行銷流程進度並提供建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1325,
     "name": "AI 行銷檢測模組",
     "category": "business",
-    "desc": "檢測行銷素材是否達成目標。"
+    "desc": "檢測行銷素材是否達成目標。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1335,
     "name": "AI 行銷情境模組",
     "category": "business",
-    "desc": "生成符合特定情境的行銷素材。"
+    "desc": "生成符合特定情境的行銷素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1349,
     "name": "AI 行銷分析模組",
     "category": "business",
-    "desc": "AI 提供行銷數據的深度分析。"
+    "desc": "AI 提供行銷數據的深度分析。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1354,
     "name": "智慧專案行銷模組",
     "category": "business",
-    "desc": "生成專案的行銷推廣計劃。"
+    "desc": "生成專案的行銷推廣計劃。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1357,
     "name": "AI 行銷輔助模組",
     "category": "business",
-    "desc": "AI 協助規劃與執行行銷活動。"
+    "desc": "AI 協助規劃與執行行銷活動。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1364,
     "name": "智慧品牌管理模組",
     "category": "business",
-    "desc": "管理品牌素材與行銷數據。"
+    "desc": "管理品牌素材與行銷數據。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1377,
     "name": "AI 行銷回顧模組",
     "category": "business",
-    "desc": "生成行銷活動的完整回顧。"
+    "desc": "生成行銷活動的完整回顧。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1382,
     "name": "智慧行銷比對模組",
     "category": "business",
-    "desc": "比對不同行銷素材的效能差異。"
+    "desc": "比對不同行銷素材的效能差異。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1389,
     "name": "AI 行銷輔導模組",
     "category": "business",
-    "desc": "AI 協助規劃與指導行銷活動。"
+    "desc": "AI 協助規劃與指導行銷活動。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1393,
     "name": "AI 互動內容模組",
     "category": "business",
-    "desc": "AI 自動生成互動式的行銷內容。"
+    "desc": "AI 自動生成互動式的行銷內容。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1397,
     "name": "AI 行銷數據檢測模組",
     "category": "business",
-    "desc": "檢測行銷數據的準確性。"
+    "desc": "檢測行銷數據的準確性。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1401,
     "name": "AI 行銷影像模組",
     "category": "business",
-    "desc": "AI 自動生成行銷活動所需影像素材。"
+    "desc": "AI 自動生成行銷活動所需影像素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1409,
     "name": "AI 行銷互動快照模組",
     "category": "business",
-    "desc": "保存 AI 行銷互動數據的快照。"
+    "desc": "保存 AI 行銷互動數據的快照。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1417,
     "name": "主題活動推播模組",
     "category": "business",
-    "desc": "依據節日或行銷活動自動生成主題素材。"
+    "desc": "依據節日或行銷活動自動生成主題素材。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1421,
     "name": "智慧社群快速分享模組",
     "category": "business",
-    "desc": "自動將素材轉換成適合社群分享的格式。"
+    "desc": "自動將素材轉換成適合社群分享的格式。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1436,
     "name": "社群行銷素材生成套件",
     "category": "business",
-    "desc": "自動生成不同平台的行銷素材模板。"
+    "desc": "自動生成不同平台的行銷素材模板。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1462,
     "name": "情緒曲線圖像化模組",
     "category": "business",
-    "desc": "將角色情緒變化轉換為圖像化曲線。"
+    "desc": "將角色情緒變化轉換為圖像化曲線。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1599,
     "name": "日常回顧快照模組",
     "category": "business",
-    "desc": "保存角色日常活動的快照。"
+    "desc": "保存角色日常活動的快照。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1679,
     "name": "用戶回饋模組",
     "category": "business",
-    "desc": "收集用戶回饋並轉化為改善建議。"
+    "desc": "收集用戶回饋並轉化為改善建議。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1691,
     "name": "用戶活動模組",
     "category": "business",
-    "desc": "追蹤用戶在平台上的活動數據。"
+    "desc": "追蹤用戶在平台上的活動數據。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1860,
     "name": "MV 語錄影片生成模組",
     "category": "business",
-    "desc": "自動將語錄轉換為 MV 風格影片。"
+    "desc": "自動將語錄轉換為 MV 風格影片。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1876,
     "name": "語音轉換模組",
     "category": "business",
-    "desc": "允許用戶將文字轉換為角色語音。"
+    "desc": "允許用戶將文字轉換為角色語音。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 1890,
     "name": "MV 語錄動畫模組",
     "category": "business",
-    "desc": "將語錄轉換為動畫化 MV 內容。"
+    "desc": "將語錄轉換為動畫化 MV 內容。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 5005,
     "name": "對話情緒分析模組",
     "category": "business",
-    "desc": "即時分析角色對話的情緒狀態，並轉換成數據可視化。"
+    "desc": "即時分析角色對話的情緒狀態，並轉換成數據可視化。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 8067,
     "name": "效能監測代理模組",
     "category": "business",
-    "desc": "安裝於客戶端的代理程式，用於回報效能數據。"
+    "desc": "安裝於客戶端的代理程式，用於回報效能數據。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 8121,
     "name": "效能監控代理模組",
     "category": "business",
-    "desc": "部署於客戶端的效能監控代理，回報即時數據。"
+    "desc": "部署於客戶端的效能監控代理，回報即時數據。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 8142,
     "name": "異常記錄視覺化模組",
     "category": "business",
-    "desc": "將異常記錄轉換為視覺化儀表板。"
+    "desc": "將異常記錄轉換為視覺化儀表板。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 8198,
     "name": "異常數據可視化工具",
     "category": "business",
-    "desc": "將異常數據轉換為圖表顯示。"
+    "desc": "將異常數據轉換為圖表顯示。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 8716,
     "name": "伺服器診斷日誌視覺化模組",
     "category": "business",
-    "desc": "將伺服器診斷日誌轉換為視覺化圖表。"
+    "desc": "將伺服器診斷日誌轉換為視覺化圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9201,
     "name": "異常案例雲端視覺化模組",
     "category": "business",
-    "desc": "將雲端異常案例數據即時轉換為互動圖表。"
+    "desc": "將雲端異常案例數據即時轉換為互動圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9238,
     "name": "伺服器狀態即時視覺化模組",
     "category": "business",
-    "desc": "將伺服器狀態即時轉換成圖表。"
+    "desc": "將伺服器狀態即時轉換成圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9287,
     "name": "效能異常數據視覺化器",
     "category": "business",
-    "desc": "將效能異常數據轉換為圖表。"
+    "desc": "將效能異常數據轉換為圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9467,
     "name": "異常案例智慧視覺化模組",
     "category": "business",
-    "desc": "將異常案例數據轉換為互動圖表。"
+    "desc": "將異常案例數據轉換為互動圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9559,
     "name": "伺服器診斷智慧視覺化器",
     "category": "business",
-    "desc": "將診斷數據轉換為圖表視覺化顯示。"
+    "desc": "將診斷數據轉換為圖表視覺化顯示。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9604,
     "name": "異常案例日誌全景分析器",
     "category": "business",
-    "desc": "將日誌數據轉換為全景視圖，支持互動檢索。"
+    "desc": "將日誌數據轉換為全景視圖，支持互動檢索。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9715,
     "name": "效能異常案例智慧視覺化器",
     "category": "business",
-    "desc": "將案例數據轉換為可視化互動圖表。"
+    "desc": "將案例數據轉換為可視化互動圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9762,
     "name": "伺服器診斷智慧視覺化模組",
     "category": "business",
-    "desc": "將伺服器診斷數據轉換為互動圖表。"
+    "desc": "將伺服器診斷數據轉換為互動圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 9988,
     "name": "異常案例智慧雲端視覺化模組",
     "category": "business",
-    "desc": "將雲端異常案例數據轉換為互動式圖表。"
+    "desc": "將雲端異常案例數據轉換為互動式圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10020,
     "name": "模組授權到期提醒器",
     "category": "business",
-    "desc": "提醒用戶模組授權即將到期，避免中斷。"
+    "desc": "提醒用戶模組授權即將到期，避免中斷。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10042,
     "name": "模組安全授權檢查器",
     "category": "business",
-    "desc": "驗證模組授權是否合法有效。"
+    "desc": "驗證模組授權是否合法有效。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10048,
     "name": "模組授權智慧管理器",
     "category": "business",
-    "desc": "集中管理所有模組的授權狀態。"
+    "desc": "集中管理所有模組的授權狀態。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10059,
     "name": "模組日誌視覺化助手",
     "category": "business",
-    "desc": "將模組日誌轉換為互動視覺圖表。"
+    "desc": "將模組日誌轉換為互動視覺圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10118,
     "name": "模組安全授權提醒器",
     "category": "business",
-    "desc": "提醒用戶模組授權即將過期。"
+    "desc": "提醒用戶模組授權即將過期。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10151,
     "name": "智慧模組日誌視覺化器",
     "category": "business",
-    "desc": "將日誌數據轉換為互動圖表。"
+    "desc": "將日誌數據轉換為互動圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10152,
     "name": "模組授權狀態監控器",
     "category": "business",
-    "desc": "監控所有模組授權使用狀態。"
+    "desc": "監控所有模組授權使用狀態。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10172,
     "name": "模組安全授權管理助手",
     "category": "business",
-    "desc": "自動管理模組授權分配。"
+    "desc": "自動管理模組授權分配。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10219,
     "name": "智慧模組效能視覺化器",
     "category": "business",
-    "desc": "將效能數據轉換為視覺化圖表。"
+    "desc": "將效能數據轉換為視覺化圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10223,
     "name": "智慧模組授權狀態追蹤器",
     "category": "business",
-    "desc": "追蹤模組授權使用與過期情況。"
+    "desc": "追蹤模組授權使用與過期情況。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10244,
     "name": "模組授權智慧快取器",
     "category": "business",
-    "desc": "保存模組授權相關快取數據。"
+    "desc": "保存模組授權相關快取數據。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10305,
     "name": "智慧模組授權日誌管理器",
     "category": "business",
-    "desc": "集中保存授權使用的日誌紀錄。"
+    "desc": "集中保存授權使用的日誌紀錄。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10404,
     "name": "模組授權異常監控器",
     "category": "business",
-    "desc": "監控模組授權狀態是否異常並自動通知。"
+    "desc": "監控模組授權狀態是否異常並自動通知。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10520,
     "name": "模組異常智慧視覺化助手",
     "category": "business",
-    "desc": "將異常案例數據轉換成互動圖表。"
+    "desc": "將異常案例數據轉換成互動圖表。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   },
   {
     "id": 10608,
     "name": "模組安全智慧日誌視覺化器",
     "category": "business",
-    "desc": "將安全日誌轉換為互動圖表，方便檢視。"
+    "desc": "將安全日誌轉換為互動圖表，方便檢視。",
+    "tags": [
+      "project:BrandCraft"
+    ],
+    "source": {
+      "project": "BrandCraft AI"
+    }
   }
 ]
