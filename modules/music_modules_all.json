@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "快速搜歌系統｜AI 輸入搜尋（歌詞、哼唱、錄音片段）即可找到歌曲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 2,
+    "name": "當歌手的喜悅程式｜AI 聲紋模擬，將使用者聲音套用到歌曲演唱。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 3,
+    "name": "智能音樂播放器｜建立「我的歌本」，支援曲風變奏、行車模式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 4,
+    "name": "智能創作音悅模式｜生成背景音樂（咖啡廳、水晶、Lo-Fi、睡眠）。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 5,
+    "name": "哼唱搜歌模組｜僅需哼唱旋律即可搜尋歌曲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 6,
+    "name": "歌詞片段辨識模組｜輸入部分歌詞即可快速定位歌曲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 7,
+    "name": "錄音 AI 聽歌模組｜錄音幾秒鐘，自動比對歌曲庫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 8,
+    "name": "跨平台串流串接模組｜支援 Spotify、Apple Music、YouTube Music 等。",
+    "desc": "",
+    "category": "utility"
+  },
+  {
+    "id": 9,
+    "name": "曲風變奏模組｜將同首歌切換成不同風格（搖滾、抒情、電音、爵士）。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 10,
+    "name": "語音指令播放模組｜透過語音指令控制播放（播放快樂的歌）。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 11,
+    "name": "情境自動化模組｜根據情境（運動、工作、休息）自動挑選音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 12,
+    "name": "多語推薦模組｜支援多國語言的歌曲搜尋與推薦。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 13,
+    "name": "行車模式節奏模組｜根據行車速度自動調整播放節奏。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 14,
+    "name": "極速駕駛音樂模組｜在高速行駛時切換成快節奏音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 15,
+    "name": "駕駛安全提示模組｜偵測駕駛疲勞，推播舒緩音樂提醒休息。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 16,
+    "name": "情緒感知推薦模組｜AI 偵測使用者情緒後推薦音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 17,
+    "name": "療癒音樂模組｜根據心理狀態推薦治癒系音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 18,
+    "name": "睡眠專屬音樂模組｜自動生成適合入睡的音樂循環。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 19,
+    "name": "專注學習音樂模組｜為工作、讀書提供長時間專注音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 20,
+    "name": "AI 歌曲共創模組｜使用者輸入旋律/歌詞，AI 與其共創新曲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 21,
+    "name": "旋律拖拉實驗室模組｜使用者可拖拉旋律片段產生變奏。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 22,
+    "name": "AI 節奏調整模組｜自動修改 BPM，製作快版/慢版。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 23,
+    "name": "AI 自動混音模組｜合併多個曲段，生成全新混音作品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 24,
+    "name": "音色替換模組｜讓同一首歌用不同樂器演奏（鋼琴、吉他、弦樂）。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 25,
+    "name": "角色聲音庫模組｜建立多種 AI 聲音角色，供歌曲演唱使用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 26,
+    "name": "角色扮演演唱模組｜選擇角色，讓角色替你演唱歌曲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 27,
+    "name": "虛擬合唱模組｜多個角色/聲音庫合唱同一首歌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 28,
+    "name": "明星聲紋模擬模組｜模仿知名歌手聲紋演唱（合法授權下）。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 29,
+    "name": "授權音源管理模組｜管理串流 API 與使用者自上傳音樂的合法授權。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 30,
+    "name": "使用者上傳音樂模組｜允許上傳自有音源進行比對與播放。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 31,
+    "name": "音源智慧版權檢測模組｜檢測是否含版權內容，避免侵權。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 32,
+    "name": "AI 音樂風格生成模組｜AI 自動生成 Jazz、Lo-Fi、R&B 等曲風。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 33,
+    "name": "AI 歌詞生成模組｜輸入主題，AI 自動創作歌詞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 34,
+    "name": "AI 配唱模組｜AI 幫助生成旋律並自動配上演唱。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 35,
+    "name": "AI 音樂影片生成模組｜根據音樂自動生成簡易 MV。",
+    "desc": "",
+    "category": "creative"
+  }
+]
