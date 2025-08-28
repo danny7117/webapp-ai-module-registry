@@ -1,0 +1,422 @@
+[
+  {
+    "id": 52,
+    "name": "訂閱管理模組｜支援月費、年費訂閱模式。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 53,
+    "name": "點數商城模組｜使用者可購買點數並於平台消費。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 62,
+    "name": "自動生成貼文模組｜將創意自動轉換成社群貼文。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 67,
+    "name": "廣告代碼插入模組｜允許插入 Google Ads / FB Pixel。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 68,
+    "name": "廣告收益分析模組｜追蹤廣告收益成效。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 129,
+    "name": "作品收益分帳模組｜比賽或上架作品的收益自動分帳。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 151,
+    "name": "商城商品模組｜建立商品列表。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 158,
+    "name": "商品分潤模組｜商品銷售收益可分潤給合作方。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 159,
+    "name": "商品上架管理模組｜支援商品新增、修改、下架。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 165,
+    "name": "直播分潤模組｜禮物收益可與主播自動分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 168,
+    "name": "直播廣告模組｜於直播畫面插入廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 181,
+    "name": "廣告投放模組｜允許設定廣告活動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 182,
+    "name": "廣告素材管理模組｜支援圖片、影片素材管理。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 183,
+    "name": "廣告點擊追蹤模組｜追蹤廣告點擊來源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 184,
+    "name": "廣告轉換追蹤模組｜追蹤使用者轉換行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 185,
+    "name": "廣告成效分析模組｜生成 ROI 成效報表。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 186,
+    "name": "廣告分眾模組｜依不同條件設定廣告分眾。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 187,
+    "name": "廣告預算模組｜允許設定每日或總預算。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 188,
+    "name": "廣告投放排程模組｜允許排程自動投放廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 189,
+    "name": "廣告關鍵字模組｜支援多組關鍵字設定。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 190,
+    "name": "廣告再行銷模組｜自動追蹤訪客並投放再行銷。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 286,
+    "name": "影片轉碼模組｜支援不同格式的轉換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 300,
+    "name": "音樂收益分帳模組｜自動分配音樂收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 302,
+    "name": "Podcast 播放模組｜支援播放與訂閱功能。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 308,
+    "name": "Podcast 廣告插播模組｜允許在節目中插入廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 309,
+    "name": "Podcast 收益分帳模組｜廣告收益自動分配。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 406,
+    "name": "聊天語音轉文字模組｜支援語音輸入並轉換文字。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 421,
+    "name": "廣告素材生成模組｜AI 自動生成圖片與文字廣告素材。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 422,
+    "name": "廣告文案優化模組｜AI 優化廣告標題與描述。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 423,
+    "name": "廣告點擊預測模組｜AI 預測點擊率。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 424,
+    "name": "廣告投放建議模組｜AI 建議最佳投放時間與平台。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 425,
+    "name": "廣告素材 A/B 測試模組｜自動進行多版本測試。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 426,
+    "name": "廣告情感分析模組｜分析廣告文案的情感取向。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 427,
+    "name": "廣告聲音生成模組｜AI 生成廣告配音。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 428,
+    "name": "廣告影片生成模組｜AI 自動生成短影片素材。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 429,
+    "name": "廣告自動投放模組｜AI 自動設定與執行投放。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 430,
+    "name": "廣告轉換優化模組｜AI 優化轉換流程。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 460,
+    "name": "電商數據分析模組｜分析銷售與用戶行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 518,
+    "name": "新聞訂閱模組｜允許用戶訂閱特定類別新聞。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 649,
+    "name": "AI 模型轉換模組｜支援不同框架的模型轉換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 669,
+    "name": "元宇宙廣告模組｜允許企業投放虛擬廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 698,
+    "name": "娛樂廣告模組｜允許插入娛樂廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 699,
+    "name": "娛樂收益模組｜分析娛樂內容收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 711,
+    "name": "創作者中心模組｜集中管理個人作品與收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 712,
+    "name": "創作者收益模組｜自動結算作品收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 717,
+    "name": "創作者訂閱模組｜允許粉絲訂閱創作者內容。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 725,
+    "name": "影音轉檔模組｜支援多種格式轉換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 752,
+    "name": "文件轉檔模組｜支援多格式文件轉換。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 771,
+    "name": "商務 CRM 模組｜管理客戶資料與互動。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 773,
+    "name": "商務銷售模組｜追蹤銷售數據與進度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 831,
+    "name": "房屋刊登模組｜允許用戶上架房源資訊。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 859,
+    "name": "體育門票模組｜支援票務銷售與驗證。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 908,
+    "name": "電商會員模組｜管理會員資料與等級制度。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 909,
+    "name": "電商客服模組｜集中處理客戶服務需求。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 910,
+    "name": "電商數據分析模組｜分析銷售、流量與用戶行為。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 911,
+    "name": "直播帶貨模組｜支援直播過程中的商品銷售。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 916,
+    "name": "直播廣告插播模組｜允許插入廣告片段。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 921,
+    "name": "AI 文案生成模組｜AI 自動生成商品或廣告文案。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 967,
+    "name": "新聞訂閱模組｜允許訂閱新聞頻道。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1020,
+    "name": "IoT 數據可視化模組｜將裝置數據轉換為圖表。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1065,
+    "name": "新聞訂閱模組｜允許使用者訂閱新聞來源。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1077,
+    "name": "娛樂廣告模組｜允許插入娛樂廣告。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1078,
+    "name": "娛樂收益模組｜計算娛樂內容的收益。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1081,
+    "name": "商務 CRM 模組｜管理顧客資料與互動紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1086,
+    "name": "商務銷售模組｜追蹤銷售數據與業績。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1113,
+    "name": "創作者收益分潤模組｜自動計算收益分潤。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1114,
+    "name": "創作者廣告模組｜允許投放廣告於作品頁面。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1125,
+    "name": "影音廣告模組｜支援插入廣告片段。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1172,
+    "name": "商務 CRM 模組｜管理客戶與互動紀錄。",
+    "desc": "",
+    "category": "business"
+  },
+  {
+    "id": 1178,
+    "name": "商務銷售模組｜管理銷售進度與數據。",
+    "desc": "",
+    "category": "business"
+  }
+]

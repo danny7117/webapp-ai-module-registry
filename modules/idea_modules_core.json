@@ -1,0 +1,686 @@
+[
+  {
+    "id": 4,
+    "name": "需求判斷模組｜偵測使用者輸入是否需要 API 串接或資料庫支持。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 5,
+    "name": "模組化架構核心｜所有功能皆以模組方式進行拼接，支援動態擴充。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 8,
+    "name": "API 串接判斷模組｜自動分析創意是否需外部 API，並生成串接提示。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 10,
+    "name": "自動部署模組｜完成創意建構後自動部署至雲端。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 12,
+    "name": "Webhook 驗證模組｜處理支付平台的驗證與通知，確保安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 13,
+    "name": "API 金鑰管理模組｜提供 UI 表單讓使用者輸入 API Key 並加密存放。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 14,
+    "name": "環境變數設定模組｜自動將 API Key、資料庫連線字串寫入安全區域。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 21,
+    "name": "資料庫自動建構模組｜根據創意自動生成所需資料表。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 23,
+    "name": "資料庫串接測試模組｜自動檢測連線是否正常。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 24,
+    "name": "快取管理模組｜支援 Redis 等快取系統，提升效能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 28,
+    "name": "多語系支援模組｜自動生成中、英、日等多語版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 30,
+    "name": "簡訊通知模組｜透過 SMS API 推送簡訊提醒。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 34,
+    "name": "自動回滾模組｜若部署失敗，自動回復至最近成功版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 36,
+    "name": "API 模擬器模組｜在無 API Key 時提供假資料模擬。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 41,
+    "name": "金流測試沙盒模組｜串接 PayPal Sandbox 等測試環境。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 44,
+    "name": "安全驗證模組｜防止 CSRF、XSS 等攻擊。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 45,
+    "name": "使用者權限模組｜分級管理不同角色的權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 48,
+    "name": "表單自動驗證模組｜即時檢查表單輸入是否正確。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 72,
+    "name": "第三方 API 快速接入模組｜提供常見 API 的快速串接模板。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 73,
+    "name": "外部服務認證模組｜整合 OAuth、JWT 等安全協定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 78,
+    "name": "多平台佈署模組｜支援 Firebase、Vercel、Replit 等多平台。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 81,
+    "name": "錯誤日誌收集模組｜集中收集與顯示錯誤紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 82,
+    "name": "性能監控模組｜持續監控效能並生成警報。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 83,
+    "name": "API 呼叫次數監控模組｜限制單位時間內 API 呼叫次數。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 90,
+    "name": "模組驗證前檢查模組｜部署前檢查模組依賴與語法。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 100,
+    "name": "安全警示模組｜異常登入或交易立即通知管理員。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 106,
+    "name": "聊天室訊息加密模組｜訊息端對端加密，保障隱私。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 126,
+    "name": "作品下載模組｜允許作者設定是否開放下載。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 127,
+    "name": "作品授權管理模組｜支援作品授權條款設定。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 136,
+    "name": "知識庫版本控制模組｜文章更新時保留歷史版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 172,
+    "name": "活動票務模組｜生成電子票券並驗證。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 194,
+    "name": "系統更新日誌模組｜集中紀錄所有更新紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 195,
+    "name": "系統 API 文件模組｜自動生成 API 使用說明。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 196,
+    "name": "系統日誌分析模組｜分析伺服器與應用日誌。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 197,
+    "name": "系統錯誤監控模組｜集中管理錯誤事件。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 199,
+    "name": "系統版本控制模組｜支援多版本回滾。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 200,
+    "name": "系統排程任務模組｜允許設定週期性自動任務。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 204,
+    "name": "雙重驗證模組｜登入時啟用雙重驗證增加安全性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 206,
+    "name": "使用者權限管理模組｜根據角色分配不同權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 209,
+    "name": "使用者通知設定模組｜允許自訂通知偏好。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 210,
+    "name": "使用者隱私設定模組｜允許設定資料可見範圍。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 222,
+    "name": "群組管理模組｜群組擁有者可設定管理員。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 227,
+    "name": "群組標籤模組｜允許為群組設定標籤分類。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 230,
+    "name": "群組隱私設定模組｜允許群組設定公開或私密。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 238,
+    "name": "任務優先級模組｜允許設定任務優先等級。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 259,
+    "name": "日曆顏色分類模組｜允許不同事件設定顏色。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 262,
+    "name": "文件版本控制模組｜保留歷史版本可回溯。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 268,
+    "name": "文件加密模組｜加密文件以保護隱私。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 270,
+    "name": "文件協作權限模組｜可設定文件不同角色的權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 280,
+    "name": "圖片安全檢測模組｜檢測圖片是否含不當內容。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 316,
+    "name": "直播課程付費模組｜課程可設定收費。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 330,
+    "name": "雲端筆記提醒模組｜可為筆記設定提醒。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 337,
+    "name": "白板版本控制模組｜保存歷史版本以便回溯。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 355,
+    "name": "報名人數限制模組｜可設定名額上限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 388,
+    "name": "社群審核模組｜允許設定社群加入審核。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 391,
+    "name": "API 測試模組｜允許即時測試 API 請求。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 392,
+    "name": "API 記錄模組｜保存 API 請求與回應紀錄。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 393,
+    "name": "API 分析模組｜分析 API 使用頻率與效能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 394,
+    "name": "API 安全模組｜檢測 API 是否安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 395,
+    "name": "API 權限模組｜設定 API 使用權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 396,
+    "name": "API 文件生成模組｜自動生成 API 文件。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 397,
+    "name": "API Mock 模組｜模擬 API 回應以便測試。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 398,
+    "name": "API 金鑰輪替模組｜定期更新 API 金鑰。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 399,
+    "name": "API 版本控制模組｜允許同時維護多個 API 版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 400,
+    "name": "API 故障轉移模組｜當主要 API 故障時自動切換備援。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 410,
+    "name": "聊天任務觸發模組｜可設定特定詞彙觸發任務。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 415,
+    "name": "客服即時監控模組｜管理員可即時監控客服對話。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 418,
+    "name": "客服排班模組｜允許管理員設定客服人員排班。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 439,
+    "name": "數據 API 模組｜提供數據 API 介面。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 440,
+    "name": "數據存取權限模組｜設定數據讀寫權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 447,
+    "name": "內容版本控制模組｜允許回溯內容歷史版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 448,
+    "name": "內容排程模組｜允許設定內容自動發佈時間。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 450,
+    "name": "內容權限模組｜允許設定內容的可見範圍。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 462,
+    "name": "遊戲等級模組｜設定角色升級機制。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 570,
+    "name": "法律文件匯出模組｜匯出 PDF/Word 版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 591,
+    "name": "能源監控模組｜監控能源使用情況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 597,
+    "name": "能源環境影響模組｜分析能源使用對環境影響。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 608,
+    "name": "交通安全提醒模組｜提醒事故或危險路段。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 619,
+    "name": "城市安全監控模組｜整合 CCTV 與警報系統。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 627,
+    "name": "金融科技風險控管模組｜AI 監控交易風險。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 642,
+    "name": "AI 模型部署模組｜一鍵部署 AI 模型至伺服器。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 644,
+    "name": "AI 模型版本管理模組｜追蹤不同版本的模型。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 646,
+    "name": "AI 模型監控模組｜監控模型運作狀況。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 651,
+    "name": "區塊鏈錢包模組｜允許用戶建立加密貨幣錢包。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 652,
+    "name": "區塊鏈交易模組｜允許發送與接收加密貨幣。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 656,
+    "name": "區塊鏈驗證模組｜驗證交易真實性。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 657,
+    "name": "區塊鏈節點模組｜管理與監控區塊鏈節點。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 665,
+    "name": "元宇宙教育模組｜提供教育模擬環境。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 674,
+    "name": "IoT 安全模組｜確保裝置資料傳輸安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 675,
+    "name": "IoT 自動化模組｜可設定條件觸發自動化行為。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 678,
+    "name": "IoT API 模組｜提供 IoT 資料 API。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 707,
+    "name": "社群審核模組｜設定加入社群需經審核。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 756,
+    "name": "文件加密模組｜加密文件內容以保障安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 809,
+    "name": "金融帳號安全模組｜多重驗證與安全檢測。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 811,
+    "name": "能源數據監測模組｜即時監控能源消耗數據。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 818,
+    "name": "能源 IoT 模組｜整合 IoT 裝置監控能源使用。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 927,
+    "name": "AI 模型部署模組｜一鍵部署訓練後模型。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 928,
+    "name": "AI 模型監控模組｜即時監控 AI 模型效能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 929,
+    "name": "AI 模型更新模組｜自動更新模型至最佳版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 931,
+    "name": "使用者登入模組｜提供帳號登入與驗證功能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 933,
+    "name": "使用者權限模組｜設定不同角色的使用權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 937,
+    "name": "使用者隱私設定模組｜設定帳號隱私權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 938,
+    "name": "使用者安全模組｜支援雙重驗證與安全檢測。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 953,
+    "name": "雲端檔案版本模組｜追蹤檔案歷史版本。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 954,
+    "name": "雲端檔案加密模組｜保護檔案存取安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 960,
+    "name": "雲端檔案管理員模組｜允許設定檔案存取權限。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1014,
+    "name": "IoT 自動化模組｜設定自動觸發的行為規則。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1015,
+    "name": "IoT 安全模組｜保障裝置通訊與資料安全。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1018,
+    "name": "IoT 能源模組｜監控與優化 IoT 裝置耗能。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1019,
+    "name": "IoT API 模組｜提供 IoT 平台 API 介接。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1091,
+    "name": "能源監控模組｜即時監控能源消耗。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1110,
+    "name": "社群管理員模組｜允許設定多層級管理員。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1153,
+    "name": "文件加密模組｜提供文件內容加密保護。",
+    "desc": "",
+    "category": "core"
+  },
+  {
+    "id": 1155,
+    "name": "文件版本控制模組｜追蹤與回溯文件版本。",
+    "desc": "",
+    "category": "core"
+  }
+]

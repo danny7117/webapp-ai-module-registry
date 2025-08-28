@@ -1,0 +1,4940 @@
+[
+  {
+    "id": 1,
+    "name": "創意輸入介面模組｜提供簡單直覺的輸入框，讓使用者輸入創意想法。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 2,
+    "name": "創意分類引擎模組｜AI 自動將創意分類至對應的類別（App、遊戲、網站等）。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 6,
+    "name": "UI 雛型生成模組｜自動產生基礎 UI 草稿，快速視覺化創意。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 7,
+    "name": "No-Code 建構模組｜允許使用者不需程式知識即可建置 WebApp。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 9,
+    "name": "模組依賴檢測器｜檢測不同模組間是否有相依關係，避免錯誤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 11,
+    "name": "金流串接模組｜整合 PayPal、LINE Pay、信用卡等支付方式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 15,
+    "name": "子網域綁定模組｜使用者可輸入子網域名稱，自動完成 DNS 綁定。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 16,
+    "name": "一鍵生成連結模組｜完成創意後自動產生專屬 WebApp URL。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 17,
+    "name": "UI 主題切換模組｜支援深色模式與淺色模式切換。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 18,
+    "name": "UI 模板選擇模組｜提供多種設計模板可選擇（簡約、活潑、專業）。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 19,
+    "name": "UI 即時預覽模組｜創作過程中隨時可預覽成果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 20,
+    "name": "使用者 Logo 上傳模組｜允許上傳 Logo，自動嵌入生成的 App。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 25,
+    "name": "檔案儲存模組｜支援上傳圖片、文件並存放至雲端空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 26,
+    "name": "使用者登入模組｜提供基本帳號註冊與登入功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 27,
+    "name": "OAuth 登入模組｜支援 Google、Facebook、LINE 等第三方登入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 29,
+    "name": "Email 通知模組｜事件觸發時自動寄送電子郵件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 32,
+    "name": "拖拉式流程編輯模組｜允許使用者以拖拉方式建立功能流程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 33,
+    "name": "錯誤回饋模組｜偵測錯誤時自動生成提示與修復建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 35,
+    "name": "模組健康檢測模組｜定期檢測模組是否正常運行。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 37,
+    "name": "伺服器狀態檢測模組｜顯示 CPU、記憶體等資源使用情況。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 38,
+    "name": "使用者上傳測試資料模組｜允許上傳 CSV/Excel 進行測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 39,
+    "name": "使用者反饋收集模組｜收集用戶體驗意見。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 40,
+    "name": "Bug 回報模組｜使用者可一鍵回報錯誤並自動送交 Issue。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 46,
+    "name": "檔案下載模組｜允許用戶下載生成的檔案或數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 51,
+    "name": "金流費用分帳模組｜自動分配不同角色的收入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 54,
+    "name": "贈送點數模組｜允許使用者將點數轉贈他人。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 55,
+    "name": "儲存空間購買模組｜提供額外儲存空間的購買選項。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 56,
+    "name": "推播通知模組｜透過 Web Push 即時推播通知。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 57,
+    "name": "使用者成就系統模組｜完成特定操作可獲得徽章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 58,
+    "name": "排行榜模組｜根據使用者活躍度或貢獻排序。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 59,
+    "name": "互動任務模組｜提供每日任務或活動提升參與度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 60,
+    "name": "活動抽獎模組｜隨機抽選贈品，提升黏著度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 61,
+    "name": "社群分享模組｜支援分享成果至 Facebook、LINE、Twitter。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 63,
+    "name": "自動生成短影片模組｜輸出簡單動畫影片供宣傳。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 64,
+    "name": "SEO 優化模組｜自動產生標題、描述與關鍵字。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 65,
+    "name": "網站地圖生成模組｜自動生成 sitemap.xml。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 69,
+    "name": "AB 測試模組｜支援文案/設計的 A/B 測試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 71,
+    "name": "Webhook 自動回應模組｜當接收到外部事件時觸發回應。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 75,
+    "name": "跨平台通知模組｜事件可同時通知到不同平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 76,
+    "name": "跨平台登入模組｜允許一組帳號多平台共用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 77,
+    "name": "跨平台支付模組｜自動換算匯率並支持跨境支付。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 79,
+    "name": "伺服器自動擴容模組｜流量高峰時自動增加資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 80,
+    "name": "伺服器降載模組｜流量下降時自動縮減資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 84,
+    "name": "速率限制模組｜防止 DDoS 或惡意請求。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 85,
+    "name": "存取審計模組｜記錄所有使用者操作行為。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 87,
+    "name": "容錯切換模組｜伺服器異常時自動切換到備援。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 88,
+    "name": "錯誤畫面替代模組｜異常時顯示「修復中」頁面。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 89,
+    "name": "除錯建議模組｜GPT 自動提供錯誤修復方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 91,
+    "name": "使用者隱私提示模組｜在首次登入時顯示隱私政策。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 92,
+    "name": "條款同意模組｜要求使用者勾選服務條款才能使用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 93,
+    "name": "數據匿名化模組｜處理數據時自動隱去個資。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 96,
+    "name": "使用者資料刪除模組｜允許用戶刪除所有個人資料。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 97,
+    "name": "帳號凍結模組｜管理員可凍結可疑帳號。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 98,
+    "name": "帳號黑名單模組｜封鎖惡意用戶並禁止登入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 99,
+    "name": "風險評分模組｜AI 對使用者行為進行風險評分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 101,
+    "name": "即時聊天室模組｜提供即時聊天功能，支援群組與私人訊息。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 102,
+    "name": "聊天室翻譯模組｜支援多語即時翻譯，跨國用戶可順暢溝通。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 103,
+    "name": "聊天室檔案傳輸模組｜允許上傳圖片、影片、文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 105,
+    "name": "聊天室訊息通知模組｜新訊息推送即時通知。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 107,
+    "name": "聊天室訊息刪除模組｜允許刪除已發送的訊息。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 108,
+    "name": "聊天室訊息編輯模組｜允許編輯已發送的訊息。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 109,
+    "name": "聊天室訊息快照模組｜儲存訊息快照供後續查閱。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 111,
+    "name": "論壇發帖模組｜允許使用者建立討論串。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 112,
+    "name": "論壇回覆模組｜支援多層級留言與回覆。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 113,
+    "name": "論壇投票模組｜提供投票功能以蒐集意見。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 114,
+    "name": "論壇精華文章模組｜管理員可將優質內容設為精華。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 115,
+    "name": "論壇搜尋模組｜可搜尋標題、內容與使用者。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 116,
+    "name": "論壇積分模組｜依照發帖/回覆數量給予積分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 117,
+    "name": "論壇排行榜模組｜依照積分或活躍度排序使用者。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 118,
+    "name": "論壇舉報模組｜允許使用者檢舉不當內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 119,
+    "name": "論壇管理後台模組｜管理員可刪除或封鎖內容與用戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 121,
+    "name": "作品展示牆模組｜集中展示使用者創作成果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 122,
+    "name": "作品收藏模組｜允許用戶收藏喜歡的作品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 123,
+    "name": "作品評分模組｜使用者可針對作品給予評分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 124,
+    "name": "作品留言模組｜允許訪客或用戶留言互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 125,
+    "name": "作品分享模組｜作品可一鍵分享到社群平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 128,
+    "name": "作品比賽模組｜舉辦作品比賽與投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 130,
+    "name": "作品標籤模組｜允許作者為作品加上標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 131,
+    "name": "知識庫文章模組｜允許管理員建立教學文章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 132,
+    "name": "知識庫搜尋模組｜支援標題與全文搜尋。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 133,
+    "name": "知識庫分類模組｜文章依照主題自動歸類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 134,
+    "name": "知識庫推薦模組｜依使用者操作推薦相關文章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 135,
+    "name": "知識庫多媒體模組｜支援文章內嵌圖片與影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 137,
+    "name": "知識庫評分模組｜允許讀者評分文章有用性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 138,
+    "name": "知識庫留言模組｜允許留言與提問。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 141,
+    "name": "學習課程模組｜建立線上課程與章節。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 142,
+    "name": "課程影片模組｜支援上傳與播放教學影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 143,
+    "name": "課程測驗模組｜提供課後測驗題庫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 144,
+    "name": "課程作業模組｜允許學生繳交作業。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 145,
+    "name": "課程評分模組｜導師可針對作業與測驗評分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 146,
+    "name": "課程討論區模組｜每堂課擁有專屬討論區。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 148,
+    "name": "課程證書模組｜完成課程後頒發數位證書。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 149,
+    "name": "課程直播模組｜支援即時直播教學。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 150,
+    "name": "課程 AI 導師模組｜AI 自動講解課程知識點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 152,
+    "name": "商品購物車模組｜允許將商品加入購物車。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 153,
+    "name": "商品結帳模組｜提供多種結帳方式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 154,
+    "name": "商品評價模組｜買家可針對商品評價。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 156,
+    "name": "商品優惠券模組｜支援優惠券折抵功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 157,
+    "name": "商品推薦模組｜依購買行為推薦相關商品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 160,
+    "name": "商品多幣別模組｜支援跨國貨幣換算。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 161,
+    "name": "直播推流模組｜支援 OBS、RTMP 等推流協定。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 162,
+    "name": "直播聊天室模組｜直播時提供即時互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 163,
+    "name": "直播禮物模組｜觀眾可送出虛擬禮物。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 164,
+    "name": "直播回放模組｜自動保存並回放直播內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 166,
+    "name": "直播彈幕模組｜支援彈幕顯示與互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 167,
+    "name": "直播票券模組｜直播活動需購票才能觀看。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 170,
+    "name": "直播 AI 助理模組｜AI 協助主播互動與控場。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 171,
+    "name": "活動報名模組｜使用者可線上報名參加活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 173,
+    "name": "活動打卡模組｜活動現場支援 QR 碼打卡。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 175,
+    "name": "活動通知模組｜活動前自動寄送提醒通知。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 179,
+    "name": "活動多場次模組｜支援多場次活動管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 180,
+    "name": "活動贊助模組｜允許企業贊助並展示 Logo。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 191,
+    "name": "系統通知模組｜平台事件自動發送通知。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 192,
+    "name": "系統公告模組｜管理員可發布公告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 193,
+    "name": "系統維護模式模組｜平台進入維護時顯示提示頁。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 201,
+    "name": "使用者註冊模組｜提供基本的使用者註冊功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 202,
+    "name": "使用者登入模組｜支援帳號密碼登入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 203,
+    "name": "第三方登入模組｜支援 Google、Facebook、LINE 等登入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 205,
+    "name": "生物辨識登入模組｜支援指紋與人臉辨識登入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 207,
+    "name": "使用者資料編輯模組｜允許用戶修改基本資料。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 208,
+    "name": "使用者頭像上傳模組｜提供上傳與更換頭像功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 211,
+    "name": "好友系統模組｜允許用戶互加好友。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 212,
+    "name": "好友動態模組｜顯示好友的最新活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 213,
+    "name": "好友邀請模組｜允許透過邀請連結加好友。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 214,
+    "name": "好友黑名單模組｜允許封鎖或移除好友。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 215,
+    "name": "好友分組模組｜可將好友分組管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 216,
+    "name": "好友推薦模組｜根據互動行為推薦可能認識的人。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 217,
+    "name": "好友分享模組｜允許分享好友創作或內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 218,
+    "name": "好友成就模組｜展示好友完成的成就與徽章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 219,
+    "name": "好友排行榜模組｜根據活躍度顯示好友排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 220,
+    "name": "好友互動遊戲模組｜支援簡單的互動小遊戲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 221,
+    "name": "群組聊天模組｜允許建立多人成員群組。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 223,
+    "name": "群組公告模組｜群組內可發佈公告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 224,
+    "name": "群組檔案共享模組｜群組成員可共享檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 225,
+    "name": "群組活動模組｜群組內可建立活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 226,
+    "name": "群組投票模組｜群組內可進行投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 228,
+    "name": "群組排行榜模組｜根據活躍度排名群組。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 231,
+    "name": "任務建立模組｜允許用戶建立任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 232,
+    "name": "任務分派模組｜允許將任務分派給他人。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 234,
+    "name": "任務提醒模組｜到期自動發送提醒通知。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 235,
+    "name": "任務討論模組｜每個任務擁有專屬討論區。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 236,
+    "name": "任務檔案附件模組｜允許上傳與任務相關檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 237,
+    "name": "任務標籤模組｜允許為任務加上標籤分類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 239,
+    "name": "任務審核模組｜允許管理員審核任務完成狀態。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 241,
+    "name": "專案建立模組｜允許建立專案並邀請成員。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 242,
+    "name": "專案分工模組｜允許分配專案角色。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 243,
+    "name": "專案時間軸模組｜顯示專案的時間進度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 245,
+    "name": "專案檔案共享模組｜允許上傳與分享專案檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 246,
+    "name": "專案進度提醒模組｜專案到期前自動提醒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 247,
+    "name": "專案成員討論模組｜專案內建即時討論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 248,
+    "name": "專案成果展示模組｜展示專案完成成果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 249,
+    "name": "專案報告生成模組｜自動生成專案週報/月報。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 251,
+    "name": "日曆檢視模組｜以月曆方式顯示活動與任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 253,
+    "name": "提醒事項模組｜建立待辦事項並提醒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 254,
+    "name": "多時區支援模組｜顯示跨時區的時間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 255,
+    "name": "節日自動提醒模組｜自動提醒節日或紀念日。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 256,
+    "name": "日程分享模組｜允許將日程分享給他人。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 260,
+    "name": "會議預約模組｜允許建立與加入線上會議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 261,
+    "name": "文件編輯模組｜允許多人即時編輯文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 263,
+    "name": "文件評論模組｜允許對文件加上評論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 264,
+    "name": "文件標籤模組｜允許為文件加標籤分類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 265,
+    "name": "文件分享模組｜支援公開或私密分享。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 271,
+    "name": "圖片上傳模組｜允許上傳圖片並生成縮圖。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 272,
+    "name": "圖片標籤模組｜允許為圖片加上標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 273,
+    "name": "圖片壓縮模組｜自動壓縮圖片以節省空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 274,
+    "name": "圖片濾鏡模組｜提供多種濾鏡效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 275,
+    "name": "圖片編輯模組｜支援裁切、旋轉、調整亮度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 276,
+    "name": "圖片 AI 標註模組｜AI 自動標註圖片內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 277,
+    "name": "圖片拼貼模組｜允許使用者將多張圖片拼貼。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 278,
+    "name": "圖片下載模組｜允許下載原始或壓縮圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 279,
+    "name": "圖片分享模組｜允許分享到外部平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 281,
+    "name": "影片上傳模組｜允許上傳影片檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 282,
+    "name": "影片播放模組｜支援即時播放與串流。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 283,
+    "name": "影片字幕模組｜允許上傳與編輯字幕。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 284,
+    "name": "影片分段模組｜允許將影片切割為片段。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 285,
+    "name": "影片壓縮模組｜自動壓縮影片檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 287,
+    "name": "影片濾鏡模組｜提供影片特效與濾鏡。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 288,
+    "name": "影片下載模組｜允許下載影片檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 289,
+    "name": "影片評論模組｜允許對影片留言互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 290,
+    "name": "影片 AI 分析模組｜AI 分析影片內容與情緒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 291,
+    "name": "音樂上傳模組｜允許上傳音樂檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 293,
+    "name": "音樂下載模組｜允許下載音樂檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 294,
+    "name": "音樂 AI 生成模組｜AI 自動生成背景音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 295,
+    "name": "音樂標籤模組｜允許為音樂檔案加標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 296,
+    "name": "音樂分享模組｜允許分享到社群平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 297,
+    "name": "音樂評論模組｜允許對音樂作品留言。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 298,
+    "name": "音樂專輯模組｜允許建立專輯並管理曲目。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 299,
+    "name": "音樂授權模組｜管理音樂版權與授權。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 301,
+    "name": "Podcast 上傳模組｜允許上傳 Podcast 節目檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 303,
+    "name": "Podcast 標籤模組｜允許為 Podcast 節目加上標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 304,
+    "name": "Podcast 分集管理模組｜管理不同集數的內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 305,
+    "name": "Podcast 分享模組｜一鍵分享到社群平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 306,
+    "name": "Podcast 評論模組｜允許聽眾對集數留言互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 307,
+    "name": "Podcast AI 摘要模組｜AI 自動生成每集摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 311,
+    "name": "直播課程模組｜允許教師即時直播授課。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 312,
+    "name": "直播課程互動模組｜支援師生即時問答。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 313,
+    "name": "直播課程考試模組｜課程中插入即時測驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 314,
+    "name": "直播課程錄製模組｜自動保存錄影檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 315,
+    "name": "直播課程報名模組｜允許學生報名參加直播課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 318,
+    "name": "直播課程小組模組｜分組進行課堂討論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 319,
+    "name": "直播課程作業模組｜允許即時提交作業。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 320,
+    "name": "直播課程 AI 助教模組｜AI 即時解答課堂問題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 321,
+    "name": "雲端筆記模組｜允許建立與管理個人筆記。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 322,
+    "name": "雲端筆記分享模組｜允許公開或私密分享筆記。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 324,
+    "name": "雲端筆記協作模組｜支援多人共同編輯。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 325,
+    "name": "雲端筆記標籤模組｜允許為筆記加上標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 329,
+    "name": "雲端筆記 AI 整理模組｜AI 自動整理筆記重點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 332,
+    "name": "白板便利貼模組｜可新增文字便利貼。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 334,
+    "name": "白板匯出模組｜允許將白板匯出為圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 335,
+    "name": "白板匯入模組｜允許匯入外部圖片或文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 336,
+    "name": "白板協作模組｜支援多人同時操作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 338,
+    "name": "白板 AI 補充模組｜AI 自動生成圖表輔助。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 339,
+    "name": "白板語音輸入模組｜語音轉文字繪製筆記。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 340,
+    "name": "白板錄影模組｜記錄繪製過程並回放。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 341,
+    "name": "問卷建立模組｜允許快速建立問卷。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 343,
+    "name": "問卷分發模組｜允許發送問卷連結。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 344,
+    "name": "問卷回收模組｜自動收集填答資料。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 345,
+    "name": "問卷數據分析模組｜自動生成統計與圖表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 348,
+    "name": "問卷匿名模組｜支援匿名作答。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 349,
+    "name": "問卷 AI 建議模組｜AI 根據目標給予題目建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 350,
+    "name": "問卷獎勵模組｜填答完成可發放獎勵。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 352,
+    "name": "報名付款模組｜支援付費報名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 353,
+    "name": "報名 QR 碼模組｜生成報名 QR 碼以供掃描。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 354,
+    "name": "報名確認模組｜自動寄送報名確認信。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 356,
+    "name": "報名候補模組｜報名額滿後開放候補名單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 359,
+    "name": "報名提醒模組｜活動前自動寄送提醒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 360,
+    "name": "報名分組模組｜自動將參加者分組。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 361,
+    "name": "投票活動模組｜允許舉辦投票活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 362,
+    "name": "投票多選模組｜支援多選投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 363,
+    "name": "投票匿名模組｜允許匿名投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 364,
+    "name": "投票即時結果模組｜即時顯示投票結果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 365,
+    "name": "投票防刷票模組｜防止重複投票或惡意灌票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 366,
+    "name": "投票分享模組｜允許分享投票連結。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 367,
+    "name": "投票獎勵模組｜參與投票可獲得獎勵。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 370,
+    "name": "投票 AI 建議模組｜AI 自動提出投票題目。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 371,
+    "name": "意見回饋模組｜允許使用者提交意見。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 372,
+    "name": "意見分類模組｜AI 自動將意見分類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 375,
+    "name": "意見分析模組｜AI 自動生成意見報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 376,
+    "name": "意見匿名模組｜允許匿名提交。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 378,
+    "name": "意見回覆模組｜管理員可回覆意見。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 379,
+    "name": "意見通知模組｜處理進度自動通知用戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 380,
+    "name": "意見評分模組｜允許對意見處理結果評分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 381,
+    "name": "社群論壇模組｜允許建立社群討論區。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 382,
+    "name": "社群群組模組｜允許建立社群群組。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 383,
+    "name": "社群活動模組｜允許建立社群活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 384,
+    "name": "社群直播模組｜支援社群內部直播。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 385,
+    "name": "社群任務模組｜社群成員可共同完成任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 386,
+    "name": "社群排行榜模組｜根據貢獻度顯示排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 387,
+    "name": "社群徽章模組｜成員達成條件可獲得徽章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 389,
+    "name": "社群投票模組｜允許社群內部投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 390,
+    "name": "社群公告模組｜允許管理員發布公告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 401,
+    "name": "聊天機器人模組｜允許建立自動回覆的聊天機器人。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 402,
+    "name": "聊天腳本模組｜可為機器人設計對話腳本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 404,
+    "name": "聊天回應建議模組｜AI 提供多種回覆選項。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 405,
+    "name": "聊天多語模組｜支援多語言對話。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 407,
+    "name": "聊天文字轉語音模組｜可將機器人回覆轉為語音。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 409,
+    "name": "聊天知識庫模組｜機器人可從知識庫中擷取答案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 411,
+    "name": "客服分流模組｜自動將客服請求分配給合適人員。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 413,
+    "name": "客服回覆模組｜客服可透過平台統一回覆。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 414,
+    "name": "客服評價模組｜顧客可對客服服務進行評價。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 419,
+    "name": "客服知識庫模組｜集中存放客服常見問題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 420,
+    "name": "客服自動化模組｜部分簡單問題由 AI 自動回覆。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 431,
+    "name": "數據收集模組｜從使用者行為中收集數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 432,
+    "name": "數據清理模組｜清理重複或無效數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 433,
+    "name": "數據標準化模組｜統一不同來源數據格式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 434,
+    "name": "數據分析模組｜自動生成數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 441,
+    "name": "內容管理模組｜允許建立與編輯內容頁面。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 442,
+    "name": "內容分類模組｜允許為內容加上分類標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 443,
+    "name": "內容審核模組｜內容發佈前需經管理員審核。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 444,
+    "name": "內容推薦模組｜AI 根據使用者行為推薦內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 445,
+    "name": "內容多語模組｜支援多語內容管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 446,
+    "name": "內容 SEO 模組｜自動產生 SEO 標題與描述。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 449,
+    "name": "內容互動模組｜允許留言、按讚與分享。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 451,
+    "name": "電商商品模組｜建立與管理商品資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 452,
+    "name": "電商分類模組｜允許商品分類管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 455,
+    "name": "電商支付模組｜支援多種支付方式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 457,
+    "name": "電商評價模組｜允許買家對商品評價。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 458,
+    "name": "電商優惠券模組｜支援折扣碼與優惠券。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 459,
+    "name": "電商推薦模組｜依據行為推薦商品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 461,
+    "name": "遊戲角色模組｜建立與管理遊戲角色。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 463,
+    "name": "遊戲技能模組｜管理角色技能樹。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 464,
+    "name": "遊戲裝備模組｜允許角色裝備物品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 465,
+    "name": "遊戲任務模組｜建立遊戲任務與獎勵。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 466,
+    "name": "遊戲副本模組｜允許多人挑戰副本。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 467,
+    "name": "遊戲排行榜模組｜根據積分或成就排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 468,
+    "name": "遊戲商店模組｜允許玩家購買虛擬物品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 469,
+    "name": "遊戲貨幣模組｜建立遊戲內部貨幣系統。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 470,
+    "name": "遊戲社群模組｜允許玩家交流與互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 473,
+    "name": "健康報告模組｜自動生成健康週報與月報。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 474,
+    "name": "健康提醒模組｜提醒用戶服藥或運動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 475,
+    "name": "健康飲食模組｜提供飲食紀錄與建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 476,
+    "name": "健康運動模組｜允許紀錄運動數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 478,
+    "name": "健康心理模組｜提供心理測驗與建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 479,
+    "name": "健康社群模組｜用戶可分享健康心得。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 480,
+    "name": "健康挑戰模組｜設計健身或健康挑戰活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 481,
+    "name": "旅遊行程模組｜建立與管理旅遊行程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 482,
+    "name": "旅遊票券模組｜管理景點門票與票券。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 484,
+    "name": "旅遊交通模組｜顯示交通方式與建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 485,
+    "name": "旅遊住宿模組｜管理住宿資訊與預訂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 486,
+    "name": "旅遊美食模組｜推薦當地餐廳與美食。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 487,
+    "name": "旅遊日記模組｜紀錄旅遊心得與相片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 488,
+    "name": "旅遊社群模組｜分享旅遊經驗與互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 489,
+    "name": "旅遊優惠模組｜顯示旅遊相關優惠資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 490,
+    "name": "旅遊 AI 導遊模組｜AI 自動生成旅遊導覽建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 491,
+    "name": "教育課程模組｜建立線上課程與章節。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 492,
+    "name": "教育測驗模組｜提供課後測驗功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 493,
+    "name": "教育作業模組｜允許學生繳交作業。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 494,
+    "name": "教育討論模組｜學生可在課程中討論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 495,
+    "name": "教育成績模組｜教師可管理並發布成績。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 496,
+    "name": "教育證書模組｜完成課程後頒發證書。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 497,
+    "name": "教育直播模組｜教師可進行直播授課。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 498,
+    "name": "教育 AI 助教模組｜AI 協助教師解答問題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 500,
+    "name": "教育推薦模組｜依據學習行為推薦課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 501,
+    "name": "金融帳戶管理模組｜允許使用者綁定與管理銀行帳戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 502,
+    "name": "金融交易紀錄模組｜自動紀錄所有交易明細。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 503,
+    "name": "金融報表模組｜自動生成收支報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 504,
+    "name": "金融提醒模組｜異常交易即時通知。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 505,
+    "name": "金融多幣別模組｜支援多種貨幣帳戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 506,
+    "name": "金融匯率換算模組｜即時更新匯率並換算。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 507,
+    "name": "金融投資組合模組｜管理股票、基金等投資標的。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 509,
+    "name": "金融理財建議模組｜AI 提供理財策略。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 511,
+    "name": "新聞發布模組｜允許建立新聞文章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 512,
+    "name": "新聞分類模組｜允許新聞依類別管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 514,
+    "name": "新聞多媒體模組｜支援圖片、影片嵌入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 515,
+    "name": "新聞評論模組｜允許用戶留言。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 516,
+    "name": "新聞分享模組｜允許一鍵分享到社群平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 517,
+    "name": "新聞推播模組｜重大新聞即時推送。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 519,
+    "name": "新聞 AI 摘要模組｜AI 自動生成新聞摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 521,
+    "name": "招聘職缺模組｜允許企業刊登職缺。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 522,
+    "name": "求職者履歷模組｜允許使用者建立履歷。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 523,
+    "name": "應徵申請模組｜允許投遞履歷。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 524,
+    "name": "面試安排模組｜支援面試時程安排。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 525,
+    "name": "錄取通知模組｜自動發送錄取結果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 526,
+    "name": "人才推薦模組｜AI 推薦合適的職缺或人才。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 528,
+    "name": "員工 onboarding 模組｜提供新進員工訓練流程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 529,
+    "name": "員工檔案模組｜管理員工基本資料。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 531,
+    "name": "房屋刊登模組｜允許用戶刊登出租或出售房屋。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 534,
+    "name": "房屋收藏模組｜允許收藏喜歡的房源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 535,
+    "name": "房屋比較模組｜允許比較多個房源資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 536,
+    "name": "房屋聯絡模組｜買賣雙方可透過平台溝通。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 537,
+    "name": "房屋推薦模組｜AI 根據需求推薦房源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 539,
+    "name": "房屋貸款計算模組｜自動計算貸款方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 541,
+    "name": "醫療掛號模組｜允許線上預約掛號。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 542,
+    "name": "醫療診斷紀錄模組｜管理個人診斷與病歷。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 543,
+    "name": "醫療處方模組｜允許線上查看與管理處方。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 544,
+    "name": "醫療提醒模組｜提醒服藥與回診時間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 546,
+    "name": "醫療保險模組｜管理與查詢醫療保險。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 547,
+    "name": "醫療 AI 輔助診斷模組｜AI 協助醫生診斷病情。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 549,
+    "name": "醫療健康建議模組｜AI 根據數據提供健康建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 550,
+    "name": "醫療遠距診療模組｜支援線上診療。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 551,
+    "name": "物流訂單管理模組｜管理物流訂單與狀態。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 553,
+    "name": "物流路線優化模組｜AI 計算最佳配送路線。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 554,
+    "name": "物流車隊管理模組｜管理配送車輛。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 556,
+    "name": "物流簽收模組｜支援電子簽收。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 557,
+    "name": "物流退貨模組｜允許提交退貨申請。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 558,
+    "name": "物流跨境模組｜支援跨境物流資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 560,
+    "name": "物流客服模組｜集中處理物流相關客服。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 561,
+    "name": "法律文件模組｜管理合同與協議文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 562,
+    "name": "法律審核模組｜律師可審核並標註文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 563,
+    "name": "法律簽署模組｜支援電子簽名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 565,
+    "name": "法律條款模組｜建立法律條款與政策文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 568,
+    "name": "法律智能諮詢模組｜AI 提供法律諮詢。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 572,
+    "name": "碳排放計算模組｜計算企業碳排放數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 573,
+    "name": "碳權交易模組｜管理碳權購買與交易。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 575,
+    "name": "環保提醒模組｜提醒環保任務與目標。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 576,
+    "name": "環保 AI 建議模組｜AI 提供環保改善方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 577,
+    "name": "環保社群模組｜建立社群交流環保議題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 578,
+    "name": "環保教育模組｜提供環保相關教學。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 579,
+    "name": "環保挑戰模組｜設計環保挑戰活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 580,
+    "name": "環保報告模組｜自動生成 ESG 報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 581,
+    "name": "農業作物管理模組｜管理農作物生長週期。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 582,
+    "name": "農業灌溉模組｜自動化灌溉控制。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 583,
+    "name": "農業氣象模組｜顯示天氣與氣候數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 584,
+    "name": "農業病蟲害檢測模組｜AI 偵測病蟲害。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 585,
+    "name": "農業施肥模組｜智慧化施肥建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 588,
+    "name": "農業物流模組｜管理農產品運輸。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 589,
+    "name": "農業教育模組｜提供農業教學資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 593,
+    "name": "能源優化模組｜AI 提供能源使用最佳化建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 595,
+    "name": "能源異常提醒模組｜異常用電自動警示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 596,
+    "name": "能源報告模組｜生成能源使用報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 598,
+    "name": "能源交易模組｜支援能源交易市場。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 599,
+    "name": "能源教育模組｜提供能源相關教育。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 600,
+    "name": "能源社群模組｜允許交流能源相關議題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 601,
+    "name": "交通即時資訊模組｜提供即時交通路況資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 602,
+    "name": "交通導航模組｜支援多路線導航。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 603,
+    "name": "交通票務模組｜支援公車、火車票務查詢與購買。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 604,
+    "name": "交通共乘模組｜允許用戶建立或加入共乘。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 605,
+    "name": "交通停車場模組｜顯示即時停車位資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 606,
+    "name": "交通收費模組｜顯示過路費與停車費資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 607,
+    "name": "交通支付模組｜整合交通支付方式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 611,
+    "name": "智慧城市感測模組｜整合城市 IoT 感測器。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 612,
+    "name": "城市空氣品質模組｜即時顯示空氣品質數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 613,
+    "name": "城市噪音監測模組｜監測城市噪音水平。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 615,
+    "name": "城市照明管理模組｜智慧調控城市照明。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 616,
+    "name": "城市垃圾監測模組｜即時回報垃圾桶容量。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 617,
+    "name": "城市能源模組｜監測與優化城市能源使用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 620,
+    "name": "城市數據報告模組｜自動生成城市數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 621,
+    "name": "金融科技支付模組｜支援數位支付與 QR Code。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 623,
+    "name": "金融科技借貸模組｜允許用戶進行小額借貸。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 624,
+    "name": "金融科技保險模組｜支援線上投保與理賠。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 625,
+    "name": "金融科技區塊鏈模組｜整合區塊鏈應用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 626,
+    "name": "金融科技錢包模組｜提供數位錢包功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 628,
+    "name": "金融科技信用評分模組｜AI 生成信用評分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 629,
+    "name": "金融科技跨境支付模組｜支援國際支付。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 632,
+    "name": "氣候災害提醒模組｜自動推播颱風、地震等警示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 633,
+    "name": "氣候歷史數據模組｜查詢歷史氣候資料。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 635,
+    "name": "氣候碳排放模組｜計算氣候相關碳排放數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 636,
+    "name": "氣候農業模組｜提供農業相關的氣候數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 637,
+    "name": "氣候教育模組｜推廣氣候相關教育內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 638,
+    "name": "氣候政策模組｜顯示氣候相關政策與法規。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 640,
+    "name": "氣候社群模組｜用戶可分享氣候議題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 641,
+    "name": "AI 訓練數據管理模組｜管理 AI 訓練所需數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 643,
+    "name": "AI 模型測試模組｜測試 AI 模型準確率。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 647,
+    "name": "AI 模型自動更新模組｜自動更新至最新模型。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 650,
+    "name": "AI 模型市場模組｜建立 AI 模型交易平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 653,
+    "name": "區塊鏈合約模組｜支援智慧合約的建立與執行。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 654,
+    "name": "區塊鏈 NFT 模組｜建立與管理 NFT。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 655,
+    "name": "區塊鏈市場模組｜建立數位資產市場。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 658,
+    "name": "區塊鏈挖礦模組｜模擬挖礦過程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 660,
+    "name": "區塊鏈教育模組｜推廣區塊鏈知識。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 661,
+    "name": "元宇宙社交模組｜提供虛擬社交空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 662,
+    "name": "元宇宙角色模組｜允許建立與自訂虛擬角色。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 663,
+    "name": "元宇宙資產模組｜允許購買與管理虛擬資產。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 664,
+    "name": "元宇宙活動模組｜舉辦虛擬演唱會或展覽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 666,
+    "name": "元宇宙辦公模組｜建立虛擬會議室。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 667,
+    "name": "元宇宙遊戲模組｜提供遊戲化互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 668,
+    "name": "元宇宙交易模組｜支援虛擬資產交易。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 670,
+    "name": "元宇宙治理模組｜建立虛擬社群治理機制。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 671,
+    "name": "IoT 裝置管理模組｜允許連線並管理 IoT 裝置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 672,
+    "name": "IoT 數據蒐集模組｜收集 IoT 裝置傳回的數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 673,
+    "name": "IoT 遠端控制模組｜支援裝置遠端控制。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 676,
+    "name": "IoT 故障檢測模組｜AI 偵測裝置故障。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 677,
+    "name": "IoT 能源管理模組｜優化 IoT 裝置的能源使用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 679,
+    "name": "IoT 韌體更新模組｜遠端推送裝置更新。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 682,
+    "name": "學習測驗模組｜建立與管理線上測驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 683,
+    "name": "學習報告模組｜AI 自動生成學習報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 684,
+    "name": "學習提醒模組｜提醒學習進度與計畫。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 685,
+    "name": "學習遊戲化模組｜透過遊戲化提升學習動力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 686,
+    "name": "學習成績模組｜追蹤學生成績表現。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 687,
+    "name": "學習知識庫模組｜集中儲存學習資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 688,
+    "name": "學習社群模組｜學生之間互相交流討論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 689,
+    "name": "學習直播模組｜支援即時直播教學。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 690,
+    "name": "學習推薦模組｜AI 根據進度推薦課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 691,
+    "name": "娛樂短影音模組｜允許使用者上傳短影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 692,
+    "name": "娛樂直播模組｜支援即時直播互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 693,
+    "name": "娛樂遊戲模組｜提供休閒娛樂小遊戲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 694,
+    "name": "娛樂社群模組｜建立娛樂主題社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 695,
+    "name": "娛樂投票模組｜舉辦娛樂相關投票活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 696,
+    "name": "娛樂挑戰模組｜設計娛樂挑戰賽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 697,
+    "name": "娛樂排行榜模組｜根據熱度排名內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 700,
+    "name": "娛樂 AI 助手模組｜AI 自動生成娛樂推薦。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 701,
+    "name": "社群任務挑戰模組｜允許社群成員共同完成挑戰任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 702,
+    "name": "社群直播活動模組｜支援社群內的即時直播活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 703,
+    "name": "社群成就徽章模組｜達成特定條件的成員可獲得徽章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 704,
+    "name": "社群積分模組｜透過互動累積積分並可兌換獎勵。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 705,
+    "name": "社群排行榜模組｜依據活躍度或貢獻度顯示排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 706,
+    "name": "社群公告推送模組｜允許管理員發送全體公告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 708,
+    "name": "社群黑名單模組｜管理不當用戶並限制互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 709,
+    "name": "社群投票模組｜允許在社群中舉辦投票活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 710,
+    "name": "社群活動報名模組｜成員可線上報名社群舉辦的活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 713,
+    "name": "創作者任務模組｜提供創作者挑戰任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 714,
+    "name": "創作者教學模組｜提供創作技巧與教學資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 715,
+    "name": "創作者比賽模組｜舉辦創作者間的比賽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 716,
+    "name": "創作者合作模組｜允許多位創作者共同創作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 718,
+    "name": "創作者社群模組｜建立專屬的粉絲社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 719,
+    "name": "創作者排行榜模組｜依人氣或作品質量進行排序。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 720,
+    "name": "創作者成就模組｜依貢獻度頒發成就勳章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 721,
+    "name": "影音剪輯模組｜支援影片分段與合併功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 722,
+    "name": "影音字幕模組｜自動生成與編輯字幕。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 723,
+    "name": "影音配樂模組｜允許上傳或套用背景音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 724,
+    "name": "影音濾鏡模組｜提供影片後製特效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 726,
+    "name": "影音壓縮模組｜自動壓縮影片以減少大小。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 727,
+    "name": "影音縮圖模組｜自動生成影片縮圖。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 728,
+    "name": "影音分享模組｜允許將影片一鍵分享到平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 729,
+    "name": "影音下載模組｜允許下載影片至裝置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 730,
+    "name": "影音 AI 摘要模組｜AI 自動生成影片重點。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 731,
+    "name": "圖片濾鏡模組｜提供即時圖片濾鏡效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 732,
+    "name": "圖片編輯模組｜支援裁切、旋轉、亮度調整。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 733,
+    "name": "圖片壓縮模組｜自動壓縮圖片以節省空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 734,
+    "name": "圖片拼貼模組｜允許製作圖片拼貼牆。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 735,
+    "name": "圖片標註模組｜允許標註圖片內的物件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 736,
+    "name": "圖片分割模組｜AI 自動分割圖片元素。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 737,
+    "name": "圖片生成模組｜AI 根據提示生成圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 738,
+    "name": "圖片識別模組｜AI 辨識圖片中的物體。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 739,
+    "name": "圖片下載模組｜允許下載原始或編輯後圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 740,
+    "name": "圖片社群模組｜允許圖片分享與互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 742,
+    "name": "音樂下載模組｜允許下載音樂至裝置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 743,
+    "name": "音樂分享模組｜一鍵分享音樂至社群平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 744,
+    "name": "音樂生成模組｜AI 自動生成背景音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 745,
+    "name": "音樂混音模組｜允許混合多段音軌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 746,
+    "name": "音樂音效模組｜提供多種音效套用。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 747,
+    "name": "音樂歌詞模組｜自動生成與同步顯示歌詞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 748,
+    "name": "音樂標籤模組｜允許為音樂加上標籤分類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 749,
+    "name": "音樂專輯模組｜允許建立專輯並收錄曲目。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 750,
+    "name": "音樂社群模組｜允許音樂愛好者交流互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 751,
+    "name": "文件上傳模組｜允許上傳各類型文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 753,
+    "name": "文件壓縮模組｜允許壓縮或解壓縮文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 754,
+    "name": "文件共編模組｜支援多人同時編輯。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 755,
+    "name": "文件審核模組｜管理員可審核文件內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 758,
+    "name": "文件標籤模組｜允許為文件加標籤分類。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 761,
+    "name": "教育考試模組｜允許建立線上考試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 762,
+    "name": "教育作業模組｜允許學生提交作業。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 763,
+    "name": "教育互動模組｜支援師生互動討論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 764,
+    "name": "教育直播模組｜教師可即時直播授課。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 765,
+    "name": "教育錄播模組｜自動保存課程錄影。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 766,
+    "name": "教育數據模組｜分析學生成績與進度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 767,
+    "name": "教育推薦模組｜AI 推薦適合的課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 768,
+    "name": "教育證書模組｜頒發課程完成證書。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 769,
+    "name": "教育社群模組｜建立課程討論社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 770,
+    "name": "教育任務模組｜設置課程任務與挑戰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 772,
+    "name": "商務 ERP 模組｜整合企業資源規劃。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 774,
+    "name": "商務合約模組｜管理合約與文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 775,
+    "name": "商務發票模組｜允許開立與管理發票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 776,
+    "name": "商務採購模組｜管理採購需求與訂單。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 778,
+    "name": "商務財報模組｜自動生成財務報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 779,
+    "name": "商務稅務模組｜支援稅務申報與管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 780,
+    "name": "商務 AI 助理模組｜AI 提供商務決策建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 782,
+    "name": "醫療掛號模組｜允許線上預約掛號。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 783,
+    "name": "醫療處方模組｜管理電子處方與提醒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 785,
+    "name": "醫療保險模組｜管理保險方案與理賠。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 786,
+    "name": "醫療數據模組｜集中管理健康數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 787,
+    "name": "醫療提醒模組｜提醒回診與用藥。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 788,
+    "name": "醫療教育模組｜提供病患教育資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 789,
+    "name": "醫療社群模組｜病患與醫療人員交流平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 790,
+    "name": "醫療報告模組｜生成健康與診斷報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 791,
+    "name": "體育比賽模組｜允許建立比賽資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 792,
+    "name": "體育計分模組｜支援比賽實時計分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 793,
+    "name": "體育球員模組｜管理球員資訊與數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 794,
+    "name": "體育戰隊模組｜管理戰隊與成員。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 797,
+    "name": "體育直播模組｜比賽即時直播。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 798,
+    "name": "體育回放模組｜比賽錄影回放。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 799,
+    "name": "體育門票模組｜管理比賽票務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 800,
+    "name": "體育社群模組｜建立球迷社群與交流平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 801,
+    "name": "金融支付模組｜支援多種支付方式，含信用卡、電子錢包。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 802,
+    "name": "金融退款模組｜允許自動或人工退款流程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 803,
+    "name": "金融分期模組｜提供分期付款選項。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 804,
+    "name": "金融貸款模組｜支援線上貸款申請與審核。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 805,
+    "name": "金融投資模組｜允許用戶投資基金或股票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 807,
+    "name": "金融保險模組｜支援保險購買與理賠申請。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 808,
+    "name": "金融反詐騙模組｜檢測可疑交易並警示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 810,
+    "name": "金融報表模組｜自動生成收支與投資報表。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 813,
+    "name": "能源優化模組｜AI 提供節能建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 814,
+    "name": "能源警報模組｜異常耗能即時警示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 815,
+    "name": "能源交易模組｜支援能源買賣交易。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 817,
+    "name": "能源報告模組｜自動生成能源使用報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 819,
+    "name": "能源教育模組｜推廣能源節約與永續知識。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 820,
+    "name": "能源社群模組｜使用者可交流能源相關議題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 821,
+    "name": "旅遊行程模組｜允許規劃完整旅遊行程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 822,
+    "name": "旅遊票券模組｜支援景點與交通票券管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 823,
+    "name": "旅遊住宿模組｜管理住宿資訊與預訂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 825,
+    "name": "旅遊餐飲模組｜推薦當地餐廳與特色美食。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 828,
+    "name": "旅遊分享模組｜允許旅遊經驗分享至社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 829,
+    "name": "旅遊直播模組｜支援旅遊過程即時直播。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 830,
+    "name": "旅遊 AI 導遊模組｜AI 自動生成旅遊導覽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 834,
+    "name": "房屋收藏模組｜允許收藏感興趣的房源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 835,
+    "name": "房屋比較模組｜支援多房源比較功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 836,
+    "name": "房屋聯絡模組｜買賣雙方透過平台溝通。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 838,
+    "name": "房屋貸款計算模組｜自動計算貸款利率與期數。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 839,
+    "name": "房屋數據報告模組｜生成房市分析報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 840,
+    "name": "房屋社群模組｜買家與賣家社群互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 841,
+    "name": "農業作物管理模組｜管理農作物種植與收成。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 842,
+    "name": "農業灌溉模組｜智慧化控制灌溉系統。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 843,
+    "name": "農業氣象模組｜提供農業相關天氣數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 844,
+    "name": "農業病蟲害檢測模組｜AI 偵測作物病蟲害。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 845,
+    "name": "農業施肥模組｜智慧化施肥建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 848,
+    "name": "農業物流模組｜管理農產品配送。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 849,
+    "name": "農業教育模組｜提供農業相關教學。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 850,
+    "name": "農業社群模組｜建立農業經驗交流平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 851,
+    "name": "體育比賽模組｜建立比賽與隊伍資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 852,
+    "name": "體育計分模組｜比賽即時分數紀錄。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 854,
+    "name": "體育排行榜模組｜依比賽成績顯示排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 855,
+    "name": "體育球員模組｜管理球員數據與檔案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 856,
+    "name": "體育戰隊模組｜管理戰隊成員與戰績。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 857,
+    "name": "體育直播模組｜比賽即時直播功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 858,
+    "name": "體育回放模組｜比賽錄影回放功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 860,
+    "name": "體育社群模組｜球迷社群互動交流。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 861,
+    "name": "藝術展覽模組｜建立與管理展覽資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 862,
+    "name": "藝術票券模組｜支援展覽票務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 863,
+    "name": "藝術作品展示模組｜允許上傳與展示藝術品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 864,
+    "name": "藝術收藏模組｜允許收藏藝術品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 866,
+    "name": "藝術交易模組｜支援藝術品買賣。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 868,
+    "name": "藝術教育模組｜提供藝術學習資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 869,
+    "name": "藝術直播模組｜展覽活動即時直播。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 870,
+    "name": "藝術社群模組｜藝術愛好者交流平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 871,
+    "name": "文化活動模組｜建立與管理文化活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 872,
+    "name": "文化票務模組｜支援文化活動票務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 873,
+    "name": "文化教育模組｜推廣文化知識與教學。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 874,
+    "name": "文化展覽模組｜允許建立文化展覽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 875,
+    "name": "文化分享模組｜允許用戶分享文化內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 876,
+    "name": "文化社群模組｜建立文化相關交流社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 877,
+    "name": "文化紀錄模組｜允許保存文化活動紀錄。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 878,
+    "name": "文化直播模組｜支援文化活動即時直播。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 880,
+    "name": "文化報告模組｜自動生成文化活動報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 881,
+    "name": "遊戲角色模組｜建立並管理遊戲角色。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 882,
+    "name": "遊戲裝備模組｜管理角色裝備物品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 883,
+    "name": "遊戲技能模組｜管理角色技能樹。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 884,
+    "name": "遊戲任務模組｜建立遊戲任務與獎勵。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 885,
+    "name": "遊戲副本模組｜支援多人副本挑戰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 886,
+    "name": "遊戲排行榜模組｜根據分數或成就排名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 887,
+    "name": "遊戲商店模組｜允許購買遊戲道具。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 888,
+    "name": "遊戲貨幣模組｜建立遊戲內虛擬貨幣。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 889,
+    "name": "遊戲社群模組｜玩家可互相交流互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 890,
+    "name": "遊戲直播模組｜支援遊戲即時直播。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 891,
+    "name": "教育課程模組｜建立課程與單元。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 892,
+    "name": "教育考試模組｜允許建立線上考試。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 893,
+    "name": "教育作業模組｜允許學生繳交作業。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 894,
+    "name": "教育成績模組｜追蹤並發布學生成績。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 895,
+    "name": "教育推薦模組｜AI 根據學習行為推薦課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 896,
+    "name": "教育證書模組｜頒發完成課程後的數位證書。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 897,
+    "name": "教育社群模組｜課程學員可互動交流。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 898,
+    "name": "教育直播模組｜教師可即時授課。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 899,
+    "name": "教育報告模組｜自動生成學習報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 900,
+    "name": "教育 AI 助教模組｜AI 協助學生解答問題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 901,
+    "name": "電商商品管理模組｜允許新增、編輯與下架商品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 902,
+    "name": "電商分類模組｜支援商品依類別管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 906,
+    "name": "電商支付模組｜支援多種支付方式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 907,
+    "name": "電商優惠券模組｜建立折扣碼與優惠活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 912,
+    "name": "直播聊天室模組｜提供即時互動交流。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 913,
+    "name": "直播投票模組｜支援即時投票互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 914,
+    "name": "直播抽獎模組｜可於直播中舉辦抽獎。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 915,
+    "name": "直播多平台推流模組｜允許同時推送到多個平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 917,
+    "name": "直播禮物打賞模組｜觀眾可送禮物支持主播。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 919,
+    "name": "直播錄製模組｜自動保存完整直播影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 920,
+    "name": "直播回放模組｜提供完整回放與剪輯功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 922,
+    "name": "AI 圖片生成模組｜AI 依提示生成圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 923,
+    "name": "AI 影片生成模組｜AI 自動生成短影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 924,
+    "name": "AI 聲音生成模組｜AI 生成語音配音。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 925,
+    "name": "AI 音樂生成模組｜AI 創作背景音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 926,
+    "name": "AI 模型訓練模組｜允許上傳數據集訓練模型。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 930,
+    "name": "AI 模型市場模組｜建立 AI 模型交易與共享平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 932,
+    "name": "使用者註冊模組｜允許新用戶建立帳號。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 934,
+    "name": "使用者資料模組｜允許編輯個人資料。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 935,
+    "name": "使用者頭像模組｜支援上傳與更換頭像。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 936,
+    "name": "使用者通知模組｜推播系統通知與提醒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 939,
+    "name": "使用者黑名單模組｜允許封鎖不當用戶。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 941,
+    "name": "社群動態牆模組｜顯示用戶分享的最新動態。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 942,
+    "name": "社群好友模組｜允許互加好友並互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 943,
+    "name": "社群群組模組｜允許建立與加入群組。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 944,
+    "name": "社群標籤模組｜允許對動態加上主題標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 945,
+    "name": "社群留言模組｜允許針對貼文留言。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 946,
+    "name": "社群按讚模組｜允許用戶對內容按讚。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 947,
+    "name": "社群分享模組｜允許轉發或外部分享。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 948,
+    "name": "社群投票模組｜允許在動態牆中舉辦投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 949,
+    "name": "社群活動模組｜建立社群活動與報名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 951,
+    "name": "雲端檔案上傳模組｜支援檔案上傳至雲端。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 952,
+    "name": "雲端檔案分享模組｜允許檔案連結分享。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 957,
+    "name": "雲端檔案下載模組｜允許下載檔案到本地。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 958,
+    "name": "雲端檔案壓縮模組｜支援壓縮與解壓縮功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 961,
+    "name": "新聞發布模組｜允許建立並發佈新聞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 962,
+    "name": "新聞分類模組｜支援新聞依類別管理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 964,
+    "name": "新聞評論模組｜允許讀者留言互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 965,
+    "name": "新聞分享模組｜允許轉發新聞至社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 966,
+    "name": "新聞推播模組｜重大新聞自動通知。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 968,
+    "name": "新聞 AI 摘要模組｜AI 自動生成新聞摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 970,
+    "name": "新聞多媒體模組｜支援圖片、影片內嵌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 972,
+    "name": "健康飲食模組｜允許紀錄每日飲食。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 973,
+    "name": "健康運動模組｜允許紀錄運動數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 975,
+    "name": "健康心理模組｜提供心理測驗與建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 977,
+    "name": "健康報告模組｜自動生成健康分析報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 978,
+    "name": "健康 AI 建議模組｜AI 提供健康改善方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 979,
+    "name": "健康社群模組｜允許交流健康心得。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 980,
+    "name": "健康挑戰模組｜設計健身或飲食挑戰。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 981,
+    "name": "法律文件模組｜允許建立與管理法律文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 982,
+    "name": "法律審核模組｜律師可審核文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 983,
+    "name": "法律簽署模組｜支援數位簽名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 985,
+    "name": "法律合規模組｜AI 檢測文件合規性。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 987,
+    "name": "法律諮詢模組｜AI 提供基礎法律建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 988,
+    "name": "法律教育模組｜提供法律知識學習資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 989,
+    "name": "法律社群模組｜允許法律專業交流。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 990,
+    "name": "法律報告模組｜自動生成法律分析報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 992,
+    "name": "碳排放計算模組｜計算企業碳排放數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 993,
+    "name": "碳權交易模組｜管理碳權買賣。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 994,
+    "name": "環保提醒模組｜提醒環保相關任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 996,
+    "name": "環保教育模組｜提供環保相關教育資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 997,
+    "name": "環保社群模組｜建立環保議題交流平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 998,
+    "name": "環保挑戰模組｜設計永續挑戰活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 999,
+    "name": "環保報告模組｜自動生成 ESG 報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1000,
+    "name": "環保 AI 建議模組｜AI 提供環保改善方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1001,
+    "name": "交通即時資訊模組｜提供道路與大眾運輸即時狀況。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1002,
+    "name": "交通事故警示模組｜即時推播事故與道路封閉資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1003,
+    "name": "交通導航模組｜提供最佳駕駛與步行路線建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1004,
+    "name": "交通停車場模組｜顯示可用停車位與收費資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1005,
+    "name": "交通票務模組｜整合公車、火車、捷運票務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1006,
+    "name": "交通共享單車模組｜提供單車租借與還車資訊。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1007,
+    "name": "交通共乘模組｜允許乘客與駕駛配對共乘。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1008,
+    "name": "交通支付模組｜整合交通相關支付方式。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1009,
+    "name": "交通碳排放模組｜計算通勤碳排放數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1011,
+    "name": "IoT 裝置連線模組｜允許新增與管理 IoT 裝置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1012,
+    "name": "IoT 數據收集模組｜集中收集裝置數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1013,
+    "name": "IoT 遠端控制模組｜允許透過平台控制裝置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1016,
+    "name": "IoT 韌體更新模組｜支援遠端推送裝置更新。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1017,
+    "name": "IoT 故障檢測模組｜AI 偵測裝置異常狀態。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1021,
+    "name": "AI 學習模組｜AI 可自動學習用戶操作行為。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1022,
+    "name": "AI 推薦模組｜依據偏好推薦內容或商品。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1023,
+    "name": "AI 分類模組｜自動將數據分類整理。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1025,
+    "name": "AI 聊天模組｜提供自然語言對話體驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1026,
+    "name": "AI 文字生成模組｜生成文章、摘要與內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1027,
+    "name": "AI 圖像生成模組｜依提示生成圖片或設計。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1028,
+    "name": "AI 語音生成模組｜生成語音對話或旁白。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1029,
+    "name": "AI 音樂生成模組｜自動創作旋律或音效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1031,
+    "name": "教育課程模組｜建立並管理課程單元。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1032,
+    "name": "教育教材模組｜支援上傳教材與講義。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1033,
+    "name": "教育測驗模組｜提供課程相關測驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1034,
+    "name": "教育作業模組｜允許線上繳交作業。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1035,
+    "name": "教育成績模組｜教師可管理與發佈成績。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1036,
+    "name": "教育 AI 助教模組｜AI 提供即時輔助答疑。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1037,
+    "name": "教育直播模組｜支援教師即時授課。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1038,
+    "name": "教育錄播模組｜課程自動錄製並保存。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1039,
+    "name": "教育證書模組｜頒發數位學習證書。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1040,
+    "name": "教育社群模組｜建立師生互動社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1041,
+    "name": "醫療掛號模組｜允許病患線上預約看診。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1042,
+    "name": "醫療病歷模組｜集中管理病患病歷資料。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1043,
+    "name": "醫療處方模組｜管理醫生處方與提醒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1046,
+    "name": "醫療保險模組｜查詢與管理醫療保險方案。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1047,
+    "name": "醫療遠距模組｜支援線上問診與諮詢。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1048,
+    "name": "醫療 AI 診斷模組｜AI 協助初步診斷。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1049,
+    "name": "醫療健康報告模組｜自動生成健康報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1050,
+    "name": "醫療提醒模組｜提醒病患按時用藥或回診。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1051,
+    "name": "法律文件模組｜管理合同與協議文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1052,
+    "name": "法律審核模組｜律師可進行文件審核。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1053,
+    "name": "法律數位簽署模組｜支援線上簽名。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1058,
+    "name": "法律諮詢模組｜AI 提供基礎法律建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1059,
+    "name": "法律教育模組｜提供法律相關課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1060,
+    "name": "法律社群模組｜專業人員交流與討論。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1061,
+    "name": "新聞發布模組｜允許新聞建立與發佈。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1062,
+    "name": "新聞分類模組｜依主題分類新聞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1064,
+    "name": "新聞 AI 摘要模組｜自動生成新聞摘要。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1066,
+    "name": "新聞推播模組｜即時推送重大新聞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1068,
+    "name": "新聞分享模組｜支援社群分享新聞。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1070,
+    "name": "新聞多媒體模組｜支援新聞圖片與影音嵌入。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1071,
+    "name": "娛樂短影音模組｜支援上傳與分享短影片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1072,
+    "name": "娛樂直播模組｜提供即時直播互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1073,
+    "name": "娛樂遊戲模組｜整合娛樂型小遊戲。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1074,
+    "name": "娛樂投票模組｜允許發起娛樂相關投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1075,
+    "name": "娛樂挑戰模組｜設計娛樂挑戰賽事。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1076,
+    "name": "娛樂排行榜模組｜依人氣排序娛樂內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1079,
+    "name": "娛樂社群模組｜建立娛樂相關的社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1082,
+    "name": "商務 ERP 模組｜整合企業內部資源規劃。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1084,
+    "name": "商務採購模組｜管理供應鏈與採購需求。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1087,
+    "name": "商務人資模組｜管理員工資料與績效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1089,
+    "name": "商務 AI 助理模組｜AI 協助決策與規劃。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1090,
+    "name": "商務數據分析模組｜生成企業數據報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1093,
+    "name": "能源優化模組｜AI 提供能源使用建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1094,
+    "name": "能源碳排放模組｜計算能源碳排放。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1095,
+    "name": "能源交易模組｜支援能源市場交易。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1096,
+    "name": "能源警報模組｜異常用電自動警示。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1097,
+    "name": "能源報告模組｜生成能源使用報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1098,
+    "name": "能源教育模組｜提供能源相關教育資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1099,
+    "name": "能源社群模組｜建立能源使用者交流社群。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1100,
+    "name": "能源 IoT 模組｜整合 IoT 裝置監測能源數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1101,
+    "name": "社群活動模組｜允許建立並管理社群活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1102,
+    "name": "社群報名模組｜支援活動報名與出席紀錄。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1103,
+    "name": "社群討論區模組｜提供專屬討論空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1104,
+    "name": "社群動態模組｜顯示成員分享的最新內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1105,
+    "name": "社群積分模組｜成員互動可累積積分。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1106,
+    "name": "社群成就模組｜依據貢獻頒發成就徽章。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1107,
+    "name": "社群投票模組｜允許發起社群投票。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1108,
+    "name": "社群抽獎模組｜支援社群內部抽獎功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1109,
+    "name": "社群通知模組｜推播社群公告與提醒。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1111,
+    "name": "創作者投稿模組｜允許創作者上傳作品投稿。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1112,
+    "name": "創作者審核模組｜管理員可審核投稿內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1116,
+    "name": "創作者比賽模組｜舉辦創作者競賽活動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1117,
+    "name": "創作者合作模組｜多位創作者可協同合作。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1118,
+    "name": "創作者社群模組｜建立創作者交流平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1119,
+    "name": "創作者推薦模組｜AI 推薦優秀創作者。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1120,
+    "name": "創作者教育模組｜提供創作者學習資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1122,
+    "name": "影音聊天室模組｜允許觀眾即時互動。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1123,
+    "name": "影音投票模組｜支援直播或影片中的投票功能。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1124,
+    "name": "影音打賞模組｜允許觀眾送禮物支持。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1126,
+    "name": "影音下載模組｜允許下載影片到本地。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1127,
+    "name": "影音剪輯模組｜支援基礎影片編輯。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1128,
+    "name": "影音濾鏡模組｜提供多種後製特效。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1129,
+    "name": "影音配樂模組｜允許上傳或自動生成背景音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1130,
+    "name": "影音字幕模組｜自動生成與編輯字幕。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1131,
+    "name": "圖片上傳模組｜允許使用者上傳圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1132,
+    "name": "圖片壓縮模組｜自動壓縮圖片以節省空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1133,
+    "name": "圖片濾鏡模組｜即時套用濾鏡效果。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1134,
+    "name": "圖片拼貼模組｜允許製作拼貼組合。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1135,
+    "name": "圖片標註模組｜允許對圖片中的元素加註。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1136,
+    "name": "圖片識別模組｜AI 辨識圖片物件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1137,
+    "name": "圖片生成模組｜AI 根據提示生成圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1138,
+    "name": "圖片下載模組｜允許下載原始或處理後圖片。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1139,
+    "name": "圖片分享模組｜允許分享到外部社群平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1140,
+    "name": "圖片社群模組｜提供圖片分享與互動空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1142,
+    "name": "音樂下載模組｜支援音樂下載至裝置。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1144,
+    "name": "音樂混音模組｜允許合成與編輯音軌。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1145,
+    "name": "音樂 AI 生成模組｜AI 自動創作音樂。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1146,
+    "name": "音樂專輯模組｜允許建立並管理專輯。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1147,
+    "name": "音樂標籤模組｜允許為音樂加上分類標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1148,
+    "name": "音樂社群模組｜音樂愛好者可互相交流。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1149,
+    "name": "音樂排行榜模組｜依播放量與互動量排序。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1150,
+    "name": "音樂教育模組｜提供音樂相關學習資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1151,
+    "name": "文件上傳模組｜允許使用者上傳文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1152,
+    "name": "文件共編模組｜支援多人同時編輯文件。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1158,
+    "name": "文件標籤模組｜允許為文件加上分類標籤。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1159,
+    "name": "文件審核模組｜文件發布前須經管理員審核。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1161,
+    "name": "學習課程模組｜建立並管理課程內容。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1162,
+    "name": "學習測驗模組｜允許建立線上測驗。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1163,
+    "name": "學習報告模組｜AI 自動生成學習報告。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1164,
+    "name": "學習提醒模組｜提醒學生學習進度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1165,
+    "name": "學習遊戲化模組｜透過遊戲化提升動力。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1166,
+    "name": "學習成績模組｜追蹤學生成績與進度。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1167,
+    "name": "學習社群模組｜建立學生互動空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1168,
+    "name": "學習直播模組｜支援即時直播課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1169,
+    "name": "學習推薦模組｜AI 推薦適合的課程。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1170,
+    "name": "學習 AI 助教模組｜AI 提供答疑輔助。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1173,
+    "name": "商務 ERP 模組｜整合企業資源規劃。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1174,
+    "name": "商務合約模組｜管理合約與協議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1176,
+    "name": "商務採購模組｜管理採購需求與供應鏈。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1181,
+    "name": "農業作物模組｜管理作物生長週期。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1182,
+    "name": "農業灌溉模組｜自動化控制灌溉系統。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1183,
+    "name": "農業病蟲害檢測模組｜AI 偵測作物問題。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1184,
+    "name": "農業施肥模組｜智慧化施肥建議。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1185,
+    "name": "農業氣象模組｜提供農業相關氣候數據。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1188,
+    "name": "農業物流模組｜管理農產品配送。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1189,
+    "name": "農業教育模組｜提供農業學習資源。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1190,
+    "name": "農業社群模組｜建立農業經驗交流平台。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1193,
+    "name": "碳權交易模組｜支援碳權買賣。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1194,
+    "name": "環保提醒模組｜提醒完成環保任務。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1195,
+    "name": "環保教育模組｜提供環保課程與教材。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1196,
+    "name": "環保社群模組｜建立永續議題交流空間。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1197,
+    "name": "環保挑戰模組｜舉辦環保挑戰賽。",
+    "desc": "",
+    "category": "creative"
+  },
+  {
+    "id": 1199,
+    "name": "環保報告模組｜自動生成 ESG 報告。",
+    "desc": "",
+    "category": "creative"
+  }
+]
