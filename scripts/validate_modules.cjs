@@ -1,161 +1,123 @@
-#!/usr/bin/env node
-/* eslint-disable no-console */
+// scripts/validate_modules.cjs
+'use strict';
 
 const fs = require('fs');
 const path = require('path');
-const Ajv = require('ajv').default;
-const addFormats = require('ajv-formats').default;
 
-// ---------- 路徑設定 ----------
-const REPO_ROOT = path.resolve(__dirname, '..');
-const MODULES_DIR = path.join(REPO_ROOT, 'modules');
-const SCHEMA_PATH = path.join(REPO_ROOT, 'schema', 'module.manifest.schema.json');
-const SUMMARY_PATH = path.join(REPO_ROOT, 'summary.json');
+const AjvLib = require('ajv');
+const Ajv = AjvLib.default || AjvLib;         // 相容不同安裝型態
+const addFormats = require('ajv-formats');
 
-// ---------- 小工具 ----------
-const stripBOM = (s) => s.replace(/^\uFEFF/, '');
+const REPO_ROOT     = path.resolve(__dirname, '..');
+const MODULES_DIR   = path.join(REPO_ROOT, 'modules');
+const SCHEMA_FILE   = path.join(REPO_ROOT, 'schema', 'module.manifest.schema.json');
+const SUMMARY_PATH  = path.join(REPO_ROOT, 'summary.json');
 
-function posToLineCol(text, pos) {
-  // pos 為 0-based 位置；回傳 { line, col } 皆為 1-based
-  let line = 1, col = 1;
-  for (let i = 0; i < text.length && i < pos; i++) {
-    if (text[i] === '\n') {
-      line += 1;
-      col = 1;
-    } else {
-      col += 1;
-    }
-  }
-  return { line, col };
-}
-
-function walkManifests(dir) {
-  const out = [];
-  for (const name of fs.readdirSync(dir)) {
+function listManifests(dir) {
+  return fs.readdirSync(dir).flatMap((name) => {
     const p = path.join(dir, name);
-    const st = fs.statSync(p);
-    if (st.isDirectory()) out.push(...walkManifests(p));
-    else if (name === 'manifest.json') out.push(p);
-  }
-  return out;
+    return fs.statSync(p).isDirectory() ? listManifests(p) : [p];
+  }).filter(f => f.endsWith('manifest.json'));
 }
 
-function formatAjvErrors(errors) {
-  return errors
-    .map(e => {
-      const inst = e.instancePath || '/';
-      const msg = e.message || 'invalid';
-      const extra = e.params ? ` | ${JSON.stringify(e.params)}` : '';
-      return `  - at ${inst}: ${msg}${extra}`;
-    })
-    .join('\n');
-}
-
-// ---------- 讀入 schema ----------
-let schema;
-try {
-  const schemaText = stripBOM(fs.readFileSync(SCHEMA_PATH, 'utf8'));
-  schema = JSON.parse(schemaText);
-} catch (e) {
-  console.error('❌ 無法讀取/解析 schema：', SCHEMA_PATH);
-  console.error(e.message);
-  process.exit(1);
-}
-
-// ---------- 準備 AJV ----------
-const ajv = new Ajv({ allErrors: true, strict: false });
-addFormats(ajv);
-const validate = ajv.compile(schema);
-
-// ---------- 開始驗證 ----------
-const files = walkManifests(MODULES_DIR);
-
-const result = {
-  total: files.length,
-  valid: 0,
-  invalid: 0,
-  autofilled: 0, // 保留欄位（若之後有自動補值可遞增）
-  failed: [],     // 每個失敗項目：{ file, type: 'json'|'schema', detail }
-};
-
-for (const file of files) {
-  let text;
+function safeJSONParse(text) {
   try {
-    text = stripBOM(fs.readFileSync(file, 'utf8'));
-  } catch (e) {
-    result.invalid++;
-    result.failed.push({
-      file,
-      type: 'io',
-      detail: `read error: ${e.message}`,
-    });
-    console.error(`\n❌ 讀檔失敗: ${path.relative(REPO_ROOT, file)}\n  ${e.message}`);
-    continue;
+    return { data: JSON.parse(text.replace(/^\uFEFF/, '')), error: null }; // 去 BOM 再 parse
+  } catch (error) {
+    return { data: null, error };
   }
+}
 
-  // JSON 解析
-  let data;
-  try {
-    data = JSON.parse(text);
-  } catch (e) {
-    // 嘗試從錯誤訊息抓 position
-    let m = /position\s+(\d+)/i.exec(e.message);
-    let lineCol = '';
-    if (m) {
-      const pos = Number(m[1]);
-      const { line, col } = posToLineCol(text, pos);
-      lineCol = ` (line ${line} col ${col})`;
+function loadSchema() {
+  const raw = fs.readFileSync(SCHEMA_FILE, 'utf8').replace(/^\uFEFF/, '');
+  const { data, error } = safeJSONParse(raw);
+  if (error) {
+    console.error('❌ Schema 解析失敗：', error.message);
+    process.exit(1);
+  }
+  return data;
+}
+
+function createAjv() {
+  const ajv = new Ajv({
+    strict: false,           // 放寬，避免草稿嚴格報錯
+    allErrors: true,
+    allowUnionTypes: true
+  });
+  try { addFormats(ajv); } catch (_) {}
+  return ajv;
+}
+
+function validateAll() {
+  const schema = loadSchema();
+  const ajv = createAjv();
+  const validate = ajv.compile(schema);
+
+  const files = listManifests(MODULES_DIR);
+
+  const result = {
+    total: files.length,
+    valid: 0,
+    invalid: 0,
+    autofilled: 0,           // 這裡先保留欄位，未來要自動補欄位可在此統計
+    failed: [],              // 詳細錯誤清單
+  };
+
+  for (const file of files) {
+    const raw = fs.readFileSync(file, 'utf8');
+    const { data, error } = safeJSONParse(raw);
+    if (error) {
+      result.invalid++;
+      result.failed.push({
+        file: path.relative(REPO_ROOT, file),
+        reason: 'JSON parse error',
+        message: error.message
+      });
+      continue;
     }
-    result.invalid++;
-    result.failed.push({
-      file,
-      type: 'json',
-      detail: e.message + lineCol,
-    });
-    console.error(`\n❌ JSON 解析錯誤: ${path.relative(REPO_ROOT, file)}${lineCol}\n  ${e.message}`);
-    continue;
+
+    const ok = validate(data);
+    if (!ok) {
+      result.invalid++;
+      result.failed.push({
+        file: path.relative(REPO_ROOT, file),
+        reason: 'schema validation error',
+        errors: validate.errors
+      });
+    } else {
+      result.valid++;
+    }
   }
 
-  // Schema 驗證
-  const ok = validate(data);
-  if (!ok) {
-    result.invalid++;
-    const detail = formatAjvErrors(validate.errors || []);
-    result.failed.push({
-      file,
-      type: 'schema',
-      detail,
-    });
-    console.error(`\n❌ Schema 驗證失敗: ${path.relative(REPO_ROOT, file)}\n${detail}`);
-    continue;
+  // 輸出 summary.json
+  try {
+    fs.writeFileSync(SUMMARY_PATH, JSON.stringify(result, null, 2) + '\n');
+    console.log(`📝 已產生 ${path.relative(REPO_ROOT, SUMMARY_PATH)} 。`);
+  } catch (e) {
+    console.error('❌ 無法寫入 summary.json：', e.message);
+    // 不中斷，讓你至少看到統計
   }
 
-  // 驗證通過
-  result.valid++;
+  // 終端顯示摘要
+  console.log('\n===== Validation Summary =====');
+  console.log(`total    : ${result.total}`);
+  console.log(`valid    : ${result.valid}`);
+  console.log(`invalid  : ${result.invalid}`);
+  console.log(`autofilled: ${result.autofilled}`);
+  if (result.failed.length > 0) {
+    console.log('\n--- 失敗清單（前 50 筆） ---');
+    result.failed.slice(0, 50).forEach((f, i) => {
+      console.log(`${i+1}. ${f.file}`);
+      console.log(`   ↳ ${f.reason}`);
+      if (f.message) console.log(`   ↳ ${f.message}`);
+      if (f.errors)  console.log(`   ↳ ${JSON.stringify(f.errors, null, 2)}`);
+    });
+  }
+  console.log('==============================\n');
+
+  // 有錯讓退出碼為 1（CI/本地都能看見失敗），沒錯回 0
+  process.exit(result.invalid === 0 ? 0 : 1);
 }
 
-// ---------- Gate（占位：若之後你要做門檻檢查，可在這裡累加） ----------
-result.gate = {
-  // 示例：若要輸出推估值，可在 build_dag.cjs/auto_select.cjs 內計算後寫 summary
-  bundle_kb_max: 500,
-  cpu_ms_max: 800,
-  mem_mb_max: 120,
-  max_degree: 20,
-};
-
-// ---------- 輸出 summary ----------
-try {
-  fs.writeFileSync(SUMMARY_PATH, JSON.stringify(result, null, 2) + '\n');
-  console.log('\n📄 summary.json 已產生：', path.relative(REPO_ROOT, SUMMARY_PATH));
-} catch (e) {
-  console.error('⚠️ 無法寫入 summary.json：', e.message);
-}
-
-// ---------- 結束碼 ----------
-if (result.invalid > 0) {
-  console.error(`\n❌ 驗證失敗：${result.invalid}/${result.total} 個 manifest 出錯`);
-  process.exit(1);
-} else {
-  console.log(`\n✅ 全部通過：${result.valid}/${result.total}`);
-  process.exit(0);
-}
+// 執行
+validateAll();
