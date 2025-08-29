@@ -1,7 +1,7 @@
 {
   "id": "demo.echo-1",
   "name": "Echo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "capabilities": ["core"],
   "inputs": { "text": { "type": "string" } },
   "outputs": { "echo": { "type": "string" } },
