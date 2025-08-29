@@ -1,63 +1,73 @@
-// scripts/validate_modules.cjs  (CommonJS 版)
+// scripts/validate_modules.cjs  (CommonJS)
 const fs = require("fs");
 const path = require("path");
-const Ajv = require("ajv").default;
+const Ajv = require("ajv");
 const addFormats = require("ajv-formats").default;
-const draft2020 = require("ajv/dist/2020").default;
+const draft2020 = require("ajv-draft-2020").default;
 
 const REPO_ROOT = path.resolve(__dirname, "..");
 const MODULES_DIR = path.join(REPO_ROOT, "modules");
 const SCHEMA_DIR = path.join(REPO_ROOT, "schema");
 const SCHEMA_PATH = path.join(SCHEMA_DIR, "module.manifest.schema.json");
 
-// 讀 JSON（避免 BOM/編碼問題）
+// 小工具
 function readJSON(p) {
-  return JSON.parse(fs.readFileSync(p, "utf8"));
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch (e) {
+    throw new Error(`JSON 解析失敗：${p}\n${e.message}`);
+  }
 }
 
-// 掃描 modules 下所有 manifest.json
-function collectManifests(root = MODULES_DIR) {
-  if (!fs.existsSync(root)) return [];
-  const out = [];
-  const q = [root];
-  while (q.length) {
-    const d = q.pop();
+function collectManifests(dir) {
+  if (!fs.existsSync(dir)) return [];
+  const result = [];
+  const stack = [dir];
+  while (stack.length) {
+    const d = stack.pop();
     for (const name of fs.readdirSync(d)) {
-      const p = path.join(d, name);
-      const st = fs.statSync(p);
-      if (st.isDirectory()) q.push(p);
-      else if (name === "manifest.json") out.push(p);
+      const full = path.join(d, name);
+      const stat = fs.statSync(full);
+      if (stat.isDirectory()) stack.push(full);
+      else if (name === "manifest.json") result.push(full);
     }
   }
-  return out;
+  return result;
 }
 
-function validateAll() {
-  const ajv = new Ajv({ strict: false, allErrors: true });
-  addFormats(ajv);
-  ajv.addMetaSchema(draft2020); // 支援 2020-12
+// 建 Ajv（draft2020 + formats）
+const ajv = new Ajv({ strict: false, allErrors: true });
+draft2020(ajv);
+addFormats(ajv);
 
-  const schema = readJSON(SCHEMA_PATH);
-  const validate = ajv.compile(schema);
+// 載入 schema
+const schema = readJSON(SCHEMA_PATH);
+const validate = ajv.compile(schema);
 
-  const files = collectManifests();
-  let ok = 0, bad = 0;
+// 掃描
+const manifests = collectManifests(MODULES_DIR);
 
-  for (const f of files) {
-    const data = readJSON(f);
-    const valid = validate(data);
-    if (valid) {
-      console.log(`✅ OK  ${f}`);
-      ok++;
-    } else {
-      console.error(`❌ FAIL ${f}`);
-      console.error(ajv.errorsText(validate.errors, { separator: "\n" }));
-      bad++;
-    }
+if (manifests.length === 0) {
+  console.log("⚠️ 找不到任何 modules/**/manifest.json，可先放一個 demo。");
+}
+
+// 檢查
+let errors = 0;
+for (const mf of manifests) {
+  const data = readJSON(mf);
+  const ok = validate(data);
+  if (ok) {
+    console.log(`✅ ${mf} — OK`);
+  } else {
+    errors++;
+    console.log(`❌ ${mf} — 失敗`);
+    console.log(ajv.errorsText(validate.errors, { separator: "\n" }));
   }
-
-  console.log(`\nSummary: OK=${ok}, FAIL=${bad}`);
-  if (bad > 0) process.exit(1);
 }
 
-validateAll();
+if (errors > 0) {
+  console.error(`\n合計 ${errors} 個 manifest 未通過。`);
+  process.exit(1);
+} else {
+  console.log(`\n🎉 所有 manifest 通過驗證。`);
+}
