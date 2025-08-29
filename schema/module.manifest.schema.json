@@ -2,14 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
-    "id": { "type": "string" },
-    "name": { "type": "string" },
-    "version": { "type": "string" },
+    "id":       { "type": "string" },
+    "name":     { "type": "string" },
+    "version":  { "type": "string" },
     "capabilities": {
       "type": "array",
       "items": { "type": "string" }
     }
   },
-  "required": [ "id", "name", "version" ],
+  "required": ["id", "name", "version"],
   "additionalProperties": true
 }
