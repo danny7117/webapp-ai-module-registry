@@ -2,5 +2,14 @@
   "id": "demo",
   "name": "Demo",
   "version": "1.0.0",
-  "capabilities": ["core"]
+
+  "capabilities": ["nlp", "summarize"],
+  "requires": [],
+  "conflicts": ["legacy-summarize"],
+
+  "resources": { "bundle_kb": 120, "cpu_ms": 80, "mem_mb": 64 },
+  "compliance": { "min_age": 0, "license": "MIT" },
+  "ui": { "containers": ["chat"] },
+  "risk": { "rollback": "disable-module" },
+  "release": { "publish": true, "tags": ["core"] }
 }
