@@ -2,14 +2,14 @@
 const fs = require("fs");
 const path = require("path");
 
-// Try Ajv 2020-12 first; fallback to default Ajv if dist/2020 not present
+// Try Ajv 2020-12 first; fallback to default Ajv
 let Ajv;
 try { Ajv = require("ajv/dist/2020"); } catch (_) { Ajv = require("ajv"); }
 
 // ---- helpers ----
 function readJSON(filePath) {
   const raw = fs.readFileSync(filePath, "utf8");
-  // 允許 JSON 註解（// 或 /* */），先去掉再 parse，避免 CI 因註解爆掉
+  // 支援 JSON 註解（//、/* */）— 先移除避免 parse 失敗
   const withoutComments = raw.replace(/\/\*[\s\S]*?\*\/|\/\/.*$/gm, "");
   return JSON.parse(withoutComments);
 }
@@ -33,15 +33,14 @@ const validate = ajv.compile(schema);
 
 // ---- collect manifests ----
 const manifests = [];
-function walk(dir) {
+(function walk(dir) {
   if (!fs.existsSync(dir)) return;
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     const p = path.join(dir, e.name);
     if (e.isDirectory()) walk(p);
     else if (e.name === "manifest.json") manifests.push(p);
   }
-}
-walk(MODULES_DIR);
+})(MODULES_DIR);
 
 // ---- validate ----
 const errors = [];
