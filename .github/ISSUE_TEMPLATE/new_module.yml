@@ -1,0 +1,47 @@
+name: "[模組] 新增/修改申請"
+description: 提交新模組或修改既有模組
+title: "[Module] <模組名稱>"
+labels: ["module:proposal"]
+body:
+  - type: input
+    id: purpose
+    attributes:
+      label: 1) 目的/能力（capabilities）
+      description: 描述模組解決什麼問題、核心能力
+  - type: input
+    id: demand
+    attributes:
+      label: 2) 需求卡對應（ID/連結）
+  - type: textarea
+    id: manifest
+    attributes:
+      label: 3) Manifest（貼 JSON）
+      description: 需含 id/name/version/capabilities/inputs/outputs/resources/policy/tests
+  - type: textarea
+    id: tests
+    attributes:
+      label: 4) 測試向量（≥2 條，含預期輸出）
+  - type: textarea
+    id: deps
+    attributes:
+      label: 5) 依賴/互斥說明
+  - type: input
+    id: budget
+    attributes:
+      label: 6) 資源預算（bundle/cpu/mem 估算）
+  - type: textarea
+    id: compliance
+    attributes:
+      label: 7) 合規/授權（年齡/授權條款）
+  - type: textarea
+    id: ui
+    attributes:
+      label: 8) UI 足跡（需要的容器/圖層）
+  - type: textarea
+    id: risk
+    attributes:
+      label: 9) 風險與回退策略
+  - type: textarea
+    id: publish
+    attributes:
+      label: 10) 發布建議（是否進智慧模組庫、標籤）
