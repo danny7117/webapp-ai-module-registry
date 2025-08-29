@@ -1,3 +1,11 @@
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
+import draft2020 from "ajv/dist/2020.js";   // ⭐ 關鍵
+
+const ajv = new Ajv({ strict: false, allErrors: true });
+addFormats(ajv);
+ajv.addMetaSchema(draft2020);   // ⭐ 加入 draft 2020-12 支援
+
 // scripts/validate_modules.cjs
 const fs = require("fs");
 const path = require("path");
