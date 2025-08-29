@@ -1,7 +1,6 @@
 name: Module CI
 
 on:
-  workflow_dispatch: {}   # 這行讓 Actions 介面出現「Run workflow」按鈕
   push:
     branches: [ "main" ]
     paths:
@@ -16,6 +15,10 @@ on:
       - "schema/**"
       - "scripts/validate_modules.cjs"
       - "package.json"
+  workflow_dispatch: {}  # 手動也可
+
+permissions:
+  contents: read
 
 jobs:
   validate:
