@@ -1,94 +1,93 @@
 // scripts/validate_modules.cjs
 const fs = require("fs");
 const path = require("path");
-
-// 使用 Ajv 2020 直接支援 draft-2020-12
-const Ajv2020 = require("ajv/dist/2020");
+const Ajv2020 = require("ajv/dist/2020");     // 不再用 ajv-draft-2020（避免 404）
 const addFormats = require("ajv-formats");
 
-// 路徑
-const REPO_ROOT = path.resolve(__dirname, "..");
-const MODULES_DIR = path.join(REPO_ROOT, "modules");
-const SCHEMA_DIR = path.join(REPO_ROOT, "schema");
-const SCHEMA_PATH = path.join(SCHEMA_DIR, "module.manifest.schema.json");
-
-// 讀 JSON（移除 BOM 與註解）
-function readJSON(filePath) {
-  let s = fs.readFileSync(filePath, "utf8");
-  // 去掉 BOM
-  s = s.replace(/^\uFEFF/, "");
-  // 去掉 //… 與 /* … */
-  s = s.replace(/\/\/.*$/gm, "").replace(/\/\*[\s\S]*?\*\//gm, "");
-  return JSON.parse(s);
+// 讀檔 + 去除 BOM
+function readJSON(p) {
+  const raw = fs.readFileSync(p, "utf8").replace(/^\uFEFF/, "");
+  return JSON.parse(raw);
 }
 
-// 收集所有 modules/**/manifest.json
-function collectManifests(dir = MODULES_DIR) {
-  const list = [];
-  if (!fs.existsSync(dir)) return list;
-  for (const name of fs.readdirSync(dir)) {
-    const fp = path.join(dir, name);
-    const stat = fs.statSync(fp);
-    if (stat.isDirectory()) {
-      // 這層是否有 manifest.json
-      const mf = path.join(fp, "manifest.json");
-      if (fs.existsSync(mf)) list.push(mf);
-      // 繼續往下
-      list.push(...collectManifests(fp));
-    }
+// 走訪 modules 下的 manifest.json
+function collectManifests(dir) {
+  const out = [];
+  if (!fs.existsSync(dir)) return out;
+  for (const name of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, name.name);
+    if (name.isDirectory()) out.push(...collectManifests(p));
+    else if (name.isFile() && name.name.toLowerCase() === "manifest.json") out.push(p);
   }
-  return list;
+  return out;
 }
 
-function main() {
-  // 讀 schema（要的是「物件」，不是字串）
-  if (!fs.existsSync(SCHEMA_PATH)) {
-    console.error(`[error] schema not found: ${SCHEMA_PATH}`);
+function printAjvErrors(errors) {
+  return errors
+    .map(e => {
+      const loc = e.instancePath || "(root)";
+      const msg = e.message || "invalid";
+      const data = e.params && e.params.allowedValues ? ` | allowed: ${JSON.stringify(e.params.allowedValues)}` : "";
+      return `  - ${loc} ${msg}${data}`;
+    })
+    .join("\n");
+}
+
+async function main() {
+  const REPO_ROOT = path.resolve(__dirname, "..");
+  const MODULES_DIR = path.join(REPO_ROOT, "modules");
+  const SCHEMA_PATH = path.join(REPO_ROOT, "schema", "module.manifest.schema.json");
+
+  const ajv = new Ajv2020({ allErrors: true, strict: false });
+  addFormats(ajv);
+
+  let schema;
+  try {
+    schema = readJSON(SCHEMA_PATH);
+  } catch (e) {
+    console.error(`❌ 讀取 schema 失敗：${SCHEMA_PATH}\n   ${e.message}`);
     process.exit(1);
   }
-  const schema = readJSON(SCHEMA_PATH);
-
-  const ajv = new Ajv2020({
-    strict: false,
-    allErrors: true,
-    allowUnionTypes: true,
-  });
-  addFormats(ajv);
 
   const validate = ajv.compile(schema);
 
-  const files = collectManifests();
+  const files = collectManifests(MODULES_DIR);
   if (files.length === 0) {
-    console.log("⚠️  no manifest found under modules/**/manifest.json");
-    process.exit(0); // 沒檔案就略過，不當作錯誤
+    console.log("ℹ️  modules/* 下沒有找到任何 manifest.json，可略過驗證。");
+    process.exit(0);
   }
 
-  let errors = 0;
-  for (const file of files) {
+  let failed = 0;
+
+  for (const fp of files) {
     try {
-      const data = readJSON(file);
+      const text = fs.readFileSync(fp, "utf8").replace(/^\uFEFF/, "");
+      if (!text.trim()) {
+        console.warn(`⚠️  跳過空檔：${fp}`);
+        continue;
+      }
+      const data = JSON.parse(text);
       const ok = validate(data);
-      if (!ok) {
-        errors++;
-        console.log(`❌ ${file}`);
-        console.log(ajv.errorsText(validate.errors, { separator: "\n  " }));
-        console.log("");
+      if (ok) {
+        console.log(`✅ OK: ${fp}`);
       } else {
-        console.log(`✅ ${file}`);
+        console.error(`❌ NG: ${fp}\n${printAjvErrors(validate.errors)}`);
+        failed++;
       }
     } catch (e) {
-      errors++;
-      console.log(`❌ ${file}`);
-      console.log(`  ${e.message}`);
-      console.log("");
+      console.error(`❌ 讀取/解析失敗：${fp}\n   ${e.message}`);
+      failed++;
     }
   }
 
-  if (errors > 0) {
-    console.log(`\n✖ validation failed: ${errors} file(s)`);
+  if (failed > 0) {
+    console.error(`\n總結：${failed} 個 manifest 未通過。`);
     process.exit(1);
   }
-  console.log("\n✓ 1 module(s) validated OK");
+  console.log("\n🎉 所有 manifest 通過驗證。");
 }
 
-main();
+main().catch(e => {
+  console.error(e);
+  process.exit(1);
+});
