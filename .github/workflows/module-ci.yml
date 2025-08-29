@@ -13,6 +13,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        task_tags: ["nlp,summarize", "vision,ocr", "crawler", "audio,transcribe"]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -36,13 +39,13 @@ jobs:
 
       - name: Match → Rank → Plan (auto_select)
         env:
-          TASK_TAGS: "nlp,summarize"
+          TASK_TAGS: ${{ matrix.task_tags }}
         run: node scripts/auto_select.cjs
 
       - name: Upload plans (artifact)
         uses: actions/upload-artifact@v4
         with:
-          name: plans
+          name: plans-${{ matrix.task_tags }}
           path: |
             dag.json
             module_plan.json
