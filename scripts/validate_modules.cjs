@@ -1,93 +1,65 @@
 // scripts/validate_modules.cjs
 const fs = require("fs");
 const path = require("path");
-const Ajv2020 = require("ajv/dist/2020");     // 不再用 ajv-draft-2020（避免 404）
+
+// Ajv draft-2020 + formats（CJS 寫法）
+const Ajv2020 = require("ajv/dist/2020").default;
 const addFormats = require("ajv-formats");
 
-// 讀檔 + 去除 BOM
-function readJSON(p) {
-  const raw = fs.readFileSync(p, "utf8").replace(/^\uFEFF/, "");
+const REPO_ROOT = __dirname ? path.resolve(__dirname, "..") : process.cwd();
+const MODULES_DIR = path.join(REPO_ROOT, "modules");
+const SCHEMA_FILE = path.join(REPO_ROOT, "schema", "module.manifest.schema.json");
+
+// 安全讀 JSON（自動去掉 BOM）
+function readJSON(file) {
+  const raw = fs.readFileSync(file, "utf8").replace(/^\uFEFF/, "");
   return JSON.parse(raw);
 }
 
-// 走訪 modules 下的 manifest.json
-function collectManifests(dir) {
+// 收集 modules/**/manifest.json
+function collectManifests(root) {
+  if (!fs.existsSync(root)) return [];
   const out = [];
-  if (!fs.existsSync(dir)) return out;
-  for (const name of fs.readdirSync(dir, { withFileTypes: true })) {
-    const p = path.join(dir, name.name);
-    if (name.isDirectory()) out.push(...collectManifests(p));
-    else if (name.isFile() && name.name.toLowerCase() === "manifest.json") out.push(p);
+  for (const name of fs.readdirSync(root, { withFileTypes: true })) {
+    if (!name.isDirectory()) continue;
+    const fp = path.join(root, name.name, "manifest.json");
+    if (fs.existsSync(fp)) out.push(fp);
   }
   return out;
 }
 
-function printAjvErrors(errors) {
-  return errors
-    .map(e => {
-      const loc = e.instancePath || "(root)";
-      const msg = e.message || "invalid";
-      const data = e.params && e.params.allowedValues ? ` | allowed: ${JSON.stringify(e.params.allowedValues)}` : "";
-      return `  - ${loc} ${msg}${data}`;
-    })
-    .join("\n");
-}
-
-async function main() {
-  const REPO_ROOT = path.resolve(__dirname, "..");
-  const MODULES_DIR = path.join(REPO_ROOT, "modules");
-  const SCHEMA_PATH = path.join(REPO_ROOT, "schema", "module.manifest.schema.json");
-
-  const ajv = new Ajv2020({ allErrors: true, strict: false });
+function main() {
+  const schema = readJSON(SCHEMA_FILE);
+  const ajv = new Ajv2020({ strict: false, allErrors: true });
   addFormats(ajv);
 
-  let schema;
-  try {
-    schema = readJSON(SCHEMA_PATH);
-  } catch (e) {
-    console.error(`❌ 讀取 schema 失敗：${SCHEMA_PATH}\n   ${e.message}`);
-    process.exit(1);
-  }
-
-  const validate = ajv.compile(schema);
-
-  const files = collectManifests(MODULES_DIR);
-  if (files.length === 0) {
-    console.log("ℹ️  modules/* 下沒有找到任何 manifest.json，可略過驗證。");
+  const manifests = collectManifests(MODULES_DIR);
+  if (manifests.length === 0) {
+    console.log("No manifests found, skip.");
     process.exit(0);
   }
 
-  let failed = 0;
-
-  for (const fp of files) {
+  let ok = true;
+  for (const f of manifests) {
     try {
-      const text = fs.readFileSync(fp, "utf8").replace(/^\uFEFF/, "");
-      if (!text.trim()) {
-        console.warn(`⚠️  跳過空檔：${fp}`);
-        continue;
-      }
-      const data = JSON.parse(text);
-      const ok = validate(data);
-      if (ok) {
-        console.log(`✅ OK: ${fp}`);
+      const data = readJSON(f);
+      const validate = ajv.compile(schema);
+      const valid = validate(data);
+      if (!valid) {
+        ok = false;
+        console.error(`✗ ${f}`);
+        console.error(validate.errors);
       } else {
-        console.error(`❌ NG: ${fp}\n${printAjvErrors(validate.errors)}`);
-        failed++;
+        console.log(`✓ ${f}`);
       }
     } catch (e) {
-      console.error(`❌ 讀取/解析失敗：${fp}\n   ${e.message}`);
-      failed++;
+      ok = false;
+      console.error(`✗ ${f} - ${e.message}`);
     }
   }
 
-  if (failed > 0) {
-    console.error(`\n總結：${failed} 個 manifest 未通過。`);
-    process.exit(1);
-  }
-  console.log("\n🎉 所有 manifest 通過驗證。");
+  if (!ok) process.exit(1);
+  console.log(`\nAll ${manifests.length} manifest(s) validated.`);
 }
 
-main().catch(e => {
-  console.error(e);
-  process.exit(1);
-});
+if (require.main === module) main();
