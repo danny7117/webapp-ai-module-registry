@@ -1,15 +1,11 @@
 {
   "name": "webapp-ai-bot",
   "version": "1.0.0",
-  "description": "Minimal bot service with CI validator",
-  "main": "bot/index.js",
   "type": "module",
   "scripts": {
-    "start": "node bot/index.js",
-    "validate": "node scripts/validate_modules.cjs"
+    "validate": "node scripts/validate_modules.cjs",
+    "update-catalog": "node scripts/update_catalog.cjs"
   },
   "license": "MIT",
-  "dependencies": {
-    "ajv": "^8.17.1"
-  }
+  "dependencies": {}
 }
