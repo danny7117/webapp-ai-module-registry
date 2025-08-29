@@ -9,10 +9,7 @@
     "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
     "capabilities": {
       "type": "array",
-      "items": {
-        "type": "string",
-        "enum": ["core", "utility", "creative", "business"]
-      }
+      "items": { "type": "string", "enum": ["core", "utility", "creative", "business"] }
     },
     "inputs": { "type": "object" },
     "outputs": { "type": "object" },
@@ -34,10 +31,7 @@
       },
       "required": ["age", "license", "offline_ok"]
     },
-    "tests": {
-      "type": "array",
-      "items": { "type": "object" }
-    }
+    "tests": { "type": "array", "items": { "type": "object" } }
   },
   "additionalProperties": true
 }
