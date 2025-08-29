@@ -1,62 +1,30 @@
 name: Module CI
 
 on:
-  workflow_dispatch: {}   # 手動 Run workflow
+  workflow_dispatch: {}   # 這行讓 Actions 介面出現「Run workflow」按鈕
   push:
     branches: [ "main" ]
     paths:
-      - 'modules/**/manifest.json'
-      - 'schema/**'
-      - 'scripts/validate_modules.cjs'
-      - 'scripts/update_catalog.cjs'
-      - 'package.json'
+      - "modules/**/manifest.json"
+      - "schema/**"
+      - "scripts/validate_modules.cjs"
+      - "package.json"
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'modules/**/manifest.json'
-      - 'schema/**'
-      - 'scripts/validate_modules.cjs'
-      - 'scripts/update_catalog.cjs'
-      - 'package.json'
-
-permissions:
-  contents: write   # 允許 bot 回推 catalog 變更
+      - "modules/**/manifest.json"
+      - "schema/**"
+      - "scripts/validate_modules.cjs"
+      - "package.json"
 
 jobs:
-    validate-and-merge:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - run: npm ci || npm i
-
-      # ↓ 新增：列出 scripts 目錄，確認檔案真的在
-      - name: Debug list files
-        run: |
-          pwd
-          ls -la
-          ls -la scripts
-
-      # ↓ 跑 validator（你如果想更保險，也可以直接寫 node 路徑）
       - name: Run validator
-        run: node ./scripts/validate_modules.cjs
-
-      - name: Run update-catalog
-        run: node ./scripts/update_catalog.cjs
-
-      - name: Commit catalog back
-        shell: bash
-        run: |
-          git config --global user.name "module-bot"
-          git config --global user.email "bot@example.com"
-          if git diff --quiet module_catalog.json; then
-            echo "No catalog changes."
-          else
-            git add module_catalog.json
-            git commit -m "chore: auto update catalog"
-            git push
-          fi
+        run: npm run validate
