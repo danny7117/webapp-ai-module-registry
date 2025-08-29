@@ -1,4 +1,3 @@
-// scripts/find_bad_json.cjs
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -17,7 +16,7 @@ const files = walk(BASE).filter(f => f.endsWith('manifest.json'));
 let bad = [];
 for (const f of files) {
   try {
-    const raw = fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, ''); // 去除 BOM
+    const raw = fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, '');
     JSON.parse(raw);
   } catch (e) {
     bad.push({
@@ -28,14 +27,13 @@ for (const f of files) {
 }
 
 if (bad.length === 0) {
-  console.log('✅ 所有 manifest.json 皆可被 JSON.parse() 正確解析。');
+  console.log('✅ 所有 manifest.json 都能正確解析');
   process.exit(0);
 } else {
-  console.log('❌ 發現無法解析的 manifest.json 檔案：\n');
+  console.log('❌ 發現無法解析的 manifest.json：\n');
   for (const b of bad) {
     console.log(`- ${b.file}`);
     console.log(`  ↳ ${b.message}\n`);
   }
-  // 找到壞檔讓流程失敗（本地看得更清楚）
   process.exit(1);
 }
