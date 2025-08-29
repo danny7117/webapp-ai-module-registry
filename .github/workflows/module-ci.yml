@@ -23,29 +23,31 @@ permissions:
   contents: write   # 允許 bot 回推 catalog 變更
 
 jobs:
-  validate-and-merge:
+    validate-and-merge:
     runs-on: ubuntu-latest
     steps:
-      # 1) 取出程式碼
       - uses: actions/checkout@v4
 
-      # 2) 用 Node 20
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 3) 安裝依賴
       - run: npm ci || npm i
 
-      # 4) 驗證所有 manifest
+      # ↓ 新增：列出 scripts 目錄，確認檔案真的在
+      - name: Debug list files
+        run: |
+          pwd
+          ls -la
+          ls -la scripts
+
+      # ↓ 跑 validator（你如果想更保險，也可以直接寫 node 路徑）
       - name: Run validator
-        run: npm run validate
+        run: node ./scripts/validate_modules.cjs
 
-      # 5) 產生 catalog
       - name: Run update-catalog
-        run: npm run update-catalog
+        run: node ./scripts/update_catalog.cjs
 
-      # 6) 若 catalog 有變動 => commit & push
       - name: Commit catalog back
         shell: bash
         run: |
@@ -54,7 +56,6 @@ jobs:
           if git diff --quiet module_catalog.json; then
             echo "No catalog changes."
           else
-            echo "Catalog changed — committing..."
             git add module_catalog.json
             git commit -m "chore: auto update catalog"
             git push
