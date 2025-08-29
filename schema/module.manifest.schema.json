@@ -1,15 +1,68 @@
+
+---
+
+# 2) 擴充 Manifest Schema（含 Gate 所需欄位）
+
+**覆蓋**：`schema/module.manifest.schema.json`（保持你現有必填 `id/name/version`；下面是擴充欄位）
+
+```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "properties": {
-    "id":       { "type": "string" },
-    "name":     { "type": "string" },
-    "version":  { "type": "string" },
-    "capabilities": {
-      "type": "array",
-      "items": { "type": "string" }
-    }
-  },
   "required": ["id", "name", "version"],
-  "additionalProperties": true
+  "additionalProperties": false,
+  "properties": {
+    "id":        { "type": "string" },
+    "name":      { "type": "string" },
+    "version":   { "type": "string" },
+
+    "capabilities": { "type": "array", "items": { "type": "string" } },
+
+    "requires":  { "type": "array", "items": { "type": "string" }, "default": [] },
+    "conflicts": { "type": "array", "items": { "type": "string" }, "default": [] },
+
+    "resources": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bundle_kb": { "type": "number", "minimum": 0 },
+        "cpu_ms":    { "type": "number", "minimum": 0 },
+        "mem_mb":    { "type": "number", "minimum": 0 }
+      }
+    },
+
+    "compliance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "min_age": { "type": "integer", "minimum": 0, "default": 0 },
+        "license": { "type": "string", "default": "MIT" }
+      }
+    },
+
+    "ui": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "containers": { "type": "array", "items": { "type": "string" }, "default": [] }
+      }
+    },
+
+    "risk": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rollback": { "type": "string", "default": "disable-module" }
+      }
+    },
+
+    "release": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "publish": { "type": "boolean", "default": true },
+        "tags":    { "type": "array", "items": { "type": "string" }, "default": [] }
+      }
+    }
+  }
 }
