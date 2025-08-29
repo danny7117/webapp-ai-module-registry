@@ -1,45 +1,61 @@
 name: Module CI
 
 on:
-  # 允許手動觸發
-  workflow_dispatch: {}
-  # push / PR 只在相關檔案變動時觸發
+  workflow_dispatch: {}   # 手動 Run workflow
   push:
     branches: [ "main" ]
     paths:
-      - "modules/**/manifest.json"
-      - "schema/**"
-      - "scripts/validate_modules.cjs"
-      - "package.json"
+      - 'modules/**/manifest.json'
+      - 'schema/**'
+      - 'scripts/validate_modules.cjs'
+      - 'scripts/update_catalog.cjs'
+      - 'package.json'
   pull_request:
     branches: [ "main" ]
     paths:
-      - "modules/**/manifest.json"
-      - "schema/**"
-      - "scripts/validate_modules.cjs"
-      - "package.json"
+      - 'modules/**/manifest.json'
+      - 'schema/**'
+      - 'scripts/validate_modules.cjs'
+      - 'scripts/update_catalog.cjs'
+      - 'package.json'
 
 permissions:
-  contents: read
+  contents: write   # 允許 bot 回推 catalog 變更
 
 jobs:
-  validate:
+  validate-and-merge:
     runs-on: ubuntu-latest
     steps:
+      # 1) 取出程式碼
       - uses: actions/checkout@v4
 
+      # 2) 用 Node 20
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 先用 npm ci，沒 lock 檔就用 npm i
+      # 3) 安裝依賴
       - run: npm ci || npm i
 
-      # 執行驗證器（你的 repo 若已有 npm run validate 也可用）
+      # 4) 驗證所有 manifest
       - name: Run validator
+        run: npm run validate
+
+      # 5) 產生 catalog
+      - name: Run update-catalog
+        run: npm run update-catalog
+
+      # 6) 若 catalog 有變動 => commit & push
+      - name: Commit catalog back
+        shell: bash
         run: |
-          if npm run | grep -q "validate"; then
-            npm run validate
+          git config --global user.name "module-bot"
+          git config --global user.email "bot@example.com"
+          if git diff --quiet module_catalog.json; then
+            echo "No catalog changes."
           else
-            node scripts/validate_modules.cjs
+            echo "Catalog changed — committing..."
+            git add module_catalog.json
+            git commit -m "chore: auto update catalog"
+            git push
           fi
