@@ -9,9 +9,8 @@ try { Ajv = require("ajv/dist/2020"); } catch (_) { Ajv = require("ajv"); }
 // ---- helpers ----
 function readJSON(filePath) {
   const raw = fs.readFileSync(filePath, "utf8");
-  // 支援 JSON 註解（//、/* */）— 先移除避免 parse 失敗
-  const withoutComments = raw.replace(/\/\*[\s\S]*?\*\/|\/\/.*$/gm, "");
-  return JSON.parse(withoutComments);
+  // 不再移除 // 或 /* */，避免把 URL 的 // 也吃掉
+  return JSON.parse(raw);
 }
 
 // ---- paths ----
