@@ -1,66 +1,99 @@
-// CommonJS validator for module manifests (Node 18/20)
+// scripts/validate_modules.cjs
 const fs = require("fs");
 const path = require("path");
+const Ajv = require("ajv");
 
-// Try Ajv 2020-12 first; fallback to default Ajv
-let Ajv;
-try { Ajv = require("ajv/dist/2020"); } catch (_) { Ajv = require("ajv"); }
+const REPO_ROOT = path.resolve(__dirname, "..");
+const MODULES_DIR = path.join(REPO_ROOT, "modules");
+const SCHEMA_DIR = path.join(REPO_ROOT, "schema");
+const SCHEMA_PATH = path.join(SCHEMA_DIR, "module.manifest.schema.json"); // 你的 schema 檔名可調
 
-// ---- helpers ----
-function readJSON(filePath) {
-  const raw = fs.readFileSync(filePath, "utf8");
-  // 不再移除 // 或 /* */，避免把 URL 的 // 也吃掉
-  return JSON.parse(raw);
+function readJSON(p) {
+  return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
-// ---- paths ----
-const REPO_ROOT   = path.resolve(__dirname, "..");
-const MODULES_DIR = path.resolve(REPO_ROOT, "modules");
-const SCHEMA_PATH = path.resolve(REPO_ROOT, "schema", "module.manifest.schema.json");
-
-// ---- ajv init ----
-let ajv = new Ajv({ allErrors: true, allowUnionTypes: true, strict: false });
-try {
-  // 手動加上 2020-12 meta，避免 "no schema with key or ref ..."
-  const meta2020 = require("ajv/dist/refs/json-schema-2020-12.json");
-  ajv.addMetaSchema(meta2020);
-} catch (_) { /* ok if not available */ }
-
-// compile schema
-const schema   = readJSON(SCHEMA_PATH);
-const validate = ajv.compile(schema);
-
-// ---- collect manifests ----
-const manifests = [];
-(function walk(dir) {
-  if (!fs.existsSync(dir)) return;
-  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    const p = path.join(dir, e.name);
-    if (e.isDirectory()) walk(p);
-    else if (e.name === "manifest.json") manifests.push(p);
+function collectManifests(dir = MODULES_DIR) {
+  if (!fs.existsSync(dir)) return [];
+  const out = [];
+  for (const id of fs.readdirSync(dir)) {
+    const modDir = path.join(dir, id);
+    if (!fs.statSync(modDir).isDirectory()) continue;
+    const manifestPath = path.join(modDir, "manifest.json");
+    if (fs.existsSync(manifestPath)) {
+      out.push({ id, path: manifestPath, json: readJSON(manifestPath) });
+    }
   }
-})(MODULES_DIR);
-
-// ---- validate ----
-const errors = [];
-for (const file of manifests) {
-  try {
-    const data = readJSON(file);
-    const ok = validate(data);
-    if (!ok) errors.push({ file, errs: validate.errors });
-  } catch (e) {
-    errors.push({ file, errs: [{ message: e.message }] });
-  }
+  return out;
 }
 
-// ---- report ----
-if (errors.length) {
-  console.error("\n❌ Module validation failed:");
-  for (const { file, errs } of errors) {
-    console.error(`- ${path.relative(REPO_ROOT, file)}`);
-    console.error(ajv.errorsText(errs, { separator: "\n  " }));
-  }
+function fail(msg) {
+  console.error(msg);
   process.exit(1);
-} else {
-  console.log(`\n✅ ${manifests.length} module(s) validated OK`);
 }
+
+function main() {
+  const ajv = new Ajv({ allErrors: true, strict: false });
+  const schema = readJSON(SCHEMA_PATH);
+  const validate = ajv.compile(schema);
+
+  const manifests = collectManifests();
+  if (manifests.length === 0) {
+    console.warn("[warn] no manifest found under modules/**");
+  }
+
+  const errors = [];
+  const ids = new Set();
+
+  for (const m of manifests) {
+    if (!validate(m.json)) {
+      errors.push({
+        file: m.path,
+        errors: validate.errors
+      });
+      continue;
+    }
+
+    // Gate 1: id 唯一、格式檢查
+    if (typeof m.json.id !== "string" || !/^[a-z0-9][a-z0-9-_]{1,62}$/.test(m.json.id)) {
+      errors.push({ file: m.path, errors: ["invalid id format"] });
+    }
+    if (ids.has(m.json.id)) {
+      errors.push({ file: m.path, errors: ["duplicated id"] });
+    } else {
+      ids.add(m.json.id);
+    }
+
+    // Gate 2: semver 簡檢
+    if (typeof m.json.version !== "string" || !/^\d+\.\d+\.\d+/.test(m.json.version)) {
+      errors.push({ file: m.path, errors: ["invalid version (semver required)"] });
+    }
+
+    // Gate 3: 互斥/依賴欄位基本檢查
+    const conflicts = m.json.conflicts || [];
+    const deps = m.json.dependencies || [];
+    if (!Array.isArray(conflicts) || !Array.isArray(deps)) {
+      errors.push({ file: m.path, errors: ["dependencies/conflicts must be arrays"] });
+    }
+
+    // Gate 4: 資源/政策欄位基本檢查
+    if (m.json.resources && typeof m.json.resources !== "object") {
+      errors.push({ file: m.path, errors: ["resources must be object"] });
+    }
+    if (m.json.policy && typeof m.json.policy !== "object") {
+      errors.push({ file: m.path, errors: ["policy must be object"] });
+    }
+  }
+
+  if (errors.length) {
+    console.error("\n✗ Module validation failed:");
+    for (const e of errors) {
+      console.error(`- ${e.file}`);
+      console.error(e.errors);
+    }
+    process.exit(1);
+  } else {
+    console.log(`\n✓ ${manifests.length} module(s) validated OK`);
+  }
+}
+
+main();
