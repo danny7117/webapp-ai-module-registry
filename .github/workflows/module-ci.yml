@@ -10,15 +10,51 @@ on:
       - "scripts/**"
       - "package.json"
       - "package-lock.json"
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "modules/**/manifest.json"
+      - "schema/**"
+      - "scripts/**"
+      - "package.json"
+      - "package-lock.json"
+
+permissions:
+  contents: write
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci || npm i
+
+      # 先盡量用 npm ci，沒有 lock 才用 npm i
+      - name: Install deps
+        run: npm ci || npm i
+
       - name: Run validator
         run: npm run validate
+
+      # （可選）若你要自動更新 catalog 才開啟以下兩步
+      - name: Run update catalog
+        if: ${{ success() }}
+        run: npm run update-catalog
+
+      - name: Commit catalog back if changed
+        if: ${{ success() }}
+        shell: bash
+        run: |
+          set -e
+          git config --global user.name "module-bot"
+          git config --global user.email "bot@example.com"
+          if git diff --quiet module_catalog.json; then
+            echo "No catalog changes."
+          else
+            git add module_catalog.json
+            git commit -m "chore: auto update module catalog"
+            git push
+          fi
