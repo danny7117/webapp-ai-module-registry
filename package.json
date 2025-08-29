@@ -1,16 +1,15 @@
 {
-  "name": "webapp-ai-module-registry",
+  "name": "webapp-ai-bot",
   "version": "1.0.0",
-  "description": "WebApp AI 智慧模組庫（manifests + tools）",
+  "description": "Minimal bot service with CI validator",
+  "main": "bot/index.js",
   "type": "module",
   "scripts": {
-    "start": "node -e \"console.log('no server here')\"",
-    "validate": "node scripts/validate_modules.cjs",
-    "gen": "node scripts/generate_manifests.cjs registry/registry.ndjson",
-    "audit": "node scripts/audit_registry.cjs registry/registry.ndjson"
+    "start": "node bot/index.js",
+    "validate": "node scripts/validate_modules.cjs"
   },
+  "license": "MIT",
   "dependencies": {
-    "ajv": "^8.17.1",
-    "ajv-formats": "^3.0.1"
+    "ajv": "^8.17.1"
   }
 }
