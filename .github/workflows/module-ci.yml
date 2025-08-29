@@ -3,15 +3,16 @@ name: Module CI
 on:
   workflow_dispatch: {}
   push:
-    branches: [ "main" ]
+    branches: ["main"]                # <= 這是你之前會「不自動跑」的主因之一
     paths:
       - "modules/**/manifest.json"
       - "schema/**"
       - "scripts/**"
       - "package.json"
       - "package-lock.json"
+      - ".github/workflows/module-ci.yml"
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
       - "modules/**/manifest.json"
       - "schema/**"
@@ -20,35 +21,30 @@ on:
       - "package-lock.json"
 
 permissions:
-  contents: write
+  contents: write   # 回寫 catalog 需要
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Install deps
+
+      - name: Install
         run: npm ci || npm i
+
       - name: Run validator
         run: npm run validate
 
-  update-catalog:
-    needs: validate
-    if: ${{ success() }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - name: Install deps
-        run: npm ci || npm i
-      - name: Re-gen catalog
+      - name: Run update catalog
+        if: ${{ success() }}
         run: npm run update-catalog
-      - name: Commit catalog back (if changed)
+
+      - name: Commit catalog back
+        if: ${{ success() }}
         shell: bash
         run: |
           git config --global user.name "module-bot"
