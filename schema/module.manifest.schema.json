@@ -1,37 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Module Manifest",
   "type": "object",
-  "required": ["id", "name", "version", "capabilities", "inputs", "outputs", "resources", "policy", "tests"],
   "properties": {
-    "id": { "type": "string", "minLength": 3 },
+    "id": { "type": "string" },
     "name": { "type": "string" },
-    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "version": { "type": "string" },
     "capabilities": {
       "type": "array",
-      "items": { "type": "string", "enum": ["core", "utility", "creative", "business"] }
-    },
-    "inputs": { "type": "object" },
-    "outputs": { "type": "object" },
-    "resources": {
-      "type": "object",
-      "properties": {
-        "bundle_kb": { "type": "number" },
-        "cpu": { "type": "number" },
-        "mem_mb": { "type": "number" }
-      },
-      "required": ["bundle_kb", "cpu", "mem_mb"]
-    },
-    "policy": {
-      "type": "object",
-      "properties": {
-        "age": { "type": "string" },
-        "license": { "type": "string" },
-        "offline_ok": { "type": "boolean" }
-      },
-      "required": ["age", "license", "offline_ok"]
-    },
-    "tests": { "type": "array", "items": { "type": "object" } }
+      "items": { "type": "string" }
+    }
   },
+  "required": [ "id", "name", "version" ],
   "additionalProperties": true
 }
