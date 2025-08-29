@@ -1,12 +1,12 @@
 {
   "name": "webapp-ai-bot",
   "version": "1.0.0",
-  "description": "Minimal bot service with module validation & catalog generator",
-  "license": "MIT",
+  "type": "module",            // ← 這行可留可不留；留著也沒關係
   "scripts": {
     "validate": "node scripts/validate_modules.cjs",
     "update-catalog": "node scripts/update_catalog.cjs"
   },
+  "license": "MIT",
   "dependencies": {
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1"
