@@ -1,24 +1,26 @@
 name: Module CI
 
 on:
+  workflow_dispatch: {}
   push:
     branches: [ "main" ]
     paths:
       - "modules/**/manifest.json"
       - "schema/**"
-      - "scripts/validate_modules.cjs"
+      - "scripts/**"
       - "package.json"
+      - "package-lock.json"
   pull_request:
     branches: [ "main" ]
     paths:
       - "modules/**/manifest.json"
       - "schema/**"
-      - "scripts/validate_modules.cjs"
+      - "scripts/**"
       - "package.json"
-  workflow_dispatch: {}  # 手動也可
+      - "package-lock.json"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
@@ -28,6 +30,33 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci || npm i
+      - name: Install deps
+        run: npm ci || npm i
       - name: Run validator
         run: npm run validate
+
+  update-catalog:
+    needs: validate
+    if: ${{ success() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install deps
+        run: npm ci || npm i
+      - name: Re-gen catalog
+        run: npm run update-catalog
+      - name: Commit catalog back (if changed)
+        shell: bash
+        run: |
+          git config --global user.name "module-bot"
+          git config --global user.email "bot@example.com"
+          if git diff --quiet module_catalog.json; then
+            echo "No catalog changes."
+          else
+            git add module_catalog.json
+            git commit -m "chore: auto update catalog"
+            git push
+          fi
