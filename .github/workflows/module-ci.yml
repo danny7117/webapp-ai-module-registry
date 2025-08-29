@@ -3,16 +3,15 @@ name: Module CI
 on:
   workflow_dispatch: {}
   push:
-    branches: ["main"]                # <= 這是你之前會「不自動跑」的主因之一
+    branches: [ "main" ]
     paths:
       - "modules/**/manifest.json"
       - "schema/**"
       - "scripts/**"
       - "package.json"
       - "package-lock.json"
-      - ".github/workflows/module-ci.yml"
   pull_request:
-    branches: ["main"]
+    branches: [ "main" ]
     paths:
       - "modules/**/manifest.json"
       - "schema/**"
@@ -21,15 +20,17 @@ on:
       - "package-lock.json"
 
 permissions:
-  contents: write   # 回寫 catalog 需要
+  contents: write  # 需要寫入時（update-catalog）才會用到；只跑 validate 也沒關係
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -39,19 +40,17 @@ jobs:
       - name: Run validator
         run: npm run validate
 
-      - name: Run update catalog
-        if: ${{ success() }}
+      # （可選）如果你要一起更新 catalog，打開這兩步；不需要就保留註解
+      - name: Run update-catalog
         run: npm run update-catalog
-
       - name: Commit catalog back
-        if: ${{ success() }}
         shell: bash
         run: |
-          git config --global user.name "module-bot"
-          git config --global user.email "bot@example.com"
           if git diff --quiet module_catalog.json; then
             echo "No catalog changes."
           else
+            git config --global user.name "module-bot"
+            git config --global user.email "bot@example.com"
             git add module_catalog.json
             git commit -m "chore: auto update catalog"
             git push
