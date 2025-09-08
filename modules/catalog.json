@@ -7,9 +7,5 @@
     { "id": "crawler_all",      "title": "Crawler • All",      "path": "modules/crawler_modules_all.json",      "count": 0, "checksum": "dev" },
     { "id": "cardbattle_all",   "title": "CardBattle • All",   "path": "modules/cardbattle_modules_all.json",   "count": 0, "checksum": "dev" },
     { "id": "cryptoark_all",    "title": "CryptoArk • All",    "path": "modules/cryptoark_modules_all.json",    "count": 0, "checksum": "dev" }
-
-    // 之後要擴充就照這個格式再加，例如：
-    // { "id": "stor ynest_all", "title": "StoryNest • All", "path": "modules/storynest_modules_all.json", "count": 0, "checksum": "dev" },
-    // { "id": "petvid_all",     "title": "PetVid • All",     "path": "modules/petvid_modules_all.json",     "count": 0, "checksum": "dev" }
   ]
 }
