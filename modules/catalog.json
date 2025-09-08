@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "groups": [
+    { "id": "brandcraft.all",  "title": "BrandCraft (All)",  "path": "modules/brandcraft_modules_all.json",  "count": 0, "checksum": "" },
+    { "id": "brandcraft.core", "title": "BrandCraft Core",   "path": "modules/brandcraft_modules_core.json", "count": 0, "checksum": "" },
+    { "id": "brandcraft.creative", "title": "BrandCraft Creative", "path": "modules/brandcraft_modules_creative.json", "count": 0, "checksum": "" },
+    { "id": "brandcraft.utility",  "title": "BrandCraft Utility",  "path": "modules/brandcraft_modules_utility.json",  "count": 0, "checksum": "" },
+    { "id": "brandcraft.business", "title": "BrandCraft Business", "path": "modules/brandcraft_modules_business.json", "count": 0, "checksum": "" },
+
+    { "id": "cardbattle.all", "title": "CardBattle (All)", "path": "modules/cardbattle_modules_all.json", "count": 0, "checksum": "" },
+
+    { "id": "crawler.all",    "title": "Crawler (All)",    "path": "modules/crawler_modules_all.json",   "count": 0, "checksum": "" },
+    { "id": "crawler.core",   "title": "Crawler Core",     "path": "modules/crawler_modules_core.json",  "count": 0, "checksum": "" },
+    { "id": "crawler.creative","title": "Crawler Creative","path": "modules/crawler_modules_creative.json","count": 0, "checksum": "" },
+    { "id": "crawler.utility","title": "Crawler Utility",  "path": "modules/crawler_modules_utility.json","count": 0, "checksum": "" },
+    { "id": "crawler.business","title": "Crawler Business","path": "modules/crawler_modules_business.json","count": 0, "checksum": "" },
+
+    { "id": "cryptoark.all",  "title": "CryptoArk (All)",  "path": "modules/cryptoark_modules_all.json", "count": 0, "checksum": "" }
+
+    // 有其它 product 線（像 storynest、petvid…）就照樣加一行
+  ]
+}
