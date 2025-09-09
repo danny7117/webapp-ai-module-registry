@@ -1,92 +1,84 @@
 // app/api/modules/search/route.ts
 import { NextResponse } from 'next/server';
 
-type ModuleLite = { id: string; name: string; tags?: string[]; [k: string]: any };
-type CatalogGroup = { id: string; title: string; path: string; count?: number; checksum?: string };
-type Catalog = { version: string; groups: CatalogGroup[] };
+type Group = { id: string; path: string; title?: string };
+type Catalog = { version?: string; groups: Group[] };
+type Mod = { id?: string; name?: string; tags?: string[]; [k: string]: any };
 
-const UA = 'CIP-Modules/1.0 (+vercel)';
+const UA = 'CIP-Modules/1.0';
 
-// fetch JSON with no cache + UA
-async function fetchJSON<T>(url: string): Promise<T> {
-  const res = await fetch(url, {
-    headers: { 'User-Agent': UA, 'Accept': 'application/json' },
-    cache: 'no-store', // 重要：避免讀到舊快取
-    next: { revalidate: 0 },
-  });
-  if (!res.ok) throw new Error(`Fetch failed ${res.status} ${url}`);
-  return res.json() as Promise<T>;
-}
-
-// 方案 A：Proxy 你的智慧模組庫（如果有設 MODULES_SEARCH_URL 就走這條）
-async function proxyYourLibrary(req: Request) {
-  const url = new URL(req.url);
-  const q = url.searchParams.get('q') ?? '';
-  const limit = url.searchParams.get('limit') ?? '10';
-  const base = process.env.MODULES_SEARCH_URL!;
-  const target = `${base}?q=${encodeURIComponent(q)}&limit=${encodeURIComponent(limit)}`;
-  const data = await fetchJSON<any>(target);
-  // 直接原樣回傳（或轉成固定格式也行）
-  return NextResponse.json(data, { headers: { 'Cache-Control': 'no-store' } });
-}
-
-// 方案 B：讀 GitHub catalog.json
-async function fromCatalog(req: Request) {
-  const url = new URL(req.url);
-  const q = (url.searchParams.get('q') ?? '').toLowerCase().trim();
-  const limit = parseInt(url.searchParams.get('limit') ?? '10', 10);
-
-  const indexUrl = process.env.MODULES_INDEX_URL; // 例：https://raw.githubusercontent.com/xxx/webapp-ai-module-registry/main/modules/catalog.json?v=...
-  const groupsEnv = process.env.MODULES_GROUPS ?? ''; // 例：brandcraft_all,crawler_all,cardbattle_all,cryptopark_all
-  if (!indexUrl) return NextResponse.json({ items: [], reason: 'MODULES_INDEX_URL not set' });
-
-  const wanted = new Set(
-    groupsEnv
-      .split(',')
-      .map((s) => s.trim())
-      .filter(Boolean),
-  );
-
-  // 1) 讀 catalog
-  const catalog = await fetchJSON<Catalog>(indexUrl);
-
-  // 2) 只取設定的 groups（若沒設，全部取）
-  const groups = catalog.groups.filter((g) => (wanted.size ? wanted.has(g.id) : true));
-
-  // 3) 讀每個 group 的模組檔（允許兩種格式：純 array 或 {modules:[...] }）
-  const all: ModuleLite[] = [];
-  const base = new URL(indexUrl);
-  const baseRoot = `${base.origin}${base.pathname}`.replace(/\/[^/]+$/, '/'); // 轉成 .../modules/
-  for (const g of groups) {
-    const groupUrl = g.path.startsWith('http') ? g.path : baseRoot + g.path;
-    try {
-      const raw = await fetchJSON<any>(groupUrl);
-      const mods: ModuleLite[] = Array.isArray(raw) ? raw : Array.isArray(raw?.modules) ? raw.modules : [];
-      all.push(...mods);
-    } catch (e) {
-      // 讀不到就跳過
-    }
-  }
-
-  // 4) 搜尋（id/name/tags）
-  const items = (q
-    ? all.filter((m) => {
-        const hay = `${m.id ?? ''} ${m.name ?? ''} ${(m.tags ?? []).join(' ')}`.toLowerCase();
-        return hay.includes(q);
-      })
-    : all
-  ).slice(0, isFinite(limit) ? limit : 10);
-
-  return NextResponse.json({ items }, { headers: { 'Cache-Control': 'no-store' } });
+async function j<T>(url: string) {
+  const r = await fetch(url, { cache: 'no-store', headers: { 'User-Agent': UA } });
+  if (!r.ok) throw new Error(`fetch ${url} ${r.status}`);
+  return r.json() as Promise<T>;
 }
 
 export async function GET(req: Request) {
   try {
-    if (process.env.MODULES_SEARCH_URL) {
-      return await proxyYourLibrary(req); // 方案 A（你的庫）
+    const u = new URL(req.url);
+    const q = (u.searchParams.get('q') || '').toLowerCase().trim();
+    const limit = Number(u.searchParams.get('limit') || 20);
+
+    // 先試 Proxy（如果你之後要「雙通道」）
+    const proxy = process.env.MODULES_SEARCH_URL;
+    const timeout = Number(process.env.SEARCH_TIMEOUT_MS || 1500);
+    if (proxy) {
+      try {
+        const ctrl = new AbortController();
+        const t = setTimeout(() => ctrl.abort(), timeout);
+        const r = await fetch(`${proxy}?q=${encodeURIComponent(q)}&limit=${limit}`, {
+          signal: ctrl.signal,
+          headers: { 'User-Agent': UA, 'x-auth': process.env.SEARCH_AUTH_KEY || '' },
+          cache: 'no-store',
+        });
+        clearTimeout(t);
+        if (r.ok) {
+          const data = await r.json();
+          return NextResponse.json(data, { headers: { 'x-source': 'proxy' } });
+        }
+      } catch { /* 失敗就回退 */ }
     }
-    return await fromCatalog(req); // 方案 B（catalog.json）
-  } catch (err: any) {
-    return NextResponse.json({ items: [], error: String(err?.message ?? err) }, { status: 500 });
+
+    // 回退：讀 GitHub catalog.json
+    const indexUrl = process.env.MODULES_INDEX_URL;
+    if (!indexUrl) return NextResponse.json({ items: [], error: 'MODULES_INDEX_URL not set' }, { status: 500 });
+
+    const catalog = await j<Catalog>(indexUrl);
+    const allowed = new Set(
+      (process.env.MODULES_GROUPS || '')
+        .split(',')
+        .map(s => s.trim())
+        .filter(Boolean)
+    );
+
+    // 允許清單有設就只取允許；沒設就全取（← 保證 cryptopark_all 會吃到）
+    const groups = (catalog.groups || []).filter(g => (allowed.size ? allowed.has(g.id) : true));
+
+    // 拼出 RAW base
+    const idx = new URL(indexUrl); idx.search = '';
+    const base = idx.toString().replace(/\/[^/]+$/, '/');
+
+    // 拉每個 group 的模組
+    const all: Mod[] = [];
+    for (const g of groups) {
+      const url = g.path.startsWith('http') ? g.path : base + g.path;
+      try {
+        const gj = await j<any>(url);
+        const arr: Mod[] = Array.isArray(gj) ? gj : Array.isArray(gj?.modules) ? gj.modules : [];
+        all.push(...arr);
+      } catch { /* 略過錯組 */ }
+    }
+
+    const term = q;
+    const items = (term
+      ? all.filter(m => {
+          const s = `${m.id || ''} ${m.name || ''} ${(m.tags || []).join(' ')}`.toLowerCase();
+          return s.includes(term);
+        })
+      : all).slice(0, isFinite(limit) ? limit : 20);
+
+    return NextResponse.json({ items }, { headers: { 'x-source': 'catalog' } });
+  } catch (e: any) {
+    return NextResponse.json({ items: [], error: String(e?.message || e) }, { status: 500 });
   }
 }
