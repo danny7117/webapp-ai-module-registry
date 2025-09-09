@@ -1,6 +1,7 @@
-const DEFAULT_GROUPS = [
-  'brandcraft_all',
-  'crawler_all',
-  'cardbattle_all',
-  'cryptopark_all',  // ← 加這行
-];
+{
+  "id": "brandcraft_all",
+  "title": "BrandCraft + All",
+  "path": "modules/cryptopark_modules_all.json",
+  "count": 0,
+  "checksum": "dev"
+}
