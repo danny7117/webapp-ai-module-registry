@@ -1,0 +1,26 @@
+{
+  "modules": [
+    {
+      "id": "cryptopark.video_captioner",
+      "name": "影片字幕產生器",
+      "description": "為影片自動產生字幕與摘要。",
+      "category": "utility",
+      "tags": ["cryptopark", "video", "caption", "utility"],
+      "inputs": [
+        { "name": "video_url", "type": "string", "required": true },
+        { "name": "language", "type": "string", "required": false }
+      ]
+    },
+    {
+      "id": "cryptopark.thumbnail_generator",
+      "name": "縮圖產生器",
+      "description": "根據影片內容產生吸睛縮圖。",
+      "category": "creative",
+      "tags": ["cryptopark", "video", "thumbnail", "creative"],
+      "inputs": [
+        { "name": "title", "type": "string", "required": true },
+        { "name": "style", "type": "string", "required": false }
+      ]
+    }
+  ]
+}
