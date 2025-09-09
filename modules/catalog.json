@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
   "groups": [
-    { "id": "brandcraft_all",   "title": "BrandCraft + All",   "path": "modules/brandcraft_modules_all.json",   "count": 0, "checksum": "dev" },
-    { "id": "crawler_all",      "title": "Crawler + All",      "path": "modules/crawler_modules_all.json",      "count": 0, "checksum": "dev" },
-    { "id": "cardbattle_all",   "title": "CardBattle + All",   "path": "modules/cardbattle_modules_all.json",   "count": 0, "checksum": "dev" },
-    { "id": "cryptopark_all",   "title": "CryptoArk + All",    "path": "modules/cryptopark_modules_all.json",  "count": 0, "checksum": "dev" }
+    { "id": "brandcraft_all",  "title": "BrandCraft + All",  "path": "modules/brandcraft_modules_all.json",  "count": 0, "checksum": "dev" },
+    { "id": "crawler_all",     "title": "Crawler + All",     "path": "modules/crawler_modules_all.json",     "count": 0, "checksum": "dev" },
+    { "id": "cardbattle_all",  "title": "CardBattle + All",  "path": "modules/cardbattle_modules_all.json",  "count": 0, "checksum": "dev" },
+    { "id": "cryptopark_all",  "title": "CryptoArk + All",   "path": "modules/cryptopark_modules_all.json",  "count": 0, "checksum": "dev" }
   ]
 }
