@@ -1,4 +1,0 @@
-import { NextRequest, NextResponse } from "next/server";
-export async function POST(req: NextRequest) {
-  return NextResponse.json({ ok: true, module: "mod-storynest-test9-018" });
-}
