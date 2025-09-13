@@ -3,7 +3,7 @@
     {
       "id": "cryptopark.video_captioner",
       "name": "影片字幕產生器",
-      "description": "為影片自動產生字幕與關鍵詞。",
+      "description": "為影片自動產生字幕與關鍵秒數。",
       "category": "utility",
       "tags": ["cryptopark", "video", "caption", "utility"],
       "inputs": [
